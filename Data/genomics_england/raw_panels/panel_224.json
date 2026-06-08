@@ -1,0 +1,2319 @@
+{
+  "id": 224,
+  "hash_id": "58c7f6858f620328d77ce711",
+  "name": "Short QT syndrome",
+  "disease_group": "Cardiology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.22",
+  "version_created": "2026-05-13T15:49:08.444117Z",
+  "relevant_disorders": [
+    "R130"
+  ],
+  "stats": {
+    "number_of_genes": 40,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "Component Of Super Panel",
+      "slug": "component-of-super-panel",
+      "description": "This panel is a component of a Super Panel"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "Cav1.2",
+          "CACH2",
+          "CACN2",
+          "TS",
+          "LQT8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1390",
+        "gene_name": "calcium voltage-gated channel subunit alpha1 C",
+        "omim_gene": [
+          "114205"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNA1C",
+        "hgnc_symbol": "CACNA1C",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:2079952-2802108",
+              "ensembl_id": "ENSG00000151067"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:1970786-2697950",
+              "ensembl_id": "ENSG00000151067"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-01-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNA1C",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "24291113",
+        "16301704",
+        "30027834",
+        "30279520",
+        "17224476",
+        "28427417",
+        "28490369",
+        "29759541",
+        "29697308"
+      ],
+      "evidence": [
+        "West Midlands, Oxford and Wessex GLH",
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Brugada syndrome (Version 1.7)",
+        "UKGTN",
+        "Expert Review Green",
+        "Long QT syndrome (Version 1.5)",
+        "Emory Genetics Laboratory",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Timothy syndrome, OMIM:601005",
+        "Timothy syndrome, MONDO:0010979",
+        "Long QT syndrome 8, OMIM:618447",
+        "long qt syndrome 8, MONDO:0032756",
+        "Brugada syndrome 3, OMIM:611875",
+        "Brugada syndrome 3, MONDO:0012742",
+        "Short QT",
+        "CACNA1C-related disorder"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kv11.1",
+          "HERG",
+          "erg1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6251",
+        "gene_name": "potassium voltage-gated channel subfamily H member 2",
+        "omim_gene": [
+          "152427"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNH2",
+        "hgnc_symbol": "KCNH2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:150642049-150675403",
+              "ensembl_id": "ENSG00000055118"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:150944961-150978315",
+              "ensembl_id": "ENSG00000055118"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-03-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNH2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "16226079",
+        "16301704",
+        "4676148",
+        "15828882",
+        "19340359",
+        "18692916",
+        "21130771",
+        "25974115",
+        "29016797",
+        "29759541",
+        "16011830",
+        "19439805",
+        "22194679",
+        "16039272",
+        "29085299"
+      ],
+      "evidence": [
+        "West Midlands, Oxford and Wessex GLH",
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Long QT syndrome (Version 1.5)",
+        "Brugada syndrome (Version 1.7)",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Brugada",
+        "Short QT syndrome 1 (609620)",
+        "ventricular fibrillation",
+        "cardiac arrest",
+        "Short QT syndrome 1 609620",
+        "Long QT syndrome-2 (613688)",
+        "short qt",
+        "atrial fibrillation"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kir2.1",
+          "IRK1",
+          "LQT7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6263",
+        "gene_name": "potassium voltage-gated channel subfamily J member 2",
+        "omim_gene": [
+          "600681"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNJ2",
+        "hgnc_symbol": "KCNJ2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:68164814-68176189",
+              "ensembl_id": "ENSG00000123700"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:70168673-70180048",
+              "ensembl_id": "ENSG00000123700"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-02-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNJ2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "16226079",
+        "16301704",
+        "15761194",
+        "22155372",
+        "23440193",
+        "24794859",
+        "22311718",
+        "22308236",
+        "19285083",
+        "19710529",
+        "25691870"
+      ],
+      "evidence": [
+        "West Midlands, Oxford and Wessex GLH",
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Expert Review Green",
+        "Long QT syndrome (Version 1.5)",
+        "Emory Genetics Laboratory",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Short QT syndrome 3, OMIM:609622",
+        "Short QT syndrome type 3, MONDO:0012314",
+        "Atrial fibrillation, familial, 9, OMIM:613980",
+        "Atrial fibrillation, familial, 9, MONDO:0013513",
+        "Andersen syndrome, OMIM:170390",
+        "Andersen-Tawil syndrome, MONDO:0008222"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kv7.1",
+          "KCNA8",
+          "KVLQT1",
+          "JLNS1",
+          "LQT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6294",
+        "gene_name": "potassium voltage-gated channel subfamily Q member 1",
+        "omim_gene": [
+          "607542"
+        ],
+        "alias_name": [
+          "Jervell and Lange-Nielsen syndrome 1"
+        ],
+        "gene_symbol": "KCNQ1",
+        "hgnc_symbol": "KCNQ1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:2465914-2870339",
+              "ensembl_id": "ENSG00000053918"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:2444684-2849109",
+              "ensembl_id": "ENSG00000053918"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-02-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNQ1",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "16226079",
+        "16301704",
+        "15159330",
+        "16109388",
+        "26168993",
+        "26346102",
+        "25974115",
+        "29697308"
+      ],
+      "evidence": [
+        "West Midlands, Oxford and Wessex GLH",
+        "Expert Review Green",
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Long QT syndrome (Version 1.5)",
+        "Emory Genetics Laboratory",
+        "Other"
+      ],
+      "phenotypes": [
+        "Short QT syndrome 2, OMIM:609621",
+        "Long QT syndrome-1, OMIM:192500",
+        "Atrial fibrillation, familial, 3, OMIM:607554"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "lncRNA-N3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1399",
+        "gene_name": "calcium voltage-gated channel auxiliary subunit alpha2delta 1",
+        "omim_gene": [
+          "114204"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNA2D1",
+        "hgnc_symbol": "CACNA2D1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:81575760-82073114",
+              "ensembl_id": "ENSG00000153956"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:81946444-82443798",
+              "ensembl_id": "ENSG00000153956"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-03-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNA2D1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "UKGTN",
+        "Brugada syndrome (Version 1.7)",
+        "Literature"
+      ],
+      "phenotypes": [
+        "short qt",
+        "Brugada syndrome",
+        "aborted sudden death",
+        "Short QT syndrome 6"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1402",
+        "gene_name": "calcium voltage-gated channel auxiliary subunit beta 2",
+        "omim_gene": [
+          "600003"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNB2",
+        "hgnc_symbol": "CACNB2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:18429606-18830798",
+              "ensembl_id": "ENSG00000165995"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:18140677-18541869",
+              "ensembl_id": "ENSG00000165995"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-03-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNB2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Amber",
+        "UKGTN",
+        "Brugada syndrome (Version 1.7)",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Brugada syndrome 4 (611876)",
+        "Short QT syndrome 5",
+        "brugada syndrome",
+        "Brugada syndrome 4 611876",
+        "short qt"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Nav1.5",
+          "LQT3",
+          "HB1",
+          "HBBD",
+          "PFHB1",
+          "IVF",
+          "HB2",
+          "HH1",
+          "SSS1",
+          "CDCD2",
+          "CMPD2",
+          "ICCD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10593",
+        "gene_name": "sodium voltage-gated channel alpha subunit 5",
+        "omim_gene": [
+          "600163"
+        ],
+        "alias_name": [
+          "long QT syndrome 3"
+        ],
+        "gene_symbol": "SCN5A",
+        "hgnc_symbol": "SCN5A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:38589548-38691164",
+              "ensembl_id": "ENSG00000183873"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:38548057-38649673",
+              "ensembl_id": "ENSG00000183873"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN5A",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "16301704",
+        "30420954",
+        "22490985"
+      ],
+      "evidence": [
+        "South West GLH",
+        "North West GLH",
+        "Expert Review Amber",
+        "Brugada syndrome (Version 1.7)",
+        "Long QT syndrome (Version 1.5)",
+        "Emory Genetics Laboratory",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ventricular fibrillation, familial, 1 (603829)",
+        "Brugada syndrome 1 (601144)",
+        "{Sudden infant death syndrome, susceptibility to} (272120)",
+        "Brugada syndrome 1 601144",
+        "Heart block, progressive, type IA (113900)",
+        "Heart block, nonprogressive (113900)",
+        "Sick sinus syndrome 1 (608567)",
+        "Long QT syndrome-3 (603830)",
+        "Cardiomyopathy, dilated, 1E (601154)",
+        "Atrial fibrillation, familial, 10 (614022)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AE3",
+          "SLC2C"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11029",
+        "gene_name": "solute carrier family 4 member 3",
+        "omim_gene": [
+          "106195"
+        ],
+        "alias_name": [
+          "Anion exchanger 3, neuronal"
+        ],
+        "gene_symbol": "SLC4A3",
+        "hgnc_symbol": "SLC4A3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:220492049-220506702",
+              "ensembl_id": "ENSG00000114923"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:219627327-219641980",
+              "ensembl_id": "ENSG00000114923"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-08-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC4A3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29167417",
+        "29697308",
+        "36806574",
+        "18382206",
+        "19862833",
+        "30420954",
+        "41039816"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "West Midlands, Oxford and Wessex GLH",
+        "South West GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Short QT syndrome 7, OMIM:620231",
+        "short QT syndrome 7, MONDO:0859368"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q2_26_promote_green"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SUR2",
+          "CMD1O"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:60",
+        "gene_name": "ATP binding cassette subfamily C member 9",
+        "omim_gene": [
+          "601439"
+        ],
+        "alias_name": [
+          "sulfonylurea receptor 2"
+        ],
+        "gene_symbol": "ABCC9",
+        "hgnc_symbol": "ABCC9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:21950335-22094336",
+              "ensembl_id": "ENSG00000069431"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:21797401-21942529",
+              "ensembl_id": "ENSG00000069431"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCC9",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Expert Review Red",
+        "Brugada syndrome (Version 1.7)",
+        "Literature"
+      ],
+      "phenotypes": [
+        "ventricular tachycardia",
+        "Atrial fibrillation, familial, 12 (614050)",
+        "Cardiomyopathy, dilated, 1O (608569)",
+        "short qt",
+        "atrial fibrillation"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0803",
+          "AKAP350",
+          "AKAP450",
+          "CG-NAP",
+          "YOTIAO",
+          "HYPERION",
+          "PRKA9",
+          "MU-RMS-40.16A",
+          "PPP1R45",
+          "LQT11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:379",
+        "gene_name": "A-kinase anchoring protein 9",
+        "omim_gene": [
+          "604001"
+        ],
+        "alias_name": [
+          "A-kinase anchoring protein 450",
+          "AKAP9-BRAF fusion protein",
+          "AKAP120-like protein",
+          "centrosome- and golgi-localized protein kinase N-associated protein",
+          "protein kinase A anchoring protein 9",
+          "A-kinase anchor protein, 350kDa",
+          "protein phosphatase 1, regulatory subunit 45",
+          "yotiao"
+        ],
+        "gene_symbol": "AKAP9",
+        "hgnc_symbol": "AKAP9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:91570181-91739987",
+              "ensembl_id": "ENSG00000127914"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:91940867-92110673",
+              "ensembl_id": "ENSG00000127914"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-09-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "AKAP9",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Emory Genetics Laboratory",
+        "Long QT syndrome (Version 1.5)"
+      ],
+      "phenotypes": [
+        "Long QT syndrome-11 (611820)",
+        "?Long QT syndrome-11 611820"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KCR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:31088",
+        "gene_name": "ALG10B, alpha-1,2-glucosyltransferase",
+        "omim_gene": null,
+        "alias_name": [
+          "potassium channel regulator 1",
+          "dolichyl-P-Glc:Glc(2)Man(9)GlcNAc(2)-PP-dolichol alpha-1,2- glucosyltransferase"
+        ],
+        "gene_symbol": "ALG10B",
+        "hgnc_symbol": "ALG10B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:38710380-38717784",
+              "ensembl_id": "ENSG00000175548"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:38316578-38329728",
+              "ensembl_id": "ENSG00000175548"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALG10B",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "15280551"
+      ],
+      "evidence": [
+        "Other"
+      ],
+      "phenotypes": [
+        "{Acquired long QT syndrome, reduced susceptibility to} OMIM:613688"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:493",
+        "gene_name": "ankyrin 2",
+        "omim_gene": [
+          "106410"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANK2",
+        "hgnc_symbol": "ANK2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:113739265-114304896",
+              "ensembl_id": "ENSG00000145362"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:112818109-113383740",
+              "ensembl_id": "ENSG00000145362"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANK2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Brugada syndrome (Version 1.7)",
+        "Long QT syndrome (Version 1.5)",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Long QT syndrome 4 (600919)",
+        "Long QT syndrome 4 600919",
+        "Cardiac arrhythmia, ankyrin-B-related (600919)",
+        "Cardiac arrhythmia, ankyrin-B-related 600919"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CAMI",
+          "PHKD",
+          "DD132"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1442",
+        "gene_name": "calmodulin 1",
+        "omim_gene": [
+          "114180"
+        ],
+        "alias_name": [
+          "prepro-calmodulin 1",
+          "phosphorylase kinase subunit delta"
+        ],
+        "gene_symbol": "CALM1",
+        "hgnc_symbol": "CALM1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:90862846-90874605",
+              "ensembl_id": "ENSG00000198668"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:90396502-90408261",
+              "ensembl_id": "ENSG00000198668"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "CALM1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Emory Genetics Laboratory",
+        "Long QT syndrome (Version 1.5)"
+      ],
+      "phenotypes": [
+        "Long QT syndrome 14 (616247)",
+        "Ventricular tachycardia, catecholaminergic polymorphic, 4 (614916)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PHKD",
+          "CAMII"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1445",
+        "gene_name": "calmodulin 2",
+        "omim_gene": [
+          "114182"
+        ],
+        "alias_name": [
+          "prepro-calmodulin 2",
+          "phosphorylase kinase subunit delta"
+        ],
+        "gene_symbol": "CALM2",
+        "hgnc_symbol": "CALM2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47387221-47403740",
+              "ensembl_id": "ENSG00000143933"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47160082-47176601",
+              "ensembl_id": "ENSG00000143933"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "CALM2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Long QT syndrome (Version 1.5)"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PHKD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1449",
+        "gene_name": "calmodulin 3",
+        "omim_gene": [
+          "114183"
+        ],
+        "alias_name": [
+          "prepro-calmodulin 3",
+          "phosphorylase kinase subunit delta"
+        ],
+        "gene_symbol": "CALM3",
+        "hgnc_symbol": "CALM3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:47104331-47114050",
+              "ensembl_id": "ENSG00000160014"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:46601074-46610793",
+              "ensembl_id": "ENSG00000160014"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "CALM3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Long QT syndrome (Version 1.5)"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VIP-21",
+          "LGMD1C",
+          "VIP21",
+          "LQT9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1529",
+        "gene_name": "caveolin 3",
+        "omim_gene": [
+          "601253"
+        ],
+        "alias_name": [
+          "M-caveolin"
+        ],
+        "gene_symbol": "CAV3",
+        "hgnc_symbol": "CAV3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:8775486-8883492",
+              "ensembl_id": "ENSG00000182533"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:8733800-8841808",
+              "ensembl_id": "ENSG00000182533"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-05-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CAV3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Brugada syndrome (Version 1.7)",
+        "Long QT syndrome (Version 1.5)",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SAP97",
+          "SAP-97",
+          "hdlg",
+          "DLGH1",
+          "dJ1061C18.1.1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2900",
+        "gene_name": "discs large MAGUK scaffold protein 1",
+        "omim_gene": [
+          "601014"
+        ],
+        "alias_name": [
+          "discs large homolog 1",
+          "presynaptic protein SAP97",
+          "synapse-associated protein 97"
+        ],
+        "gene_symbol": "DLG1",
+        "hgnc_symbol": "DLG1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:196769431-197026171",
+              "ensembl_id": "ENSG00000075711"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:197042560-197299300",
+              "ensembl_id": "ENSG00000075711"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "DLG1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Brugada syndrome (Version 1.7)"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0089"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28956",
+        "gene_name": "glycerol-3-phosphate dehydrogenase 1 like",
+        "omim_gene": [
+          "611778"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GPD1L",
+        "hgnc_symbol": "GPD1L",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:32147181-32210205",
+              "ensembl_id": "ENSG00000152642"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:32105689-32168713",
+              "ensembl_id": "ENSG00000152642"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "GPD1L",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Brugada syndrome (Version 1.7)"
+      ],
+      "phenotypes": [
+        "Brugada syndrome 2 (611777)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16882",
+        "gene_name": "hyperpolarization activated cyclic nucleotide gated potassium channel 4",
+        "omim_gene": [
+          "605206"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HCN4",
+        "hgnc_symbol": "HCN4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:73612200-73661605",
+              "ensembl_id": "ENSG00000138622"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:73319859-73369264",
+              "ensembl_id": "ENSG00000138622"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "HCN4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Brugada syndrome (Version 1.7)"
+      ],
+      "phenotypes": [
+        "Sick sinus syndrome 2 (163800)",
+        "Brugada syndrome 8 (613123)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kv4.3",
+          "KSHIVB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6239",
+        "gene_name": "potassium voltage-gated channel subfamily D member 3",
+        "omim_gene": [
+          "605411"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCND3",
+        "hgnc_symbol": "KCND3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:112313284-112531777",
+              "ensembl_id": "ENSG00000171385"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:111770662-111989155",
+              "ensembl_id": "ENSG00000171385"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCND3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Brugada syndrome (Version 1.7)"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "minK",
+          "ISK",
+          "JLNS2",
+          "LQT5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6240",
+        "gene_name": "potassium voltage-gated channel subfamily E regulatory subunit 1",
+        "omim_gene": [
+          "176261"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNE1",
+        "hgnc_symbol": "KCNE1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:35818988-35884573",
+              "ensembl_id": "ENSG00000180509"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:34446688-34512275",
+              "ensembl_id": "ENSG00000180509"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNE1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16301704",
+        "26168993"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Emory Genetics Laboratory",
+        "Long QT syndrome (Version 1.5)"
+      ],
+      "phenotypes": [
+        "Jervell and Lange-Nielsen syndrome 2, OMIM:612347",
+        "Long QT syndrome 5, OMIM:613695"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MiRP1",
+          "LQT6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6242",
+        "gene_name": "potassium voltage-gated channel subfamily E regulatory subunit 2",
+        "omim_gene": [
+          "603796"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNE2",
+        "hgnc_symbol": "KCNE2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:35736323-35743688",
+              "ensembl_id": "ENSG00000159197"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:34364024-34371389",
+              "ensembl_id": "ENSG00000159197"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNE2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Emory Genetics Laboratory",
+        "Long QT syndrome (Version 1.5)"
+      ],
+      "phenotypes": [
+        "Long QT syndrome-6 (613693)",
+        "Atrial fibrillation, familial, 4 (611493)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MiRP2",
+          "HOKPP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6243",
+        "gene_name": "potassium voltage-gated channel subfamily E regulatory subunit 3",
+        "omim_gene": [
+          "604433"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNE3",
+        "hgnc_symbol": "KCNE3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:74165886-74178774",
+              "ensembl_id": "ENSG00000175538"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:74454841-74467729",
+              "ensembl_id": "ENSG00000175538"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNE3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Brugada syndrome (Version 1.7)",
+        "Long QT syndrome (Version 1.5)"
+      ],
+      "phenotypes": [
+        "?Brugada syndrome 6 (613119)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6241",
+        "gene_name": "potassium voltage-gated channel subfamily E regulatory subunit 5",
+        "omim_gene": [
+          "300328"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNE5",
+        "hgnc_symbol": "KCNE5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:108866929-108868393",
+              "ensembl_id": "ENSG00000176076"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:109623700-109625172",
+              "ensembl_id": "ENSG00000176076"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2015-01-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNE5",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29350269"
+      ],
+      "evidence": [
+        "Brugada syndrome (Version 1.7)"
+      ],
+      "phenotypes": [
+        "atrial fibrillation",
+        "Brugada syndrome"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kir3.4",
+          "CIR",
+          "KATP1",
+          "GIRK4",
+          "LQT13"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6266",
+        "gene_name": "potassium voltage-gated channel subfamily J member 5",
+        "omim_gene": [
+          "600734"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNJ5",
+        "hgnc_symbol": "KCNJ5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:128761251-128790930",
+              "ensembl_id": "ENSG00000120457"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:128891356-128921035",
+              "ensembl_id": "ENSG00000120457"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-04-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNJ5",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Long QT syndrome (Version 1.5)"
+      ],
+      "phenotypes": [
+        "Hyperaldosteronism, familial, type III (613677)",
+        "Long QT syndrome 13 (613485)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kir6.1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6269",
+        "gene_name": "potassium voltage-gated channel subfamily J member 8",
+        "omim_gene": [
+          "600935"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNJ8",
+        "hgnc_symbol": "KCNJ8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:21917889-21928515",
+              "ensembl_id": "ENSG00000121361"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:21764955-21775581",
+              "ensembl_id": "ENSG00000121361"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNJ8",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "21383000",
+        "15569843",
+        "27283775"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Brugada syndrome (Version 1.7)",
+        "Literature"
+      ],
+      "phenotypes": [
+        "short qt",
+        "ventricular tachycardia",
+        "atrial fibrillation"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LR3",
+          "BMND1",
+          "HBM",
+          "OPS",
+          "OPTA1",
+          "VBCH2",
+          "EVR4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6697",
+        "gene_name": "LDL receptor related protein 5",
+        "omim_gene": [
+          "603506"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LRP5",
+        "hgnc_symbol": "LRP5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:68080077-68216743",
+              "ensembl_id": "ENSG00000162337"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:68312609-68449275",
+              "ensembl_id": "ENSG00000162337"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "LRP5",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "30309679"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "short qt"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0464",
+          "CAPON"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16859",
+        "gene_name": "nitric oxide synthase 1 adaptor protein",
+        "omim_gene": [
+          "605551"
+        ],
+        "alias_name": [
+          "C-terminal PDZ domain ligand of neuronal nitric oxide synthase"
+        ],
+        "gene_symbol": "NOS1AP",
+        "hgnc_symbol": "NOS1AP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:162039564-162353321",
+              "ensembl_id": "ENSG00000198929"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:162069774-162370475",
+              "ensembl_id": "ENSG00000198929"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-06-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "NOS1AP",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Long QT syndrome (Version 1.5)"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9024",
+        "gene_name": "plakophilin 2",
+        "omim_gene": [
+          "602861"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PKP2",
+        "hgnc_symbol": "PKP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:32943679-33049774",
+              "ensembl_id": "ENSG00000057294"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:32790745-32896840",
+              "ensembl_id": "ENSG00000057294"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-08-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "PKP2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Brugada syndrome (Version 1.7)"
+      ],
+      "phenotypes": [
+        "Arrhythmogenic right ventricular dysplasia 9 (609040)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MOG1",
+          "HSPC165",
+          "HSPC236",
+          "RANGNRF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17679",
+        "gene_name": "RAN guanine nucleotide release factor",
+        "omim_gene": [
+          "607954"
+        ],
+        "alias_name": [
+          "MOG1 homolog (S. cerevisiae)"
+        ],
+        "gene_symbol": "RANGRF",
+        "hgnc_symbol": "RANGRF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:8191815-8193410",
+              "ensembl_id": "ENSG00000108961"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:8288497-8290092",
+              "ensembl_id": "ENSG00000108961"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-06-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "RANGRF",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Brugada syndrome (Version 1.7)"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARVC2",
+          "VTSIP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10484",
+        "gene_name": "ryanodine receptor 2",
+        "omim_gene": [
+          "180902"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RYR2",
+        "hgnc_symbol": "RYR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:237205505-237997288",
+              "ensembl_id": "ENSG00000198626"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:237042205-237833988",
+              "ensembl_id": "ENSG00000198626"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "RYR2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Long QT syndrome (Version 1.5)"
+      ],
+      "phenotypes": [
+        "Arrhythmogenic right ventricular dysplasia 2 (600996)",
+        "Ventricular tachycardia, catecholaminergic polymorphic, 1 (604772)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Nav1.8",
+          "hPN3",
+          "SNS",
+          "PN3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10582",
+        "gene_name": "sodium voltage-gated channel alpha subunit 10",
+        "omim_gene": [
+          "604427"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCN10A",
+        "hgnc_symbol": "SCN10A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:38738293-38835501",
+              "ensembl_id": "ENSG00000185313"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:38696802-38794010",
+              "ensembl_id": "ENSG00000185313"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-04-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN10A",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Expert Review Red",
+        "Brugada syndrome (Version 1.7)",
+        "Literature"
+      ],
+      "phenotypes": [
+        "J wave syndrome",
+        "short QT",
+        "Episodic pain syndrome, familial, 2 (615551)",
+        "sudden death"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10586",
+        "gene_name": "sodium voltage-gated channel beta subunit 1",
+        "omim_gene": [
+          "600235"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCN1B",
+        "hgnc_symbol": "SCN1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:35521588-35531352",
+              "ensembl_id": "ENSG00000105711"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:35030466-35040449",
+              "ensembl_id": "ENSG00000105711"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-05-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN1B",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Brugada syndrome (Version 1.7)"
+      ],
+      "phenotypes": [
+        "Cardiac conduction defect, nonspecific, OMIM:612838",
+        "Brugada syndrome 5, OMIM:612838",
+        "Atrial fibrillation, familial, 13, OMIM:615377"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10589",
+        "gene_name": "sodium voltage-gated channel beta subunit 2",
+        "omim_gene": [
+          "601327"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCN2B",
+        "hgnc_symbol": "SCN2B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:118032666-118047388",
+              "ensembl_id": "ENSG00000149575"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:118161951-118176673",
+              "ensembl_id": "ENSG00000149575"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-11-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN2B",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Brugada syndrome (Version 1.7)"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSA243396"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20665",
+        "gene_name": "sodium voltage-gated channel beta subunit 3",
+        "omim_gene": [
+          "608214"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCN3B",
+        "hgnc_symbol": "SCN3B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:123499895-123525952",
+              "ensembl_id": "ENSG00000166257"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:123629187-123655244",
+              "ensembl_id": "ENSG00000166257"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-03-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN3B",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Brugada syndrome (Version 1.7)"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LQT10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10592",
+        "gene_name": "sodium voltage-gated channel beta subunit 4",
+        "omim_gene": [
+          "608256"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCN4B",
+        "hgnc_symbol": "SCN4B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:118004092-118023603",
+              "ensembl_id": "ENSG00000177098"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:118133377-118152888",
+              "ensembl_id": "ENSG00000177098"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN4B",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Emory Genetics Laboratory",
+        "Long QT syndrome (Version 1.5)"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OCTN2",
+          "SCD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10969",
+        "gene_name": "solute carrier family 22 member 5",
+        "omim_gene": [
+          "603377"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC22A5",
+        "hgnc_symbol": "SLC22A5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:131705444-131731306",
+              "ensembl_id": "ENSG00000197375"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:132369752-132395614",
+              "ensembl_id": "ENSG00000197375"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC22A5",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "7254270",
+        "7131143",
+        "26190315",
+        "29198778",
+        "10545605",
+        "11261427"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "West Midlands, Oxford and Wessex GLH",
+        "South West GLH",
+        "London South GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Carnitine deficiency, systemic primary, OMIM:212140",
+        "systemic primary carnitine deficiency disease, MONDO:0008919"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SLAP",
+          "KIAA1601"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16643",
+        "gene_name": "sarcolemma associated protein",
+        "omim_gene": [
+          "602701"
+        ],
+        "alias_name": [
+          "Sarcolemmal-associated protein"
+        ],
+        "gene_symbol": "SLMAP",
+        "hgnc_symbol": "SLMAP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:57741177-57914895",
+              "ensembl_id": "ENSG00000163681"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:57755450-57929168",
+              "ensembl_id": "ENSG00000163681"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLMAP",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Brugada syndrome (Version 1.7)"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TACIP1",
+          "LQT12"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11167",
+        "gene_name": "syntrophin alpha 1",
+        "omim_gene": [
+          "601017"
+        ],
+        "alias_name": [
+          "pro-TGF-alpha cytoplasmic domain-interacting protein 1",
+          "dystrophin-associated protein A1, 59kDa, acidic component"
+        ],
+        "gene_symbol": "SNTA1",
+        "hgnc_symbol": "SNTA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:31995761-32031698",
+              "ensembl_id": "ENSG00000101400"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:33407955-33443892",
+              "ensembl_id": "ENSG00000101400"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "SNTA1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Emory Genetics Laboratory",
+        "Long QT syndrome (Version 1.5)"
+      ],
+      "phenotypes": [
+        "Long QT syndrome 12 (612955)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20041"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17993",
+        "gene_name": "transient receptor potential cation channel subfamily M member 4",
+        "omim_gene": [
+          "606936"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRPM4",
+        "hgnc_symbol": "TRPM4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:49660998-49715093",
+              "ensembl_id": "ENSG00000130529"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:49157741-49211836",
+              "ensembl_id": "ENSG00000130529"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-01-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRPM4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30420954",
+        "19862833",
+        "16301704"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Brugada syndrome (Version 1.7)"
+      ],
+      "phenotypes": [
+        "Progressive familial heart block, type IB (604559)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

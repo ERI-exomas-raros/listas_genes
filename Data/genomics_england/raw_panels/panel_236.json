@@ -1,0 +1,522 @@
+{
+  "id": 236,
+  "hash_id": "576cd44c8f6203609632be80",
+  "name": "Hyperthyroidism",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.6",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Resistance to thyroid hormone",
+    "R182"
+  ],
+  "stats": {
+    "number_of_genes": 8,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:399",
+        "gene_name": "albumin",
+        "omim_gene": [
+          "103600"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALB",
+        "hgnc_symbol": "ALB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:74262831-74287129",
+              "ensembl_id": "ENSG00000163631"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:73397114-73421412",
+              "ensembl_id": "ENSG00000163631"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29163366",
+        "8064810",
+        "24646103",
+        "27834068",
+        "29676214"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Familial dysalbuminaemic hyperthyroxinaemia",
+        "[Dysalbuminemic hyperthyroxinemia], OMIM:615999",
+        "?[Dysalbuminemic hypertriiodothyroninemia], OMIM:615999"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SBP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30972",
+        "gene_name": "SECIS binding protein 2",
+        "omim_gene": [
+          "607693"
+        ],
+        "alias_name": [
+          "Sec insertion sequence-binding protein 2"
+        ],
+        "gene_symbol": "SECISBP2",
+        "hgnc_symbol": "SECISBP2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:91933421-91974557",
+              "ensembl_id": "ENSG00000187742"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:89318506-89359662",
+              "ensembl_id": "ENSG00000187742"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SECISBP2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24629861",
+        "22986150",
+        "22247018",
+        "21084748",
+        "20501692",
+        "19602558",
+        "16228000",
+        "Diversity Selenium Functions in Health and Disease, Edited by Regina Brigelius-Flohe and Helmut Sies, Chapter 16. Mutations in SECISBP2. Erik Schoenmakers, Carla Moran, Nadia Schoenmakers and Krishna Chatterjee. CRC Press 2015. Pages 343–376. Print ISBN: 978-1-4822-5126-5. eBook ISBN: 978-1-4822-5127-2. DOI: 10.1201/b18810-23"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Other",
+        "Radboud University Medical Center, Nijmegen",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Abnormal thyroid hormone metabolism",
+        "Selenocysteine insertion sequence binding protein 2 (SBP2) defect",
+        "Thyroid hormone metabolism, abnormal, 609698",
+        "THYROID HORMONE METABOLISM, ABNORMAL",
+        "Short stature-delayed bone age due to thyroid hormone metabolism deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XPCT",
+          "MCT8",
+          "MCT7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10923",
+        "gene_name": "solute carrier family 16 member 2",
+        "omim_gene": [
+          "300095"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC16A2",
+        "hgnc_symbol": "SLC16A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:73641085-73753752",
+              "ensembl_id": "ENSG00000147100"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:74421461-74533917",
+              "ensembl_id": "ENSG00000147100"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-04-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC16A2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24847459"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Other",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Allan-Herndon-Dudley syndrome, OMIM:300523"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EAR-7.1/EAR-7.2",
+          "THRA3",
+          "AR7",
+          "ERBA",
+          "NR1A1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11796",
+        "gene_name": "thyroid hormone receptor, alpha",
+        "omim_gene": [
+          "190120"
+        ],
+        "alias_name": null,
+        "gene_symbol": "THRA",
+        "hgnc_symbol": "THRA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:38214543-38250120",
+              "ensembl_id": "ENSG00000126351"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:40058290-40093867",
+              "ensembl_id": "ENSG00000126351"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "THRA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24847459",
+        "27381958",
+        "22168587",
+        "22494134",
+        "23940126",
+        "2567082",
+        "27144938"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Other",
+        "Radboud University Medical Center, Nijmegen",
+        "Literature"
+      ],
+      "phenotypes": [
+        "RTH alpha",
+        "congenital nongoitrous hypothyroidism 6",
+        "Resistance to thyroid hormone alpha",
+        "Resistance to Thyroid Hormone due to defective thyroid receptor alpha (RTHa)",
+        "Hypothyroidism, congenital, nongoitrous, 6, 614450",
+        "HYPOTHYROIDISM, CONGENITAL, NONGOITROUS, 6",
+        "CHNG6"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "THRB1",
+          "THRB2",
+          "NR1A2",
+          "THR1",
+          "ERBA-BETA",
+          "GRTH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11799",
+        "gene_name": "thyroid hormone receptor beta",
+        "omim_gene": [
+          "190160"
+        ],
+        "alias_name": [
+          "avian erythroblastic leukemia viral (v-erb-a) oncogene homolog 2",
+          "oncogene ERBA2",
+          "generalized resistance to thyroid hormone",
+          "thyroid hormone receptor beta 1"
+        ],
+        "gene_symbol": "THRB",
+        "hgnc_symbol": "THRB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:24158651-24536773",
+              "ensembl_id": "ENSG00000151090"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:24117160-24495282",
+              "ensembl_id": "ENSG00000151090"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-08-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "THRB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24847459"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Other",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Resistance to thyroid hormone (RTH)",
+        "thyroid hormone unresponsiveness, generalized RTH, RTH beta",
+        "Refetoff syndrome",
+        "Thyroid Hormone Resistance, Selective Pituitary",
+        "PRTH",
+        "145650",
+        "Thyroid hormone resistance, 188570",
+        "Thyroid hormone resistance, autosomal recessive, 274300",
+        "Thyroid hormone resistance, selective pituitary, 145650",
+        "Thyroid Hormone Resistance (monoallelic)",
+        "THYROID HORMONE RESISTANCE, GENERALIZED, AUTOSOMAL DOMINANT",
+        "GRTH",
+        "THYROID HORMONE UNRESPONSIVENESS HYPERTHYROXINEMIA, FAMILIAL EUTHYROID, SECONDARY TO PITUITARY AND PERIPHERAL RESISTANCE TO THYROID HORMONES",
+        "THYROID HORMONE RESISTANCE, GENERALIZED, AUTOSOMAL RECESSIVE",
+        "THYROID HORMONE UNRESPONSIVENESS",
+        "REFETOFF SYNDROME",
+        "THYROID HORMONE RESISTANCE, SELECTIVE PITUITARY",
+        "HYPERTHYROIDISM, FAMILIAL, DUE TO INAPPROPRIATE THYROTROPIN SECRETION"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LGR3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12373",
+        "gene_name": "thyroid stimulating hormone receptor",
+        "omim_gene": [
+          "603372"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TSHR",
+        "hgnc_symbol": "TSHR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:81421333-81612646",
+              "ensembl_id": "ENSG00000165409"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:80954989-81146302",
+              "ensembl_id": "ENSG00000165409"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "TSHR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Congenital, nonautoimmune hyperthyroidism",
+        "Hyperthyroidism, nonautoimmune, 609152"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HsT2651",
+          "CTS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12405",
+        "gene_name": "transthyretin",
+        "omim_gene": [
+          "176300"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTR",
+        "hgnc_symbol": "TTR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:29171689-29178974",
+              "ensembl_id": "ENSG00000118271"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:31591726-31599021",
+              "ensembl_id": "ENSG00000118271"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTR",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "31590893",
+        "26522458"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "[Dystransthyretinemic hyperthyroxinemia], 145680",
+        "DTTRH"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "tRNA(Sec)"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:12348",
+        "gene_name": "transfer RNA-SeC (TCA) 1-1",
+        "omim_gene": [
+          "165060"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRU-TCA1-1",
+        "hgnc_symbol": "TRU-TCA1-1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {},
+        "hgnc_date_symbol_changed": "2014-06-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRU-TCA1-1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Eligibility statement prior genetic testing",
+        "Expert list"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "locus-type-rna-transfer",
+        "ensembl_ids_known_missing"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

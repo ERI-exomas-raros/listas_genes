@@ -1,0 +1,1491 @@
+{
+  "id": 1174,
+  "hash_id": null,
+  "name": "Pulmonary fibrosis familial",
+  "disease_group": "Respiratory",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.10",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R421"
+  ],
+  "stats": {
+    "number_of_genes": 27,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "ABC-C",
+          "EST111653",
+          "LBM180"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:33",
+        "gene_name": "ATP binding cassette subfamily A member 3",
+        "omim_gene": [
+          "601615"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ABCA3",
+        "hgnc_symbol": "ABCA3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:2325882-2390747",
+              "ensembl_id": "ENSG00000167972"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:2275881-2340746",
+              "ensembl_id": "ENSG00000167972"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-08-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCA3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "32238781",
+        "15044640",
+        "26780485",
+        "24730976",
+        "25553246"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Surfactant metabolism dysfunction, pulmonary, 3, OMIM:610921"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Ptop",
+          "Pip1",
+          "Tpp1",
+          "Tint1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25070",
+        "gene_name": "ACD, shelterin complex subunit and telomerase recruitment factor",
+        "omim_gene": [
+          "609377"
+        ],
+        "alias_name": [
+          "TIN2 interacting protein 1",
+          "POT1 and TIN2 organizing protein"
+        ],
+        "gene_symbol": "ACD",
+        "hgnc_symbol": "ACD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:67691415-67694713",
+              "ensembl_id": "ENSG00000102977"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:67657512-67660815",
+              "ensembl_id": "ENSG00000102977"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACD",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30995915",
+        "31515401"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Dyskeratosis congenita, autosomal dominant, OMIM:616553"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ADTB3A",
+          "HPS2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:566",
+        "gene_name": "adaptor related protein complex 3 beta 1 subunit",
+        "omim_gene": [
+          "603401"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AP3B1",
+        "hgnc_symbol": "AP3B1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:77296349-77590579",
+              "ensembl_id": "ENSG00000132842"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:78000525-78294755",
+              "ensembl_id": "ENSG00000132842"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AP3B1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10024875",
+        "22009278",
+        "20301464"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hermansky-Pudlak syndrome 2, OMIM:608233"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD116",
+          "alphaGMR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2435",
+        "gene_name": "colony stimulating factor 2 receptor alpha subunit",
+        "omim_gene": [
+          "306250",
+          "425000"
+        ],
+        "alias_name": [
+          "alpha-GM-CSF receptor"
+        ],
+        "gene_symbol": "CSF2RA",
+        "hgnc_symbol": "CSF2RA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:1387693-1429274",
+              "ensembl_id": "ENSG00000198223"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:1268800-1310381",
+              "ensembl_id": "ENSG00000198223"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-07-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "CSF2RA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18955570",
+        "25425184"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Surfactant metabolism dysfunction, pulmonary, 4, OMIM:300770"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Pseudoautosomal region 1"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IL5RB",
+          "CD131",
+          "betaGMR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2436",
+        "gene_name": "colony stimulating factor 2 receptor beta common subunit",
+        "omim_gene": [
+          "138981"
+        ],
+        "alias_name": [
+          "beta common cytokine receptor",
+          "beta-GM-CSF receptor"
+        ],
+        "gene_symbol": "CSF2RB",
+        "hgnc_symbol": "CSF2RB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:37309670-37336491",
+              "ensembl_id": "ENSG00000100368"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:36913628-36940449",
+              "ensembl_id": "ENSG00000100368"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "CSF2RB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15331184",
+        "21075760"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Surfactant metabolism dysfunction, pulmonary, 5, OMIM:614370"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ22170",
+          "AAF132"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26169",
+        "gene_name": "CST telomere replication complex component 1",
+        "omim_gene": [
+          "613129"
+        ],
+        "alias_name": [
+          "conserved telomere maintenance component 1",
+          "alpha accessory factor 132",
+          "conserved telomere capping protein 1"
+        ],
+        "gene_symbol": "CTC1",
+        "hgnc_symbol": "CTC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:8130191-8151362",
+              "ensembl_id": "ENSG00000178971"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:8224821-8248044",
+              "ensembl_id": "ENSG00000178971"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-02-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTC1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30891747",
+        "33269665"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Cerebroretinal microangiopathy with calcifications and cysts, OMIM:612199"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XAP101",
+          "dyskerin",
+          "NAP57",
+          "NOLA4",
+          "Cbf5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2890",
+        "gene_name": "dyskerin pseudouridine synthase 1",
+        "omim_gene": [
+          "300126"
+        ],
+        "alias_name": [
+          "H/ACA ribonucleoprotein complex subunit 4"
+        ],
+        "gene_symbol": "DKC1",
+        "hgnc_symbol": "DKC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153991031-154005964",
+              "ensembl_id": "ENSG00000130826"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154762742-154777689",
+              "ensembl_id": "ENSG00000130826"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "DKC1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21415081",
+        "9590285",
+        "24504062",
+        "30868555",
+        "23946118"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Dyskeratosis congenita, X-linked, OMIM:305000"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BLOC3S1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5163",
+        "gene_name": "HPS1, biogenesis of lysosomal organelles complex 3 subunit 1",
+        "omim_gene": [
+          "604982"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HPS1",
+        "hgnc_symbol": "HPS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:100175955-100206684",
+              "ensembl_id": "ENSG00000107521"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:98416198-98446947",
+              "ensembl_id": "ENSG00000107521"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-05-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "HPS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8896559",
+        "31619213",
+        "20301464"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hermansky-Pudlak syndrome 1, OMIM:203300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1667",
+          "LE",
+          "BLOC3S2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15844",
+        "gene_name": "HPS4, biogenesis of lysosomal organelles complex 3 subunit 2",
+        "omim_gene": [
+          "606682"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HPS4",
+        "hgnc_symbol": "HPS4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:26839389-26879803",
+              "ensembl_id": "ENSG00000100099"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:26443423-26483837",
+              "ensembl_id": "ENSG00000100099"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "HPS4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11836498",
+        "31415434",
+        "20301464"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hermansky-Pudlak syndrome 4, OMIM:614073"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MetRS",
+          "SPG70",
+          "CMT2U"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6898",
+        "gene_name": "methionyl-tRNA synthetase",
+        "omim_gene": [
+          "156560"
+        ],
+        "alias_name": [
+          "methionine tRNA ligase 1, cytoplasmic"
+        ],
+        "gene_symbol": "MARS",
+        "hgnc_symbol": "MARS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:57869228-57911352",
+              "ensembl_id": "ENSG00000166986"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:57475445-57517569",
+              "ensembl_id": "ENSG00000166986"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MARS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "32833345",
+        "30271085",
+        "24103465",
+        "25913036"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Interstitial lung and liver disease, OMIM:615486"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MG1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7516",
+        "gene_name": "mucin 5B, oligomeric mucus/gel-forming",
+        "omim_gene": [
+          "600770"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MUC5B",
+        "hgnc_symbol": "MUC5B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:1244296-1283406",
+              "ensembl_id": "ENSG00000117983"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:1223066-1262172",
+              "ensembl_id": "ENSG00000117983"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-12-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "MUC5B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21506748",
+        "21506741",
+        "33639995",
+        "34907291",
+        "35078193"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "{Pulmonary fibrosis, idiopathic, susceptibility to}, OMIM:178500"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "promoter",
+        "Q4_25_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25126",
+        "gene_name": "nuclear assembly factor 1 ribonucleoprotein",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "NAF1",
+        "hgnc_symbol": "NAF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:164031225-164088073",
+              "ensembl_id": "ENSG00000145414"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:163110073-163166921",
+              "ensembl_id": "ENSG00000145414"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-02-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "NAF1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27510903"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 7, OMIM:620365",
+        "pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 7, MONDO:0957261"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20479"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14377",
+        "gene_name": "NHP2 ribonucleoprotein",
+        "omim_gene": [
+          "606470"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NHP2",
+        "hgnc_symbol": "NHP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:177576461-177580968",
+              "ensembl_id": "ENSG00000145912"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:178149460-178153967",
+              "ensembl_id": "ENSG00000145912"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-10-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "NHP2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "31985013"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Dyskeratosis congenita, autosomal recessive 2, OMIM:613987"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TTF-1",
+          "TTF1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11825",
+        "gene_name": "NK2 homeobox 1",
+        "omim_gene": [
+          "600635"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NKX2-1",
+        "hgnc_symbol": "NKX2-1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:36985602-36990354",
+              "ensembl_id": "ENSG00000136352"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:36516392-36521149",
+              "ensembl_id": "ENSG00000136352"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-07-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "NKX2-1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19336474",
+        "9565498",
+        "23430038"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Choreoathetosis, hypothyroidism, and neonatal respiratory distress, OMIM:610978"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NOP10P",
+          "MGC70651"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14378",
+        "gene_name": "NOP10 ribonucleoprotein",
+        "omim_gene": [
+          "606471"
+        ],
+        "alias_name": [
+          "homolog of yeast Nop10p"
+        ],
+        "gene_symbol": "NOP10",
+        "hgnc_symbol": "NOP10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:34633917-34635378",
+              "ensembl_id": "ENSG00000182117"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:34341713-34343177",
+              "ensembl_id": "ENSG00000182117"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-10-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "NOP10",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17507419"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Dyskeratosis congenita, autosomal recessive 1, OMIM:224230"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DAN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8609",
+        "gene_name": "poly(A)-specific ribonuclease",
+        "omim_gene": [
+          "604212"
+        ],
+        "alias_name": [
+          "deadenylation nuclease"
+        ],
+        "gene_symbol": "PARN",
+        "hgnc_symbol": "PARN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:14529558-14726585",
+              "ensembl_id": "ENSG00000140694"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:14435701-14632728",
+              "ensembl_id": "ENSG00000140694"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-07-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "PARN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26116823",
+        "25848748"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Pulmonary fibrosis and/or bone marrow failure, telomere-related, 4, OMIM:616371"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "bK3184A7.3",
+          "NHL",
+          "DKFZP434C013",
+          "KIAA1088",
+          "RTEL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15888",
+        "gene_name": "regulator of telomere elongation helicase 1",
+        "omim_gene": [
+          "608833"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RTEL1",
+        "hgnc_symbol": "RTEL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:62289163-62328416",
+              "ensembl_id": "ENSG00000258366"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:63657810-63696253",
+              "ensembl_id": "ENSG00000258366"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-10-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "RTEL1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23959892",
+        "25607374",
+        "25848748"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Pulmonary fibrosis and/or bone marrow failure, telomere-related, 3, OMIM:616373"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SP-A",
+          "SP-A1",
+          "COLEC4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10798",
+        "gene_name": "surfactant protein A1",
+        "omim_gene": [
+          "178630"
+        ],
+        "alias_name": [
+          "surfactant, pulmonary-associated protein A1A"
+        ],
+        "gene_symbol": "SFTPA1",
+        "hgnc_symbol": "SFTPA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:81370695-81375196",
+              "ensembl_id": "ENSG00000122852"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:79610939-79615455",
+              "ensembl_id": "ENSG00000122852"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SFTPA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30854216",
+        "26792177",
+        "32855221",
+        "28869238",
+        "31601679"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Interstitial lung disease 1, OMIM:619611"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SP-A2",
+          "COLEC5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10799",
+        "gene_name": "surfactant protein A2",
+        "omim_gene": [
+          "178642"
+        ],
+        "alias_name": [
+          "surfactant, pulmonary-associated protein A2A"
+        ],
+        "gene_symbol": "SFTPA2",
+        "hgnc_symbol": "SFTPA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:81315608-81320153",
+              "ensembl_id": "ENSG00000185303"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:79555852-79560402",
+              "ensembl_id": "ENSG00000185303"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SFTPA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19100526",
+        "26568241",
+        "32855221"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Interstitial lung disease 2, OMIM:178500"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SP-B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10801",
+        "gene_name": "surfactant protein B",
+        "omim_gene": [
+          "178640"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SFTPB",
+        "hgnc_symbol": "SFTPB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:85884437-85895864",
+              "ensembl_id": "ENSG00000168878"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:85657314-85668741",
+              "ensembl_id": "ENSG00000168878"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-07-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "SFTPB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8163685",
+        "15331184"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Surfactant metabolism dysfunction, pulmonary, 1, OMIM:265120"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SP-C",
+          "PSP-C",
+          "SMDP2",
+          "BRICD6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10802",
+        "gene_name": "surfactant protein C",
+        "omim_gene": [
+          "178620"
+        ],
+        "alias_name": [
+          "BRICHOS domain containing 6"
+        ],
+        "gene_symbol": "SFTPC",
+        "hgnc_symbol": "SFTPC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:22014426-22021992",
+              "ensembl_id": "ENSG00000168484"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:22156913-22164479",
+              "ensembl_id": "ENSG00000168484"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "SFTPC",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11207353",
+        "17005585",
+        "20656946",
+        "20301408"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Surfactant metabolism dysfunction, pulmonary, 2, OMIM:610913"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TR",
+          "hTR",
+          "TRC3",
+          "SCARNA19"
+        ],
+        "biotype": "lincRNA",
+        "hgnc_id": "HGNC:11727",
+        "gene_name": "telomerase RNA component",
+        "omim_gene": [
+          "602322"
+        ],
+        "alias_name": [
+          "small Cajal body-specific RNA 19"
+        ],
+        "gene_symbol": "TERC",
+        "hgnc_symbol": "TERC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:169482308-169482848",
+              "ensembl_id": "ENSG00000270141"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:169764520-169765060",
+              "ensembl_id": "ENSG00000270141"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TERC",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17392301",
+        "27836952",
+        "20301408",
+        "21436073"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "{Pulmonary fibrosis, idiopathic, susceptibility to}, OMIM:614743"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "locus-type-rna-long-non-coding"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRT",
+          "TP2",
+          "TCS1",
+          "hEST2",
+          "EST2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11730",
+        "gene_name": "telomerase reverse transcriptase",
+        "omim_gene": [
+          "187270"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TERT",
+        "hgnc_symbol": "TERT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:1253262-1295184",
+              "ensembl_id": "ENSG00000164362"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:1253147-1295069",
+              "ensembl_id": "ENSG00000164362"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "TERT",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17392301",
+        "27836952",
+        "16247010"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Pulmonary fibrosis and/or bone marrow failure, telomere-related, 1, OMIM:614742"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TIN2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11824",
+        "gene_name": "TERF1 interacting nuclear factor 2",
+        "omim_gene": [
+          "604319"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TINF2",
+        "hgnc_symbol": "TINF2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:24708849-24711880",
+              "ensembl_id": "ENSG00000092330"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:24239643-24242674",
+              "ensembl_id": "ENSG00000092330"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-11-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "TINF2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18252230",
+        "21477109"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Dyskeratosis congenita, autosomal dominant 3, OMIM:613990"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp434E2220"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25265",
+        "gene_name": "zinc finger CCHC-type containing 8",
+        "omim_gene": [
+          "616381"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ZCCHC8",
+        "hgnc_symbol": "ZCCHC8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:122957417-122985518",
+              "ensembl_id": "ENSG00000033030"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:122471600-122501073",
+              "ensembl_id": "ENSG00000033030"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZCCHC8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "31488579",
+        "38375433"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Pulmonary fibrosis and/or bone marrow failure, telomere-related, 5, OMIM:618674"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "REPA1",
+          "RPA70",
+          "HSSB",
+          "RF-A",
+          "RP-A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10289",
+        "gene_name": "replication protein A1",
+        "omim_gene": [
+          "179835"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RPA1",
+        "hgnc_symbol": "RPA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:1732996-1803376",
+              "ensembl_id": "ENSG00000132383"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:1829702-1900082",
+              "ensembl_id": "ENSG00000132383"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "RPA1",
+      "confidence_level": "2",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "34767620"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Pulmonary fibrosis and/or bone marrow failure, telomere-related, 6, OMIM:619767"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JTK9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4840",
+        "gene_name": "HCK proto-oncogene, Src family tyrosine kinase",
+        "omim_gene": [
+          "142370"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HCK",
+        "hgnc_symbol": "HCK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:30639991-30689659",
+              "ensembl_id": "ENSG00000101336"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:32052188-32101856",
+              "ensembl_id": "ENSG00000101336"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "HCK",
+      "confidence_level": "1",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "34536415"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Autoinflammatory disease",
+        "Cutaneous vasculitis",
+        "Lung inflammation",
+        "Lung fibrosis",
+        "Interstitial lung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

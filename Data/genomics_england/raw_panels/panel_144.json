@@ -1,0 +1,6151 @@
+{
+  "id": 144,
+  "hash_id": "5763f4868f620350a199604f",
+  "name": "Fetal hydrops",
+  "disease_group": "Dysmorphic and congenital abnormality syndromes",
+  "disease_sub_group": "Fetal disorders",
+  "status": "public",
+  "version": "1.95",
+  "version_created": "2025-11-23T17:13:40.040991Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 113,
+    "number_of_strs": 1,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "SAHH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:343",
+        "gene_name": "adenosylhomocysteinase",
+        "omim_gene": [
+          "180960"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AHCY",
+        "hgnc_symbol": "AHCY",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:32868074-32899608",
+              "ensembl_id": "ENSG00000101444"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:34280268-34311802",
+              "ensembl_id": "ENSG00000101444"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AHCY",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23137060",
+        "20852937",
+        "30121674"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "non-immune hydrops",
+        "Hypermethioninemia with deficiency of S-adenosylhomocysteine hydrolase, 613752",
+        "S-adenosylhomocysteine hydrolase deficiency",
+        "AHCY deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC2840"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23161",
+        "gene_name": "ALG8, alpha-1,3-glucosyltransferase",
+        "omim_gene": [
+          "608103"
+        ],
+        "alias_name": [
+          "dolichyl-P-Glc:Glc(1)Man(9)GlcNAc(2)-PP-dolichol alpha- 1->3-glucosyltransferase"
+        ],
+        "gene_symbol": "ALG8",
+        "hgnc_symbol": "ALG8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:77811982-77850706",
+              "ensembl_id": "ENSG00000159063"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:78100936-78139660",
+              "ensembl_id": "ENSG00000159063"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALG8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26066342",
+        "31420886"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Congenital disorder of glycosylation, type Ih, MIM#608104"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MAK",
+          "KIAA1330",
+          "Midori"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17574",
+        "gene_name": "alpha kinase 3",
+        "omim_gene": [
+          "617608"
+        ],
+        "alias_name": [
+          "myocyte induction differentiation originator",
+          "muscle alpha-kinase"
+        ],
+        "gene_symbol": "ALPK3",
+        "hgnc_symbol": "ALPK3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:85359911-85416713",
+              "ensembl_id": "ENSG00000136383"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:84816680-84873482",
+              "ensembl_id": "ENSG00000136383"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALPK3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33082562"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AC",
+          "PHP32",
+          "FLJ21558",
+          "ACDase"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:735",
+        "gene_name": "N-acylsphingosine amidohydrolase 1",
+        "omim_gene": [
+          "613468"
+        ],
+        "alias_name": [
+          "acylsphingosine deacylase",
+          "acid ceramidase"
+        ],
+        "gene_symbol": "ASAH1",
+        "hgnc_symbol": "ASAH1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:17913934-17942494",
+              "ensembl_id": "ENSG00000104763"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:18055992-18084998",
+              "ensembl_id": "ENSG00000104763"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "ASAH1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9128814",
+        "8650144"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "disseminated lipogranulomatosis (Farber disease)",
+        "NIHF",
+        "nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BRAF1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1097",
+        "gene_name": "B-Raf proto-oncogene, serine/threonine kinase",
+        "omim_gene": [
+          "164757"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BRAF",
+        "hgnc_symbol": "BRAF",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:140419127-140624564",
+              "ensembl_id": "ENSG00000157764"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:140719327-140924764",
+              "ensembl_id": "ENSG00000157764"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRAF",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "19206169",
+        "21396583"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "LEOPARD Syndrome",
+        "Noonan Syndrome",
+        "Cardiofaciocutaneous Syndrome",
+        "LEOPARD syndrome 3",
+        "Cardio-facio-cutaneous syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SHAPY",
+          "SCAN-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19721",
+        "gene_name": "calcium activated nucleotidase 1",
+        "omim_gene": [
+          "613165"
+        ],
+        "alias_name": [
+          "Soluble Ca-Activated Nucleotidase, isozyme 1"
+        ],
+        "gene_symbol": "CANT1",
+        "hgnc_symbol": "CANT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:76987799-77005949",
+              "ensembl_id": "ENSG00000171302"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:78991717-79009867",
+              "ensembl_id": "ENSG00000171302"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-10-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "CANT1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNF55",
+          "c-Cbl"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1541",
+        "gene_name": "Cbl proto-oncogene",
+        "omim_gene": [
+          "165360"
+        ],
+        "alias_name": [
+          "oncogene CBL2"
+        ],
+        "gene_symbol": "CBL",
+        "hgnc_symbol": "CBL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:119076752-119178859",
+              "ensembl_id": "ENSG00000110395"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:119206276-119313926",
+              "ensembl_id": "ENSG00000110395"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "CBL",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "25358541"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Noonan syndrome-like disorder with or without juvenile myelomonocytic leukemia, 613563",
+        "NSLL",
+        "Noonan syndrome-like disorder associated with JMML",
+        "Fetal hydrops (in some patients)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ30681",
+          "KIAA1983"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29426",
+        "gene_name": "collagen and calcium binding EGF domains 1",
+        "omim_gene": [
+          "612753"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CCBE1",
+        "hgnc_symbol": "CCBE1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:57098172-57364612",
+              "ensembl_id": "ENSG00000183287"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:59430940-59697380",
+              "ensembl_id": "ENSG00000183287"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCBE1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24086631",
+        "12794699"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hennekam lymphangiectasia-lymphedema syndrome 1, OMIM:235510",
+        "generalised lymphatic dysplasia",
+        "fetal hydrops"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDA-I",
+          "CDAI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1713",
+        "gene_name": "codanin 1",
+        "omim_gene": [
+          "607465"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDAN1",
+        "hgnc_symbol": "CDAN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:43015757-43029324",
+              "ensembl_id": "ENSG00000140326"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:42723559-42737126",
+              "ensembl_id": "ENSG00000140326"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDAN1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30786798",
+        "29668551",
+        "29599085"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Dyserythropoietic anemia, congenital, type Ia, OMIM:224120",
+        "Anemia, congenital dyserythropoietic, type 1a, MONDO:0009135"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9251",
+        "gene_name": "cathepsin A",
+        "omim_gene": [
+          "613111"
+        ],
+        "alias_name": [
+          "carboxypeptidase C",
+          "lysosomal protective protein",
+          "carboxypeptidase-L",
+          "carboxypeptidase Y-like kininase",
+          "deamidase",
+          "lysosomal carboxypeptidase A",
+          "urinary kininase"
+        ],
+        "gene_symbol": "CTSA",
+        "hgnc_symbol": "CTSA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:44518783-44527459",
+              "ensembl_id": "ENSG00000064601"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:45890144-45898820",
+              "ensembl_id": "ENSG00000064601"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTSA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "7759227",
+        "19466716",
+        "8968752"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Galactosialidosis, 256540"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Tyro11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3395",
+        "gene_name": "EPH receptor B4",
+        "omim_gene": [
+          "600011"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EPHB4",
+        "hgnc_symbol": "EPHB4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:100400187-100425121",
+              "ensembl_id": "ENSG00000196411"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:100802565-100827521",
+              "ensembl_id": "ENSG00000196411"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "EPHB4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "2990564",
+        "27400125"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Lymphatic malformation 7, OMIM:617300"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VEGFR3",
+          "PCL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3767",
+        "gene_name": "fms related tyrosine kinase 4",
+        "omim_gene": [
+          "136352"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FLT4",
+        "hgnc_symbol": "FLT4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:180028506-180076624",
+              "ensembl_id": "ENSG00000037280"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:180601506-180649624",
+              "ensembl_id": "ENSG00000037280"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-10-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLT4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16231305",
+        "16965327"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "Other"
+      ],
+      "phenotypes": [
+        "Lymphedema, hereditary, IA, 153100",
+        "Hereditary lymphoedema type 1a",
+        "fetal hydrops"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MFH-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3801",
+        "gene_name": "forkhead box C2",
+        "omim_gene": [
+          "602402"
+        ],
+        "alias_name": [
+          "mesenchyme forkhead 1"
+        ],
+        "gene_symbol": "FOXC2",
+        "hgnc_symbol": "FOXC2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:86600857-86602539",
+              "ensembl_id": "ENSG00000176692"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:86567251-86569728",
+              "ensembl_id": "ENSG00000176692"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-02-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXC2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25252123",
+        "21918810",
+        "11078474"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "Other"
+      ],
+      "phenotypes": [
+        "Lymphedema-distichiasis syndrome, 153400",
+        "fetal hydrops"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JM2",
+          "XPID",
+          "AIID",
+          "PIDX",
+          "DIETER",
+          "SCURFIN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6106",
+        "gene_name": "forkhead box P3",
+        "omim_gene": [
+          "300292"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOXP3",
+        "hgnc_symbol": "FOXP3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:49106897-49121288",
+              "ensembl_id": "ENSG00000049768"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:49250436-49264826",
+              "ensembl_id": "ENSG00000049768"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXP3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26387632",
+        "26395338"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Immunodysregulation, polyendocrinopathy, and enteropathy, X-linked, 304790",
+        "IPEX",
+        "X-linked syndrome of immunodysregulation, polyendocrinopathy, and enteropath",
+        "fetal hydrops",
+        "Absent skeletal Muscle"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GAS",
+          "GALNAC6S"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4122",
+        "gene_name": "galactosamine (N-acetyl)-6-sulfatase",
+        "omim_gene": [
+          "612222"
+        ],
+        "alias_name": [
+          "Morquio syndrome",
+          "mucopolysaccharidosis type IVA"
+        ],
+        "gene_symbol": "GALNS",
+        "hgnc_symbol": "GALNS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:88880142-88923378",
+              "ensembl_id": "ENSG00000141012"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:88813734-88856970",
+              "ensembl_id": "ENSG00000141012"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "GALNS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23137060",
+        "3130620",
+        "15305357"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis IVA, 253000",
+        "Mucopolysaccharidosis, Type IV",
+        "Mucopolysaccharidosis Type IVA",
+        "MUCOPOLYSACCHARIDOSIS TYPE 4A",
+        "Morquio disease type A"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ERYF1",
+          "NFE1",
+          "GATA-1",
+          "NF-E1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4170",
+        "gene_name": "GATA binding protein 1",
+        "omim_gene": [
+          "305371"
+        ],
+        "alias_name": [
+          "nuclear factor, erythroid 1"
+        ],
+        "gene_symbol": "GATA1",
+        "hgnc_symbol": "GATA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:48644962-48652716",
+              "ensembl_id": "ENSG00000102145"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:48786554-48794311",
+              "ensembl_id": "ENSG00000102145"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "GATA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "10700180",
+        "33082562",
+        "20301538",
+        "30914438",
+        "29949202",
+        "35580337"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Anaemia, X-linked, with/without neutropaenia and/or platelet abnormalities, OMIM:300835",
+        "Hemolytic anemia due to elevated adenosine deaminase, OMIM:301083"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GBA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4177",
+        "gene_name": "glucosylceramidase beta",
+        "omim_gene": [
+          "606463"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GBA",
+        "hgnc_symbol": "GBA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:155204243-155214490",
+              "ensembl_id": "ENSG00000177628"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:155234452-155244699",
+              "ensembl_id": "ENSG00000177628"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GBA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15305357",
+        "6504764"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Gaucher disease",
+        "Gaucher disease, type I, 230800",
+        "Gaucher disease, type II, 230900",
+        "Gaucher disease, type III, 231000",
+        "Gaucher disease, type IIIC, 231005",
+        "Gaucher disease, perinatal lethal, 608013"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4180",
+        "gene_name": "1,4-alpha-glucan branching enzyme 1",
+        "omim_gene": [
+          "607839"
+        ],
+        "alias_name": [
+          "glycogen branching enzyme",
+          "Andersen disease",
+          "glycogen storage disease type IV"
+        ],
+        "gene_symbol": "GBE1",
+        "hgnc_symbol": "GBE1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:81538850-81811312",
+              "ensembl_id": "ENSG00000114480"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:81489699-81762161",
+              "ensembl_id": "ENSG00000114480"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-06-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "GBE1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "10449659",
+        "10384399",
+        "27393412",
+        "23137060"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease IV, OMIM:232500",
+        "Fetal hydrops (in perinatal or congenital neuromuscular forms)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GALA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4296",
+        "gene_name": "galactosidase alpha",
+        "omim_gene": [
+          "300644"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLA",
+        "hgnc_symbol": "GLA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:100652791-100662913",
+              "ensembl_id": "ENSG00000102393"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:101397803-101407925",
+              "ensembl_id": "ENSG00000102393"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Fabry disease, 301500",
+        "Fabry disease, cardiac variant, 301500",
+        "Fabry Disease"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EBP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4298",
+        "gene_name": "galactosidase beta 1",
+        "omim_gene": [
+          "611458"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLB1",
+        "hgnc_symbol": "GLB1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:33038100-33138722",
+              "ensembl_id": "ENSG00000170266"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:32996608-33097230",
+              "ensembl_id": "ENSG00000170266"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLB1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8950724"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "GM1-gangliosidosis, type I, 230500",
+        "GM1-gangliosidosis, type II, 230600",
+        "GM1-gangliosidosis, type III, 230650",
+        "Mucopolysaccharidosis type IVB (Morquio), 253010",
+        "Mucopolysaccharidosis, Type IV",
+        "Mucopolysaccharidosis Type IVB",
+        "MUCOPOLYSACCHARIDOSIS TYPE 4B"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1208",
+          "MGC4170"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29670",
+        "gene_name": "N-acetylglucosamine-1-phosphate transferase alpha and beta subunits",
+        "omim_gene": [
+          "607840"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GNPTAB",
+        "hgnc_symbol": "GNPTAB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:102139275-102224716",
+              "ensembl_id": "ENSG00000111670"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:101745497-101830938",
+              "ensembl_id": "ENSG00000111670"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-09-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNPTAB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16116615",
+        "16200072",
+        "16630736",
+        "15305357"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mucolipidosis, Type II",
+        "Mucolipidosis, Type III Alpha/Beta",
+        "Mucolipidosis II alpha/beta",
+        "Mucolipidosis III alpha/beta",
+        "I-cell disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4696",
+        "gene_name": "glucuronidase beta",
+        "omim_gene": [
+          "611499"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GUSB",
+        "hgnc_symbol": "GUSB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:65425671-65447301",
+              "ensembl_id": "ENSG00000169919"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:65960684-65982314",
+              "ensembl_id": "ENSG00000169919"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GUSB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27393412",
+        "25305402",
+        "24284886"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis VII, 253220",
+        "MPS VII (Sly syndrome)",
+        "Hydrops fetalis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HBA-T3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4823",
+        "gene_name": "hemoglobin subunit alpha 1",
+        "omim_gene": [
+          "141800"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HBA1",
+        "hgnc_symbol": "HBA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:226679-227521",
+              "ensembl_id": "ENSG00000206172"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:176680-177522",
+              "ensembl_id": "ENSG00000206172"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HBA1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "26732098",
+        "980019",
+        "15712323",
+        "23794144"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Thalassemias, alpha-, OMIM:604131",
+        "Fatal hydrops fetalis",
+        "Hb Bart syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HBA-T2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4824",
+        "gene_name": "hemoglobin subunit alpha 2",
+        "omim_gene": [
+          "141850"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HBA2",
+        "hgnc_symbol": "HBA2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:222846-223709",
+              "ensembl_id": "ENSG00000188536"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:172847-173710",
+              "ensembl_id": "ENSG00000188536"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HBA2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "9029003",
+        "27862048",
+        "11722414",
+        "27686733",
+        "26757782"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Thalassemias, alpha-, OMIM:604131",
+        "Fatal hydrops fetalis",
+        "Hb Bart syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5173",
+        "gene_name": "HRas proto-oncogene, GTPase",
+        "omim_gene": [
+          "190020"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HRAS",
+        "hgnc_symbol": "HRAS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:532242-537287",
+              "ensembl_id": "ENSG00000174775"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:532242-537287",
+              "ensembl_id": "ENSG00000174775"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HRAS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "16170316",
+        "16969868",
+        "16443854",
+        "21396583"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Costello syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EKLF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6345",
+        "gene_name": "Kruppel like factor 1",
+        "omim_gene": [
+          "600599"
+        ],
+        "alias_name": [
+          "erythroid Kruppel-like factor"
+        ],
+        "gene_symbol": "KLF1",
+        "hgnc_symbol": "KLF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:12995237-12997995",
+              "ensembl_id": "ENSG00000105610"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:12884423-12887181",
+              "ensembl_id": "ENSG00000105610"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "KLF1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28361594",
+        "21055716",
+        "25724378",
+        "26903544"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Dyserythropoietic anemia, congenital, type IV, OMIM:613673",
+        "Hydrops Fetalis"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ALR",
+          "MLL4",
+          "CAGL114"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7133",
+        "gene_name": "lysine methyltransferase 2D",
+        "omim_gene": [
+          "602113"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KMT2D",
+        "hgnc_symbol": "KMT2D",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:49412758-49453557",
+              "ensembl_id": "ENSG00000167548"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:49018975-49059774",
+              "ensembl_id": "ENSG00000167548"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2013-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "KMT2D",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30293990",
+        "27568880",
+        "15690368"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Kabuki syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KRAS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6407",
+        "gene_name": "KRAS proto-oncogene, GTPase",
+        "omim_gene": [
+          "190070"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KRAS",
+        "hgnc_symbol": "KRAS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:25357723-25403870",
+              "ensembl_id": "ENSG00000133703"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:25204789-25250936",
+              "ensembl_id": "ENSG00000133703"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRAS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "PMID: 21396583"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Noonan syndrome 3",
+        "Noonan syndrome",
+        "Cardiofaciocutaneous syndrome 2",
+        "Cardiofaciocutaneous Syndrome",
+        "Cardio-Facio-Cutaneous syndrome",
+        "CFC syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0028",
+          "LEURS",
+          "MGC26121",
+          "mtLeuRS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17095",
+        "gene_name": "leucyl-tRNA synthetase 2, mitochondrial",
+        "omim_gene": [
+          "604544"
+        ],
+        "alias_name": [
+          "leucine tRNA ligase 2, mitochondrial"
+        ],
+        "gene_symbol": "LARS2",
+        "hgnc_symbol": "LARS2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:45429998-45590913",
+              "ensembl_id": "ENSG00000011376"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:45388506-45549421",
+              "ensembl_id": "ENSG00000011376"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "LARS2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26537577",
+        "32442335"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Hydrops, lactic acidosis, and sideroblastic anemia, OMIM:617021"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DHCR14B",
+          "TDRD18"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6518",
+        "gene_name": "lamin B receptor",
+        "omim_gene": [
+          "600024"
+        ],
+        "alias_name": [
+          "tudor domain containing 18"
+        ],
+        "gene_symbol": "LBR",
+        "hgnc_symbol": "LBR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:225589204-225616627",
+              "ensembl_id": "ENSG00000143815"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:225401502-225428925",
+              "ensembl_id": "ENSG00000143815"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-04-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "LBR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "3377005",
+        "12210303",
+        "8213919"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Greenberg skeletal dysplasia, 215140",
+        "hydrops-ectopic calcification-moth-eaten skeletal dysplasia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LAL",
+          "CESD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6617",
+        "gene_name": "lipase A, lysosomal acid type",
+        "omim_gene": [
+          "613497"
+        ],
+        "alias_name": [
+          "Wolman disease",
+          "lysosomal acid lipase",
+          "sterol esterase"
+        ],
+        "gene_symbol": "LIPA",
+        "hgnc_symbol": "LIPA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:90973326-91174314",
+              "ensembl_id": "ENSG00000107798"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:89213569-89414557",
+              "ensembl_id": "ENSG00000107798"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "LIPA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12666227"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Wolman disease, 278000",
+        "Lysosomal Acid Lipase Deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LZTR-1",
+          "BTBD29"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6742",
+        "gene_name": "leucine zipper like transcription regulator 1",
+        "omim_gene": [
+          "600574"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LZTR1",
+        "hgnc_symbol": "LZTR1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:21333751-21353327",
+              "ensembl_id": "ENSG00000099949"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:20979462-20999038",
+              "ensembl_id": "ENSG00000099949"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "LZTR1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25795793",
+        "29469822"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Noonan syndrome 10, 616564"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MEK1",
+          "MAPKK1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6840",
+        "gene_name": "mitogen-activated protein kinase kinase 1",
+        "omim_gene": [
+          "176872"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAP2K1",
+        "hgnc_symbol": "MAP2K1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:66679155-66784650",
+              "ensembl_id": "ENSG00000169032"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:66386817-66492312",
+              "ensembl_id": "ENSG00000169032"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAP2K1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "PMID: 21396583",
+        "23321623 (publication referring to Noonan syndrome association)."
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Cardiofaciocutaneous syndrome 3",
+        "Cardiofaciocutaneous Syndrome",
+        "Cardio-Facio-Cutaneous syndrome",
+        "CFC syndrome",
+        "LEOPARD syndrome",
+        "?Noonan syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MEK2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6842",
+        "gene_name": "mitogen-activated protein kinase kinase 2",
+        "omim_gene": [
+          "601263"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAP2K2",
+        "hgnc_symbol": "MAP2K2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:4090319-4124126",
+              "ensembl_id": "ENSG00000126934"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:4090321-4124129",
+              "ensembl_id": "ENSG00000126934"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAP2K2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "PMID: 21396583",
+        "23379592"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Cardiofaciocutaneous syndrome 4",
+        "Cardio-Facio-Cutaneous syndrome type 4",
+        "Cardiofaciocutaneous Syndrome",
+        "Cardio-Facio-Cutaneous syndrome",
+        "CFC syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HIC",
+          "MDFIC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28870",
+        "gene_name": "MyoD family inhibitor domain containing",
+        "omim_gene": [
+          "614511"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MDFIC",
+        "hgnc_symbol": "MDFIC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:114562209-114659256",
+              "ensembl_id": "ENSG00000135272"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:114922154-115019202",
+              "ensembl_id": "ENSG00000135272"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MDFIC",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "35235341",
+        "39386015"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis, HP:0001790",
+        "Lymphatic malformation 12, OMIM:620014",
+        "lymphatic malformation 12, MONDO:0031043"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7758",
+        "gene_name": "neuraminidase 1",
+        "omim_gene": [
+          "608272"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NEU1",
+        "hgnc_symbol": "NEU1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31825436-31830683",
+              "ensembl_id": "ENSG00000204386"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31857659-31862906",
+              "ensembl_id": "ENSG00000204386"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "NEU1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15908988",
+        "23433491",
+        "11702224"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Sialidosis, type I, OMIM:256550",
+        "Sialidosis, type II, OMIM:256550",
+        "fetal hydrops",
+        "Hydrops fetalis (type II, congenital)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7897",
+        "gene_name": "NPC intracellular cholesterol transporter 1",
+        "omim_gene": [
+          "607623"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NPC1",
+        "hgnc_symbol": "NPC1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:21086148-21166862",
+              "ensembl_id": "ENSG00000141458"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:23506184-23586898",
+              "ensembl_id": "ENSG00000141458"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-04-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "NPC1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23137060",
+        "2375336",
+        "2589877",
+        "2334227",
+        "23597521"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Literature",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Niemann-Pick disease, type C1, 257220",
+        "Niemann-Pick disease, type C",
+        "NPC1"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "N-ras"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7989",
+        "gene_name": "NRAS proto-oncogene, GTPase",
+        "omim_gene": [
+          "164790"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NRAS",
+        "hgnc_symbol": "NRAS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:115247090-115259515",
+              "ensembl_id": "ENSG00000213281"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:114704469-114716894",
+              "ensembl_id": "ENSG00000213281"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "NRAS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "PMID: 19966803",
+        "19775298"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Noonan syndrome",
+        "Noonan syndrome 6",
+        "Cardio-Facio-cutanenous syndrome",
+        "CFC Syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8850",
+        "gene_name": "peroxisomal biogenesis factor 1",
+        "omim_gene": [
+          "602136"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX1",
+        "hgnc_symbol": "PEX1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:92116334-92157845",
+              "ensembl_id": "ENSG00000127980"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:92487020-92528531",
+              "ensembl_id": "ENSG00000127980"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Zellweger",
+        "peroxisome biogenesis disorder 1A, 214100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNF69"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8851",
+        "gene_name": "peroxisomal biogenesis factor 10",
+        "omim_gene": [
+          "602859"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX10",
+        "hgnc_symbol": "PEX10",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:2336236-2345236",
+              "ensembl_id": "ENSG00000157911"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:2403964-2413797",
+              "ensembl_id": "ENSG00000157911"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX10",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Zellweger, peroxisome biogenesis disorder 6A",
+        "Peroxisome biogenesis disorder 6A (Zellweger), 614870",
+        "Peroxisome biogenesis disorder 6B, 614871"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8853",
+        "gene_name": "peroxisomal biogenesis factor 11 beta",
+        "omim_gene": [
+          "603867"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX11B",
+        "hgnc_symbol": "PEX11B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:145516252-145523730",
+              "ensembl_id": "ENSG00000131779"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:145911350-145918837",
+              "ensembl_id": "ENSG00000131779"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX11B",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 14B, 614920"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8854",
+        "gene_name": "peroxisomal biogenesis factor 12",
+        "omim_gene": [
+          "601758"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX12",
+        "hgnc_symbol": "PEX12",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:33901814-33905882",
+              "ensembl_id": "ENSG00000108733"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:35574795-35578863",
+              "ensembl_id": "ENSG00000108733"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX12",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 3B,  266510",
+        "Peroxisome biogenesis disorder 3A (Zellweger), 614859"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8855",
+        "gene_name": "peroxisomal biogenesis factor 13",
+        "omim_gene": [
+          "601789"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX13",
+        "hgnc_symbol": "PEX13",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:61244360-61279125",
+              "ensembl_id": "ENSG00000162928"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:61017225-61051990",
+              "ensembl_id": "ENSG00000162928"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-06-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX13",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Zellweger",
+        "peroxisome biogenesis disorder 11A, 614883",
+        "Peroxisome biogenesis disorder 11B,  614885"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8856",
+        "gene_name": "peroxisomal biogenesis factor 14",
+        "omim_gene": [
+          "601791"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX14",
+        "hgnc_symbol": "PEX14",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:10532345-10690815",
+              "ensembl_id": "ENSG00000142655"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:10472288-10630758",
+              "ensembl_id": "ENSG00000142655"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX14",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Zellweger, peroxisome biogenesis disorder 13A",
+        "Peroxisome biogenesis disorder 13A (Zellweger), 614887"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8857",
+        "gene_name": "peroxisomal biogenesis factor 16",
+        "omim_gene": [
+          "603360"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX16",
+        "hgnc_symbol": "PEX16",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:45931220-45940363",
+              "ensembl_id": "ENSG00000121680"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:45909669-45918812",
+              "ensembl_id": "ENSG00000121680"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-04-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX16",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 8B, 614877",
+        "Peroxisome biogenesis disorder 8A, (Zellweger), 614876"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HK33",
+          "D1S2223E",
+          "PMP1",
+          "PMPI",
+          "PXMP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9713",
+        "gene_name": "peroxisomal biogenesis factor 19",
+        "omim_gene": [
+          "600279"
+        ],
+        "alias_name": [
+          "housekeeping gene, 33kD"
+        ],
+        "gene_symbol": "PEX19",
+        "hgnc_symbol": "PEX19",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:160246602-160256138",
+              "ensembl_id": "ENSG00000162735"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:160276812-160286348",
+              "ensembl_id": "ENSG00000162735"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-03-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX19",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Zellweger, peroxisome biogenesis disorder 12A",
+        "Peroxisome biogenesis disorder 12A (Zellweger), 614886"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PMP35",
+          "PAF-1",
+          "RNF72",
+          "ZWS3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9717",
+        "gene_name": "peroxisomal biogenesis factor 2",
+        "omim_gene": [
+          "170993"
+        ],
+        "alias_name": [
+          "Zellweger syndrome",
+          "peroxin 2"
+        ],
+        "gene_symbol": "PEX2",
+        "hgnc_symbol": "PEX2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:77892494-77913280",
+              "ensembl_id": "ENSG00000164751"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:76980258-77001044",
+              "ensembl_id": "ENSG00000164751"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-01-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 5A (Zellweger), 614866"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20695"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:22965",
+        "gene_name": "peroxisomal biogenesis factor 26",
+        "omim_gene": [
+          "608666"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX26",
+        "hgnc_symbol": "PEX26",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:18560689-18613905",
+              "ensembl_id": "ENSG00000215193"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:18077920-18131138",
+              "ensembl_id": "ENSG00000215193"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-08-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX26",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 7B, 614873",
+        "Peroxisome biogenesis disorder 7A (Zellweger), 614872"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8858",
+        "gene_name": "peroxisomal biogenesis factor 3",
+        "omim_gene": [
+          "603164"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX3",
+        "hgnc_symbol": "PEX3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:143771944-143811147",
+              "ensembl_id": "ENSG00000034693"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:143450807-143490010",
+              "ensembl_id": "ENSG00000034693"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20033294"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Zellweger, peroxisome biogenesis disorder 10A",
+        "Peroxisome biogenesis disorder 10A (Zellweger)",
+        "614882"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PTS1R"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9719",
+        "gene_name": "peroxisomal biogenesis factor 5",
+        "omim_gene": [
+          "600414"
+        ],
+        "alias_name": [
+          "peroxisomal targeting signal 1 receptor",
+          "peroxisomal import receptor 5"
+        ],
+        "gene_symbol": "PEX5",
+        "hgnc_symbol": "PEX5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:7341281-7371170",
+              "ensembl_id": "ENSG00000139197"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:7188685-7218574",
+              "ensembl_id": "ENSG00000139197"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-03-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 2B,  202370",
+        "Peroxisome biogenesis disorder 2A (Zellweger) , 214110"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PXAAA1",
+          "PAF-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8859",
+        "gene_name": "peroxisomal biogenesis factor 6",
+        "omim_gene": [
+          "601498"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX6",
+        "hgnc_symbol": "PEX6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:42931608-42946958",
+              "ensembl_id": "ENSG00000124587"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:42963870-42979220",
+              "ensembl_id": "ENSG00000124587"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX6",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20033294",
+        "23137060",
+        "29220678"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 4A (Zellweger), OMIM:614862",
+        "Peroxisome biogenesis disorder 4B, OMIM:614863"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PTS2R",
+          "RD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8860",
+        "gene_name": "peroxisomal biogenesis factor 7",
+        "omim_gene": [
+          "601757"
+        ],
+        "alias_name": [
+          "Refsum disease"
+        ],
+        "gene_symbol": "PEX7",
+        "hgnc_symbol": "PEX7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:137143717-137235075",
+              "ensembl_id": "ENSG00000112357"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:136822564-136913937",
+              "ensembl_id": "ENSG00000112357"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX7",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 9B,  614879"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0233"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28993",
+        "gene_name": "piezo type mechanosensitive ion channel component 1",
+        "omim_gene": [
+          "611184"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PIEZO1",
+        "hgnc_symbol": "PIEZO1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:88781751-88851619",
+              "ensembl_id": "ENSG00000103335"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:88715343-88785211",
+              "ensembl_id": "ENSG00000103335"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-08-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIEZO1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26333996",
+        "26387913"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Dehydrated hereditary stomatocytosis with or without pseudohyperkalemia and/or perinatal edema, OMIM:194380",
+        "Lymphatic malformation 6, OMIM:616843",
+        "Congenital lymphatic dysplasia with hydrops and/or lymphoedema"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9020",
+        "gene_name": "pyruvate kinase L/R",
+        "omim_gene": [
+          "609712"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PKLR",
+        "hgnc_symbol": "PKLR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:155259630-155271225",
+              "ensembl_id": "ENSG00000143627"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:155289839-155301434",
+              "ensembl_id": "ENSG00000143627"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PKLR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29549173",
+        "8285758",
+        "10923218"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Pyruvate kinase deficiency, OMIM:266200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDGS",
+          "CDG1a",
+          "PMI",
+          "PMI1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9115",
+        "gene_name": "phosphomannomutase 2",
+        "omim_gene": [
+          "601785"
+        ],
+        "alias_name": [
+          "phosphomannose isomerase 1",
+          "mannose-6-phosphate isomerase"
+        ],
+        "gene_symbol": "PMM2",
+        "hgnc_symbol": "PMM2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:8882680-8943188",
+              "ensembl_id": "ENSG00000140650"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:8788823-8849331",
+              "ensembl_id": "ENSG00000140650"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PMM2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20638314",
+        "15645285",
+        "17158594",
+        "23430905",
+        "23137060"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Congenital disorder of glycosylation, type Ia, 212065",
+        "nonimmune hydrops fetalis",
+        "CDG1A",
+        "CDG 1a"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BPTP3",
+          "SH-PTP2",
+          "SHP-2",
+          "PTP2C",
+          "SHP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9644",
+        "gene_name": "protein tyrosine phosphatase, non-receptor type 11",
+        "omim_gene": [
+          "176876"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTPN11",
+        "hgnc_symbol": "PTPN11",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:112856155-112947717",
+              "ensembl_id": "ENSG00000179295"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:112418351-112509913",
+              "ensembl_id": "ENSG00000179295"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-03-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTPN11",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "PMID: 17603483",
+        "11704759",
+        "12529711",
+        "12634870",
+        "15384080",
+        "15240615",
+        "16263833",
+        "17497712",
+        "18678287"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "LEOPARD syndrome",
+        "LEOPARD syndrome 1",
+        "Noonan syndrome",
+        "Noonan syndrome 1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Raf-1",
+          "c-Raf",
+          "CRAF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9829",
+        "gene_name": "Raf-1 proto-oncogene, serine/threonine kinase",
+        "omim_gene": [
+          "164760"
+        ],
+        "alias_name": [
+          "C-Raf proto-oncogene, serine/threonine kinase"
+        ],
+        "gene_symbol": "RAF1",
+        "hgnc_symbol": "RAF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:12625100-12705725",
+              "ensembl_id": "ENSG00000132155"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:12583601-12664226",
+              "ensembl_id": "ENSG00000132155"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAF1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "PMID: 17603483",
+        "17603482"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Noonan syndrome",
+        "Noonan syndrome 5",
+        "LEOPARD syndrome",
+        "LEOPARD syndrome 2"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GAP",
+          "CM-AVM",
+          "p120GAP",
+          "p120RASGAP",
+          "p120"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9871",
+        "gene_name": "RAS p21 protein activator 1",
+        "omim_gene": [
+          "139150"
+        ],
+        "alias_name": [
+          "capillary malformation-arteriovenous malformation",
+          "p120 RAS GTPase activating protein"
+        ],
+        "gene_symbol": "RASA1",
+        "hgnc_symbol": "RASA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:86563705-86687748",
+              "ensembl_id": "ENSG00000145715"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:87267888-87391931",
+              "ensembl_id": "ENSG00000145715"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "RASA1",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "36980822",
+        "33608416",
+        "24038909"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Capillary malformation-arteriovenous malformation 1, OMIM:608354",
+        "capillary malformation-arteriovenous malformation 1, MONDO:0020783"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RIBB",
+          "ROC1",
+          "MGC125864",
+          "MGC125865"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10023",
+        "gene_name": "Ras like without CAAX 1",
+        "omim_gene": [
+          "609591"
+        ],
+        "alias_name": [
+          "Ric-like, expressed in many tissues",
+          "GTP-binding protein Roc1"
+        ],
+        "gene_symbol": "RIT1",
+        "hgnc_symbol": "RIT1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:155867599-155881195",
+              "ensembl_id": "ENSG00000143622"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:155897808-155911404",
+              "ensembl_id": "ENSG00000143622"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "RIT1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "PMID: 23791108",
+        "25124994",
+        "24939608"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Noonan syndrome 8",
+        "Noonan syndrome type 8"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SPL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10817",
+        "gene_name": "sphingosine-1-phosphate lyase 1",
+        "omim_gene": [
+          "603729"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SGPL1",
+        "hgnc_symbol": "SGPL1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:72575717-72640930",
+              "ensembl_id": "ENSG00000166224"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:70815961-70881173",
+              "ensembl_id": "ENSG00000166224"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-02-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "SGPL1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28181337",
+        "28165339",
+        "28165343"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nephrotic syndrome 14\t617575"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0862",
+          "SOC2",
+          "SUR-8",
+          "SOC-2",
+          "SUR8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15454",
+        "gene_name": "SHOC2, leucine rich repeat scaffold protein",
+        "omim_gene": [
+          "602775"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SHOC2",
+        "hgnc_symbol": "SHOC2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:112679301-112773425",
+              "ensembl_id": "ENSG00000108061"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:110919547-111013667",
+              "ensembl_id": "ENSG00000108061"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-03-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SHOC2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "PMID: 19684605",
+        "22528146",
+        "23918763"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Noonan-like syndrome with loose anagen hair"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AST",
+          "SD",
+          "ISSD",
+          "NSD",
+          "SIALIN",
+          "SLD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10933",
+        "gene_name": "solute carrier family 17 member 5",
+        "omim_gene": [
+          "604322"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC17A5",
+        "hgnc_symbol": "SLC17A5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:74303102-74363878",
+              "ensembl_id": "ENSG00000119899"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:73593379-73654155",
+              "ensembl_id": "ENSG00000119899"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-01-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC17A5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8559759",
+        "10546100"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "Other"
+      ],
+      "phenotypes": [
+        "Sialic acid storage disorder, infantile, 269920",
+        "ISSD",
+        "Hydrops fetalis",
+        "Infantile sialic acid storage disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ASM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11120",
+        "gene_name": "sphingomyelin phosphodiesterase 1",
+        "omim_gene": [
+          "607608"
+        ],
+        "alias_name": [
+          "acid sphingomyelinase"
+        ],
+        "gene_symbol": "SMPD1",
+        "hgnc_symbol": "SMPD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:6411655-6416228",
+              "ensembl_id": "ENSG00000166311"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:6390431-6394998",
+              "ensembl_id": "ENSG00000166311"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMPD1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15305357"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Niemann-Pick disease, type A, 257200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HGF",
+          "GF1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11187",
+        "gene_name": "SOS Ras/Rac guanine nucleotide exchange factor 1",
+        "omim_gene": [
+          "182530"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOS1",
+        "hgnc_symbol": "SOS1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:39208537-39351486",
+              "ensembl_id": "ENSG00000115904"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:38981396-39124345",
+              "ensembl_id": "ENSG00000115904"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOS1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "PMID: 19438935",
+        "17143285",
+        "17143282",
+        "17586837"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Noonan syndrome",
+        "Noonan syndrome 4"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11188",
+        "gene_name": "SOS Ras/Rho guanine nucleotide exchange factor 2",
+        "omim_gene": [
+          "601247"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOS2",
+        "hgnc_symbol": "SOS2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:50583847-50698276",
+              "ensembl_id": "ENSG00000100485"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:50117120-50231558",
+              "ensembl_id": "ENSG00000100485"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOS2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "25795793",
+        "26173643"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Noonan syndrome 9, 616559"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11559",
+        "gene_name": "transaldolase 1",
+        "omim_gene": [
+          "602063"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TALDO1",
+        "hgnc_symbol": "TALDO1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:747329-765024",
+              "ensembl_id": "ENSG00000177156"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:747329-765024",
+              "ensembl_id": "ENSG00000177156"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "TALDO1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23137060",
+        "17095351",
+        "25388407",
+        "21119539"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Transaldolase deficiency, 606003"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15672",
+        "gene_name": "ALG9, alpha-1,2-mannosyltransferase",
+        "omim_gene": [
+          "606941"
+        ],
+        "alias_name": [
+          "dolichyl-P-Man:Man(6)GlcNAc(2)-PP-dolichol alpha-1,2-mannosyltransferase",
+          "dolichyl-P-Man:Man(8)GlcNAc(2)-PP-dolichol alpha-1,2-mannosyltransferase",
+          "dol-P-Man dependent alpha-1,2-mannosyltransferase"
+        ],
+        "gene_symbol": "ALG9",
+        "hgnc_symbol": "ALG9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:111652919-111742305",
+              "ensembl_id": "ENSG00000086848"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:111782195-111871581",
+              "ensembl_id": "ENSG00000086848"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALG9",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26453364",
+        "31420886"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Congenital disorder of glycosylation, type II, MIM#608776"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Ang2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:485",
+        "gene_name": "angiopoietin 2",
+        "omim_gene": [
+          "601922"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANGPT2",
+        "hgnc_symbol": "ANGPT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:6357172-6420930",
+              "ensembl_id": "ENSG00000091879"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:6499651-6563409",
+              "ensembl_id": "ENSG00000091879"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANGPT2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32908006",
+        "34876502"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Lymphatic malformation 10 OMIM:619369",
+        "lymphatic malformation 10 MONDO:0023662"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FHM2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:800",
+        "gene_name": "ATPase Na+/K+ transporting subunit alpha 2",
+        "omim_gene": [
+          "182340"
+        ],
+        "alias_name": [
+          "sodium/potassium-transporting ATPase subunit alpha-2",
+          "sodium pump subunit alpha-2",
+          "sodium-potassium ATPase catalytic subunit alpha-2"
+        ],
+        "gene_symbol": "ATP1A2",
+        "hgnc_symbol": "ATP1A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:160085549-160113381",
+              "ensembl_id": "ENSG00000018625"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:160115759-160143591",
+              "ensembl_id": "ENSG00000018625"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP1A2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30690204"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "hydrops fetalis",
+        "microcephaly",
+        "arthrogryposis",
+        "extensive cortical malformations"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "G25K",
+          "CDC42Hs"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1736",
+        "gene_name": "cell division cycle 42",
+        "omim_gene": [
+          "116952"
+        ],
+        "alias_name": [
+          "GTP binding protein, 25kDa"
+        ],
+        "gene_symbol": "CDC42",
+        "hgnc_symbol": "CDC42",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:22379120-22419437",
+              "ensembl_id": "ENSG00000070831"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:22052627-22092946",
+              "ensembl_id": "ENSG00000070831"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDC42",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33082562",
+        "29335451",
+        "26708094"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp762C186",
+          "TANGERIN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30682",
+        "gene_name": "EH domain binding protein 1 like 1",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "EHBP1L1",
+        "hgnc_symbol": "EHBP1L1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:65343509-65360121",
+              "ensembl_id": "ENSG00000173442"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:65576038-65592650",
+              "ensembl_id": "ENSG00000173442"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "EHBP1L1",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34645488",
+        "26833786",
+        "https://dmdd.org.uk/mutants/Ehbp1l1"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "non-immune hydrops fetalis MONDO:0009369"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Hfz6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4044",
+        "gene_name": "frizzled class receptor 6",
+        "omim_gene": [
+          "603409"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FZD6",
+        "hgnc_symbol": "FZD6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:104310661-104345094",
+              "ensembl_id": "ENSG00000164930"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:103298433-103332866",
+              "ensembl_id": "ENSG00000164930"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "FZD6",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33082562",
+        "26036949",
+        "28425981"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nail disorder, nonsyndromic congenital, 1, OMIM:161050"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "G6PD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4057",
+        "gene_name": "glucose-6-phosphate dehydrogenase",
+        "omim_gene": [
+          "305900"
+        ],
+        "alias_name": null,
+        "gene_symbol": "G6PD",
+        "hgnc_symbol": "G6PD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153759606-153775787",
+              "ensembl_id": "ENSG00000160211"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154531391-154547572",
+              "ensembl_id": "ENSG00000160211"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "G6PD",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33082562",
+        "23719252"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MPS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5391",
+        "gene_name": "iduronidase, alpha-L-",
+        "omim_gene": [
+          "252800"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IDUA",
+        "hgnc_symbol": "IDUA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:980785-998316",
+              "ensembl_id": "ENSG00000127415"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:986997-1004506",
+              "ensembl_id": "ENSG00000127415"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "IDUA",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "7985044"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Other"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis Ih, 607014",
+        "Hurler syndrome, MPS I"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ZTL1",
+          "ZnT-5",
+          "FLJ12496",
+          "FLJ12756",
+          "ZNT5",
+          "MGC5499",
+          "ZNTL1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19089",
+        "gene_name": "solute carrier family 30 member 5",
+        "omim_gene": [
+          "607819"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC30A5",
+        "hgnc_symbol": "SLC30A5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:68389473-68426896",
+              "ensembl_id": "ENSG00000145740"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:69093646-69131069",
+              "ensembl_id": "ENSG00000145740"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-02-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC30A5",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33547425",
+        "12095919"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Perinatal lethal cardiomyopathy",
+        "cardiomyopathy, MONDO:0004994"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HMT-1",
+          "HMAT1",
+          "CDG1K",
+          "Mat-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18294",
+        "gene_name": "ALG1, chitobiosyldiphosphodolichol beta-mannosyltransferase",
+        "omim_gene": [
+          "605907"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALG1",
+        "hgnc_symbol": "ALG1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:5083703-5137380",
+              "ensembl_id": "ENSG00000033011"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:5033960-5087379",
+              "ensembl_id": "ENSG00000033011"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALG1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9762608",
+        "14973778",
+        "31420886"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "Congenital disorder of glycosylation, type Ik, 608540",
+        "Hydrops fetalis, nonimmune"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2860",
+        "gene_name": "7-dehydrocholesterol reductase",
+        "omim_gene": [
+          "602858"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DHCR7",
+        "hgnc_symbol": "DHCR7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:71139239-71163914",
+              "ensembl_id": "ENSG00000172893"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:71428193-71452868",
+              "ensembl_id": "ENSG00000172893"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "DHCR7",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23137060",
+        "10215064"
+      ],
+      "evidence": [
+        "Other"
+      ],
+      "phenotypes": [
+        "Smith-Lemli-Opitz syndrome, 270400",
+        "SLOS"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DMK",
+          "DM1PK",
+          "MDPK",
+          "MT-PK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2933",
+        "gene_name": "DM1 protein kinase",
+        "omim_gene": [
+          "605377"
+        ],
+        "alias_name": [
+          "dystrophia myotonica 1",
+          "DM protein kinase",
+          "myotonin protein kinase A",
+          "myotonic dystrophy associated protein kinase",
+          "thymopoietin homolog"
+        ],
+        "gene_symbol": "DMPK",
+        "hgnc_symbol": "DMPK",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:46272975-46285810",
+              "ensembl_id": "ENSG00000104936"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:45769717-45782552",
+              "ensembl_id": "ENSG00000104936"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "DMPK",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "8140064",
+        "1550167"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "Myotonic dystrophy 1, OMIM:160900"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "nucleotide-repeat-expansion",
+        "currently-ngs-unreportable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CPX",
+          "CPXD",
+          "CHO2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3133",
+        "gene_name": "emopamil binding protein (sterol isomerase)",
+        "omim_gene": [
+          "300205"
+        ],
+        "alias_name": [
+          "3-beta-hydroxysteroid-delta-8,delta-7-isomerase",
+          "Chondrodysplasia punctata-2, X-linked dominant (Happle syndrome)",
+          "sterol 8-isomerase"
+        ],
+        "gene_symbol": "EBP",
+        "hgnc_symbol": "EBP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:48379546-48387104",
+              "ensembl_id": "ENSG00000147155"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:48521158-48528716",
+              "ensembl_id": "ENSG00000147155"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-02-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "EBP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23137060",
+        "6408138"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Chondrodysplasia punctata, X-linked dominant, 302960",
+        "Conradi Huenermann: Chondrodysplasia punctata"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "fumarase"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3700",
+        "gene_name": "fumarate hydratase",
+        "omim_gene": [
+          "136850"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FH",
+        "hgnc_symbol": "FH",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:241660903-241683061",
+              "ensembl_id": "ENSG00000091483"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:241497603-241519761",
+              "ensembl_id": "ENSG00000091483"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FH",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23137060",
+        "1557269",
+        "9635293"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Fumarase deficiency, 606812",
+        "Citric-acid cycle defect"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hGLE1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4315",
+        "gene_name": "GLE1, RNA export mediator",
+        "omim_gene": [
+          "603371"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLE1",
+        "hgnc_symbol": "GLE1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:131266979-131304567",
+              "ensembl_id": "ENSG00000119392"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:128504700-128542288",
+              "ensembl_id": "ENSG00000119392"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-10-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLE1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "3993672",
+        "3344776",
+        "7966188",
+        "16892327"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "Lethal congenital contracture syndrome 1, 253310",
+        "LCCS1",
+        "MULTIPLE CONTRACTURE SYNDROME, FINNISH TYPE",
+        "Arthrogryposis, lethal, with anterior horn cell disease, 611890"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GBP",
+          "LCEH",
+          "LCHAD",
+          "MTPA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4801",
+        "gene_name": "hydroxyacyl-CoA dehydrogenase trifunctional multienzyme complex subunit alpha",
+        "omim_gene": [
+          "600890"
+        ],
+        "alias_name": [
+          "gastrin-binding protein",
+          "long-chain-3-hydroxyacyl-CoA dehydrogenase",
+          "long-chain 2-enoyl-CoA hydratase",
+          "mitochondrial trifunctional protein, alpha subunit"
+        ],
+        "gene_symbol": "HADHA",
+        "hgnc_symbol": "HADHA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:26413504-26467594",
+              "ensembl_id": "ENSG00000084754"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:26190635-26244726",
+              "ensembl_id": "ENSG00000084754"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "HADHA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23137060",
+        "11111210"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "LCHAD deficiency, 609016"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HBZ1",
+          "HBZ-T1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4835",
+        "gene_name": "hemoglobin subunit zeta",
+        "omim_gene": [
+          "142310"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HBZ",
+        "hgnc_symbol": "HBZ",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:202686-204502",
+              "ensembl_id": "ENSG00000130656"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:152687-154503",
+              "ensembl_id": "ENSG00000130656"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HBZ",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9029003"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "HEMOGLOBIN H HYDROPS FETALIS SYNDROME"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PSA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19129",
+        "gene_name": "phosphoserine aminotransferase 1",
+        "omim_gene": [
+          "610936"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PSAT1",
+        "hgnc_symbol": "PSAT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:80912059-80945009",
+              "ensembl_id": "ENSG00000135069"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:78297143-78330093",
+              "ensembl_id": "ENSG00000135069"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-05-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSAT1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30838783",
+        "27475004"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Neu-Laxova syndrome 2, MIM#\t616038"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FGE",
+          "UNQ3037"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20376",
+        "gene_name": "sulfatase modifying factor 1",
+        "omim_gene": [
+          "607939"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SUMF1",
+        "hgnc_symbol": "SUMF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:3742498-4508965",
+              "ensembl_id": "ENSG00000144455"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:3700814-4467281",
+              "ensembl_id": "ENSG00000144455"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-04-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SUMF1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25305402"
+      ],
+      "evidence": [
+        "Other"
+      ],
+      "phenotypes": [
+        "Multiple sulfatase deficiency,  272200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12592",
+        "gene_name": "uroporphyrinogen III synthase",
+        "omim_gene": [
+          "606938"
+        ],
+        "alias_name": [
+          "congenital erythropoietic porphyria"
+        ],
+        "gene_symbol": "UROS",
+        "hgnc_symbol": "UROS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:127477146-127511817",
+              "ensembl_id": "ENSG00000188690"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:125784980-125823248",
+              "ensembl_id": "ENSG00000188690"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "UROS",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23137060",
+        "12533808"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Porphyria, congenital erythropoietic, 263700",
+        "Congenital erythropoietic porphyria",
+        "Gunther's disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1955",
+        "gene_name": "cholinergic receptor nicotinic alpha 1 subunit",
+        "omim_gene": [
+          "100690"
+        ],
+        "alias_name": [
+          "acetylcholine receptor, nicotinic, alpha 1 (muscle)"
+        ],
+        "gene_symbol": "CHRNA1",
+        "hgnc_symbol": "CHRNA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:175612320-175629200",
+              "ensembl_id": "ENSG00000138435"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:174747592-174787935",
+              "ensembl_id": "ENSG00000138435"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHRNA1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Multiple pterygium syndrome, lethal type, MIM#253290"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1965",
+        "gene_name": "cholinergic receptor nicotinic delta subunit",
+        "omim_gene": [
+          "100720"
+        ],
+        "alias_name": [
+          "acetylcholine receptor, nicotinic, delta (muscle)"
+        ],
+        "gene_symbol": "CHRND",
+        "hgnc_symbol": "CHRND",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:233390703-233401377",
+              "ensembl_id": "ENSG00000135902"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:232525993-232536667",
+              "ensembl_id": "ENSG00000135902"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHRND",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Multiple pterygium syndrome, lethal type, MIM#253290"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1967",
+        "gene_name": "cholinergic receptor nicotinic gamma subunit",
+        "omim_gene": [
+          "100730"
+        ],
+        "alias_name": [
+          "acetylcholine receptor, nicotinic, gamma (muscle)"
+        ],
+        "gene_symbol": "CHRNG",
+        "hgnc_symbol": "CHRNG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:233404437-233411113",
+              "ensembl_id": "ENSG00000196811"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:232539727-232546403",
+              "ensembl_id": "ENSG00000196811"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHRNG",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Multiple pterygium syndrome, lethal type, MIM#253290"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "STL1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2200",
+        "gene_name": "collagen type II alpha 1 chain",
+        "omim_gene": [
+          "120140"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL2A1",
+        "hgnc_symbol": "COL2A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:48366748-48398269",
+              "ensembl_id": "ENSG00000139219"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:47972965-48004486",
+              "ensembl_id": "ENSG00000139219"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL2A1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Achondrogenesis, type II or hypochondrogenesis, MIM#200610"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ33718",
+          "FLJ39137",
+          "Dok-7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26594",
+        "gene_name": "docking protein 7",
+        "omim_gene": [
+          "610285"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DOK7",
+        "hgnc_symbol": "DOK7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:3465033-3503200",
+              "ensembl_id": "ENSG00000175920"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:3463311-3494483",
+              "ensembl_id": "ENSG00000175920"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "DOK7",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31880392",
+        "19261599"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Fetal akinesia sequence, MIM#618389"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAP48",
+          "GLML",
+          "GVM",
+          "FKBPAP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14373",
+        "gene_name": "glomulin, FKBP associated protein",
+        "omim_gene": [
+          "601749"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLMN",
+        "hgnc_symbol": "GLMN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:92711959-92764544",
+              "ensembl_id": "ENSG00000174842"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:92246402-92298987",
+              "ensembl_id": "ENSG00000174842"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-07-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLMN",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AMF",
+          "NLK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4458",
+        "gene_name": "glucose-6-phosphate isomerase",
+        "omim_gene": [
+          "172400"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GPI",
+        "hgnc_symbol": "GPI",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:34850385-34893061",
+              "ensembl_id": "ENSG00000105220"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:34359480-34402156",
+              "ensembl_id": "ENSG00000105220"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GPI",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RLC",
+          "ITGA4L",
+          "ALPHA-RLC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6145",
+        "gene_name": "integrin subunit alpha 9",
+        "omim_gene": [
+          "603963"
+        ],
+        "alias_name": [
+          "integrin, alpha 4-like"
+        ],
+        "gene_symbol": "ITGA9",
+        "hgnc_symbol": "ITGA9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:37493606-37865005",
+              "ensembl_id": "ENSG00000144668"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:37452115-37823514",
+              "ensembl_id": "ENSG00000144668"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-05-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ITGA9",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kv11.1",
+          "HERG",
+          "erg1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6251",
+        "gene_name": "potassium voltage-gated channel subfamily H member 2",
+        "omim_gene": [
+          "152427"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNH2",
+        "hgnc_symbol": "KCNH2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:150642049-150675403",
+              "ensembl_id": "ENSG00000055118"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:150944961-150978315",
+              "ensembl_id": "ENSG00000055118"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-03-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNH2",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SRYP",
+          "NEM8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30372",
+        "gene_name": "kelch like family member 40",
+        "omim_gene": [
+          "615340"
+        ],
+        "alias_name": [
+          "sarcosynapsin",
+          "nemaline myopathy type 8"
+        ],
+        "gene_symbol": "KLHL40",
+        "hgnc_symbol": "KLHL40",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:42727011-42734036",
+              "ensembl_id": "ENSG00000157119"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:42685519-42692544",
+              "ensembl_id": "ENSG00000157119"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2013-01-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "KLHL40",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "25721947"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Nemaline myopathy 8, autosomal recessive, MIM# 615348"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NPHS5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6487",
+        "gene_name": "laminin subunit beta 2",
+        "omim_gene": [
+          "150325"
+        ],
+        "alias_name": [
+          "laminin S"
+        ],
+        "gene_symbol": "LAMB2",
+        "hgnc_symbol": "LAMB2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:49158547-49170551",
+              "ensembl_id": "ENSG00000172037"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:49121114-49133118",
+              "ensembl_id": "ENSG00000172037"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-05-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMB2",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GNT-II"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7045",
+        "gene_name": "mannosyl (alpha-1,6-)-glycoprotein beta-1,2-N-acetylglucosaminyltransferase",
+        "omim_gene": [
+          "602616"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MGAT2",
+        "hgnc_symbol": "MGAT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:50087489-50090198",
+              "ensembl_id": "ENSG00000168282"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:49620795-49623481",
+              "ensembl_id": "ENSG00000168282"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MGAT2",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "trnE"
+        ],
+        "biotype": "Mt_tRNA",
+        "hgnc_id": "HGNC:7479",
+        "gene_name": "mitochondrially encoded tRNA glutamic acid",
+        "omim_gene": [
+          "590025"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-TE",
+        "hgnc_symbol": "MT-TE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:14674-14742",
+              "ensembl_id": "ENSG00000210194"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:14674-14742",
+              "ensembl_id": "ENSG00000210194"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-TE",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [
+        "locus-type-rna-transfer"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRNL1"
+        ],
+        "biotype": "Mt_tRNA",
+        "hgnc_id": "HGNC:7490",
+        "gene_name": "mitochondrially encoded tRNA leucine 1 (UUA/G)",
+        "omim_gene": [
+          "590050"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-TL1",
+        "hgnc_symbol": "MT-TL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:3230-3304",
+              "ensembl_id": "ENSG00000209082"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:3230-3304",
+              "ensembl_id": "ENSG00000209082"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-TL1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7525",
+        "gene_name": "muscle associated receptor tyrosine kinase",
+        "omim_gene": [
+          "601296"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MUSK",
+        "hgnc_symbol": "MUSK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:113431051-113563859",
+              "ensembl_id": "ENSG00000030304"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:110668771-110801620",
+              "ensembl_id": "ENSG00000030304"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "MUSK",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31750350",
+        "25537362"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Fetal akinesia deformation sequence 1, MIM# 208150"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LRBP",
+          "MK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7530",
+        "gene_name": "mevalonate kinase",
+        "omim_gene": [
+          "251170"
+        ],
+        "alias_name": [
+          "LH receptor mRNA-binding protein",
+          "mevalonic aciduria"
+        ],
+        "gene_symbol": "MVK",
+        "hgnc_symbol": "MVK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:110011060-110035067",
+              "ensembl_id": "ENSG00000110921"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:109573255-109598117",
+              "ensembl_id": "ENSG00000110921"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "MVK",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27012807"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Mevalonic aciduria, OMIM:610377"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMD1S"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7577",
+        "gene_name": "myosin heavy chain 7",
+        "omim_gene": [
+          "160760"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYH7",
+        "hgnc_symbol": "MYH7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:23881947-23904927",
+              "ensembl_id": "ENSG00000092054"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:23412738-23435718",
+              "ensembl_id": "ENSG00000092054"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYH7",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SERA",
+          "PGDH",
+          "PDG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8923",
+        "gene_name": "phosphoglycerate dehydrogenase",
+        "omim_gene": [
+          "606879"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PHGDH",
+        "hgnc_symbol": "PHGDH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:120202421-120286838",
+              "ensembl_id": "ENSG00000092621"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:119648411-119744226",
+              "ensembl_id": "ENSG00000092621"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-11-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PHGDH",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "11895570",
+        "11494295"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Neu-Laxova syndrome 1, MIM#\t256520"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PFP",
+          "P1",
+          "HPLH2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9360",
+        "gene_name": "perforin 1",
+        "omim_gene": [
+          "170280"
+        ],
+        "alias_name": [
+          "Perforin",
+          "perforin 1 (preforming protein)"
+        ],
+        "gene_symbol": "PRF1",
+        "hgnc_symbol": "PRF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:72357104-72362531",
+              "ensembl_id": "ENSG00000180644"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:70597348-70602775",
+              "ensembl_id": "ENSG00000180644"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-02-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRF1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9608",
+        "gene_name": "parathyroid hormone 1 receptor",
+        "omim_gene": [
+          "168468"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTH1R",
+        "hgnc_symbol": "PTH1R",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:46919236-46945287",
+              "ensembl_id": "ENSG00000160801"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:46877746-46903799",
+              "ensembl_id": "ENSG00000160801"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-11-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTH1R",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "3975110",
+        "9268097",
+        "8723092"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "CHONDRODYSPLASIA, BLOMSTRAND TYPE",
+        "BOCD"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RPL10",
+          "RPLY10",
+          "RPYL10",
+          "EC45",
+          "L15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10306",
+        "gene_name": "ribosomal protein L15",
+        "omim_gene": [
+          "604174"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RPL15",
+        "hgnc_symbol": "RPL15",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:23958036-23965183",
+              "ensembl_id": "ENSG00000174748"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:23916545-23923692",
+              "ensembl_id": "ENSG00000174748"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-07-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "RPL15",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RYR",
+          "PPP1R137"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10483",
+        "gene_name": "ryanodine receptor 1",
+        "omim_gene": [
+          "180901"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 137"
+        ],
+        "gene_symbol": "RYR1",
+        "hgnc_symbol": "RYR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:38924339-39078204",
+              "ensembl_id": "ENSG00000196218"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:38433699-38587564",
+              "ensembl_id": "ENSG00000196218"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "RYR1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28543167",
+        "26932181"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Central core disease, MIM# 117000",
+        "Multiple pterygium syndrome"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Nav1.5",
+          "LQT3",
+          "HB1",
+          "HBBD",
+          "PFHB1",
+          "IVF",
+          "HB2",
+          "HH1",
+          "SSS1",
+          "CDCD2",
+          "CMPD2",
+          "ICCD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10593",
+        "gene_name": "sodium voltage-gated channel alpha subunit 5",
+        "omim_gene": [
+          "600163"
+        ],
+        "alias_name": [
+          "long QT syndrome 3"
+        ],
+        "gene_symbol": "SCN5A",
+        "hgnc_symbol": "SCN5A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:38589548-38691164",
+              "ensembl_id": "ENSG00000183873"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:38548057-38649673",
+              "ensembl_id": "ENSG00000183873"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN5A",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDA-II",
+          "CDAII",
+          "HEMPAS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10702",
+        "gene_name": "Sec23 homolog B, coat complex II component",
+        "omim_gene": [
+          "610512"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SEC23B",
+        "hgnc_symbol": "SEC23B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:18488137-18542059",
+              "ensembl_id": "ENSG00000101310"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:18507493-18561415",
+              "ensembl_id": "ENSG00000101310"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-01-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "SEC23B",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RTA1A",
+          "CD233",
+          "FR",
+          "SW",
+          "WR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11027",
+        "gene_name": "solute carrier family 4 member 1 (Diego blood group)",
+        "omim_gene": [
+          "109270"
+        ],
+        "alias_name": [
+          "Froese blood group",
+          "Swann blood group",
+          "Wright blood group"
+        ],
+        "gene_symbol": "SLC4A1",
+        "hgnc_symbol": "SLC4A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:42325753-42345509",
+              "ensembl_id": "ENSG00000004939"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:44248385-44268141",
+              "ensembl_id": "ENSG00000004939"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-04-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC4A1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11274",
+        "gene_name": "spectrin beta, erythrocytic",
+        "omim_gene": [
+          "182870"
+        ],
+        "alias_name": [
+          "spherocytosis, clinical type I"
+        ],
+        "gene_symbol": "SPTB",
+        "hgnc_symbol": "SPTB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:65213002-65346601",
+              "ensembl_id": "ENSG00000070182"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:64746283-64879883",
+              "ensembl_id": "ENSG00000070182"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPTB",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 33082562"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nonimmune hydrops fetalis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BTHS",
+          "XAP-2",
+          "G4.5",
+          "TAZ1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11577",
+        "gene_name": "tafazzin",
+        "omim_gene": [
+          "300394"
+        ],
+        "alias_name": [
+          "Barth syndrome"
+        ],
+        "gene_symbol": "TAZ",
+        "hgnc_symbol": "TAZ",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153639854-153650065",
+              "ensembl_id": "ENSG00000102125"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154411518-154421726",
+              "ensembl_id": "ENSG00000102125"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "TAZ",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29476731",
+        "31598953"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Barth syndrome, MIM#302060"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [
+    {
+      "gene_data": {
+        "alias": [
+          "DMK",
+          "DM1PK",
+          "MDPK",
+          "MT-PK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2933",
+        "gene_name": "DM1 protein kinase",
+        "omim_gene": [
+          "605377"
+        ],
+        "alias_name": [
+          "dystrophia myotonica 1",
+          "DM protein kinase",
+          "myotonin protein kinase A",
+          "myotonic dystrophy associated protein kinase",
+          "thymopoietin homolog"
+        ],
+        "gene_symbol": "DMPK",
+        "hgnc_symbol": "DMPK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:46272975-46285810",
+              "ensembl_id": "ENSG00000104936"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:45769717-45782552",
+              "ensembl_id": "ENSG00000104936"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-10"
+      },
+      "entity_type": "str",
+      "entity_name": "DMPK_CTG",
+      "confidence_level": "1",
+      "penetrance": null,
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Myotonic dystrophy 1, OMIM:160900"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "repeated_sequence": "CTG",
+      "chromosome": "19",
+      "grch37_coordinates": [
+        46273463,
+        46273522
+      ],
+      "grch38_coordinates": [
+        45770205,
+        45770264
+      ],
+      "normal_repeats": 35,
+      "pathogenic_repeats": 50,
+      "tags": [
+        "STR"
+      ]
+    }
+  ],
+  "regions": []
+}

@@ -1,0 +1,155 @@
+{
+  "id": 517,
+  "hash_id": null,
+  "name": "Combined factor V and VIII deficiency",
+  "disease_group": "Haematology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.11",
+  "version_created": "2026-01-22T18:54:42.971826Z",
+  "relevant_disorders": [
+    "R124"
+  ],
+  "stats": {
+    "number_of_genes": 2,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "MR60",
+          "ERGIC-53",
+          "ERGIC53",
+          "gp58",
+          "MCFD1",
+          "FMFD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6631",
+        "gene_name": "lectin, mannose binding 1",
+        "omim_gene": [
+          "601567"
+        ],
+        "alias_name": [
+          "endoplasmic reticulum-golgi intermediate compartment protein 53"
+        ],
+        "gene_symbol": "LMAN1",
+        "hgnc_symbol": "LMAN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:56995055-57027194",
+              "ensembl_id": "ENSG00000074695"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:59327823-59359962",
+              "ensembl_id": "ENSG00000074695"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "LMAN1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10090934",
+        "10090935",
+        "16304051"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North EastGLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Combined factor V and VIII deficiency, OMIM:227300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "F5F8D",
+          "LMAN1IP",
+          "SDNSF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18451",
+        "gene_name": "multiple coagulation factor deficiency 2",
+        "omim_gene": [
+          "607788"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MCFD2",
+        "hgnc_symbol": "MCFD2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47129009-47168994",
+              "ensembl_id": "ENSG00000180398"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:46901870-46941855",
+              "ensembl_id": "ENSG00000180398"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "MCFD2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20004600",
+        "12717434",
+        "16304051"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Factor V and factor VIII, combined deficiency of, OMIM:613625"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

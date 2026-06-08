@@ -1,0 +1,3048 @@
+{
+  "id": 529,
+  "hash_id": null,
+  "name": "Lysosomal storage disorder",
+  "disease_group": "Metabolic",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.9",
+  "version_created": "2026-06-05T15:02:39.847718Z",
+  "relevant_disorders": [
+    "R276"
+  ],
+  "stats": {
+    "number_of_genes": 56,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "ASRG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:318",
+        "gene_name": "aspartylglucosaminidase",
+        "omim_gene": [
+          "613228"
+        ],
+        "alias_name": [
+          "glycosylasparaginase",
+          "N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase"
+        ],
+        "gene_symbol": "AGA",
+        "hgnc_symbol": "AGA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:178351924-178363657",
+              "ensembl_id": "ENSG00000038002"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:177430770-177442503",
+              "ensembl_id": "ENSG00000038002"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Aspartylglucosaminuria OMIM:208400",
+        "aspartylglucosaminuria MONDO:0008830"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:713",
+        "gene_name": "arylsulfatase A",
+        "omim_gene": [
+          "607574"
+        ],
+        "alias_name": [
+          "metachromatic leucodystrophy"
+        ],
+        "gene_symbol": "ARSA",
+        "hgnc_symbol": "ARSA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:51061182-51066607",
+              "ensembl_id": "ENSG00000100299"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:50622754-50628173",
+              "ensembl_id": "ENSG00000100299"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARSA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Metachromatic leukodystrophy OMIM:250100",
+        "metachromatic leukodystrophy, juvenile form MONDO:0009591"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:714",
+        "gene_name": "arylsulfatase B",
+        "omim_gene": [
+          "611542"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ARSB",
+        "hgnc_symbol": "ARSB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:78073032-78281910",
+              "ensembl_id": "ENSG00000113273"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:78777209-78986087",
+              "ensembl_id": "ENSG00000113273"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARSB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis type VI (Maroteaux-Lamy) OMIM:253200",
+        "mucopolysaccharidosis type 6 MONDO:0009661"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1001"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24102",
+        "gene_name": "arylsulfatase G",
+        "omim_gene": [
+          "610008"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ARSG",
+        "hgnc_symbol": "ARSG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:66255323-66418872",
+              "ensembl_id": "ENSG00000141337"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:68259182-68422731",
+              "ensembl_id": "ENSG00000141337"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARSG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20679209",
+        "25452429",
+        "26975023",
+        "29300381",
+        "32455177",
+        "33300174"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Usher syndrome, type IV OMIM:618144",
+        "usher syndrome, type 4 MONDO:0029141"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AC",
+          "PHP32",
+          "FLJ21558",
+          "ACDase"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:735",
+        "gene_name": "N-acylsphingosine amidohydrolase 1",
+        "omim_gene": [
+          "613468"
+        ],
+        "alias_name": [
+          "acylsphingosine deacylase",
+          "acid ceramidase"
+        ],
+        "gene_symbol": "ASAH1",
+        "hgnc_symbol": "ASAH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:17913934-17942494",
+              "ensembl_id": "ENSG00000104763"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:18055992-18084998",
+              "ensembl_id": "ENSG00000104763"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "ASAH1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Farber lipogranulomatosis OMIM:228000",
+        "Farber lipogranulomatosis MONDO:0009218"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSA9947",
+          "CLN12"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30213",
+        "gene_name": "ATPase 13A2",
+        "omim_gene": [
+          "610513"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ATP13A2",
+        "hgnc_symbol": "ATP13A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:17312453-17338423",
+              "ensembl_id": "ENSG00000159363"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:16985958-17011928",
+              "ensembl_id": "ENSG00000159363"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP13A2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28137957",
+        "31996848"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Spastic paraplegia 78, autosomal recessive OMIM:617225",
+        "autosomal recessive spastic paraplegia type 78 MONDO:0014975"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JNCL",
+          "BTN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2074",
+        "gene_name": "CLN3, battenin",
+        "omim_gene": [
+          "607042"
+        ],
+        "alias_name": [
+          "juvenile neuronal ceroid lipofuscinosis"
+        ],
+        "gene_symbol": "CLN3",
+        "hgnc_symbol": "CLN3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:28477983-28506896",
+              "ensembl_id": "ENSG00000188603"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:28474111-28495575",
+              "ensembl_id": "ENSG00000188603"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLN3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 3 OMIM:204200",
+        "neuronal ceroid lipofuscinosis 3 MONDO:0008767"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2076",
+        "gene_name": "CLN5, intracellular trafficking protein",
+        "omim_gene": [
+          "608102"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CLN5",
+        "hgnc_symbol": "CLN5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:77564795-77576652",
+              "ensembl_id": "ENSG00000102805"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:76990660-77019143",
+              "ensembl_id": "ENSG00000102805"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLN5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 5 OMIM:256731",
+        "neuronal ceroid lipofuscinosis 5 MONDO:0009745"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20561",
+          "HsT18960",
+          "nclf"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2077",
+        "gene_name": "CLN6, transmembrane ER protein",
+        "omim_gene": [
+          "606725"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CLN6",
+        "hgnc_symbol": "CLN6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:68499330-68549549",
+              "ensembl_id": "ENSG00000128973"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:68206992-68257211",
+              "ensembl_id": "ENSG00000128973"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-10-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLN6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 6 OMIM:601780",
+        "neuronal ceroid lipofuscinosis 6 MONDO:0011144",
+        "Ceroid lipofuscinosis, neuronal, Kufs type, adult onset OMIM:204300",
+        "neuronal ceroid lipofuscinosis 4A MONDO:0008768"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ39417"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2079",
+        "gene_name": "CLN8, transmembrane ER and ERGIC protein",
+        "omim_gene": [
+          "607837"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CLN8",
+        "hgnc_symbol": "CLN8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:1703944-1734738",
+              "ensembl_id": "ENSG00000182372"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:1755778-1801711",
+              "ensembl_id": "ENSG00000182372"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLN8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 8 OMIM:600143",
+        "neuronal ceroid lipofuscinosis 8 MONDO:0010830",
+        "Ceroid lipofuscinosis, neuronal, 8, Northern epilepsy variant OMIM:610003",
+        "neuronal ceroid lipofuscinosis 8 northern epilepsy variant MONDO:0012391"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CTNS-LSB",
+          "PQLC4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2518",
+        "gene_name": "cystinosin, lysosomal cystine transporter",
+        "omim_gene": [
+          "606272"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CTNS",
+        "hgnc_symbol": "CTNS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:3539762-3564836",
+              "ensembl_id": "ENSG00000040531"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:3636468-3661542",
+              "ensembl_id": "ENSG00000040531"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-07-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTNS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "35137071"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Cystinosis, atypical nephropathic OMIM:219800",
+        "Cystinosis, nephropathic OMIM:219800",
+        "Cystinosis, late-onset juvenile or adolescent nephropathic OMIM:219900",
+        "Cystinosis, ocular nonnephropathic OMIM:219750",
+        "nephropathic cystinosis MONDO:0100151",
+        "juvenile nephropathic cystinosis MONDO:0009066",
+        "ocular cystinosis MONDO:0009064"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9251",
+        "gene_name": "cathepsin A",
+        "omim_gene": [
+          "613111"
+        ],
+        "alias_name": [
+          "carboxypeptidase C",
+          "lysosomal protective protein",
+          "carboxypeptidase-L",
+          "carboxypeptidase Y-like kininase",
+          "deamidase",
+          "lysosomal carboxypeptidase A",
+          "urinary kininase"
+        ],
+        "gene_symbol": "CTSA",
+        "hgnc_symbol": "CTSA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:44518783-44527459",
+              "ensembl_id": "ENSG00000064601"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:45890144-45898820",
+              "ensembl_id": "ENSG00000064601"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTSA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Galactosialidosis OMIM:256540",
+        "galactosialidosis MONDO:0009737"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CLN10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2529",
+        "gene_name": "cathepsin D",
+        "omim_gene": [
+          "116840"
+        ],
+        "alias_name": [
+          "ceroid-lipofuscinosis, neuronal 10"
+        ],
+        "gene_symbol": "CTSD",
+        "hgnc_symbol": "CTSD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:1773982-1785222",
+              "ensembl_id": "ENSG00000117984"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:1752752-1764573",
+              "ensembl_id": "ENSG00000117984"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTSD",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 10 OMIM:610127",
+        "neuronal ceroid lipofuscinosis 10 MONDO:0012414"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CATSF",
+          "CLN13"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2531",
+        "gene_name": "cathepsin F",
+        "omim_gene": [
+          "603539"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CTSF",
+        "hgnc_symbol": "CTSF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:66330934-66336312",
+              "ensembl_id": "ENSG00000174080"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:66563463-66568841",
+              "ensembl_id": "ENSG00000174080"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTSF",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "25274848",
+        "23297359",
+        "28749476",
+        "27668283",
+        "27524508"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 13, Kufs type OMIM:615362",
+        "neuronal ceroid lipofuscinosis 13 MONDO:0014147"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PKND"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2536",
+        "gene_name": "cathepsin K",
+        "omim_gene": [
+          "601105"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CTSK",
+        "hgnc_symbol": "CTSK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:150768684-150780799",
+              "ensembl_id": "ENSG00000143387"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:150796208-150808323",
+              "ensembl_id": "ENSG00000143387"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTSK",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Pycnodysostosis OMIM:265800",
+        "pycnodysostosis MONDO:0009940"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ00118",
+          "FLJ13070",
+          "DNAJC5A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16235",
+        "gene_name": "DnaJ heat shock protein family (Hsp40) member C5",
+        "omim_gene": [
+          "611203"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAJC5",
+        "hgnc_symbol": "DNAJC5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:62526518-62567384",
+              "ensembl_id": "ENSG00000101152"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:63895182-63936031",
+              "ensembl_id": "ENSG00000101152"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAJC5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 4, Parry type OMIM:162350",
+        "neuronal ceroid lipofuscinosis 4B MONDO:0008083"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4006",
+        "gene_name": "alpha-L-fucosidase 1",
+        "omim_gene": [
+          "612280"
+        ],
+        "alias_name": [
+          "Î±-L-fucosidase 1",
+          "tissue fucosidase",
+          "a-L-fucosidase 1"
+        ],
+        "gene_symbol": "FUCA1",
+        "hgnc_symbol": "FUCA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:24171567-24194784",
+              "ensembl_id": "ENSG00000179163"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:23845077-23868294",
+              "ensembl_id": "ENSG00000179163"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FUCA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Fucosidosis OMIM:230000",
+        "fucosidosis MONDO:0009254"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4065",
+        "gene_name": "glucosidase alpha, acid",
+        "omim_gene": [
+          "606800"
+        ],
+        "alias_name": [
+          "Pompe disease",
+          "glycogen storage disease type II"
+        ],
+        "gene_symbol": "GAA",
+        "hgnc_symbol": "GAA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:78075355-78093678",
+              "ensembl_id": "ENSG00000171298"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:80101556-80119879",
+              "ensembl_id": "ENSG00000171298"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GAA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease II OMIM:232300",
+        "glycogen storage disease II MONDO:0009290"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4115",
+        "gene_name": "galactosylceramidase",
+        "omim_gene": [
+          "606890"
+        ],
+        "alias_name": [
+          "Krabbe disease"
+        ],
+        "gene_symbol": "GALC",
+        "hgnc_symbol": "GALC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:88304164-88460009",
+              "ensembl_id": "ENSG00000054983"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:87837820-87993665",
+              "ensembl_id": "ENSG00000054983"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "GALC",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Krabbe disease OMIM:245200",
+        "Krabbe disease MONDO:0009499"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GAS",
+          "GALNAC6S"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4122",
+        "gene_name": "galactosamine (N-acetyl)-6-sulfatase",
+        "omim_gene": [
+          "612222"
+        ],
+        "alias_name": [
+          "Morquio syndrome",
+          "mucopolysaccharidosis type IVA"
+        ],
+        "gene_symbol": "GALNS",
+        "hgnc_symbol": "GALNS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:88880142-88923378",
+              "ensembl_id": "ENSG00000141012"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:88813734-88856970",
+              "ensembl_id": "ENSG00000141012"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "GALNS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis IVA OMIM:253000",
+        "mucopolysaccharidosis type 4A MONDO:0009659"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GBA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4177",
+        "gene_name": "glucosylceramidase beta",
+        "omim_gene": [
+          "606463"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GBA",
+        "hgnc_symbol": "GBA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:155204243-155214490",
+              "ensembl_id": "ENSG00000177628"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:155234452-155244699",
+              "ensembl_id": "ENSG00000177628"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GBA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Gaucher disease, type I OMIM:230800",
+        "Gaucher disease type I MONDO:0009265",
+        "Gaucher disease, type III OMIM:231000",
+        "Gaucher disease type III MONDO:0009267",
+        "Gaucher disease, type IIIC OMIM:231005",
+        "Gaucher disease-ophthalmoplegia-cardiovascular calcification syndrome MONDO:0009268",
+        "Gaucher disease, perinatal lethal OMIM:608013",
+        "Gaucher disease perinatal lethal MONDO:0011945",
+        "Gaucher disease, type II OMIM:230900",
+        "Gaucher disease type II MONDO:0009266"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GALA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4296",
+        "gene_name": "galactosidase alpha",
+        "omim_gene": [
+          "300644"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLA",
+        "hgnc_symbol": "GLA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:100652791-100662913",
+              "ensembl_id": "ENSG00000102393"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:101397803-101407925",
+              "ensembl_id": "ENSG00000102393"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Fabry disease OMIM:301500",
+        "Fabry disease MONDO:0010526"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EBP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4298",
+        "gene_name": "galactosidase beta 1",
+        "omim_gene": [
+          "611458"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLB1",
+        "hgnc_symbol": "GLB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:33038100-33138722",
+              "ensembl_id": "ENSG00000170266"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:32996608-33097230",
+              "ensembl_id": "ENSG00000170266"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLB1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis type IVB (Morquio) OMIM:253010",
+        "mucopolysaccharidosis type 4B MONDO:0009660",
+        "GM1-gangliosidosis, type III OMIM:230650",
+        "GM1 gangliosidosis type 3 MONDO:0009262",
+        "GM1-gangliosidosis, type I OMIM:230500",
+        "GM1 gangliosidosis type 1 MONDO:0009260",
+        "GM1-gangliosidosis, type II OMIM:230600",
+        "GM1 gangliosidosis type 2 MONDO:0009261"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SAP-3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4367",
+        "gene_name": "GM2 ganglioside activator",
+        "omim_gene": [
+          "613109"
+        ],
+        "alias_name": [
+          "cerebroside sulfate activator protein",
+          "sphingolipid activator protein 3"
+        ],
+        "gene_symbol": "GM2A",
+        "hgnc_symbol": "GM2A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:150591711-150650001",
+              "ensembl_id": "ENSG00000196743"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:151212150-151270440",
+              "ensembl_id": "ENSG00000196743"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GM2A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "GM2-gangliosidosis, AB variant OMIM:272750",
+        "Tay-Sachs disease AB variant MONDO:0010099"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Uae1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23657",
+        "gene_name": "glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine kinase",
+        "omim_gene": [
+          "603824"
+        ],
+        "alias_name": [
+          "bifunctional UDP-N-acetylglucosamine 2-epimerase/N-acetylmannosamine kinase"
+        ],
+        "gene_symbol": "GNE",
+        "hgnc_symbol": "GNE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:36214438-36277053",
+              "ensembl_id": "ENSG00000159921"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:36214441-36277056",
+              "ensembl_id": "ENSG00000159921"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-11-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNE",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26721333"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Sialuria OMIM:269921",
+        "sialuria MONDO:0010028",
+        "Nonaka myopathy OMIM:605820",
+        "GNE myopathy MONDO:0011603"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1208",
+          "MGC4170"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29670",
+        "gene_name": "N-acetylglucosamine-1-phosphate transferase alpha and beta subunits",
+        "omim_gene": [
+          "607840"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GNPTAB",
+        "hgnc_symbol": "GNPTAB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:102139275-102224716",
+              "ensembl_id": "ENSG00000111670"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:101745497-101830938",
+              "ensembl_id": "ENSG00000111670"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-09-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNPTAB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mucolipidosis II alpha/beta OMIM:252500",
+        "mucolipidosis type II MONDO:0009650",
+        "Mucolipidosis III alpha/beta OMIM:252600",
+        "mucolipidosis type III MONDO:0018931"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CAB56184",
+          "c316G12.3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23026",
+        "gene_name": "N-acetylglucosamine-1-phosphate transferase gamma subunit",
+        "omim_gene": [
+          "607838"
+        ],
+        "alias_name": [
+          "GlcNAc-phosphotransferase gamma-subunit"
+        ],
+        "gene_symbol": "GNPTG",
+        "hgnc_symbol": "GNPTG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:1401924-1413352",
+              "ensembl_id": "ENSG00000090581"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:1351923-1364113",
+              "ensembl_id": "ENSG00000090581"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-10-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNPTG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mucolipidosis III gamma OMIM:252605",
+        "mucolipidosis type III gamma MONDO:0009652"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4422",
+        "gene_name": "glucosamine (N-acetyl)-6-sulfatase",
+        "omim_gene": [
+          "607664"
+        ],
+        "alias_name": [
+          "Sanfilippo disease IIID",
+          "N-acetylglucosamine-6-sulfatase"
+        ],
+        "gene_symbol": "GNS",
+        "hgnc_symbol": "GNS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:65107225-65153227",
+              "ensembl_id": "ENSG00000135677"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:64713445-64759447",
+              "ensembl_id": "ENSG00000135677"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-06-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis type IIID, OMIM:252940"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4696",
+        "gene_name": "glucuronidase beta",
+        "omim_gene": [
+          "611499"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GUSB",
+        "hgnc_symbol": "GUSB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:65425671-65447301",
+              "ensembl_id": "ENSG00000169919"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:65960684-65982314",
+              "ensembl_id": "ENSG00000169919"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GUSB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis VII OMIM:253220",
+        "mucopolysaccharidosis type 7 MONDO:0009662"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4878",
+        "gene_name": "hexosaminidase subunit alpha",
+        "omim_gene": [
+          "606869"
+        ],
+        "alias_name": [
+          "Tay Sachs disease",
+          "GM2 gangliosidosis",
+          "beta-hexosaminidase subunit alpha"
+        ],
+        "gene_symbol": "HEXA",
+        "hgnc_symbol": "HEXA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:72635775-72668817",
+              "ensembl_id": "ENSG00000213614"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:72340919-72376476",
+              "ensembl_id": "ENSG00000213614"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HEXA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Tay-Sachs disease OMIM:272800",
+        "GM2-gangliosidosis, several forms OMIM:272800",
+        "Tay-Sachs disease MONDO:0010100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4879",
+        "gene_name": "hexosaminidase subunit beta",
+        "omim_gene": [
+          "606873"
+        ],
+        "alias_name": [
+          "beta-hexosaminidase subunit beta"
+        ],
+        "gene_symbol": "HEXB",
+        "hgnc_symbol": "HEXB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:73935848-74018472",
+              "ensembl_id": "ENSG00000049860"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:74640023-74722647",
+              "ensembl_id": "ENSG00000049860"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HEXB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Sandhoff disease, infantile, juvenile, and adult forms OMIM:268800",
+        "Sandhoff disease MONDO:0010006"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ32731",
+          "HGNAT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26527",
+        "gene_name": "heparan-alpha-glucosaminide N-acetyltransferase",
+        "omim_gene": [
+          "610453"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HGSNAT",
+        "hgnc_symbol": "HGSNAT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:42995556-43057998",
+              "ensembl_id": "ENSG00000165102"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:43140455-43202855",
+              "ensembl_id": "ENSG00000165102"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-08-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "HGSNAT",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis type IIIC (Sanfilippo C) OMIM:252930",
+        "Sanfilippo syndrome type C MONDO:0009657"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LUCA1",
+          "HYAL-1",
+          "FUS2",
+          "NAT6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5320",
+        "gene_name": "hyaluronoglucosaminidase 1",
+        "omim_gene": [
+          "607071"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HYAL1",
+        "hgnc_symbol": "HYAL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:50337320-50349812",
+              "ensembl_id": "ENSG00000114378"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:50299889-50312381",
+              "ensembl_id": "ENSG00000114378"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "HYAL1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27604308",
+        "10339581",
+        "21559944",
+        "26322170"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "?Mucopolysaccharidosis type IX OMIM:601492",
+        "mucopolysaccharidosis type 9 MONDO:0011093"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5389",
+        "gene_name": "iduronate 2-sulfatase",
+        "omim_gene": [
+          "300823"
+        ],
+        "alias_name": [
+          "Hunter syndrome"
+        ],
+        "gene_symbol": "IDS",
+        "hgnc_symbol": "IDS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:148558521-148615470",
+              "ensembl_id": "ENSG00000010404"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:149476990-149521096",
+              "ensembl_id": "ENSG00000010404"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "IDS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis II OMIM:309900",
+        "mucopolysaccharidosis type 2 MONDO:0010674"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MPS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5391",
+        "gene_name": "iduronidase, alpha-L-",
+        "omim_gene": [
+          "252800"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IDUA",
+        "hgnc_symbol": "IDUA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:980785-998316",
+              "ensembl_id": "ENSG00000127415"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:986997-1004506",
+              "ensembl_id": "ENSG00000127415"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "IDUA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis Ih OMIM:607014",
+        "Hurler syndrome MONDO:0011758",
+        "Mucopolysaccharidosis Is OMIM:607016",
+        "Scheie syndrome MONDO:0011760",
+        "Mucopolysaccharidosis Ih/s OMIM:607015",
+        "Hurler-Scheie syndromeMONDO:0011759"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD107b"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6501",
+        "gene_name": "lysosomal associated membrane protein 2",
+        "omim_gene": [
+          "309060"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMP2",
+        "hgnc_symbol": "LAMP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:119561682-119603220",
+              "ensembl_id": "ENSG00000005893"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:120427827-120469365",
+              "ensembl_id": "ENSG00000005893"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-08-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMP2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Danon disease OMIM:300257",
+        "Danon disease MONDO:0010281"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LAL",
+          "CESD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6617",
+        "gene_name": "lipase A, lysosomal acid type",
+        "omim_gene": [
+          "613497"
+        ],
+        "alias_name": [
+          "Wolman disease",
+          "lysosomal acid lipase",
+          "sterol esterase"
+        ],
+        "gene_symbol": "LIPA",
+        "hgnc_symbol": "LIPA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:90973326-91174314",
+              "ensembl_id": "ENSG00000107798"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:89213569-89414557",
+              "ensembl_id": "ENSG00000107798"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "LIPA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Cholesteryl ester storage disease OMIM:278000",
+        "Wolman disease OMIM:278000",
+        "lysosomal acid lipase deficiency MONDO:0010204"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LAMAN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6826",
+        "gene_name": "mannosidase alpha class 2B member 1",
+        "omim_gene": [
+          "609458"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAN2B1",
+        "hgnc_symbol": "MAN2B1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:12757325-12777556",
+              "ensembl_id": "ENSG00000104774"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:12646511-12666742",
+              "ensembl_id": "ENSG00000104774"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAN2B1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mannosidosis, alpha-, types I and II OMIM:248500",
+        "alpha-mannosidosis MONDO:0009561"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6831",
+        "gene_name": "mannosidase beta",
+        "omim_gene": [
+          "609489"
+        ],
+        "alias_name": [
+          "beta-mannosidase A"
+        ],
+        "gene_symbol": "MANBA",
+        "hgnc_symbol": "MANBA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:103552660-103682151",
+              "ensembl_id": "ENSG00000109323"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:102631488-102760994",
+              "ensembl_id": "ENSG00000109323"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "MANBA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mannosidosis, beta OMIM:248510",
+        "beta-mannosidosis MONDO:0009562"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRPML1",
+          "ML4",
+          "MLIV",
+          "MST080",
+          "MSTP080",
+          "TRPM-L1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13356",
+        "gene_name": "mucolipin 1",
+        "omim_gene": [
+          "605248"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MCOLN1",
+        "hgnc_symbol": "MCOLN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:7587512-7598895",
+              "ensembl_id": "ENSG00000090674"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:7522626-7534009",
+              "ensembl_id": "ENSG00000090674"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "MCOLN1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mucolipidosis IV OMIM:252650",
+        "mucolipidosis type IV MONDO:0009653"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC33302"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28486",
+        "gene_name": "major facilitator superfamily domain containing 8",
+        "omim_gene": [
+          "611124"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MFSD8",
+        "hgnc_symbol": "MFSD8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:128838960-128887150",
+              "ensembl_id": "ENSG00000164073"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:127917732-127966034",
+              "ensembl_id": "ENSG00000164073"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-02-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "MFSD8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 7 OMIM:610951",
+        "neuronal ceroid lipofuscinosis 7 MONDO:0012588"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D22S674"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7631",
+        "gene_name": "alpha-N-acetylgalactosaminidase",
+        "omim_gene": [
+          "104170"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NAGA",
+        "hgnc_symbol": "NAGA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:42454358-42466846",
+              "ensembl_id": "ENSG00000198951"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:42058354-42070842",
+              "ensembl_id": "ENSG00000198951"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "NAGA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Schindler disease, type I OMIM:609241",
+        "Schindler disease, type III OMIM:609241",
+        "alpha-N-acetylgalactosaminidase deficiency type 1MONDO:0012221",
+        "Kanzaki disease OMIM:609242",
+        "alpha-N-acetylgalactosaminidase deficiency type 2 MONDO:0012222"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NAG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7632",
+        "gene_name": "N-acetyl-alpha-glucosaminidase",
+        "omim_gene": [
+          "609701"
+        ],
+        "alias_name": [
+          "Sanfilippo disease IIIB"
+        ],
+        "gene_symbol": "NAGLU",
+        "hgnc_symbol": "NAGLU",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:40688190-40696467",
+              "ensembl_id": "ENSG00000108784"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:42536172-42544449",
+              "ensembl_id": "ENSG00000108784"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "NAGLU",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis type IIIB (Sanfilippo B) OMIM:252920",
+        "Sanfilippo syndrome type B MONDO:0009656"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7758",
+        "gene_name": "neuraminidase 1",
+        "omim_gene": [
+          "608272"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NEU1",
+        "hgnc_symbol": "NEU1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31825436-31830683",
+              "ensembl_id": "ENSG00000204386"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31857659-31862906",
+              "ensembl_id": "ENSG00000204386"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "NEU1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Sialidosis, type II OMIM:256550",
+        "Sialidosis, type I OMIM:256550",
+        "sialidosis type 2 MONDO:0009738"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7897",
+        "gene_name": "NPC intracellular cholesterol transporter 1",
+        "omim_gene": [
+          "607623"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NPC1",
+        "hgnc_symbol": "NPC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:21086148-21166862",
+              "ensembl_id": "ENSG00000141458"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:23506184-23586898",
+              "ensembl_id": "ENSG00000141458"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-04-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "NPC1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Niemann-Pick disease, type D OMIM:257220",
+        "Niemann-Pick disease, type C1 OMIM:257220",
+        "Niemann-Pick disease, type C1 MONDO:0009757"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HE1",
+          "NP-C2",
+          "EDDM1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14537",
+        "gene_name": "NPC intracellular cholesterol transporter 2",
+        "omim_gene": [
+          "601015"
+        ],
+        "alias_name": [
+          "epididymal protein 1"
+        ],
+        "gene_symbol": "NPC2",
+        "hgnc_symbol": "NPC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:74942895-74960880",
+              "ensembl_id": "ENSG00000119655"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:74476192-74494177",
+              "ensembl_id": "ENSG00000119655"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "NPC2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Niemann-pick disease, type C2 OMIM:607625",
+        "Niemann-Pick disease, type C2 MONDO:0011873"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CLN1",
+          "INCL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9325",
+        "gene_name": "palmitoyl-protein thioesterase 1",
+        "omim_gene": [
+          "600722"
+        ],
+        "alias_name": [
+          "ceroid-lipofuscinosis, neuronal 1, infantile"
+        ],
+        "gene_symbol": "PPT1",
+        "hgnc_symbol": "PPT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:40538379-40563375",
+              "ensembl_id": "ENSG00000131238"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:40071461-40097727",
+              "ensembl_id": "ENSG00000131238"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-06-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "PPT1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 1 OMIM:256730",
+        "neuronal ceroid lipofuscinosis 1 MONDO:0009744"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9498",
+        "gene_name": "prosaposin",
+        "omim_gene": [
+          "176801"
+        ],
+        "alias_name": [
+          "variant Gaucher disease and variant metachromatic leukodystrophy"
+        ],
+        "gene_symbol": "PSAP",
+        "hgnc_symbol": "PSAP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:73576055-73611126",
+              "ensembl_id": "ENSG00000197746"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:71816298-71851375",
+              "ensembl_id": "ENSG00000197746"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSAP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Krabbe disease, atypical OMIM:611722",
+        "Krabbe disease, atypical, due to saposin A deficiency MONDO:0012720",
+        "Combined SAP deficiency OMIM:611721",
+        "encephalopathy due to prosaposin deficiency MONDO:0012719",
+        "Gaucher disease, atypical OMIM:610539",
+        "atypical Gaucher disease due to saposin C deficiency MONDO:0012517",
+        "Metachromatic leukodystrophy due to SAP-b deficiency OMIM:249900",
+        "metachromatic leukodystrophy due to saposin b deficiency MONDO:0009590"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSS",
+          "MPS3A",
+          "SFMD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10818",
+        "gene_name": "N-sulfoglucosamine sulfohydrolase",
+        "omim_gene": [
+          "605270"
+        ],
+        "alias_name": [
+          "sulfamidase",
+          "mucopolysaccharidosis type IIIA"
+        ],
+        "gene_symbol": "SGSH",
+        "hgnc_symbol": "SGSH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:78180515-78194722",
+              "ensembl_id": "ENSG00000181523"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:80206716-80220923",
+              "ensembl_id": "ENSG00000181523"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-06-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "SGSH",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis type IIIA (Sanfilippo A) OMIM:252900",
+        "Sanfilippo syndrome type A MONDO:0009655"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AST",
+          "SD",
+          "ISSD",
+          "NSD",
+          "SIALIN",
+          "SLD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10933",
+        "gene_name": "solute carrier family 17 member 5",
+        "omim_gene": [
+          "604322"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC17A5",
+        "hgnc_symbol": "SLC17A5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:74303102-74363878",
+              "ensembl_id": "ENSG00000119899"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:73593379-73654155",
+              "ensembl_id": "ENSG00000119899"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-01-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC17A5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Salla disease OMIM:604369",
+        "Salla disease MONDO:0011449",
+        "Sialic acid storage disorder, infantile OMIM:269920",
+        "free sialic acid storage disease, infantile form MONDO:0010027"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ASM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11120",
+        "gene_name": "sphingomyelin phosphodiesterase 1",
+        "omim_gene": [
+          "607608"
+        ],
+        "alias_name": [
+          "acid sphingomyelinase"
+        ],
+        "gene_symbol": "SMPD1",
+        "hgnc_symbol": "SMPD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:6411655-6416228",
+              "ensembl_id": "ENSG00000166311"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:6390431-6394998",
+              "ensembl_id": "ENSG00000166311"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMPD1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Niemann-Pick disease, type A OMIM:257200",
+        "Niemann-Pick disease type A MONDO:0009756",
+        "Niemann-Pick disease, type B OMIM:607616",
+        "Niemann-Pick disease type B MONDO:0011871"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FGE",
+          "UNQ3037"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20376",
+        "gene_name": "sulfatase modifying factor 1",
+        "omim_gene": [
+          "607939"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SUMF1",
+        "hgnc_symbol": "SUMF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:3742498-4508965",
+              "ensembl_id": "ENSG00000144455"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:3700814-4467281",
+              "ensembl_id": "ENSG00000144455"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-04-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SUMF1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Multiple sulfatase deficiency OMIM:272200",
+        "mucosulfatidosis MONDO:0010088"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2073",
+        "gene_name": "tripeptidyl peptidase 1",
+        "omim_gene": [
+          "607998"
+        ],
+        "alias_name": [
+          "TPP I"
+        ],
+        "gene_symbol": "TPP1",
+        "hgnc_symbol": "TPP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:6634000-6640692",
+              "ensembl_id": "ENSG00000166340"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:6612763-6619461",
+              "ensembl_id": "ENSG00000166340"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-12-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "TPP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "North London GLH"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 2 OMIM:204500",
+        "neuronal ceroid lipofuscinosis 2 MONDO:0008769"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14584",
+        "gene_name": "VPS16, CORVET/HOPS core subunit",
+        "omim_gene": [
+          "608550"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VPS16",
+        "hgnc_symbol": "VPS16",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:2821349-2847378",
+              "ensembl_id": "ENSG00000215305"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:2840703-2866732",
+              "ensembl_id": "ENSG00000215305"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-07-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "VPS16",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33938619",
+        "34013567"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis-like syndrome (biallelic)",
+        "Dystonia Associated with Lysosomal Abnormalities (monoallelic)",
+        "Dystonia 30, OMIM:619291"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18179",
+        "gene_name": "VPS33A, CORVET/HOPS core subunit",
+        "omim_gene": [
+          "610034"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VPS33A",
+        "hgnc_symbol": "VPS33A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:122714111-122751068",
+              "ensembl_id": "ENSG00000139719"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:122229564-122266521",
+              "ensembl_id": "ENSG00000139719"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-02-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "VPS33A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28013294",
+        "27547915",
+        "31070736"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis-plus syndrome OMIM:617303",
+        "mucopolysaccharidosis-like syndrome with congenital heart defects and hematopoietic disorders MONDO:0015012"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CLC-7",
+          "OPTA2",
+          "CLC7",
+          "ClC-7",
+          "PPP1R63"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2025",
+        "gene_name": "chloride voltage-gated channel 7",
+        "omim_gene": [
+          "602727"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 63"
+        ],
+        "gene_symbol": "CLCN7",
+        "hgnc_symbol": "CLCN7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:1494935-1525581",
+              "ensembl_id": "ENSG00000103249"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:1444934-1475580",
+              "ensembl_id": "ENSG00000103249"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLCN7",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "31155284",
+        "38838776",
+        "39056574"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypopigmentation, organomegaly, and delayed myelination and development, OMIM:618541",
+        "hypopigmentation, organomegaly, and delayed myelination and development, MONDO:0032805"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q2_26_promote_green"
+      ],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

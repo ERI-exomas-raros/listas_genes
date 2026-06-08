@@ -1,0 +1,86 @@
+{
+  "id": 1324,
+  "hash_id": null,
+  "name": "Facioscapulohumeral muscular dystrophy - extended testing",
+  "disease_group": "Neurology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.3",
+  "version_created": "2026-01-23T10:20:56.238970Z",
+  "relevant_disorders": [
+    "R345"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0650",
+          "FSHD2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29090",
+        "gene_name": "structural maintenance of chromosomes flexible hinge domain containing 1",
+        "omim_gene": [
+          "614982"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SMCHD1",
+        "hgnc_symbol": "SMCHD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:2655737-2805015",
+              "ensembl_id": "ENSG00000101596"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:2655738-2805017",
+              "ensembl_id": "ENSG00000101596"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-03-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMCHD1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Facioscapulohumeral muscular dystrophy 2, digenic, OMIM:158901",
+        "facioscapulohumeral muscular dystrophy 2, MONDO:0008031"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "digenic"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

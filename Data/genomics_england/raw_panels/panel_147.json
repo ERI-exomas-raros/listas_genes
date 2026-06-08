@@ -1,0 +1,6204 @@
+{
+  "id": 147,
+  "hash_id": "5819a24f8f6203341de99c89",
+  "name": "Cerebral vascular malformations",
+  "disease_group": "Neurology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "5.1",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Cerebrovascular disorders",
+    "Vein of Galen malformation",
+    "Cerebral arteriovenous malformations",
+    "Moyamoya disease",
+    "R336"
+  ],
+  "stats": {
+    "number_of_genes": 115,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "ACTSA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:130",
+        "gene_name": "actin, alpha 2, smooth muscle, aorta",
+        "omim_gene": [
+          "102620"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACTA2",
+        "hgnc_symbol": "ACTA2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:90694831-90751147",
+              "ensembl_id": "ENSG00000107796"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:88935074-88991339",
+              "ensembl_id": "ENSG00000107796"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACTA2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Other",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Moyamoya disease 5, OMIM:614042"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HHT2",
+          "ALK1",
+          "HHT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:175",
+        "gene_name": "activin A receptor like type 1",
+        "omim_gene": [
+          "601284"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACVRL1",
+        "hgnc_symbol": "ACVRL1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:52300692-52317145",
+              "ensembl_id": "ENSG00000139567"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:51906908-51923361",
+              "ensembl_id": "ENSG00000139567"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACVRL1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Telangiectasia, hereditary hemorrhagic, type 2, OMIM",
+        "600376"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARP5",
+          "AGF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23140",
+        "gene_name": "angiopoietin like 6",
+        "omim_gene": [
+          "609336"
+        ],
+        "alias_name": [
+          "angiopoietin-related protein 5"
+        ],
+        "gene_symbol": "ANGPTL6",
+        "hgnc_symbol": "ANGPTL6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:10203014-10213472",
+              "ensembl_id": "ENSG00000130812"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:10092338-10102796",
+              "ensembl_id": "ENSG00000130812"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-09-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANGPTL6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29304371",
+        "33106390",
+        "29304371"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "brain aneurysm MONDO:0005291"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TAOS2",
+          "FLJ10261",
+          "DOG1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21625",
+        "gene_name": "anoctamin 1",
+        "omim_gene": [
+          "610108"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANO1",
+        "hgnc_symbol": "ANO1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:69924408-70035634",
+              "ensembl_id": "ENSG00000131620"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:70078302-70189528",
+              "ensembl_id": "ENSG00000131620"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-08-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANO1",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "37253099"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Moyamoya disease 7, OMIM:620687",
+        "moyamoya disease 7, MONDO:0958202"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNF55",
+          "c-Cbl"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1541",
+        "gene_name": "Cbl proto-oncogene",
+        "omim_gene": [
+          "165360"
+        ],
+        "alias_name": [
+          "oncogene CBL2"
+        ],
+        "gene_symbol": "CBL",
+        "hgnc_symbol": "CBL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:119076752-119178859",
+              "ensembl_id": "ENSG00000110395"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:119206276-119313926",
+              "ensembl_id": "ENSG00000110395"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "CBL",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "28343148",
+        "25283271",
+        "28589114",
+        "32637631",
+        "37778001"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Research",
+        "Literature"
+      ],
+      "phenotypes": [
+        "cerebral arterial disease, MONDO:0006693",
+        "Moyamoya disease, MONDO:0016820",
+        "early-onset moyamoya angiopathy",
+        "Noonan syndrome-like disorder with or without juvenile myelomonocytic leukemia, OMIM:613563"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC4607",
+          "OSM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21708",
+        "gene_name": "CCM2 scaffolding protein",
+        "omim_gene": [
+          "607929"
+        ],
+        "alias_name": [
+          "malcavernin",
+          "osmosensing scaffold for MEKK3"
+        ],
+        "gene_symbol": "CCM2",
+        "hgnc_symbol": "CCM2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:45039074-45116068",
+              "ensembl_id": "ENSG00000136280"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:44999475-45076469",
+              "ensembl_id": "ENSG00000136280"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCM2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20301470",
+        "14624391",
+        "31937560"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Cerebral cavernous malformations-2, OMIM:603284"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2201",
+        "gene_name": "collagen type III alpha 1 chain",
+        "omim_gene": [
+          "120180"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL3A1",
+        "hgnc_symbol": "COL3A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:189839046-189877472",
+              "ensembl_id": "ENSG00000168542"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:188974320-189012746",
+              "ensembl_id": "ENSG00000168542"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL3A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, vascular type, OMIM:130050"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2209",
+        "gene_name": "collagen type V alpha 1 chain",
+        "omim_gene": [
+          "120215"
+        ],
+        "alias_name": [
+          "alpha 1 type V collagen"
+        ],
+        "gene_symbol": "COL5A1",
+        "hgnc_symbol": "COL5A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:137533620-137736686",
+              "ensembl_id": "ENSG00000130635"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:134641774-134844843",
+              "ensembl_id": "ENSG00000130635"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL5A1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "17053184",
+        "31903434",
+        "32938213",
+        "33189937",
+        "35911880"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, classic type, 1, OMIM:130000",
+        "Fibromuscular dysplasia, multifocal, OMIM:619329"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "END",
+          "HHT1",
+          "CD105"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3349",
+        "gene_name": "endoglin",
+        "omim_gene": [
+          "131195"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ENG",
+        "hgnc_symbol": "ENG",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:130577291-130617035",
+              "ensembl_id": "ENSG00000106991"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:127815012-127854756",
+              "ensembl_id": "ENSG00000106991"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-03-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "ENG",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20301525",
+        "15024723"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Other"
+      ],
+      "phenotypes": [
+        "Telangiectasia, hereditary hemorrhagic, type 1, OMIM:187300"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GC-SA3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4685",
+        "gene_name": "guanylate cyclase 1 soluble subunit alpha",
+        "omim_gene": [
+          "139396"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GUCY1A3",
+        "hgnc_symbol": "GUCY1A3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:156587863-156653501",
+              "ensembl_id": "ENSG00000164116"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:155666711-155732349",
+              "ensembl_id": "ENSG00000164116"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "GUCY1A3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24581742",
+        "26777256"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Other",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Moyamoya 6 with achalasia, OMIM:615750"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CAM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1573",
+        "gene_name": "KRIT1, ankyrin repeat containing",
+        "omim_gene": [
+          "604214"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KRIT1",
+        "hgnc_symbol": "KRIT1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:91828283-91875480",
+              "ensembl_id": "ENSG00000001631"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:92198969-92246166",
+              "ensembl_id": "ENSG00000001631"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-03-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRIT1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10508515",
+        "20301470"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cerebral cavernous malformations-1, OMIM:116860",
+        "Hyperkeratotic cutaneous capillary-venous malformations associated with cerebral capillary malformations, OMIM:116860",
+        "Cavernous malformations of CNS and retina, OMIM:116860"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TFAR15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8761",
+        "gene_name": "programmed cell death 10",
+        "omim_gene": [
+          "609118"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PDCD10",
+        "hgnc_symbol": "PDCD10",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:167401086-167452727",
+              "ensembl_id": "ENSG00000114209"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:167683298-167734939",
+              "ensembl_id": "ENSG00000114209"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-12-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDCD10",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "20301470",
+        "15543491"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cerebral cavernous malformations 3, OMIM:603285"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GAP",
+          "CM-AVM",
+          "p120GAP",
+          "p120RASGAP",
+          "p120"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9871",
+        "gene_name": "RAS p21 protein activator 1",
+        "omim_gene": [
+          "139150"
+        ],
+        "alias_name": [
+          "capillary malformation-arteriovenous malformation",
+          "p120 RAS GTPase activating protein"
+        ],
+        "gene_symbol": "RASA1",
+        "hgnc_symbol": "RASA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:86563705-86687748",
+              "ensembl_id": "ENSG00000145715"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:87267888-87391931",
+              "ensembl_id": "ENSG00000145715"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "RASA1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "14639529"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Other",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Capillary malformation-arteriovenous malformation 1, OMIM:608354"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1554",
+          "NET57"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14539",
+        "gene_name": "ring finger protein 213",
+        "omim_gene": [
+          "613768"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RNF213",
+        "hgnc_symbol": "RNF213",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:78234665-78372586",
+              "ensembl_id": "ENSG00000173821"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:80260866-80398786",
+              "ensembl_id": "ENSG00000173821"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-02-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "RNF213",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21048783"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert list",
+        "Other"
+      ],
+      "phenotypes": [
+        "{Moyamoya disease 2, susceptibility to}, OMIM:607151"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SBBI88",
+          "Mg11",
+          "HDDC1",
+          "MOP-5",
+          "AGS5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15925",
+        "gene_name": "SAM and HD domain containing deoxynucleoside triphosphate triphosphohydrolase 1",
+        "omim_gene": [
+          "606754"
+        ],
+        "alias_name": [
+          "HD domain containing 1",
+          "monocyte protein 5",
+          "Aicardi-Goutieres syndrome 5"
+        ],
+        "gene_symbol": "SAMHD1",
+        "hgnc_symbol": "SAMHD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:35518632-35580246",
+              "ensembl_id": "ENSG00000101347"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:36890229-36951843",
+              "ensembl_id": "ENSG00000101347"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-07-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "SAMHD1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21402907",
+        "20653736"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Moyamoya disease, MONDO:0016820"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GLUT10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13444",
+        "gene_name": "solute carrier family 2 member 10",
+        "omim_gene": [
+          "606145"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC2A10",
+        "hgnc_symbol": "SLC2A10",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:45338126-45364965",
+              "ensembl_id": "ENSG00000197496"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:46709487-46736347",
+              "ensembl_id": "ENSG00000197496"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-04-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC2A10",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16550171"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Arterial tortuosity syndrome, OMIM:208050"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DPC4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6770",
+        "gene_name": "SMAD family member 4",
+        "omim_gene": [
+          "600993"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SMAD4",
+        "hgnc_symbol": "SMAD4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:48494410-48611415",
+              "ensembl_id": "ENSG00000141646"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:51028394-51085045",
+              "ensembl_id": "ENSG00000141646"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMAD4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Juvenile polyposis/hereditary hemorrhagic telangiectasia syndrome, OMIM:175050"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "YY1AP",
+          "HCCA2",
+          "YAP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30935",
+        "gene_name": "YY1 associated protein 1",
+        "omim_gene": [
+          "607860"
+        ],
+        "alias_name": null,
+        "gene_symbol": "YY1AP1",
+        "hgnc_symbol": "YY1AP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:155629237-155658791",
+              "ensembl_id": "ENSG00000163374"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:155659443-155689000",
+              "ensembl_id": "ENSG00000163374"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "YY1AP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Grange syndrome, OMIM:602531"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ADGF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1839",
+        "gene_name": "adenosine deaminase 2",
+        "omim_gene": [
+          "607575"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADA2",
+        "hgnc_symbol": "ADA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:17660194-17702879",
+              "ensembl_id": "ENSG00000093072"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:17178790-17221989",
+              "ensembl_id": "ENSG00000093072"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADA2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "3471198",
+        "25528372",
+        "33791889",
+        "36528591"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen",
+        "Literature"
+      ],
+      "phenotypes": [
+        "?Sneddon syndrome, OMIM:182410",
+        "Polyarteritis nodosa, MONDO:0019170"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FRP1",
+          "SCKL",
+          "SCKL1",
+          "MEC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:882",
+        "gene_name": "ATR serine/threonine kinase",
+        "omim_gene": [
+          "601215"
+        ],
+        "alias_name": [
+          "MEC1, mitosis entry checkpoint 1, homolog (S. cerevisiae)"
+        ],
+        "gene_symbol": "ATR",
+        "hgnc_symbol": "ATR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:142168077-142297668",
+              "ensembl_id": "ENSG00000175054"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:142449235-142578826",
+              "ensembl_id": "ENSG00000175054"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATR",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12640452"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Seckel syndrome 1, OMIM:210600"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:44662",
+        "gene_name": "coiled-coil glutamate rich protein 2",
+        "omim_gene": [
+          "617634"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CCER2",
+        "hgnc_symbol": "CCER2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:39399620-39402798",
+              "ensembl_id": "ENSG00000262484"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:38908980-38912158",
+              "ensembl_id": "ENSG00000262484"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-01-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCER2",
+      "confidence_level": "2",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "27717682"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Moyamoya Disease, MONDO:0016820"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0912",
+          "SCKL5",
+          "MCPH9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29298",
+        "gene_name": "centrosomal protein 152",
+        "omim_gene": [
+          "613529"
+        ],
+        "alias_name": [
+          "asterless"
+        ],
+        "gene_symbol": "CEP152",
+        "hgnc_symbol": "CEP152",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:49005125-49103343",
+              "ensembl_id": "ENSG00000103995"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:48712928-48811146",
+              "ensembl_id": "ENSG00000103995"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CEP152",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21131973"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Seckel syndrome 5, OMIM:613823"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Mi-2b",
+          "Mi2-BETA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1919",
+        "gene_name": "chromodomain helicase DNA binding protein 4",
+        "omim_gene": [
+          "603277"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CHD4",
+        "hgnc_symbol": "CHD4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:6679249-6716642",
+              "ensembl_id": "ENSG00000111642"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:6570083-6607476",
+              "ensembl_id": "ENSG00000111642"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHD4",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31474762",
+        "27616479",
+        "27479907",
+        "28991257"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Moyamoya disease MONDO:0016820",
+        "Sifrim-Hitz-Weiss syndrome OMIM:617159",
+        "Sifrim-Hitz-Weiss syndrome MONDO:0014946"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NOT3H",
+          "KIAA0691",
+          "LENG2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7879",
+        "gene_name": "CCR4-NOT transcription complex subunit 3",
+        "omim_gene": [
+          "604910"
+        ],
+        "alias_name": [
+          "NOT3 (negative regulator of transcription 3, yeast) homolog"
+        ],
+        "gene_symbol": "CNOT3",
+        "hgnc_symbol": "CNOT3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:54641444-54659419",
+              "ensembl_id": "ENSG00000088038"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:54137728-54155681",
+              "ensembl_id": "ENSG00000088038"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-07-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "CNOT3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31474762"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Moyamoya disease MONDO:0016820",
+        "Intellectual developmental disorder with speech delay, autism, and dysmorphic facies OMIM:618672",
+        "intellectual developmental disorder with speech delay, autism, and dysmorphic facies MONDO:0032864"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hDIA1",
+          "LFHL1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2876",
+        "gene_name": "diaphanous related formin 1",
+        "omim_gene": [
+          "602121"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DIAPH1",
+        "hgnc_symbol": "DIAPH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:140894583-140998622",
+              "ensembl_id": "ENSG00000131504"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:141515016-141619055",
+              "ensembl_id": "ENSG00000131504"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "DIAPH1",
+      "confidence_level": "2",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "34125151",
+        "37400591",
+        "37012328"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Seizures, cortical blindness, microcephaly syndrome, OMIM:616632",
+        "progressive microcephaly-seizures-cortical blindness-developmental delay syndrome, MONDO:0014714"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Tyro11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3395",
+        "gene_name": "EPH receptor B4",
+        "omim_gene": [
+          "600011"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EPHB4",
+        "hgnc_symbol": "EPHB4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:100400187-100425121",
+              "ensembl_id": "ENSG00000196411"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:100802565-100827521",
+              "ensembl_id": "ENSG00000196411"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "EPHB4",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Capillary malformation-arteriovenous malformation 2, OMIM:618196"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20371",
+          "MFSD7C"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20105",
+        "gene_name": "feline leukemia virus subgroup C cellular receptor family member 2",
+        "omim_gene": [
+          "610865"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FLVCR2",
+        "hgnc_symbol": "FLVCR2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:76044960-76129557",
+              "ensembl_id": "ENSG00000119686"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:75578617-75663214",
+              "ensembl_id": "ENSG00000119686"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-05-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLVCR2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20206334"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Proliferative Vasculopathy And Hydranencephaly-Hydrocephaly Syndrome, OMIM:225790"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HFH-11",
+          "trident",
+          "HNF-3",
+          "INS-1",
+          "MPP2",
+          "MPHOSPH2",
+          "TGT3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3818",
+        "gene_name": "forkhead box M1",
+        "omim_gene": [
+          "602341"
+        ],
+        "alias_name": [
+          "M-phase phosphoprotein 2"
+        ],
+        "gene_symbol": "FOXM1",
+        "hgnc_symbol": "FOXM1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:2966847-2986206",
+              "ensembl_id": "ENSG00000111206"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:2857681-2877155",
+              "ensembl_id": "ENSG00000111206"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXM1",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "38969938"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Moyamoya disease, MONDO:0016820"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BMP-9",
+          "BMP9"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:4217",
+        "gene_name": "growth differentiation factor 2",
+        "omim_gene": [
+          "605120"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GDF2",
+        "hgnc_symbol": "GDF2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:48413092-48416853",
+              "ensembl_id": "ENSG00000128802"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:47322490-47326270",
+              "ensembl_id": "ENSG00000263761"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-09-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "GDF2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Amber",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Telangiectasia, hereditary hemorrhagic, type 5, OMIM:615506"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD113t-C",
+          "beta-globin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4827",
+        "gene_name": "hemoglobin subunit beta",
+        "omim_gene": [
+          "141900"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HBB",
+        "hgnc_symbol": "HBB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:5246694-5250625",
+              "ensembl_id": "ENSG00000244734"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:5225464-5229395",
+              "ensembl_id": "ENSG00000244734"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HBB",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20301551"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Literature",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Sickle cell anemia, OMIM:603903"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "gene-therapy-trial"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD29",
+          "GPIIA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6153",
+        "gene_name": "integrin subunit beta 1",
+        "omim_gene": [
+          "135630"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ITGB1",
+        "hgnc_symbol": "ITGB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:33189247-33294720",
+              "ensembl_id": "ENSG00000150093"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:32900319-33005792",
+              "ensembl_id": "ENSG00000150093"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-06-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "ITGB1",
+      "confidence_level": "2",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "37978175"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Vein of Galen aneurysmal malformation, HP:0030713"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ECE3",
+          "CD238"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6308",
+        "gene_name": "Kell blood group, metallo-endopeptidase",
+        "omim_gene": [
+          "613883"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KEL",
+        "hgnc_symbol": "KEL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:142638201-142659768",
+              "ensembl_id": "ENSG00000197993"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:142941114-142962681",
+              "ensembl_id": "ENSG00000197993"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "KEL",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30578106",
+        "37978175"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "vein of Galen aneurysm, MONDO:0015196"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JAW1L",
+          "IRAG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7237",
+        "gene_name": "murine retrovirus integration site 1 homolog",
+        "omim_gene": [
+          "604673"
+        ],
+        "alias_name": [
+          "inositol 1,4,5-triphosphate-associated cGMP kinase substrate",
+          "IP3R-associated cGMP kinase substrate"
+        ],
+        "gene_symbol": "MRVI1",
+        "hgnc_symbol": "MRVI1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:10594638-10715535",
+              "ensembl_id": "ENSG00000072952"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:10573091-10693988",
+              "ensembl_id": "ENSG00000072952"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-06-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "MRVI1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SMMHC",
+          "SMHC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7569",
+        "gene_name": "myosin heavy chain 11",
+        "omim_gene": [
+          "160745"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYH11",
+        "hgnc_symbol": "MYH11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:15797029-15950890",
+              "ensembl_id": "ENSG00000133392"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:15703172-15857033",
+              "ensembl_id": "ENSG00000133392"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYH11",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29263223",
+        "16444274"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "moyamoya-like angiopath",
+        "Aortic aneurysm, familial thoracic 4, OMIM:132900"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7765",
+        "gene_name": "neurofibromin 1",
+        "omim_gene": [
+          "613113"
+        ],
+        "alias_name": [
+          "neurofibromatosis",
+          "von Recklinghausen disease",
+          "Watson disease"
+        ],
+        "gene_symbol": "NF1",
+        "hgnc_symbol": "NF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:29421945-29709134",
+              "ensembl_id": "ENSG00000196712"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:31094927-31382116",
+              "ensembl_id": "ENSG00000196712"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "NF1",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10754001"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Moyamoya disease, MONDO:0016820",
+        "Neurofibromatosis, type 1, OMIM:162200"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ECNOS",
+          "eNOS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7876",
+        "gene_name": "nitric oxide synthase 3",
+        "omim_gene": [
+          "163729"
+        ],
+        "alias_name": [
+          "endothelial nitric oxide synthase"
+        ],
+        "gene_symbol": "NOS3",
+        "hgnc_symbol": "NOS3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:150688083-150711676",
+              "ensembl_id": "ENSG00000164867"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:150990995-151014588",
+              "ensembl_id": "ENSG00000164867"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-08-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "NOS3",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "36941667",
+        "37383439"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Moyamoya disease, MONDO:0016820"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KEN",
+          "KIAA0402",
+          "PCN",
+          "PCNTB",
+          "SCKL4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16068",
+        "gene_name": "pericentrin",
+        "omim_gene": [
+          "605925"
+        ],
+        "alias_name": [
+          "kendrin",
+          "Seckel syndrome 4"
+        ],
+        "gene_symbol": "PCNT",
+        "hgnc_symbol": "PCNT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:47744036-47865682",
+              "ensembl_id": "ENSG00000160299"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:46324122-46445769",
+              "ensembl_id": "ENSG00000160299"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCNT",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15368497"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Moyamoya disease, MONDO:0016820",
+        "Microcephalic osteodysplastic primordial dwarfism, type II, OMIM:210720"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PBP",
+          "Pc-1",
+          "TRPP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9008",
+        "gene_name": "polycystin 1, transient receptor potential channel interacting",
+        "omim_gene": [
+          "601313"
+        ],
+        "alias_name": [
+          "polycystin 1",
+          "transient receptor potential cation channel, subfamily P, member 1"
+        ],
+        "gene_symbol": "PKD1",
+        "hgnc_symbol": "PKD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:2138711-2185899",
+              "ensembl_id": "ENSG00000008710"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:2088710-2135898",
+              "ensembl_id": "ENSG00000008710"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PKD1",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Polycystic kidney disease, adult type I, OMIM:173900"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PKD4",
+          "PC2",
+          "Pc-2",
+          "TRPP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9009",
+        "gene_name": "polycystin 2, transient receptor potential cation channel",
+        "omim_gene": [
+          "173910"
+        ],
+        "alias_name": [
+          "transient receptor potential cation channel, subfamily P, member 2"
+        ],
+        "gene_symbol": "PKD2",
+        "hgnc_symbol": "PKD2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:88928820-88998929",
+              "ensembl_id": "ENSG00000118762"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:88007668-88077777",
+              "ensembl_id": "ENSG00000118762"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-08-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "PKD2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Polycystic kidney disease 2, OMIM:613095"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10707"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25566",
+        "gene_name": "SET domain containing 5",
+        "omim_gene": [
+          "615743"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SETD5",
+        "hgnc_symbol": "SETD5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:9439299-9520924",
+              "ensembl_id": "ENSG00000168137"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:9397615-9479240",
+              "ensembl_id": "ENSG00000168137"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "SETD5",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31474762",
+        "24680889",
+        "23020937",
+        "25138099"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Moyamoya disease MONDO:0016820",
+        "Mental retardation, autosomal dominant 23 OMIM:615761",
+        "intellectual disability-facial dysmorphism syndrome due to SETD5 haploinsufficiency MONDO:0014336"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SMAD8",
+          "SMAD8/9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6774",
+        "gene_name": "SMAD family member 9",
+        "omim_gene": [
+          "603295"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SMAD9",
+        "hgnc_symbol": "SMAD9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:37418968-37494902",
+              "ensembl_id": "ENSG00000120693"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:36844831-36920765",
+              "ensembl_id": "ENSG00000120693"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMAD9",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TMTSP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17754",
+        "gene_name": "thrombospondin type 1 domain containing 1",
+        "omim_gene": [
+          "616821"
+        ],
+        "alias_name": null,
+        "gene_symbol": "THSD1",
+        "hgnc_symbol": "THSD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:52951305-52980629",
+              "ensembl_id": "ENSG00000136114"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:52377167-52406494",
+              "ensembl_id": "ENSG00000136114"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-01-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "THSD1",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27895300"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "subarachnoid hemorrhage"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MRP6",
+          "EST349056",
+          "MLP1",
+          "URG7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:57",
+        "gene_name": "ATP binding cassette subfamily C member 6",
+        "omim_gene": [
+          "603234"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ABCC6",
+        "hgnc_symbol": "ABCC6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:16242785-16317379",
+              "ensembl_id": "ENSG00000091262"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:16148928-16223522",
+              "ensembl_id": "ENSG00000091262"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCC6",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Moyamoya disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ACE1",
+          "CD143"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2707",
+        "gene_name": "angiotensin I converting enzyme",
+        "omim_gene": [
+          "106180"
+        ],
+        "alias_name": [
+          "peptidyl-dipeptidase A"
+        ],
+        "gene_symbol": "ACE",
+        "hgnc_symbol": "ACE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:61554422-61599205",
+              "ensembl_id": "ENSG00000159640"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:63477061-63498380",
+              "ensembl_id": "ENSG00000159640"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACE",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "{Stroke, hemorrhagic}"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TM7LN4",
+          "TM7XN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4512",
+        "gene_name": "adhesion G protein-coupled receptor G1",
+        "omim_gene": [
+          "604110"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADGRG1",
+        "hgnc_symbol": "ADGRG1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:57644564-57698944",
+              "ensembl_id": "ENSG00000205336"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:57610652-57665580",
+              "ensembl_id": "ENSG00000205336"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2015-03-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADGRG1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TEM8",
+          "FLJ21776",
+          "FLJ10601",
+          "ATR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21014",
+        "gene_name": "anthrax toxin receptor 1",
+        "omim_gene": [
+          "606410"
+        ],
+        "alias_name": [
+          "anthrax toxin receptor",
+          "tumor endothelial marker 8 precursor"
+        ],
+        "gene_symbol": "ANTXR1",
+        "hgnc_symbol": "ANTXR1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:69240310-69476459",
+              "ensembl_id": "ENSG00000169604"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:69013178-69249327",
+              "ensembl_id": "ENSG00000169604"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-08-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANTXR1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Other",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "{?Hemangioma, capillary infantile, susceptibility to} , OMIM:602089"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ISSX",
+          "CT121",
+          "EIEE1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18060",
+        "gene_name": "aristaless related homeobox",
+        "omim_gene": [
+          "300382"
+        ],
+        "alias_name": [
+          "cancer/testis antigen 121"
+        ],
+        "gene_symbol": "ARX",
+        "hgnc_symbol": "ARX",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:25021811-25034065",
+              "ensembl_id": "ENSG00000004848"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:25003694-25016420",
+              "ensembl_id": "ENSG00000004848"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-02-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARX",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:869",
+        "gene_name": "ATPase copper transporting alpha",
+        "omim_gene": [
+          "300011"
+        ],
+        "alias_name": [
+          "copper pump 1",
+          "copper-transporting ATPase 1"
+        ],
+        "gene_symbol": "ATP7A",
+        "hgnc_symbol": "ATP7A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:77166194-77305892",
+              "ensembl_id": "ENSG00000165240"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:77910656-78050395",
+              "ensembl_id": "ENSG00000165240"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP7A",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Moyamoya disease"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "C6.1A",
+          "BRCC36"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24185",
+        "gene_name": "BRCA1/BRCA2-containing complex subunit 3",
+        "omim_gene": [
+          "300617"
+        ],
+        "alias_name": [
+          "Lys-63-specific deubiquitinase"
+        ],
+        "gene_symbol": "BRCC3",
+        "hgnc_symbol": "BRCC3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:154299695-154351349",
+              "ensembl_id": "ENSG00000185515"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:155071420-155123074",
+              "ensembl_id": "ENSG00000185515"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRCC3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21596366"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Moyamoya disease"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HIP4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1550",
+        "gene_name": "cystathionine-beta-synthase",
+        "omim_gene": [
+          "613381"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CBS",
+        "hgnc_symbol": "CBS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:44473301-44497053",
+              "ensembl_id": "ENSG00000160200"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:43053191-43076943",
+              "ensembl_id": "ENSG00000160200"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CBS",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CPAP",
+          "BM032",
+          "LAP",
+          "LIP1",
+          "Sas-4",
+          "SASS4",
+          "SCKL4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17272",
+        "gene_name": "centromere protein J",
+        "omim_gene": [
+          "609279"
+        ],
+        "alias_name": [
+          "centrosomal P4.1-associated protein"
+        ],
+        "gene_symbol": "CENPJ",
+        "hgnc_symbol": "CENPJ",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:25457171-25497018",
+              "ensembl_id": "ENSG00000151849"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:24882284-24922889",
+              "ensembl_id": "ENSG00000151849"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-02-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "CENPJ",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Literature",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Seckel syndrome 4  613676"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ13386"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25815",
+        "gene_name": "centrosomal protein 63",
+        "omim_gene": [
+          "614724"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CEP63",
+        "hgnc_symbol": "CEP63",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:134204585-134293859",
+              "ensembl_id": "ENSG00000182923"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:134485743-134575017",
+              "ensembl_id": "ENSG00000182923"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CEP63",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21983783"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Seckel syndrome 6  614728"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2202",
+        "gene_name": "collagen type IV alpha 1 chain",
+        "omim_gene": [
+          "120130"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL4A1",
+        "hgnc_symbol": "COL4A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:110801318-110959496",
+              "ensembl_id": "ENSG00000187498"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:110148963-110307149",
+              "ensembl_id": "ENSG00000187498"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL4A1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Other",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "{Hemorrhage, intracerebral, susceptibility to}, 614519",
+        "Brain Small Vessel Disease with Hemorrhage",
+        "{Hemorrhage, intracerebral, susceptibility to}",
+        "Brain small vessel disease with or without ocular anomalies"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ22259",
+          "DKFZp686I14213"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2203",
+        "gene_name": "collagen type IV alpha 2 chain",
+        "omim_gene": [
+          "120090"
+        ],
+        "alias_name": [
+          "canstatin",
+          "collagen type IV alpha 2"
+        ],
+        "gene_symbol": "COL4A2",
+        "hgnc_symbol": "COL4A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:110958159-111165374",
+              "ensembl_id": "ENSG00000134871"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:110305812-110513027",
+              "ensembl_id": "ENSG00000134871"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL4A2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Other",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "{Hemorrhage, intracerebral, susceptibility to}, 614519",
+        "{Hemorrhage, intracerebral, susceptibility to}"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LCA8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2343",
+        "gene_name": "crumbs 1, cell polarity complex component",
+        "omim_gene": [
+          "604210"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CRB1",
+        "hgnc_symbol": "CRB1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:197170592-197447585",
+              "ensembl_id": "ENSG00000134376"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:197268204-197478455",
+              "ensembl_id": "ENSG00000134376"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-06-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "CRB1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Pigmented Paravenous Chorioretinal Atrophy"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9251",
+        "gene_name": "cathepsin A",
+        "omim_gene": [
+          "613111"
+        ],
+        "alias_name": [
+          "carboxypeptidase C",
+          "lysosomal protective protein",
+          "carboxypeptidase-L",
+          "carboxypeptidase Y-like kininase",
+          "deamidase",
+          "lysosomal carboxypeptidase A",
+          "urinary kininase"
+        ],
+        "gene_symbol": "CTSA",
+        "hgnc_symbol": "CTSA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:44518783-44527459",
+              "ensembl_id": "ENSG00000064601"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:45890144-45898820",
+              "ensembl_id": "ENSG00000064601"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTSA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SCLH",
+          "DC",
+          "LISX",
+          "DBCN",
+          "XLIS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2714",
+        "gene_name": "doublecortin",
+        "omim_gene": [
+          "300121"
+        ],
+        "alias_name": [
+          "doublecortex"
+        ],
+        "gene_symbol": "DCX",
+        "hgnc_symbol": "DCX",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:110537007-110655603",
+              "ensembl_id": "ENSG00000077279"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:111293779-111412429",
+              "ensembl_id": "ENSG00000077279"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "DCX",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Lissencephaly, X-linked, OMIM:300067",
+        "Subcortical laminal heterotopia, X-linked, OMIM:300067"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0083"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2939",
+        "gene_name": "DNA replication helicase/nuclease 2",
+        "omim_gene": [
+          "601810"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNA2",
+        "hgnc_symbol": "DNA2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:70173821-70231879",
+              "ensembl_id": "ENSG00000138346"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:68414064-68472121",
+              "ensembl_id": "ENSG00000138346"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-01-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNA2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24389050"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Seckel syndrome 8, OMIM:615807"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "WBS",
+          "WS",
+          "SVAS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3327",
+        "gene_name": "elastin",
+        "omim_gene": [
+          "130160"
+        ],
+        "alias_name": [
+          "tropoelastin",
+          "supravalvular aortic stenosis",
+          "Williams-Beuren syndrome"
+        ],
+        "gene_symbol": "ELN",
+        "hgnc_symbol": "ELN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:73442119-73484237",
+              "ensembl_id": "ENSG00000049540"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:74027789-74069907",
+              "ensembl_id": "ENSG00000049540"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ELN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8460548"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Moyamoya disease",
+        "Aneurysm, intracranial berry, 1 105800"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNB6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20234",
+        "gene_name": "Enah/Vasp-like",
+        "omim_gene": [
+          "616912"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EVL",
+        "hgnc_symbol": "EVL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:100437786-100610573",
+              "ensembl_id": "ENSG00000196405"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:99971449-100144236",
+              "ensembl_id": "ENSG00000196405"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-01-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "EVL",
+      "confidence_level": "1",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34125151"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Moyamoya disease, MONDO:0016820"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MASS",
+          "OCTD",
+          "SGS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3603",
+        "gene_name": "fibrillin 1",
+        "omim_gene": [
+          "134797"
+        ],
+        "alias_name": [
+          "Marfan syndrome",
+          "asprosin"
+        ],
+        "gene_symbol": "FBN1",
+        "hgnc_symbol": "FBN1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:48700503-48938046",
+              "ensembl_id": "ENSG00000166147"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:48408306-48645849",
+              "ensembl_id": "ENSG00000166147"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1987-09-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "FBN1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Marfan syndrome  154700"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VEGFR3",
+          "PCL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3767",
+        "gene_name": "fms related tyrosine kinase 4",
+        "omim_gene": [
+          "136352"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FLT4",
+        "hgnc_symbol": "FLT4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:180028506-180076624",
+              "ensembl_id": "ENSG00000037280"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:180601506-180649624",
+              "ensembl_id": "ENSG00000037280"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-10-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLT4",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Other",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hemangioma, capillary infantile, somatic, 602089",
+        "Hemangioma, capillary infantile, somatic"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FREAC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3809",
+        "gene_name": "forkhead box F1",
+        "omim_gene": [
+          "601089"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOXF1",
+        "hgnc_symbol": "FOXF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:86544133-86548076",
+              "ensembl_id": "ENSG00000103241"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:86510527-86515418",
+              "ensembl_id": "ENSG00000103241"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXF1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Alveolar capillary dysplasia with misalignment of pulmonary veins, 265380",
+        "Alveolar Capillary Dysplasia with Misalignment of Pulmonary Veins"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GALA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4296",
+        "gene_name": "galactosidase alpha",
+        "omim_gene": [
+          "300644"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLA",
+        "hgnc_symbol": "GLA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:100652791-100662913",
+              "ensembl_id": "ENSG00000102393"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:101397803-101407925",
+              "ensembl_id": "ENSG00000102393"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Moyamoya disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAP48",
+          "GLML",
+          "GVM",
+          "FKBPAP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14373",
+        "gene_name": "glomulin, FKBP associated protein",
+        "omim_gene": [
+          "601749"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLMN",
+        "hgnc_symbol": "GLMN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:92711959-92764544",
+              "ensembl_id": "ENSG00000174842"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:92246402-92298987",
+              "ensembl_id": "ENSG00000174842"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-07-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLMN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Glomuvenous malformations",
+        "Glomuvenous Malformation"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "G-ALPHA-q",
+          "GAQ"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4390",
+        "gene_name": "G protein subunit alpha q",
+        "omim_gene": [
+          "600998"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GNAQ",
+        "hgnc_symbol": "GNAQ",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:80331003-80646374",
+              "ensembl_id": "ENSG00000156052"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:77716087-78031458",
+              "ensembl_id": "ENSG00000156052"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNAQ",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen",
+        "Other"
+      ],
+      "phenotypes": [
+        "Cerebral diseases of vascular origin with epilepsy",
+        "Capillary malformations, congenital, 1, somatic, mosaic, 163000"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [
+        "mosaicism",
+        "currently-ngs-unreportable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4932",
+        "gene_name": "major histocompatibility complex, class I, B",
+        "omim_gene": [
+          "142830"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HLA-B",
+        "hgnc_symbol": "HLA-B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31321649-31324965",
+              "ensembl_id": "ENSG00000234745"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31269491-31357188",
+              "ensembl_id": "ENSG00000234745"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HLA-B",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 21349441",
+        "14676447"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Moyamoya disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IDDM1",
+          "CELIAC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4944",
+        "gene_name": "major histocompatibility complex, class II, DQ beta 1",
+        "omim_gene": [
+          "604305"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HLA-DQB1",
+        "hgnc_symbol": "HLA-DQB1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:32627244-32636160",
+              "ensembl_id": "ENSG00000179344"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:32659467-32668383",
+              "ensembl_id": "ENSG00000179344"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HLA-DQB1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 21349441",
+        "9409445"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Moyamoya disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4948",
+        "gene_name": "major histocompatibility complex, class II, DR beta 1",
+        "omim_gene": [
+          "142857"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HLA-DRB1",
+        "hgnc_symbol": "HLA-DRB1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:32546546-32557625",
+              "ensembl_id": "ENSG00000196126"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:32578769-32589848",
+              "ensembl_id": "ENSG00000196126"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HLA-DRB1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 7886716",
+        "21349441"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Moyamoya disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HtrA",
+          "IGFBP5-protease",
+          "ARMD7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9476",
+        "gene_name": "HtrA serine peptidase 1",
+        "omim_gene": [
+          "602194"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HTRA1",
+        "hgnc_symbol": "HTRA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:124221041-124274424",
+              "ensembl_id": "ENSG00000166033"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:122461525-122514908",
+              "ensembl_id": "ENSG00000166033"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-08-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "HTRA1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Moyamoya disease",
+        "Cerebral arteriopathy, autosomal dominant, with subcortical infarcts and leukoencephalopathy, type 2, 616779"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IL-6",
+          "BSF2",
+          "HGF",
+          "HSF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6018",
+        "gene_name": "interleukin 6",
+        "omim_gene": [
+          "147620"
+        ],
+        "alias_name": [
+          "interferon, beta 2"
+        ],
+        "gene_symbol": "IL6",
+        "hgnc_symbol": "IL6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:22765503-22771621",
+              "ensembl_id": "ENSG00000136244"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:22725884-22732002",
+              "ensembl_id": "ENSG00000136244"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL6",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "{Intracranial hemorrhage in brain cerebrovascular malformations, susceptibility to}"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AHD",
+          "AWS",
+          "HJ1",
+          "CD339"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6188",
+        "gene_name": "jagged 1",
+        "omim_gene": [
+          "601920"
+        ],
+        "alias_name": null,
+        "gene_symbol": "JAG1",
+        "hgnc_symbol": "JAG1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:10618332-10654694",
+              "ensembl_id": "ENSG00000101384"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:10637684-10674107",
+              "ensembl_id": "ENSG00000101384"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "JAG1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22759690",
+        "22759690"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Alagille syndrome 1, OMIM:118450",
+        "Moyamoya disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLK1",
+          "VEGFR",
+          "VEGFR2",
+          "CD309"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6307",
+        "gene_name": "kinase insert domain receptor",
+        "omim_gene": [
+          "191306"
+        ],
+        "alias_name": [
+          "vascular endothelial growth factor receptor 2",
+          "fetal liver kinase 1"
+        ],
+        "gene_symbol": "KDR",
+        "hgnc_symbol": "KDR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:55944644-55991756",
+              "ensembl_id": "ENSG00000128052"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:55078477-55125589",
+              "ensembl_id": "ENSG00000128052"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "KDR",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Other",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hemangioma, capillary infantile, somatic, 602089",
+        "{Hemangioma, capillary infantile, susceptibility to}, 602089",
+        "{Hemangioma, capillary infantile, susceptibility to}",
+        "Hemangioma, capillary infantile, somatic",
+        "Hemangioma, capillary infantile, somatic, 602089"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6486",
+        "gene_name": "laminin subunit beta 1",
+        "omim_gene": [
+          "150240"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMB1",
+        "hgnc_symbol": "LAMB1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:107564244-107643700",
+              "ensembl_id": "ENSG00000091136"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:107923799-108003255",
+              "ensembl_id": "ENSG00000091136"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMB1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp434E202"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6494",
+        "gene_name": "laminin subunit gamma 3",
+        "omim_gene": [
+          "604349"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMC3",
+        "hgnc_symbol": "LAMC3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:133884469-133969860",
+              "ensembl_id": "ENSG00000050555"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:131009082-131094473",
+              "ensembl_id": "ENSG00000050555"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-07-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMC3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0609"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6511",
+        "gene_name": "LARGE xylosyl- and glucuronyltransferase 1",
+        "omim_gene": [
+          "603590"
+        ],
+        "alias_name": [
+          "like-acetylglucosaminyltransferase"
+        ],
+        "gene_symbol": "LARGE1",
+        "hgnc_symbol": "LARGE1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:33558212-34318829",
+              "ensembl_id": "ENSG00000133424"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:33162226-33922841",
+              "ensembl_id": "ENSG00000133424"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2016-05-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "LARGE1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6996",
+        "gene_name": "myocyte enhancer factor 2C",
+        "omim_gene": [
+          "600662"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MEF2C",
+        "hgnc_symbol": "MEF2C",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:88013975-88199922",
+              "ensembl_id": "ENSG00000081189"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:88717117-88904257",
+              "ensembl_id": "ENSG00000081189"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-02-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "MEF2C",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Mental retardation, stereotypic movements, epilepsy, and/or cerebral malformations, 613443",
+        "Mental retardation, stereotypic movements, epilepsy, and/or cerebral malformations",
+        "Intellectual Disability, Stereotypic Movements, Epilepsy, and/or Cerebral Malformations"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "nudE",
+          "FLJ20101",
+          "NDE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17619",
+        "gene_name": "nudE neurodevelopment protein 1",
+        "omim_gene": [
+          "609449"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NDE1",
+        "hgnc_symbol": "NDE1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:15737124-15820210",
+              "ensembl_id": "ENSG00000072864"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:15643267-15726353",
+              "ensembl_id": "ENSG00000072864"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDE1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14906",
+        "gene_name": "ninein",
+        "omim_gene": [
+          "608684"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NIN",
+        "hgnc_symbol": "NIN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:51186481-51297839",
+              "ensembl_id": "ENSG00000100503"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:50719763-50831121",
+              "ensembl_id": "ENSG00000100503"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-03-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "NIN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22933543"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Seckel syndrome 7  614851"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CASIL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7883",
+        "gene_name": "notch 3",
+        "omim_gene": [
+          "600276"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NOTCH3",
+        "hgnc_symbol": "NOTCH3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:15270444-15311792",
+              "ensembl_id": "ENSG00000074181"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:15159038-15200981",
+              "ensembl_id": "ENSG00000074181"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "NOTCH3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "8878478",
+        "20301673"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Cerebral arteriopathy with subcortical infarcts and leukoencephalopathy 1, OMIM:125310"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PPP1R115"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8104",
+        "gene_name": "occludin",
+        "omim_gene": [
+          "602876"
+        ],
+        "alias_name": [
+          "tight junction protein occludin TM4 minus",
+          "phosphatase 1, regulatory subunit 115"
+        ],
+        "gene_symbol": "OCLN",
+        "hgnc_symbol": "OCLN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:68788119-68853931",
+              "ensembl_id": "ENSG00000197822"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:69492292-69558104",
+              "ensembl_id": "ENSG00000197822"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "OCLN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OPN1",
+          "ARHGAP41"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8148",
+        "gene_name": "oligophrenin 1",
+        "omim_gene": [
+          "300127"
+        ],
+        "alias_name": null,
+        "gene_symbol": "OPHN1",
+        "hgnc_symbol": "OPHN1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:67262186-67653755",
+              "ensembl_id": "ENSG00000079482"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:68042344-68433913",
+              "ensembl_id": "ENSG00000079482"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-05-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "OPHN1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LIS1",
+          "PAFAH",
+          "NudF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8574",
+        "gene_name": "platelet activating factor acetylhydrolase 1b regulatory subunit 1",
+        "omim_gene": [
+          "601545"
+        ],
+        "alias_name": [
+          "lissencephaly-1"
+        ],
+        "gene_symbol": "PAFAH1B1",
+        "hgnc_symbol": "PAFAH1B1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:2496504-2588909",
+              "ensembl_id": "ENSG00000007168"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:2593210-2685615",
+              "ensembl_id": "ENSG00000007168"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "PAFAH1B1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Lissencephaly 1, OMIM:607432",
+        "Subcortical laminar heterotopia, OMIM:607432"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PI3K"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8975",
+        "gene_name": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",
+        "omim_gene": [
+          "171834"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PIK3CA",
+        "hgnc_symbol": "PIK3CA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:178865902-178957881",
+              "ensembl_id": "ENSG00000121879"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:179148114-179240093",
+              "ensembl_id": "ENSG00000121879"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIK3CA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "34496175"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Other",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cerebral cavernous malformations 4, somatic, OMIM:619538"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "somatic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P85B",
+          "p85"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8980",
+        "gene_name": "phosphoinositide-3-kinase regulatory subunit 2",
+        "omim_gene": [
+          "603157"
+        ],
+        "alias_name": [
+          "phosphoinositide-3-kinase regulatory subunit beta"
+        ],
+        "gene_symbol": "PIK3R2",
+        "hgnc_symbol": "PIK3R2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:18263928-18281350",
+              "ensembl_id": "ENSG00000105647"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:18153118-18170540",
+              "ensembl_id": "ENSG00000105647"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIK3R2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20277",
+          "MGAT1.2",
+          "LGMD2O"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19139",
+        "gene_name": "protein O-linked mannose N-acetylglucosaminyltransferase 1 (beta 1,2-)",
+        "omim_gene": [
+          "606822"
+        ],
+        "alias_name": [
+          "protein O-mannose beta-1,2-N-acetylglucosaminyltransferase"
+        ],
+        "gene_symbol": "POMGNT1",
+        "hgnc_symbol": "POMGNT1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:46654354-46685977",
+              "ensembl_id": "ENSG00000085998"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:46188682-46220305",
+              "ensembl_id": "ENSG00000085998"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-06-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "POMGNT1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LGMD2K"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9202",
+        "gene_name": "protein O-mannosyltransferase 1",
+        "omim_gene": [
+          "607423"
+        ],
+        "alias_name": [
+          "dolichyl-phosphate-mannose-protein mannosyltransferase"
+        ],
+        "gene_symbol": "POMT1",
+        "hgnc_symbol": "POMT1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:134378289-134399193",
+              "ensembl_id": "ENSG00000130714"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:131502902-131523806",
+              "ensembl_id": "ENSG00000130714"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "POMT1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LGMD2N"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19743",
+        "gene_name": "protein O-mannosyltransferase 2",
+        "omim_gene": [
+          "607439"
+        ],
+        "alias_name": [
+          "Dolichyl-phosphate-mannose--protein mannosyltransferase"
+        ],
+        "gene_symbol": "POMT2",
+        "hgnc_symbol": "POMT2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:77741299-77787227",
+              "ensembl_id": "ENSG00000009830"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:77274956-77320884",
+              "ensembl_id": "ENSG00000009830"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-01-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "POMT2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MMAC1",
+          "TEP1",
+          "PTEN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9588",
+        "gene_name": "phosphatase and tensin homolog",
+        "omim_gene": [
+          "601728"
+        ],
+        "alias_name": [
+          "mutated in multiple advanced cancers 1"
+        ],
+        "gene_symbol": "PTEN",
+        "hgnc_symbol": "PTEN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:89622870-89731687",
+              "ensembl_id": "ENSG00000171862"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:87863113-87971930",
+              "ensembl_id": "ENSG00000171862"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTEN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Bannayan-Riley-Ruvalcaba Syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CtIP",
+          "RIM",
+          "COM1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9891",
+        "gene_name": "RB binding protein 8, endonuclease",
+        "omim_gene": [
+          "604124"
+        ],
+        "alias_name": [
+          "CTBP-interacting protein"
+        ],
+        "gene_symbol": "RBBP8",
+        "hgnc_symbol": "RBBP8",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:20378224-20606451",
+              "ensembl_id": "ENSG00000101773"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:22798261-23026488",
+              "ensembl_id": "ENSG00000101773"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-02-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "RBBP8",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21998596"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Seckel syndrome 2  606744"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RL",
+          "PRO1598"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9957",
+        "gene_name": "reelin",
+        "omim_gene": [
+          "600514"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RELN",
+        "hgnc_symbol": "RELN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:103112231-103629963",
+              "ensembl_id": "ENSG00000189056"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:103471784-103989516",
+              "ensembl_id": "ENSG00000189056"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "RELN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZP434G145"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18654",
+        "gene_name": "rotatin",
+        "omim_gene": [
+          "610436"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RTTN",
+        "hgnc_symbol": "RTTN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:67671029-67873181",
+              "ensembl_id": "ENSG00000176225"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:70003031-70205945",
+              "ensembl_id": "ENSG00000176225"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-07-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "RTTN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SIR2L1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14929",
+        "gene_name": "sirtuin 1",
+        "omim_gene": [
+          "604479"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SIRT1",
+        "hgnc_symbol": "SIRT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:69644427-69678147",
+              "ensembl_id": "ENSG00000096717"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:67884669-67918390",
+              "ensembl_id": "ENSG00000096717"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-03-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "SIRT1",
+      "confidence_level": "1",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30578106"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Vein of Galen Malformation"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JV15-2",
+          "HsT17436"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6769",
+        "gene_name": "SMAD family member 3",
+        "omim_gene": [
+          "603109"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SMAD3",
+        "hgnc_symbol": "SMAD3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:67356101-67487533",
+              "ensembl_id": "ENSG00000166949"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:67063763-67195195",
+              "ensembl_id": "ENSG00000166949"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMAD3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Loeys-Dietz syndrome 3  613795"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HHARP",
+          "HARP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11102",
+        "gene_name": "SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a like 1",
+        "omim_gene": [
+          "606622"
+        ],
+        "alias_name": [
+          "HepA-related protein",
+          "ATP-driven annealing helicase"
+        ],
+        "gene_symbol": "SMARCAL1",
+        "hgnc_symbol": "SMARCAL1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:217277137-217347776",
+              "ensembl_id": "ENSG00000138375"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:216412414-216483053",
+              "ensembl_id": "ENSG00000138375"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-02-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMARCAL1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9674900"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Schimke immunoosseous dysplasia, OMIM:242900"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SRPUL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30668",
+        "gene_name": "sushi repeat containing protein, X-linked 2",
+        "omim_gene": [
+          "300642"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SRPX2",
+        "hgnc_symbol": "SRPX2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:99899215-99926296",
+              "ensembl_id": "ENSG00000102359"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:100644166-100675788",
+              "ensembl_id": "ENSG00000102359"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "SRPX2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AMSH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16950",
+        "gene_name": "STAM binding protein",
+        "omim_gene": [
+          "606247"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STAMBP",
+        "hgnc_symbol": "STAMBP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:74056086-74100786",
+              "ensembl_id": "ENSG00000124356"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:73828916-73873659",
+              "ensembl_id": "ENSG00000124356"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "STAMBP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Other",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Microcephaly-capillary malformation syndrome, 614261",
+        "Microcephaly-capillary malformation syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TIE2",
+          "TIE-2",
+          "VMCM1",
+          "CD202b"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11724",
+        "gene_name": "TEK receptor tyrosine kinase",
+        "omim_gene": [
+          "600221"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TEK",
+        "hgnc_symbol": "TEK",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:27109139-27230173",
+              "ensembl_id": "ENSG00000120156"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:27109141-27230175",
+              "ensembl_id": "ENSG00000120156"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-05-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "TEK",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Venous malformations, multiple cutaneous and mucosal, 600195",
+        "Multiple Cutaneous and Mucosal Venous Malformations"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11768",
+        "gene_name": "transforming growth factor beta 2",
+        "omim_gene": [
+          "190220"
+        ],
+        "alias_name": [
+          "prepro-transforming growth factor beta-2"
+        ],
+        "gene_symbol": "TGFB2",
+        "hgnc_symbol": "TGFB2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:218519577-218617961",
+              "ensembl_id": "ENSG00000092969"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:218346235-218444619",
+              "ensembl_id": "ENSG00000092969"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "TGFB2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Loeys-Dietz syndrome 4  614816"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ALK-5",
+          "ACVRLK4",
+          "ALK5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11772",
+        "gene_name": "transforming growth factor beta receptor 1",
+        "omim_gene": [
+          "190181"
+        ],
+        "alias_name": [
+          "activin A receptor type II-like kinase, 53kDa"
+        ],
+        "gene_symbol": "TGFBR1",
+        "hgnc_symbol": "TGFBR1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:101866320-101916474",
+              "ensembl_id": "ENSG00000106799"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:99104038-99154192",
+              "ensembl_id": "ENSG00000106799"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "TGFBR1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Loeys-Dietz syndrome 1  609192"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11773",
+        "gene_name": "transforming growth factor beta receptor 2",
+        "omim_gene": [
+          "190182"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TGFBR2",
+        "hgnc_symbol": "TGFBR2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:30647994-30735634",
+              "ensembl_id": "ENSG00000163513"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:30606502-30694142",
+              "ensembl_id": "ENSG00000163513"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "TGFBR2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Loeys-Dietz syndrome 2  610168"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HP10481"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13530",
+        "gene_name": "transmembrane protein 5",
+        "omim_gene": [
+          "605862"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TMEM5",
+        "hgnc_symbol": "TMEM5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:64173583-64203338",
+              "ensembl_id": "ENSG00000118600"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:63779803-63809558",
+              "ensembl_id": "ENSG00000118600"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMEM5",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRIP",
+          "RNF206"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30764",
+        "gene_name": "TRAF interacting protein",
+        "omim_gene": [
+          "605958"
+        ],
+        "alias_name": [
+          "ring finger protein 206"
+        ],
+        "gene_symbol": "TRAIP",
+        "hgnc_symbol": "TRAIP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:49866034-49894007",
+              "ensembl_id": "ENSG00000183763"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:49828599-49856574",
+              "ensembl_id": "ENSG00000183763"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-01-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRAIP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26595769"
+      ],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Seckel syndrome 9, OMIM:616777"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TUBA3",
+          "B-ALPHA-1",
+          "FLJ25113"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20766",
+        "gene_name": "tubulin alpha 1a",
+        "omim_gene": [
+          "602529"
+        ],
+        "alias_name": [
+          "tubulin, alpha, brain-specific"
+        ],
+        "gene_symbol": "TUBA1A",
+        "hgnc_symbol": "TUBA1A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:49578579-49583107",
+              "ensembl_id": "ENSG00000167552"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:49184796-49189324",
+              "ensembl_id": "ENSG00000167552"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUBA1A",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12410",
+        "gene_name": "tubulin alpha 8",
+        "omim_gene": [
+          "605742"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TUBA8",
+        "hgnc_symbol": "TUBA8",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:18593097-18629321",
+              "ensembl_id": "ENSG00000183785"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:18110331-18146554",
+              "ensembl_id": "ENSG00000183785"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUBA8",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OK/SW-cl.56",
+          "MGC16435",
+          "M40",
+          "Tubb5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20778",
+        "gene_name": "tubulin beta class I",
+        "omim_gene": [
+          "191130"
+        ],
+        "alias_name": [
+          "class I beta-tubulin",
+          "beta1-tubulin"
+        ],
+        "gene_symbol": "TUBB",
+        "hgnc_symbol": "TUBB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:30687978-30693203",
+              "ensembl_id": "ENSG00000196230"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:30720201-30725426",
+              "ensembl_id": "ENSG00000196230"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-11-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUBB",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dJ40E16.7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12412",
+        "gene_name": "tubulin beta 2A class IIa",
+        "omim_gene": [
+          "615101"
+        ],
+        "alias_name": [
+          "class IIa beta-tubulin"
+        ],
+        "gene_symbol": "TUBB2A",
+        "hgnc_symbol": "TUBB2A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:3153903-3157760",
+              "ensembl_id": "ENSG00000137267"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:3153669-3157526",
+              "ensembl_id": "ENSG00000137267"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUBB2A",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cortical dysplasia, complex, with other brain malformations 5, OMIM:615763",
+        "Complex cortical dysplasia with other brain malformations 5, MONDO:0014337"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC8685",
+          "DKFZp566F223",
+          "bA506K6.1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30829",
+        "gene_name": "tubulin beta 2B class IIb",
+        "omim_gene": [
+          "612850"
+        ],
+        "alias_name": [
+          "class IIb beta-tubulin"
+        ],
+        "gene_symbol": "TUBB2B",
+        "hgnc_symbol": "TUBB2B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:3224495-3231964",
+              "ensembl_id": "ENSG00000137285"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:3224261-3231730",
+              "ensembl_id": "ENSG00000137285"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUBB2B",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "beta-4",
+          "CFEOM3",
+          "CFEOM3A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20772",
+        "gene_name": "tubulin beta 3 class III",
+        "omim_gene": [
+          "602661"
+        ],
+        "alias_name": [
+          "class III beta-tubulin"
+        ],
+        "gene_symbol": "TUBB3",
+        "hgnc_symbol": "TUBB3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:89987800-90005169",
+              "ensembl_id": "ENSG00000258947"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:89921392-89938761",
+              "ensembl_id": "ENSG00000258947"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-11-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUBB3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TUBGCP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12417",
+        "gene_name": "tubulin gamma 1",
+        "omim_gene": [
+          "191135"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TUBG1",
+        "hgnc_symbol": "TUBG1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:40761694-40767252",
+              "ensembl_id": "ENSG00000131462"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:42609676-42615234",
+              "ensembl_id": "ENSG00000131462"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-01-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUBG1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CARMQ1",
+          "CHRMQ1",
+          "VLDLRCH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12698",
+        "gene_name": "very low density lipoprotein receptor",
+        "omim_gene": [
+          "192977"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VLDLR",
+        "hgnc_symbol": "VLDLR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:2621834-2660053",
+              "ensembl_id": "ENSG00000147852"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:2621834-2660053",
+              "ensembl_id": "ENSG00000147852"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "VLDLR",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZP434J046",
+          "FLJ33298"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24502",
+        "gene_name": "WD repeat domain 62",
+        "omim_gene": [
+          "613583"
+        ],
+        "alias_name": null,
+        "gene_symbol": "WDR62",
+        "hgnc_symbol": "WDR62",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:36545783-36596008",
+              "ensembl_id": "ENSG00000075702"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:36054881-36105106",
+              "ensembl_id": "ENSG00000075702"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "WDR62",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cerebral Malformation Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": null,
+        "hgnc_id": "HGNC:17627",
+        "gene_name": "aneurysm, intracranial berry 1",
+        "omim_gene": [
+          "105800"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANIB1",
+        "hgnc_symbol": "ANIB1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {},
+        "hgnc_date_symbol_changed": "2005-03-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANIB1",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed",
+        "Other"
+      ],
+      "phenotypes": [
+        "Aneurysm, intracranial berry, 1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "locus-type-phenotype-only",
+        "ensembl_ids_known_missing",
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": null,
+        "hgnc_id": "HGNC:16401",
+        "gene_name": "moyamoya disease 1",
+        "omim_gene": [
+          "252350"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYMY1",
+        "hgnc_symbol": "MYMY1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {},
+        "hgnc_date_symbol_changed": "2003-05-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYMY1",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed",
+        "Other"
+      ],
+      "phenotypes": [
+        "Moyamoya disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "locus-type-phenotype-only",
+        "ensembl_ids_known_missing",
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": null,
+        "hgnc_id": "HGNC:20769",
+        "gene_name": "moyamoya disease 3",
+        "omim_gene": [
+          "608796"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYMY3",
+        "hgnc_symbol": "MYMY3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {},
+        "hgnc_date_symbol_changed": "2004-11-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYMY3",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed",
+        "Other"
+      ],
+      "phenotypes": [
+        "Moyamoya disease 3"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "locus-type-phenotype-only",
+        "ensembl_ids_known_missing",
+        "curated_removed"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

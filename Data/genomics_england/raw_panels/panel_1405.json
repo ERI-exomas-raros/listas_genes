@@ -1,0 +1,85 @@
+{
+  "id": 1405,
+  "hash_id": null,
+  "name": "Wilson disease",
+  "disease_group": "Gastrohepatology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.3",
+  "version_created": "2026-01-25T14:44:29.954209Z",
+  "relevant_disorders": [
+    "R172"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:870",
+        "gene_name": "ATPase copper transporting beta",
+        "omim_gene": [
+          "606882"
+        ],
+        "alias_name": [
+          "Wilson disease",
+          "copper pump 2",
+          "copper-transporting ATPase 2"
+        ],
+        "gene_symbol": "ATP7B",
+        "hgnc_symbol": "ATP7B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:52506809-52585630",
+              "ensembl_id": "ENSG00000123191"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:51930436-52012125",
+              "ensembl_id": "ENSG00000123191"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP7B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Wilson disease, OMIM:277900",
+        "Wilson disease, MONDO:0010200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

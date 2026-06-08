@@ -1,0 +1,1964 @@
+{
+  "id": 546,
+  "hash_id": null,
+  "name": "Severe insulin resistance and lipodystrophy syndromes",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "5.1",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Lipodystrophy - childhood onset",
+    "R158"
+  ],
+  "stats": {
+    "number_of_genes": 35,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "LPAAT-beta"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:325",
+        "gene_name": "1-acylglycerol-3-phosphate O-acyltransferase 2",
+        "omim_gene": [
+          "603100"
+        ],
+        "alias_name": [
+          "lysophosphatidic acid acyltransferase, beta"
+        ],
+        "gene_symbol": "AGPAT2",
+        "hgnc_symbol": "AGPAT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:139567595-139581875",
+              "ensembl_id": "ENSG00000169692"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:136673143-136687423",
+              "ensembl_id": "ENSG00000169692"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGPAT2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, congenital generalized, type 1, 608594"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0328"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:428",
+        "gene_name": "ALMS1, centrosome and basal body associated protein",
+        "omim_gene": [
+          "606844"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALMS1",
+        "hgnc_symbol": "ALMS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:73612886-73837920",
+              "ensembl_id": "ENSG00000116127"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:73385758-73610793",
+              "ensembl_id": "ENSG00000116127"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALMS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16720663",
+        "29718281",
+        "32958032"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Alstrom syndrome, OMIM:203800"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BS",
+          "RECQL3",
+          "RECQ2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1058",
+        "gene_name": "Bloom syndrome RecQ like helicase",
+        "omim_gene": [
+          "604610"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BLM",
+        "hgnc_symbol": "BLM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:91260558-91358859",
+              "ensembl_id": "ENSG00000197299"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:90717327-90816165",
+              "ensembl_id": "ENSG00000197299"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "BLM",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "7585968",
+        "16763388",
+        "21536711",
+        "27710244",
+        "28232778",
+        "29477938"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Bloom syndrome, OMIM:210900",
+        "Insulin resistance, HP:0000855"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15832",
+        "gene_name": "BSCL2, seipin lipid droplet biogenesis associated",
+        "omim_gene": [
+          "606158"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BSCL2",
+        "hgnc_symbol": "BSCL2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:62457747-62477317",
+              "ensembl_id": "ENSG00000168000"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:62690275-62709845",
+              "ensembl_id": "ENSG00000168000"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-07-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "BSCL2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, congenital generalized, type 2, OMIM:269700",
+        "Encephalopathy, progressive, with or without lipodystrophy, OMIM:615924"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1527",
+        "gene_name": "caveolin 1",
+        "omim_gene": [
+          "601047"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CAV1",
+        "hgnc_symbol": "CAV1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:116164839-116201233",
+              "ensembl_id": "ENSG00000105974"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:116524785-116561184",
+              "ensembl_id": "ENSG00000105974"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "CAV1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "18390817",
+        "18237401",
+        "18211975",
+        "25898808",
+        "26176221",
+        "27717241",
+        "11739396",
+        "23049990"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "?Lipodystrophy, congenital generalized, type 3, 612526",
+        "Lipodystrophy, familial partial, type 7, 606721"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cavin-1",
+          "CGL4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9688",
+        "gene_name": "caveolae associated protein 1",
+        "omim_gene": [
+          "603198"
+        ],
+        "alias_name": [
+          "congenital generalized lipodystrophy 4"
+        ],
+        "gene_symbol": "CAVIN1",
+        "hgnc_symbol": "CAVIN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:40554470-40575535",
+              "ensembl_id": "ENSG00000177469"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:42402452-42423517",
+              "ensembl_id": "ENSG00000177469"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-03-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "CAVIN1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19726876"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, congenital generalized, type 4, 613327"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3401",
+        "gene_name": "epoxide hydrolase 1",
+        "omim_gene": [
+          "132810"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EPHX1",
+        "hgnc_symbol": "EPHX1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:225997794-226033260",
+              "ensembl_id": "ENSG00000143819"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:225810092-225845563",
+              "ensembl_id": "ENSG00000143819"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-08-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "EPHX1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "34342583"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "lipodystrophy, MONDO:0006573",
+        "Insulin resistance, HP:0000855"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MASS",
+          "OCTD",
+          "SGS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3603",
+        "gene_name": "fibrillin 1",
+        "omim_gene": [
+          "134797"
+        ],
+        "alias_name": [
+          "Marfan syndrome",
+          "asprosin"
+        ],
+        "gene_symbol": "FBN1",
+        "hgnc_symbol": "FBN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:48700503-48938046",
+              "ensembl_id": "ENSG00000166147"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:48408306-48645849",
+              "ensembl_id": "ENSG00000166147"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1987-09-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "FBN1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "20979188",
+        "21594992",
+        "21594993",
+        "24613577",
+        "26860060",
+        "29666143"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Marfan lipodystrophy syndrome, OMIM:616914"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD220"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6091",
+        "gene_name": "insulin receptor",
+        "omim_gene": [
+          "147670"
+        ],
+        "alias_name": null,
+        "gene_symbol": "INSR",
+        "hgnc_symbol": "INSR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:7112266-7294045",
+              "ensembl_id": "ENSG00000171105"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:7112255-7294034",
+              "ensembl_id": "ENSG00000171105"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "INSR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Diabetes mellitus, insulin-resistant, with acanthosis nigricans, OMIM:610549"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kir3.2",
+          "GIRK2",
+          "KATP2",
+          "BIR1",
+          "hiGIRK2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6267",
+        "gene_name": "potassium voltage-gated channel subfamily J member 6",
+        "omim_gene": [
+          "600877"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNJ6",
+        "hgnc_symbol": "KCNJ6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:38979678-39288749",
+              "ensembl_id": "ENSG00000157542"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:37607376-37916446",
+              "ensembl_id": "ENSG00000157542"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-04-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNJ6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "25620207",
+        "29852244"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Keppen-Lubinsky syndrome, OMIM:614098",
+        "Keppen-Lubinsky syndrome, MONDO:0013572"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6621",
+        "gene_name": "lipase E, hormone sensitive type",
+        "omim_gene": [
+          "151750"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LIPE",
+        "hgnc_symbol": "LIPE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:42905659-42931578",
+              "ensembl_id": "ENSG00000079435"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:42401507-42427426",
+              "ensembl_id": "ENSG00000079435"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-02-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "LIPE",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27862896",
+        "25475467",
+        "24848981"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, familial partial, type 6, 615980"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HGPS",
+          "MADA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6636",
+        "gene_name": "lamin A/C",
+        "omim_gene": [
+          "150330"
+        ],
+        "alias_name": [
+          "mandibuloacral dysplasia type A"
+        ],
+        "gene_symbol": "LMNA",
+        "hgnc_symbol": "LMNA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:156052364-156109880",
+              "ensembl_id": "ENSG00000160789"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:156082573-156140089",
+              "ensembl_id": "ENSG00000160789"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "LMNA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Eligibility statement prior genetic testing",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, familial partial, 2, 151660"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CPRP1",
+          "KIAA0214",
+          "MARF",
+          "CMT2A2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16877",
+        "gene_name": "mitofusin 2",
+        "omim_gene": [
+          "608507"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MFN2",
+        "hgnc_symbol": "MFN2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:12040238-12073571",
+              "ensembl_id": "ENSG00000116688"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:11980181-12013514",
+              "ensembl_id": "ENSG00000116688"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-02-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "MFN2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "26085578",
+        "28414270",
+        "30158064"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Lipomatosis, multiple symmetric, with or without peripheral neuropathy, OMIM:151800"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7506",
+        "gene_name": "metaxin 2",
+        "omim_gene": [
+          "608555"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MTX2",
+        "hgnc_symbol": "MTX2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:177134123-177202753",
+              "ensembl_id": "ENSG00000128654"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:176269395-176338025",
+              "ensembl_id": "ENSG00000128654"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-07-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "MTX2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32917887"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Mandibuloacral dysplasia",
+        "lipodystrophy",
+        "arterial calcification"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ34884"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25118",
+        "gene_name": "OTU deubiquitinase with linear linkage specificity",
+        "omim_gene": [
+          "615712"
+        ],
+        "alias_name": [
+          "gumby"
+        ],
+        "gene_symbol": "OTULIN",
+        "hgnc_symbol": "OTULIN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:14664773-14699820",
+              "ensembl_id": "ENSG00000154124"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:14664664-14699711",
+              "ensembl_id": "ENSG00000154124"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-03-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "OTULIN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27523608",
+        "27559085"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Autoinflammation, panniculitis, and dermatosis syndrome, OMIM:617099"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KEN",
+          "KIAA0402",
+          "PCN",
+          "PCNTB",
+          "SCKL4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16068",
+        "gene_name": "pericentrin",
+        "omim_gene": [
+          "605925"
+        ],
+        "alias_name": [
+          "kendrin",
+          "Seckel syndrome 4"
+        ],
+        "gene_symbol": "PCNT",
+        "hgnc_symbol": "PCNT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:47744036-47865682",
+              "ensembl_id": "ENSG00000160299"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:46324122-46445769",
+              "ensembl_id": "ENSG00000160299"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCNT",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21270239"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Microcephalic osteodysplastic primordial dwarfism, type II, OMIM:210720",
+        "Insulin resistance, HP:0000855"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CT",
+          "CTPCT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8754",
+        "gene_name": "phosphate cytidylyltransferase 1, choline, alpha",
+        "omim_gene": [
+          "123695"
+        ],
+        "alias_name": [
+          "phosphate cytidylyltransferase 1, choline, alpha isoform"
+        ],
+        "gene_symbol": "PCYT1A",
+        "hgnc_symbol": "PCYT1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:195941093-196014828",
+              "ensembl_id": "ENSG00000161217"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:196214222-196287957",
+              "ensembl_id": "ENSG00000161217"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-05-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCYT1A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18955728",
+        "24889630"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Spondylometaphyseal dysplasia with cone-rod dystrophy, OMIM:608940",
+        "congenital generalized lipodystrophy, MONDO:0006536",
+        "Insulin resistance, HP:0000855"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GRB1",
+          "p85-ALPHA",
+          "p85"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8979",
+        "gene_name": "phosphoinositide-3-kinase regulatory subunit 1",
+        "omim_gene": [
+          "171833"
+        ],
+        "alias_name": [
+          "phosphoinositide-3-kinase regulatory subunit alpha"
+        ],
+        "gene_symbol": "PIK3R1",
+        "hgnc_symbol": "PIK3R1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:67511548-67597649",
+              "ensembl_id": "ENSG00000145675"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:68215720-68301821",
+              "ensembl_id": "ENSG00000145675"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIK3R1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "23810378",
+        "26497935",
+        "27710244",
+        "27766312"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "SHORT syndrome, OMIM:269880"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HREV107",
+          "H-REV107-1",
+          "HREV107-3",
+          "MGC118754.",
+          "AdPLA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17825",
+        "gene_name": "phospholipase A2 group XVI",
+        "omim_gene": [
+          "613867"
+        ],
+        "alias_name": [
+          "adipose-specific PLA2"
+        ],
+        "gene_symbol": "PLA2G16",
+        "hgnc_symbol": "PLA2G16",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:63340667-63384355",
+              "ensembl_id": "ENSG00000176485"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:63573195-63616883",
+              "ensembl_id": "ENSG00000176485"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-09-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLA2G16",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "37919452"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Associated with Lipodystrophy, familial partial, type 9, OMIM:620683",
+        "lipodystrophy, familial partial, type 9, MONDO:0958034"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9076",
+        "gene_name": "perilipin 1",
+        "omim_gene": [
+          "170290"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLIN1",
+        "hgnc_symbol": "PLIN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:90207596-90222658",
+              "ensembl_id": "ENSG00000166819"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:89664365-89679427",
+              "ensembl_id": "ENSG00000166819"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-08-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLIN1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "21345103",
+        "30020498",
+        "11371650",
+        "25695774",
+        "25114292",
+        "29747582"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, familial partial, type 4, 613877"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZP434C245"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24488",
+        "gene_name": "POC1 centriolar protein A",
+        "omim_gene": [
+          "614783"
+        ],
+        "alias_name": null,
+        "gene_symbol": "POC1A",
+        "hgnc_symbol": "POC1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:52109269-52188706",
+              "ensembl_id": "ENSG00000164087"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:52075253-52154690",
+              "ensembl_id": "ENSG00000164087"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-03-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "POC1A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22440536",
+        "26336158",
+        "28819016",
+        "33372278",
+        "35234134"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Short stature, onychodysplasia, facial dysmorphism, and hypotrichosis, OMIM:614813",
+        "Insulin resistance, HP:0000855"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9175",
+        "gene_name": "DNA polymerase delta 1, catalytic subunit",
+        "omim_gene": [
+          "174761"
+        ],
+        "alias_name": [
+          "CDC2 homolog (S. cerevisiae)"
+        ],
+        "gene_symbol": "POLD1",
+        "hgnc_symbol": "POLD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:50887461-50921273",
+              "ensembl_id": "ENSG00000062822"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:50384204-50418018",
+              "ensembl_id": "ENSG00000062822"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "POLD1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25131834",
+        "26172944",
+        "23770608"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Mandibular hypoplasia, deafness, progeroid features, and lipodystrophy syndrome, 615381"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PPARG1",
+          "PPARG2",
+          "NR1C3",
+          "PPARgamma"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9236",
+        "gene_name": "peroxisome proliferator activated receptor gamma",
+        "omim_gene": [
+          "601487"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PPARG",
+        "hgnc_symbol": "PPARG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:12328867-12475855",
+              "ensembl_id": "ENSG00000132170"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:12287368-12434356",
+              "ensembl_id": "ENSG00000132170"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-03-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "PPARG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Insulin resistance, severe, digenic 604367",
+        "Lipodystrophy, familial partial, type 3 604367"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HN3",
+          "PROS26"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9541",
+        "gene_name": "proteasome subunit beta 4",
+        "omim_gene": [
+          "602177"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PSMB4",
+        "hgnc_symbol": "PSMB4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:151372010-151374420",
+              "ensembl_id": "ENSG00000159377"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:151399534-151401944",
+              "ensembl_id": "ENSG00000159377"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSMB4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26524591",
+        "34416217"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "?Proteasome-associated autoinflammatory syndrome 3 and digenic forms, OMIM:617591"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "digenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RING10",
+          "D6S216E",
+          "PSMB5i",
+          "beta5i"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9545",
+        "gene_name": "proteasome subunit beta 8",
+        "omim_gene": [
+          "177046"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PSMB8",
+        "hgnc_symbol": "PSMB8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:32808494-32812480",
+              "ensembl_id": "ENSG00000204264"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:32840717-32844703",
+              "ensembl_id": "ENSG00000204264"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSMB8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20534754",
+        "21129723",
+        "21953331",
+        "26524591"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Proteasome-associated autoinflammatory syndrome 1 and digenic forms, OMIM:256040"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "digenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RECQL2",
+          "RECQ3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12791",
+        "gene_name": "Werner syndrome RecQ like helicase",
+        "omim_gene": [
+          "604611"
+        ],
+        "alias_name": null,
+        "gene_symbol": "WRN",
+        "hgnc_symbol": "WRN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:30891317-31031285",
+              "ensembl_id": "ENSG00000165392"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:31033801-31173769",
+              "ensembl_id": "ENSG00000165392"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "WRN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22654791",
+        "23849162",
+        "27710244",
+        "35780059"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Werner syndrome, OMIM:277700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FACE-1",
+          "Ste24p",
+          "STE24",
+          "HGPS",
+          "PRO1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12877",
+        "gene_name": "zinc metallopeptidase STE24",
+        "omim_gene": [
+          "606480"
+        ],
+        "alias_name": [
+          "Hutchinson-Gilford progeria syndrome",
+          "CAAX prenyl protease 1 homolog"
+        ],
+        "gene_symbol": "ZMPSTE24",
+        "hgnc_symbol": "ZMPSTE24",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:40723779-40759856",
+              "ensembl_id": "ENSG00000084073"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:40258107-40294184",
+              "ensembl_id": "ENSG00000084073"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-09-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZMPSTE24",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18435794",
+        "16297189",
+        "20034068",
+        "12913070",
+        "15317753"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Mandibuloacral dysplasia with type B lipodystrophy, 608612"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:392",
+        "gene_name": "AKT serine/threonine kinase 2",
+        "omim_gene": [
+          "164731"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AKT2",
+        "hgnc_symbol": "AKT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:40736224-40791443",
+              "ensembl_id": "ENSG00000105221"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:40230317-40285536",
+              "ensembl_id": "ENSG00000105221"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "AKT2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "12843127",
+        "15166380",
+        "17327441",
+        "27710244"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Diabetes mellitus, type II, OMIM:125853",
+        "Type 2 diabetes mellitus, MONDO:0005148",
+        "Hypoinsulinemic hypoglycemia with hemihypertrophy, OMIM:240900",
+        "Hypoinsulinemic hypoglycemia and body hemihypertrophy, MONDO:0009416",
+        "Partial lipodystrophy"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CIDE-3",
+          "FLJ20871",
+          "Fsp27"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24229",
+        "gene_name": "cell death inducing DFFA like effector c",
+        "omim_gene": [
+          "612120"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CIDEC",
+        "hgnc_symbol": "CIDEC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:9908398-9921938",
+              "ensembl_id": "ENSG00000187288"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:9866711-9880254",
+              "ensembl_id": "ENSG00000187288"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "CIDEC",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "20049731",
+        "25565658",
+        "27710244"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "?Lipodystrophy, familial partial, type 5, OMIM:615238"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ35779",
+          "MGC120442",
+          "MGC120443",
+          "MGC120444",
+          "hPOC5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26658",
+        "gene_name": "POC5 centriolar protein",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "POC5",
+        "hgnc_symbol": "POC5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:74969949-75013313",
+              "ensembl_id": "ENSG00000152359"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:75674124-75717481",
+              "ensembl_id": "ENSG00000152359"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-03-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "POC5",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29272404",
+        "40590205"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Retinal dystrophy",
+        "diabetes mellitus",
+        "lipodystrophy",
+        "renal failure",
+        "abnormal muscle physiology"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q3_25_promote_green",
+        "gene-checked"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HC8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9532",
+        "gene_name": "proteasome subunit alpha 3",
+        "omim_gene": [
+          "176843"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PSMA3",
+        "hgnc_symbol": "PSMA3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:58711549-58738730",
+              "ensembl_id": "ENSG00000100567"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:58244831-58272012",
+              "ensembl_id": "ENSG00000100567"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSMA3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26524591"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Proteasome associated autoinflammatory syndrome-1, CANDLES (Chronic, atypical, neutrophillic dermatosis with lipodystrophy and elevated temperature syndrome), Joint contractures, muscle atrophy, microcytic anemia, and panniculitis-induced lipodystrophy (JMP syndrome)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "digenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ADRAR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:281",
+        "gene_name": "adrenoceptor alpha 2A",
+        "omim_gene": [
+          "104210"
+        ],
+        "alias_name": [
+          "alpha-2AAR subtype C10",
+          " alpha-2A-adrenergic receptor"
+        ],
+        "gene_symbol": "ADRA2A",
+        "hgnc_symbol": "ADRA2A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:112836790-112840658",
+              "ensembl_id": "ENSG00000150594"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:111077163-111080907",
+              "ensembl_id": "ENSG00000150594"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADRA2A",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27376152"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "No OMIM number",
+        "familial partial lipodystrophy"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "flj32422",
+          "MGC3200"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28466",
+        "gene_name": "RNA polymerase III subunit G like",
+        "omim_gene": [
+          "617457"
+        ],
+        "alias_name": null,
+        "gene_symbol": "POLR3GL",
+        "hgnc_symbol": "POLR3GL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:145456236-145470388",
+              "ensembl_id": "ENSG00000121851"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:145964702-145978848",
+              "ensembl_id": "ENSG00000121851"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "POLR3GL",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31089205",
+        "31695177"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "endosteal hyperostosis",
+        "oligodontia",
+        "growth retardation",
+        "facial dysmorphisms",
+        "lipodystrophy"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12692",
+        "gene_name": "vimentin",
+        "omim_gene": [
+          "193060"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VIM",
+        "hgnc_symbol": "VIM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:17270258-17279592",
+              "ensembl_id": "ENSG00000026025"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:17228259-17237593",
+              "ensembl_id": "ENSG00000026025"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "VIM",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32066935"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "lipodystrophy HP:0009125"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "iPLA2",
+          "PNPLA9",
+          "PARK14",
+          "iPLA2beta",
+          "NBIA2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9039",
+        "gene_name": "phospholipase A2 group VI",
+        "omim_gene": [
+          "603604"
+        ],
+        "alias_name": [
+          "neurodegeneration with brain iron accumulation 2"
+        ],
+        "gene_symbol": "PLA2G6",
+        "hgnc_symbol": "PLA2G6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:38507502-38601697",
+              "ensembl_id": "ENSG00000184381"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:38111495-38205690",
+              "ensembl_id": "ENSG00000184381"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLA2G6",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "0"
+      ],
+      "evidence": [
+        "Expert Review Removed",
+        "Literature"
+      ],
+      "phenotypes": [
+        "none"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

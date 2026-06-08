@@ -1,0 +1,240 @@
+{
+  "id": 552,
+  "hash_id": null,
+  "name": "Familial tumoral calcinosis",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.11",
+  "version_created": "2026-01-23T10:46:16.730268Z",
+  "relevant_disorders": [
+    "R162"
+  ],
+  "stats": {
+    "number_of_genes": 4,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3680",
+        "gene_name": "fibroblast growth factor 23",
+        "omim_gene": [
+          "605380"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FGF23",
+        "hgnc_symbol": "FGF23",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:4477393-4488894",
+              "ensembl_id": "ENSG00000118972"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:4368227-4379728",
+              "ensembl_id": "ENSG00000118972"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-05-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGF23",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15590700"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Tumoral calcinosis, hyperphosphatemic, familial, 2, OMIM:617993"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GalNAc-T3",
+          "HHS",
+          "HFTC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4125",
+        "gene_name": "polypeptide N-acetylgalactosaminyltransferase 3",
+        "omim_gene": [
+          "601756"
+        ],
+        "alias_name": [
+          "polypeptide GalNAc transferase 3"
+        ],
+        "gene_symbol": "GALNT3",
+        "hgnc_symbol": "GALNT3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:166604101-166651192",
+              "ensembl_id": "ENSG00000115339"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:165747591-165794682",
+              "ensembl_id": "ENSG00000115339"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-10-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "GALNT3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15133511"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Tumoral calcinosis, hyperphosphatemic, familial, 1, OMIM:211900"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA2004",
+          "FLJ20073"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1348",
+        "gene_name": "sterile alpha motif domain containing 9",
+        "omim_gene": [
+          "610456"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SAMD9",
+        "hgnc_symbol": "SAMD9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:92728829-92747336",
+              "ensembl_id": "ENSG00000205413"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:93099513-93118023",
+              "ensembl_id": "ENSG00000205413"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SAMD9",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18094730",
+        "16960814"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Tumoral calcinosis, familial, normophosphatemic, OMIM:610455"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6344",
+        "gene_name": "klotho",
+        "omim_gene": [
+          "604824"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KL",
+        "hgnc_symbol": "KL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:33590207-33640282",
+              "ensembl_id": "ENSG00000133116"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:33016433-33066145",
+              "ensembl_id": "ENSG00000133116"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-03-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "KL",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17710231"
+      ],
+      "evidence": [
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Tumoral calcinosis, hyperphosphatemic, familial, 3, OMIM:617994"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

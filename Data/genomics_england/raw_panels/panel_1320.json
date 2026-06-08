@@ -1,0 +1,89 @@
+{
+  "id": 1320,
+  "hash_id": null,
+  "name": "DICER1-related cancer predisposition",
+  "disease_group": "Inherited cancer",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.3",
+  "version_created": "2026-01-23T09:44:57.922394Z",
+  "relevant_disorders": [
+    "R364"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "Dicer",
+          "KIAA0928",
+          "K12H4.8-LIKE",
+          "HERNA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17098",
+        "gene_name": "dicer 1, ribonuclease III",
+        "omim_gene": [
+          "606241"
+        ],
+        "alias_name": [
+          "dicer 1, double-stranded RNA-specific endoribonuclease"
+        ],
+        "gene_symbol": "DICER1",
+        "hgnc_symbol": "DICER1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:95552565-95624347",
+              "ensembl_id": "ENSG00000100697"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:95086228-95158010",
+              "ensembl_id": "ENSG00000100697"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "DICER1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Goiter, multinodular 1, with or without Sertoli-Leydig cell tumors, OMIM:138800",
+        "Pleuropulmonary blastoma, OMIM:601200",
+        "DICER1-related tumor predisposition, MONDO:0100216"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

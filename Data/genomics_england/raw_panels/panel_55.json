@@ -1,0 +1,414 @@
+{
+  "id": 55,
+  "hash_id": "596f82e88f620352d0e3eeb1",
+  "name": "Breast cancer pertinent cancer susceptibility",
+  "disease_group": "Cancer susceptibility",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.17",
+  "version_created": "2026-03-11T14:07:49.315470Z",
+  "relevant_disorders": [
+    "Breast"
+  ],
+  "stats": {
+    "number_of_genes": 7,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Cancer Germline 100K",
+      "slug": "cancer-germline-100k",
+      "description": "Cancer Germline 100K"
+    },
+    {
+      "name": "GMS Cancer Germline Virtual",
+      "slug": "gms-cancer-germline-virtual",
+      "description": "This is a panel used for WGS germline analysis for the GMS."
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "RNF53",
+          "BRCC1",
+          "PPP1R53",
+          "FANCS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1100",
+        "gene_name": "BRCA1, DNA repair associated",
+        "omim_gene": [
+          "113705"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-containing complex, subunit 1",
+          "protein phosphatase 1, regulatory subunit 53",
+          "Fanconi anemia, complementation group S"
+        ],
+        "gene_symbol": "BRCA1",
+        "hgnc_symbol": "BRCA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:41196312-41277500",
+              "ensembl_id": "ENSG00000012048"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:43044295-43170245",
+              "ensembl_id": "ENSG00000012048"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-02-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRCA1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "{Breast-ovarian cancer, familial, 1}, OMIM:604370"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAD",
+          "FAD1",
+          "BRCC2",
+          "XRCC11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1101",
+        "gene_name": "BRCA2, DNA repair associated",
+        "omim_gene": [
+          "600185"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-containing complex, subunit 2"
+        ],
+        "gene_symbol": "BRCA2",
+        "hgnc_symbol": "BRCA2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:32889611-32973805",
+              "ensembl_id": "ENSG00000139618"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:32315474-32400266",
+              "ensembl_id": "ENSG00000139618"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-10-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRCA2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "{Breast-ovarian cancer, familial, 2}, OMIM:612555",
+        "{Breast cancer, male, susceptibility to}, OMIM:114480"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ21816",
+          "FANCN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26144",
+        "gene_name": "partner and localizer of BRCA2",
+        "omim_gene": [
+          "610355"
+        ],
+        "alias_name": [
+          "Fanconi anemia, complementation group N"
+        ],
+        "gene_symbol": "PALB2",
+        "hgnc_symbol": "PALB2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:23614488-23652631",
+              "ensembl_id": "ENSG00000083093"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:23603160-23641310",
+              "ensembl_id": "ENSG00000083093"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "PALB2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Breast cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p53",
+          "LFS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11998",
+        "gene_name": "tumor protein p53",
+        "omim_gene": [
+          "191170"
+        ],
+        "alias_name": [
+          "Li-Fraumeni syndrome"
+        ],
+        "gene_symbol": "TP53",
+        "hgnc_symbol": "TP53",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:7565097-7590856",
+              "ensembl_id": "ENSG00000141510"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:7661779-7687550",
+              "ensembl_id": "ENSG00000141510"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TP53",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Breast cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ12343",
+          "MGC20625",
+          "MGC21482",
+          "MGC26740"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:33499",
+        "gene_name": "ATR interacting protein",
+        "omim_gene": [
+          "606605"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ATRIP",
+        "hgnc_symbol": "ATRIP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:48488114-48507115",
+              "ensembl_id": "ENSG00000164053"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:48446710-48465716",
+              "ensembl_id": "ENSG00000164053"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-06-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATRIP",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "36977412",
+        "37592023"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hereditary breast cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "uvomorulin",
+          "CD324"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1748",
+        "gene_name": "cadherin 1",
+        "omim_gene": [
+          "192090"
+        ],
+        "alias_name": [
+          "E-Cadherin"
+        ],
+        "gene_symbol": "CDH1",
+        "hgnc_symbol": "CDH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:68771128-68869451",
+              "ensembl_id": "ENSG00000039068"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:68737225-68835548",
+              "ensembl_id": "ENSG00000039068"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDH1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "15235021",
+        "20591882",
+        "23709761",
+        "25979631",
+        "36436516"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Diffuse gastric and lobular breast cancer syndrome with or without cleft lip and/or palate, OMIM:137215"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MMAC1",
+          "TEP1",
+          "PTEN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9588",
+        "gene_name": "phosphatase and tensin homolog",
+        "omim_gene": [
+          "601728"
+        ],
+        "alias_name": [
+          "mutated in multiple advanced cancers 1"
+        ],
+        "gene_symbol": "PTEN",
+        "hgnc_symbol": "PTEN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:89622870-89731687",
+              "ensembl_id": "ENSG00000171862"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:87863113-87971930",
+              "ensembl_id": "ENSG00000171862"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTEN",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Breast cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

@@ -1,0 +1,88 @@
+{
+  "id": 1343,
+  "hash_id": null,
+  "name": "Haemophagocytic syndrome with absent perforin expression",
+  "disease_group": "Immunology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.4",
+  "version_created": "2026-01-23T11:02:30.718977Z",
+  "relevant_disorders": [
+    "R232"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "PFP",
+          "P1",
+          "HPLH2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9360",
+        "gene_name": "perforin 1",
+        "omim_gene": [
+          "170280"
+        ],
+        "alias_name": [
+          "Perforin",
+          "perforin 1 (preforming protein)"
+        ],
+        "gene_symbol": "PRF1",
+        "hgnc_symbol": "PRF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:72357104-72362531",
+              "ensembl_id": "ENSG00000180644"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:70597348-70602775",
+              "ensembl_id": "ENSG00000180644"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-02-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRF1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hemophagocytic lymphohistiocytosis, familial, 2, OMIM:603553",
+        "familial hemophagocytic lymphohistiocytosis 2, MONDO:0011337"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

@@ -1,0 +1,231 @@
+{
+  "id": 1225,
+  "hash_id": null,
+  "name": "Hereditary isolated diabetes insipidus",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.2",
+  "version_created": "2026-01-23T11:06:35.231436Z",
+  "relevant_disorders": [
+    "Neuropophyseal diabetes insipidus",
+    "R440"
+  ],
+  "stats": {
+    "number_of_genes": 4,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:634",
+        "gene_name": "aquaporin 2",
+        "omim_gene": [
+          "107777"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AQP2",
+        "hgnc_symbol": "AQP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:50344524-50352664",
+              "ensembl_id": "ENSG00000167580"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:49950741-49958881",
+              "ensembl_id": "ENSG00000167580"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "AQP2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Diabetes insipidus, nephrogenic, 2, OMIM:125800"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ADH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:894",
+        "gene_name": "arginine vasopressin",
+        "omim_gene": [
+          "192340"
+        ],
+        "alias_name": [
+          "antidiuretic hormone",
+          "neurophysin II",
+          "diabetes insipidus",
+          "neurohypophyseal",
+          "prepro-AVP-NP II",
+          "prepro-arginine-vasopressin-neurophysin II",
+          "copeptin"
+        ],
+        "gene_symbol": "AVP",
+        "hgnc_symbol": "AVP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:3063202-3065370",
+              "ensembl_id": "ENSG00000101200"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:3082556-3084724",
+              "ensembl_id": "ENSG00000101200"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AVP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "V2R"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:897",
+        "gene_name": "arginine vasopressin receptor 2",
+        "omim_gene": [
+          "300538"
+        ],
+        "alias_name": [
+          "nephrogenic diabetes insipidus"
+        ],
+        "gene_symbol": "AVPR2",
+        "hgnc_symbol": "AVPR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153167985-153172620",
+              "ensembl_id": "ENSG00000126895"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:153902531-153907166",
+              "ensembl_id": "ENSG00000126895"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "AVPR2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CHIP28"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:633",
+        "gene_name": "aquaporin 1 (Colton blood group)",
+        "omim_gene": [
+          "107776"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AQP1",
+        "hgnc_symbol": "AQP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:30893010-30965131",
+              "ensembl_id": "ENSG00000240583"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:30911694-30925516",
+              "ensembl_id": "ENSG00000240583"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "AQP1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed",
+        "NHS GMS"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

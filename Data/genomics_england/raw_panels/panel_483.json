@@ -1,0 +1,3593 @@
+{
+  "id": 483,
+  "hash_id": null,
+  "name": "Pituitary hormone deficiency",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "4.8",
+  "version_created": "2026-06-08T16:22:27.411384Z",
+  "relevant_disorders": [
+    "R159"
+  ],
+  "stats": {
+    "number_of_genes": 65,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "BRAF1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1097",
+        "gene_name": "B-Raf proto-oncogene, serine/threonine kinase",
+        "omim_gene": [
+          "164757"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BRAF",
+        "hgnc_symbol": "BRAF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:140419127-140624564",
+              "ensembl_id": "ENSG00000157764"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:140719327-140924764",
+              "ensembl_id": "ENSG00000157764"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRAF",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "33795686"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert review"
+      ],
+      "phenotypes": [
+        "Cardiofaciocutaneous syndrome, OMIM:115150",
+        "cardiofaciocutaneous syndrome, MONDO:0015280"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ATK",
+          "XLA",
+          "PSCTK1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1133",
+        "gene_name": "Bruton tyrosine kinase",
+        "omim_gene": [
+          "300300"
+        ],
+        "alias_name": [
+          "Bruton's tyrosine kinase"
+        ],
+        "gene_symbol": "BTK",
+        "hgnc_symbol": "BTK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:100604435-100641183",
+              "ensembl_id": "ENSG00000010671"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:101349447-101390796",
+              "ensembl_id": "ENSG00000010671"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "BTK",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8013627",
+        "7849697",
+        "9554752"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Isolated growth hormone deficiency, type III, with agammaglobulinemia, OMIM:307200"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "Q4_25_demote_red",
+        "disputed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1416",
+          "FLJ20357",
+          "FLJ20361"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20626",
+        "gene_name": "chromodomain helicase DNA binding protein 7",
+        "omim_gene": [
+          "608892"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CHD7",
+        "hgnc_symbol": "CHD7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:61591337-61779465",
+              "ensembl_id": "ENSG00000171316"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:60678778-60868028",
+              "ensembl_id": "ENSG00000171316"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHD7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center"
+      ],
+      "phenotypes": [
+        "CHARGE syndrome (214800)",
+        "Hypogonadotropic hypogonadism 5 with or without anosmia (612370)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AIGF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3686",
+        "gene_name": "fibroblast growth factor 8",
+        "omim_gene": [
+          "600483"
+        ],
+        "alias_name": [
+          "androgen-induced growth factor"
+        ],
+        "gene_symbol": "FGF8",
+        "hgnc_symbol": "FGF8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:103529899-103535854",
+              "ensembl_id": "ENSG00000107831"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:101770130-101780369",
+              "ensembl_id": "ENSG00000107831"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-08-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGF8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22319038",
+        "21832120",
+        "20463092"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 6 with or without anosmia (612702)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "H2",
+          "H3",
+          "H4",
+          "H5",
+          "CEK",
+          "FLG",
+          "BFGFR",
+          "N-SAM",
+          "CD331"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3688",
+        "gene_name": "fibroblast growth factor receptor 1",
+        "omim_gene": [
+          "136350"
+        ],
+        "alias_name": [
+          "Pfeiffer syndrome"
+        ],
+        "gene_symbol": "FGFR1",
+        "hgnc_symbol": "FGFR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:38268656-38326352",
+              "ensembl_id": "ENSG00000077782"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:38411138-38468834",
+              "ensembl_id": "ENSG00000077782"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGFR1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22319038",
+        "25759380"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 2 with or without anosmia, OMIM:147950",
+        "Hartsfield syndrome, OMIM:615465",
+        "Pfeiffer syndrome, OMIM:101600",
+        "Jackson-Weiss syndrome, OMIM:123150"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5022",
+        "gene_name": "forkhead box A2",
+        "omim_gene": [
+          "600288"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOXA2",
+        "hgnc_symbol": "FOXA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:22561643-22566093",
+              "ensembl_id": "ENSG00000125798"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:22581005-22585455",
+              "ensembl_id": "ENSG00000125798"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28973288",
+        "30414530",
+        "29329447"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "No OMIM number",
+        "Congenital hypopituitarism",
+        "Congenital hyperinsulinism"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GH-N",
+          "GHN",
+          "GH",
+          "hGH-N"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4261",
+        "gene_name": "growth hormone 1",
+        "omim_gene": [
+          "139250"
+        ],
+        "alias_name": [
+          "pituitary growth hormone",
+          "somatotropin"
+        ],
+        "gene_symbol": "GH1",
+        "hgnc_symbol": "GH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:61994560-61996179",
+              "ensembl_id": "ENSG00000259384"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:63917200-63918838",
+              "ensembl_id": "ENSG00000259384"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GH1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Growth hormone deficiency, isolated, type IA, OMIM:262400",
+        "Growth hormone deficiency, isolated, type IB, OMIM:612781",
+        "Growth hormone deficiency, isolated, type II, OMIM:173100"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GHBP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4263",
+        "gene_name": "growth hormone receptor",
+        "omim_gene": [
+          "600946"
+        ],
+        "alias_name": [
+          "growth hormone binding protein"
+        ],
+        "gene_symbol": "GHR",
+        "hgnc_symbol": "GHR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:42423879-42721979",
+              "ensembl_id": "ENSG00000112964"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:42423777-42721878",
+              "ensembl_id": "ENSG00000112964"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "GHR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21900382",
+        "33912130",
+        "34453441",
+        "36943306",
+        "37474955"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Laron dwarfism, OMIM:262500",
+        "Growth hormone insensitivity, partial, OMIM:604271",
+        "Increased responsiveness to growth hormone, OMIM:604271"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4266",
+        "gene_name": "growth hormone releasing hormone receptor",
+        "omim_gene": [
+          "139191"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GHRHR",
+        "hgnc_symbol": "GHRHR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:30978284-31032869",
+              "ensembl_id": "ENSG00000106128"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:30938669-30993254",
+              "ensembl_id": "ENSG00000106128"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GHRHR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Growth hormone deficiency, isolated, type IV (618157)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4267",
+        "gene_name": "growth hormone secretagogue receptor",
+        "omim_gene": [
+          "601898"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GHSR",
+        "hgnc_symbol": "GHSR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:172162923-172166246",
+              "ensembl_id": "ENSG00000121853"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:172445133-172448456",
+              "ensembl_id": "ENSG00000121853"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-09-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "GHSR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25557026",
+        "19789204"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Growth hormone deficiency, isolated partial (615925)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "THP2",
+          "HPE9",
+          "THP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4318",
+        "gene_name": "GLI family zinc finger 2",
+        "omim_gene": [
+          "165230"
+        ],
+        "alias_name": [
+          "tax-responsive element-2 holding protein",
+          "tax helper protein 1",
+          "tax helper protein 2"
+        ],
+        "gene_symbol": "GLI2",
+        "hgnc_symbol": "GLI2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:121493199-121750229",
+              "ensembl_id": "ENSG00000074047"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:120735623-120992653",
+              "ensembl_id": "ENSG00000074047"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLI2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "14581620",
+        "25878059"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Culler-Jones syndrome (615849)",
+        "Holoprosencephaly 9 (610829)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PAP-A",
+          "PAPA",
+          "PAPA1",
+          "PAPB",
+          "ACLS",
+          "PPDIV"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4319",
+        "gene_name": "GLI family zinc finger 3",
+        "omim_gene": [
+          "165240"
+        ],
+        "alias_name": [
+          "zinc finger protein GLI3",
+          "oncogene GLI3",
+          "DNA-binding protein"
+        ],
+        "gene_symbol": "GLI3",
+        "hgnc_symbol": "GLI3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:42000548-42277469",
+              "ensembl_id": "ENSG00000106571"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:41960950-42237870",
+              "ensembl_id": "ENSG00000106571"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLI3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24736735",
+        "15739154"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Greig cephalopolysyndactyly syndrome, OMIM:175700",
+        "Pallister-Hall syndrome, OMIM:146510"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LHRHR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4421",
+        "gene_name": "gonadotropin releasing hormone receptor",
+        "omim_gene": [
+          "138850"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GNRHR",
+        "hgnc_symbol": "GNRHR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:68605046-68620078",
+              "ensembl_id": "ENSG00000109163"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:67739328-67754360",
+              "ensembl_id": "ENSG00000109163"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-01-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNRHR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 7 without anosmia (146110)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RPX",
+          "ANF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4877",
+        "gene_name": "HESX homeobox 1",
+        "omim_gene": [
+          "601802"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HESX1",
+        "hgnc_symbol": "HESX1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:57231944-57260549",
+              "ensembl_id": "ENSG00000163666"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:57197843-57226521",
+              "ensembl_id": "ENSG00000163666"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "HESX1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "14561704",
+        "16940453",
+        "11136712",
+        "26781211"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Growth hormone deficiency with pituitary anomalies, OMIM:182230",
+        "Pituitary hormone deficiency, combined, 5, OMIM:182230",
+        "Septooptic dysplasia, OMIM:182230"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DMC1",
+          "HID-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15736",
+        "gene_name": "HID1 domain containing",
+        "omim_gene": [
+          "605752"
+        ],
+        "alias_name": [
+          "downregulated in multiple cancer 1"
+        ],
+        "gene_symbol": "HID1",
+        "hgnc_symbol": "HID1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:72946838-72969261",
+              "ensembl_id": "ENSG00000167861"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:74950743-74973166",
+              "ensembl_id": "ENSG00000167861"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-10-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "HID1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33999436"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Syndromic infantile encephalopathy",
+        "Hypopituitarism",
+        "Developmental and epileptic encephalopathy 105 with hypopituitarism, OMIM:619983"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0364",
+          "IGDC1",
+          "IGCD1",
+          "INHBP",
+          "MGC75490",
+          "PGSF2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5948",
+        "gene_name": "immunoglobulin superfamily member 1",
+        "omim_gene": [
+          "300137"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IGSF1",
+        "hgnc_symbol": "IGSF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:130407480-130533677",
+              "ensembl_id": "ENSG00000147255"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:131273506-131578899",
+              "ensembl_id": "ENSG00000147255"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "IGSF1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23966245",
+        "23143598",
+        "26302767"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Radboud University Medical Center"
+      ],
+      "phenotypes": [
+        "Hypothyroidism, central, and testicular enlargement, OMIM:300888"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kv7.1",
+          "KCNA8",
+          "KVLQT1",
+          "JLNS1",
+          "LQT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6294",
+        "gene_name": "potassium voltage-gated channel subfamily Q member 1",
+        "omim_gene": [
+          "607542"
+        ],
+        "alias_name": [
+          "Jervell and Lange-Nielsen syndrome 1"
+        ],
+        "gene_symbol": "KCNQ1",
+        "hgnc_symbol": "KCNQ1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:2465914-2870339",
+              "ensembl_id": "ENSG00000053918"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:2444684-2849109",
+              "ensembl_id": "ENSG00000053918"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-02-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNQ1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29097701",
+        "36077086"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Long QT syndrome 1 (192500)",
+        "Pituitary hormone deficiency"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6595",
+        "gene_name": "LIM homeobox 3",
+        "omim_gene": [
+          "600577"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LHX3",
+        "hgnc_symbol": "LHX3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:139088096-139096955",
+              "ensembl_id": "ENSG00000107187"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:136196250-136205109",
+              "ensembl_id": "ENSG00000107187"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-03-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "LHX3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Pituitary hormone deficiency, combined, 3 (221750)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Gsh4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21734",
+        "gene_name": "LIM homeobox 4",
+        "omim_gene": [
+          "602146"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LHX4",
+        "hgnc_symbol": "LHX4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:180199421-180249380",
+              "ensembl_id": "ENSG00000121454"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:180230286-180278982",
+              "ensembl_id": "ENSG00000121454"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-07-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "LHX4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18073311",
+        "11567216",
+        "18445675"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Pituitary hormone deficiency, combined, 4 (262700)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8522",
+        "gene_name": "orthodenticle homeobox 2",
+        "omim_gene": [
+          "600037"
+        ],
+        "alias_name": null,
+        "gene_symbol": "OTX2",
+        "hgnc_symbol": "OTX2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:57267425-57277197",
+              "ensembl_id": "ENSG00000165588"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:56799905-56810479",
+              "ensembl_id": "ENSG00000165588"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-02-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "OTX2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18728160",
+        "18628516",
+        "22715480",
+        "19965921"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Pituitary hormone deficiency, combined, 6 (613986)",
+        "Microphthalmia, syndromic 5 (610125)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IGDS",
+          "RS",
+          "Brx1",
+          "Otlx2",
+          "ARP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9005",
+        "gene_name": "paired like homeodomain 2",
+        "omim_gene": [
+          "601542"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PITX2",
+        "hgnc_symbol": "PITX2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:111538579-111563279",
+              "ensembl_id": "ENSG00000164093"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:110617423-110642123",
+              "ensembl_id": "ENSG00000164093"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "PITX2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Axenfeld-Rieger syndrome, type 1 (180500)",
+        "Anterior segment dysgenesis 4 (137600)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NTE",
+          "sws",
+          "iPLA2delta",
+          "SPG39"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16268",
+        "gene_name": "patatin like phospholipase domain containing 6",
+        "omim_gene": [
+          "603197"
+        ],
+        "alias_name": [
+          "neuropathy target esterase"
+        ],
+        "gene_symbol": "PNPLA6",
+        "hgnc_symbol": "PNPLA6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:7598890-7626650",
+              "ensembl_id": "ENSG00000032444"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:7534004-7561764",
+              "ensembl_id": "ENSG00000032444"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "PNPLA6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25033069"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center"
+      ],
+      "phenotypes": [
+        "Boucher-Neuhauser syndrome (215470)",
+        "Oliver-McFarlane syndrome (275400)",
+        "Spastic paraplegia 39, autosomal recessive (612020)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GHF-1",
+          "POU1F1a"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9210",
+        "gene_name": "POU class 1 homeobox 1",
+        "omim_gene": [
+          "173110"
+        ],
+        "alias_name": [
+          "growth hormone factor 1"
+        ],
+        "gene_symbol": "POU1F1",
+        "hgnc_symbol": "POU1F1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:87308554-87325737",
+              "ensembl_id": "ENSG00000064835"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:87259404-87276587",
+              "ensembl_id": "ENSG00000064835"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-01-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "POU1F1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Pituitary hormone deficiency, combined or isolated, 1, OMIM:613038"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GPR73b",
+          "PKR2",
+          "GPRg2",
+          "dJ680N4.3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15836",
+        "gene_name": "prokineticin receptor 2",
+        "omim_gene": [
+          "607123"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PROKR2",
+        "hgnc_symbol": "PROKR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:5282317-5297378",
+              "ensembl_id": "ENSG00000101292"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:5302040-5314369",
+              "ensembl_id": "ENSG00000101292"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "PROKR2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25759380",
+        "22319038",
+        "25678757"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 3 with or without anosmia (244200)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9455",
+        "gene_name": "PROP paired-like homeobox 1",
+        "omim_gene": [
+          "601538"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PROP1",
+        "hgnc_symbol": "PROP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:177419236-177423243",
+              "ensembl_id": "ENSG00000175325"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:177992235-177996242",
+              "ensembl_id": "ENSG00000175325"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-02-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "PROP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Pituitary hormone deficiency, combined, 2 (262600)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1839",
+          "FLJ20008",
+          "RBM40",
+          "SNRNP65"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18666",
+        "gene_name": "RNA binding region (RNP1, RRM) containing 3",
+        "omim_gene": null,
+        "alias_name": [
+          "U11/U12 snRNP 65K"
+        ],
+        "gene_symbol": "RNPC3",
+        "hgnc_symbol": "RNPC3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:104068313-104097861",
+              "ensembl_id": "ENSG00000185946"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:103525691-103555239",
+              "ensembl_id": "ENSG00000185946"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "RNPC3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "24480542",
+        "29866761",
+        "32462814",
+        "33650182",
+        "34906446"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert Review",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Pituitary hormone deficiency, combined or isolated 7, OMIM:618160",
+        "isolated growth hormone deficiency, type 5, MONDO:0032569"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11195",
+        "gene_name": "SRY-box 2",
+        "omim_gene": [
+          "184429"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOX2",
+        "hgnc_symbol": "SOX2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:181429714-181432221",
+              "ensembl_id": "ENSG00000181449"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:181711924-181714436",
+              "ensembl_id": "ENSG00000181449"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOX2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16932809",
+        "30450772",
+        "29371155"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Microphthalmia, syndromic 3, OMIM:206900",
+        "anophthalmia/microphthalmia-esophageal atresia syndrome, MONDO:0008799"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11199",
+        "gene_name": "SRY-box 3",
+        "omim_gene": [
+          "313430"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOX3",
+        "hgnc_symbol": "SOX3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:139585152-139587225",
+              "ensembl_id": "ENSG00000134595"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:140502985-140505116",
+              "ensembl_id": "ENSG00000134595"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOX3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21289259",
+        "24737742",
+        "24346842",
+        "15800844"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Mental retardation, X-linked, with isolated growth hormone deficiency, OMIM:300123",
+        "Intellectual disability, X-linked, with panhypopituitarism, MONDO:0010252",
+        "Panhypopituitarism, X-linked, OMIM:312000",
+        "Panhypopituitarism, X-linked, MONDO:0010712"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ30899",
+          "dJ310J6.1",
+          "FLJ34235",
+          "bA57L9.1",
+          "BROMI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21485",
+        "gene_name": "TBC1 domain family member 32",
+        "omim_gene": [
+          "615867"
+        ],
+        "alias_name": [
+          "broad-minded homolog"
+        ],
+        "gene_symbol": "TBC1D32",
+        "hgnc_symbol": "TBC1D32",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:121400640-121655891",
+              "ensembl_id": "ENSG00000146350"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:121079494-121334745",
+              "ensembl_id": "ENSG00000146350"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2013-07-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBC1D32",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24285566",
+        "32060556",
+        "35875813"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert review"
+      ],
+      "phenotypes": [
+        "Orofaciodigital syndrome IX, OMIM:258865",
+        "orofaciodigital syndrome IX, MONDO:0009795",
+        "Syndromic Hypopituitarism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dj747L4.1",
+          "TPIT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11596",
+        "gene_name": "T-box 19",
+        "omim_gene": [
+          "604614"
+        ],
+        "alias_name": [
+          "TBS 19"
+        ],
+        "gene_symbol": "TBX19",
+        "hgnc_symbol": "TBX19",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:168250278-168283664",
+              "ensembl_id": "ENSG00000143178"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:168281040-168314426",
+              "ensembl_id": "ENSG00000143178"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-02-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBX19",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11290323",
+        "15476446",
+        "22170728"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Adrenocorticotropic hormone deficiency (201400)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1071",
+        "gene_name": "bone morphogenetic protein 4",
+        "omim_gene": [
+          "112262"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BMP4",
+        "hgnc_symbol": "BMP4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:54416454-54425479",
+              "ensembl_id": "ENSG00000125378"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:53949736-53958761",
+              "ensembl_id": "ENSG00000125378"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-06-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "BMP4",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24289245",
+        "31120642",
+        "18252212",
+        "35633847"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center"
+      ],
+      "phenotypes": [
+        "Microphthalmia, syndromic 6,  OMIM:607932"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ORCAM",
+          "CDO",
+          "CDON1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17104",
+        "gene_name": "cell adhesion associated, oncogene regulated",
+        "omim_gene": [
+          "608707"
+        ],
+        "alias_name": [
+          "cell adhesion molecule-related/down-regulated by oncogenes"
+        ],
+        "gene_symbol": "CDON",
+        "hgnc_symbol": "CDON",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:125825691-125933230",
+              "ensembl_id": "ENSG00000064309"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:125955796-126063335",
+              "ensembl_id": "ENSG00000064309"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-11-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDON",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26529631",
+        "21802063"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center"
+      ],
+      "phenotypes": [
+        "Holoprosencephaly 11 (614226)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDHJ",
+          "FLJ20047",
+          "PCDHJ",
+          "CDHR7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23111",
+        "gene_name": "dachsous cadherin-related 2",
+        "omim_gene": [
+          "612486"
+        ],
+        "alias_name": [
+          "cadherin-related family member 7"
+        ],
+        "gene_symbol": "DCHS2",
+        "hgnc_symbol": "DCHS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:155153399-155412930",
+              "ensembl_id": "ENSG00000197410"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:154232037-154491716",
+              "ensembl_id": "ENSG00000197410"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-09-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "DCHS2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "33108146"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert review"
+      ],
+      "phenotypes": [
+        "pituitary stalk interruption syndrome, MONDO:0019828"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EIF2gamma",
+          "EIF2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3267",
+        "gene_name": "eukaryotic translation initiation factor 2 subunit gamma",
+        "omim_gene": [
+          "300161"
+        ],
+        "alias_name": [
+          "eukaryotic translation initiation factor 2G"
+        ],
+        "gene_symbol": "EIF2S3",
+        "hgnc_symbol": "EIF2S3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:24072833-24096088",
+              "ensembl_id": "ENSG00000130741"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:24054716-24077971",
+              "ensembl_id": "ENSG00000130741"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-09-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "EIF2S3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30878599",
+        "23063529",
+        "27333055",
+        "28055140"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert review"
+      ],
+      "phenotypes": [
+        "hypopituitarism, MONDO:0005152",
+        "glucose intolerance, MONDO:0001076",
+        "MEHMO syndrome, OMIM:300148",
+        "MEHMO syndrome, MONDO:0010258"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MEGF1",
+          "CDHF8",
+          "HFAT2",
+          "CDHR9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3596",
+        "gene_name": "FAT atypical cadherin 2",
+        "omim_gene": [
+          "604269"
+        ],
+        "alias_name": [
+          "cadherin-related family member 9"
+        ],
+        "gene_symbol": "FAT2",
+        "hgnc_symbol": "FAT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:150883654-150948505",
+              "ensembl_id": "ENSG00000086570"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:151504093-151568944",
+              "ensembl_id": "ENSG00000086570"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "FAT2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29053796",
+        "33108146"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert review"
+      ],
+      "phenotypes": [
+        "Spinocerebellar ataxia 45, OMIM:617769",
+        "spinocerebellar ataxia 45, MONDO:0033480"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PC1",
+          "PC3",
+          "SPC3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8743",
+        "gene_name": "proprotein convertase subtilisin/kexin type 1",
+        "omim_gene": [
+          "162150"
+        ],
+        "alias_name": [
+          "prohormone convertase 3",
+          "prohormone convertase 1",
+          "neuroendocrine convertase 1",
+          "proprotein convertase 1"
+        ],
+        "gene_symbol": "PCSK1",
+        "hgnc_symbol": "PCSK1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:95726119-95769847",
+              "ensembl_id": "ENSG00000175426"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:96390415-96434143",
+              "ensembl_id": "ENSG00000175426"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCSK1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30383237"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert review"
+      ],
+      "phenotypes": [
+        "Obesity with impaired prohormone processing, OMIM:600955",
+        "obesity due to prohormone convertase I deficiency, MONDO:0010961",
+        "{Obesity, susceptibility to, BMIQ12},OMIM:612362"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RX"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18662",
+        "gene_name": "retina and anterior neural fold homeobox",
+        "omim_gene": [
+          "601881"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RAX",
+        "hgnc_symbol": "RAX",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:56934267-56941318",
+              "ensembl_id": "ENSG00000134438"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:59267035-59274086",
+              "ensembl_id": "ENSG00000134438"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAX",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30811539",
+        "18783408",
+        "14662654"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert review"
+      ],
+      "phenotypes": [
+        "Microphthalmia, isolated 3, OMIM:611038",
+        "isolated microphthalmia 3, MONDO:0012604"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DUTT1",
+          "FLJ21882",
+          "SAX3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10249",
+        "gene_name": "roundabout guidance receptor 1",
+        "omim_gene": [
+          "602430"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ROBO1",
+        "hgnc_symbol": "ROBO1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:78646390-79816965",
+              "ensembl_id": "ENSG00000169855"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:78597240-79767815",
+              "ensembl_id": "ENSG00000169855"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "ROBO1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28402530",
+        "31448886",
+        "33270637"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert review"
+      ],
+      "phenotypes": [
+        "Pituitary hormone deficiency, combined or isolated, 8, OMIM:620303"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HHG1",
+          "SMMCI",
+          "TPT",
+          "TPTPS",
+          "MCOPCB5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10848",
+        "gene_name": "sonic hedgehog",
+        "omim_gene": [
+          "600725"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SHH",
+        "hgnc_symbol": "SHH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:155592680-155604967",
+              "ensembl_id": "ENSG00000164690"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:155799986-155812273",
+              "ensembl_id": "ENSG00000164690"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-03-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SHH",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22897141"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Radboud University Medical Center",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Microphthalmia with coloboma 5 (611638)",
+        "Holoprosencephaly 3  (142945)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11640",
+        "gene_name": "transcription factor 7 like 1",
+        "omim_gene": [
+          "604652"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TCF7L1",
+        "hgnc_symbol": "TCF7L1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:85360533-85537511",
+              "ensembl_id": "ENSG00000152284"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:85133410-85310388",
+              "ensembl_id": "ENSG00000152284"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "TCF7L1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26764381"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "No OMIM number",
+        "pituitary hormone deficiency"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11776",
+        "gene_name": "TGFB induced factor homeobox 1",
+        "omim_gene": [
+          "602630"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TGIF1",
+        "hgnc_symbol": "TGIF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:3411606-3458409",
+              "ensembl_id": "ENSG00000177426"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:3411608-3459978",
+              "ensembl_id": "ENSG00000177426"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "TGIF1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23476075",
+        "34440302"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Holoprosencephaly 4,OMIM:142946",
+        "holoprosencephaly 4, MONDO:0007734"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ12571",
+          "dyf-13",
+          "DYF13",
+          "IFT56"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21882",
+        "gene_name": "tetratricopeptide repeat domain 26",
+        "omim_gene": [
+          "617453"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTC26",
+        "hgnc_symbol": "TTC26",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:138818490-138876732",
+              "ensembl_id": "ENSG00000105948"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:139133744-139191986",
+              "ensembl_id": "ENSG00000105948"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-03-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTC26",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31595528",
+        "32617964",
+        "34177428",
+        "38135897",
+        "39514123"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Biliary, renal, neurologic, and skeletal syndrome, OMIM:619534",
+        "biliary, renal, neurologic, and skeletal syndrome, MONDO:0859191"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name",
+        "Q2_26_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0307",
+          "bHLHe1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16876",
+        "gene_name": "aryl hydrocarbon receptor nuclear translocator 2",
+        "omim_gene": [
+          "606036"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ARNT2",
+        "hgnc_symbol": "ARNT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:80696692-80890278",
+              "ensembl_id": "ENSG00000172379"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:80404350-80597937",
+              "ensembl_id": "ENSG00000172379"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARNT2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24022475"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center"
+      ],
+      "phenotypes": [
+        "?Webb-Dattani syndrome, OMIM:615926"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1069",
+        "gene_name": "bone morphogenetic protein 2",
+        "omim_gene": [
+          "112261"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BMP2",
+        "hgnc_symbol": "BMP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:6748311-6760927",
+              "ensembl_id": "ENSG00000125845"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:6767664-6780280",
+              "ensembl_id": "ENSG00000125845"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-06-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "BMP2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24289245"
+      ],
+      "evidence": [
+        "Literature",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Short stature, facial dysmorphism, and skeletal anomalies with or without cardiac anomalies (617877)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAST1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3814",
+        "gene_name": "forkhead box H1",
+        "omim_gene": [
+          "603621"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOXH1",
+        "hgnc_symbol": "FOXH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:145698795-145701718",
+              "ensembl_id": "ENSG00000160973"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:144473412-144476335",
+              "ensembl_id": "ENSG00000160973"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-12-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXH1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Holoprosencephaly",
+        "No OMIM number"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4265",
+        "gene_name": "growth hormone releasing hormone",
+        "omim_gene": [
+          "139190"
+        ],
+        "alias_name": [
+          "sermorelin",
+          "somatocrinin",
+          "somatoliberin"
+        ],
+        "gene_symbol": "GHRH",
+        "hgnc_symbol": "GHRH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:35879489-35890238",
+              "ensembl_id": "ENSG00000118702"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:37251082-37261835",
+              "ensembl_id": "ENSG00000118702"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GHRH",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15155578"
+      ],
+      "evidence": [
+        "Literature",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "?Isolated growth hormone deficiency due to defect in GHRF",
+        "No OMIM number"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RE2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23694",
+        "gene_name": "G protein-coupled receptor 161",
+        "omim_gene": [
+          "612250"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GPR161",
+        "hgnc_symbol": "GPR161",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:168053997-168106821",
+              "ensembl_id": "ENSG00000143147"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:168079543-168137667",
+              "ensembl_id": "ENSG00000143147"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GPR161",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25322266"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "pituitary stalk interruption syndrome, MONDO:0019828"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HIP",
+          "FLJ20992"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14866",
+        "gene_name": "hedgehog interacting protein",
+        "omim_gene": [
+          "606178"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HHIP",
+        "hgnc_symbol": "HHIP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:145567173-145666423",
+              "ensembl_id": "ENSG00000164161"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:144646021-144745271",
+              "ensembl_id": "ENSG00000164161"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-02-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "HHIP",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "No OMIM number"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SAF-A",
+          "hnRNPU",
+          "FLJ37978",
+          "FLJ30202"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5048",
+        "gene_name": "heterogeneous nuclear ribonucleoprotein U",
+        "omim_gene": [
+          "602869"
+        ],
+        "alias_name": [
+          "scaffold attachment factor A"
+        ],
+        "gene_symbol": "HNRNPU",
+        "hgnc_symbol": "HNRNPU",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:245014468-245027844",
+              "ensembl_id": "ENSG00000153187"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:244840638-244864560",
+              "ensembl_id": "ENSG00000153187"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "HNRNPU",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center"
+      ],
+      "phenotypes": [
+        "Epileptic encephalopathy, early infantile, 54 (617391)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SLB",
+          "wim",
+          "osm-1",
+          "NPHP17",
+          "BBS20"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30391",
+        "gene_name": "intraflagellar transport 172",
+        "omim_gene": [
+          "607386"
+        ],
+        "alias_name": [
+          "wimple homolog"
+        ],
+        "gene_symbol": "IFT172",
+        "hgnc_symbol": "IFT172",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:27667238-27712656",
+              "ensembl_id": "ENSG00000138002"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:27444371-27489789",
+              "ensembl_id": "ENSG00000138002"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "IFT172",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25664603"
+      ],
+      "evidence": [
+        "Expert review"
+      ],
+      "phenotypes": [
+        "retinopathy, metaphyseal dysplasia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD171"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6470",
+        "gene_name": "L1 cell adhesion molecule",
+        "omim_gene": [
+          "308840"
+        ],
+        "alias_name": [
+          "neural cell adhesion molecule L1"
+        ],
+        "gene_symbol": "L1CAM",
+        "hgnc_symbol": "L1CAM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153126969-153174677",
+              "ensembl_id": "ENSG00000198910"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:153861514-153909223",
+              "ensembl_id": "ENSG00000198910"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "L1CAM",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "31504653"
+      ],
+      "evidence": [
+        "Expert review"
+      ],
+      "phenotypes": [
+        "CRASH syndrome, OMIM:303350",
+        "MASA syndrome, OMIM:303350"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "nM15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6814",
+        "gene_name": "MAGE family member L2",
+        "omim_gene": [
+          "605283"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAGEL2",
+        "hgnc_symbol": "MAGEL2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:23888691-23891175",
+              "ensembl_id": "ENSG00000254585"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:23643544-23647841",
+              "ensembl_id": "ENSG00000254585"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAGEL2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "31504653",
+        "29359444",
+        "30323850"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert review"
+      ],
+      "phenotypes": [
+        "Schaaf-Yang syndrome, OMIM:615547",
+        "Schaaf-Yang syndrome, MONDO:0014243"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, paternally imprinted (maternal allele expressed)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TTF-1",
+          "TTF1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11825",
+        "gene_name": "NK2 homeobox 1",
+        "omim_gene": [
+          "600635"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NKX2-1",
+        "hgnc_symbol": "NKX2-1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:36985602-36990354",
+              "ensembl_id": "ENSG00000136352"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:36516392-36521149",
+              "ensembl_id": "ENSG00000136352"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-07-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "NKX2-1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "31707387"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Expert review"
+      ],
+      "phenotypes": [
+        "Choreoathetosis, hypothyroidism, and neonatal respiratory distress, OMIM:610978",
+        "brain-lung-thyroid syndrome, MONDO:0012593"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7865",
+        "gene_name": "nodal growth differentiation factor",
+        "omim_gene": [
+          "601265"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NODAL",
+        "hgnc_symbol": "NODAL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:72192071-72207707",
+              "ensembl_id": "ENSG00000156574"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:70432315-70447951",
+              "ensembl_id": "ENSG00000156574"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "NODAL",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Holoprosencephaly",
+        "Heterotaxy, visceral, 5 (270100)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D11S812E",
+          "AN",
+          "WAGR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8620",
+        "gene_name": "paired box 6",
+        "omim_gene": [
+          "607108"
+        ],
+        "alias_name": [
+          "aniridia, keratitis"
+        ],
+        "gene_symbol": "PAX6",
+        "hgnc_symbol": "PAX6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:31806340-31839509",
+              "ensembl_id": "ENSG00000007372"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:31784779-31818062",
+              "ensembl_id": "ENSG00000007372"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PAX6",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25342853"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center"
+      ],
+      "phenotypes": [
+        "Aniridia (106210)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RPC1",
+          "RPC155",
+          "hRPC155"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30074",
+        "gene_name": "RNA polymerase III subunit A",
+        "omim_gene": [
+          "614258"
+        ],
+        "alias_name": null,
+        "gene_symbol": "POLR3A",
+        "hgnc_symbol": "POLR3A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:79734907-79789303",
+              "ensembl_id": "ENSG00000148606"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:77969251-78029545",
+              "ensembl_id": "ENSG00000148606"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-09-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "POLR3A",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center"
+      ],
+      "phenotypes": [
+        "Leukodystrophy, hypomyelinating, 7, with or without oligodontia and/or hypogonadotropic hypogonadism (607694)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PSTPIP",
+          "CD2BP1L",
+          "CD2BP1",
+          "CD2BP1S",
+          "H-PIP",
+          "PAPAS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9580",
+        "gene_name": "proline-serine-threonine phosphatase interacting protein 1",
+        "omim_gene": [
+          "606347"
+        ],
+        "alias_name": [
+          "CD2 cytoplasmic tail-binding protein",
+          "CD2 antigen-binding protein 1",
+          "PEST phosphatase-interacting protein 1"
+        ],
+        "gene_symbol": "PSTPIP1",
+        "hgnc_symbol": "PSTPIP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:77285700-77329673",
+              "ensembl_id": "ENSG00000140368"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:76993359-77037332",
+              "ensembl_id": "ENSG00000140368"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-01-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSTPIP1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Pyogenic sterile arthritis, pyoderma gangrenosum, and acne, OMIM:604416"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BCNS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9585",
+        "gene_name": "patched 1",
+        "omim_gene": [
+          "601309"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTCH1",
+        "hgnc_symbol": "PTCH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:98205262-98279339",
+              "ensembl_id": "ENSG00000185920"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:95442980-95517057",
+              "ensembl_id": "ENSG00000185920"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-09-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTCH1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11941477"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Holoprosencephaly 7, OMIM:610828"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10377"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21863",
+        "gene_name": "RNA binding motif protein 28",
+        "omim_gene": [
+          "612074"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RBM28",
+        "hgnc_symbol": "RBM28",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:127937738-127983962",
+              "ensembl_id": "ENSG00000106344"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:128297685-128343908",
+              "ensembl_id": "ENSG00000106344"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-06-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "RBM28",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20231366"
+      ],
+      "evidence": [
+        "Radboud University Medical Center"
+      ],
+      "phenotypes": [
+        "?Alopecia, neurologic defects, and endocrinopathy syndrome (612079)",
+        "ANE syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10889",
+        "gene_name": "SIX homeobox 3",
+        "omim_gene": [
+          "603714"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SIX3",
+        "hgnc_symbol": "SIX3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:45168902-45173216",
+              "ensembl_id": "ENSG00000138083"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:44941898-44946077",
+              "ensembl_id": "ENSG00000138083"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SIX3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "35951005",
+        "34974160",
+        "32796691",
+        "25915183"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Holoprosencephaly 2, OMIM:157170",
+        "alobar holoprosencephaly, MONDO:0019757"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PHT1",
+          "PTR4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23090",
+        "gene_name": "solute carrier family 15 member 4",
+        "omim_gene": [
+          "615806"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC15A4",
+        "hgnc_symbol": "SLC15A4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:129277739-129308528",
+              "ensembl_id": "ENSG00000139370"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:128793191-128823983",
+              "ensembl_id": "ENSG00000139370"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-09-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC15A4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29261175"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "No OMIM number"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PiT-1",
+          "Glvr-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10946",
+        "gene_name": "solute carrier family 20 member 1",
+        "omim_gene": [
+          "137570"
+        ],
+        "alias_name": [
+          "gibbon ape leukemia virus receptor 1"
+        ],
+        "gene_symbol": "SLC20A1",
+        "hgnc_symbol": "SLC20A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:113403434-113421404",
+              "ensembl_id": "ENSG00000144136"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:112645857-112663827",
+              "ensembl_id": "ENSG00000144136"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-10-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC20A1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "No OMIM number"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1351",
+          "FLJ10506",
+          "WDR15",
+          "HH14",
+          "DR11",
+          "SRI1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13831",
+        "gene_name": "WD repeat domain 11",
+        "omim_gene": [
+          "606417"
+        ],
+        "alias_name": [
+          "sensitization to ricin complex subunit 1"
+        ],
+        "gene_symbol": "WDR11",
+        "hgnc_symbol": "WDR11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:122610687-122669036",
+              "ensembl_id": "ENSG00000120008"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:120851175-120909524",
+              "ensembl_id": "ENSG00000120008"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-01-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "WDR11",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28453858",
+        "20887964",
+        "34413497",
+        "28453858"
+      ],
+      "evidence": [
+        "Radboud University Medical Center"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 14 with or without anosmia, OMIM:614858",
+        "hypogonadotropic hypogonadism 14 with or without anosmia, MONDO:0013926"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HPE5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12873",
+        "gene_name": "Zic family member 2",
+        "omim_gene": [
+          "603073"
+        ],
+        "alias_name": [
+          "Zinc finger protein of the cerebellum 2"
+        ],
+        "gene_symbol": "ZIC2",
+        "hgnc_symbol": "ZIC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:100634026-100639018",
+              "ensembl_id": "ENSG00000043355"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:99981772-99986773",
+              "ensembl_id": "ENSG00000043355"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZIC2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24706429"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Holoprosencephaly 5 (609637)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1577"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29316",
+        "gene_name": "zinc finger SWIM-type containing 6",
+        "omim_gene": [
+          "615951"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ZSWIM6",
+        "hgnc_symbol": "ZSWIM6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:60628100-60841997",
+              "ensembl_id": "ENSG00000130449"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:61332273-61546170",
+              "ensembl_id": "ENSG00000130449"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZSWIM6",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center"
+      ],
+      "phenotypes": [
+        "Acromelic frontonasal dysostosis (603671)",
+        "Neurodevelopmental disorder with movement abnormalities, abnormal gait, and autistic features (617865)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

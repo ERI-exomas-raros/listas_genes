@@ -1,0 +1,1628 @@
+{
+  "id": 658,
+  "hash_id": null,
+  "name": "Corneal dystrophy",
+  "disease_group": "Ophthalmology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "4.9",
+  "version_created": "2026-05-12T18:28:14.868377Z",
+  "relevant_disorders": [
+    "Corneal dystrophies",
+    "R262"
+  ],
+  "stats": {
+    "number_of_genes": 28,
+    "number_of_strs": 1,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6938",
+        "gene_name": "carbohydrate sulfotransferase 6",
+        "omim_gene": [
+          "605294"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CHST6",
+        "hgnc_symbol": "CHST6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:75510949-75529282",
+              "ensembl_id": "ENSG00000183196"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:75472052-75495384",
+              "ensembl_id": "ENSG00000183196"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHST6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15013869",
+        "11818380",
+        "11017086"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Macular corneal dystrophy 217800"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BP180"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2194",
+        "gene_name": "collagen type XVII alpha 1 chain",
+        "omim_gene": [
+          "113811"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL17A1",
+        "hgnc_symbol": "COL17A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:105791044-105845760",
+              "ensembl_id": "ENSG00000065618"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:104031286-104086002",
+              "ensembl_id": "ENSG00000065618"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL17A1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25564336",
+        "19710953",
+        "14562173"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Epithelial recurrent erosion dystrophy, OMIM:122400"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PPCD",
+          "FECD1",
+          "PPCD2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2216",
+        "gene_name": "collagen type VIII alpha 2 chain",
+        "omim_gene": [
+          "120252"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL8A2",
+        "hgnc_symbol": "COL8A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:36560837-36590821",
+              "ensembl_id": "ENSG00000171812"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:36095236-36125220",
+              "ensembl_id": "ENSG00000171812"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL8A2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11689488"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Corneal dystrophy, Fuchs endothelial, 1 136800",
+        "Corneal dystrophy, posterior polymorphous 2 609140"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DSPG2",
+          "SLRR1B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2705",
+        "gene_name": "decorin",
+        "omim_gene": [
+          "125255"
+        ],
+        "alias_name": [
+          "decorin proteoglycan"
+        ],
+        "gene_symbol": "DCN",
+        "hgnc_symbol": "DCN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:91539025-91576900",
+              "ensembl_id": "ENSG00000011465"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:91140484-91183123",
+              "ensembl_id": "ENSG00000011465"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-07-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "DCN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24413633",
+        "15671264",
+        "16935612"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Corneal dystrophy, congenital stromal 610048"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ13782",
+          "BOM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2799",
+        "gene_name": "grainyhead like transcription factor 2",
+        "omim_gene": [
+          "608576"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GRHL2",
+        "hgnc_symbol": "GRHL2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:102504660-102681954",
+              "ensembl_id": "ENSG00000083307"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:101492432-101669726",
+              "ensembl_id": "ENSG00000083307"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "GRHL2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29499165"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Corneal dystrophy, posterior polymorphous, 4, OMIM:618031"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp313L0718"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4620",
+        "gene_name": "gelsolin",
+        "omim_gene": [
+          "137350"
+        ],
+        "alias_name": [
+          "amyloidosis, Finnish type"
+        ],
+        "gene_symbol": "GSN",
+        "hgnc_symbol": "GSN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:123970072-124095121",
+              "ensembl_id": "ENSG00000148180"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:121207794-121332843",
+              "ensembl_id": "ENSG00000148180"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-07-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "GSN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "2153578",
+        "1652889",
+        "8388189"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Amyloidosis, Finnish type, OMIM:105120"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SLRR2B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6309",
+        "gene_name": "keratocan",
+        "omim_gene": [
+          "603288"
+        ],
+        "alias_name": [
+          "keratocan proteoglycan"
+        ],
+        "gene_symbol": "KERA",
+        "hgnc_symbol": "KERA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:91444268-91451760",
+              "ensembl_id": "ENSG00000139330"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:91050491-91057983",
+              "ensembl_id": "ENSG00000139330"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "KERA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23834557",
+        "11726611",
+        "10802664"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Cornea plana 2 217300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "K12"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6414",
+        "gene_name": "keratin 12",
+        "omim_gene": [
+          "601687"
+        ],
+        "alias_name": [
+          "Meesmann corneal dystrophy"
+        ],
+        "gene_symbol": "KRT12",
+        "hgnc_symbol": "KRT12",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:39017555-39023462",
+              "ensembl_id": "ENSG00000187242"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:40861303-40867210",
+              "ensembl_id": "ENSG00000187242"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRT12",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9171931",
+        "10644419",
+        "8759347"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Meesmann corneal dystrophy 122100"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CK3",
+          "K3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6440",
+        "gene_name": "keratin 3",
+        "omim_gene": [
+          "148043"
+        ],
+        "alias_name": [
+          "keratin, type II cytoskeletal 3",
+          "cytokeratin 3"
+        ],
+        "gene_symbol": "KRT3",
+        "hgnc_symbol": "KRT3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:53183469-53189901",
+              "ensembl_id": "ENSG00000186442"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:52789685-52796117",
+              "ensembl_id": "ENSG00000186442"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRT3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9171831",
+        "188806880",
+        "16227835"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Meesmann corneal dystrophy 122100"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6522",
+        "gene_name": "lecithin-cholesterol acyltransferase",
+        "omim_gene": [
+          "606967"
+        ],
+        "alias_name": [
+          "phosphatidylcholine--sterol O-acyltransferase"
+        ],
+        "gene_symbol": "LCAT",
+        "hgnc_symbol": "LCAT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:67973653-67978034",
+              "ensembl_id": "ENSG00000213398"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:67939750-67944131",
+              "ensembl_id": "ENSG00000213398"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "LCAT",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "1859405",
+        "2370048",
+        "1681161"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fish-eye disease 136120",
+        "Norum disease 245900"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6715",
+        "gene_name": "latent transforming growth factor beta binding protein 2",
+        "omim_gene": [
+          "602091"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LTBP2",
+        "hgnc_symbol": "LTBP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:74964873-75079306",
+              "ensembl_id": "ENSG00000119681"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:74498170-74612378",
+              "ensembl_id": "ENSG00000119681"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "LTBP2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "19656777",
+        "19361779",
+        "21081970",
+        "20179738",
+        "22539340",
+        "20617341",
+        "22025892"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Microspherophakia and/or megalocornea, with ectopia lentis and with or without secondary glaucoma, OMIM:251750",
+        "Glaucoma 3, primary congenital, D, OMIM:613086",
+        "Weill-Marchesani syndrome 3, recessive, OMIM:614819"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "bA504H3.3",
+          "HOVO2",
+          "CHED"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15804",
+        "gene_name": "ovo like zinc finger 2",
+        "omim_gene": [
+          "616441"
+        ],
+        "alias_name": null,
+        "gene_symbol": "OVOL2",
+        "hgnc_symbol": "OVOL2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:17937623-18039832",
+              "ensembl_id": "ENSG00000125850"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:17956979-18059188",
+              "ensembl_id": "ENSG00000125850"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-05-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "OVOL2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26749309"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Corneal dystrophy, posterior polymorphous, 1 122000"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC40423",
+          "KIAA0981",
+          "PIKfyve",
+          "PIP5K",
+          "p235",
+          "ZFYVE29",
+          "FAB1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23785",
+        "gene_name": "phosphoinositide kinase, FYVE-type zinc finger containing",
+        "omim_gene": [
+          "609414"
+        ],
+        "alias_name": [
+          "zinc finger, FYVE domain containing 29"
+        ],
+        "gene_symbol": "PIKFYVE",
+        "hgnc_symbol": "PIKFYVE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:209130991-209223475",
+              "ensembl_id": "ENSG00000115020"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:208266267-208358751",
+              "ensembl_id": "ENSG00000115020"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-04-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIKFYVE",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26396486",
+        "15902656",
+        "23288988"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Corneal fleck dystrophy 121850"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PFM2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9349",
+        "gene_name": "PR/SET domain 5",
+        "omim_gene": [
+          "614161"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PRDM5",
+        "hgnc_symbol": "PRDM5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:121606074-121844025",
+              "ensembl_id": "ENSG00000138738"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:120684919-120922870",
+              "ensembl_id": "ENSG00000138738"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-08-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRDM5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22122778",
+        "21664999"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Brittle cornea syndrome 614170"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dJ794I6.2",
+          "BTR1",
+          "NaBC1",
+          "FECD4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16438",
+        "gene_name": "solute carrier family 4 member 11",
+        "omim_gene": [
+          "610206"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC4A11",
+        "hgnc_symbol": "SLC4A11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:3208063-3219836",
+              "ensembl_id": "ENSG00000088836"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:3227417-3239190",
+              "ensembl_id": "ENSG00000088836"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-11-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC4A11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16767101",
+        "16825429"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Corneal dystrophy, Fuchs endothelial, 4 613268",
+        "Corneal endothelial dystrophy and perceptive deafness 217400",
+        "Corneal endothelial dystrophy, autosomal recessive 217700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARSC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11425",
+        "gene_name": "steroid sulfatase",
+        "omim_gene": [
+          "300747"
+        ],
+        "alias_name": [
+          "arylsulfatase C",
+          "steryl-sulfatase"
+        ],
+        "gene_symbol": "STS",
+        "hgnc_symbol": "STS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:7137497-7272851",
+              "ensembl_id": "ENSG00000101846"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:7219456-7354810",
+              "ensembl_id": "ENSG00000101846"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "STS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "1539590",
+        "3169744",
+        "9252398"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Ichthyosis, X-linked"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TROP2",
+          "GA733-1",
+          "EGP-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11530",
+        "gene_name": "tumor associated calcium signal transducer 2",
+        "omim_gene": [
+          "137290"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TACSTD2",
+        "hgnc_symbol": "TACSTD2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:59041099-59043166",
+              "ensembl_id": "ENSG00000184292"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:58575423-58577773",
+              "ensembl_id": "ENSG00000184292"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-11-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "TACSTD2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17898270",
+        "10192395"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Corneal dystrophy, gelatinous drop-like 204870"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SEF2-1B",
+          "ITF2",
+          "bHLHb19",
+          "E2-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11634",
+        "gene_name": "transcription factor 4",
+        "omim_gene": [
+          "602272"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TCF4",
+        "hgnc_symbol": "TCF4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:52889562-53332018",
+              "ensembl_id": "ENSG00000196628"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:55222331-55664787",
+              "ensembl_id": "ENSG00000196628"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-10-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "TCF4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29526280",
+        "26401622",
+        "24255041",
+        "25168903",
+        "25722209",
+        "25593321",
+        "34946867"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Corneal dystrophy, Fuchs endothelial, 3, OMIM:613267"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "STR"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BIGH3",
+          "CDB1",
+          "CDGG1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11771",
+        "gene_name": "transforming growth factor beta induced",
+        "omim_gene": [
+          "601692"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TGFBI",
+        "hgnc_symbol": "TGFBI",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:135364584-135399507",
+              "ensembl_id": "ENSG00000120708"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:136028895-136063818",
+              "ensembl_id": "ENSG00000120708"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "TGFBI",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17962451",
+        "23169578",
+        "17668063"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Corneal dystrophy, Groenouw type I 121900",
+        "Corneal dystrophy, Avellino type 607541",
+        "Corneal dystrophy, Thiel-Behnke type 602082",
+        "Corneal dystrophy, lattice type I 122200",
+        "Corneal dystrophy, Reis-Bucklers type 608470",
+        "Corneal dystrophy, epithelial basement membrane 121820",
+        "Corneal dystrophy, lattice type IIIA 608471"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TERE1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30791",
+        "gene_name": "UbiA prenyltransferase domain containing 1",
+        "omim_gene": [
+          "611632"
+        ],
+        "alias_name": [
+          "transitional epithelia response protein"
+        ],
+        "gene_symbol": "UBIAD1",
+        "hgnc_symbol": "UBIAD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:11333263-11356106",
+              "ensembl_id": "ENSG00000120942"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:11273206-11296049",
+              "ensembl_id": "ENSG00000120942"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "UBIAD1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17962451",
+        "18176953",
+        "17668063"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Corneal dystrophy, Schnyder type 121800"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BZP",
+          "ZEB",
+          "AREB6",
+          "NIL-2-A",
+          "Zfhep",
+          "Zfhx1a",
+          "FECD6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11642",
+        "gene_name": "zinc finger E-box binding homeobox 1",
+        "omim_gene": [
+          "189909"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ZEB1",
+        "hgnc_symbol": "ZEB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:31607424-31818742",
+              "ensembl_id": "ENSG00000148516"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:31318495-31529814",
+              "ensembl_id": "ENSG00000148516"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-02-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZEB1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "2003649",
+        "16252232"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Corneal dystrophy, posterior polymorphous, 3 609141",
+        "Corneal dystrophy, Fuchs endothelial, 6 613270"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1858"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23216",
+        "gene_name": "zinc finger protein 469",
+        "omim_gene": [
+          "612078"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ZNF469",
+        "hgnc_symbol": "ZNF469",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:88493879-88507165",
+              "ensembl_id": "ENSG00000225614"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:88427471-88440757",
+              "ensembl_id": "ENSG00000225614"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZNF469",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20938016",
+        "19661234",
+        "18452888"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Brittle cornea syndrome 1 229200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BAM22",
+          "AP105A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:554",
+        "gene_name": "adaptor related protein complex 1 beta 1 subunit",
+        "omim_gene": [
+          "600157"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AP1B1",
+        "hgnc_symbol": "AP1B1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:29723669-29819168",
+              "ensembl_id": "ENSG00000100280"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:29327680-29423179",
+              "ensembl_id": "ENSG00000100280"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AP1B1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31630788",
+        "33452671",
+        "32969855",
+        "35144013"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Keratitis-ichthyosis-deafness syndrome, autosomal recessive, OMIM:242150",
+        "KID syndrome, MONDO:0018781"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CAGR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6757",
+        "gene_name": "mab-21 like 1",
+        "omim_gene": [
+          "601280"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAB21L1",
+        "hgnc_symbol": "MAB21L1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:36047926-36050832",
+              "ensembl_id": "ENSG00000180660"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:35474182-35477209",
+              "ensembl_id": "ENSG00000180660"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-08-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAB21L1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27103078",
+        "30487245"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Cerebellar, ocular, craniofacial, and genital syndrome, OMIM:618479",
+        "cerebellar, ocular, craniofacial, and genital syndrome, MONDO:0032774"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MER5",
+          "AOP-1",
+          "SP-22"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9354",
+        "gene_name": "peroxiredoxin 3",
+        "omim_gene": [
+          "604769"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PRDX3",
+        "hgnc_symbol": "PRDX3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:120927215-120938345",
+              "ensembl_id": "ENSG00000165672"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:119167703-119178833",
+              "ensembl_id": "ENSG00000165672"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-08-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRDX3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31782998",
+        "34369396"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Corneal dystrophy, punctiform and polychromatic pre-Descemet, OMIM:619871",
+        "corneal dystrophy, punctiform and polychromatic pre-descemet, MONDO:0859248"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "founder-effect"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hsa-mir-184"
+        ],
+        "biotype": "miRNA",
+        "hgnc_id": "HGNC:31555",
+        "gene_name": "microRNA 184",
+        "omim_gene": [
+          "613146"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MIR184",
+        "hgnc_symbol": "MIR184",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:79502130-79502213",
+              "ensembl_id": "ENSG00000207695"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:79209788-79209871",
+              "ensembl_id": "ENSG00000207695"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-12-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "MIR184",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25157590",
+        "21996275",
+        "24138095"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "EDICT syndrome OMIM:614303, MONDO:0013678"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "locus-type-rna-micro"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JTK12",
+          "CD140b",
+          "PDGFR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8804",
+        "gene_name": "platelet derived growth factor receptor beta",
+        "omim_gene": [
+          "173410"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PDGFRB",
+        "hgnc_symbol": "PDGFRB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:149493400-149535435",
+              "ensembl_id": "ENSG00000113721"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:150113837-150155872",
+              "ensembl_id": "ENSG00000113721"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDGFRB",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33450762"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PPD",
+          "PPCD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12723",
+        "gene_name": "visual system homeobox 1",
+        "omim_gene": [
+          "605020"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VSX1",
+        "hgnc_symbol": "VSX1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:25051521-25062996",
+              "ensembl_id": "ENSG00000100987"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:25070885-25082365",
+              "ensembl_id": "ENSG00000100987"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-03-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "VSX1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Keratoconus 1, OMIM:148300, MONDO:0007851"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [
+    {
+      "gene_data": {
+        "alias": [
+          "SEF2-1B",
+          "ITF2",
+          "bHLHb19",
+          "E2-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11634",
+        "gene_name": "transcription factor 4",
+        "omim_gene": [
+          "602272"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TCF4",
+        "hgnc_symbol": "TCF4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:52889562-53332018",
+              "ensembl_id": "ENSG00000196628"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:55222331-55664787",
+              "ensembl_id": "ENSG00000196628"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-10-16"
+      },
+      "entity_type": "str",
+      "entity_name": "TCF4_CTG",
+      "confidence_level": "1",
+      "penetrance": null,
+      "publications": [
+        "29526280",
+        "26401622",
+        "24255041",
+        "25168903",
+        "25722209",
+        "25593321"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Corneal dystrophy, Fuchs endothelial, 3, OMIM:613267",
+        "corneal dystrophy, Fuchs endothelial, 3, MONDO:0013203"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "repeated_sequence": "CTG",
+      "chromosome": "18",
+      "grch37_coordinates": null,
+      "grch38_coordinates": [
+        55586155,
+        55586227
+      ],
+      "normal_repeats": 31,
+      "pathogenic_repeats": 50,
+      "tags": [
+        "STR",
+        "NGS Not Validated"
+      ]
+    }
+  ],
+  "regions": []
+}

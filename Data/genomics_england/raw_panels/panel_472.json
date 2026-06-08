@@ -1,0 +1,4587 @@
+{
+  "id": 472,
+  "hash_id": null,
+  "name": "Monogenic diabetes",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.22",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R141"
+  ],
+  "stats": {
+    "number_of_genes": 84,
+    "number_of_strs": 0,
+    "number_of_regions": 1
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "HI",
+          "PHHI",
+          "SUR1",
+          "MRP8",
+          "ABC36",
+          "HHF1",
+          "TNDM2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:59",
+        "gene_name": "ATP binding cassette subfamily C member 8",
+        "omim_gene": [
+          "600509"
+        ],
+        "alias_name": [
+          "sulfonylurea receptor (hyperinsulinemia)"
+        ],
+        "gene_symbol": "ABCC8",
+        "hgnc_symbol": "ABCC8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:17414432-17498449",
+              "ensembl_id": "ENSG00000006071"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:17392885-17476845",
+              "ensembl_id": "ENSG00000006071"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-01-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCC8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Transient Neonatal Diabetes Mellitus, MONDO:0020525 (dominant)",
+        "Diabetes mellitus, noninsulin-dependent, OMIM:125853",
+        "Diabetes mellitus, transient neonatal 2, OMIM:610374",
+        "Hyperinsulinemic hypoglycemia, familial, 1, OMIM:256450",
+        "Hypoglycemia of infancy, leucine-sensitive, OMIM:240800",
+        "Permanent Neonatal Diabetes Mellitus, MONDO:0100164(recessive)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:392",
+        "gene_name": "AKT serine/threonine kinase 2",
+        "omim_gene": [
+          "164731"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AKT2",
+        "hgnc_symbol": "AKT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:40736224-40791443",
+              "ensembl_id": "ENSG00000105221"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:40230317-40285536",
+              "ensembl_id": "ENSG00000105221"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "AKT2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17576055",
+        "17327441",
+        "15166380"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Diabetes mellitus, type II, OMIM:125853",
+        "Type 2 diabetes mellitus, MONDO:0005148"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "APPL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24035",
+        "gene_name": "adaptor protein, phosphotyrosine interacting with PH domain and leucine zipper 1",
+        "omim_gene": [
+          "604299"
+        ],
+        "alias_name": [
+          "DCC-interacting protein 13-alpha"
+        ],
+        "gene_symbol": "APPL1",
+        "hgnc_symbol": "APPL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:57261765-57307496",
+              "ensembl_id": "ENSG00000157500"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:57227737-57273468",
+              "ensembl_id": "ENSG00000157500"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "APPL1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "{Maturity-onset diabetes of the young, type 14}, OMIM:616511"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "Q1_26_NHS_review",
+        "Q1_26_expert_review",
+        "Q1_26_demote_amber"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BSSL",
+          "MODY8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1848",
+        "gene_name": "carboxyl ester lipase",
+        "omim_gene": [
+          "114840"
+        ],
+        "alias_name": [
+          "bile salt-stimulated lipase"
+        ],
+        "gene_symbol": "CEL",
+        "hgnc_symbol": "CEL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:135937365-135947248",
+              "ensembl_id": "ENSG00000170835"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:133061978-133071861",
+              "ensembl_id": "ENSG00000170835"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-12-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "CEL",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16369531",
+        "24062244",
+        "21784842",
+        "19760265",
+        "18544793",
+        "17989309",
+        "27650499",
+        "25160620"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Maturity-onset diabetes of the young, type VIII, OMIM:609812",
+        "Diabetes and pancreatic exocrine dysfunction"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Miner1",
+          "ERIS",
+          "NAF-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24212",
+        "gene_name": "CDGSH iron sulfur domain 2",
+        "omim_gene": [
+          "611507"
+        ],
+        "alias_name": [
+          "mitoNEET related 1",
+          "endoplasmic reticulum intermembrane small protein",
+          "nutrient-deprivation autophagy factor-1"
+        ],
+        "gene_symbol": "CISD2",
+        "hgnc_symbol": "CISD2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:103790135-103810399",
+              "ensembl_id": "ENSG00000145354"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:102868978-102889242",
+              "ensembl_id": "ENSG00000145354"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "CISD2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17846994",
+        "25056293"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Wolfram syndrome 2, OMIM:604928"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ13096"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25784",
+        "gene_name": "DDB1 and CUL4 associated factor 17",
+        "omim_gene": [
+          "612515"
+        ],
+        "alias_name": [
+          "Woodhouse-Sakati syndrome"
+        ],
+        "gene_symbol": "DCAF17",
+        "hgnc_symbol": "DCAF17",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:172290727-172341562",
+              "ensembl_id": "ENSG00000115827"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:171434217-171485052",
+              "ensembl_id": "ENSG00000115827"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "DCAF17",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20507343",
+        "19026396",
+        "24464444"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Woodhouse-Sakati syndrome, OMIM:241080"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P58",
+          "P58IPK",
+          "HP58",
+          "ERdj6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9439",
+        "gene_name": "DnaJ heat shock protein family (Hsp40) member C3",
+        "omim_gene": [
+          "601184"
+        ],
+        "alias_name": [
+          "interferon-induced, double-stranded RNA-activated protein kinase inhibitor",
+          "protein kinase inhibitor of 58 kDa",
+          "endoplasmic reticulum DNA J domain-containing protein 6"
+        ],
+        "gene_symbol": "DNAJC3",
+        "hgnc_symbol": "DNAJC3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:96329393-96447243",
+              "ensembl_id": "ENSG00000102580"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:95677139-95794989",
+              "ensembl_id": "ENSG00000102580"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAJC3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "?Ataxia, combined cerebellar and peripheral, with hearing loss and diabetes mellitus, OMIM:616192",
+        "juvenile-onset diabetes mellitus-central and peripheral neurodegeneration syndrome, MONDO:0014523"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dUTPase"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3078",
+        "gene_name": "deoxyuridine triphosphatase",
+        "omim_gene": [
+          "601266"
+        ],
+        "alias_name": [
+          "dUTP diphosphatase"
+        ],
+        "gene_symbol": "DUT",
+        "hgnc_symbol": "DUT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:48623208-48635570",
+              "ensembl_id": "ENSG00000128951"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:48331011-48343373",
+              "ensembl_id": "ENSG00000128951"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "DUT",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28073829",
+        "35611808",
+        "35931051"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Bone marrow failure and diabetes mellitus syndrome, OMIM:620044"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MIRK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3092",
+        "gene_name": "dual specificity tyrosine phosphorylation regulated kinase 1B",
+        "omim_gene": [
+          "604556"
+        ],
+        "alias_name": [
+          "minibrain-related kinase"
+        ],
+        "gene_symbol": "DYRK1B",
+        "hgnc_symbol": "DYRK1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:40315990-40324841",
+              "ensembl_id": "ENSG00000105204"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:39825350-39834201",
+              "ensembl_id": "ENSG00000105204"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-01-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "DYRK1B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Abdominal obesity-metabolic syndrome 3, OMIM:615812"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4173",
+        "gene_name": "GATA binding protein 4",
+        "omim_gene": [
+          "600576"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GATA4",
+        "hgnc_symbol": "GATA4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:11534468-11617511",
+              "ensembl_id": "ENSG00000136574"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:11676959-11760002",
+              "ensembl_id": "ENSG00000136574"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "GATA4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24696446"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "NEONATAL DIABETES MELLITUS, MONDO:0016391",
+        "Pancreatic hypoplasia-diabetes-congenital heart disease syndrome, MONDO:0010802",
+        "Metabolic syndrome, MONDO:0004955 (coronary artery disease, hypertension, central obesity and diabetes)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4174",
+        "gene_name": "GATA binding protein 6",
+        "omim_gene": [
+          "601656"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GATA6",
+        "hgnc_symbol": "GATA6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:19749404-19782491",
+              "ensembl_id": "ENSG00000141448"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:22169443-22202528",
+              "ensembl_id": "ENSG00000141448"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-10-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "GATA6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22806356",
+        "25706805",
+        "23635550",
+        "24433315",
+        "24310933",
+        "23639568",
+        "22158542",
+        "26210631",
+        "22962692",
+        "27098067",
+        "25708516",
+        "23223019",
+        "25356219"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "PANCREATIC AGENESIS AND CONGENITAL HEART DEFECTS, OMIM:600001",
+        "Metabolic syndrome, MONDO:0004955 (coronary artery disease, hypertension, central obesity and diabetes)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HK4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4195",
+        "gene_name": "glucokinase",
+        "omim_gene": [
+          "138079"
+        ],
+        "alias_name": [
+          "hexokinase 4"
+        ],
+        "gene_symbol": "GCK",
+        "hgnc_symbol": "GCK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:44183872-44237769",
+              "ensembl_id": "ENSG00000106633"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:44144271-44198170",
+              "ensembl_id": "ENSG00000106633"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "GCK",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hyperinsulinemic hypoglycemia, familial, 3, OMIM:602485",
+        "Diabetes mellitus, noninsulin-dependent, late onset, OMIM:125853",
+        "MODY, type II, OMIM:125851",
+        "Diabetes mellitus, permanent neonatal 1, OMIM:606176"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNF1",
+          "LFB1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11621",
+        "gene_name": "HNF1 homeobox A",
+        "omim_gene": [
+          "142410"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HNF1A",
+        "hgnc_symbol": "HNF1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:121416346-121440315",
+              "ensembl_id": "ENSG00000135100"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:120978543-121002512",
+              "ensembl_id": "ENSG00000135100"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "HNF1A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Diabetes mellitus, insulin-dependent, 20, OMIM:612520",
+        "{Diabetes mellitus, noninsulin-dependent, 2}, OMIM:125853",
+        "MODY, type III, OMIM:600496"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "watchlist_moi"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LFB3",
+          "VHNF1",
+          "HNF1beta",
+          "MODY5"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:11630",
+        "gene_name": "HNF1 homeobox B",
+        "omim_gene": [
+          "189907"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HNF1B",
+        "hgnc_symbol": "HNF1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:36046435-36105237",
+              "ensembl_id": "ENSG00000108753"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:37686432-37745247",
+              "ensembl_id": "ENSG00000275410"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "HNF1B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "transient neonatal diabetes mellitus (disease), MONDO:0020525",
+        "Type 2 diabetes mellitus, OMIM:125853",
+        "maturity-onset diabetes of the young (disease), MONDO:0018911"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NR2A1",
+          "HNF4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5024",
+        "gene_name": "hepatocyte nuclear factor 4 alpha",
+        "omim_gene": [
+          "600281"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HNF4A",
+        "hgnc_symbol": "HNF4A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:42984340-43061485",
+              "ensembl_id": "ENSG00000101076"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:44355700-44434596",
+              "ensembl_id": "ENSG00000101076"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "HNF4A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28242437"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "{Diabetes mellitus, noninsulin-dependent}, OMIM:125853",
+        "MODY, type I , OMIM:125850",
+        "Fanconi renotubular syndrome 4, with maturity-onset diabetes of the young, OMIM:616026"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6081",
+        "gene_name": "insulin",
+        "omim_gene": [
+          "176730"
+        ],
+        "alias_name": null,
+        "gene_symbol": "INS",
+        "hgnc_symbol": "INS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:2181009-2182571",
+              "ensembl_id": "ENSG00000254647"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:2159779-2161341",
+              "ensembl_id": "ENSG00000254647"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "INS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Maturity-onset diabetes of the young, type 10, OMIM:613370",
+        "Diabetes mellitus, permanent neonatal 4, OMIM:618858",
+        "Diabetes mellitus, insulin-dependent, 2, OMIM:125852",
+        "Hyperproinsulinemia, OMIM:616214"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD220"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6091",
+        "gene_name": "insulin receptor",
+        "omim_gene": [
+          "147670"
+        ],
+        "alias_name": null,
+        "gene_symbol": "INSR",
+        "hgnc_symbol": "INSR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:7112266-7294045",
+              "ensembl_id": "ENSG00000171105"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:7112255-7294034",
+              "ensembl_id": "ENSG00000171105"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "INSR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8288049"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Diabetes Mellitus, Insulin Resistant, with Acanthosis Nigricans, OMIM:610549",
+        "Hyperinsulinemic hypoglycemia, familial, 5, OMIM:609968",
+        "Leprechaunism, OMIM:246200",
+        "Rabson-Mendenhall syndrome, OMIM:262190"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kir6.2",
+          "BIR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6257",
+        "gene_name": "potassium voltage-gated channel subfamily J member 11",
+        "omim_gene": [
+          "600937"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNJ11",
+        "hgnc_symbol": "KCNJ11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:17407406-17410878",
+              "ensembl_id": "ENSG00000187486"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:17385859-17389331",
+              "ensembl_id": "ENSG00000187486"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-09-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNJ11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Diabetes mellitus, transient neonatal, 3, OMIM:610582",
+        "Diabetes, permanent neonatal 2, with or without neurologic features, OMIM:618856",
+        "Hyperinsulinemic hypoglycemia, familial, 2, OMIM:601820",
+        "Maturity-onset diabetes of the young, type 13, OMIM:616329"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HGPS",
+          "MADA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6636",
+        "gene_name": "lamin A/C",
+        "omim_gene": [
+          "150330"
+        ],
+        "alias_name": [
+          "mandibuloacral dysplasia type A"
+        ],
+        "gene_symbol": "LMNA",
+        "hgnc_symbol": "LMNA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:156052364-156109880",
+              "ensembl_id": "ENSG00000160789"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:156082573-156140089",
+              "ensembl_id": "ENSG00000160789"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "LMNA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26775134",
+        "24002959"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, familial partial, type 2, OMIM:151660",
+        "Severe insulin resistance, partial lipodystrophy and diabetes"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRNL1"
+        ],
+        "biotype": "Mt_tRNA",
+        "hgnc_id": "HGNC:7490",
+        "gene_name": "mitochondrially encoded tRNA leucine 1 (UUA/G)",
+        "omim_gene": [
+          "590050"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-TL1",
+        "hgnc_symbol": "MT-TL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:3230-3304",
+              "ensembl_id": "ENSG00000209082"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:3230-3304",
+              "ensembl_id": "ENSG00000209082"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-TL1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "maternally-inherited diabetes and deafness, MONDO:0010785"
+      ],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [
+        "locus-type-rna-transfer",
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BETA2",
+          "BHF-1",
+          "NeuroD",
+          "bHLHa3",
+          "MODY6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7762",
+        "gene_name": "neuronal differentiation 1",
+        "omim_gene": [
+          "601724"
+        ],
+        "alias_name": [
+          "beta-cell E-box transactivator 2",
+          "neurogenic helix-loop-helix protein NEUROD"
+        ],
+        "gene_symbol": "NEUROD1",
+        "hgnc_symbol": "NEUROD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:182537815-182545603",
+              "ensembl_id": "ENSG00000162992"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:181673088-181680876",
+              "ensembl_id": "ENSG00000162992"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-03-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "NEUROD1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26773576",
+        "10545951",
+        "26669242",
+        "20573748"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Maturity-onset diabetes of the young 6, OMIM:606394",
+        "{Type 2 diabetes mellitus, susceptibility to}, OMIM:125853"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D11S812E",
+          "AN",
+          "WAGR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8620",
+        "gene_name": "paired box 6",
+        "omim_gene": [
+          "607108"
+        ],
+        "alias_name": [
+          "aniridia, keratitis"
+        ],
+        "gene_symbol": "PAX6",
+        "hgnc_symbol": "PAX6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:31806340-31839509",
+              "ensembl_id": "ENSG00000007372"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:31784779-31818062",
+              "ensembl_id": "ENSG00000007372"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PAX6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "diabetes mellitus (disease), MONDO:0005015"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PCD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8646",
+        "gene_name": "pterin-4 alpha-carbinolamine dehydratase 1",
+        "omim_gene": [
+          "126090"
+        ],
+        "alias_name": [
+          "Pterin-4a-carbinolamine dehydratase (dimerization cofactor of hepatic nuclear factor 1-alpha)",
+          "pterin-4-alpha carbinolamine dehydratase",
+          "dimerizing cofactor for HNF1"
+        ],
+        "gene_symbol": "PCBD1",
+        "hgnc_symbol": "PCBD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:72642037-72648541",
+              "ensembl_id": "ENSG00000166228"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:70882280-70888784",
+              "ensembl_id": "ENSG00000166228"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCBD1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24204001",
+        "24848070"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hyperphenylalaninemia, BH4-deficient, D, OMIM:264070"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IDX-1",
+          "STF-1",
+          "PDX-1",
+          "MODY4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6107",
+        "gene_name": "pancreatic and duodenal homeobox 1",
+        "omim_gene": [
+          "600733"
+        ],
+        "alias_name": [
+          "somatostatin transcription factor 1"
+        ],
+        "gene_symbol": "PDX1",
+        "hgnc_symbol": "PDX1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:28494157-28500368",
+              "ensembl_id": "ENSG00000139515"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:27920020-27926231",
+              "ensembl_id": "ENSG00000139515"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDX1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Pancreatic agenesis 1, OMIM:260370",
+        "MODY, type IV, OMIM:606392"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GRB1",
+          "p85-ALPHA",
+          "p85"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8979",
+        "gene_name": "phosphoinositide-3-kinase regulatory subunit 1",
+        "omim_gene": [
+          "171833"
+        ],
+        "alias_name": [
+          "phosphoinositide-3-kinase regulatory subunit alpha"
+        ],
+        "gene_symbol": "PIK3R1",
+        "hgnc_symbol": "PIK3R1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:67511548-67597649",
+              "ensembl_id": "ENSG00000145675"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:68215720-68301821",
+              "ensembl_id": "ENSG00000145675"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIK3R1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "23810378"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "SHORT syndrome, OMIM:269880"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9076",
+        "gene_name": "perilipin 1",
+        "omim_gene": [
+          "170290"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLIN1",
+        "hgnc_symbol": "PLIN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:90207596-90222658",
+              "ensembl_id": "ENSG00000166819"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:89664365-89679427",
+              "ensembl_id": "ENSG00000166819"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-08-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLIN1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "21345103",
+        "30020498",
+        "11371650",
+        "25695774",
+        "25114292",
+        "29747582"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, familial partial, type 4, OMIM:613877"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9175",
+        "gene_name": "DNA polymerase delta 1, catalytic subunit",
+        "omim_gene": [
+          "174761"
+        ],
+        "alias_name": [
+          "CDC2 homolog (S. cerevisiae)"
+        ],
+        "gene_symbol": "POLD1",
+        "hgnc_symbol": "POLD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:50887461-50921273",
+              "ensembl_id": "ENSG00000062822"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:50384204-50418018",
+              "ensembl_id": "ENSG00000062822"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "POLD1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "23770608"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mandibular hypoplasia, deafness, progeroid features, and lipodystrophy syndrome, OMIM:615381"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PPARG1",
+          "PPARG2",
+          "NR1C3",
+          "PPARgamma"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9236",
+        "gene_name": "peroxisome proliferator activated receptor gamma",
+        "omim_gene": [
+          "601487"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PPARG",
+        "hgnc_symbol": "PPARG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:12328867-12475855",
+              "ensembl_id": "ENSG00000132170"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:12287368-12434356",
+              "ensembl_id": "ENSG00000132170"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-03-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "PPARG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, familial partial, type 3, OMIM:604367",
+        "Insulin resistance, severe, digenic, OMIM:604367",
+        "Obesity, severe, OMIM:601665",
+        "{Diabetes, type 2}, OMIM:125853"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ14744"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14951",
+        "gene_name": "protein phosphatase 1 regulatory subunit 15B",
+        "omim_gene": [
+          "613257"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PPP1R15B",
+        "hgnc_symbol": "PPP1R15B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:204372515-204380919",
+              "ensembl_id": "ENSG00000158615"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:204403387-204411791",
+              "ensembl_id": "ENSG00000158615"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "PPP1R15B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Microcephaly, short stature, and impaired glucose metabolism 2, OMIM:616817"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC33442",
+          "dJ955L16.1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21478",
+        "gene_name": "regulatory factor X6",
+        "omim_gene": [
+          "612659"
+        ],
+        "alias_name": [
+          "DNA-binding protein RFX6"
+        ],
+        "gene_symbol": "RFX6",
+        "hgnc_symbol": "RFX6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:117198375-117253326",
+              "ensembl_id": "ENSG00000185002"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:116877212-116932163",
+              "ensembl_id": "ENSG00000185002"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-08-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "RFX6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25048417",
+        "26770845",
+        "26761945",
+        "27185633",
+        "26559129",
+        "26264437",
+        "27167055"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitchell-Riley syndrome, OMIM:615710"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ENT3",
+          "FLJ11160"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23096",
+        "gene_name": "solute carrier family 29 member 3",
+        "omim_gene": [
+          "612373"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC29A3",
+        "hgnc_symbol": "SLC29A3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:73079015-73123142",
+              "ensembl_id": "ENSG00000198246"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:71319258-71363385",
+              "ensembl_id": "ENSG00000198246"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC29A3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19336477"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Histiocytosis-lymphadenopathy plus syndrome, OMIM:602782"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20297",
+          "FLJ20756",
+          "nSMase-3",
+          "KIAA1418",
+          "NSMASE3",
+          "NET13"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:32949",
+        "gene_name": "sphingomyelin phosphodiesterase 4",
+        "omim_gene": [
+          "610457"
+        ],
+        "alias_name": [
+          "neutral sphingomyelinase-3"
+        ],
+        "gene_symbol": "SMPD4",
+        "hgnc_symbol": "SMPD4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:130908981-130940323",
+              "ensembl_id": "ENSG00000136699"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:130151392-130182750",
+              "ensembl_id": "ENSG00000136699"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMPD4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "36732302"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Neurodevelopmental disorder with microcephaly, arthrogryposis, and structural brain anomalies, OMIM:618622",
+        "type 1 diabetes mellitus, MONDO:0005147"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC27034",
+          "TRM10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28403",
+        "gene_name": "tRNA methyltransferase 10A",
+        "omim_gene": [
+          "616013"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRMT10A",
+        "hgnc_symbol": "TRMT10A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:100467866-100485189",
+              "ensembl_id": "ENSG00000145331"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:99546709-99564032",
+              "ensembl_id": "ENSG00000145331"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-06-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRMT10A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26297882",
+        "24204302"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Microcephaly, short stature, and impaired glucose metabolism 1, OMIM:616033"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DIDMOAD",
+          "WFS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12762",
+        "gene_name": "wolframin ER transmembrane glycoprotein",
+        "omim_gene": [
+          "606201"
+        ],
+        "alias_name": null,
+        "gene_symbol": "WFS1",
+        "hgnc_symbol": "WFS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:6271576-6304992",
+              "ensembl_id": "ENSG00000109501"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:6269849-6303265",
+              "ensembl_id": "ENSG00000109501"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-01-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "WFS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27217304",
+        "27185633",
+        "33693650",
+        "23903355",
+        "28271591",
+        "29207974",
+        "39221226",
+        "40779032"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Wolfram syndrome 1, OMIM:222300",
+        "Wolfram syndrome 1, MONDO:0009101",
+        "Wolfram-like syndrome, MONDO:0013673",
+        "autosomal dominant nonsyndromic hearing loss, MONDO:0019587"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ODA-8S",
+          "DKFZp566F123",
+          "DPZF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13503",
+        "gene_name": "zinc finger and BTB domain containing 20",
+        "omim_gene": [
+          "606025"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ZBTB20",
+        "hgnc_symbol": "ZBTB20",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:114056941-114866118",
+              "ensembl_id": "ENSG00000181722"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:114314501-115147271",
+              "ensembl_id": "ENSG00000181722"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZBTB20",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25017102",
+        "20644156"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "diabetes mellitus (disease), MONDO:0005015"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ZNF698",
+          "bA145L22",
+          "bA145L22.2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18791",
+        "gene_name": "ZFP57 zinc finger protein",
+        "omim_gene": [
+          "612192"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ZFP57",
+        "hgnc_symbol": "ZFP57",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:29640169-29648887",
+              "ensembl_id": "ENSG00000204644"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:29672392-29681110",
+              "ensembl_id": "ENSG00000204644"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZFP57",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "transient neonatal diabetes mellitus (disease), MONDO:0020525",
+        "Diabetes mellitus, transient neonatal, 1, OMIM:601410"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FACE-1",
+          "Ste24p",
+          "STE24",
+          "HGPS",
+          "PRO1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12877",
+        "gene_name": "zinc metallopeptidase STE24",
+        "omim_gene": [
+          "606480"
+        ],
+        "alias_name": [
+          "Hutchinson-Gilford progeria syndrome",
+          "CAAX prenyl protease 1 homolog"
+        ],
+        "gene_symbol": "ZMPSTE24",
+        "hgnc_symbol": "ZMPSTE24",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:40723779-40759856",
+              "ensembl_id": "ENSG00000084073"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:40258107-40294184",
+              "ensembl_id": "ENSG00000084073"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-09-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZMPSTE24",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18435794",
+        "16297189",
+        "20034068",
+        "12913070",
+        "15317753"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mandibuloacral dysplasia with type B lipodystrophy, OMIM:608612"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HYPE",
+          "HIP13"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18416",
+        "gene_name": "FIC domain containing",
+        "omim_gene": null,
+        "alias_name": [
+          "huntingtin interacting protein 13",
+          "fic S-phase protein cell division homolog (E. coli)"
+        ],
+        "gene_symbol": "FICD",
+        "hgnc_symbol": "FICD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:108908962-108919614",
+              "ensembl_id": "ENSG00000198855"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:108515185-108525837",
+              "ensembl_id": "ENSG00000198855"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-12-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "FICD",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "36704923",
+        "36136088",
+        "40062579"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Spastic paraplegia 92, autosomal recessive, OMIM:620911",
+        "diabetes mellitus, MONDO:0005015",
+        "Neonatal insulin-dependent diabetes mellitus, HP:0000857"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q3_25_promote_green",
+        "recurrent-variant"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZP566C134"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21751",
+        "gene_name": "kelch repeat and BTB domain containing 2",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "KBTBD2",
+        "hgnc_symbol": "KBTBD2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:32907784-32933743",
+              "ensembl_id": "ENSG00000170852"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:32868172-32894131",
+              "ensembl_id": "ENSG00000170852"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-12-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "KBTBD2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "39313616"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Neurodevelopmental disorder, MONDO:0700092"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RIPE3b1",
+          "hMafA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23145",
+        "gene_name": "MAF bZIP transcription factor A",
+        "omim_gene": [
+          "610303"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAFA",
+        "hgnc_symbol": "MAFA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:144501352-144512576",
+              "ensembl_id": "ENSG00000182759"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:143419182-143430406",
+              "ensembl_id": "ENSG00000182759"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-01-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAFA",
+      "confidence_level": "2",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "17682063",
+        "29339498",
+        "34644565",
+        "35406570"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Insulinomatosis and diabetes mellitus, OMIM:147630",
+        "islet cell adenomatosis, MONDO:0007834"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q2_26_promote_green",
+        "Q2_26_NHS_review"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ35779",
+          "MGC120442",
+          "MGC120443",
+          "MGC120444",
+          "hPOC5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26658",
+        "gene_name": "POC5 centriolar protein",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "POC5",
+        "hgnc_symbol": "POC5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:74969949-75013313",
+              "ensembl_id": "ENSG00000152359"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:75674124-75717481",
+              "ensembl_id": "ENSG00000152359"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-03-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "POC5",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29272404",
+        "40590205"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Retinal dystrophy",
+        "diabetes mellitus",
+        "lipodystrophy",
+        "renal failure",
+        "abnormal muscle physiology"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q3_25_promote_green",
+        "gene-checked"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "THTR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10938",
+        "gene_name": "solute carrier family 19 member 2",
+        "omim_gene": [
+          "603941"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC19A2",
+        "hgnc_symbol": "SLC19A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:169433147-169455241",
+              "ensembl_id": "ENSG00000117479"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:169463909-169486003",
+              "ensembl_id": "ENSG00000117479"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-04-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC19A2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26549656",
+        "26839896",
+        "33571483",
+        "39025920",
+        "20301459",
+        "10391221",
+        "38932873"
+      ],
+      "evidence": [
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Thiamine-responsive megaloblastic anemia syndrome, OMIM:249270",
+        "diabetes mellitus, MONDO:0005015"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q1_26_promote_green",
+        "Q1_26_NHS_review"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:33230",
+        "gene_name": "zinc finger protein 808",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "ZNF808",
+        "hgnc_symbol": "ZNF808",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:53030905-53067717",
+              "ensembl_id": "ENSG00000198482"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:52527652-52564464",
+              "ensembl_id": "ENSG00000198482"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZNF808",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "37973953",
+        "41500078"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Pancreatic agenesis 3, OMIM:620991",
+        "diabetes mellitus, MONDO:0005015"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q1_26_promote_green",
+        "Q1_26_NHS_review"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ADHAPS",
+          "ADAS",
+          "ALDHPSY",
+          "ADPS",
+          "ADAP-S"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:327",
+        "gene_name": "alkylglycerone phosphate synthase",
+        "omim_gene": [
+          "603051"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AGPS",
+        "hgnc_symbol": "AGPS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:178257372-178408564",
+              "ensembl_id": "ENSG00000018510"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:177392644-177559299",
+              "ensembl_id": "ENSG00000018510"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGPS",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, congenital generalized, type 1, 608594"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1527",
+        "gene_name": "caveolin 1",
+        "omim_gene": [
+          "601047"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CAV1",
+        "hgnc_symbol": "CAV1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:116164839-116201233",
+              "ensembl_id": "ENSG00000105974"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:116524785-116561184",
+              "ensembl_id": "ENSG00000105974"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "CAV1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18211975"
+      ],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, congenital generalized, type 3, 612526",
+        "Partial lipodystrophy, congenital cataracts, and neurodegeneration syndrome"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CIDE-3",
+          "FLJ20871",
+          "Fsp27"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24229",
+        "gene_name": "cell death inducing DFFA like effector c",
+        "omim_gene": [
+          "612120"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CIDEC",
+        "hgnc_symbol": "CIDEC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:9908398-9921938",
+              "ensembl_id": "ENSG00000187288"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:9866711-9880254",
+              "ensembl_id": "ENSG00000187288"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "CIDEC",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20049731"
+      ],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, familial partial, type 5"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LPAAT-beta"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:325",
+        "gene_name": "1-acylglycerol-3-phosphate O-acyltransferase 2",
+        "omim_gene": [
+          "603100"
+        ],
+        "alias_name": [
+          "lysophosphatidic acid acyltransferase, beta"
+        ],
+        "gene_symbol": "AGPAT2",
+        "hgnc_symbol": "AGPAT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:139567595-139581875",
+              "ensembl_id": "ENSG00000169692"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:136673143-136687423",
+              "ensembl_id": "ENSG00000169692"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGPAT2",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PubMed PMID: 11967537, PubMed PMID: 12765973."
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, congenital generalized, type 1, 608594",
+        "lipodystrophy"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0328"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:428",
+        "gene_name": "ALMS1, centrosome and basal body associated protein",
+        "omim_gene": [
+          "606844"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALMS1",
+        "hgnc_symbol": "ALMS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:73612886-73837920",
+              "ensembl_id": "ENSG00000116127"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:73385758-73610793",
+              "ensembl_id": "ENSG00000116127"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALMS1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Alstrom syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC10442"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1057",
+        "gene_name": "BLK proto-oncogene, Src family tyrosine kinase",
+        "omim_gene": [
+          "191305"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BLK",
+        "hgnc_symbol": "BLK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:11351510-11422113",
+              "ensembl_id": "ENSG00000136573"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:11494001-11564604",
+              "ensembl_id": "ENSG00000136573"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "BLK",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "35108381"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Maturity-onset diabetes of the young, type 11, 613375",
+        "Maturity Onset Diabetes of the Young"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BS",
+          "RECQL3",
+          "RECQ2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1058",
+        "gene_name": "Bloom syndrome RecQ like helicase",
+        "omim_gene": [
+          "604610"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BLM",
+        "hgnc_symbol": "BLM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:91260558-91358859",
+              "ensembl_id": "ENSG00000197299"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:90717327-90816165",
+              "ensembl_id": "ENSG00000197299"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "BLM",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Bloom syndrome, OMIM:210900"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15832",
+        "gene_name": "BSCL2, seipin lipid droplet biogenesis associated",
+        "omim_gene": [
+          "606158"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BSCL2",
+        "hgnc_symbol": "BSCL2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:62457747-62477317",
+              "ensembl_id": "ENSG00000168000"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:62690275-62709845",
+              "ensembl_id": "ENSG00000168000"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-07-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "BSCL2",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11479539"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, congenital generalized, type 2, OMIM:269700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cavin-1",
+          "CGL4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9688",
+        "gene_name": "caveolae associated protein 1",
+        "omim_gene": [
+          "603198"
+        ],
+        "alias_name": [
+          "congenital generalized lipodystrophy 4"
+        ],
+        "gene_symbol": "CAVIN1",
+        "hgnc_symbol": "CAVIN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:40554470-40575535",
+              "ensembl_id": "ENSG00000177469"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:42402452-42423517",
+              "ensembl_id": "ENSG00000177469"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-03-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "CAVIN1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19726876"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Lipodystrophy, congenital generalized, type 4, 613327"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RC3",
+          "KIAA0856",
+          "DFNA71"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2938",
+        "gene_name": "Dmx like 2",
+        "omim_gene": [
+          "612186"
+        ],
+        "alias_name": [
+          "rabconnectin 3"
+        ],
+        "gene_symbol": "DMXL2",
+        "hgnc_symbol": "DMXL2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:51739908-51915030",
+              "ensembl_id": "ENSG00000104093"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:51447711-51622833",
+              "ensembl_id": "ENSG00000104093"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "DMXL2",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22875945",
+        "27657680",
+        "25248098"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "ORPHA90636",
+        "OMIM:612186",
+        "Sensorineural Hearing Loss"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PEK",
+          "PERK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3255",
+        "gene_name": "eukaryotic translation initiation factor 2 alpha kinase 3",
+        "omim_gene": [
+          "604032"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EIF2AK3",
+        "hgnc_symbol": "EIF2AK3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:88856259-88927094",
+              "ensembl_id": "ENSG00000172071"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:88556741-88627576",
+              "ensembl_id": "ENSG00000172071"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-06-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "EIF2AK3",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Wolcott-Rallison syndrome",
+        "Multiple Epiphyseal Dysplasia with Early-Onset Diabetes Mellitus"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PC-1",
+          "PCA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3356",
+        "gene_name": "ectonucleotide pyrophosphatase/phosphodiesterase 1",
+        "omim_gene": [
+          "173335"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ENPP1",
+        "hgnc_symbol": "ENPP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:132129156-132216295",
+              "ensembl_id": "ENSG00000197594"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:131808016-131895155",
+              "ensembl_id": "ENSG00000197594"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "ENPP1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Ossification of posterior longitudinal ligament of spine, 602475{Diabetes mellitus, non-insulin-dependent, susceptibility to}, 125853{Obesity, susceptibility to}, 601665Arterial calcification, generalized, of infancy, 1, 208000Hypophos"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CEK2",
+          "JTK4",
+          "CD333"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3690",
+        "gene_name": "fibroblast growth factor receptor 3",
+        "omim_gene": [
+          "134934"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FGFR3",
+        "hgnc_symbol": "FGFR3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:1795034-1810599",
+              "ensembl_id": "ENSG00000068078"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:1793307-1808872",
+              "ensembl_id": "ENSG00000068078"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGFR3",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Hypochondroplasia, 146000",
+        "Crouzon syndrome with acanthosis nigricans, 612247"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MFH-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3801",
+        "gene_name": "forkhead box C2",
+        "omim_gene": [
+          "602402"
+        ],
+        "alias_name": [
+          "mesenchyme forkhead 1"
+        ],
+        "gene_symbol": "FOXC2",
+        "hgnc_symbol": "FOXC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:86600857-86602539",
+              "ensembl_id": "ENSG00000176692"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:86567251-86569728",
+              "ensembl_id": "ENSG00000176692"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-02-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXC2",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Lymphedema-distichiasis syndrome with renal disease and diabetes mellitus, 153400",
+        "Lymphedema-distichiasis syndrome, 153400"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JM2",
+          "XPID",
+          "AIID",
+          "PIDX",
+          "DIETER",
+          "SCURFIN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6106",
+        "gene_name": "forkhead box P3",
+        "omim_gene": [
+          "300292"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOXP3",
+        "hgnc_symbol": "FOXP3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:49106897-49121288",
+              "ensembl_id": "ENSG00000049768"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:49250436-49264826",
+              "ensembl_id": "ENSG00000049768"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXP3",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "{Diabetes mellitus, type I, susceptibility to}, 222100",
+        "Immunodysregulation, polyendocrinopathy, and enteropathy, X-linked, 304790",
+        "IPEX syndrome"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC33662"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28510",
+        "gene_name": "GLIS family zinc finger 3",
+        "omim_gene": [
+          "610192"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLIS3",
+        "hgnc_symbol": "GLIS3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:3824127-4348392",
+              "ensembl_id": "ENSG00000107249"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:3824127-4348392",
+              "ensembl_id": "ENSG00000107249"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLIS3",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Diabetes Mellitus, Neonatal, with Congenital Hypothyroidism",
+        "Neonatal Diabetes mellitus with congenital hypothyroidism",
+        "Diabetes Mellitus, Neonatal, With Congenital Hypothyroidism",
+        "Diabetes mellitus, neonatal, with congenital hypothyroidism, 610199 -3"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LEAP-1",
+          "HEPC",
+          "HFE2B",
+          "LEAP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15598",
+        "gene_name": "hepcidin antimicrobial peptide",
+        "omim_gene": [
+          "606464"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HAMP",
+        "hgnc_symbol": "HAMP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:35771619-35776046",
+              "ensembl_id": "ENSG00000105697"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:35280716-35285143",
+              "ensembl_id": "ENSG00000105697"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-05-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "HAMP",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Hemochromatosis, type 2B 613313"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HLA-H"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4886",
+        "gene_name": "hemochromatosis",
+        "omim_gene": [
+          "613609"
+        ],
+        "alias_name": [
+          "high Fe"
+        ],
+        "gene_symbol": "HFE",
+        "hgnc_symbol": "HFE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:26087509-26098571",
+              "ensembl_id": "ENSG00000010704"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:26087281-26098343",
+              "ensembl_id": "ENSG00000010704"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "HFE",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "{Alzheimer disease, susceptibility to}, 104300",
+        "Hemochromatosis, 235200",
+        "{Microvascular complications of diabetes 7}, 612635",
+        "{Porphyria variegata, susceptibility to}, 176200",
+        "{Porphyria cutanea tarda, susceptibility to}, 176100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JH",
+          "HFE2A",
+          "RGMC",
+          "HJV",
+          "hemojuvelin",
+          "haemojuvelin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4887",
+        "gene_name": "hemochromatosis type 2 (juvenile)",
+        "omim_gene": [
+          "608374"
+        ],
+        "alias_name": [
+          "repulsive guidance molecule c"
+        ],
+        "gene_symbol": "HFE2",
+        "hgnc_symbol": "HFE2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:145413095-145417545",
+              "ensembl_id": "ENSG00000168509"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:146017468-146036746",
+              "ensembl_id": "ENSG00000168509"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "HFE2",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Hemochromatosis, type 2A, 602390"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name",
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18550",
+        "gene_name": "immediate early response 3 interacting protein 1",
+        "omim_gene": [
+          "609382"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IER3IP1",
+        "hgnc_symbol": "IER3IP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:44681413-44702745",
+              "ensembl_id": "ENSG00000134049"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:47152834-47176374",
+              "ensembl_id": "ENSG00000134049"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "IER3IP1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21835305",
+        "24138066",
+        "22991235"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Microcephaly, epilepsy, and diabetes syndrome, 614231",
+        "Microcephaly, epilepsy, and diabetes syndrome",
+        "Microcephaly, epilepsy and diabetes syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD25"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6008",
+        "gene_name": "interleukin 2 receptor subunit alpha",
+        "omim_gene": [
+          "147730"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IL2RA",
+        "hgnc_symbol": "IL2RA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:6052652-6104288",
+              "ensembl_id": "ENSG00000134460"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:6010689-6062325",
+              "ensembl_id": "ENSG00000134460"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-01-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL2RA",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17196245"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Tieg3",
+          "MODY7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11811",
+        "gene_name": "Kruppel like factor 11",
+        "omim_gene": [
+          "603301"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KLF11",
+        "hgnc_symbol": "KLF11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:10182976-10194963",
+              "ensembl_id": "ENSG00000172059"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:10042849-10054836",
+              "ensembl_id": "ENSG00000172059"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "KLF11",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "35108381"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Maturity-onset diabetes of the young, type VII, 610508",
+        "Maturity Onset Diabetes of the Young"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HL",
+          "HTGL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6619",
+        "gene_name": "lipase C, hepatic type",
+        "omim_gene": [
+          "151670"
+        ],
+        "alias_name": [
+          "Triacylglycerol lipase"
+        ],
+        "gene_symbol": "LIPC",
+        "hgnc_symbol": "LIPC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:58702768-58861151",
+              "ensembl_id": "ENSG00000166035"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:58410569-58569843",
+              "ensembl_id": "ENSG00000166035"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "LIPC",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Hepatic lipase deficiency, 614025",
+        "[High density lipoprotein cholesterol level QTL 12], 612797",
+        "{Diabetes mellitus, noninsulin-dependent}, 125853"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BGL",
+          "LAB300",
+          "LBA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1742",
+        "gene_name": "LPS responsive beige-like anchor protein",
+        "omim_gene": [
+          "606453"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LRBA",
+        "hgnc_symbol": "LRBA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:151185594-151936879",
+              "ensembl_id": "ENSG00000198589"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:150264531-151015727",
+              "ensembl_id": "ENSG00000198589"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-10-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "LRBA",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25468195",
+        "25479458",
+        "26745254",
+        "26206937",
+        "27057999"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Immunodeficiency, common variable, 8, with autoimmunity"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HB9",
+          "HOXHB9",
+          "SCRA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4979",
+        "gene_name": "motor neuron and pancreas homeobox 1",
+        "omim_gene": [
+          "142994"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MNX1",
+        "hgnc_symbol": "MNX1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:156786745-156803345",
+              "ensembl_id": "ENSG00000130675"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:156994051-157010651",
+              "ensembl_id": "ENSG00000130675"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "MNX1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24411943",
+        "23562494",
+        "26534984"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Atoh5",
+          "Math4B",
+          "ngn3",
+          "bHLHa7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13806",
+        "gene_name": "neurogenin 3",
+        "omim_gene": [
+          "604882"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NEUROG3",
+        "hgnc_symbol": "NEUROG3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:71331454-71332994",
+              "ensembl_id": "ENSG00000122859"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:69571698-69573238",
+              "ensembl_id": "ENSG00000122859"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-11-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "NEUROG3",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26288179",
+        "25650326",
+        "Rubio-Cabezas et al 2011 Diabetes 60:1349-1353"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Permanent neonatal diabetes and enteric anendocrinosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NKX2.2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7835",
+        "gene_name": "NK2 homeobox 2",
+        "omim_gene": [
+          "604612"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NKX2-2",
+        "hgnc_symbol": "NKX2-2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:21491648-21494664",
+              "ensembl_id": "ENSG00000125820"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:21511010-21514026",
+              "ensembl_id": "ENSG00000125820"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-10-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "NKX2-2",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24411943"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ32440",
+          "MMS21",
+          "NSE2",
+          "ZMIZ7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26513",
+        "gene_name": "NSE2/MMS21 homolog, SMC5-SMC6 complex SUMO ligase",
+        "omim_gene": [
+          "617246"
+        ],
+        "alias_name": [
+          "zinc finger, MIZ-type containing 7"
+        ],
+        "gene_symbol": "NSMCE2",
+        "hgnc_symbol": "NSMCE2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:126103921-126379362",
+              "ensembl_id": "ENSG00000156831"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:125091679-125367120",
+              "ensembl_id": "ENSG00000156831"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "NSMCE2",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25105364"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Dwarfism with extreme insulin resistance and acanthosis nigricans"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MODY9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8618",
+        "gene_name": "paired box 4",
+        "omim_gene": [
+          "167413"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PAX4",
+        "hgnc_symbol": "PAX4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:127250346-127255982",
+              "ensembl_id": "ENSG00000106331"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:127610292-127618114",
+              "ensembl_id": "ENSG00000106331"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-04-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "PAX4",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "35108381"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Maturity-onset diabetes of the young, type IX, 612225",
+        "Diabetes mellitus, type 2, 125853",
+        "Diabetes mellitus, ketosis-prone, 612227",
+        "Maturity Onset Diabetes of the Young"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KEN",
+          "KIAA0402",
+          "PCN",
+          "PCNTB",
+          "SCKL4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16068",
+        "gene_name": "pericentrin",
+        "omim_gene": [
+          "605925"
+        ],
+        "alias_name": [
+          "kendrin",
+          "Seckel syndrome 4"
+        ],
+        "gene_symbol": "PCNT",
+        "hgnc_symbol": "PCNT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:47744036-47865682",
+              "ensembl_id": "ENSG00000160299"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:46324122-46445769",
+              "ensembl_id": "ENSG00000160299"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCNT",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21270239"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Microcephalic osteodysplastic primordial dwarfism, type II"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CT",
+          "CTPCT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8754",
+        "gene_name": "phosphate cytidylyltransferase 1, choline, alpha",
+        "omim_gene": [
+          "123695"
+        ],
+        "alias_name": [
+          "phosphate cytidylyltransferase 1, choline, alpha isoform"
+        ],
+        "gene_symbol": "PCYT1A",
+        "hgnc_symbol": "PCYT1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:195941093-196014828",
+              "ensembl_id": "ENSG00000161217"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:196214222-196287957",
+              "ensembl_id": "ENSG00000161217"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-05-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCYT1A",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24889630"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Spondylometaphyseal dysplasia with cone-rod dystrophy"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZP434C245"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24488",
+        "gene_name": "POC1 centriolar protein A",
+        "omim_gene": [
+          "614783"
+        ],
+        "alias_name": null,
+        "gene_symbol": "POC1A",
+        "hgnc_symbol": "POC1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:52109269-52188706",
+              "ensembl_id": "ENSG00000164087"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:52075253-52154690",
+              "ensembl_id": "ENSG00000164087"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-03-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "POC1A",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26336158"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Short stature, onychodysplasia, facial dysmorphism, and hypotrichosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9291",
+        "gene_name": "protein phosphatase 1 regulatory subunit 3A",
+        "omim_gene": [
+          "600917"
+        ],
+        "alias_name": [
+          "glycogen-associated regulatory subunit of protein phosphatase-1",
+          "protein phosphatase 1 regulatory subunit GM"
+        ],
+        "gene_symbol": "PPP1R3A",
+        "hgnc_symbol": "PPP1R3A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:113516832-113715975",
+              "ensembl_id": "ENSG00000154415"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:113876777-114075920",
+              "ensembl_id": "ENSG00000154415"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-07-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "PPP1R3A",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Insulin resistance, severe, digenic"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RING10",
+          "D6S216E",
+          "PSMB5i",
+          "beta5i"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9545",
+        "gene_name": "proteasome subunit beta 8",
+        "omim_gene": [
+          "177046"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PSMB8",
+        "hgnc_symbol": "PSMB8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:32808494-32812480",
+              "ensembl_id": "ENSG00000204264"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:32840717-32844703",
+              "ensembl_id": "ENSG00000204264"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSMB8",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Proteasome-associated autoinflammatory syndrome 1 and digenic forms, OMIM:256040"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PTF1-p48",
+          "bHLHa29"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23734",
+        "gene_name": "pancreas specific transcription factor, 1a",
+        "omim_gene": [
+          "607194"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTF1A",
+        "hgnc_symbol": "PTF1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:23481256-23483181",
+              "ensembl_id": "ENSG00000168267"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:23192327-23194252",
+              "ensembl_id": "ENSG00000168267"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-12-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTF1A",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Permanent neonatal diabetes mellitus (PNDM)",
+        "Permanent neonatal diabetes with cerebellar agenesis",
+        "Diabetes mellitus, permanent neonatal, with cerebellar agenesis, 609069"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11006",
+        "gene_name": "solute carrier family 2 member 2",
+        "omim_gene": [
+          "138160"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC2A2",
+        "hgnc_symbol": "SLC2A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:170714137-170744539",
+              "ensembl_id": "ENSG00000163581"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:170996348-171026750",
+              "ensembl_id": "ENSG00000163581"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-01-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC2A2",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22831748",
+        "PMID: 23456528",
+        "22660720"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "{Diabetes mellitus, noninsulin-dependent}",
+        "Fanconi-Bickel syndrome",
+        "Fanconi-Bickel syndrome, 227810"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MTP1",
+          "IREG1",
+          "FPN1",
+          "HFE4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10909",
+        "gene_name": "solute carrier family 40 member 1",
+        "omim_gene": [
+          "604653"
+        ],
+        "alias_name": [
+          "ferroportin 1"
+        ],
+        "gene_symbol": "SLC40A1",
+        "hgnc_symbol": "SLC40A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:190425305-190448484",
+              "ensembl_id": "ENSG00000138449"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:189560579-189583758",
+              "ensembl_id": "ENSG00000138449"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC40A1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Hemochromatosis, type 4 606069"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "STAT91",
+          "ISGF-3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11362",
+        "gene_name": "signal transducer and activator of transcription 1",
+        "omim_gene": [
+          "600555"
+        ],
+        "alias_name": [
+          "transcription factor ISGF-3 components p91/p84"
+        ],
+        "gene_symbol": "STAT1",
+        "hgnc_symbol": "STAT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:191829084-191885686",
+              "ensembl_id": "ENSG00000115415"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:190964358-191020960",
+              "ensembl_id": "ENSG00000115415"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "STAT1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "23534974"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "APRF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11364",
+        "gene_name": "signal transducer and activator of transcription 3",
+        "omim_gene": [
+          "102582"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STAT3",
+        "hgnc_symbol": "STAT3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:40465342-40540586",
+              "ensembl_id": "ENSG00000168610"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:42313324-42388568",
+              "ensembl_id": "ENSG00000168610"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "STAT3",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "27167055",
+        "Flanagan et al 2014 Nature Genetics (In press)"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Neonatal diabetes and additional multi-organ autoimmunity"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HFE3",
+          "TFRC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11762",
+        "gene_name": "transferrin receptor 2",
+        "omim_gene": [
+          "604720"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TFR2",
+        "hgnc_symbol": "TFR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:100218039-100240402",
+              "ensembl_id": "ENSG00000106327"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:100620416-100642779",
+              "ensembl_id": "ENSG00000106327"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-06-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "TFR2",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Hemochromatosis, type 3 604250"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RECQL2",
+          "RECQ3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12791",
+        "gene_name": "Werner syndrome RecQ like helicase",
+        "omim_gene": [
+          "604611"
+        ],
+        "alias_name": null,
+        "gene_symbol": "WRN",
+        "hgnc_symbol": "WRN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:30891317-31031285",
+              "ensembl_id": "ENSG00000165392"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:31033801-31173769",
+              "ensembl_id": "ENSG00000165392"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "WRN",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8602509"
+      ],
+      "evidence": [
+        "Expert Review Removed"
+      ],
+      "phenotypes": [
+        "Werner syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": [
+    {
+      "gene_data": null,
+      "entity_type": "region",
+      "entity_name": "ISCA-37432-Loss",
+      "verbose_name": "17q12 recurrent (RCAD syndrome) region (includes HNF1B) Loss",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "haploinsufficiency_score": "3",
+      "triplosensitivity_score": "",
+      "required_overlap_percentage": 60,
+      "type_of_variants": "cnv_loss",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "614527",
+        "utero-vaginal atresia",
+        "RCAD syndrome",
+        "Schizophrenia",
+        "Chromosome 17q12 deletion syndrome",
+        "delayed development, intellectual disability",
+        "global developmental delay",
+        "Autism Spectrum Disorder",
+        "Renal cysts and diabetes syndrome",
+        "Mayer-Rokitansky-Kster-Hauser (MRKH) syndrome in females"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "chromosome": "17",
+      "grch37_coordinates": null,
+      "grch38_coordinates": [
+        36458167,
+        37854616
+      ],
+      "tags": [
+        "Q2_26_promote_green",
+        "Q2_26_expert_review"
+      ]
+    }
+  ]
+}

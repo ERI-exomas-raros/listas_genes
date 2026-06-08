@@ -1,0 +1,1604 @@
+{
+  "id": 515,
+  "hash_id": null,
+  "name": "Iron metabolism disorders - NOT common HFE mutations",
+  "disease_group": "Haematology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "4.1",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Iron metabolism disorders",
+    "R96"
+  ],
+  "stats": {
+    "number_of_genes": 27,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "EST140535",
+          "Atm1p",
+          "ASAT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:48",
+        "gene_name": "ATP binding cassette subfamily B member 7",
+        "omim_gene": [
+          "300135"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ABCB7",
+        "hgnc_symbol": "ABCB7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:74273115-74376567",
+              "ensembl_id": "ENSG00000131269"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:75053172-75156732",
+              "ensembl_id": "ENSG00000131269"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-09-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCB7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30401706",
+        "10196363",
+        "29787825"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "301310 Anemia, sideroblastic, with ataxia"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:397",
+        "gene_name": "5'-aminolevulinate synthase 2",
+        "omim_gene": [
+          "301300"
+        ],
+        "alias_name": [
+          "sideroblastic/hypochromic anemia"
+        ],
+        "gene_symbol": "ALAS2",
+        "hgnc_symbol": "ALAS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:55035488-55057497",
+              "ensembl_id": "ENSG00000158578"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:55009055-55031064",
+              "ensembl_id": "ENSG00000158578"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALAS2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30401706",
+        "24003969",
+        "30098397",
+        "10029606"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Anemia, sideroblastic, 1, OMIM:300751"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:870",
+        "gene_name": "ATPase copper transporting beta",
+        "omim_gene": [
+          "606882"
+        ],
+        "alias_name": [
+          "Wilson disease",
+          "copper pump 2",
+          "copper-transporting ATPase 2"
+        ],
+        "gene_symbol": "ATP7B",
+        "hgnc_symbol": "ATP7B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:52506809-52585630",
+              "ensembl_id": "ENSG00000123191"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:51930436-52012125",
+              "ensembl_id": "ENSG00000123191"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP7B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24002824",
+        "18210110",
+        "27982432",
+        "24266916",
+        "28433102"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "277900 WILSON DISEASE"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VGR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1073",
+        "gene_name": "bone morphogenetic protein 6",
+        "omim_gene": [
+          "112266"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BMP6",
+        "hgnc_symbol": "BMP6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:7727030-7881655",
+              "ensembl_id": "ENSG00000153162"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:7726797-7881422",
+              "ensembl_id": "ENSG00000153162"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "BMP6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26582087",
+        "32464486"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "{Iron overload, susceptibility to}, OMIM:620121"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2295",
+        "gene_name": "ceruloplasmin",
+        "omim_gene": [
+          "117700"
+        ],
+        "alias_name": [
+          "ferroxidase"
+        ],
+        "gene_symbol": "CP",
+        "hgnc_symbol": "CP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:148880197-148939842",
+              "ensembl_id": "ENSG00000047457"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:149162410-149222055",
+              "ensembl_id": "ENSG00000047457"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15338274"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "aceruloplasminemia MONDO:0011426",
+        "Hemosiderosis, systemic, due to aceruloplasminemia OMIM:604290"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC71996",
+          "NBIA3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3999",
+        "gene_name": "ferritin light chain",
+        "omim_gene": [
+          "134790"
+        ],
+        "alias_name": [
+          "ferritin light polypeptide-like 3",
+          "L apoferritin",
+          "ferritin L subunit",
+          "ferritin light chain",
+          "ferritin L-chain",
+          "neurodegeneration with brain iron accumulation 3"
+        ],
+        "gene_symbol": "FTL",
+        "hgnc_symbol": "FTL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:49468558-49470135",
+              "ensembl_id": "ENSG00000087086"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:48965301-48966878",
+              "ensembl_id": "ENSG00000087086"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FTL",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18413574",
+        "23940258",
+        "23421845",
+        "19176363"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Hyperferritinemia-cataract syndrome OIMM:600886",
+        "L-ferritin deficiency, dominant and recessive OMIM:615604",
+        "Neurodegeneration with brain iron accumulation 3 OMIM:606159"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GBA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4177",
+        "gene_name": "glucosylceramidase beta",
+        "omim_gene": [
+          "606463"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GBA",
+        "hgnc_symbol": "GBA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:155204243-155214490",
+              "ensembl_id": "ENSG00000177628"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:155234452-155244699",
+              "ensembl_id": "ENSG00000177628"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GBA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27265538",
+        "27816428",
+        "20575041"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Gaucher disease, type II OMIM:230900",
+        "Gaucher disease, type IIIC OMIM:231005",
+        "Gaucher disease, type III OMIM:231000",
+        "Gaucher disease, type I OMIM:230800"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PR01238",
+          "GRX5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20134",
+        "gene_name": "glutaredoxin 5",
+        "omim_gene": [
+          "609588"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLRX5",
+        "hgnc_symbol": "GLRX5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:95999840-96011061",
+              "ensembl_id": "ENSG00000182512"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:95533503-95544724",
+              "ensembl_id": "ENSG00000182512"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLRX5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30401706",
+        "24003969",
+        "30098397",
+        "25342667"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Anemia, sideroblastic, 3, pyridoxine-refractory OMIM:616860"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LEAP-1",
+          "HEPC",
+          "HFE2B",
+          "LEAP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15598",
+        "gene_name": "hepcidin antimicrobial peptide",
+        "omim_gene": [
+          "606464"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HAMP",
+        "hgnc_symbol": "HAMP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:35771619-35776046",
+              "ensembl_id": "ENSG00000105697"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:35280716-35285143",
+              "ensembl_id": "ENSG00000105697"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-05-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "HAMP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12469120",
+        "15198949",
+        "12915468"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Hemochromatosis, type 2B OMIM:613313"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HLA-H"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4886",
+        "gene_name": "hemochromatosis",
+        "omim_gene": [
+          "613609"
+        ],
+        "alias_name": [
+          "high Fe"
+        ],
+        "gene_symbol": "HFE",
+        "hgnc_symbol": "HFE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:26087509-26098571",
+              "ensembl_id": "ENSG00000010704"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:26087281-26098343",
+              "ensembl_id": "ENSG00000010704"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "HFE",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18199861"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Hemochromatosis, OMIM:235200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JH",
+          "HFE2A",
+          "RGMC",
+          "HJV",
+          "hemojuvelin",
+          "haemojuvelin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4887",
+        "gene_name": "hemochromatosis type 2 (juvenile)",
+        "omim_gene": [
+          "608374"
+        ],
+        "alias_name": [
+          "repulsive guidance molecule c"
+        ],
+        "gene_symbol": "HFE2",
+        "hgnc_symbol": "HFE2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:145413095-145417545",
+              "ensembl_id": "ENSG00000168509"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:146017468-146036746",
+              "ensembl_id": "ENSG00000168509"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "HFE2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "14982873"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Hemochromatosis, type 2A OMIM:602390"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DCT1",
+          "DMT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10908",
+        "gene_name": "solute carrier family 11 member 2",
+        "omim_gene": [
+          "600523"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC11A2",
+        "hgnc_symbol": "SLC11A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:51373184-51422349",
+              "ensembl_id": "ENSG00000110911"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:50979401-51028566",
+              "ensembl_id": "ENSG00000110911"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-12-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC11A2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16160008",
+        "16439678",
+        "15459009"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Anemia, hypochromic microcytic, with iron overload 1 OMIM:206100",
+        "microcytic anemia with liver iron overload MONDO:0008787"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20551"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26054",
+        "gene_name": "solute carrier family 25 member 38",
+        "omim_gene": [
+          "610819"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC25A38",
+        "hgnc_symbol": "SLC25A38",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:39424839-39438842",
+              "ensembl_id": "ENSG00000144659"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:39383348-39397351",
+              "ensembl_id": "ENSG00000144659"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-09-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC25A38",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19412178",
+        "24323989",
+        "21393332"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Anemia, sideroblastic, 2, pyridoxine-refractory OMIM:205950",
+        "sideroblastic anemia 2 MONDO:0008785"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MTP1",
+          "IREG1",
+          "FPN1",
+          "HFE4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10909",
+        "gene_name": "solute carrier family 40 member 1",
+        "omim_gene": [
+          "604653"
+        ],
+        "alias_name": [
+          "ferroportin 1"
+        ],
+        "gene_symbol": "SLC40A1",
+        "hgnc_symbol": "SLC40A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:190425305-190448484",
+              "ensembl_id": "ENSG00000138449"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:189560579-189583758",
+              "ensembl_id": "ENSG00000138449"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC40A1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16351644",
+        "11431687"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Hemochromatosis, type 4 OMIM:606069",
+        "hemochromatosis type 4 MONDO:0011631"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0246",
+          "STAB-1",
+          "FEEL-1",
+          "CLEVER-1",
+          "FELE-1",
+          "FEX1",
+          "SCARH2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18628",
+        "gene_name": "stabilin 1",
+        "omim_gene": [
+          "608560"
+        ],
+        "alias_name": [
+          "MS-1 antigen",
+          "fasciclin egf-like, laminin-type egf-like, and link domain-containing scavenger receptor-1",
+          "common lymphatic endothelial and vascular endothelial receptor-1"
+        ],
+        "gene_symbol": "STAB1",
+        "hgnc_symbol": "STAB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:52529354-52558511",
+              "ensembl_id": "ENSG00000010327"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:52495338-52524495",
+              "ensembl_id": "ENSG00000010327"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "STAB1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "37490907"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hyperferritinemia without iron overload"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PRO1557",
+          "PRO2086"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11740",
+        "gene_name": "transferrin",
+        "omim_gene": [
+          "190000"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TF",
+        "hgnc_symbol": "TF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:133464800-133497850",
+              "ensembl_id": "ENSG00000091513"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:133745956-133779006",
+              "ensembl_id": "ENSG00000091513"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "TF",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15466165",
+        "11110675"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Atransferrinemia OMIM:209300",
+        "atransferrinemia MONDO:0008846"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HFE3",
+          "TFRC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11762",
+        "gene_name": "transferrin receptor 2",
+        "omim_gene": [
+          "604720"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TFR2",
+        "hgnc_symbol": "TFR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:100218039-100240402",
+              "ensembl_id": "ENSG00000106327"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:100620416-100642779",
+              "ensembl_id": "ENSG00000106327"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-06-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "TFR2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10802645",
+        "11313241"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Hemochromatosis, type 3 OMIM:604250",
+        "hemochromatosis type 3 MONDO:0011417"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ30744"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16517",
+        "gene_name": "transmembrane protease, serine 6",
+        "omim_gene": [
+          "609862"
+        ],
+        "alias_name": [
+          "matriptase-2"
+        ],
+        "gene_symbol": "TMPRSS6",
+        "hgnc_symbol": "TMPRSS6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:37461476-37505603",
+              "ensembl_id": "ENSG00000187045"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:37065436-37109563",
+              "ensembl_id": "ENSG00000187045"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMPRSS6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19357398",
+        "18408718"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "206200 Iron-refractory iron deficiency anemia",
+        "IRIDA",
+        "206200 IRON-REFRACTORY IRON DEFICIENCY ANEMIA"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3647",
+        "gene_name": "ferrochelatase",
+        "omim_gene": [
+          "612386"
+        ],
+        "alias_name": [
+          "protoporphyria"
+        ],
+        "gene_symbol": "FECH",
+        "hgnc_symbol": "FECH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:55215515-55254004",
+              "ensembl_id": "ENSG00000066926"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:57548283-57586772",
+              "ensembl_id": "ENSG00000066926"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-05-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "FECH",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26387792",
+        "20857522",
+        "28614581"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Protoporphyria, erythropoietic, 1 OMIM:177000",
+        "protoporphyria, erythropoietic, 1 MONDO:0008319"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FTH",
+          "PLIF",
+          "PIG15",
+          "FHC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3976",
+        "gene_name": "ferritin heavy chain 1",
+        "omim_gene": [
+          "134770"
+        ],
+        "alias_name": [
+          "apoferritin",
+          "placenta immunoregulatory factor",
+          "proliferation-inducing protein 15"
+        ],
+        "gene_symbol": "FTH1",
+        "hgnc_symbol": "FTH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:61727190-61735132",
+              "ensembl_id": "ENSG00000167996"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:61959718-61967660",
+              "ensembl_id": "ENSG00000167996"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FTH1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11389486",
+        "37660254",
+        "37265023"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Neurodegeneration with brain iron accumulation 9, OMIM:620669",
+        "?Hemochromatosis, type 5 OMIM:615517",
+        "hemochromatosis type 5 MONDO:0014225"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TSAP6",
+          "dudlin-2",
+          "STMP3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24592",
+        "gene_name": "STEAP3 metalloreductase",
+        "omim_gene": [
+          "609671"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STEAP3",
+        "hgnc_symbol": "STEAP3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:119981384-120023228",
+              "ensembl_id": "ENSG00000115107"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:119223831-119265652",
+              "ensembl_id": "ENSG00000115107"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-06-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "STEAP3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22031863"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "?Anemia, hypochromic microcytic, with iron overload 2 OMIM:615234",
+        "severe congenital hypochromic anemia with ringed sideroblasts MONDO:0014094"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SKR1",
+          "ALK2",
+          "ACVR1A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:171",
+        "gene_name": "activin A receptor type 1",
+        "omim_gene": [
+          "102576"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACVR1",
+        "hgnc_symbol": "ACVR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:158592958-158732374",
+              "ensembl_id": "ENSG00000115170"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:157736444-157875862",
+              "ensembl_id": "ENSG00000115170"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-01-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACVR1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28476747"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fibrodysplasia ossificans progressiva OMIM:135100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDA-I",
+          "CDAI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1713",
+        "gene_name": "codanin 1",
+        "omim_gene": [
+          "607465"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDAN1",
+        "hgnc_symbol": "CDAN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:43015757-43029324",
+              "ensembl_id": "ENSG00000140326"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:42723559-42737126",
+              "ensembl_id": "ENSG00000140326"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDAN1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "Yorkshire and North East GLH"
+      ],
+      "phenotypes": [
+        "Dyserythropoietic anemia, congenital, type Ia, OMIM:224120",
+        "Anemia, congenital dyserythropoietic, type 1a, MONDO:0009135"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DCYTB",
+          "FLJ23462",
+          "FRRS3",
+          "CYB561A2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20797",
+        "gene_name": "cytochrome b reductase 1",
+        "omim_gene": [
+          "605745"
+        ],
+        "alias_name": [
+          "ferric-chelate reductase 3",
+          "cytochrome b561 family, member A2"
+        ],
+        "gene_symbol": "CYBRD1",
+        "hgnc_symbol": "CYBRD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:172378757-172414643",
+              "ensembl_id": "ENSG00000071967"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:171522247-171558133",
+              "ensembl_id": "ENSG00000071967"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYBRD1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15338274",
+        "27884173",
+        "19673882",
+        "37632052"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "London South GLH",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "hereditary hemochromatosis MONDO:0006507"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0698",
+          "CPL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4866",
+        "gene_name": "hephaestin",
+        "omim_gene": [
+          "300167"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HEPH",
+        "hgnc_symbol": "HEPH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:65382391-65488709",
+              "ensembl_id": "ENSG00000089472"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:66162549-66268867",
+              "ensembl_id": "ENSG00000089472"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-05-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "HEPH",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30182051",
+        "30060949"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDA-II",
+          "CDAII",
+          "HEMPAS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10702",
+        "gene_name": "Sec23 homolog B, coat complex II component",
+        "omim_gene": [
+          "610512"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SEC23B",
+        "hgnc_symbol": "SEC23B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:18488137-18542059",
+              "ensembl_id": "ENSG00000101310"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:18507493-18561415",
+              "ensembl_id": "ENSG00000101310"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-01-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "SEC23B",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "Yorkshire and North East GLH"
+      ],
+      "phenotypes": [
+        "Dyserythropoietic anemia, congenital, type II OMIM:224100",
+        "congenital dyserythropoietic anemia type 2 MONDO:0009134"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AAT",
+          "A1A",
+          "PI1",
+          "alpha-1-antitrypsin",
+          "A1AT",
+          "alpha1AT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8941",
+        "gene_name": "serpin family A member 1",
+        "omim_gene": [
+          "107400"
+        ],
+        "alias_name": [
+          "protease inhibitor 1 (anti-elastase), alpha-1-antitrypsin"
+        ],
+        "gene_symbol": "SERPINA1",
+        "hgnc_symbol": "SERPINA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:94843084-94857030",
+              "ensembl_id": "ENSG00000197249"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:94376747-94390693",
+              "ensembl_id": "ENSG00000197249"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SERPINA1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18210110",
+        "27296815"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "Yorkshire and North East GLH",
+        "North West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Emphysema due to AAT deficiency OMIM:613490",
+        "alpha 1-antitrypsin deficiency MONDO:0013282"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

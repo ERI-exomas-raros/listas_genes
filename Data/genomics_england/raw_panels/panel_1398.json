@@ -1,0 +1,86 @@
+{
+  "id": 1398,
+  "hash_id": null,
+  "name": "Thanatophoric dysplasia",
+  "disease_group": "Musculoskeletal",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.3",
+  "version_created": "2026-01-25T17:33:47.552908Z",
+  "relevant_disorders": [
+    "R25"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "CEK2",
+          "JTK4",
+          "CD333"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3690",
+        "gene_name": "fibroblast growth factor receptor 3",
+        "omim_gene": [
+          "134934"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FGFR3",
+        "hgnc_symbol": "FGFR3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:1795034-1810599",
+              "ensembl_id": "ENSG00000068078"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:1793307-1808872",
+              "ensembl_id": "ENSG00000068078"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGFR3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Thanatophoric dysplasia, type I, OMIM:187600",
+        "Thanatophoric dysplasia, type II, OMIM:187601",
+        "thanatophoric dysplasia, MONDO:0017042"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

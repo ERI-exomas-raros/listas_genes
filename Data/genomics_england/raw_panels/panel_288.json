@@ -1,0 +1,1734 @@
+{
+  "id": 288,
+  "hash_id": "59621a1c8f62036f45d561a3",
+  "name": "Pain syndromes",
+  "disease_group": "Neurology and neurodevelopmental disorders",
+  "disease_sub_group": "Channelopathies",
+  "status": "public",
+  "version": "1.12",
+  "version_created": "2022-04-05T10:53:01.340663Z",
+  "relevant_disorders": [
+    "neuropathic pain",
+    "Pain channelopathies"
+  ],
+  "stats": {
+    "number_of_genes": 30,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "FSP1",
+          "AD-FSP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11231",
+        "gene_name": "atlastin GTPase 1",
+        "omim_gene": [
+          "606439"
+        ],
+        "alias_name": [
+          "atlastin"
+        ],
+        "gene_symbol": "ATL1",
+        "hgnc_symbol": "ATL1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:50999227-51099786",
+              "ensembl_id": "ENSG00000198513"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:50532509-50633068",
+              "ensembl_id": "ENSG00000198513"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-09-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATL1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21194679",
+        "22340599"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literaure",
+        "Review"
+      ],
+      "phenotypes": [
+        "Neuropathy, hereditary sensory, type ID, 613708",
+        "HSN1D",
+        "Hereditary spastic paraplegia, 182600",
+        "Hereditary sensory neuropathy"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZP564J0863"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24526",
+        "gene_name": "atlastin GTPase 3",
+        "omim_gene": [
+          "609369"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ATL3",
+        "hgnc_symbol": "ATL3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:63391559-63439393",
+              "ensembl_id": "ENSG00000184743"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:63624087-63671921",
+              "ensembl_id": "ENSG00000184743"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-09-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATL3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24459106",
+        "24736309",
+        "24459106"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literaure",
+        "Review"
+      ],
+      "phenotypes": [
+        "Neuropathy, hereditary sensory, type IF, 615632",
+        "HSN1F"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IKAP",
+          "TOT1",
+          "IKI3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5959",
+        "gene_name": "elongator complex protein 1",
+        "omim_gene": [
+          "603722"
+        ],
+        "alias_name": [
+          "elongator acetyltransferase complex subunit 1"
+        ],
+        "gene_symbol": "ELP1",
+        "hgnc_symbol": "ELP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:111629797-111696396",
+              "ensembl_id": "ENSG00000070061"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:108867517-108934116",
+              "ensembl_id": "ENSG00000070061"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-05-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "ELP1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8102296",
+        "11179021",
+        "11179008",
+        "17985250"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "BRIDGE Study Tier 1 Gene"
+      ],
+      "phenotypes": [
+        "Dysautonomia, familial, OMIM:223900"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GALA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4296",
+        "gene_name": "galactosidase alpha",
+        "omim_gene": [
+          "300644"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLA",
+        "hgnc_symbol": "GLA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:100652791-100662913",
+              "ensembl_id": "ENSG00000102393"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:101397803-101407925",
+              "ensembl_id": "ENSG00000102393"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Fabry disease,\t301500"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "UNC104"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:888",
+        "gene_name": "kinesin family member 1A",
+        "omim_gene": [
+          "601255"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KIF1A",
+        "hgnc_symbol": "KIF1A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:241653181-241759725",
+              "ensembl_id": "ENSG00000130294"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:240713764-240820308",
+              "ensembl_id": "ENSG00000130294"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-01-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "KIF1A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21820098",
+        "25265257"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Literaure",
+        "Review"
+      ],
+      "phenotypes": [
+        "Neuropathy, hereditary sensory, type IIC, OMIM:614213"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7808",
+        "gene_name": "nerve growth factor",
+        "omim_gene": [
+          "162030"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NGF",
+        "hgnc_symbol": "NGF",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:115828539-115880857",
+              "ensembl_id": "ENSG00000134259"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:115285918-115338236",
+              "ensembl_id": "ENSG00000134259"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-02-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "NGF",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "14976160",
+        "20978020",
+        "26562335",
+        "15131306"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "BRIDGE Study Tier 1 Gene"
+      ],
+      "phenotypes": [
+        "Hereditary sensory neuropathy type V",
+        "HSAN 5",
+        "Neuropathy, hereditary sensory and autonomic, type V, 608654",
+        "Congenital sensory neuropathy with selective loss of small myelinated fibers"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRK",
+          "TRKA",
+          "MTC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8031",
+        "gene_name": "neurotrophic receptor tyrosine kinase 1",
+        "omim_gene": [
+          "191315"
+        ],
+        "alias_name": [
+          "high affinity nerve growth factor receptor"
+        ],
+        "gene_symbol": "NTRK1",
+        "hgnc_symbol": "NTRK1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:156785432-156851642",
+              "ensembl_id": "ENSG00000198400"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:156815640-156881850",
+              "ensembl_id": "ENSG00000198400"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "NTRK1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8696348",
+        "11668614",
+        "18077166"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "BRIDGE Study Tier 1 Gene"
+      ],
+      "phenotypes": [
+        "Hereditary sensory neuropathy type IV",
+        "HSAN 4",
+        "Insensitivity to pain, congenital, with anhidrosis, 256800"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13997",
+        "gene_name": "PR/SET domain 12",
+        "omim_gene": [
+          "616458"
+        ],
+        "alias_name": [
+          "PR-domain containing protein 12",
+          "PR-domain zinc finger protein 12"
+        ],
+        "gene_symbol": "PRDM12",
+        "hgnc_symbol": "PRDM12",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:133539981-133558368",
+              "ensembl_id": "ENSG00000130711"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:130664594-130682981",
+              "ensembl_id": "ENSG00000130711"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-11-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRDM12",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26005867",
+        "26975306",
+        "25891934"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "BRIDGE Study Tier 1 Gene"
+      ],
+      "phenotypes": [
+        "HSAN VIII",
+        "insensitivity to pain",
+        "Hereditary sensory and autonomic neuropathy type VIII",
+        "HSAN 8",
+        "Neuropathy, hereditary sensory and autonomic, type VIII, 616488"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD230",
+          "PRP",
+          "AltPrP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9449",
+        "gene_name": "prion protein",
+        "omim_gene": [
+          "176640"
+        ],
+        "alias_name": [
+          "Creutzfeldt-Jakob disease",
+          "Gerstmann-Strausler-Scheinker syndrome",
+          "fatal familial insomnia",
+          "p27-30"
+        ],
+        "gene_symbol": "PRNP",
+        "hgnc_symbol": "PRNP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:4666882-4682236",
+              "ensembl_id": "ENSG00000171867"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:4686236-4701590",
+              "ensembl_id": "ENSG00000171867"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRNP",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27716661",
+        "26768678",
+        "25287017",
+        "24224623"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Cerebral amyloid angiopathy, PRNP-related,\t137440"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9788",
+        "gene_name": "RAB7A, member RAS oncogene family",
+        "omim_gene": [
+          "602298"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RAB7A",
+        "hgnc_symbol": "RAB7A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:128444965-128533639",
+              "ensembl_id": "ENSG00000075785"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:128726122-128814796",
+              "ensembl_id": "ENSG00000075785"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAB7A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12545426",
+        "17060578",
+        "15455439"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "BRIDGE Study Tier 1 Gene"
+      ],
+      "phenotypes": [
+        "Hereditary motor and sensory neuropathy IIB",
+        "HSAN1/2B",
+        "Charcot-Marie-Tooth disease, type 2B, 600882"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20152",
+          "JK1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25964",
+        "gene_name": "reticulophagy regulator 1",
+        "omim_gene": [
+          "613114"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RETREG1",
+        "hgnc_symbol": "RETREG1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:16473147-16617167",
+              "ensembl_id": "ENSG00000154153"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:16473038-16617058",
+              "ensembl_id": "ENSG00000154153"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-03-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "RETREG1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19838196",
+        "21115472",
+        "24327336"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "BRIDGE Study Tier 1 Gene"
+      ],
+      "phenotypes": [
+        "Hereditary sensory and autonomic neuropathy",
+        "HSAN 2B",
+        "Neuropathy, hereditary sensory and autonomic, type IIB, 613115"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Nav1.8",
+          "hPN3",
+          "SNS",
+          "PN3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10582",
+        "gene_name": "sodium voltage-gated channel alpha subunit 10",
+        "omim_gene": [
+          "604427"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCN10A",
+        "hgnc_symbol": "SCN10A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:38738293-38835501",
+              "ensembl_id": "ENSG00000185313"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:38696802-38794010",
+              "ensembl_id": "ENSG00000185313"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-04-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN10A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24006052",
+        "23115331",
+        "26711856",
+        "24776970",
+        "25250524",
+        "27598514",
+        "28665811",
+        "24813307",
+        "25316021"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "BRIDGE Study Tier 1 Gene"
+      ],
+      "phenotypes": [
+        "Familial episodic pain syndrome-2",
+        "Episodic pain syndrome, familial, 2, 615551",
+        "Painful small fibre neuropathy",
+        "SFN",
+        "Small fibre neuropathy"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Nav1.9",
+          "NaN",
+          "SNS-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10583",
+        "gene_name": "sodium voltage-gated channel alpha subunit 11",
+        "omim_gene": [
+          "604385"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCN11A",
+        "hgnc_symbol": "SCN11A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:38887260-38992052",
+              "ensembl_id": "ENSG00000168356"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:38845769-38950561",
+              "ensembl_id": "ENSG00000168356"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN11A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24207120",
+        "24776970",
+        "24036948",
+        "28298626",
+        "27503742",
+        "26645915",
+        "28665811",
+        "25316021",
+        "24813307"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "BRIDGE Study Tier 1 Gene"
+      ],
+      "phenotypes": [
+        "Familial episodic pain syndrome",
+        "Hereditary sensory and autonomic neuropathy type VII",
+        "Neuropathy, hereditary sensory and autonomic, type VII, 615548",
+        "Episodic pain syndrome, familial, 3, 615552"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Nav1.7",
+          "PN1",
+          "NE-NA",
+          "NENA",
+          "ETHA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10597",
+        "gene_name": "sodium voltage-gated channel alpha subunit 9",
+        "omim_gene": [
+          "603415"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCN9A",
+        "hgnc_symbol": "SCN9A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:167051695-167232503",
+              "ensembl_id": "ENSG00000169432"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:166195185-166375993",
+              "ensembl_id": "ENSG00000169432"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-04-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN9A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17167479",
+        "14985375",
+        "28665811",
+        "28235406",
+        "24813307",
+        "25316021",
+        "16392115",
+        "16216943",
+        "1536168",
+        "15958509",
+        "16392115",
+        "17167479",
+        "17470132",
+        "23596073",
+        "17145499",
+        "24817410",
+        "17679678",
+        "28665811"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "BRIDGE Study Tier 1 Gene"
+      ],
+      "phenotypes": [
+        "Erythermalgia, primary, AD, 133020",
+        "Small fiber neuropathy, AD,133020",
+        "HSAN2D, autosomal recessive, AR, 243000",
+        "Insensitivity to pain, congenital, AR, 243000",
+        "Paroxysmal extreme pain disorder, AD, 167400"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MSF1",
+          "KIAA0991",
+          "PNUTL4",
+          "AF17q25",
+          "SeptD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7323",
+        "gene_name": "septin 9",
+        "omim_gene": [
+          "604061"
+        ],
+        "alias_name": [
+          "Ov/Br septin"
+        ],
+        "gene_symbol": "SEPT9",
+        "hgnc_symbol": "SEPT9",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:75276651-75496678",
+              "ensembl_id": "ENSG00000184640"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:77280569-77500596",
+              "ensembl_id": "ENSG00000184640"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "SEPT9",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16186812",
+        "19451530",
+        "21556032"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "BRIDGE Study Tier 1 Gene"
+      ],
+      "phenotypes": [
+        "Hereditary neuralgic amyotrophy",
+        "Amyotrophy, hereditary neuralgic, 162100"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LCB1",
+          "SPTI",
+          "HSAN1",
+          "hLCB1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11277",
+        "gene_name": "serine palmitoyltransferase long chain base subunit 1",
+        "omim_gene": [
+          "605712"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SPTLC1",
+        "hgnc_symbol": "SPTLC1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:94794281-94877666",
+              "ensembl_id": "ENSG00000090054"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:92031999-92115384",
+              "ensembl_id": "ENSG00000090054"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-07-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPTLC1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11242106",
+        "15037712",
+        "11242114"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "BRIDGE Study Tier 1 Gene"
+      ],
+      "phenotypes": [
+        "Hereditary sensory neuropathy type IA",
+        "HSAN 1",
+        "Neuropathy, hereditary sensory and autonomic, type IA, 162400"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0526",
+          "LCB2",
+          "LCB2A",
+          "hLCB2a"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11278",
+        "gene_name": "serine palmitoyltransferase long chain base subunit 2",
+        "omim_gene": [
+          "605713"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SPTLC2",
+        "hgnc_symbol": "SPTLC2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:77972340-78083116",
+              "ensembl_id": "ENSG00000100596"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:77505997-77616773",
+              "ensembl_id": "ENSG00000100596"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-08-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPTLC2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12207934",
+        "20920666",
+        "23658386",
+        "27025386",
+        "26681808"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "BRIDGE Study Tier 1 Gene"
+      ],
+      "phenotypes": [
+        "Hereditary sensory and autonomic neuropathy type IC",
+        "HSAN 1",
+        "Neuropathy, hereditary sensory and autonomic, type IC, 613640"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:497",
+        "gene_name": "transient receptor potential cation channel subfamily A member 1",
+        "omim_gene": [
+          "604775"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRPA1",
+        "hgnc_symbol": "TRPA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:72932152-72987852",
+              "ensembl_id": "ENSG00000104321"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:72019917-72075617",
+              "ensembl_id": "ENSG00000104321"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-11-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRPA1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20547126",
+        "16564016",
+        "21468319",
+        "28314413",
+        "24778270",
+        "24564660",
+        "20718100",
+        "28436534"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literaure",
+        "Review"
+      ],
+      "phenotypes": [
+        "Episodic pain syndrome, familial,  615040",
+        "Familial episodic pain syndrome type I"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HsT2651",
+          "CTS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12405",
+        "gene_name": "transthyretin",
+        "omim_gene": [
+          "176300"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTR",
+        "hgnc_symbol": "TTR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:29171689-29178974",
+              "ensembl_id": "ENSG00000118271"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:31591726-31599021",
+              "ensembl_id": "ENSG00000118271"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "3011930",
+        "14640030",
+        "28678039",
+        "26800456",
+        "25069833",
+        "12771253",
+        "19365058",
+        "16433699",
+        "8309582",
+        "The Metabolic and Molecular Bases of Inherited Disease. Vol. IV. 8th ed.Benson, M. D. Amyloidosis. In: Scriver, C. R et al.: New York: McGraw-Hill . 2001",
+        "30878017",
+        "31131842",
+        "31118583",
+        "31111153",
+        "30120737"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "BRIDGE Study Tier 1 Gene"
+      ],
+      "phenotypes": [
+        "Hereditary amyloidosis",
+        "Amyloidosis, hereditary, transthyretin-related, 105210",
+        "Familial amyloid polyneuropathy",
+        "Carpal tunnel syndrome, familial, 115430"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSAN2",
+          "PPP1R167"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14540",
+        "gene_name": "WNK lysine deficient protein kinase 1",
+        "omim_gene": [
+          "605232"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 167"
+        ],
+        "gene_symbol": "WNK1",
+        "hgnc_symbol": "WNK1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:861759-1020618",
+              "ensembl_id": "ENSG00000060237"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:752593-911452",
+              "ensembl_id": "ENSG00000060237"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "WNK1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15060842",
+        "18521183",
+        "21625937",
+        "15455397",
+        "15911806",
+        "16946995",
+        "16636245"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "BRIDGE Study Tier 1 Gene"
+      ],
+      "phenotypes": [
+        "Neuropathy, hereditary sensory and autonomic, type II, OMIM:201300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SYM1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7224",
+        "gene_name": "MPV17, mitochondrial inner membrane protein",
+        "omim_gene": [
+          "137960"
+        ],
+        "alias_name": [
+          "glomerulosclerosis"
+        ],
+        "gene_symbol": "MPV17",
+        "hgnc_symbol": "MPV17",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:27532360-27548547",
+              "ensembl_id": "ENSG00000115204"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:27309492-27325680",
+              "ensembl_id": "ENSG00000115204"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-03-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "MPV17",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "185990",
+        "11431741",
+        "16582910",
+        "16909392",
+        "23714749",
+        "22508010"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Review",
+        "Literaure"
+      ],
+      "phenotypes": [
+        "Mitochondrial DNA depletion syndrome 6 (hepatocerebral type), 256810",
+        "Navajo neurohepatopathy",
+        "Pain insensitivity"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NAG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7632",
+        "gene_name": "N-acetyl-alpha-glucosaminidase",
+        "omim_gene": [
+          "609701"
+        ],
+        "alias_name": [
+          "Sanfilippo disease IIIB"
+        ],
+        "gene_symbol": "NAGLU",
+        "hgnc_symbol": "NAGLU",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:40688190-40696467",
+              "ensembl_id": "ENSG00000108784"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:42536172-42544449",
+              "ensembl_id": "ENSG00000108784"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "NAGLU",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25818867",
+        "12202988"
+      ],
+      "evidence": [
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Expert Review Amber",
+        "Review",
+        "Literaure"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis type IIIB (Sanfilippo B), AR, 252920",
+        "Late-onset painful sensory neuropathy, AD"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0098"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1618",
+        "gene_name": "chaperonin containing TCP1 subunit 5",
+        "omim_gene": [
+          "610150"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CCT5",
+        "hgnc_symbol": "CCT5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:10250033-10266524",
+              "ensembl_id": "ENSG00000150753"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:10249921-10266412",
+              "ensembl_id": "ENSG00000150753"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-09-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCT5",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16399879",
+        "25124038",
+        "28623285",
+        "12874111"
+      ],
+      "evidence": [
+        "Review",
+        "Literaure"
+      ],
+      "phenotypes": [
+        "Neuropathy, hereditary sensory, with spastic paraplegia, 256840",
+        "HSAN with spastic paraplegia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CLTD",
+          "CLH22",
+          "CHC22"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2093",
+        "gene_name": "clathrin heavy chain like 1",
+        "omim_gene": [
+          "601273"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CLTCL1",
+        "hgnc_symbol": "CLTCL1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:19166986-19279239",
+              "ensembl_id": "ENSG00000070371"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:19179473-19291716",
+              "ensembl_id": "ENSG00000070371"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLTCL1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26068709"
+      ],
+      "evidence": [
+        "Literaure",
+        "Review"
+      ],
+      "phenotypes": [
+        "Congenital insensitivity to pain"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "transcribed_unprocessed_pseudogene",
+        "hgnc_id": "HGNC:50679",
+        "gene_name": "fatty acid amide hydrolase pseudogene 1",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "FAAHP1",
+        "hgnc_symbol": "FAAHP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:46897801-46911193",
+              "ensembl_id": "ENSG00000232022"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:46432129-46482493",
+              "ensembl_id": "ENSG00000232022"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "FAAHP1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30929760"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Pain insensitivity"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0479",
+          "PNAT2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16789",
+        "gene_name": "nicotinamide nucleotide adenylyltransferase 2",
+        "omim_gene": [
+          "608701"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NMNAT2",
+        "hgnc_symbol": "NMNAT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:183217372-183387737",
+              "ensembl_id": "ENSG00000157064"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:183248237-183418602",
+              "ensembl_id": "ENSG00000157064"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-05-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "NMNAT2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31132363"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Research"
+      ],
+      "phenotypes": [
+        "polyneuropathy",
+        "erythromelalgia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAAH-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3553",
+        "gene_name": "fatty acid amide hydrolase",
+        "omim_gene": [
+          "602935"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FAAH",
+        "hgnc_symbol": "FAAH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:46859937-46879520",
+              "ensembl_id": "ENSG00000117480"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:46394265-46413848",
+              "ensembl_id": "ENSG00000117480"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "FAAH",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30929760"
+      ],
+      "evidence": [
+        "Other"
+      ],
+      "phenotypes": [
+        "insensitivity to pain, healing"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLVCR",
+          "MFSD7B",
+          "PCA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24682",
+        "gene_name": "feline leukemia virus subgroup C cellular receptor 1",
+        "omim_gene": [
+          "609144"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FLVCR1",
+        "hgnc_symbol": "FLVCR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:213031597-213072705",
+              "ensembl_id": "ENSG00000162769"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:212858255-212899363",
+              "ensembl_id": "ENSG00000162769"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-05-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLVCR1",
+      "confidence_level": "0",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27923065"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "insensitivity to pain",
+        "neurodevelopmental delay",
+        "joint hypermobility",
+        "scoliosis",
+        "dysautonomia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZP434H2010"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25284",
+        "gene_name": "pleckstrin homology domain containing N1",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "PLEKHN1",
+        "hgnc_symbol": "PLEKHN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:901877-911245",
+              "ensembl_id": "ENSG00000187583"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:966497-975865",
+              "ensembl_id": "ENSG00000187583"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-06-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLEKHN1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33884296"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Sensory neuropathy"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20177",
+          "ASM3A",
+          "ASML3a",
+          "yR36GH4.1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17389",
+        "gene_name": "sphingomyelin phosphodiesterase acid like 3A",
+        "omim_gene": [
+          "610728"
+        ],
+        "alias_name": [
+          "acid sphingomyelinase-like phosphodiesterase 3a"
+        ],
+        "gene_symbol": "SMPDL3A",
+        "hgnc_symbol": "SMPDL3A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:123110315-123130865",
+              "ensembl_id": "ENSG00000172594"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:122789049-122809720",
+              "ensembl_id": "ENSG00000172594"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-11-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMPDL3A",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33884296"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Sensory neuropathy"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

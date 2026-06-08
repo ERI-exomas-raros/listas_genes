@@ -1,0 +1,85 @@
+{
+  "id": 1328,
+  "hash_id": null,
+  "name": "Factor VII deficiency",
+  "disease_group": "Haematology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.3",
+  "version_created": "2026-01-23T10:36:55.851862Z",
+  "relevant_disorders": [
+    "R116"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3544",
+        "gene_name": "coagulation factor VII",
+        "omim_gene": [
+          "613878"
+        ],
+        "alias_name": [
+          "eptacog alfa",
+          "FVII coagulation protein",
+          "factor VII"
+        ],
+        "gene_symbol": "F7",
+        "hgnc_symbol": "F7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:113760105-113774995",
+              "ensembl_id": "ENSG00000057593"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:113105788-113120681",
+              "ensembl_id": "ENSG00000057593"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Factor VII deficiency, OMIM:227500",
+        "congenital factor VII deficiency, MONDO:0009211"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

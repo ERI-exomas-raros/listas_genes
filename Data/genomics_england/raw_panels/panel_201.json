@@ -1,0 +1,725 @@
+{
+  "id": 201,
+  "hash_id": "55d1c77722c1fc237ed709f8",
+  "name": "Genodermatoses with malignancies",
+  "disease_group": "Tumour syndromes",
+  "disease_sub_group": "Skin",
+  "status": "public",
+  "version": "1.11",
+  "version_created": "2025-11-23T17:17:44.284352Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 13,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "HNPCC",
+          "FCC2",
+          "HNPCC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7127",
+        "gene_name": "mutL homolog 1",
+        "omim_gene": [
+          "120436"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MLH1",
+        "hgnc_symbol": "MLH1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:37034823-37107380",
+              "ensembl_id": "ENSG00000076242"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:36993332-37050918",
+              "ensembl_id": "ENSG00000076242"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "MLH1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Colorectal cancer, hereditary nonpolyposis, type 2, 609310",
+        "Mismatch repair cancer syndrome, 276300",
+        "Muir-Torre syndrome, 158320",
+        "Muir-Torre Syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNPCC",
+          "HNPCC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7325",
+        "gene_name": "mutS homolog 2",
+        "omim_gene": [
+          "609309"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH2",
+        "hgnc_symbol": "MSH2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47630108-47789450",
+              "ensembl_id": "ENSG00000095002"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47402969-47562311",
+              "ensembl_id": "ENSG00000095002"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Colorectal cancer, hereditary nonpolyposis, type 1, 120435",
+        "Muir-Torre syndrome, 158320",
+        "Mismatch repair cancer syndrome, 276300",
+        "Muir-Torre Syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7329",
+        "gene_name": "mutS homolog 6",
+        "omim_gene": [
+          "600678"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH6",
+        "hgnc_symbol": "MSH6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47922669-48037240",
+              "ensembl_id": "ENSG00000116062"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47695530-47810101",
+              "ensembl_id": "ENSG00000116062"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-08-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH6",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Muir-Torre syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BCNS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9585",
+        "gene_name": "patched 1",
+        "omim_gene": [
+          "601309"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTCH1",
+        "hgnc_symbol": "PTCH1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:98205262-98279339",
+              "ensembl_id": "ENSG00000185920"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:95442980-95517057",
+              "ensembl_id": "ENSG00000185920"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-09-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTCH1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Expert",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Basal cell nevus syndrome 1, OMIM:109400",
+        "Basal cell carcinoma, somatic, OMIM:605462",
+        "Gorlin syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MMAC1",
+          "TEP1",
+          "PTEN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9588",
+        "gene_name": "phosphatase and tensin homolog",
+        "omim_gene": [
+          "601728"
+        ],
+        "alias_name": [
+          "mutated in multiple advanced cancers 1"
+        ],
+        "gene_symbol": "PTEN",
+        "hgnc_symbol": "PTEN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:89622870-89731687",
+              "ensembl_id": "ENSG00000171862"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:87863113-87971930",
+              "ensembl_id": "ENSG00000171862"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTEN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Expert list",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cowden syndrome 1, 158350",
+        "Lhermitte-Duclos syndrome, 158350",
+        "Bannayan-Riley-Ruvalcaba syndrome, 153480",
+        "{Meningioma}, 607174",
+        "{Glioma susceptibility 2}, 613028",
+        "Macrocephaly/autism syndrome, 605309",
+        "PTEN hamartoma tumor syndrome",
+        "VATER association with macrocephaly and ventriculomegaly, 276950",
+        "{Prostate cancer, somatic}, 176807",
+        "Thyroid carcinoma, follicular, somatic, 188470",
+        "Malignant melanoma, somatic, 155600",
+        "Endometrial carcinoma, somatic, 608089",
+        "Squamous cell carcinoma, head and neck, somatic, 275355",
+        "Cowden Syndrome",
+        "Cowden Disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SUFUH",
+          "SUFUXL",
+          "PRO1280"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16466",
+        "gene_name": "SUFU negative regulator of hedgehog signaling",
+        "omim_gene": [
+          "607035"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SUFU",
+        "hgnc_symbol": "SUFU",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:104263744-104393292",
+              "ensembl_id": "ENSG00000107882"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:102503987-102633535",
+              "ensembl_id": "ENSG00000107882"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-08-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "SUFU",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 25403219"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Basal cell nevus syndrome, OMIM:109400",
+        "{Medulloblastoma}, OMIM:155255",
+        "{Meningioma, familial, susceptibility to}, OMIM:607174"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9586",
+        "gene_name": "patched 2",
+        "omim_gene": [
+          "603673"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTCH2",
+        "hgnc_symbol": "PTCH2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:45285516-45308735",
+              "ensembl_id": "ENSG00000117425"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:44819844-44843063",
+              "ensembl_id": "ENSG00000117425"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTCH2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Medulloblastoma",
+        "Basal cell carcinoma, somatic",
+        "(originally on Gorlin syndrome gene panel)",
+        "Basal cell nevus syndrome 109400"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AIP1",
+          "KIAA0705",
+          "ARIP1",
+          "Arp-T1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24027",
+        "gene_name": "actin related protein T1",
+        "omim_gene": [
+          "300487"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACTRT1",
+        "hgnc_symbol": "ACTRT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:127184943-127186382",
+              "ensembl_id": "ENSG00000123165"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:128050962-128052398",
+              "ensembl_id": "ENSG00000123165"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACTRT1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28869610",
+        "30653245"
+      ],
+      "evidence": [
+        "Expert list",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Basal cell carcinoma",
+        "Bazex–Dupré–Christol syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RAC",
+          "PKB",
+          "PRKBA",
+          "AKT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:391",
+        "gene_name": "AKT serine/threonine kinase 1",
+        "omim_gene": [
+          "164730"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AKT1",
+        "hgnc_symbol": "AKT1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:105235686-105262088",
+              "ensembl_id": "ENSG00000142208"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:104769349-104795751",
+              "ensembl_id": "ENSG00000142208"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AKT1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 23246288"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "IGH Breast cancer, somatic, 114480",
+        "Colorectal cancer, somatic, 114500",
+        "Ovarian cancer, somatic, 167000",
+        "{Schizophrenia, susceptibility to}, 181500 (2)",
+        "Proteus syndrome, somatic, 176920",
+        "Cowden syndrome 6, 615109"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "killin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:37212",
+        "gene_name": "killin, p53-regulated DNA replication inhibitor",
+        "omim_gene": [
+          "612105"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KLLN",
+        "hgnc_symbol": "KLLN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:89618918-89623194",
+              "ensembl_id": "ENSG00000227268"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:87859161-87863437",
+              "ensembl_id": "ENSG00000227268"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-02-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "KLLN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cowden syndrome 4, 615107"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PI3K"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8975",
+        "gene_name": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",
+        "omim_gene": [
+          "171834"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PIK3CA",
+        "hgnc_symbol": "PIK3CA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:178865902-178957881",
+              "ensembl_id": "ENSG00000121879"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:179148114-179240093",
+              "ensembl_id": "ENSG00000121879"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIK3CA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "PMID: 23246288"
+      ],
+      "evidence": [
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "One publication showing mutations in Cowden. Await confirmation."
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10681",
+        "gene_name": "succinate dehydrogenase complex iron sulfur subunit B",
+        "omim_gene": [
+          "185470"
+        ],
+        "alias_name": [
+          "iron-sulfur subunit of complex II",
+          "succinate dehydrogenase [ubiquinone] iron-sulfur subunit"
+        ],
+        "gene_symbol": "SDHB",
+        "hgnc_symbol": "SDHB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:17345217-17380665",
+              "ensembl_id": "ENSG00000117118"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:17018722-17054170",
+              "ensembl_id": "ENSG00000117118"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHB",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Gastrointestinal stromal tumor, OMIM:606764",
+        "Paraganglioma and gastric stromal sarcoma, OMIM:606864"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cybS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10683",
+        "gene_name": "succinate dehydrogenase complex subunit D",
+        "omim_gene": [
+          "602690"
+        ],
+        "alias_name": [
+          "small subunit of cytochrome b"
+        ],
+        "gene_symbol": "SDHD",
+        "hgnc_symbol": "SDHD",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:111957497-111990353",
+              "ensembl_id": "ENSG00000204370"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:112086773-112120013",
+              "ensembl_id": "ENSG00000204370"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHD",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Paragangliomas 1, with or without deafness, 168000",
+        "Pheochromocytoma, 171300",
+        "Carcinoid tumors, intestinal, 114900",
+        "Merkel cell carcinoma, somatic",
+        "Paraganglioma and gastric stromal sarcoma, 606864",
+        "Cowden syndrome 3, 615106"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

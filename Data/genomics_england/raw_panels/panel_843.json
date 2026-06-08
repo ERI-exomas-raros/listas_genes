@@ -1,0 +1,309 @@
+{
+  "id": 843,
+  "hash_id": null,
+  "name": "Cardiac arrhythmias - additional genes",
+  "disease_group": "Cardiology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.12",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 5,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Component Of Super Panel",
+      "slug": "component-of-super-panel",
+      "description": "This panel is a component of a Super Panel"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "GB5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4401",
+        "gene_name": "G protein subunit beta 5",
+        "omim_gene": [
+          "604447"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GNB5",
+        "hgnc_symbol": "GNB5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:52413117-52483566",
+              "ensembl_id": "ENSG00000069966"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:52115105-52191369",
+              "ensembl_id": "ENSG00000069966"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-07-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNB5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27523599",
+        "28697420",
+        "29368331",
+        "33172956"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Intellectual developmental disorder with cardiac arrhythmia, OMIM:617173",
+        "Language delay and ADHD/cognitive impairment with or without cardiac arrhythmia, OMIM:617182"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Cav1.3",
+          "CACH3",
+          "CACN4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1391",
+        "gene_name": "calcium voltage-gated channel subunit alpha1 D",
+        "omim_gene": [
+          "114206"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNA1D",
+        "hgnc_symbol": "CACNA1D",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:53528683-53847760",
+              "ensembl_id": "ENSG00000157388"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:53328963-53813733",
+              "ensembl_id": "ENSG00000157388"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-12-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNA1D",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "21131953",
+        "30498240",
+        "30054272",
+        "32747562"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Sinoatrial node dysfunction and deafness, OMIM:614896",
+        "sinoatrial node dysfunction and deafness, MONDO:0013960"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp761P1121"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25439",
+        "gene_name": "transport and golgi organization 2 homolog",
+        "omim_gene": [
+          "616830"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TANGO2",
+        "hgnc_symbol": "TANGO2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:20004537-20053449",
+              "ensembl_id": "ENSG00000183597"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:20017014-20065926",
+              "ensembl_id": "ENSG00000183597"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "TANGO2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26805781",
+        "26805782",
+        "30245509",
+        "31339582",
+        "32929747",
+        "35568137",
+        "40156300"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration, OMIM:616878",
+        "recurrent metabolic encephalomyopathic crises-rhabdomyolysis-cardiac arrhythmia-intellectual disability syndrome, MONDO:0018820"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:493",
+        "gene_name": "ankyrin 2",
+        "omim_gene": [
+          "106410"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANK2",
+        "hgnc_symbol": "ANK2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:113739265-114304896",
+              "ensembl_id": "ENSG00000145362"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:112818109-113383740",
+              "ensembl_id": "ENSG00000145362"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANK2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31983240"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Long QT syndrome 4, 600919",
+        "Cardiac arrhythmia, ankyrin-B-related, 600919"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC18257",
+          "CIP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21355",
+        "gene_name": "muscular LMNA interacting protein",
+        "omim_gene": [
+          "614106"
+        ],
+        "alias_name": [
+          "muscle-enriched A-type lamin interacting protein",
+          "cardiac ISL1-interacting protein"
+        ],
+        "gene_symbol": "MLIP",
+        "hgnc_symbol": "MLIP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:53794780-54131078",
+              "ensembl_id": "ENSG00000146147"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:53929982-54266280",
+              "ensembl_id": "ENSG00000146147"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-04-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "MLIP",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26436652",
+        "32719146",
+        "33802236",
+        "34581780",
+        "34935254"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Myopathy with myalgia, increased serum creatine kinase, and with or without episodic rhabdomyolysis, MIM# 620138",
+        "Arrhythmia, HP:0011675"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

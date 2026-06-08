@@ -1,0 +1,3908 @@
+{
+  "id": 556,
+  "hash_id": null,
+  "name": "Palmoplantar keratodermas",
+  "disease_group": "Dermatology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "4.11",
+  "version_created": "2026-05-20T15:01:37.362933Z",
+  "relevant_disorders": [
+    "R166"
+  ],
+  "stats": {
+    "number_of_genes": 74,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ11506",
+          "p34"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25662",
+        "gene_name": "alpha and gamma adaptin binding protein",
+        "omim_gene": [
+          "614888"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AAGAB",
+        "hgnc_symbol": "AAGAB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:67493371-67547533",
+              "ensembl_id": "ENSG00000103591"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:67201033-67255195",
+              "ensembl_id": "ENSG00000103591"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-07-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "AAGAB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Palmoplantar keratoderma"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZP434G232",
+          "LI2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14637",
+        "gene_name": "ATP binding cassette subfamily A member 12",
+        "omim_gene": [
+          "607800"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ABCA12",
+        "hgnc_symbol": "ABCA12",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:215796266-216003151",
+              "ensembl_id": "ENSG00000144452"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:214931542-215138428",
+              "ensembl_id": "ENSG00000144452"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-08-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCA12",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "autosomal recessive congenital ichthyosis",
+        "Harlequin ichthyosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CGI-58",
+          "NCIE2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21396",
+        "gene_name": "abhydrolase domain containing 5",
+        "omim_gene": [
+          "604780"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ABHD5",
+        "hgnc_symbol": "ABHD5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:43731605-43775863",
+              "ensembl_id": "ENSG00000011198"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:43690113-43734371",
+              "ensembl_id": "ENSG00000011198"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABHD5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Chanarin-Dorfman syndrome, OMIM:275630"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cSVP",
+          "CD156B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:195",
+        "gene_name": "ADAM metallopeptidase domain 17",
+        "omim_gene": [
+          "603639"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADAM17",
+        "hgnc_symbol": "ADAM17",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:9628615-9695921",
+              "ensembl_id": "ENSG00000151694"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:9488486-9555792",
+              "ensembl_id": "ENSG00000151694"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADAM17",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Inflammatory skin and bowel disease, neonatal"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FALDH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:403",
+        "gene_name": "aldehyde dehydrogenase 3 family member A2",
+        "omim_gene": [
+          "609523"
+        ],
+        "alias_name": [
+          "fatty aldehyde dehydrogenase"
+        ],
+        "gene_symbol": "ALDH3A2",
+        "hgnc_symbol": "ALDH3A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:19551449-19580911",
+              "ensembl_id": "ENSG00000072210"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:19648136-19677598",
+              "ensembl_id": "ENSG00000072210"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-06-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALDH3A2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Sjogren-Larsson syndrome, OMIM:270200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "12R-LOX"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:430",
+        "gene_name": "arachidonate 12-lipoxygenase, 12R type",
+        "omim_gene": [
+          "603741"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALOX12B",
+        "hgnc_symbol": "ALOX12B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:7975954-7991021",
+              "ensembl_id": "ENSG00000179477"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:8072636-8087703",
+              "ensembl_id": "ENSG00000179477"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-07-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALOX12B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Autosomal recessive congenital ichthyosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "eLOX3",
+          "E-LOX"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13743",
+        "gene_name": "arachidonate lipoxygenase 3",
+        "omim_gene": [
+          "607206"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALOXE3",
+        "hgnc_symbol": "ALOXE3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:7999218-8022365",
+              "ensembl_id": "ENSG00000179148"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:8095900-8119047",
+              "ensembl_id": "ENSG00000179148"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-11-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALOXE3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Autosomal recessive congenital ichthyosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AP19",
+          "SIGMA1A",
+          "WUGSC:H_DJ0747G18.2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:559",
+        "gene_name": "adaptor related protein complex 1 sigma 1 subunit",
+        "omim_gene": [
+          "603531"
+        ],
+        "alias_name": [
+          "clathrin-associated/assembly/adaptor protein, small 1 (19kD)",
+          "clathrin coat assembly protein AP19",
+          "sigma1A subunit of AP-1 clathrin adaptor complex",
+          "AP-1 complex subunit sigma-1A",
+          "sigma1A-adaptin",
+          "golgi adaptor HA1/AP1 adaptin sigma-1A subunit",
+          "clathrin assembly protein complex 1 sigma-1A small chain",
+          "HA1 19 kDa subunit"
+        ],
+        "gene_symbol": "AP1S1",
+        "hgnc_symbol": "AP1S1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:100797678-100804877",
+              "ensembl_id": "ENSG00000106367"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:101154397-101161596",
+              "ensembl_id": "ENSG00000106367"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AP1S1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "MEDNIK syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:638",
+        "gene_name": "aquaporin 5",
+        "omim_gene": [
+          "600442"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AQP5",
+        "hgnc_symbol": "AQP5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:50355653-50359464",
+              "ensembl_id": "ENSG00000161798"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:49961870-49965681",
+              "ensembl_id": "ENSG00000161798"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "AQP5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Palmoplantar keratoderma"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:719",
+        "gene_name": "arylsulfatase E (chondrodysplasia punctata 1)",
+        "omim_gene": [
+          "300180"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ARSE",
+        "hgnc_symbol": "ARSE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:2852699-2886286",
+              "ensembl_id": "ENSG00000157399"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:2934632-2968310",
+              "ensembl_id": "ENSG00000157399"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-04-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARSE",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Chondrodysplasia punctata"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1515",
+        "gene_name": "calpastatin",
+        "omim_gene": [
+          "114090"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CAST",
+        "hgnc_symbol": "CAST",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:95860971-96115299",
+              "ensembl_id": "ENSG00000153113"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:96525267-96779595",
+              "ensembl_id": "ENSG00000153113"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-07-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "CAST",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Peeling skin with leukonychia, acral punctate keratoses, cheilitis, and knuckle pads"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D6S586E"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1802",
+        "gene_name": "corneodesmosin",
+        "omim_gene": [
+          "602593"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDSN",
+        "hgnc_symbol": "CDSN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31082867-31088223",
+              "ensembl_id": "ENSG00000204539"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31115090-31120446",
+              "ensembl_id": "ENSG00000204539"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-05-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDSN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Desmosomal disorders"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC27091"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23752",
+        "gene_name": "ceramide synthase 3",
+        "omim_gene": [
+          "615276"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CERS3",
+        "hgnc_symbol": "CERS3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:100940600-101085200",
+              "ensembl_id": "ENSG00000154227"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:100400395-100544995",
+              "ensembl_id": "ENSG00000154227"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-07-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "CERS3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Autosomal recessive congenital ichthyosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2481",
+        "gene_name": "cystatin A",
+        "omim_gene": [
+          "184600"
+        ],
+        "alias_name": [
+          "stefin A"
+        ],
+        "gene_symbol": "CSTA",
+        "hgnc_symbol": "CSTA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:122044091-122060819",
+              "ensembl_id": "ENSG00000121552"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:122325244-122341972",
+              "ensembl_id": "ENSG00000121552"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-02-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "CSTA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "susceptibility to psoriasis",
+        "susceptility to atopic dermatitis",
+        "Exfoliative ichthyosis/acral peeling skin syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DPP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2528",
+        "gene_name": "cathepsin C",
+        "omim_gene": [
+          "602365"
+        ],
+        "alias_name": [
+          "dipeptidyl peptidase 1"
+        ],
+        "gene_symbol": "CTSC",
+        "hgnc_symbol": "CTSC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:88026760-88070955",
+              "ensembl_id": "ENSG00000109861"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:88293592-88337787",
+              "ensembl_id": "ENSG00000109861"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTSC",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Papillon-Lefvre syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ39501"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26820",
+        "gene_name": "cytochrome P450 family 4 subfamily F member 22",
+        "omim_gene": [
+          "611495"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CYP4F22",
+        "hgnc_symbol": "CYP4F22",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:15619304-15663128",
+              "ensembl_id": "ENSG00000171954"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:15508493-15552317",
+              "ensembl_id": "ENSG00000171954"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-05-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYP4F22",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Autosomal recessive congenital ichthyosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDHF2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3036",
+        "gene_name": "desmocollin 2",
+        "omim_gene": [
+          "125645"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSC2",
+        "hgnc_symbol": "DSC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:28645940-28682378",
+              "ensembl_id": "ENSG00000134755"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:31058840-31102415",
+              "ensembl_id": "ENSG00000134755"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSC2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Desmosomal disorders",
+        "Palmoplantar keratoderma, woolly hair"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDHF3",
+          "DSC",
+          "DSC1",
+          "DSC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3037",
+        "gene_name": "desmocollin 3",
+        "omim_gene": [
+          "600271"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSC3",
+        "hgnc_symbol": "DSC3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:28569974-28622781",
+              "ensembl_id": "ENSG00000134762"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:30990008-31042815",
+              "ensembl_id": "ENSG00000134762"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSC3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19765682",
+        "31790667",
+        "18682494"
+      ],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Desmosomal disorders",
+        "Palmoplantar keratoderma, woolly hair",
+        "Hypotrichosis and recurrent skin vesicles, OMIM:613102",
+        "hereditary hypotrichosis with recurrent skin vesicles, MONDO:0013136"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDHF4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3048",
+        "gene_name": "desmoglein 1",
+        "omim_gene": [
+          "125670"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSG1",
+        "hgnc_symbol": "DSG1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:28898052-28936992",
+              "ensembl_id": "ENSG00000134760"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:31318089-31357029",
+              "ensembl_id": "ENSG00000134760"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSG1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Palmoplantar keratoderma",
+        "Congenital erythroderma with palmoplantar keratoderma",
+        "Desmosomal disorders"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDHF13",
+          "LAH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21307",
+        "gene_name": "desmoglein 4",
+        "omim_gene": [
+          "607892"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSG4",
+        "hgnc_symbol": "DSG4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:28956740-28994875",
+              "ensembl_id": "ENSG00000175065"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:31376777-31414912",
+              "ensembl_id": "ENSG00000175065"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSG4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Desmosomal disorders"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KPPS2",
+          "PPKS2",
+          "DPI",
+          "DPII"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3052",
+        "gene_name": "desmoplakin",
+        "omim_gene": [
+          "125647"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSP",
+        "hgnc_symbol": "DSP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:7541808-7586950",
+              "ensembl_id": "ENSG00000096696"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:7541575-7586717",
+              "ensembl_id": "ENSG00000096696"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, dilated, with woolly hair and keratoderma, OMIM:605676 (AR)",
+        "Dilated cardiomyopathy with woolly hair, keratoderma, and tooth agenesis, OMIM:615821 (AD)",
+        "Keratosis palmoplantaris striata II, OMIM:612908 (AD)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CPX",
+          "CPXD",
+          "CHO2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3133",
+        "gene_name": "emopamil binding protein (sterol isomerase)",
+        "omim_gene": [
+          "300205"
+        ],
+        "alias_name": [
+          "3-beta-hydroxysteroid-delta-8,delta-7-isomerase",
+          "Chondrodysplasia punctata-2, X-linked dominant (Happle syndrome)",
+          "sterol 8-isomerase"
+        ],
+        "gene_symbol": "EBP",
+        "hgnc_symbol": "EBP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:48379546-48387104",
+              "ensembl_id": "ENSG00000147155"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:48521158-48528716",
+              "ensembl_id": "ENSG00000147155"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-02-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "EBP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Conradi-Hunnermann-Happle syndrome"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CT118"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14415",
+        "gene_name": "ELOVL fatty acid elongase 4",
+        "omim_gene": [
+          "605512"
+        ],
+        "alias_name": [
+          "cancer/testis antigen 118"
+        ],
+        "gene_symbol": "ELOVL4",
+        "hgnc_symbol": "ELOVL4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:80624529-80657297",
+              "ensembl_id": "ENSG00000118402"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:79914812-79947580",
+              "ensembl_id": "ENSG00000118402"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-01-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "ELOVL4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ichthyosis, spastic quadriplegia, mental retardation"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PC-1",
+          "PCA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3356",
+        "gene_name": "ectonucleotide pyrophosphatase/phosphodiesterase 1",
+        "omim_gene": [
+          "173335"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ENPP1",
+        "hgnc_symbol": "ENPP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:132129156-132216295",
+              "ensembl_id": "ENSG00000197594"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:131808016-131895155",
+              "ensembl_id": "ENSG00000197594"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "ENPP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Cole disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3748",
+        "gene_name": "filaggrin",
+        "omim_gene": [
+          "135940"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FLG",
+        "hgnc_symbol": "FLG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:152274651-152297679",
+              "ensembl_id": "ENSG00000143631"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:152302175-152325203",
+              "ensembl_id": "ENSG00000143631"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-10-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16444271",
+        "16550169",
+        "22409988",
+        "36308042"
+      ],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ichthyosis vulgaris, OMIM:146700",
+        "Dermatitis, atopic, susceptibility to, 2, OMIM:605803",
+        "hereditary palmoplantar keratoderma, MONDO:0019272"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q3_25_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IFPS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:33276",
+        "gene_name": "filaggrin family member 2",
+        "omim_gene": [
+          "616284"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FLG2",
+        "hgnc_symbol": "FLG2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:152321211-152332482",
+              "ensembl_id": "ENSG00000143520"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:152348735-152360006",
+              "ensembl_id": "ENSG00000143520"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLG2",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28884927",
+        "29505760"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Peeling skin syndrome 6, OMIM: 618084"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CX43",
+          "ODD",
+          "ODOD",
+          "SDTY3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4274",
+        "gene_name": "gap junction protein alpha 1",
+        "omim_gene": [
+          "121014"
+        ],
+        "alias_name": [
+          "oculodentodigital dysplasia (syndactyly type III)",
+          "connexin 43"
+        ],
+        "gene_symbol": "GJA1",
+        "hgnc_symbol": "GJA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:121756838-121770873",
+              "ensembl_id": "ENSG00000152661"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:121435692-121449727",
+              "ensembl_id": "ENSG00000152661"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-08-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "GJA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25398053"
+      ],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Erythrokeratodermia variabilis et progressiva 3, OMIM:617525",
+        "Palmoplantar keratoderma with congenital alopecia, OMIM:104100",
+        "Oculodentodigital dysplasia, OMIM:164200"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CX26",
+          "NSRD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4284",
+        "gene_name": "gap junction protein beta 2",
+        "omim_gene": [
+          "121011"
+        ],
+        "alias_name": [
+          "connexin 26"
+        ],
+        "gene_symbol": "GJB2",
+        "hgnc_symbol": "GJB2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:20761609-20767037",
+              "ensembl_id": "ENSG00000165474"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:20187470-20192898",
+              "ensembl_id": "ENSG00000165474"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-02-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "GJB2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "KID syndrome, Ectodermal dysplasia, Bart-Pumphrey syndrome, Ichthyosis hystrix"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DP3",
+          "PDGB",
+          "PKGB",
+          "DPIII"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6207",
+        "gene_name": "junction plakoglobin",
+        "omim_gene": [
+          "173325"
+        ],
+        "alias_name": null,
+        "gene_symbol": "JUP",
+        "hgnc_symbol": "JUP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:39775692-39943183",
+              "ensembl_id": "ENSG00000173801"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:41754604-41786931",
+              "ensembl_id": "ENSG00000173801"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "JUP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Naxos disease, OMIM:601214",
+        "Palmoplantar keratoderma, keratoderma with woolly hair"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1518"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29300",
+        "gene_name": "KN motif and ankyrin repeat domains 2",
+        "omim_gene": [
+          "614610"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KANK2",
+        "hgnc_symbol": "KANK2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:11274943-11308467",
+              "ensembl_id": "ENSG00000197256"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:11164267-11197791",
+              "ensembl_id": "ENSG00000197256"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-01-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "KANK2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Palmoplantar keratoderma, woolly hair"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DHSR",
+          "SDR35C1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4021",
+        "gene_name": "3-ketodihydrosphingosine reductase",
+        "omim_gene": [
+          "136440"
+        ],
+        "alias_name": [
+          "3-dehydrosphinganine reductase",
+          "short chain dehydrogenase/reductase family 35C, member 1"
+        ],
+        "gene_symbol": "KDSR",
+        "hgnc_symbol": "KDSR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:60994959-61034743",
+              "ensembl_id": "ENSG00000119537"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:63327726-63367510",
+              "ensembl_id": "ENSG00000119537"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-02-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "KDSR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "34686882"
+      ],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Erythrokeratodermia variabilis et progressiva 4"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KRT1A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6412",
+        "gene_name": "keratin 1",
+        "omim_gene": [
+          "139350"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KRT1",
+        "hgnc_symbol": "KRT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:53068520-53074191",
+              "ensembl_id": "ENSG00000167768"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:52674736-52680407",
+              "ensembl_id": "ENSG00000167768"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-09-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRT1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ichthyosis histrix",
+        "Palmoplantar keratoderma",
+        "Epidermolytic hyperkeratosis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "K10",
+          "CK10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6413",
+        "gene_name": "keratin 10",
+        "omim_gene": [
+          "148080"
+        ],
+        "alias_name": [
+          "cytokeratin 10",
+          "epidermolytic hyperkeratosis"
+        ],
+        "gene_symbol": "KRT10",
+        "hgnc_symbol": "KRT10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:38974369-38978847",
+              "ensembl_id": "ENSG00000186395"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:40818117-40822595",
+              "ensembl_id": "ENSG00000186395"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-08-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRT10",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16505000",
+        "20302579",
+        "23957016",
+        "29277919",
+        "34273205",
+        "38741524"
+      ],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolytic hyperkeratosis 2B, autosomal recessive, OMIM:620707",
+        "Epidermolytic hyperkeratosis 2A, autosomal dominant, OMIM:620150"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q2_26_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KRTE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6439",
+        "gene_name": "keratin 2",
+        "omim_gene": [
+          "600194"
+        ],
+        "alias_name": [
+          "epidermal ichthyosis bullosa of Siemens"
+        ],
+        "gene_symbol": "KRT2",
+        "hgnc_symbol": "KRT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:53038342-53045948",
+              "ensembl_id": "ENSG00000172867"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:52644558-52652164",
+              "ensembl_id": "ENSG00000172867"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRT2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Autosomal dominant ichthyosis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20406",
+        "gene_name": "keratin 6C",
+        "omim_gene": [
+          "612315"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KRT6C",
+        "hgnc_symbol": "KRT6C",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:52862300-52867569",
+              "ensembl_id": "ENSG00000170465"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:52468516-52473785",
+              "ensembl_id": "ENSG00000170465"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRT6C",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Palmoplantar keratoderma"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EPPK",
+          "K9",
+          "CK-9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6447",
+        "gene_name": "keratin 9",
+        "omim_gene": [
+          "607606"
+        ],
+        "alias_name": [
+          "cytokeratin 9",
+          "type I cytoskeletal 9",
+          "epidermolytic palmoplantar keratoderma"
+        ],
+        "gene_symbol": "KRT9",
+        "hgnc_symbol": "KRT9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:39722096-39728310",
+              "ensembl_id": "ENSG00000171403"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:41565841-41572058",
+              "ensembl_id": "ENSG00000171403"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-05-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRT9",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Palmoplantar keratoderma"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "bA186O14.3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23452",
+        "gene_name": "lipase family member N",
+        "omim_gene": [
+          "613924"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LIPN",
+        "hgnc_symbol": "LIPN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:90521163-90537999",
+              "ensembl_id": "ENSG00000204020"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:88761406-88778242",
+              "ensembl_id": "ENSG00000204020"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-02-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "LIPN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Autosomal recessive congenital ichthyosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6663",
+        "gene_name": "loricrin",
+        "omim_gene": [
+          "152445"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LOR",
+        "hgnc_symbol": "LOR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:153232176-153234598",
+              "ensembl_id": "ENSG00000203782"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:153259700-153262122",
+              "ensembl_id": "ENSG00000203782"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-05-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "LOR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Loricrin keratoderma"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "S2P"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15455",
+        "gene_name": "membrane bound transcription factor peptidase, site 2",
+        "omim_gene": [
+          "300294"
+        ],
+        "alias_name": [
+          "site-2 protease"
+        ],
+        "gene_symbol": "MBTPS2",
+        "hgnc_symbol": "MBTPS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:21857754-21903542",
+              "ensembl_id": "ENSG00000012174"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:21839636-21885424",
+              "ensembl_id": "ENSG00000012174"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-03-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "MBTPS2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Olmstedt syndrome",
+        "IFAP syndrome",
+        "Keratosis follicularis spinulosa decalvans"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ICHYN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28018",
+        "gene_name": "NIPA like domain containing 4",
+        "omim_gene": [
+          "609383"
+        ],
+        "alias_name": [
+          "ichthyin"
+        ],
+        "gene_symbol": "NIPAL4",
+        "hgnc_symbol": "NIPAL4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:156887027-156901725",
+              "ensembl_id": "ENSG00000172548"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:157460019-157474717",
+              "ensembl_id": "ENSG00000172548"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-03-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "NIPAL4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Autosomal recessive congenital ichthyosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XAP104",
+          "H105e3",
+          "SDR31E1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13398",
+        "gene_name": "NAD(P) dependent steroid dehydrogenase-like",
+        "omim_gene": [
+          "300275"
+        ],
+        "alias_name": [
+          "short chain dehydrogenase/reductase family 31E, member 1"
+        ],
+        "gene_symbol": "NSDHL",
+        "hgnc_symbol": "NSDHL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:151999511-152038273",
+              "ensembl_id": "ENSG00000147383"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:152830967-152869729",
+              "ensembl_id": "ENSG00000147383"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-04-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "NSDHL",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "CHILD syndrome"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PIGPC1",
+          "dJ496H19.1",
+          "KCP1",
+          "THW",
+          "KRTCAP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17637",
+        "gene_name": "PERP, TP53 apoptosis effector",
+        "omim_gene": [
+          "609301"
+        ],
+        "alias_name": [
+          "keratinocyte associated protein 1"
+        ],
+        "gene_symbol": "PERP",
+        "hgnc_symbol": "PERP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:138409642-138428648",
+              "ensembl_id": "ENSG00000112378"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:138088505-138107511",
+              "ensembl_id": "ENSG00000112378"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-11-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "PERP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30321533",
+        "31898316",
+        "31361044",
+        "34265120",
+        "34863005",
+        "32593191"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "London North GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Olmsted syndrome-2, MIM# 619208, MONDO:003091",
+        "Erythrokeratodermia variabilis et progressiva-7, MIM# 619209, MONDO:0030941",
+        "Ichthyosis, MONDO:0019269"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B6P"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9023",
+        "gene_name": "plakophilin 1",
+        "omim_gene": [
+          "601975"
+        ],
+        "alias_name": [
+          "ectodermal dysplasia/skin fragility syndrome"
+        ],
+        "gene_symbol": "PKP1",
+        "hgnc_symbol": "PKP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:201252580-201302121",
+              "ensembl_id": "ENSG00000081277"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:201283452-201332993",
+              "ensembl_id": "ENSG00000081277"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-10-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "PKP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Desmosomal disorders"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ38755",
+          "dJ50J22.1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21246",
+        "gene_name": "patatin like phospholipase domain containing 1",
+        "omim_gene": [
+          "612121"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PNPLA1",
+        "hgnc_symbol": "PNPLA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:36210980-36276372",
+              "ensembl_id": "ENSG00000180316"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:36243203-36312229",
+              "ensembl_id": "ENSG00000180316"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-05-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "PNPLA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Autosomal recessive congenital ichthyosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSPC014",
+          "UMP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20330",
+        "gene_name": "proteasome maturation protein",
+        "omim_gene": [
+          "613386"
+        ],
+        "alias_name": [
+          "proteassemblin"
+        ],
+        "gene_symbol": "POMP",
+        "hgnc_symbol": "POMP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:29233241-29253062",
+              "ensembl_id": "ENSG00000132963"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:28659104-28678925",
+              "ensembl_id": "ENSG00000132963"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "POMP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27503413",
+        "20226437",
+        "32425927"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "London North GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Keratosis linearis with ichthyosis congenita and sclerosing keratoderma, OMIM:601952"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "promoter",
+        "non-coding-known-pathogenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ22341",
+          "RHBDL5",
+          "TOCG",
+          "iRhom2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20788",
+        "gene_name": "rhomboid 5 homolog 2",
+        "omim_gene": [
+          "614404"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RHBDF2",
+        "hgnc_symbol": "RHBDF2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:74466973-74497872",
+              "ensembl_id": "ENSG00000129667"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:76470891-76501790",
+              "ensembl_id": "ENSG00000129667"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "RHBDF2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Tylosis with esophageal cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ40906",
+          "RSPONDIN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21679",
+        "gene_name": "R-spondin 1",
+        "omim_gene": [
+          "609595"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RSPO1",
+        "hgnc_symbol": "RSPO1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:38076951-38100595",
+              "ensembl_id": "ENSG00000169218"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:37611350-37634923",
+              "ensembl_id": "ENSG00000169218"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-08-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "RSPO1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Palmoplantar keratoderma"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SDR-O",
+          "RDHS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29958",
+        "gene_name": "short chain dehydrogenase/reductase family 9C member 7",
+        "omim_gene": [
+          "609769"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SDR9C7",
+        "hgnc_symbol": "SDR9C7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:57316938-57328189",
+              "ensembl_id": "ENSG00000170426"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:56923154-56934405",
+              "ensembl_id": "ENSG00000170426"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-12-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDR9C7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "617574",
+        "ICHTHYOSIS, CONGENITAL, AUTOSOMAL RECESSIVE 13"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MEGSIN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13902",
+        "gene_name": "serpin family B member 7",
+        "omim_gene": [
+          "603357"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SERPINB7",
+        "hgnc_symbol": "SERPINB7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:61420169-61472604",
+              "ensembl_id": "ENSG00000166396"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:63752935-63805376",
+              "ensembl_id": "ENSG00000166396"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-11-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SERPINB7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Palmoplantar keratoderma"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CAP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8952",
+        "gene_name": "serpin family B member 8",
+        "omim_gene": [
+          "601697"
+        ],
+        "alias_name": [
+          "cytoplasmic antiproteinase 2"
+        ],
+        "gene_symbol": "SERPINB8",
+        "hgnc_symbol": "SERPINB8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:61637159-61672278",
+              "ensembl_id": "ENSG00000166401"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:63969925-64019779",
+              "ensembl_id": "ENSG00000166401"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SERPINB8",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PubMed: 27476651"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Peeling skin syndrome 5, OMIM:617115"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARS",
+          "ANUP",
+          "MDM",
+          "ArsB",
+          "LY6LS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18746",
+        "gene_name": "secreted LY6/PLAUR domain containing 1",
+        "omim_gene": [
+          "606119"
+        ],
+        "alias_name": [
+          "lymphocyte antigen 6-like secreted",
+          "ARS component B"
+        ],
+        "gene_symbol": "SLURP1",
+        "hgnc_symbol": "SLURP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:143822362-143823829",
+              "ensembl_id": "ENSG00000126233"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:142740944-142742411",
+              "ensembl_id": "ENSG00000126233"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-11-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLURP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Meleda disease, OMIM:248300"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SNAP-29",
+          "CEDNIK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11133",
+        "gene_name": "synaptosome associated protein 29",
+        "omim_gene": [
+          "604202"
+        ],
+        "alias_name": [
+          "soluble 29 kDa NSF attachment protein"
+        ],
+        "gene_symbol": "SNAP29",
+        "hgnc_symbol": "SNAP29",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:21213271-21245506",
+              "ensembl_id": "ENSG00000099940"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:20858983-20891218",
+              "ensembl_id": "ENSG00000099940"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "SNAP29",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Cerebral dysgenesis, neuropathy, ichthyosis, and palmoplantar keratoderma syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VAKTI",
+          "LEKTI",
+          "LETKI",
+          "NETS",
+          "NS",
+          "FLJ21544",
+          "FLJ97536",
+          "FLJ97596",
+          "FLJ99794",
+          "DKFZp686K19184"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15464",
+        "gene_name": "serine peptidase inhibitor, Kazal type 5",
+        "omim_gene": [
+          "605010"
+        ],
+        "alias_name": [
+          "lymphoepithelial Kazal-type-related inhibitor"
+        ],
+        "gene_symbol": "SPINK5",
+        "hgnc_symbol": "SPINK5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:147405246-147516852",
+              "ensembl_id": "ENSG00000133710"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:148025683-148137289",
+              "ensembl_id": "ENSG00000133710"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-03-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPINK5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Netherton Syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARSC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11425",
+        "gene_name": "steroid sulfatase",
+        "omim_gene": [
+          "300747"
+        ],
+        "alias_name": [
+          "arylsulfatase C",
+          "steryl-sulfatase"
+        ],
+        "gene_symbol": "STS",
+        "hgnc_symbol": "STS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:7137497-7272851",
+              "ensembl_id": "ENSG00000101846"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:7219456-7354810",
+              "ensembl_id": "ENSG00000101846"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "STS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "X linked ichthyosis"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSST2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11459",
+        "gene_name": "sulfotransferase family 2B member 1",
+        "omim_gene": [
+          "604125"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SULT2B1",
+        "hgnc_symbol": "SULT2B1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:49055332-49102682",
+              "ensembl_id": "ENSG00000088002"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:48552075-48599425",
+              "ensembl_id": "ENSG00000088002"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "SULT2B1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ichthyosis, congenital, autosomal recessive 14, OMIM:617571",
+        "Ichthyosis, congenital, autosomal recessive 14, MONDO:0033091"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TGASE",
+          "TGK",
+          "LI",
+          "LI1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11777",
+        "gene_name": "transglutaminase 1",
+        "omim_gene": [
+          "190195"
+        ],
+        "alias_name": [
+          "K polypeptide epidermal type I, protein-glutamine-gamma-glutamyltransferase"
+        ],
+        "gene_symbol": "TGM1",
+        "hgnc_symbol": "TGM1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:24718320-24733638",
+              "ensembl_id": "ENSG00000092295"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:24249114-24264432",
+              "ensembl_id": "ENSG00000092295"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TGM1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Autosomal recessive congenital ichthyosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TGX"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11781",
+        "gene_name": "transglutaminase 5",
+        "omim_gene": [
+          "603805"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TGM5",
+        "hgnc_symbol": "TGM5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:43524793-43559055",
+              "ensembl_id": "ENSG00000104055"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:43232595-43266857",
+              "ensembl_id": "ENSG00000104055"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-03-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "TGM5",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "16380904",
+        "19440220",
+        "20164844",
+        "22036214"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Peeling skin syndrome 2, OMIM:609796"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VRL3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18084",
+        "gene_name": "transient receptor potential cation channel subfamily V member 3",
+        "omim_gene": [
+          "607066"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRPV3",
+        "hgnc_symbol": "TRPV3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:3413796-3461289",
+              "ensembl_id": "ENSG00000167723"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:3510502-3557995",
+              "ensembl_id": "ENSG00000167723"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-07-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRPV3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Olmstedt syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ14848"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12712",
+        "gene_name": "VPS33B, late endosome and lysosome associated",
+        "omim_gene": [
+          "608552"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VPS33B",
+        "hgnc_symbol": "VPS33B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:91541646-91565833",
+              "ensembl_id": "ENSG00000184056"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:90998416-91022603",
+              "ensembl_id": "ENSG00000184056"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-11-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "VPS33B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Arthrogryposis, renal dysfunction, and cholestasis syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BAM22",
+          "AP105A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:554",
+        "gene_name": "adaptor related protein complex 1 beta 1 subunit",
+        "omim_gene": [
+          "600157"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AP1B1",
+        "hgnc_symbol": "AP1B1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:29723669-29819168",
+              "ensembl_id": "ENSG00000100280"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:29327680-29423179",
+              "ensembl_id": "ENSG00000100280"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AP1B1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31630791",
+        "31630788",
+        "33452671",
+        "33349978",
+        "32969855",
+        "35144013"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Keratitis-ichthyosis-deafness syndrome, autosomal recessive, OMIM:242150",
+        "KID syndrome, MONDO:0018781"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q3_25_promote_green"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ41564",
+          "PAWS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:32554",
+        "gene_name": "family with sequence similarity 83 member G",
+        "omim_gene": [
+          "615886"
+        ],
+        "alias_name": [
+          "protein associated with SMAD1"
+        ],
+        "gene_symbol": "FAM83G",
+        "hgnc_symbol": "FAM83G",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:18872102-18908117",
+              "ensembl_id": "ENSG00000188522"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:18968789-19004804",
+              "ensembl_id": "ENSG00000188522"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-03-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FAM83G",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29138053",
+        "31656861",
+        "29963719"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "London North GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Palmoplantar keratoderma"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "nectin-4",
+          "PRR4",
+          "LNIR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19688",
+        "gene_name": "nectin cell adhesion molecule 4",
+        "omim_gene": [
+          "609607"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NECTIN4",
+        "hgnc_symbol": "NECTIN4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:161040785-161059389",
+              "ensembl_id": "ENSG00000143217"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:161070995-161089599",
+              "ensembl_id": "ENSG00000143217"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2016-02-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "NECTIN4",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "20691405",
+        "21346770",
+        "34067522",
+        "37183149",
+        "37829154"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Other"
+      ],
+      "phenotypes": [
+        "Ectodermal dysplasia-syndactyly syndrome 1, OMIM:613573",
+        "ectodermal dysplasia-syndactyly syndrome 1, MONDO:0024565"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q4_25_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MICE",
+          "MGC119078",
+          "MGC119079"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1502",
+        "gene_name": "caspase 14",
+        "omim_gene": [
+          "605848"
+        ],
+        "alias_name": [
+          "apoptosis-related cysteine protease"
+        ],
+        "gene_symbol": "CASP14",
+        "hgnc_symbol": "CASP14",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:15160195-15169104",
+              "ensembl_id": "ENSG00000105141"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:15049384-15058293",
+              "ensembl_id": "ENSG00000105141"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "CASP14",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "London North GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ichthyosis, congenital, autosomal recessive 12",
+        "617320"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SEMP1",
+          "ILVASC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2032",
+        "gene_name": "claudin 1",
+        "omim_gene": [
+          "603718"
+        ],
+        "alias_name": [
+          "senescence-associated epithelial membrane protein 1"
+        ],
+        "gene_symbol": "CLDN1",
+        "hgnc_symbol": "CLDN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:190023490-190040264",
+              "ensembl_id": "ENSG00000163347"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:190305701-190322475",
+              "ensembl_id": "ENSG00000163347"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLDN1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "London North GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Neonatal ichthyosis-sclerosing cholangitis syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDHF1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3035",
+        "gene_name": "desmocollin 1",
+        "omim_gene": [
+          "125643"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSC1",
+        "hgnc_symbol": "DSC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:28709199-28742819",
+              "ensembl_id": "ENSG00000134765"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:31129236-31162856",
+              "ensembl_id": "ENSG00000134765"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-09-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSC1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Desmosomal disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDHF5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3049",
+        "gene_name": "desmoglein 2",
+        "omim_gene": [
+          "125671"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSG2",
+        "hgnc_symbol": "DSG2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:29078006-29128971",
+              "ensembl_id": "ENSG00000046604"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:31498043-31549008",
+              "ensembl_id": "ENSG00000046604"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-11-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSG2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Desmosomal disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LRBP",
+          "MK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7530",
+        "gene_name": "mevalonate kinase",
+        "omim_gene": [
+          "251170"
+        ],
+        "alias_name": [
+          "LH receptor mRNA-binding protein",
+          "mevalonic aciduria"
+        ],
+        "gene_symbol": "MVK",
+        "hgnc_symbol": "MVK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:110011060-110035067",
+              "ensembl_id": "ENSG00000110921"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:109573255-109598117",
+              "ensembl_id": "ENSG00000110921"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "MVK",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "London North GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Porokeratosis 3, multiple types, OMIM:175900"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PTS2R",
+          "RD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8860",
+        "gene_name": "peroxisomal biogenesis factor 7",
+        "omim_gene": [
+          "601757"
+        ],
+        "alias_name": [
+          "Refsum disease"
+        ],
+        "gene_symbol": "PEX7",
+        "hgnc_symbol": "PEX7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:137143717-137235075",
+              "ensembl_id": "ENSG00000112357"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:136822564-136913937",
+              "ensembl_id": "ENSG00000112357"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX7",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "London North GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Refsum disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PAHX",
+          "RD",
+          "PHYH1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8940",
+        "gene_name": "phytanoyl-CoA 2-hydroxylase",
+        "omim_gene": [
+          "602026"
+        ],
+        "alias_name": [
+          "Refsum disease",
+          "phytanoyl-CoA dioxygenase"
+        ],
+        "gene_symbol": "PHYH",
+        "hgnc_symbol": "PHYH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:13319796-13344412",
+              "ensembl_id": "ENSG00000107537"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:13277796-13302412",
+              "ensembl_id": "ENSG00000107537"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "PHYH",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "London North GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Refsum disease, OMIM:266500"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9024",
+        "gene_name": "plakophilin 2",
+        "omim_gene": [
+          "602861"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PKP2",
+        "hgnc_symbol": "PKP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:32943679-33049774",
+              "ensembl_id": "ENSG00000057294"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:32790745-32896840",
+              "ensembl_id": "ENSG00000057294"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-08-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "PKP2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Desmosomal disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0790",
+          "dJ323M4.1",
+          "SH3D6A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19182",
+        "gene_name": "SAM and SH3 domain containing 1",
+        "omim_gene": [
+          "607955"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SASH1",
+        "hgnc_symbol": "SASH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:148593440-148873186",
+              "ensembl_id": "ENSG00000111961"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:148272304-148552050",
+              "ensembl_id": "ENSG00000111961"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-11-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SASH1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "?Cancer, alopecia, pigment dyscrasia, onychodystrophy, and keratoderma, OMIM:618373"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FATP4",
+          "ACSVL4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10998",
+        "gene_name": "solute carrier family 27 member 4",
+        "omim_gene": [
+          "604194"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC27A4",
+        "hgnc_symbol": "SLC27A4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:131102925-131123749",
+              "ensembl_id": "ENSG00000167114"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:128340646-128361470",
+              "ensembl_id": "ENSG00000167114"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-08-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC27A4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "London North GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ichthyosis prematurity syndrome, OMIM:608649"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SNC19",
+          "HAI",
+          "MT-SP1",
+          "TMPRSS14"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11344",
+        "gene_name": "suppression of tumorigenicity 14",
+        "omim_gene": [
+          "606797"
+        ],
+        "alias_name": [
+          "epithin",
+          "matriptase"
+        ],
+        "gene_symbol": "ST14",
+        "hgnc_symbol": "ST14",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:130029457-130080271",
+              "ensembl_id": "ENSG00000149418"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:130159562-130210376",
+              "ensembl_id": "ENSG00000149418"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-05-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "ST14",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17273967",
+        "18445049",
+        "18843291",
+        "29611532"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "London North GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Autosomal recessive congenital ichthyosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PJS",
+          "LKB1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11389",
+        "gene_name": "serine/threonine kinase 11",
+        "omim_gene": [
+          "602216"
+        ],
+        "alias_name": [
+          "polarization-related protein LKB1"
+        ],
+        "gene_symbol": "STK11",
+        "hgnc_symbol": "STK11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:1189406-1228428",
+              "ensembl_id": "ENSG00000118046"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:1177558-1228435",
+              "ensembl_id": "ENSG00000118046"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "STK11",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

@@ -1,0 +1,826 @@
+{
+  "id": 536,
+  "hash_id": null,
+  "name": "Mitochondrial disorder with complex III deficiency",
+  "disease_group": "Mitochondrial",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.7",
+  "version_created": "2026-01-23T16:54:40.645233Z",
+  "relevant_disorders": [
+    "R355"
+  ],
+  "stats": {
+    "number_of_genes": 15,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "Hs.6719",
+          "BCS",
+          "h-BCS",
+          "BJS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1020",
+        "gene_name": "BCS1 homolog, ubiquinol-cytochrome c reductase complex chaperone",
+        "omim_gene": [
+          "603647"
+        ],
+        "alias_name": [
+          "GRACILE syndrome",
+          "Bjornstad syndrome"
+        ],
+        "gene_symbol": "BCS1L",
+        "hgnc_symbol": "BCS1L",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:219523487-219528166",
+              "ensembl_id": "ENSG00000074582"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:218658764-218663443",
+              "ensembl_id": "ENSG00000074582"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-07-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "BCS1L",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex III deficiency, nuclear type 1, 124000",
+        "Leigh syndrome, 256000"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "UQCR4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2579",
+        "gene_name": "cytochrome c1",
+        "omim_gene": [
+          "123980"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CYC1",
+        "hgnc_symbol": "CYC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:145149930-145152428",
+              "ensembl_id": "ENSG00000179091"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:144095027-144097525",
+              "ensembl_id": "ENSG00000179091"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-07-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYC1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex III deficiency, nuclear type 6, 615453"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20796",
+          "MZM1L"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28072",
+        "gene_name": "LYR motif containing 7",
+        "omim_gene": [
+          "615831"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LYRM7",
+        "hgnc_symbol": "LYRM7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:130506503-130541119",
+              "ensembl_id": "ENSG00000186687"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:131170810-131205426",
+              "ensembl_id": "ENSG00000186687"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-10-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "LYRM7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29353736"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex III deficiency, nuclear type 8, 615838"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20343",
+          "MGC19520"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26006",
+        "gene_name": "tetratricopeptide repeat domain 19",
+        "omim_gene": [
+          "613814"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTC19",
+        "hgnc_symbol": "TTC19",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:15902694-15948329",
+              "ensembl_id": "ENSG00000011295"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:15999380-16045015",
+              "ensembl_id": "ENSG00000011295"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTC19",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex III deficiency, nuclear type 2, 615157"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC14833",
+          "bA6B20.2",
+          "M19",
+          "Cbp6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21237",
+        "gene_name": "ubiquinol-cytochrome c reductase complex assembly factor 2",
+        "omim_gene": [
+          "614461"
+        ],
+        "alias_name": [
+          "cytochrome B protein synthesis 6 homolog (S. cerevisiae)"
+        ],
+        "gene_symbol": "UQCC2",
+        "hgnc_symbol": "UQCC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:33662070-33679504",
+              "ensembl_id": "ENSG00000137288"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:33694293-33711727",
+              "ensembl_id": "ENSG00000137288"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2013-09-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "UQCC2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28804536",
+        "24385928"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex III deficiency, nuclear type 7, OMIM:615824"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "QP-C",
+          "QCR7",
+          "UQCR6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12582",
+        "gene_name": "ubiquinol-cytochrome c reductase binding protein",
+        "omim_gene": [
+          "191330"
+        ],
+        "alias_name": [
+          "ubiquinol-cytochrome c reductase, complex III subunit VI",
+          "cytochrome b-c1 complex subunit 7"
+        ],
+        "gene_symbol": "UQCRB",
+        "hgnc_symbol": "UQCRB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:97238148-97247862",
+              "ensembl_id": "ENSG00000156467"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:96225920-96235634",
+              "ensembl_id": "ENSG00000156467"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "UQCRB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12709789",
+        "25446085",
+        "28604960"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex III deficiency, nuclear type 3, OMIM:615158"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "QCR2",
+          "UQCR2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12586",
+        "gene_name": "ubiquinol-cytochrome c reductase core protein 2",
+        "omim_gene": [
+          "191329"
+        ],
+        "alias_name": null,
+        "gene_symbol": "UQCRC2",
+        "hgnc_symbol": "UQCRC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:21963981-21994981",
+              "ensembl_id": "ENSG00000140740"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:21952660-21983660",
+              "ensembl_id": "ENSG00000140740"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "UQCRC2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23281071",
+        "28275242",
+        "33865955"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex III deficiency, nuclear type 5, OMIM:615160"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RIS1",
+          "RIP1",
+          "UQCR5",
+          "RISP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12587",
+        "gene_name": "ubiquinol-cytochrome c reductase, Rieske iron-sulfur polypeptide 1",
+        "omim_gene": [
+          "191327"
+        ],
+        "alias_name": [
+          "cytochrome b-c1 complex subunit 5"
+        ],
+        "gene_symbol": "UQCRFS1",
+        "hgnc_symbol": "UQCRFS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:29698173-29704448",
+              "ensembl_id": "ENSG00000169021"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:29205321-29213541",
+              "ensembl_id": "ENSG00000169021"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "UQCRFS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "31883641"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex III deficiency, nuclear type 10, OMIM:618775"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "UNQ655"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:34399",
+        "gene_name": "ubiquinol-cytochrome c reductase complex assembly factor 3",
+        "omim_gene": [
+          "616097"
+        ],
+        "alias_name": null,
+        "gene_symbol": "UQCC3",
+        "hgnc_symbol": "UQCC3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:62437745-62441159",
+              "ensembl_id": "ENSG00000204922"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:62670273-62673687",
+              "ensembl_id": "ENSG00000204922"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-07-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "UQCC3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25008109"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "?Mitochondrial complex III deficiency, nuclear type 9, 616111"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D3S3191",
+          "QCR1",
+          "UQCR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12585",
+        "gene_name": "ubiquinol-cytochrome c reductase core protein 1",
+        "omim_gene": [
+          "191328"
+        ],
+        "alias_name": null,
+        "gene_symbol": "UQCRC1",
+        "hgnc_symbol": "UQCRC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:48636435-48648409",
+              "ensembl_id": "ENSG00000010256"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:48599002-48610976",
+              "ensembl_id": "ENSG00000010256"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "UQCRC1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30788857",
+        "33141179",
+        "33779694",
+        "33248804"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Parkinsonism with polyneuropathy, OMIM:619279"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "QCR6",
+          "UQCR8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12590",
+        "gene_name": "ubiquinol-cytochrome c reductase hinge protein",
+        "omim_gene": [
+          "613844"
+        ],
+        "alias_name": [
+          "ubiquinol-cytochrome c reductase, complex III subunit VIII"
+        ],
+        "gene_symbol": "UQCRH",
+        "hgnc_symbol": "UQCRH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:46769303-46782448",
+              "ensembl_id": "ENSG00000173660"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:46303631-46316776",
+              "ensembl_id": "ENSG00000173660"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "UQCRH",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "QP-C",
+          "QCR8",
+          "UQCR7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29594",
+        "gene_name": "ubiquinol-cytochrome c reductase complex III subunit VII",
+        "omim_gene": [
+          "612080"
+        ],
+        "alias_name": [
+          "ubiquinol-cytochrome c reductase, complex III subunit VII",
+          "complex III subunit 8"
+        ],
+        "gene_symbol": "UQCRQ",
+        "hgnc_symbol": "UQCRQ",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:132202252-132203723",
+              "ensembl_id": "ENSG00000164405"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:132866560-132868031",
+              "ensembl_id": "ENSG00000164405"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "UQCRQ",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18439546"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex III deficiency, nuclear type 4, 615159"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10850",
+          "CBP3",
+          "BFZB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15891",
+        "gene_name": "ubiquinol-cytochrome c reductase complex assembly factor 1",
+        "omim_gene": [
+          "611797"
+        ],
+        "alias_name": [
+          "Basic FGF-repressed Zic-binding protein",
+          "cytochrome B protein synthesis 3 homolog (S. cerevisiae)"
+        ],
+        "gene_symbol": "UQCC1",
+        "hgnc_symbol": "UQCC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:33890369-33999944",
+              "ensembl_id": "ENSG00000101019"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:35302566-35412141",
+              "ensembl_id": "ENSG00000101019"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2013-09-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "UQCC1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSPC051",
+          "UCRC",
+          "QCR9",
+          "UCCR7.2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30863",
+        "gene_name": "ubiquinol-cytochrome c reductase, complex III subunit X",
+        "omim_gene": [
+          "610843"
+        ],
+        "alias_name": [
+          "ubiquinol-cytochrome c reductase, complex III subunit X, 7.2kDa",
+          "complex III subunit 9"
+        ],
+        "gene_symbol": "UQCR10",
+        "hgnc_symbol": "UQCR10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:30163358-30166402",
+              "ensembl_id": "ENSG00000184076"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:29767369-29770413",
+              "ensembl_id": "ENSG00000184076"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-01-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "UQCR10",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "QCR10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30862",
+        "gene_name": "ubiquinol-cytochrome c reductase, complex III subunit XI",
+        "omim_gene": [
+          "609711"
+        ],
+        "alias_name": [
+          "complex III subunit 10"
+        ],
+        "gene_symbol": "UQCR11",
+        "hgnc_symbol": "UQCR11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:1597171-1605480",
+              "ensembl_id": "ENSG00000127540"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:1597172-1605490",
+              "ensembl_id": "ENSG00000127540"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-01-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "UQCR11",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

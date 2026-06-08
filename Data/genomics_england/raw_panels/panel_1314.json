@@ -1,0 +1,138 @@
+{
+  "id": 1314,
+  "hash_id": null,
+  "name": "Central congenital hypoventilation",
+  "disease_group": "Respiratory",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.7",
+  "version_created": "2026-01-22T18:18:06.984474Z",
+  "relevant_disorders": [
+    "R333"
+  ],
+  "stats": {
+    "number_of_genes": 2,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "Phox2b",
+          "NBPhox"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9143",
+        "gene_name": "paired like homeobox 2b",
+        "omim_gene": [
+          "603851"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PHOX2B",
+        "hgnc_symbol": "PHOX2B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:41746099-41750987",
+              "ensembl_id": "ENSG00000109132"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:41744082-41748970",
+              "ensembl_id": "ENSG00000109132"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-02-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "PHOX2B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Congenital central hypoventilation syndrome, OMIM:209880",
+        "central hypoventilation syndrome, congenital, 1, with or without Hirschsprung disease, MONDO:0800026"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LBX1H",
+          "HPX6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16960",
+        "gene_name": "ladybird homeobox 1",
+        "omim_gene": [
+          "604255"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LBX1",
+        "hgnc_symbol": "LBX1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:102986733-102989551",
+              "ensembl_id": "ENSG00000138136"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:101226195-101229794",
+              "ensembl_id": "ENSG00000138136"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-04-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "LBX1",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30487221"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "?Central hypoventilation syndrome, congenital, 3, OMIM:619483",
+        "central hypoventilation syndrome, congenital, 3, MONDO:0030539"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "founder-effect"
+      ],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

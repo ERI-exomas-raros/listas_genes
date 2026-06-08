@@ -1,0 +1,3898 @@
+{
+  "id": 9,
+  "hash_id": "569380ac22c1fc251660faf8",
+  "name": "Differences in sex development",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "4.21",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R146",
+    "Disorders of sex development"
+  ],
+  "stats": {
+    "number_of_genes": 69,
+    "number_of_strs": 0,
+    "number_of_regions": 2
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "MIS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:464",
+        "gene_name": "anti-Mullerian hormone",
+        "omim_gene": [
+          "600957"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AMH",
+        "hgnc_symbol": "AMH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:2249308-2252072",
+              "ensembl_id": "ENSG00000104899"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:2249309-2252073",
+              "ensembl_id": "ENSG00000104899"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AMH",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28528332"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Persistent Mullerian duct syndrome, type I, 261550"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MISR2",
+          "MISRII"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:465",
+        "gene_name": "anti-Mullerian hormone receptor type 2",
+        "omim_gene": [
+          "600956"
+        ],
+        "alias_name": [
+          "Muellerian inhibiting substance type II receptor"
+        ],
+        "gene_symbol": "AMHR2",
+        "hgnc_symbol": "AMHR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:53817639-53825318",
+              "ensembl_id": "ENSG00000135409"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:53423855-53431534",
+              "ensembl_id": "ENSG00000135409"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "AMHR2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28528332"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Persistent Mullerian duct syndrome, type II, 261550"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AIS",
+          "NR3C4",
+          "SMAX1",
+          "HUMARA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:644",
+        "gene_name": "androgen receptor",
+        "omim_gene": [
+          "313700"
+        ],
+        "alias_name": [
+          "testicular feminization",
+          "Kennedy disease"
+        ],
+        "gene_symbol": "AR",
+        "hgnc_symbol": "AR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:66764465-66950461",
+              "ensembl_id": "ENSG00000169083"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:67544032-67730619",
+              "ensembl_id": "ENSG00000169083"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Androgen insensitivity, OMIM:300068",
+        "Androgen insensitivity, partial, with or without breast cancer, OMIM:312300",
+        "Hypospadias 1, X-linked, OMIM:300633"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ISSX",
+          "CT121",
+          "EIEE1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18060",
+        "gene_name": "aristaless related homeobox",
+        "omim_gene": [
+          "300382"
+        ],
+        "alias_name": [
+          "cancer/testis antigen 121"
+        ],
+        "gene_symbol": "ARX",
+        "hgnc_symbol": "ARX",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:25021811-25034065",
+              "ensembl_id": "ENSG00000004848"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:25003694-25016420",
+              "ensembl_id": "ENSG00000004848"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-02-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARX",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Corpus Callosum, Agenesis Of, With Abnormal Genitalia, Proud syndrome 300004",
+        "ARX-related Disorders",
+        "Lissencephaly, X-linked 2 300215"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XH2",
+          "XNP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:886",
+        "gene_name": "ATRX, chromatin remodeler",
+        "omim_gene": [
+          "300032",
+          "300504"
+        ],
+        "alias_name": [
+          "RAD54 homolog (S. cerevisiae)"
+        ],
+        "gene_symbol": "ATRX",
+        "hgnc_symbol": "ATRX",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:76760356-77041702",
+              "ensembl_id": "ENSG00000085224"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:77504878-77786269",
+              "ensembl_id": "ENSG00000085224"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATRX",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "Gene reviews: https://www.ncbi.nlm.nih.gov/books/NBK1449/"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Mental retardation-hypotonic facies syndrome, X-linked\t309580"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P57",
+          "KIP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1786",
+        "gene_name": "cyclin dependent kinase inhibitor 1C",
+        "omim_gene": [
+          "600856"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDKN1C",
+        "hgnc_symbol": "CDKN1C",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:2904443-2907111",
+              "ensembl_id": "ENSG00000129757"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:2883213-2885881",
+              "ensembl_id": "ENSG00000129757"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDKN1C",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Other",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "IMAGE syndrome, 614732",
+        "Beckwith-Wiedemann syndrome 130650",
+        "Disproportionate Short Stature and Wilms Tumor: Sequencing Panels (Emory)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, paternally imprinted (maternal allele expressed)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1416",
+          "FLJ20357",
+          "FLJ20361"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20626",
+        "gene_name": "chromodomain helicase DNA binding protein 7",
+        "omim_gene": [
+          "608892"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CHD7",
+        "hgnc_symbol": "CHD7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:61591337-61779465",
+              "ensembl_id": "ENSG00000171316"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:60678778-60868028",
+              "ensembl_id": "ENSG00000171316"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHD7",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "OMIM"
+      ],
+      "phenotypes": [
+        "CHARGE syndrome, 214800"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NCS2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28005",
+        "gene_name": "cytosolic thiouridylase subunit 2",
+        "omim_gene": [
+          "617057"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CTU2",
+        "hgnc_symbol": "CTU2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:88772871-88781794",
+              "ensembl_id": "ENSG00000174177"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:88706463-88715386",
+              "ensembl_id": "ENSG00000174177"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-08-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTU2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26633546",
+        "27480277",
+        "31301155"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Microcephaly, facial dysmorphism, renal agenesis, and ambiguous genitalia syndrome, OMIM:618142"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2555",
+        "gene_name": "cullin 4B",
+        "omim_gene": [
+          "300304"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CUL4B",
+        "hgnc_symbol": "CUL4B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:119658464-119709649",
+              "ensembl_id": "ENSG00000158290"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:120524609-120575794",
+              "ensembl_id": "ENSG00000158290"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "CUL4B",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24898194"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Mental retardation, X-linked, syndromic 15 (Cabezas type), 300354",
+        "XLMR with Short Stature, Small Testes, Muscle Wasting, and Tremor"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2570",
+        "gene_name": "cytochrome b5 type A",
+        "omim_gene": [
+          "613218"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CYB5A",
+        "hgnc_symbol": "CYB5A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:71920530-71959251",
+              "ensembl_id": "ENSG00000166347"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:74250847-74292016",
+              "ensembl_id": "ENSG00000166347"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-01-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYB5A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22170710",
+        "8168836"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "Expert Review",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "46,XY underandrogenization with biochemistry similar to isolated 17,20-lyase deficiency",
+        "Methemoglobinemia, type I, 250790"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P450SCC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2590",
+        "gene_name": "cytochrome P450 family 11 subfamily A member 1",
+        "omim_gene": [
+          "118485"
+        ],
+        "alias_name": [
+          "cholesterol monooxygenase (side-chain-cleaving)"
+        ],
+        "gene_symbol": "CYP11A1",
+        "hgnc_symbol": "CYP11A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:74630100-74660081",
+              "ensembl_id": "ENSG00000140459"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:74337759-74367740",
+              "ensembl_id": "ENSG00000140459"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-01-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYP11A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11502818",
+        "29995203",
+        "31671693",
+        "12161514",
+        "15507506",
+        "16705068",
+        "18182448",
+        "19116240"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Other",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Adrenal insufficiency, congenital, with 46XY sex reversal, partial or complete, OMIM: 613743",
+        "Congenital adrenal insufficiency with 46, XY sex reversal OR 46,XY disorder of sex development-adrenal insufficiency due to CYP11A1 deficiency, MONDO:0013400"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "Q1_26_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P450C11",
+          "FHI",
+          "CPN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2591",
+        "gene_name": "cytochrome P450 family 11 subfamily B member 1",
+        "omim_gene": [
+          "610613"
+        ],
+        "alias_name": [
+          "steroid 11-beta-monooxygenase"
+        ],
+        "gene_symbol": "CYP11B1",
+        "hgnc_symbol": "CYP11B1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:143953772-143961262",
+              "ensembl_id": "ENSG00000160882"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:142872356-142879846",
+              "ensembl_id": "ENSG00000160882"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYP11B1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Other",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Adrenal hyperplasia, congenital, due to 11-beta-hydroxylase deficiency, OMIM:202010",
+        "Genital Anomalies and Suspected Adrenal Problems Gene Panel (UKGTN)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P450C17",
+          "CPT7",
+          "S17AH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2593",
+        "gene_name": "cytochrome P450 family 17 subfamily A member 1",
+        "omim_gene": [
+          "609300"
+        ],
+        "alias_name": [
+          "Steroid 17-alpha-monooxygenase"
+        ],
+        "gene_symbol": "CYP17A1",
+        "hgnc_symbol": "CYP17A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:104590288-104597290",
+              "ensembl_id": "ENSG00000148795"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:102830531-102837533",
+              "ensembl_id": "ENSG00000148795"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-02-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYP17A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Other",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Genital Anomalies and Suspected Adrenal Problems Gene Panel (UKGTN)",
+        "Endocrine disorders including disorders of sexual development (Emory)",
+        "congenital adrenal hyperplasia",
+        "17,20-lyase deficiency, isolated 202110 and 17-alpha-hydroxylase/17,20-lyase deficiency 202110"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARO",
+          "P-450AROM",
+          "CPV1",
+          "ARO1",
+          "CYAR",
+          "aromatase"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2594",
+        "gene_name": "cytochrome P450 family 19 subfamily A member 1",
+        "omim_gene": [
+          "107910"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CYP19A1",
+        "hgnc_symbol": "CYP19A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:51500254-51630807",
+              "ensembl_id": "ENSG00000137869"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:51208057-51338610",
+              "ensembl_id": "ENSG00000137869"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-02-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYP19A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Other"
+      ],
+      "phenotypes": [
+        "Aromatase deficiency, OMIM:613546"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P450c21B",
+          "CA21H",
+          "CPS1",
+          "CAH1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2600",
+        "gene_name": "cytochrome P450 family 21 subfamily A member 2",
+        "omim_gene": [
+          "613815"
+        ],
+        "alias_name": [
+          "Steroid 21-monooxygenase"
+        ],
+        "gene_symbol": "CYP21A2",
+        "hgnc_symbol": "CYP21A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:32006042-32009447",
+              "ensembl_id": "ENSG00000231852"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:32038265-32041670",
+              "ensembl_id": "ENSG00000231852"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYP21A2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Genital Anomalies and Suspected Adrenal Problems Gene Panel (UKGTN)",
+        "Hyperandrogenism, nonclassic type, due to 21-hydroxylase deficiency 201910",
+        "Adrenal hyperplasia, congenital, due to 21-hydroxylase deficiency, 201910"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2860",
+        "gene_name": "7-dehydrocholesterol reductase",
+        "omim_gene": [
+          "602858"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DHCR7",
+        "hgnc_symbol": "DHCR7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:71139239-71163914",
+              "ensembl_id": "ENSG00000172893"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:71428193-71452868",
+              "ensembl_id": "ENSG00000172893"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "DHCR7",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Other"
+      ],
+      "phenotypes": [
+        "Genital Anomalies and Suspected Adrenal Problems Gene Panel (UKGTN)",
+        "Smith-Lemli-Opitz syndrome, 270400"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HHG-3",
+          "MGC35145"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2865",
+        "gene_name": "desert hedgehog",
+        "omim_gene": [
+          "605423"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DHH",
+        "hgnc_symbol": "DHH",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:49483204-49488602",
+              "ensembl_id": "ENSG00000139549"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:49089421-49094819",
+              "ensembl_id": "ENSG00000139549"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-04-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "DHH",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25927242",
+        "23786321",
+        "21816240"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Other",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "46XY partial gonadal dysgenesis, with minifascicular neuropathy, 607080",
+        "46XY sex reversal 7, 233420"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1517",
+          "MGC4322",
+          "MGC2695",
+          "Dhr1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17210",
+        "gene_name": "DEAH-box helicase 37",
+        "omim_gene": [
+          "617362"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DHX37",
+        "hgnc_symbol": "DHX37",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:125431371-125473668",
+              "ensembl_id": "ENSG00000150990"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:124946825-124989122",
+              "ensembl_id": "ENSG00000150990"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "DHX37",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31287541",
+        "31745530",
+        "31337883"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "46, XY sex reversal 11, 273250"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4173",
+        "gene_name": "GATA binding protein 4",
+        "omim_gene": [
+          "600576"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GATA4",
+        "hgnc_symbol": "GATA4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:11534468-11617511",
+              "ensembl_id": "ENSG00000136574"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:11676959-11760002",
+              "ensembl_id": "ENSG00000136574"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "GATA4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21220346",
+        "31962012"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "?Testicular anomalies with or without congenital heart disease, OMIM:615542"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5102",
+        "gene_name": "homeobox A13",
+        "omim_gene": [
+          "142959"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HOXA13",
+        "hgnc_symbol": "HOXA13",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:27233122-27239725",
+              "ensembl_id": "ENSG00000106031"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:27193503-27200106",
+              "ensembl_id": "ENSG00000106031"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-07-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "HOXA13",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "10839976",
+        "9020844"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Hand-foot-uterus syndrome, OMIM:140000"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SDR12C2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5212",
+        "gene_name": "hydroxysteroid 17-beta dehydrogenase 3",
+        "omim_gene": [
+          "605573"
+        ],
+        "alias_name": [
+          "short chain dehydrogenase/reductase family 12C, member 2"
+        ],
+        "gene_symbol": "HSD17B3",
+        "hgnc_symbol": "HSD17B3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:98997588-99064434",
+              "ensembl_id": "ENSG00000130948"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:96235306-96302152",
+              "ensembl_id": "ENSG00000130948"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "HSD17B3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Gender Assignment Gene Panel (UKGTN)",
+        "Pseudohermaphroditism, male, with gynecomastia, 264300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SDR11E2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5218",
+        "gene_name": "hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 2",
+        "omim_gene": [
+          "613890"
+        ],
+        "alias_name": [
+          "short chain dehydrogenase/reductase family 11E, member 2"
+        ],
+        "gene_symbol": "HSD3B2",
+        "hgnc_symbol": "HSD3B2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:119957554-119965658",
+              "ensembl_id": "ENSG00000203859"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:119414931-119423035",
+              "ensembl_id": "ENSG00000203859"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "HSD3B2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Genital Anomalies and Suspected Adrenal Problems Gene Panel (UKGTN)",
+        "Adrenal hyperplasia, congenital, due to 3-beta-hydroxysteroid dehydrogenase 2 deficiency, 201810"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LHR",
+          "LCGR",
+          "LGR2",
+          "ULG5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6585",
+        "gene_name": "luteinizing hormone/choriogonadotropin receptor",
+        "omim_gene": [
+          "152790"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LHCGR",
+        "hgnc_symbol": "LHCGR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:48859428-48982880",
+              "ensembl_id": "ENSG00000138039"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:48686775-48755730",
+              "ensembl_id": "ENSG00000138039"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "LHCGR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Gender Assignment Gene Panel (UKGTN)",
+        "Endocrine disorders including disorders of sexual development (Emory)",
+        "Leydic cell hypoplasia type 1, 238320",
+        "Precocious puberty, male, 176410"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CG1",
+          "F18"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2568",
+        "gene_name": "mastermind like domain containing 1",
+        "omim_gene": [
+          "300120"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAMLD1",
+        "hgnc_symbol": "MAMLD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:149529689-149682448",
+              "ensembl_id": "ENSG00000013619"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:150361422-150514178",
+              "ensembl_id": "ENSG00000013619"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-01-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAMLD1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17086185",
+        "26580071",
+        "25660412"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Gender Assignment Gene Panel (UKGTN)",
+        "Hypospadias 2, X-linked 300758"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MEKK",
+          "MAPKKK1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6848",
+        "gene_name": "mitogen-activated protein kinase kinase kinase 1",
+        "omim_gene": [
+          "600982"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAP3K1",
+        "hgnc_symbol": "MAP3K1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:56111401-56191979",
+              "ensembl_id": "ENSG00000095015"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:56815574-56896152",
+              "ensembl_id": "ENSG00000095015"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-11-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAP3K1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Other",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "46XY sex reversal 6\t613762"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Ndt80",
+          "pqn-47",
+          "MRF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1181",
+        "gene_name": "myelin regulatory factor",
+        "omim_gene": [
+          "608329"
+        ],
+        "alias_name": [
+          "myelin gene regulatory factor"
+        ],
+        "gene_symbol": "MYRF",
+        "hgnc_symbol": "MYRF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:61520114-61555990",
+              "ensembl_id": "ENSG00000124920"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:61752642-61788518",
+              "ensembl_id": "ENSG00000124920"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-12-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYRF",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30985895",
+        "29446546",
+        "31069960",
+        "30070761",
+        "30532227"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Cardiac-urogenital syndrome, OMIM:618280",
+        "gonadal hypoplasia",
+        "Mullerian duct hypoplasia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DAX1",
+          "AHCH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7960",
+        "gene_name": "nuclear receptor subfamily 0 group B member 1",
+        "omim_gene": [
+          "300473"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NR0B1",
+        "hgnc_symbol": "NR0B1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:30322323-30327715",
+              "ensembl_id": "ENSG00000169297"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:30304206-30309598",
+              "ensembl_id": "ENSG00000169297"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "NR0B1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Other",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "6XY sex reversal 2, dosage-sensitive\t300018",
+        "Adrenal hypoplasia, congenital\t300200"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "COUP-TFII",
+          "COUPTFB",
+          "SVP40",
+          "NF-E3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7976",
+        "gene_name": "nuclear receptor subfamily 2 group F member 2",
+        "omim_gene": [
+          "107773"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NR2F2",
+        "hgnc_symbol": "NR2F2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:96869167-96883492",
+              "ensembl_id": "ENSG00000185551"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:96325938-96340263",
+              "ensembl_id": "ENSG00000185551"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-03-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "NR2F2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29478779",
+        "31687637"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "46,XX sex reversal 5, OMIM:618901",
+        "46,XX sex reversal 5, MONDO:0030049"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7978",
+        "gene_name": "nuclear receptor subfamily 3 group C member 1",
+        "omim_gene": [
+          "138040"
+        ],
+        "alias_name": [
+          "glucocorticoid receptor"
+        ],
+        "gene_symbol": "NR3C1",
+        "hgnc_symbol": "NR3C1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:142657496-142815077",
+              "ensembl_id": "ENSG00000113580"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:143277931-143435512",
+              "ensembl_id": "ENSG00000113580"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "NR3C1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30158362",
+        "31995340"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Glucocorticoid resistance, OMIM:615962"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FTZ1",
+          "SF-1",
+          "ELP",
+          "AD4BP",
+          "hSF-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7983",
+        "gene_name": "nuclear receptor subfamily 5 group A member 1",
+        "omim_gene": [
+          "184757"
+        ],
+        "alias_name": [
+          "steroidogenic factor 1"
+        ],
+        "gene_symbol": "NR5A1",
+        "hgnc_symbol": "NR5A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:127243516-127269709",
+              "ensembl_id": "ENSG00000136931"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:124481236-124507430",
+              "ensembl_id": "ENSG00000136931"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-06-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "NR5A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26303087"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Genital Anomalies and Suspected Adrenal Problems Gene Panel (UKGTN)",
+        "Endocrine disorders including disorders of sexual development (Emory)",
+        "46XY sex reversal 3, 612965",
+        "Premature ovarian failure 7, 612964",
+        "Spermatogenic failure 8, 613957"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CYPOR",
+          "FLJ26468"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9208",
+        "gene_name": "cytochrome p450 oxidoreductase",
+        "omim_gene": [
+          "124015"
+        ],
+        "alias_name": null,
+        "gene_symbol": "POR",
+        "hgnc_symbol": "POR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:75528518-75616173",
+              "ensembl_id": "ENSG00000127948"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:75899200-75986855",
+              "ensembl_id": "ENSG00000127948"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "POR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15220035",
+        "14758361"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Genital Anomalies and Suspected Adrenal Problems Gene Panel (UKGTN)",
+        "Antley-Bixler syndrome with genital anomalies and disordered steroidogenesis AR, 201750",
+        "Disordered steroidogenesis due to cytochrome P450 oxidoreductase, 613571"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MBS",
+          "M130"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7618",
+        "gene_name": "protein phosphatase 1 regulatory subunit 12A",
+        "omim_gene": [
+          "602021"
+        ],
+        "alias_name": [
+          "myosin phosphatase-targeting subunit 1",
+          "myosin binding subunit"
+        ],
+        "gene_symbol": "PPP1R12A",
+        "hgnc_symbol": "PPP1R12A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:80167343-80329240",
+              "ensembl_id": "ENSG00000058272"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:79773563-79935460",
+              "ensembl_id": "ENSG00000058272"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-08-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "PPP1R12A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31883643"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Genitourinary and/or/brain malformation syndrome, 618820"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NOV",
+          "QM",
+          "DXS648E",
+          "DXS648",
+          "FLJ23544",
+          "L10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10298",
+        "gene_name": "ribosomal protein L10",
+        "omim_gene": [
+          "312173"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RPL10",
+        "hgnc_symbol": "RPL10",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153618315-153637504",
+              "ensembl_id": "ENSG00000147403"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154389955-154409168",
+              "ensembl_id": "ENSG00000147403"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-07-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "RPL10",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25316788",
+        "25316788",
+        "25316788"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Mental retardation, X-linked, syndromic, 35\t300998"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ40906",
+          "RSPONDIN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21679",
+        "gene_name": "R-spondin 1",
+        "omim_gene": [
+          "609595"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RSPO1",
+        "hgnc_symbol": "RSPO1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:38076951-38100595",
+              "ensembl_id": "ENSG00000169218"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:37611350-37634923",
+              "ensembl_id": "ENSG00000169218"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-08-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "RSPO1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17041600",
+        "18085567",
+        "21991325"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Palmoplantar hyperkeratosis and true hermaphroditism\t610644",
+        "Palmoplantar hyperkeratosis with squamous cell carcinoma of skin and sex reversal 610644"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA2004",
+          "FLJ20073"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1348",
+        "gene_name": "sterile alpha motif domain containing 9",
+        "omim_gene": [
+          "610456"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SAMD9",
+        "hgnc_symbol": "SAMD9",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:92728829-92747336",
+              "ensembl_id": "ENSG00000205413"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:93099513-93118023",
+              "ensembl_id": "ENSG00000205413"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SAMD9",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "27182967"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "MIRAGE syndrome  617053"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "missense"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SPL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10817",
+        "gene_name": "sphingosine-1-phosphate lyase 1",
+        "omim_gene": [
+          "603729"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SGPL1",
+        "hgnc_symbol": "SGPL1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:72575717-72640930",
+              "ensembl_id": "ENSG00000166224"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:70815961-70881173",
+              "ensembl_id": "ENSG00000166224"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-02-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "SGPL1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28181337",
+        "28165339",
+        "28165343"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nephrotic syndrome 14\t617575"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DOM",
+          "WS4",
+          "WS2E"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11190",
+        "gene_name": "SRY-box 10",
+        "omim_gene": [
+          "602229"
+        ],
+        "alias_name": [
+          "dominant megacolon, mouse, human homolog of"
+        ],
+        "gene_symbol": "SOX10",
+        "hgnc_symbol": "SOX10",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:38366693-38383429",
+              "ensembl_id": "ENSG00000100146"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:37970686-37987422",
+              "ensembl_id": "ENSG00000100146"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOX10",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "2364338"
+      ],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        ""
+      ],
+      "phenotypes": [
+        "Waardenburg syndrome, type 4C\t613266"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SRA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11204",
+        "gene_name": "SRY-box 9",
+        "omim_gene": [
+          "608160"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOX9",
+        "hgnc_symbol": "SOX9",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:70117161-70122561",
+              "ensembl_id": "ENSG00000125398"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:72121020-72126420",
+              "ensembl_id": "ENSG00000125398"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-09-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOX9",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Gender Assignment & Genital Anomalies and Suspected Adrenal Problems Gene Panels (UKGTN)",
+        "Campomelic dysplasia with autosomal sex reversal, 114290"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": null,
+        "hgnc_id": "HGNC:11285",
+        "gene_name": "steroid 5 alpha-reductase 2",
+        "omim_gene": [
+          "607306"
+        ],
+        "alias_name": [
+          "3-oxo-5-alpha-steroid 4-dehydrogenase 2"
+        ],
+        "gene_symbol": "SRD5A2",
+        "hgnc_symbol": "SRD5A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:31747550-31806136",
+              "ensembl_id": "ENSG00000049319"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:31522480-31581067",
+              "ensembl_id": "ENSG00000277893"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-05-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SRD5A2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "UKGTN",
+        "Eligibility statement prior genetic testing",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Pseudovaginal perineoscrotal hypospadias\t264600"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TDF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11311",
+        "gene_name": "sex determining region Y",
+        "omim_gene": [
+          "480000"
+        ],
+        "alias_name": [
+          "testis-determining factor"
+        ],
+        "gene_symbol": "SRY",
+        "hgnc_symbol": "SRY",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "Y:2654896-2655740",
+              "ensembl_id": "ENSG00000184895"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "Y:2786855-2787699",
+              "ensembl_id": "ENSG00000184895"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SRY",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "1415266",
+        "7987333"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Testicular dysgenesis/Swyers syndrome",
+        "46XX sex reversal 1 400045",
+        "46XY sex reversal 1\t400044"
+      ],
+      "mode_of_inheritance": "Other - please specifiy in evaluation comments",
+      "tags": [
+        "y-chromosome"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "StAR",
+          "STARD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11359",
+        "gene_name": "steroidogenic acute regulatory protein",
+        "omim_gene": [
+          "600617"
+        ],
+        "alias_name": [
+          "StAR related lipid transfer (START) domain containing 1"
+        ],
+        "gene_symbol": "STAR",
+        "hgnc_symbol": "STAR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:38001167-38008783",
+              "ensembl_id": "ENSG00000147465"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:38143649-38151265",
+              "ensembl_id": "ENSG00000147465"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-04-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "STAR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Genital Anomalies and Suspected Adrenal Problems Gene Panel (UKGTN)",
+        "Lipoid adrenal hyperplasia, 201710"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hCaf1z"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15954",
+        "gene_name": "target of EGR1, exonuclease",
+        "omim_gene": [
+          "613931"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TOE1",
+        "hgnc_symbol": "TOE1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:45805342-45809647",
+              "ensembl_id": "ENSG00000132773"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:45339670-45343975",
+              "ensembl_id": "ENSG00000132773"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "TOE1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28092684"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Pontocerebellar hypoplasia, type 7  614969"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12382",
+        "gene_name": "TSPY like 1",
+        "omim_gene": [
+          "604714"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TSPYL1",
+        "hgnc_symbol": "TSPYL1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:116597741-116601066",
+              "ensembl_id": "ENSG00000189241"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:116276578-116279903",
+              "ensembl_id": "ENSG00000189241"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-04-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "TSPYL1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15273283",
+        "22137496",
+        "19463995",
+        "32885560",
+        "33075815"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list",
+        "Other"
+      ],
+      "phenotypes": [
+        "Sudden infant death with dysgenesis of the testes syndrome OMIM:608800",
+        "sudden infant death-dysgenesis of the testes syndrome MONDO:0012124"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "WAGR",
+          "WIT-2",
+          "AWT1",
+          "NPHS4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12796",
+        "gene_name": "Wilms tumor 1",
+        "omim_gene": [
+          "607102"
+        ],
+        "alias_name": null,
+        "gene_symbol": "WT1",
+        "hgnc_symbol": "WT1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:32409321-32457176",
+              "ensembl_id": "ENSG00000184937"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:32387775-32435630",
+              "ensembl_id": "ENSG00000184937"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-04-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "WT1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Denys-Drash syndrome 194080",
+        "Frasier syndrome 136680",
+        "Meacham syndrome\t 608978"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DMT1",
+          "CT154"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2934",
+        "gene_name": "doublesex and mab-3 related transcription factor 1",
+        "omim_gene": [
+          "602424"
+        ],
+        "alias_name": [
+          "DM domain expressed in testis 1"
+        ],
+        "gene_symbol": "DMRT1",
+        "hgnc_symbol": "DMRT1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:841690-969090",
+              "ensembl_id": "ENSG00000137090"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:841690-969090",
+              "ensembl_id": "ENSG00000137090"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "DMRT1",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11870074",
+        "26139570",
+        "24934491",
+        "39936125"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "46,XY disorders/differences of sex development"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NR3A2",
+          "Erb",
+          "ER-beta"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3468",
+        "gene_name": "estrogen receptor 2",
+        "omim_gene": [
+          "601663"
+        ],
+        "alias_name": [
+          "ER beta",
+          "estrogen receptor beta",
+          "oestrogen receptor beta",
+          "nuclear receptor subfamily 3 group A member 2"
+        ],
+        "gene_symbol": "ESR2",
+        "hgnc_symbol": "ESR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:64550950-64804830",
+              "ensembl_id": "ENSG00000140009"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:64084232-64338112",
+              "ensembl_id": "ENSG00000140009"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-01-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ESR2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29261182",
+        "9861029",
+        "30113650"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "46,XY disorder of sex development, MONDO:0020040",
+        "?Ovarian dysgenesis 8, OMIM:618187"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CEK3",
+          "TK14",
+          "TK25",
+          "ECT1",
+          "K-SAM",
+          "CD332"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3689",
+        "gene_name": "fibroblast growth factor receptor 2",
+        "omim_gene": [
+          "176943"
+        ],
+        "alias_name": [
+          "Crouzon syndrome",
+          "Pfeiffer syndrome"
+        ],
+        "gene_symbol": "FGFR2",
+        "hgnc_symbol": "FGFR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:123237848-123357972",
+              "ensembl_id": "ENSG00000066468"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:121478334-121598458",
+              "ensembl_id": "ENSG00000066468"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGFR2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26362256",
+        "18155190",
+        "22387015"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "LADD syndrome, OMIM:149730",
+        "Bent bone dysplasia syndrome, OMIM:614592"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10724",
+          "MART-2",
+          "MART2",
+          "Skn",
+          "ski",
+          "rasp",
+          "sit",
+          "GUP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18270",
+        "gene_name": "hedgehog acyltransferase",
+        "omim_gene": [
+          "605743"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HHAT",
+        "hgnc_symbol": "HHAT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:210501596-210849638",
+              "ensembl_id": "ENSG00000054392"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:210328252-210676296",
+              "ensembl_id": "ENSG00000054392"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-09-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "HHAT",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24784881",
+        "30912300",
+        "33749989"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "46,XY DSD with chondrodysplasia",
+        "Nivelon-Nivelon-Mabille syndrome, OMIM:600092"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8622",
+        "gene_name": "paired box 8",
+        "omim_gene": [
+          "167415"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PAX8",
+        "hgnc_symbol": "PAX8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:113973574-114036527",
+              "ensembl_id": "ENSG00000125618"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:113215997-113278950",
+              "ensembl_id": "ENSG00000125618"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "PAX8",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33434492",
+        "31731040",
+        "25484916"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Mayer-Rokitansky-Küster-Hauser syndrome (MRKHS), MONDO:0017771"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8632",
+        "gene_name": "PBX homeobox 1",
+        "omim_gene": [
+          "176310"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PBX1",
+        "hgnc_symbol": "PBX1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:164524821-164868533",
+              "ensembl_id": "ENSG00000185630"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:164555584-164899296",
+              "ensembl_id": "ENSG00000185630"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "PBX1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31302614",
+        "31058389"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "46, XY gonadal dysgenesis",
+        "46,XY partial gonadal dysgenesis, MONDO:0016674"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13998",
+        "gene_name": "PR/SET domain 13",
+        "omim_gene": [
+          "616741"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PRDM13",
+        "hgnc_symbol": "PRDM13",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:100054606-100063454",
+              "ensembl_id": "ENSG00000112238"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:99606730-99615578",
+              "ensembl_id": "ENSG00000112238"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-11-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRDM13",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34730112",
+        "35390279"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "congenital hypogonadotropic hypogonadism, MONDO:0015770",
+        "Cerebellar dysfunction, impaired intellectual development, and hypogonadotropic hypogonadism, OMIM:619761"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HEB",
+          "HTF4",
+          "HsT17266",
+          "bHLHb20"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11623",
+        "gene_name": "transcription factor 12",
+        "omim_gene": [
+          "600480"
+        ],
+        "alias_name": [
+          "helix-loop-helix transcription factor 4"
+        ],
+        "gene_symbol": "TCF12",
+        "hgnc_symbol": "TCF12",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:57210821-57591479",
+              "ensembl_id": "ENSG00000140262"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:56918623-57299281",
+              "ensembl_id": "ENSG00000140262"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-06-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "TCF12",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32620954"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Kallmann syndrome"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FOG2",
+          "hFOG-2",
+          "ZNF89B",
+          "ZC2HC11B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16700",
+        "gene_name": "zinc finger protein, FOG family member 2",
+        "omim_gene": [
+          "603693"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ZFPM2",
+        "hgnc_symbol": "ZFPM2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:106330920-106816760",
+              "ensembl_id": "ENSG00000169946"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:104590733-105804532",
+              "ensembl_id": "ENSG00000169946"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-11-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZFPM2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24549039",
+        "21919901",
+        "25813279"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Other",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "46XY sex reversal 9, OMIM:616067"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DD",
+          "BABP",
+          "DD2",
+          "HAKRD",
+          "MCDR2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:385",
+        "gene_name": "aldo-keto reductase family 1 member C2",
+        "omim_gene": [
+          "600450"
+        ],
+        "alias_name": [
+          "dihydrodiol dehydrogenase 2; bile acid binding protein; 3-alpha hydroxysteroid dehydrogenase, type III"
+        ],
+        "gene_symbol": "AKR1C2",
+        "hgnc_symbol": "AKR1C2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:5029967-5060223",
+              "ensembl_id": "ENSG00000151632"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:4987400-5018031",
+              "ensembl_id": "ENSG00000151632"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "AKR1C2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Other",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "46XY sex reversal 8 614279"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RDRTA2",
+          "VPP2",
+          "RTADR",
+          "a4",
+          "Vph1",
+          "Stv1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:866",
+        "gene_name": "ATPase H+ transporting V0 subunit a4",
+        "omim_gene": [
+          "605239"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ATP6V0A4",
+        "hgnc_symbol": "ATP6V0A4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:138391040-138484305",
+              "ensembl_id": "ENSG00000105929"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:138706295-138799560",
+              "ensembl_id": "ENSG00000105929"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-05-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP6V0A4",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Genital Anomalies and Suspected Adrenal Problems Gene Panel (UKGTN)",
+        "Distal renal tubular acidosis 3, with or without sensorineural hearing loss, OMIM:602722"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC10561"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1552",
+        "gene_name": "chromobox 2",
+        "omim_gene": [
+          "602770"
+        ],
+        "alias_name": [
+          "Pc class homolog (Drosophila)"
+        ],
+        "gene_symbol": "CBX2",
+        "hgnc_symbol": "CBX2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:77751931-77761782",
+              "ensembl_id": "ENSG00000173894"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:79778132-79787983",
+              "ensembl_id": "ENSG00000173894"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "CBX2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23219007",
+        "19361780"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Other",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Gender Assignment Gene Panel (UKGTN)",
+        "46XY sex reversal 5, 613080"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DAGK",
+          "DAGK7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2856",
+        "gene_name": "diacylglycerol kinase theta",
+        "omim_gene": [
+          "601207"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DGKQ",
+        "hgnc_symbol": "DGKQ",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:952675-980683",
+              "ensembl_id": "ENSG00000145214"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:958887-986895",
+              "ensembl_id": "ENSG00000145214"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-06-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "DGKQ",
+      "confidence_level": "1",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HERA-B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3424",
+        "gene_name": "Era like 12S mitochondrial rRNA chaperone 1",
+        "omim_gene": [
+          "607435"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ERAL1",
+        "hgnc_symbol": "ERAL1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:27181956-27188085",
+              "ensembl_id": "ENSG00000132591"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:28854938-28861067",
+              "ensembl_id": "ENSG00000132591"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-11-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "ERAL1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28449065"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Perrault syndrome 6\t617565"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "founder-effect"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "H2",
+          "H3",
+          "H4",
+          "H5",
+          "CEK",
+          "FLG",
+          "BFGFR",
+          "N-SAM",
+          "CD331"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3688",
+        "gene_name": "fibroblast growth factor receptor 1",
+        "omim_gene": [
+          "136350"
+        ],
+        "alias_name": [
+          "Pfeiffer syndrome"
+        ],
+        "gene_symbol": "FGFR1",
+        "hgnc_symbol": "FGFR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:38268656-38326352",
+              "ensembl_id": "ENSG00000077782"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:38411138-38468834",
+              "ensembl_id": "ENSG00000077782"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGFR1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23154428",
+        "23812909",
+        "25394172",
+        "27055092",
+        "32853167",
+        "34589657",
+        "41108094"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Research",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 2 with or without anosmia, OMIM:147950",
+        "Hartsfield syndrome, OMIM:615465"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "THP2",
+          "HPE9",
+          "THP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4318",
+        "gene_name": "GLI family zinc finger 2",
+        "omim_gene": [
+          "165230"
+        ],
+        "alias_name": [
+          "tax-responsive element-2 holding protein",
+          "tax helper protein 1",
+          "tax helper protein 2"
+        ],
+        "gene_symbol": "GLI2",
+        "hgnc_symbol": "GLI2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:121493199-121750229",
+              "ensembl_id": "ENSG00000074047"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:120735623-120992653",
+              "ensembl_id": "ENSG00000074047"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLI2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        ""
+      ],
+      "phenotypes": [
+        "Culler-Jones syndrome, 615849",
+        "Holoprosencephaly-9, 610829"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSD17",
+          "SDR9C2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5211",
+        "gene_name": "hydroxysteroid 17-beta dehydrogenase 2",
+        "omim_gene": [
+          "109685"
+        ],
+        "alias_name": [
+          "short chain dehydrogenase/reductase family 9C, member 2"
+        ],
+        "gene_symbol": "HSD17B2",
+        "hgnc_symbol": "HSD17B2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:82068609-82132139",
+              "ensembl_id": "ENSG00000086696"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:82035004-82098534",
+              "ensembl_id": "ENSG00000086696"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "HSD17B2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Gender Assignment Gene Panel (UKGTN)"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PPI5PIV",
+          "CORS1",
+          "pharbin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21474",
+        "gene_name": "inositol polyphosphate-5-phosphatase E",
+        "omim_gene": [
+          "613037"
+        ],
+        "alias_name": null,
+        "gene_symbol": "INPP5E",
+        "hgnc_symbol": "INPP5E",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:139323071-139334274",
+              "ensembl_id": "ENSG00000148384"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:136428619-136439823",
+              "ensembl_id": "ENSG00000148384"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "INPP5E",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19668215"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Mental retardation, truncal obesity, retinal dystrophy, and micropenis, 610156"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6948",
+        "gene_name": "minichromosome maintenance complex component 5",
+        "omim_gene": [
+          "602696"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MCM5",
+        "hgnc_symbol": "MCM5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:35796056-35821423",
+              "ensembl_id": "ENSG00000100297"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:35400063-35425430",
+              "ensembl_id": "ENSG00000100297"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "MCM5",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28198391"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "?Meier-Gorlin syndrome 8\t617564"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D11S812E",
+          "AN",
+          "WAGR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8620",
+        "gene_name": "paired box 6",
+        "omim_gene": [
+          "607108"
+        ],
+        "alias_name": [
+          "aniridia, keratitis"
+        ],
+        "gene_symbol": "PAX6",
+        "hgnc_symbol": "PAX6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:31806340-31839509",
+              "ensembl_id": "ENSG00000007372"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:31784779-31818062",
+              "ensembl_id": "ENSG00000007372"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PAX6",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Not relevant to this panel"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "M-SemaK",
+          "KIAA0331",
+          "coll-5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10727",
+        "gene_name": "semaphorin 3E",
+        "omim_gene": [
+          "608166"
+        ],
+        "alias_name": [
+          "M-sema H"
+        ],
+        "gene_symbol": "SEMA3E",
+        "hgnc_symbol": "SEMA3E",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:82993222-83278326",
+              "ensembl_id": "ENSG00000170381"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:83363906-83649010",
+              "ensembl_id": "ENSG00000170381"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "SEMA3E",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15235037"
+      ],
+      "evidence": [
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "CHARGE syndrome\t214800"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NK3R"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11528",
+        "gene_name": "tachykinin receptor 3",
+        "omim_gene": [
+          "162332"
+        ],
+        "alias_name": [
+          "neurokinin beta receptor"
+        ],
+        "gene_symbol": "TACR3",
+        "hgnc_symbol": "TACR3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:104507188-104640973",
+              "ensembl_id": "ENSG00000169836"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:103586031-103719816",
+              "ensembl_id": "ENSG00000169836"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-11-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "TACR3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "22031817",
+        "20332248",
+        "40101754"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature",
+        "Research"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 11 with or without anosmia, OMIM:614840",
+        "hypogonadotropic hypogonadism 11 with or without anosmia, MONDO:0013913"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TAFII105"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11538",
+        "gene_name": "TATA-box binding protein associated factor 4b",
+        "omim_gene": [
+          "601689"
+        ],
+        "alias_name": [
+          "TATA box binding protein (TBP)-associated factor 4B"
+        ],
+        "gene_symbol": "TAF4B",
+        "hgnc_symbol": "TAF4B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:23805900-23971649",
+              "ensembl_id": "ENSG00000141384"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:26225936-26391685",
+              "ensembl_id": "ENSG00000141384"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "TAF4B",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24431330"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "Spermatogenic failure 13 615841"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DERMO1",
+          "Dermo-1",
+          "bHLHa39"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20670",
+        "gene_name": "twist family bHLH transcription factor 2",
+        "omim_gene": [
+          "607556"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TWIST2",
+        "hgnc_symbol": "TWIST2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:239756673-239795893",
+              "ensembl_id": "ENSG00000233608"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:238848032-238910543",
+              "ensembl_id": "ENSG00000233608"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-03-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TWIST2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26119818"
+      ],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Barber-Say syndrome 209885",
+        "Focal facial dermal dysplasia 3, Setleis type\t227260"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XWNT2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12781",
+        "gene_name": "Wnt family member 2B",
+        "omim_gene": [
+          "601968"
+        ],
+        "alias_name": [
+          "XWNT2, Xenopus, homolog of",
+          "wingless-type MMTV integration site family, member 13"
+        ],
+        "gene_symbol": "WNT2B",
+        "hgnc_symbol": "WNT2B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:113009163-113072787",
+              "ensembl_id": "ENSG00000134245"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:112466541-112530165",
+              "ensembl_id": "ENSG00000134245"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-09-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "WNT2B",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29909964",
+        "33526876"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Diarrhoea 9, OMIM:618168",
+        "46,XX testicular disorder of sex development, MONDO:0100249"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": [
+    {
+      "gene_data": null,
+      "entity_type": "region",
+      "entity_name": "ISCA-37401-Loss",
+      "verbose_name": "11p13 (WAGR syndrome) region Loss",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "haploinsufficiency_score": "3",
+      "triplosensitivity_score": "",
+      "required_overlap_percentage": 60,
+      "type_of_variants": "cnv_loss",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "Wilms tumor, aniridia, genitourinary anomalies and mental retardation syndrome",
+        "194072"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "chromosome": "11",
+      "grch37_coordinates": null,
+      "grch38_coordinates": [
+        31781961,
+        32489442
+      ],
+      "tags": []
+    },
+    {
+      "gene_data": null,
+      "entity_type": "region",
+      "entity_name": "ISCA-46302-Gain",
+      "verbose_name": "Xp21.2 region (includes NR0B1) Gain",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "haploinsufficiency_score": null,
+      "triplosensitivity_score": "3",
+      "required_overlap_percentage": 60,
+      "type_of_variants": "cnv_gain",
+      "publications": [
+        "22518125",
+        "17504899",
+        "20685758"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "gonadal dysgenesis"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "chromosome": "X",
+      "grch37_coordinates": null,
+      "grch38_coordinates": [
+        30176883,
+        30336883
+      ],
+      "tags": []
+    }
+  ]
+}

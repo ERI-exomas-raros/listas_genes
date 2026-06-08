@@ -1,0 +1,82 @@
+{
+  "id": 1504,
+  "hash_id": null,
+  "name": "Diagnostic testing for Isovaleric acidaemia",
+  "disease_group": "Metabolic",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.2",
+  "version_created": "2026-01-23T09:42:20.841855Z",
+  "relevant_disorders": [
+    "R450"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "ACAD2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6186",
+        "gene_name": "isovaleryl-CoA dehydrogenase",
+        "omim_gene": [
+          "607036"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IVD",
+        "hgnc_symbol": "IVD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:40697686-40728146",
+              "ensembl_id": "ENSG00000128928"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:40405795-40435947",
+              "ensembl_id": "ENSG00000128928"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "IVD",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Isovaleric acidemia, OMIM:243500"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

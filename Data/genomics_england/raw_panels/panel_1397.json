@@ -1,0 +1,300 @@
+{
+  "id": 1397,
+  "hash_id": null,
+  "name": "Sickle cell, thalassaemia and other haemoglobinopathies",
+  "disease_group": "Haematology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.9",
+  "version_created": "2026-01-25T18:27:32.465854Z",
+  "relevant_disorders": [
+    "R93",
+    "Thalassaemia and other haemoglobinopathies"
+  ],
+  "stats": {
+    "number_of_genes": 5,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "HBA-T3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4823",
+        "gene_name": "hemoglobin subunit alpha 1",
+        "omim_gene": [
+          "141800"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HBA1",
+        "hgnc_symbol": "HBA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:226679-227521",
+              "ensembl_id": "ENSG00000206172"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:176680-177522",
+              "ensembl_id": "ENSG00000206172"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HBA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Heinz body anemias, alpha-, OMIM:140700",
+        "Thalassemias, alpha-, OMIM:604131",
+        "Hemoglobin H disease, nondeletional, OMIM:613978",
+        "Methemoglobinemia, alpha type, OMIM:617973",
+        "Erythrocytosis, familial, 7, OMIM:617981",
+        "HBA1-related alpha thalassemia spectrum, MONDO:0100561",
+        "methemoglobinemia, alpha type, MONDO:0020835"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HBA-T2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4824",
+        "gene_name": "hemoglobin subunit alpha 2",
+        "omim_gene": [
+          "141850"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HBA2",
+        "hgnc_symbol": "HBA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:222846-223709",
+              "ensembl_id": "ENSG00000188536"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:172847-173710",
+              "ensembl_id": "ENSG00000188536"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HBA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Heinz body anemias, alpha-, OMIM:140700",
+        "Thalassemias, alpha-, OMIM:604131",
+        "Hemoglobin H disease, deletional and nondeletional, OMIM:613978",
+        "Erythrocytosis, familial, 7, OMIM:617981",
+        "HBA2-related alpha thalassemia spectrum, MONDO:0100562"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD113t-C",
+          "beta-globin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4827",
+        "gene_name": "hemoglobin subunit beta",
+        "omim_gene": [
+          "141900"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HBB",
+        "hgnc_symbol": "HBB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:5246694-5250625",
+              "ensembl_id": "ENSG00000244734"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:5225464-5229395",
+              "ensembl_id": "ENSG00000244734"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HBB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Heinz body anemia, OMIM:140700",
+        "Delta-beta thalassemia, OMIM:141749",
+        "Hereditary persistence of fetal hemoglobin, OMIM:141749",
+        "Thalassemia-beta, dominant inclusion-body, OMIM:603902",
+        "Sickle cell disease, OMIM:603903",
+        "Thalassemia, beta, OMIM:613985",
+        "Methemoglobinemia, beta type, OMIM:617971",
+        "Erythrocytosis, familial, 6, OMIM:617980",
+        "dominant beta-thalassemia, MONDO:0011381",
+        "sickle cell disease, MONDO:0011382",
+        "beta-thalassemia HBB/LCRB, MONDO:0013517",
+        "hemoglobin M disease, MONDO:0018023",
+        "erythrocytosis, familial, 6, MONDO:0054801"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HBG-T2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4831",
+        "gene_name": "hemoglobin subunit gamma 1",
+        "omim_gene": [
+          "142200"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HBG1",
+        "hgnc_symbol": "HBG1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:5269313-5271122",
+              "ensembl_id": "ENSG00000213934"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:5248083-5249892",
+              "ensembl_id": "ENSG00000213934"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HBG1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Fetal hemoglobin quantitative trait locus 1, OMIM:141749"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HBG-T1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4832",
+        "gene_name": "hemoglobin subunit gamma 2",
+        "omim_gene": [
+          "142250"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HBG2",
+        "hgnc_symbol": "HBG2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:5274420-5667019",
+              "ensembl_id": "ENSG00000196565"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:5253190-5645789",
+              "ensembl_id": "ENSG00000196565"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HBG2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Fetal hemoglobin quantitative trait locus 1, OMIM:141749",
+        "Cyanosis, transient neonatal, OMIM:613977",
+        "cyanosis, transient neonatal, MONDO:0013511"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

@@ -1,0 +1,1208 @@
+{
+  "id": 506,
+  "hash_id": null,
+  "name": "Progressive cardiac conduction disease",
+  "disease_group": "Cardiology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.16",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R328"
+  ],
+  "stats": {
+    "number_of_genes": 22,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "Component Of Super Panel",
+      "slug": "component-of-super-panel",
+      "description": "This panel is a component of a Super Panel"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "CMD1I",
+          "CSM1",
+          "CSM2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2770",
+        "gene_name": "desmin",
+        "omim_gene": [
+          "125660"
+        ],
+        "alias_name": [
+          "intermediate filament protein"
+        ],
+        "gene_symbol": "DES",
+        "hgnc_symbol": "DES",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:220283099-220291461",
+              "ensembl_id": "ENSG00000175084"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:219418377-219426739",
+              "ensembl_id": "ENSG00000175084"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "DES",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "16376610",
+        "16890305"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Desminopathy-associated AV conduction block",
+        "atrioventricular block (disease), MONDO:0000465"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "STA",
+          "LEMD5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3331",
+        "gene_name": "emerin",
+        "omim_gene": [
+          "300384"
+        ],
+        "alias_name": [
+          "LEM domain containing 5"
+        ],
+        "gene_symbol": "EMD",
+        "hgnc_symbol": "EMD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153607557-153609883",
+              "ensembl_id": "ENSG00000102119"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154379197-154381523",
+              "ensembl_id": "ENSG00000102119"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "EMD",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29349559"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Heart conduction disease, MONDO:0000992"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GALA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4296",
+        "gene_name": "galactosidase alpha",
+        "omim_gene": [
+          "300644"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLA",
+        "hgnc_symbol": "GLA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:100652791-100662913",
+              "ensembl_id": "ENSG00000102393"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:101397803-101407925",
+              "ensembl_id": "ENSG00000102393"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Fabry disease, cardiac variant, OMIM:301500"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16882",
+        "gene_name": "hyperpolarization activated cyclic nucleotide gated potassium channel 4",
+        "omim_gene": [
+          "605206"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HCN4",
+        "hgnc_symbol": "HCN4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:73612200-73661605",
+              "ensembl_id": "ENSG00000138622"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:73319859-73369264",
+              "ensembl_id": "ENSG00000138622"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "HCN4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19796353",
+        "16407510",
+        "12750403",
+        "17646576"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Sick sinus syndrome 2, OMIM:163800"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD107b"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6501",
+        "gene_name": "lysosomal associated membrane protein 2",
+        "omim_gene": [
+          "309060"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMP2",
+        "hgnc_symbol": "LAMP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:119561682-119603220",
+              "ensembl_id": "ENSG00000005893"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:120427827-120469365",
+              "ensembl_id": "ENSG00000005893"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-08-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMP2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Danon disease, 300257"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HGPS",
+          "MADA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6636",
+        "gene_name": "lamin A/C",
+        "omim_gene": [
+          "150330"
+        ],
+        "alias_name": [
+          "mandibuloacral dysplasia type A"
+        ],
+        "gene_symbol": "LMNA",
+        "hgnc_symbol": "LMNA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:156052364-156109880",
+              "ensembl_id": "ENSG00000160789"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:156082573-156140089",
+              "ensembl_id": "ENSG00000160789"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "LMNA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "18035086",
+        "27884249",
+        "29095976",
+        "23582089"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "London South GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Laminopathy-associated AV conduction block",
+        "atrioventricular block (disease), MONDO:0000465"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CSX1",
+          "NKX2.5",
+          "NKX4-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2488",
+        "gene_name": "NK2 homeobox 5",
+        "omim_gene": [
+          "600584"
+        ],
+        "alias_name": [
+          "tinman paralog (Drosophila)"
+        ],
+        "gene_symbol": "NKX2-5",
+        "hgnc_symbol": "NKX2-5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:172659112-172662360",
+              "ensembl_id": "ENSG00000183072"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:173232109-173235357",
+              "ensembl_id": "ENSG00000183072"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-10-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "NKX2-5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28259982",
+        "15109497"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "London South GLH"
+      ],
+      "phenotypes": [
+        "Atrial septal defect 7, with or without AV conduction defects OMIM:108900"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AAKG",
+          "AAKG2",
+          "H91620p",
+          "WPWS",
+          "CMH6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9386",
+        "gene_name": "protein kinase AMP-activated non-catalytic subunit gamma 2",
+        "omim_gene": [
+          "602743"
+        ],
+        "alias_name": [
+          "AMPK gamma2"
+        ],
+        "gene_symbol": "PRKAG2",
+        "hgnc_symbol": "PRKAG2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:151253197-151574210",
+              "ensembl_id": "ENSG00000106617"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:151556111-151877125",
+              "ensembl_id": "ENSG00000106617"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRKAG2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26729852",
+        "12015471",
+        "26085771"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "London South GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Wolff-Parkinson-White syndrome, OMIM:194200"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Nav1.5",
+          "LQT3",
+          "HB1",
+          "HBBD",
+          "PFHB1",
+          "IVF",
+          "HB2",
+          "HH1",
+          "SSS1",
+          "CDCD2",
+          "CMPD2",
+          "ICCD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10593",
+        "gene_name": "sodium voltage-gated channel alpha subunit 5",
+        "omim_gene": [
+          "600163"
+        ],
+        "alias_name": [
+          "long QT syndrome 3"
+        ],
+        "gene_symbol": "SCN5A",
+        "hgnc_symbol": "SCN5A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:38589548-38691164",
+              "ensembl_id": "ENSG00000183873"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:38548057-38649673",
+              "ensembl_id": "ENSG00000183873"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN5A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "11804990",
+        "16643399",
+        "15466643",
+        "15372490"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "London South GLH",
+        "Wessex and West Midlands GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Heart block, progressive, OMIM:113900",
+        "Heart block, progressive, type IA, OMIM:113900"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CARK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19661",
+        "gene_name": "TNNI3 interacting kinase",
+        "omim_gene": [
+          "613932"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TNNI3K",
+        "hgnc_symbol": "TNNI3K",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:74663947-75010112",
+              "ensembl_id": "ENSG00000116783"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:74235401-74544428",
+              "ensembl_id": "ENSG00000116783"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-01-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNNI3K",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "24925317",
+        "25791106",
+        "29355681",
+        "30010057"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Cardiac conduction disease with or without dilated cardiomyopathy, OMIM:616117"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HsT2651",
+          "CTS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12405",
+        "gene_name": "transthyretin",
+        "omim_gene": [
+          "176300"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTR",
+        "hgnc_symbol": "TTR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:29171689-29178974",
+              "ensembl_id": "ENSG00000118271"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:31591726-31599021",
+              "ensembl_id": "ENSG00000118271"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Heart conduction disease, MONDO:0000992"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CLCRG2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2016",
+        "gene_name": "chloride channel accessory 2",
+        "omim_gene": [
+          "604003"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CLCA2",
+        "hgnc_symbol": "CLCA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:86889769-86922241",
+              "ensembl_id": "ENSG00000137975"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:86424086-86456558",
+              "ensembl_id": "ENSG00000137975"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLCA2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Heart conduction disease, MONDO:0000992"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "POP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17648",
+        "gene_name": "popeye domain containing 2",
+        "omim_gene": [
+          "605823"
+        ],
+        "alias_name": null,
+        "gene_symbol": "POPDC2",
+        "hgnc_symbol": "POPDC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:119355304-119384171",
+              "ensembl_id": "ENSG00000121577"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:119636457-119665324",
+              "ensembl_id": "ENSG00000121577"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-05-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "POPDC2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "40409267",
+        "41456958"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Cardiac conduction disease with or without cardiomyopathy 2, OMIM:621367",
+        "cardiac conduction disease with or without cardiomyopathy 2, MONDO:0700389"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10586",
+        "gene_name": "sodium voltage-gated channel beta subunit 1",
+        "omim_gene": [
+          "600235"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCN1B",
+        "hgnc_symbol": "SCN1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:35521588-35531352",
+              "ensembl_id": "ENSG00000105711"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:35030466-35040449",
+              "ensembl_id": "ENSG00000105711"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-05-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN1B",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18464934",
+        "28878239",
+        "25426816"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "South West GLH",
+        "London South GLH"
+      ],
+      "phenotypes": [
+        "Cardiac conduction defect, nonspecific, OMIM:612838",
+        "Brugada syndrome 5, OMIM:612838",
+        "Atrial fibrillation, familial, 13, OMIM:615377"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11604",
+        "gene_name": "T-box 5",
+        "omim_gene": [
+          "601620"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TBX5",
+        "hgnc_symbol": "TBX5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:114791736-114846247",
+              "ensembl_id": "ENSG00000089225"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:114353931-114408442",
+              "ensembl_id": "ENSG00000089225"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBX5",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29755943"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "South West GLH",
+        "London South GLH"
+      ],
+      "phenotypes": [
+        "Holt-Oram syndrome, OMIM:142900"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20041"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17993",
+        "gene_name": "transient receptor potential cation channel subfamily M member 4",
+        "omim_gene": [
+          "606936"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRPM4",
+        "hgnc_symbol": "TRPM4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:49660998-49715093",
+              "ensembl_id": "ENSG00000130529"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:49157741-49211836",
+              "ensembl_id": "ENSG00000130529"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-01-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRPM4",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19726882",
+        "20562447",
+        "21887725",
+        "29748318",
+        "30021168",
+        "29568272"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "Expert Review Amber",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Progressive familial heart block, type IB, OMIM:604559"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:164",
+        "gene_name": "actinin alpha 2",
+        "omim_gene": [
+          "102573"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACTN2",
+        "hgnc_symbol": "ACTN2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:236849754-236927931",
+              "ensembl_id": "ENSG00000077522"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:236686454-236764631",
+              "ensembl_id": "ENSG00000077522"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACTN2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Heart conduction disease, MONDO:0000992"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:493",
+        "gene_name": "ankyrin 2",
+        "omim_gene": [
+          "106410"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANK2",
+        "hgnc_symbol": "ANK2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:113739265-114304896",
+              "ensembl_id": "ENSG00000145362"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:112818109-113383740",
+              "ensembl_id": "ENSG00000145362"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANK2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30929919"
+      ],
+      "evidence": [
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Heart conduction disease, MONDO:0000992"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ABP-280",
+          "ABPL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3756",
+        "gene_name": "filamin C",
+        "omim_gene": [
+          "102565"
+        ],
+        "alias_name": [
+          "actin binding protein 280",
+          "gamma filamin"
+        ],
+        "gene_symbol": "FLNC",
+        "hgnc_symbol": "FLNC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:128470431-128499328",
+              "ensembl_id": "ENSG00000128591"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:128830377-128859274",
+              "ensembl_id": "ENSG00000128591"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLNC",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Heart conduction disease, MONDO:0000992"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CX40"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:4279",
+        "gene_name": "gap junction protein alpha 5",
+        "omim_gene": [
+          "121013"
+        ],
+        "alias_name": [
+          "connexin 40"
+        ],
+        "gene_symbol": "GJA5",
+        "hgnc_symbol": "GJA5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:147228332-147245484",
+              "ensembl_id": "ENSG00000143140"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:147756199-147773362",
+              "ensembl_id": "ENSG00000265107"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "GJA5",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22247482"
+      ],
+      "evidence": [
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Heart conduction disease, MONDO:0000992"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "K2p17.1",
+          "TALK-2",
+          "TALK2",
+          "TASK4",
+          "TASK-4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14465",
+        "gene_name": "potassium two pore domain channel subfamily K member 17",
+        "omim_gene": [
+          "607370"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNK17",
+        "hgnc_symbol": "KCNK17",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:39266777-39282329",
+              "ensembl_id": "ENSG00000124780"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:39299001-39314553",
+              "ensembl_id": "ENSG00000124780"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNK17",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24972929"
+      ],
+      "evidence": [
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Heart conduction disease, MONDO:0000992"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TBX3-ISO",
+          "XHL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11602",
+        "gene_name": "T-box 3",
+        "omim_gene": [
+          "601621"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TBX3",
+        "hgnc_symbol": "TBX3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:115108059-115121969",
+              "ensembl_id": "ENSG00000135111"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:114670254-114684164",
+              "ensembl_id": "ENSG00000135111"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-06-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBX3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30820409"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Heart conduction disease, MONDO:0000992"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

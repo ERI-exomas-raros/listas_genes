@@ -1,0 +1,2609 @@
+{
+  "id": 514,
+  "hash_id": null,
+  "name": "Intestinal failure or congenital diarrhoea",
+  "disease_group": "Gastrohepatology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.11",
+  "version_created": "2026-03-30T11:13:26.099044Z",
+  "relevant_disorders": [
+    "R331",
+    "Intestinal failure"
+  ],
+  "stats": {
+    "number_of_genes": 49,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "cSVP",
+          "CD156B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:195",
+        "gene_name": "ADAM metallopeptidase domain 17",
+        "omim_gene": [
+          "603639"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADAM17",
+        "hgnc_symbol": "ADAM17",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:9628615-9695921",
+              "ensembl_id": "ENSG00000151694"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:9488486-9555792",
+              "ensembl_id": "ENSG00000151694"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADAM17",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "?Inflammatory skin and bowel disease, neonatal, 1, OMIM:614328"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0366",
+          "ADAMTS-4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:219",
+        "gene_name": "ADAM metallopeptidase with thrombospondin type 1 motif 3",
+        "omim_gene": [
+          "605011"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADAMTS3",
+        "hgnc_symbol": "ADAMTS3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:73146686-73434516",
+              "ensembl_id": "ENSG00000156140"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:72280969-72569386",
+              "ensembl_id": "ENSG00000156140"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-04-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADAMTS3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hennekam lymphangiectasia-lymphedema syndrome 3, OMIM:618154"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XAG-2",
+          "HAG-2",
+          "AG2",
+          "PDIA17"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:328",
+        "gene_name": "anterior gradient 2, protein disulphide isomerase family member",
+        "omim_gene": [
+          "606358"
+        ],
+        "alias_name": [
+          "protein disulfide isomerase family A, member 17"
+        ],
+        "gene_symbol": "AGR2",
+        "hgnc_symbol": "AGR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:16831435-16873057",
+              "ensembl_id": "ENSG00000106541"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:16791811-16833433",
+              "ensembl_id": "ENSG00000106541"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-03-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGR2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34952832"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Cystic fibrosis-like syndrome",
+        "chronic diarrhoea"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:491",
+        "gene_name": "angiopoietin like 3",
+        "omim_gene": [
+          "604774"
+        ],
+        "alias_name": [
+          "angiopoietin 5"
+        ],
+        "gene_symbol": "ANGPTL3",
+        "hgnc_symbol": "ANGPTL3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:63063158-63071830",
+              "ensembl_id": "ENSG00000132855"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:62597487-62606159",
+              "ensembl_id": "ENSG00000132855"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-02-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANGPTL3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hypobetalipoproteinemia, familial, 2, OMIM:605019"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AP19",
+          "SIGMA1A",
+          "WUGSC:H_DJ0747G18.2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:559",
+        "gene_name": "adaptor related protein complex 1 sigma 1 subunit",
+        "omim_gene": [
+          "603531"
+        ],
+        "alias_name": [
+          "clathrin-associated/assembly/adaptor protein, small 1 (19kD)",
+          "clathrin coat assembly protein AP19",
+          "sigma1A subunit of AP-1 clathrin adaptor complex",
+          "AP-1 complex subunit sigma-1A",
+          "sigma1A-adaptin",
+          "golgi adaptor HA1/AP1 adaptin sigma-1A subunit",
+          "clathrin assembly protein complex 1 sigma-1A small chain",
+          "HA1 19 kDa subunit"
+        ],
+        "gene_symbol": "AP1S1",
+        "hgnc_symbol": "AP1S1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:100797678-100804877",
+              "ensembl_id": "ENSG00000106367"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:101154397-101161596",
+              "ensembl_id": "ENSG00000106367"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AP1S1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32306098",
+        "15668823",
+        "19057675",
+        "23423674",
+        "30244301"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Non-syndromic congenital intestinal failure",
+        "MEDNIK syndrome, OMIM:609313"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:603",
+        "gene_name": "apolipoprotein B",
+        "omim_gene": [
+          "107730"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOB",
+        "hgnc_symbol": "APOB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:21224301-21266945",
+              "ensembl_id": "ENSG00000084674"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:21001429-21044073",
+              "ensembl_id": "ENSG00000084674"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hypobetalipoproteinemia, OMIM:615558"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ISSX",
+          "CT121",
+          "EIEE1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18060",
+        "gene_name": "aristaless related homeobox",
+        "omim_gene": [
+          "300382"
+        ],
+        "alias_name": [
+          "cancer/testis antigen 121"
+        ],
+        "gene_symbol": "ARX",
+        "hgnc_symbol": "ARX",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:25021811-25034065",
+              "ensembl_id": "ENSG00000004848"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:25003694-25016420",
+              "ensembl_id": "ENSG00000004848"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-02-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARX",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Lissencephaly, X-linked 2, OMIM:300215"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ30681",
+          "KIAA1983"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29426",
+        "gene_name": "collagen and calcium binding EGF domains 1",
+        "omim_gene": [
+          "612753"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CCBE1",
+        "hgnc_symbol": "CCBE1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:57098172-57364612",
+              "ensembl_id": "ENSG00000183287"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:59430940-59697380",
+              "ensembl_id": "ENSG00000183287"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCBE1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hennekam lymphangiectasia-lymphedema syndrome 1, OMIM:235510"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CR",
+          "TC",
+          "CROM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2665",
+        "gene_name": "CD55 molecule (Cromer blood group)",
+        "omim_gene": [
+          "125240"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CD55",
+        "hgnc_symbol": "CD55",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:207494853-207534311",
+              "ensembl_id": "ENSG00000196352"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:207321508-207386804",
+              "ensembl_id": "ENSG00000196352"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "CD55",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Complement hyperactivation, angiopathic thrombosis, and protein-losing enteropathy, OMIM:226300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ASAM",
+          "FLJ22415",
+          "ACAM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24039",
+        "gene_name": "CXADR like membrane protein",
+        "omim_gene": [
+          "611693"
+        ],
+        "alias_name": [
+          "adipocyte-specific adhesion molecule",
+          "coxsackie- and adenovirus receptor-like membrane protein",
+          "adipocyte adhesion molecule"
+        ],
+        "gene_symbol": "CLMP",
+        "hgnc_symbol": "CLMP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:122943035-123065989",
+              "ensembl_id": "ENSG00000166250"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:123069865-123195281",
+              "ensembl_id": "ENSG00000166250"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-01-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLMP",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27352967",
+        "22155368",
+        "33384711",
+        "31061750",
+        "27720179"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Congenital short bowel syndrome, OMIM:615237"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD152",
+          "CD",
+          "GSE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2505",
+        "gene_name": "cytotoxic T-lymphocyte associated protein 4",
+        "omim_gene": [
+          "123890"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CTLA4",
+        "hgnc_symbol": "CTLA4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:204732509-204738683",
+              "ensembl_id": "ENSG00000163599"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:203867786-203873960",
+              "ensembl_id": "ENSG00000163599"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTLA4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Immune dysregulation with autoimmunity, immunodeficiency, and lymphoproliferation, OMIM:616100",
+        "{Celiac disease, susceptibility to, 3}, OMIM:609755"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARGP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2843",
+        "gene_name": "diacylglycerol O-acyltransferase 1",
+        "omim_gene": [
+          "604900"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DGAT1",
+        "hgnc_symbol": "DGAT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:145539954-145550573",
+              "ensembl_id": "ENSG00000185000"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:144314584-144326910",
+              "ensembl_id": "ENSG00000185000"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-11-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "DGAT1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23114594",
+        "26883093",
+        "28937539",
+        "28373485"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Congenital diarrheal disorder",
+        "?Diarrhea 7, protein-losing enteropathy type, OMIM:615863"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ERBB1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3236",
+        "gene_name": "epidermal growth factor receptor",
+        "omim_gene": [
+          "131550"
+        ],
+        "alias_name": [
+          "erythroblastic leukemia viral (v-erb-b) oncogene homolog (avian)",
+          "erb-b2 receptor tyrosine kinase 1"
+        ],
+        "gene_symbol": "EGFR",
+        "hgnc_symbol": "EGFR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:55086714-55324313",
+              "ensembl_id": "ENSG00000146648"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:55019021-55211628",
+              "ensembl_id": "ENSG00000146648"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "EGFR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26436111",
+        "29899996",
+        "24691054"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "?Inflammatory skin and bowel disease, neonatal, 2, OMIM:616069"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Ly74",
+          "TROP1",
+          "GA733-2",
+          "EGP34",
+          "EGP40",
+          "EGP-2",
+          "KSA",
+          "CD326",
+          "Ep-CAM",
+          "HEA125",
+          "KS1/4",
+          "MK-1",
+          "MH99",
+          "MOC31",
+          "323/A3",
+          "17-1A",
+          "TACST-1",
+          "CO-17A",
+          "ESA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11529",
+        "gene_name": "epithelial cell adhesion molecule",
+        "omim_gene": [
+          "185535"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EPCAM",
+        "hgnc_symbol": "EPCAM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47572297-47614740",
+              "ensembl_id": "ENSG00000119888"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47345158-47387601",
+              "ensembl_id": "ENSG00000119888"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-12-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "EPCAM",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18572020",
+        "21315192",
+        "27302973"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Diarrhea 5, with tufting enteropathy, congenital, OMIM:613217"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDHF14",
+          "FAT-J",
+          "CDHR11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23109",
+        "gene_name": "FAT atypical cadherin 4",
+        "omim_gene": [
+          "612411"
+        ],
+        "alias_name": [
+          "cadherin-related family member 11"
+        ],
+        "gene_symbol": "FAT4",
+        "hgnc_symbol": "FAT4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:126237554-126414087",
+              "ensembl_id": "ENSG00000196159"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:125316399-125492932",
+              "ensembl_id": "ENSG00000196159"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-09-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "FAT4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hennekam lymphangiectasia-lymphedema syndrome 2, OMIM:616006"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ABP-280"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3754",
+        "gene_name": "filamin A",
+        "omim_gene": [
+          "300017"
+        ],
+        "alias_name": [
+          "actin binding protein 280",
+          "alpha filamin"
+        ],
+        "gene_symbol": "FLNA",
+        "hgnc_symbol": "FLNA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153576892-153603006",
+              "ensembl_id": "ENSG00000196924"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154348524-154374638",
+              "ensembl_id": "ENSG00000196924"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-03-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLNA",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23037936",
+        "23873601",
+        "33464596"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Congenital short bowel syndrome, OMIM:300048",
+        "Intestinal pseudoobstruction, neuronal, OMIM:300048",
+        "?FG syndrome 2, OMIM:300321"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JM2",
+          "XPID",
+          "AIID",
+          "PIDX",
+          "DIETER",
+          "SCURFIN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6106",
+        "gene_name": "forkhead box P3",
+        "omim_gene": [
+          "300292"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOXP3",
+        "hgnc_symbol": "FOXP3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:49106897-49121288",
+              "ensembl_id": "ENSG00000049768"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:49250436-49264826",
+              "ensembl_id": "ENSG00000049768"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXP3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Immunodysregulation, polyendocrinopathy, and enteropathy, X-linked, OMIM:304790"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "STAR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4688",
+        "gene_name": "guanylate cyclase 2C",
+        "omim_gene": [
+          "601330"
+        ],
+        "alias_name": [
+          "STA receptor",
+          "heat stable enterotoxin receptor"
+        ],
+        "gene_symbol": "GUCY2C",
+        "hgnc_symbol": "GUCY2C",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:14765576-14849519",
+              "ensembl_id": "ENSG00000070019"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:14612632-14696585",
+              "ensembl_id": "ENSG00000070019"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-04-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "GUCY2C",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "22521417",
+        "22436048",
+        "25994218"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Familial Diarrhea 6, OMIM:614616"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AILIM",
+          "CD278"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5351",
+        "gene_name": "inducible T-cell costimulator",
+        "omim_gene": [
+          "604558"
+        ],
+        "alias_name": [
+          "activation-inducible lymphocyte immunomediatory molecule"
+        ],
+        "gene_symbol": "ICOS",
+        "hgnc_symbol": "ICOS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:204801471-204826300",
+              "ensembl_id": "ENSG00000163600"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:203936748-203961577",
+              "ensembl_id": "ENSG00000163600"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-02-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "ICOS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Immunodeficiency, common variable, 1, OMIM:607594"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ALR",
+          "MLL4",
+          "CAGL114"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7133",
+        "gene_name": "lysine methyltransferase 2D",
+        "omim_gene": [
+          "602113"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KMT2D",
+        "hgnc_symbol": "KMT2D",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:49412758-49453557",
+              "ensembl_id": "ENSG00000167548"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:49018975-49059774",
+              "ensembl_id": "ENSG00000167548"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2013-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "KMT2D",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Kabuki syndrome 1, OMIM:147920"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6530",
+        "gene_name": "lactase",
+        "omim_gene": [
+          "603202"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LCT",
+        "hgnc_symbol": "LCT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:136545410-136594750",
+              "ensembl_id": "ENSG00000115850"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:135787840-135837180",
+              "ensembl_id": "ENSG00000115850"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "LCT",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Lactase deficiency, congenital, OMIM:223000"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BGL",
+          "LAB300",
+          "LBA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1742",
+        "gene_name": "LPS responsive beige-like anchor protein",
+        "omim_gene": [
+          "606453"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LRBA",
+        "hgnc_symbol": "LRBA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:151185594-151936879",
+              "ensembl_id": "ENSG00000198589"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:150264531-151015727",
+              "ensembl_id": "ENSG00000198589"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-10-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "LRBA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Immunodeficiency, common variable, 8, with autoimmunity, OMIM:614700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ABL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7467",
+        "gene_name": "microsomal triglyceride transfer protein",
+        "omim_gene": [
+          "157147"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MTTP",
+        "hgnc_symbol": "MTTP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:100484918-100545156",
+              "ensembl_id": "ENSG00000138823"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:99563761-99623999",
+              "ensembl_id": "ENSG00000138823"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "MTTP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Abetalipoproteinemia, OMIM:200100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1119"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7603",
+        "gene_name": "myosin VB",
+        "omim_gene": [
+          "606540"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYO5B",
+        "hgnc_symbol": "MYO5B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:47349183-47721463",
+              "ensembl_id": "ENSG00000167306"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:49822813-50195093",
+              "ensembl_id": "ENSG00000167306"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-04-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYO5B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24014347",
+        "29266534"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Diarrhea 2, with microvillus atrophy, OMIM:251850"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Atoh5",
+          "Math4B",
+          "ngn3",
+          "bHLHa7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13806",
+        "gene_name": "neurogenin 3",
+        "omim_gene": [
+          "604882"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NEUROG3",
+        "hgnc_symbol": "NEUROG3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:71331454-71332994",
+              "ensembl_id": "ENSG00000122859"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:69571698-69573238",
+              "ensembl_id": "ENSG00000122859"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-11-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "NEUROG3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "16855267",
+        "32574610",
+        "28724572",
+        "21490072"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Diarrhoea 4, malabsorptive, congenital, OMIM:610370"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PC1",
+          "PC3",
+          "SPC3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8743",
+        "gene_name": "proprotein convertase subtilisin/kexin type 1",
+        "omim_gene": [
+          "162150"
+        ],
+        "alias_name": [
+          "prohormone convertase 3",
+          "prohormone convertase 1",
+          "neuroendocrine convertase 1",
+          "proprotein convertase 1"
+        ],
+        "gene_symbol": "PCSK1",
+        "hgnc_symbol": "PCSK1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:95726119-95769847",
+              "ensembl_id": "ENSG00000175426"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:96390415-96434143",
+              "ensembl_id": "ENSG00000175426"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCSK1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30383237"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Obesity with impaired prohormone processing, OMIM:600955",
+        "obesity due to prohormone convertase I deficiency, MONDO:0010961",
+        "{Obesity, susceptibility to, BMIQ12},OMIM:612362"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "gp68",
+          "PV-1",
+          "PV1",
+          "FELS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13635",
+        "gene_name": "plasmalemma vesicle associated protein",
+        "omim_gene": [
+          "607647"
+        ],
+        "alias_name": [
+          "fenestrated-endothelial linked structure protein; PV-1 protein"
+        ],
+        "gene_symbol": "PLVAP",
+        "hgnc_symbol": "PLVAP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:17462257-17488159",
+              "ensembl_id": "ENSG00000130300"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:17351448-17377350",
+              "ensembl_id": "ENSG00000130300"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-04-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLVAP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29875123",
+        "29661969",
+        "26207260",
+        "31215290"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Diarrhoea 10, protein-losing enteropathy type, OMIM:618183"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC33442",
+          "dJ955L16.1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21478",
+        "gene_name": "regulatory factor X6",
+        "omim_gene": [
+          "612659"
+        ],
+        "alias_name": [
+          "DNA-binding protein RFX6"
+        ],
+        "gene_symbol": "RFX6",
+        "hgnc_symbol": "RFX6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:117198375-117253326",
+              "ensembl_id": "ENSG00000185002"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:116877212-116932163",
+              "ensembl_id": "ENSG00000185002"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-08-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "RFX6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitchell-Riley syndrome, OMIM:615710"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10535",
+        "gene_name": "secretion associated Ras related GTPase 1B",
+        "omim_gene": [
+          "607690"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SAR1B",
+        "hgnc_symbol": "SAR1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:133936834-133984961",
+              "ensembl_id": "ENSG00000152700"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:134601144-134649271",
+              "ensembl_id": "ENSG00000152700"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-10-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SAR1B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Chylomicron retention disease, OMIM:246700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10856",
+        "gene_name": "sucrase-isomaltase",
+        "omim_gene": [
+          "609845"
+        ],
+        "alias_name": [
+          "Oligosaccharide alpha-1,6-glucosidase",
+          "alpha-glucosidase"
+        ],
+        "gene_symbol": "SI",
+        "hgnc_symbol": "SI",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:164696686-164796283",
+              "ensembl_id": "ENSG00000090402"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:164978898-165078495",
+              "ensembl_id": "ENSG00000090402"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SI",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Sucrase-isomaltase deficiency, congenital, OMIM:222900"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HLP",
+          "DDX13",
+          "SKI2W",
+          "170A",
+          "SKIV2L1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10898",
+        "gene_name": "Ski2 like RNA helicase",
+        "omim_gene": [
+          "600478"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SKIV2L",
+        "hgnc_symbol": "SKIV2L",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31926857-31937532",
+              "ensembl_id": "ENSG00000204351"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31959080-31969755",
+              "ensembl_id": "ENSG00000204351"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "SKIV2L",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22444670",
+        "27302973",
+        "27537055"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Trichohepatoenteric syndrome 2, OMIM:614602"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10906",
+        "gene_name": "solute carrier family 10 member 2",
+        "omim_gene": [
+          "601295"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC10A2",
+        "hgnc_symbol": "SLC10A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:103696350-103719196",
+              "ensembl_id": "ENSG00000125255"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:103043998-103066846",
+              "ensembl_id": "ENSG00000125255"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-10-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC10A2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "?Bile acid malabsorption, primary, 1, OMIM:613291"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3018",
+        "gene_name": "solute carrier family 26 member 3",
+        "omim_gene": [
+          "126650"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC26A3",
+        "hgnc_symbol": "SLC26A3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:107405912-107443670",
+              "ensembl_id": "ENSG00000091138"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:107765467-107803225",
+              "ensembl_id": "ENSG00000091138"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-04-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC26A3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25711268",
+        "25568271",
+        "26157392",
+        "27525615",
+        "26637435",
+        "27784486",
+        "28258656",
+        "28644346",
+        "30635044"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Diarrhea 1, secretory chloride, congenital, OMIM:214700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ZIP4",
+          "AWMS2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17129",
+        "gene_name": "solute carrier family 39 member 4",
+        "omim_gene": [
+          "607059"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC39A4",
+        "hgnc_symbol": "SLC39A4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:145635126-145642279",
+              "ensembl_id": "ENSG00000147804"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:144409742-144416895",
+              "ensembl_id": "ENSG00000147804"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-02-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC39A4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Acrodermatitis enteropathica, OMIM:201100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D22S675",
+          "NAGT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11036",
+        "gene_name": "solute carrier family 5 member 1",
+        "omim_gene": [
+          "182380"
+        ],
+        "alias_name": [
+          "sodium/glucose cotransporter 1"
+        ],
+        "gene_symbol": "SLC5A1",
+        "hgnc_symbol": "SLC5A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:32439019-32509016",
+              "ensembl_id": "ENSG00000100170"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:32043032-32113029",
+              "ensembl_id": "ENSG00000100170"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-08-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC5A1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glucose/galactose malabsorption, OMIM:606824"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11073",
+        "gene_name": "solute carrier family 9 member A3",
+        "omim_gene": [
+          "182307"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC9A3",
+        "hgnc_symbol": "SLC9A3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:473425-524447",
+              "ensembl_id": "ENSG00000066230"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:473310-524332",
+              "ensembl_id": "ENSG00000066230"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-06-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC9A3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26358773"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Diarrhea 8, secretory sodium, congenital, OMM:616868"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kop",
+          "HAI-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11247",
+        "gene_name": "serine peptidase inhibitor, Kunitz type 2",
+        "omim_gene": [
+          "605124"
+        ],
+        "alias_name": [
+          "placental bikunin"
+        ],
+        "gene_symbol": "SPINT2",
+        "hgnc_symbol": "SPINT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:38734675-38783254",
+              "ensembl_id": "ENSG00000167642"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:38244035-38292614",
+              "ensembl_id": "ENSG00000167642"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-07-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPINT2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19185281",
+        "24142340"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Diarrhea 3, secretory sodium, congenital, syndromic, OMIM:270420"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11438",
+        "gene_name": "syntaxin 3",
+        "omim_gene": [
+          "600876"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STX3",
+        "hgnc_symbol": "STX3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:59480929-59573354",
+              "ensembl_id": "ENSG00000166900"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:59713456-59805882",
+              "ensembl_id": "ENSG00000166900"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-04-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "STX3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24726755",
+        "29266534",
+        "25358429",
+        "29282386",
+        "33974130"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Diarrhea 12, with microvillus atrophy, OMIM:619445",
+        "Retinal dystrophy and microvillus inclusion disease, OMIM:619446"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "UNC18B",
+          "Hunc18b"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11445",
+        "gene_name": "syntaxin binding protein 2",
+        "omim_gene": [
+          "601717"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STXBP2",
+        "hgnc_symbol": "STXBP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:7701767-7712759",
+              "ensembl_id": "ENSG00000076944"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:7636881-7647873",
+              "ensembl_id": "ENSG00000076944"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-12-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "STXBP2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20798128",
+        "19804848"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hemophagocytic lymphohistiocytosis, familial, 5, OMIM:613101"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRT",
+          "TP2",
+          "TCS1",
+          "hEST2",
+          "EST2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11730",
+        "gene_name": "telomerase reverse transcriptase",
+        "omim_gene": [
+          "187270"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TERT",
+        "hgnc_symbol": "TERT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:1253262-1295184",
+              "ensembl_id": "ENSG00000164362"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:1253147-1295069",
+              "ensembl_id": "ENSG00000164362"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "TERT",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Dyskeratosis congenita, autosomal recessive 4, OMIM:613989"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ENTK",
+          "MGC133046"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9490",
+        "gene_name": "transmembrane protease, serine 15",
+        "omim_gene": [
+          "606635"
+        ],
+        "alias_name": [
+          "proenterokinase",
+          "enteropeptidase"
+        ],
+        "gene_symbol": "TMPRSS15",
+        "hgnc_symbol": "TMPRSS15",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:19641433-19858197",
+              "ensembl_id": "ENSG00000154646"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:18269116-18485879",
+              "ensembl_id": "ENSG00000154646"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMPRSS15",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "11719902",
+        "33061943"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Enterokinase deficiency, OMIM:226200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "THES"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23639",
+        "gene_name": "tetratricopeptide repeat domain 37",
+        "omim_gene": [
+          "614589"
+        ],
+        "alias_name": [
+          "thespin"
+        ],
+        "gene_symbol": "TTC37",
+        "hgnc_symbol": "TTC37",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:94799599-94890711",
+              "ensembl_id": "ENSG00000198677"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:95463895-95555007",
+              "ensembl_id": "ENSG00000198677"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-06-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTC37",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27302973",
+        "20176027"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Trichohepatoenteric syndrome 1, OMM:222470"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1140"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19750",
+        "gene_name": "tetratricopeptide repeat domain 7A",
+        "omim_gene": [
+          "609332"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTC7A",
+        "hgnc_symbol": "TTC7A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47143296-47303276",
+              "ensembl_id": "ENSG00000068724"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:46916157-47076137",
+              "ensembl_id": "ENSG00000068724"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-06-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTC7A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Gastrointestinal defects and immunodeficiency syndrome, OMIM:243150"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XWNT2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12781",
+        "gene_name": "Wnt family member 2B",
+        "omim_gene": [
+          "601968"
+        ],
+        "alias_name": [
+          "XWNT2, Xenopus, homolog of",
+          "wingless-type MMTV integration site family, member 13"
+        ],
+        "gene_symbol": "WNT2B",
+        "hgnc_symbol": "WNT2B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:113009163-113072787",
+              "ensembl_id": "ENSG00000134245"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:112466541-112530165",
+              "ensembl_id": "ENSG00000134245"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-09-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "WNT2B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29909964",
+        "33526876"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Diarrhoea 9, OMIM:618168"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hILP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:592",
+        "gene_name": "X-linked inhibitor of apoptosis",
+        "omim_gene": [
+          "300079"
+        ],
+        "alias_name": null,
+        "gene_symbol": "XIAP",
+        "hgnc_symbol": "XIAP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:122993574-123047829",
+              "ensembl_id": "ENSG00000101966"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:123859724-123913979",
+              "ensembl_id": "ENSG00000101966"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "XIAP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Lymphoproliferative syndrome, X-linked, 2, OMIM:300635"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TAOS2",
+          "FLJ10261",
+          "DOG1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21625",
+        "gene_name": "anoctamin 1",
+        "omim_gene": [
+          "610108"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANO1",
+        "hgnc_symbol": "ANO1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:69924408-70035634",
+              "ensembl_id": "ENSG00000131620"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:70078302-70189528",
+              "ensembl_id": "ENSG00000131620"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-08-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANO1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32487539"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Impaired intestinal peristalsis",
+        "Haemorrhagic diarrhoea",
+        "Dysmorphic features"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BAM22",
+          "AP105A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:554",
+        "gene_name": "adaptor related protein complex 1 beta 1 subunit",
+        "omim_gene": [
+          "600157"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AP1B1",
+        "hgnc_symbol": "AP1B1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:29723669-29819168",
+              "ensembl_id": "ENSG00000100280"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:29327680-29423179",
+              "ensembl_id": "ENSG00000100280"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AP1B1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32969855",
+        "31630791"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Keratitis-ichthyosis-deafness syndrome, autosomal recessive, OMIM:242150",
+        "KID syndrome, MONDO:0018781"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LMP10",
+          "MGC1665",
+          "beta2i"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9538",
+        "gene_name": "proteasome subunit beta 10",
+        "omim_gene": [
+          "176847"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PSMB10",
+        "hgnc_symbol": "PSMB10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:67968405-67970990",
+              "ensembl_id": "ENSG00000205220"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:67934502-67937087",
+              "ensembl_id": "ENSG00000205220"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSMB10",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31783057",
+        "36250618",
+        "37600812",
+        "38503300",
+        "39734035"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Immunodeficiency 121 with autoinflammation, OMIM:620807"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q1_26_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FIL1",
+          "FIL1Z",
+          "FIL1(ZETA)",
+          "IL-1H4",
+          "IL-1RP1",
+          "IL-1F7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15563",
+        "gene_name": "interleukin 37",
+        "omim_gene": [
+          "605510"
+        ],
+        "alias_name": [
+          "interleukin 1, zeta",
+          "interleukin-1 homolog 4",
+          "interleukin-1-related protein"
+        ],
+        "gene_symbol": "IL37",
+        "hgnc_symbol": "IL37",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:113670548-113676459",
+              "ensembl_id": "ENSG00000125571"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:112912971-112918882",
+              "ensembl_id": "ENSG00000125571"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL37",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33674380"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Infantile inflammatory bowel disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

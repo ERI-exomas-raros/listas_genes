@@ -1,0 +1,641 @@
+{
+  "id": 115,
+  "hash_id": "596f86a58f620352d0e3eed3",
+  "name": "Head and neck cancer pertinent cancer susceptibility",
+  "disease_group": "Cancer Programme",
+  "disease_sub_group": "Pertinent cancer susceptibility gene panel",
+  "status": "public",
+  "version": "1.1",
+  "version_created": "2025-10-13T20:27:37.550520Z",
+  "relevant_disorders": [
+    "Nasopharyngeal",
+    "Oral Oropharyngeal",
+    "Sinonasal"
+  ],
+  "stats": {
+    "number_of_genes": 12,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Cancer Germline 100K",
+      "slug": "cancer-germline-100k",
+      "description": "Cancer Germline 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "OF",
+          "BACH1",
+          "FANCJ"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20473",
+        "gene_name": "BRCA1 interacting protein C-terminal helicase 1",
+        "omim_gene": [
+          "605882"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-associated helicase 1"
+        ],
+        "gene_symbol": "BRIP1",
+        "hgnc_symbol": "BRIP1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:59758627-59940882",
+              "ensembl_id": "ENSG00000136492"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:61681266-61863521",
+              "ensembl_id": "ENSG00000136492"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-04-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRIP1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Head and neck cancer"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAA",
+          "FA-H",
+          "FAH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3582",
+        "gene_name": "Fanconi anemia complementation group A",
+        "omim_gene": [
+          "607139"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCA",
+        "hgnc_symbol": "FANCA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:89803957-89883065",
+              "ensembl_id": "ENSG00000187741"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:89737549-89816657",
+              "ensembl_id": "ENSG00000187741"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-12-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Head and neck cancer"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAB",
+          "FLJ34064",
+          "FAAP95"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3583",
+        "gene_name": "Fanconi anemia complementation group B",
+        "omim_gene": [
+          "300515"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCB",
+        "hgnc_symbol": "FANCB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:14861529-14891191",
+              "ensembl_id": "ENSG00000181544"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:14843407-14873069",
+              "ensembl_id": "ENSG00000181544"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21910217"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Head and neck cancer"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAC",
+          "FA3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3584",
+        "gene_name": "Fanconi anemia complementation group C",
+        "omim_gene": [
+          "613899"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCC",
+        "hgnc_symbol": "FANCC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:97861336-98079991",
+              "ensembl_id": "ENSG00000158169"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:95099054-95426796",
+              "ensembl_id": "ENSG00000158169"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCC",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Head and neck cancer"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAD",
+          "FA-D2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3585",
+        "gene_name": "Fanconi anemia complementation group D2",
+        "omim_gene": [
+          "613984"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCD2",
+        "hgnc_symbol": "FANCD2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:10068098-10143614",
+              "ensembl_id": "ENSG00000144554"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:10026414-10101930",
+              "ensembl_id": "ENSG00000144554"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-10-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCD2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Head and neck cancer"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3586",
+        "gene_name": "Fanconi anemia complementation group E",
+        "omim_gene": [
+          "613976"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCE",
+        "hgnc_symbol": "FANCE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:35420138-35434880",
+              "ensembl_id": "ENSG00000112039"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:35452361-35467103",
+              "ensembl_id": "ENSG00000112039"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-04-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Head and neck cancer"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3587",
+        "gene_name": "Fanconi anemia complementation group F",
+        "omim_gene": [
+          "613897"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCF",
+        "hgnc_symbol": "FANCF",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:22644079-22647387",
+              "ensembl_id": "ENSG00000183161"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:22622519-22626787",
+              "ensembl_id": "ENSG00000183161"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCF",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Head and neck cancer"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3588",
+        "gene_name": "Fanconi anemia complementation group G",
+        "omim_gene": [
+          "602956"
+        ],
+        "alias_name": [
+          "DNA repair protein XRCC9",
+          "X-ray repair, complementing defective, in Chinese hamster, 9",
+          "X-ray repair complementing defective repair in Chinese hamster cells 9"
+        ],
+        "gene_symbol": "FANCG",
+        "hgnc_symbol": "FANCG",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:35073832-35080013",
+              "ensembl_id": "ENSG00000221829"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:35073835-35080016",
+              "ensembl_id": "ENSG00000221829"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCG",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Head and neck cancer"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10719"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25568",
+        "gene_name": "Fanconi anemia complementation group I",
+        "omim_gene": [
+          "611360"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCI",
+        "hgnc_symbol": "FANCI",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:89787180-89860492",
+              "ensembl_id": "ENSG00000140525"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:89243949-89317261",
+              "ensembl_id": "ENSG00000140525"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-05-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCI",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Head and neck cancer"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10335",
+          "FAAP43",
+          "Pog"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20748",
+        "gene_name": "Fanconi anemia complementation group L",
+        "omim_gene": [
+          "608111"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCL",
+        "hgnc_symbol": "FANCL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:58386378-58468507",
+              "ensembl_id": "ENSG00000115392"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:58159243-58241372",
+              "ensembl_id": "ENSG00000115392"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCL",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Head and neck cancer"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1784",
+          "KIAA1987",
+          "FANCP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23845",
+        "gene_name": "SLX4 structure-specific endonuclease subunit",
+        "omim_gene": [
+          "613278"
+        ],
+        "alias_name": [
+          "Fanconi anemia, complementation group P"
+        ],
+        "gene_symbol": "SLX4",
+        "hgnc_symbol": "SLX4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:3631182-3661599",
+              "ensembl_id": "ENSG00000188827"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:3581181-3611598",
+              "ensembl_id": "ENSG00000188827"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLX4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27881370",
+        "28297620"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Class: BM failure FA, (typ AR)",
+        "Fanconi anemia",
+        "MDS",
+        "AML",
+        "Bone marrow failure",
+        "Head and neck and anogenital squamous cell cancers, liver cancer, esophageal cancer, Squamous cell carcinoma: oral, GI, vulvar"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAAP250"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23168",
+        "gene_name": "Fanconi anemia complementation group M",
+        "omim_gene": [
+          "609644"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCM",
+        "hgnc_symbol": "FANCM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:45605143-45670093",
+              "ensembl_id": "ENSG00000187790"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:45135940-45200890",
+              "ensembl_id": "ENSG00000187790"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCM",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28376765"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Head and neck cancer"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "drug-toxicity"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

@@ -1,0 +1,88 @@
+{
+  "id": 1329,
+  "hash_id": null,
+  "name": "Factor VIII deficiency",
+  "disease_group": "Haematology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.3",
+  "version_created": "2026-01-23T10:37:19.707906Z",
+  "relevant_disorders": [
+    "R117"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "FVIII",
+          "DXS1253E",
+          "HEMA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3546",
+        "gene_name": "coagulation factor VIII",
+        "omim_gene": [
+          "300841"
+        ],
+        "alias_name": [
+          "Factor VIIIF8B",
+          "hemophilia A"
+        ],
+        "gene_symbol": "F8",
+        "hgnc_symbol": "F8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:154064063-154255215",
+              "ensembl_id": "ENSG00000185010"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154835788-155026940",
+              "ensembl_id": "ENSG00000185010"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hemophilia A, OMIM:306700",
+        "hemophilia A, MONDO:0010602"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

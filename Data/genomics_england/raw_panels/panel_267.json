@@ -1,0 +1,5215 @@
+{
+  "id": 267,
+  "hash_id": "5548cc07bb5a16250cc22015",
+  "name": "Hyperammonaemia",
+  "disease_group": "Metabolic disorders",
+  "disease_sub_group": "Urea Cycle disorders",
+  "status": "public",
+  "version": "1.22",
+  "version_created": "2025-11-23T17:22:17.578573Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 106,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "MCAD",
+          "MCADH",
+          "ACAD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:89",
+        "gene_name": "acyl-CoA dehydrogenase medium chain",
+        "omim_gene": [
+          "607008"
+        ],
+        "alias_name": [
+          "medium-chain acyl-CoA dehydrogenase"
+        ],
+        "gene_symbol": "ACADM",
+        "hgnc_symbol": "ACADM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:76190036-76253260",
+              "ensembl_id": "ENSG00000117054"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:75724347-75787575",
+              "ensembl_id": "ENSG00000117054"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACADM",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Acyl-CoA dehydrogenase, medium chain, deficiency of\t201450"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VLCAD",
+          "LCACD",
+          "ACAD6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:92",
+        "gene_name": "acyl-CoA dehydrogenase very long chain",
+        "omim_gene": [
+          "609575"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACADVL",
+        "hgnc_symbol": "ACADVL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:7120444-7128592",
+              "ensembl_id": "ENSG00000072778"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:7217125-7225273",
+              "ensembl_id": "ENSG00000072778"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-05-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACADVL",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "VLCAD deficiency\t201475"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P5CS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9722",
+        "gene_name": "aldehyde dehydrogenase 18 family member A1",
+        "omim_gene": [
+          "138250"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALDH18A1",
+        "hgnc_symbol": "ALDH18A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:97365696-97416463",
+              "ensembl_id": "ENSG00000059573"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:95605929-95656706",
+              "ensembl_id": "ENSG00000059573"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALDH18A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11092761",
+        "24767728"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Cutis laxa, autosomal recessive, type IIIA (Delta-1-pyrroline 5 carboxylic acid synthetase deficiency) 219150",
+        "ALDH18A1-related de Barsy syndrome MONDO:0009053"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:663",
+        "gene_name": "arginase 1",
+        "omim_gene": [
+          "608313"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ARG1",
+        "hgnc_symbol": "ARG1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:131894284-131905472",
+              "ensembl_id": "ENSG00000118520"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:131573144-131584332",
+              "ensembl_id": "ENSG00000118520"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARG1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Argininemia, OMIM:207800"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:746",
+        "gene_name": "argininosuccinate lyase",
+        "omim_gene": [
+          "608310"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ASL",
+        "hgnc_symbol": "ASL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:65540785-65558545",
+              "ensembl_id": "ENSG00000126522"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:66075798-66093558",
+              "ensembl_id": "ENSG00000126522"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ASL",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "2263616",
+        "12408190"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Argininosuccinic aciduria\t207900"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CTLN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:758",
+        "gene_name": "argininosuccinate synthase 1",
+        "omim_gene": [
+          "603470"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ASS1",
+        "hgnc_symbol": "ASS1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:133320316-133376661",
+              "ensembl_id": "ENSG00000130707"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:130444929-130501274",
+              "ensembl_id": "ENSG00000130707"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "ASS1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "2358466"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Citrullinemia\t215700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:890",
+        "gene_name": "AU RNA binding methylglutaconyl-CoA hydratase",
+        "omim_gene": [
+          "600529"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AUH",
+        "hgnc_symbol": "AUH",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:93976097-94124195",
+              "ensembl_id": "ENSG00000148090"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:91213815-91361913",
+              "ensembl_id": "ENSG00000148090"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-10-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "AUH",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "3-methylglutaconic aciduria, type I\t250950"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MSU"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:986",
+        "gene_name": "branched chain keto acid dehydrogenase E1, alpha polypeptide",
+        "omim_gene": [
+          "608348"
+        ],
+        "alias_name": [
+          "maple syrup urine disease"
+        ],
+        "gene_symbol": "BCKDHA",
+        "hgnc_symbol": "BCKDHA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:41884215-41930910",
+              "ensembl_id": "ENSG00000248098"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:41397460-41425005",
+              "ensembl_id": "ENSG00000248098"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "BCKDHA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Maple syrup urine disease, type Ia\t248600"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:987",
+        "gene_name": "branched chain keto acid dehydrogenase E1 subunit beta",
+        "omim_gene": [
+          "248611"
+        ],
+        "alias_name": [
+          "maple syrup urine disease",
+          "2-oxoisovalerate dehydrogenase subunit beta, mitochondrial"
+        ],
+        "gene_symbol": "BCKDHB",
+        "hgnc_symbol": "BCKDHB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:80816364-81055987",
+              "ensembl_id": "ENSG00000083123"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:80106647-80346270",
+              "ensembl_id": "ENSG00000083123"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "BCKDHB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Maple syrup urine disease, type Ib\t248600"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CAV",
+          "CAVA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1377",
+        "gene_name": "carbonic anhydrase 5A",
+        "omim_gene": [
+          "114761"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CA5A",
+        "hgnc_symbol": "CA5A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:87921625-87970135",
+              "ensembl_id": "ENSG00000174990"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:87881546-87936529",
+              "ensembl_id": "ENSG00000174990"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-10-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "CA5A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24530203"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Hyperammonemia due to carbonic anhydrase VA deficiency\t615751"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2323",
+        "gene_name": "carbamoyl-phosphate synthase 1",
+        "omim_gene": [
+          "608307"
+        ],
+        "alias_name": [
+          "carbamoyl-phosphate synthase (ammonia)"
+        ],
+        "gene_symbol": "CPS1",
+        "hgnc_symbol": "CPS1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:211342406-211543831",
+              "ensembl_id": "ENSG00000021826"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:210477682-210679107",
+              "ensembl_id": "ENSG00000021826"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CPS1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Carbamoylphosphate synthetase I deficiency\t237300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CPT1-L",
+          "L-CPT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2328",
+        "gene_name": "carnitine palmitoyltransferase 1A",
+        "omim_gene": [
+          "600528"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CPT1A",
+        "hgnc_symbol": "CPT1A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:68522088-68611878",
+              "ensembl_id": "ENSG00000110090"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:68754620-68844410",
+              "ensembl_id": "ENSG00000110090"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "CPT1A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "CPT deficiency, hepatic, type IA\t255120"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CPTASE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2330",
+        "gene_name": "carnitine palmitoyltransferase 2",
+        "omim_gene": [
+          "600650"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CPT2",
+        "hgnc_symbol": "CPT2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:53662101-53679869",
+              "ensembl_id": "ENSG00000157184"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:53196429-53214197",
+              "ensembl_id": "ENSG00000157184"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "CPT2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "CPT II deficiency, infantile, OMIM:600649",
+        "CPT II deficiency, lethal neonatal, OMIM:608836"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2698",
+        "gene_name": "dihydrolipoamide branched chain transacylase E2",
+        "omim_gene": [
+          "248610"
+        ],
+        "alias_name": [
+          "dihydrolipoyllysine-residue (2-methylpropanoyl)transferase",
+          "lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex, mitochondrial"
+        ],
+        "gene_symbol": "DBT",
+        "hgnc_symbol": "DBT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:100652475-100715390",
+              "ensembl_id": "ENSG00000137992"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:100186919-100249834",
+              "ensembl_id": "ENSG00000137992"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "DBT",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Maple syrup urine disease, type II\t248600"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GA2",
+          "EMA",
+          "MADD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3481",
+        "gene_name": "electron transfer flavoprotein alpha subunit",
+        "omim_gene": [
+          "608053"
+        ],
+        "alias_name": [
+          "glutaric aciduria II"
+        ],
+        "gene_symbol": "ETFA",
+        "hgnc_symbol": "ETFA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:76507696-76603813",
+              "ensembl_id": "ENSG00000140374"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:76215355-76311472",
+              "ensembl_id": "ENSG00000140374"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ETFA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Glutaric acidemia IIA, OMIM:231680",
+        "multiple acyl-CoA dehydrogenase deficiency, MONDO:0009282"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3482",
+        "gene_name": "electron transfer flavoprotein beta subunit",
+        "omim_gene": [
+          "130410"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ETFB",
+        "hgnc_symbol": "ETFB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:51848423-51869672",
+              "ensembl_id": "ENSG00000105379"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:51345169-51366418",
+              "ensembl_id": "ENSG00000105379"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-06-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "ETFB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "7912128",
+        "12815589",
+        "25929793",
+        "27604308",
+        "30847515",
+        "32550677",
+        "27081516"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Glutaric acidemia IIB, OMIM:231680",
+        "multiple acyl-CoA dehydrogenase deficiency, MONDO:0009282"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ETFQO"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3483",
+        "gene_name": "electron transfer flavoprotein dehydrogenase",
+        "omim_gene": [
+          "231675"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ETFDH",
+        "hgnc_symbol": "ETFDH",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:159593277-159630775",
+              "ensembl_id": "ENSG00000171503"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:158672125-158709623",
+              "ensembl_id": "ENSG00000171503"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "ETFDH",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Glutaric acidemia IIC\t231680"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GDH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4335",
+        "gene_name": "glutamate dehydrogenase 1",
+        "omim_gene": [
+          "138130"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLUD1",
+        "hgnc_symbol": "GLUD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:88810243-88854623",
+              "ensembl_id": "ENSG00000148672"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:87050486-87094866",
+              "ensembl_id": "ENSG00000148672"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLUD1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11214910",
+        "10636977"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hyperinsulinism-hyperammonemia syndrome, 606762"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GBP",
+          "LCEH",
+          "LCHAD",
+          "MTPA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4801",
+        "gene_name": "hydroxyacyl-CoA dehydrogenase trifunctional multienzyme complex subunit alpha",
+        "omim_gene": [
+          "600890"
+        ],
+        "alias_name": [
+          "gastrin-binding protein",
+          "long-chain-3-hydroxyacyl-CoA dehydrogenase",
+          "long-chain 2-enoyl-CoA hydratase",
+          "mitochondrial trifunctional protein, alpha subunit"
+        ],
+        "gene_symbol": "HADHA",
+        "hgnc_symbol": "HADHA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:26413504-26467594",
+              "ensembl_id": "ENSG00000084754"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:26190635-26244726",
+              "ensembl_id": "ENSG00000084754"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "HADHA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Trifunctional protein deficiency 609015"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MTPB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4803",
+        "gene_name": "hydroxyacyl-CoA dehydrogenase trifunctional multienzyme complex subunit beta",
+        "omim_gene": [
+          "143450"
+        ],
+        "alias_name": [
+          "mitochondrial trifunctional protein, beta subunit"
+        ],
+        "gene_symbol": "HADHB",
+        "hgnc_symbol": "HADHB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:26466038-26513336",
+              "ensembl_id": "ENSG00000138029"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:26243170-26290468",
+              "ensembl_id": "ENSG00000138029"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "HADHB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Trifunctional protein deficiency 609015"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HCS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4976",
+        "gene_name": "holocarboxylase synthetase",
+        "omim_gene": [
+          "609018"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HLCS",
+        "hgnc_symbol": "HLCS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:38123189-38362536",
+              "ensembl_id": "ENSG00000159267"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:36750888-36990236",
+              "ensembl_id": "ENSG00000159267"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "HLCS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Holocarboxylase synthetase deficiency\t253270"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5005",
+        "gene_name": "3-hydroxymethyl-3-methylglutaryl-CoA lyase",
+        "omim_gene": [
+          "613898"
+        ],
+        "alias_name": [
+          "hydroxymethylglutaricaciduria"
+        ],
+        "gene_symbol": "HMGCL",
+        "hgnc_symbol": "HMGCL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:24128375-24165110",
+              "ensembl_id": "ENSG00000117305"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:23801885-23838620",
+              "ensembl_id": "ENSG00000117305"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "HMGCL",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ACAD2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6186",
+        "gene_name": "isovaleryl-CoA dehydrogenase",
+        "omim_gene": [
+          "607036"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IVD",
+        "hgnc_symbol": "IVD",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:40697686-40728146",
+              "ensembl_id": "ENSG00000128928"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:40405795-40435947",
+              "ensembl_id": "ENSG00000128928"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "IVD",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26018748",
+        "23587913",
+        "23063737",
+        "24019846"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Isovaleric acidemia\t243500"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MCD",
+          "hMCD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7150",
+        "gene_name": "malonyl-CoA decarboxylase",
+        "omim_gene": [
+          "606761"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MLYCD",
+        "hgnc_symbol": "MLYCD",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:83932731-83949787",
+              "ensembl_id": "ENSG00000103150"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:83899126-83927026",
+              "ensembl_id": "ENSG00000103150"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-02-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "MLYCD",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12955715",
+        "10417274",
+        "10455107"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "malonic aciduria",
+        "Malonyl-CoA decarboxylase deficiency\t248360"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cblA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18871",
+        "gene_name": "methylmalonic aciduria (cobalamin deficiency) cblA type",
+        "omim_gene": [
+          "607481"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MMAA",
+        "hgnc_symbol": "MMAA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:146539415-146581187",
+              "ensembl_id": "ENSG00000151611"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:145618263-145660035",
+              "ensembl_id": "ENSG00000151611"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-02-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "MMAA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15523652",
+        "12438653"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Methylmalonic aciduria, vitamin B12-responsive 251100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cblB",
+          "CFAP23"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19331",
+        "gene_name": "methylmalonic aciduria (cobalamin deficiency) cblB type",
+        "omim_gene": [
+          "607568"
+        ],
+        "alias_name": [
+          "ATP:cob(I)alamin adenosyltransferase",
+          "cilia and flagella associated protein 23"
+        ],
+        "gene_symbol": "MMAB",
+        "hgnc_symbol": "MMAB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:109991542-110011679",
+              "ensembl_id": "ENSG00000139428"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:109553737-109573874",
+              "ensembl_id": "ENSG00000139428"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-02-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "MMAB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Methylmalonic aciduria, vitamin B12-responsive, due to defect in synthesis of adenosylcobalamin, cblB complementation type 251110"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7526",
+        "gene_name": "methylmalonyl-CoA mutase",
+        "omim_gene": [
+          "609058"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MUT",
+        "hgnc_symbol": "MUT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:49398073-49430904",
+              "ensembl_id": "ENSG00000146085"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:49430360-49463191",
+              "ensembl_id": "ENSG00000146085"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MUT",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Methylmalonic aciduria, mut(0) type 251000"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AGAS",
+          "ARGA",
+          "NAT7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17996",
+        "gene_name": "N-acetylglutamate synthase",
+        "omim_gene": [
+          "608300"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NAGS",
+        "hgnc_symbol": "NAGS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:42081914-42086431",
+              "ensembl_id": "ENSG00000161653"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:44004546-44009063",
+              "ensembl_id": "ENSG00000161653"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-12-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "NAGS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "N-acetylglutamate synthase deficiency\t237310"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HOGA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8091",
+        "gene_name": "ornithine aminotransferase",
+        "omim_gene": [
+          "613349"
+        ],
+        "alias_name": [
+          "Ornithine aminotransferase",
+          "ornithine aminotransferase precursor",
+          "gyrate atrophy"
+        ],
+        "gene_symbol": "OAT",
+        "hgnc_symbol": "OAT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:126085872-126107545",
+              "ensembl_id": "ENSG00000065154"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:124397303-124418976",
+              "ensembl_id": "ENSG00000065154"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "OAT",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Gyrate atrophy of choroid and retina with or without ornithinemia\t258870"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8512",
+        "gene_name": "ornithine carbamoyltransferase",
+        "omim_gene": [
+          "300461"
+        ],
+        "alias_name": null,
+        "gene_symbol": "OTC",
+        "hgnc_symbol": "OTC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:38211798-38280703",
+              "ensembl_id": "ENSG00000036473"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:38352545-38421450",
+              "ensembl_id": "ENSG00000036473"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "OTC",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "2983225"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Ornithine transcarbamylase deficiency, 311250"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [
+        "gene-therapy-trial"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PCB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8636",
+        "gene_name": "pyruvate carboxylase",
+        "omim_gene": [
+          "608786"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PC",
+        "hgnc_symbol": "PC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:66615704-66725847",
+              "ensembl_id": "ENSG00000173599"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:66848233-66958376",
+              "ensembl_id": "ENSG00000173599"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "PC",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Pyruvate carboxylase deficiency, OMIM:266150"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8653",
+        "gene_name": "propionyl-CoA carboxylase alpha subunit",
+        "omim_gene": [
+          "232000"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PCCA",
+        "hgnc_symbol": "PCCA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:100741269-101182686",
+              "ensembl_id": "ENSG00000175198"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:100089015-100530437",
+              "ensembl_id": "ENSG00000175198"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCCA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Propionicacidemia 606054"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8654",
+        "gene_name": "propionyl-CoA carboxylase beta subunit",
+        "omim_gene": [
+          "232050"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PCCB",
+        "hgnc_symbol": "PCCB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:135969148-136056738",
+              "ensembl_id": "ENSG00000114054"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:136250306-136337896",
+              "ensembl_id": "ENSG00000114054"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCCB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Propionicacidemia 606054"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "POLG1",
+          "POLGA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9179",
+        "gene_name": "DNA polymerase gamma, catalytic subunit",
+        "omim_gene": [
+          "174763"
+        ],
+        "alias_name": null,
+        "gene_symbol": "POLG",
+        "hgnc_symbol": "POLG",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:89859534-89878092",
+              "ensembl_id": "ENSG00000140521"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:89305198-89334861",
+              "ensembl_id": "ENSG00000140521"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "POLG",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Mitochondrial DNA depletion syndrome 4A (Alpers type)\t203700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9726",
+        "gene_name": "glycogen phosphorylase, muscle associated",
+        "omim_gene": [
+          "608455"
+        ],
+        "alias_name": [
+          "McArdle syndrome",
+          "glycogen storage disease type V",
+          "glycogen phosphorylase, muscle form",
+          "myophosphorylase"
+        ],
+        "gene_symbol": "PYGM",
+        "hgnc_symbol": "PYGM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:64513861-64527769",
+              "ensembl_id": "ENSG00000068976"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:64746389-64760297",
+              "ensembl_id": "ENSG00000068976"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PYGM",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "McArdle disease 232600"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ14917"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21061",
+        "gene_name": "serine active site containing 1",
+        "omim_gene": [
+          "614725"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SERAC1",
+        "hgnc_symbol": "SERAC1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:158530536-158589312",
+              "ensembl_id": "ENSG00000122335"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:158109515-158168270",
+              "ensembl_id": "ENSG00000122335"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-05-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "SERAC1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29205472",
+        "22683713",
+        "16527507",
+        "28482397",
+        "28778788",
+        "27186703",
+        "27604308"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "3-methylglutaconic aciduria with deafness, encephalopathy, and Leigh-like syndrome, OMIM:614739",
+        "Hypoglycemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OCTN2",
+          "SCD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10969",
+        "gene_name": "solute carrier family 22 member 5",
+        "omim_gene": [
+          "603377"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC22A5",
+        "hgnc_symbol": "SLC22A5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:131705444-131731306",
+              "ensembl_id": "ENSG00000197375"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:132369752-132395614",
+              "ensembl_id": "ENSG00000197375"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC22A5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10545605",
+        "11261427"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Carnitine deficiency, systemic primary, OMIM:212140",
+        "systemic primary carnitine deficiency disease, MONDO:0008919"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CITRIN",
+          "ARALAR2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10983",
+        "gene_name": "solute carrier family 25 member 13",
+        "omim_gene": [
+          "603859"
+        ],
+        "alias_name": [
+          "mitochondrial aspartate glutamate carrier 2"
+        ],
+        "gene_symbol": "SLC25A13",
+        "hgnc_symbol": "SLC25A13",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:95749532-95951459",
+              "ensembl_id": "ENSG00000004864"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:96120220-96322147",
+              "ensembl_id": "ENSG00000004864"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-07-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC25A13",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Citrullinemia, adult-onset type II 603471"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ORC1",
+          "D13S327"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10985",
+        "gene_name": "solute carrier family 25 member 15",
+        "omim_gene": [
+          "603861"
+        ],
+        "alias_name": [
+          "ornithine transporter 1"
+        ],
+        "gene_symbol": "SLC25A15",
+        "hgnc_symbol": "SLC25A15",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:41363548-41384247",
+              "ensembl_id": "ENSG00000102743"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:40789412-40810111",
+              "ensembl_id": "ENSG00000102743"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-06-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC25A15",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Hyperornithinemia-hyperammonemia-homocitrullinemia syndrome, OMIM:238970"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CAC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1421",
+        "gene_name": "solute carrier family 25 member 20",
+        "omim_gene": [
+          "613698"
+        ],
+        "alias_name": [
+          "carnitine-acylcarnitine carrier",
+          "carnitine/acylcarnitine translocase"
+        ],
+        "gene_symbol": "SLC25A20",
+        "hgnc_symbol": "SLC25A20",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:48894369-48936426",
+              "ensembl_id": "ENSG00000178537"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:48856931-48898993",
+              "ensembl_id": "ENSG00000178537"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-08-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC25A20",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Carnitine-acylcarnitine translocase deficiency 212138"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "y+LAT-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11065",
+        "gene_name": "solute carrier family 7 member 7",
+        "omim_gene": [
+          "603593"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC7A7",
+        "hgnc_symbol": "SLC7A7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:23242431-23299029",
+              "ensembl_id": "ENSG00000155465"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:22773222-22829820",
+              "ensembl_id": "ENSG00000155465"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-01-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC7A7",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Lysinuric protein intolerance 222700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20533"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26050",
+        "gene_name": "transmembrane protein 70",
+        "omim_gene": [
+          "612418"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TMEM70",
+        "hgnc_symbol": "TMEM70",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:74884672-74895018",
+              "ensembl_id": "ENSG00000175606"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:73972437-73982783",
+              "ensembl_id": "ENSG00000175606"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMEM70",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26550569",
+        "24740313",
+        "21147908"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex V (ATP synthase) deficiency, nuclear type 2\t614052"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NPD002",
+          "MGC14452"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21497",
+        "gene_name": "acyl-CoA dehydrogenase family member 9",
+        "omim_gene": [
+          "611103"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACAD9",
+        "hgnc_symbol": "ACAD9",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:128598439-128634910",
+              "ensembl_id": "ENSG00000177646"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:128879596-128916067",
+              "ensembl_id": "ENSG00000177646"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACAD9",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17564966"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency due to ACAD9 deficiency\t 611126",
+        "Reye-like presentation with hyperammonaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LCAD",
+          "ACAD4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:88",
+        "gene_name": "acyl-CoA dehydrogenase long chain",
+        "omim_gene": [
+          "609576"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACADL",
+        "hgnc_symbol": "ACADL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:211052663-211090215",
+              "ensembl_id": "ENSG00000115361"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:210187939-210225491",
+              "ensembl_id": "ENSG00000115361"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-11-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACADL",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "doi: 10.1038/ng.507",
+        "PMC3773904"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SCAD",
+          "ACAD3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:90",
+        "gene_name": "acyl-CoA dehydrogenase short chain",
+        "omim_gene": [
+          "606885"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACADS",
+        "hgnc_symbol": "ACADS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:121163538-121177811",
+              "ensembl_id": "ENSG00000122971"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:120725735-120740008",
+              "ensembl_id": "ENSG00000122971"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACADS",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Acyl-CoA dehydrogenase, short-chain, deficiency of\t201470",
+        "SCAD deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:27288",
+        "gene_name": "acyl-CoA synthetase family member 3",
+        "omim_gene": [
+          "614245"
+        ],
+        "alias_name": [
+          "malonyl-CoA synthetase"
+        ],
+        "gene_symbol": "ACSF3",
+        "hgnc_symbol": "ACSF3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:89154783-89222254",
+              "ensembl_id": "ENSG00000176715"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:89088375-89155846",
+              "ensembl_id": "ENSG00000176715"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-10-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACSF3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ASRG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:318",
+        "gene_name": "aspartylglucosaminidase",
+        "omim_gene": [
+          "613228"
+        ],
+        "alias_name": [
+          "glycosylasparaginase",
+          "N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase"
+        ],
+        "gene_symbol": "AGA",
+        "hgnc_symbol": "AGA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:178351924-178363657",
+              "ensembl_id": "ENSG00000038002"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:177430770-177442503",
+              "ensembl_id": "ENSG00000038002"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:321",
+        "gene_name": "amylo-alpha-1, 6-glucosidase, 4-alpha-glucanotransferase",
+        "omim_gene": [
+          "610860"
+        ],
+        "alias_name": [
+          "glycogen debranching enzyme",
+          "glycogen storage disease type III"
+        ],
+        "gene_symbol": "AGL",
+        "hgnc_symbol": "AGL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:100315640-100389579",
+              "ensembl_id": "ENSG00000162688"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:99850084-99924023",
+              "ensembl_id": "ENSG00000162688"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-07-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGL",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:713",
+        "gene_name": "arylsulfatase A",
+        "omim_gene": [
+          "607574"
+        ],
+        "alias_name": [
+          "metachromatic leucodystrophy"
+        ],
+        "gene_symbol": "ARSA",
+        "hgnc_symbol": "ARSA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:51061182-51066607",
+              "ensembl_id": "ENSG00000100299"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:50622754-50628173",
+              "ensembl_id": "ENSG00000100299"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARSA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Metachromatic leukodystrophy\t250100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:714",
+        "gene_name": "arylsulfatase B",
+        "omim_gene": [
+          "611542"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ARSB",
+        "hgnc_symbol": "ARSB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:78073032-78281910",
+              "ensembl_id": "ENSG00000113273"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:78777209-78986087",
+              "ensembl_id": "ENSG00000113273"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARSB",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis type VI (Maroteaux-Lamy)\t253200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Atp12p",
+          "ATP12",
+          "LP3663",
+          "MGC29736"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18802",
+        "gene_name": "ATP synthase mitochondrial F1 complex assembly factor 2",
+        "omim_gene": [
+          "608918"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ATPAF2",
+        "hgnc_symbol": "ATPAF2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:17880723-17942523",
+              "ensembl_id": "ENSG00000171953"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:17977409-18039209",
+              "ensembl_id": "ENSG00000171953"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-07-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATPAF2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex V (ATP synthase) deficiency, nuclear type 1\t604273"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "8D6",
+          "8D6A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16692",
+        "gene_name": "CD320 molecule",
+        "omim_gene": [
+          "606475"
+        ],
+        "alias_name": [
+          "8D6 antigen"
+        ],
+        "gene_symbol": "CD320",
+        "hgnc_symbol": "CD320",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:8367011-8373240",
+              "ensembl_id": "ENSG00000167775"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:8302127-8308356",
+              "ensembl_id": "ENSG00000167775"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "CD320",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JNCL",
+          "BTN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2074",
+        "gene_name": "CLN3, battenin",
+        "omim_gene": [
+          "607042"
+        ],
+        "alias_name": [
+          "juvenile neuronal ceroid lipofuscinosis"
+        ],
+        "gene_symbol": "CLN3",
+        "hgnc_symbol": "CLN3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:28477983-28506896",
+              "ensembl_id": "ENSG00000188603"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:28474111-28495575",
+              "ensembl_id": "ENSG00000188603"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLN3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2076",
+        "gene_name": "CLN5, intracellular trafficking protein",
+        "omim_gene": [
+          "608102"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CLN5",
+        "hgnc_symbol": "CLN5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:77564795-77576652",
+              "ensembl_id": "ENSG00000102805"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:76990660-77019143",
+              "ensembl_id": "ENSG00000102805"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLN5",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20561",
+          "HsT18960",
+          "nclf"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2077",
+        "gene_name": "CLN6, transmembrane ER protein",
+        "omim_gene": [
+          "606725"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CLN6",
+        "hgnc_symbol": "CLN6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:68499330-68549549",
+              "ensembl_id": "ENSG00000128973"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:68206992-68257211",
+              "ensembl_id": "ENSG00000128973"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-10-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLN6",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ39417"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2079",
+        "gene_name": "CLN8, transmembrane ER and ERGIC protein",
+        "omim_gene": [
+          "607837"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CLN8",
+        "hgnc_symbol": "CLN8",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:1703944-1734738",
+              "ensembl_id": "ENSG00000182372"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:1755778-1801711",
+              "ensembl_id": "ENSG00000182372"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLN8",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CTX",
+          "CP27"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2605",
+        "gene_name": "cytochrome P450 family 27 subfamily A member 1",
+        "omim_gene": [
+          "606530"
+        ],
+        "alias_name": [
+          "cerebrotendinous xanthomatosis"
+        ],
+        "gene_symbol": "CYP27A1",
+        "hgnc_symbol": "CYP27A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:219646472-219680016",
+              "ensembl_id": "ENSG00000135929"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:218781749-218815293",
+              "ensembl_id": "ENSG00000135929"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYP27A1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DLDH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2898",
+        "gene_name": "dihydrolipoamide dehydrogenase",
+        "omim_gene": [
+          "238331"
+        ],
+        "alias_name": [
+          "E3 component of pyruvate dehydrogenase complex, 2-oxo-glutarate complex, branched chain keto acid dehydrogenase complex"
+        ],
+        "gene_symbol": "DLD",
+        "hgnc_symbol": "DLD",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:107531415-107572175",
+              "ensembl_id": "ENSG00000091140"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:107890970-107931730",
+              "ensembl_id": "ENSG00000091140"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "DLD",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3354",
+        "gene_name": "enolase 3",
+        "omim_gene": [
+          "131370"
+        ],
+        "alias_name": [
+          "beta-enolase",
+          "muscle enriched enolase"
+        ],
+        "gene_symbol": "ENO3",
+        "hgnc_symbol": "ENO3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:4851387-4860426",
+              "ensembl_id": "ENSG00000108515"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:4948092-4957131",
+              "ensembl_id": "ENSG00000108515"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "ENO3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GSD1a"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4056",
+        "gene_name": "glucose-6-phosphatase catalytic subunit",
+        "omim_gene": [
+          "613742"
+        ],
+        "alias_name": [
+          "glycogen storage disease type I, von Gierke disease"
+        ],
+        "gene_symbol": "G6PC",
+        "hgnc_symbol": "G6PC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:41052814-41065386",
+              "ensembl_id": "ENSG00000131482"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:42900797-42913369",
+              "ensembl_id": "ENSG00000131482"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "G6PC",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4065",
+        "gene_name": "glucosidase alpha, acid",
+        "omim_gene": [
+          "606800"
+        ],
+        "alias_name": [
+          "Pompe disease",
+          "glycogen storage disease type II"
+        ],
+        "gene_symbol": "GAA",
+        "hgnc_symbol": "GAA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:78075355-78093678",
+              "ensembl_id": "ENSG00000171298"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:80101556-80119879",
+              "ensembl_id": "ENSG00000171298"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GAA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4115",
+        "gene_name": "galactosylceramidase",
+        "omim_gene": [
+          "606890"
+        ],
+        "alias_name": [
+          "Krabbe disease"
+        ],
+        "gene_symbol": "GALC",
+        "hgnc_symbol": "GALC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:88304164-88460009",
+              "ensembl_id": "ENSG00000054983"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:87837820-87993665",
+              "ensembl_id": "ENSG00000054983"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "GALC",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GAS",
+          "GALNAC6S"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4122",
+        "gene_name": "galactosamine (N-acetyl)-6-sulfatase",
+        "omim_gene": [
+          "612222"
+        ],
+        "alias_name": [
+          "Morquio syndrome",
+          "mucopolysaccharidosis type IVA"
+        ],
+        "gene_symbol": "GALNS",
+        "hgnc_symbol": "GALNS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:88880142-88923378",
+              "ensembl_id": "ENSG00000141012"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:88813734-88856970",
+              "ensembl_id": "ENSG00000141012"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "GALNS",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GBA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4177",
+        "gene_name": "glucosylceramidase beta",
+        "omim_gene": [
+          "606463"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GBA",
+        "hgnc_symbol": "GBA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:155204243-155214490",
+              "ensembl_id": "ENSG00000177628"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:155234452-155244699",
+              "ensembl_id": "ENSG00000177628"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GBA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4180",
+        "gene_name": "1,4-alpha-glucan branching enzyme 1",
+        "omim_gene": [
+          "607839"
+        ],
+        "alias_name": [
+          "glycogen branching enzyme",
+          "Andersen disease",
+          "glycogen storage disease type IV"
+        ],
+        "gene_symbol": "GBE1",
+        "hgnc_symbol": "GBE1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:81538850-81811312",
+              "ensembl_id": "ENSG00000114480"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:81489699-81762161",
+              "ensembl_id": "ENSG00000114480"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-06-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "GBE1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GALA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4296",
+        "gene_name": "galactosidase alpha",
+        "omim_gene": [
+          "300644"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLA",
+        "hgnc_symbol": "GLA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:100652791-100662913",
+              "ensembl_id": "ENSG00000102393"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:101397803-101407925",
+              "ensembl_id": "ENSG00000102393"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EBP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4298",
+        "gene_name": "galactosidase beta 1",
+        "omim_gene": [
+          "611458"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLB1",
+        "hgnc_symbol": "GLB1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:33038100-33138722",
+              "ensembl_id": "ENSG00000170266"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:32996608-33097230",
+              "ensembl_id": "ENSG00000170266"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLB1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SAP-3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4367",
+        "gene_name": "GM2 ganglioside activator",
+        "omim_gene": [
+          "613109"
+        ],
+        "alias_name": [
+          "cerebroside sulfate activator protein",
+          "sphingolipid activator protein 3"
+        ],
+        "gene_symbol": "GM2A",
+        "hgnc_symbol": "GM2A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:150591711-150650001",
+              "ensembl_id": "ENSG00000196743"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:151212150-151270440",
+              "ensembl_id": "ENSG00000196743"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GM2A",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1208",
+          "MGC4170"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29670",
+        "gene_name": "N-acetylglucosamine-1-phosphate transferase alpha and beta subunits",
+        "omim_gene": [
+          "607840"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GNPTAB",
+        "hgnc_symbol": "GNPTAB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:102139275-102224716",
+              "ensembl_id": "ENSG00000111670"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:101745497-101830938",
+              "ensembl_id": "ENSG00000111670"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-09-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNPTAB",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GSY"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4706",
+        "gene_name": "glycogen synthase 1",
+        "omim_gene": [
+          "138570"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GYS1",
+        "hgnc_symbol": "GYS1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:49471382-49496567",
+              "ensembl_id": "ENSG00000104812"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:48968125-48993310",
+              "ensembl_id": "ENSG00000104812"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-08-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "GYS1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4707",
+        "gene_name": "glycogen synthase 2",
+        "omim_gene": [
+          "138571"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GYS2",
+        "hgnc_symbol": "GYS2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:21689123-21757781",
+              "ensembl_id": "ENSG00000111713"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:21536189-21604847",
+              "ensembl_id": "ENSG00000111713"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "GYS2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ32731",
+          "HGNAT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26527",
+        "gene_name": "heparan-alpha-glucosaminide N-acetyltransferase",
+        "omim_gene": [
+          "610453"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HGSNAT",
+        "hgnc_symbol": "HGSNAT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:42995556-43057998",
+              "ensembl_id": "ENSG00000165102"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:43140455-43202855",
+              "ensembl_id": "ENSG00000165102"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-08-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "HGSNAT",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5008",
+        "gene_name": "3-hydroxy-3-methylglutaryl-CoA synthase 2",
+        "omim_gene": [
+          "600234"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HMGCS2",
+        "hgnc_symbol": "HMGCS2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:120290619-120311528",
+              "ensembl_id": "ENSG00000134240"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:119747996-119768905",
+              "ensembl_id": "ENSG00000134240"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-05-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "HMGCS2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "HMG-CoA synthase-2 deficiency 605911"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LUCA1",
+          "HYAL-1",
+          "FUS2",
+          "NAT6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5320",
+        "gene_name": "hyaluronoglucosaminidase 1",
+        "omim_gene": [
+          "607071"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HYAL1",
+        "hgnc_symbol": "HYAL1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:50337320-50349812",
+              "ensembl_id": "ENSG00000114378"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:50299889-50312381",
+              "ensembl_id": "ENSG00000114378"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "HYAL1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5389",
+        "gene_name": "iduronate 2-sulfatase",
+        "omim_gene": [
+          "300823"
+        ],
+        "alias_name": [
+          "Hunter syndrome"
+        ],
+        "gene_symbol": "IDS",
+        "hgnc_symbol": "IDS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:148558521-148615470",
+              "ensembl_id": "ENSG00000010404"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:149476990-149521096",
+              "ensembl_id": "ENSG00000010404"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "IDS",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MPS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5391",
+        "gene_name": "iduronidase, alpha-L-",
+        "omim_gene": [
+          "252800"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IDUA",
+        "hgnc_symbol": "IDUA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:980785-998316",
+              "ensembl_id": "ENSG00000127415"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:986997-1004506",
+              "ensembl_id": "ENSG00000127415"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "IDUA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LAL",
+          "CESD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6617",
+        "gene_name": "lipase A, lysosomal acid type",
+        "omim_gene": [
+          "613497"
+        ],
+        "alias_name": [
+          "Wolman disease",
+          "lysosomal acid lipase",
+          "sterol esterase"
+        ],
+        "gene_symbol": "LIPA",
+        "hgnc_symbol": "LIPA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:90973326-91174314",
+              "ensembl_id": "ENSG00000107798"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:89213569-89414557",
+              "ensembl_id": "ENSG00000107798"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "LIPA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ11240",
+          "bA810I22.1",
+          "cblF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23038",
+        "gene_name": "LMBR1 domain containing 1",
+        "omim_gene": [
+          "612625"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LMBRD1",
+        "hgnc_symbol": "LMBRD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:70385694-70507003",
+              "ensembl_id": "ENSG00000168216"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:69675802-69797111",
+              "ensembl_id": "ENSG00000168216"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "LMBRD1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0188"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13345",
+        "gene_name": "lipin 1",
+        "omim_gene": [
+          "605518"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LPIN1",
+        "hgnc_symbol": "LPIN1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:11817721-11967535",
+              "ensembl_id": "ENSG00000134324"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:11677595-11827409",
+              "ensembl_id": "ENSG00000134324"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-01-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "LPIN1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LAMAN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6826",
+        "gene_name": "mannosidase alpha class 2B member 1",
+        "omim_gene": [
+          "609458"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAN2B1",
+        "hgnc_symbol": "MAN2B1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:12757325-12777556",
+              "ensembl_id": "ENSG00000104774"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:12646511-12666742",
+              "ensembl_id": "ENSG00000104774"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAN2B1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6831",
+        "gene_name": "mannosidase beta",
+        "omim_gene": [
+          "609489"
+        ],
+        "alias_name": [
+          "beta-mannosidase A"
+        ],
+        "gene_symbol": "MANBA",
+        "hgnc_symbol": "MANBA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:103552660-103682151",
+              "ensembl_id": "ENSG00000109323"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:102631488-102760994",
+              "ensembl_id": "ENSG00000109323"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "MANBA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MCCA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6936",
+        "gene_name": "methylcrotonoyl-CoA carboxylase 1",
+        "omim_gene": [
+          "609010"
+        ],
+        "alias_name": [
+          "methylcrotonoyl-CoA carboxylase alpha"
+        ],
+        "gene_symbol": "MCCC1",
+        "hgnc_symbol": "MCCC1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:182733006-182833863",
+              "ensembl_id": "ENSG00000078070"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:183015218-183116075",
+              "ensembl_id": "ENSG00000078070"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "MCCC1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MCCB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6937",
+        "gene_name": "methylcrotonoyl-CoA carboxylase 2",
+        "omim_gene": [
+          "609014"
+        ],
+        "alias_name": [
+          "methylcrotonoyl-CoA carboxylase beta"
+        ],
+        "gene_symbol": "MCCC2",
+        "hgnc_symbol": "MCCC2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:70883115-70954531",
+              "ensembl_id": "ENSG00000131844"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:71587288-71658704",
+              "ensembl_id": "ENSG00000131844"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "MCCC2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GLOD2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16732",
+        "gene_name": "methylmalonyl-CoA epimerase",
+        "omim_gene": [
+          "608419"
+        ],
+        "alias_name": [
+          "glyoxalase domain containing 2"
+        ],
+        "gene_symbol": "MCEE",
+        "hgnc_symbol": "MCEE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:71336814-71357369",
+              "ensembl_id": "ENSG00000124370"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:71109684-71130239",
+              "ensembl_id": "ENSG00000124370"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-10-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "MCEE",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRPML1",
+          "ML4",
+          "MLIV",
+          "MST080",
+          "MSTP080",
+          "TRPM-L1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13356",
+        "gene_name": "mucolipin 1",
+        "omim_gene": [
+          "605248"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MCOLN1",
+        "hgnc_symbol": "MCOLN1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:7587512-7598895",
+              "ensembl_id": "ENSG00000090674"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:7522626-7534009",
+              "ensembl_id": "ENSG00000090674"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "MCOLN1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC33302"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28486",
+        "gene_name": "major facilitator superfamily domain containing 8",
+        "omim_gene": [
+          "611124"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MFSD8",
+        "hgnc_symbol": "MFSD8",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:128838960-128887150",
+              "ensembl_id": "ENSG00000164073"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:127917732-127966034",
+              "ensembl_id": "ENSG00000164073"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-02-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "MFSD8",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZP564I122",
+          "cblC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24525",
+        "gene_name": "methylmalonic aciduria (cobalamin deficiency) cblC type, with homocystinuria",
+        "omim_gene": [
+          "609831"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MMACHC",
+        "hgnc_symbol": "MMACHC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:45965725-45976739",
+              "ensembl_id": "ENSG00000132763"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:45500053-45513382",
+              "ensembl_id": "ENSG00000132763"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-01-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "MMACHC",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Methylmalonic aciduria and homocystinuria, cblC type\t277400"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cblG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7468",
+        "gene_name": "5-methyltetrahydrofolate-homocysteine methyltransferase",
+        "omim_gene": [
+          "156570"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MTR",
+        "hgnc_symbol": "MTR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:236958610-237067281",
+              "ensembl_id": "ENSG00000116984"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:236795281-236903981",
+              "ensembl_id": "ENSG00000116984"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "MTR",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cblE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7473",
+        "gene_name": "5-methyltetrahydrofolate-homocysteine methyltransferase reductase",
+        "omim_gene": [
+          "602568"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MTRR",
+        "hgnc_symbol": "MTRR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:7851299-7906138",
+              "ensembl_id": "ENSG00000124275"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:7851186-7906025",
+              "ensembl_id": "ENSG00000124275"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "MTRR",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D22S674"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7631",
+        "gene_name": "alpha-N-acetylgalactosaminidase",
+        "omim_gene": [
+          "104170"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NAGA",
+        "hgnc_symbol": "NAGA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:42454358-42466846",
+              "ensembl_id": "ENSG00000198951"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:42058354-42070842",
+              "ensembl_id": "ENSG00000198951"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "NAGA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NAG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7632",
+        "gene_name": "N-acetyl-alpha-glucosaminidase",
+        "omim_gene": [
+          "609701"
+        ],
+        "alias_name": [
+          "Sanfilippo disease IIIB"
+        ],
+        "gene_symbol": "NAGLU",
+        "hgnc_symbol": "NAGLU",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:40688190-40696467",
+              "ensembl_id": "ENSG00000108784"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:42536172-42544449",
+              "ensembl_id": "ENSG00000108784"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "NAGLU",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7758",
+        "gene_name": "neuraminidase 1",
+        "omim_gene": [
+          "608272"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NEU1",
+        "hgnc_symbol": "NEU1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31825436-31830683",
+              "ensembl_id": "ENSG00000204386"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31857659-31862906",
+              "ensembl_id": "ENSG00000204386"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "NEU1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7897",
+        "gene_name": "NPC intracellular cholesterol transporter 1",
+        "omim_gene": [
+          "607623"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NPC1",
+        "hgnc_symbol": "NPC1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:21086148-21166862",
+              "ensembl_id": "ENSG00000141458"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:23506184-23586898",
+              "ensembl_id": "ENSG00000141458"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-04-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "NPC1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HE1",
+          "NP-C2",
+          "EDDM1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14537",
+        "gene_name": "NPC intracellular cholesterol transporter 2",
+        "omim_gene": [
+          "601015"
+        ],
+        "alias_name": [
+          "epididymal protein 1"
+        ],
+        "gene_symbol": "NPC2",
+        "hgnc_symbol": "NPC2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:74942895-74960880",
+              "ensembl_id": "ENSG00000119655"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:74476192-74494177",
+              "ensembl_id": "ENSG00000119655"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "NPC2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ22187",
+          "MGA3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8142",
+        "gene_name": "OPA3, outer mitochondrial membrane lipid metabolism regulator",
+        "omim_gene": [
+          "606580"
+        ],
+        "alias_name": null,
+        "gene_symbol": "OPA3",
+        "hgnc_symbol": "OPA3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:46030685-46105470",
+              "ensembl_id": "ENSG00000125741"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:45527427-45602212",
+              "ensembl_id": "ENSG00000125741"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-03-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "OPA3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PFK-1",
+          "PPP1R122"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8877",
+        "gene_name": "phosphofructokinase, muscle",
+        "omim_gene": [
+          "610681"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 122"
+        ],
+        "gene_symbol": "PFKM",
+        "hgnc_symbol": "PFKM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:48498922-48540187",
+              "ensembl_id": "ENSG00000152556"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:48105139-48146404",
+              "ensembl_id": "ENSG00000152556"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PFKM",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CLN1",
+          "INCL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9325",
+        "gene_name": "palmitoyl-protein thioesterase 1",
+        "omim_gene": [
+          "600722"
+        ],
+        "alias_name": [
+          "ceroid-lipofuscinosis, neuronal 1, infantile"
+        ],
+        "gene_symbol": "PPT1",
+        "hgnc_symbol": "PPT1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:40538379-40563375",
+              "ensembl_id": "ENSG00000131238"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:40071461-40097727",
+              "ensembl_id": "ENSG00000131238"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-06-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "PPT1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9725",
+        "gene_name": "glycogen phosphorylase L",
+        "omim_gene": [
+          "613741"
+        ],
+        "alias_name": [
+          "Hers disease",
+          "glycogen storage disease type VI",
+          "glycogen phosphorylase, liver form"
+        ],
+        "gene_symbol": "PYGL",
+        "hgnc_symbol": "PYGL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:51324609-51411454",
+              "ensembl_id": "ENSG00000100504"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:50857891-50944736",
+              "ensembl_id": "ENSG00000100504"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PYGL",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSS",
+          "MPS3A",
+          "SFMD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10818",
+        "gene_name": "N-sulfoglucosamine sulfohydrolase",
+        "omim_gene": [
+          "605270"
+        ],
+        "alias_name": [
+          "sulfamidase",
+          "mucopolysaccharidosis type IIIA"
+        ],
+        "gene_symbol": "SGSH",
+        "hgnc_symbol": "SGSH",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:78180515-78194722",
+              "ensembl_id": "ENSG00000181523"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:80206716-80220923",
+              "ensembl_id": "ENSG00000181523"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-06-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "SGSH",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AST",
+          "SD",
+          "ISSD",
+          "NSD",
+          "SIALIN",
+          "SLD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10933",
+        "gene_name": "solute carrier family 17 member 5",
+        "omim_gene": [
+          "604322"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC17A5",
+        "hgnc_symbol": "SLC17A5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:74303102-74363878",
+              "ensembl_id": "ENSG00000119899"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:73593379-73654155",
+              "ensembl_id": "ENSG00000119899"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-01-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC17A5",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GSD1b",
+          "GSD1c",
+          "GSD1d"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4061",
+        "gene_name": "solute carrier family 37 member 4",
+        "omim_gene": [
+          "602671"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC37A4",
+        "hgnc_symbol": "SLC37A4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:118894824-118901616",
+              "ensembl_id": "ENSG00000137700"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:119024114-119030906",
+              "ensembl_id": "ENSG00000137700"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC37A4",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ASM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11120",
+        "gene_name": "sphingomyelin phosphodiesterase 1",
+        "omim_gene": [
+          "607608"
+        ],
+        "alias_name": [
+          "acid sphingomyelinase"
+        ],
+        "gene_symbol": "SMPD1",
+        "hgnc_symbol": "SMPD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:6411655-6416228",
+              "ensembl_id": "ENSG00000166311"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:6390431-6394998",
+              "ensembl_id": "ENSG00000166311"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMPD1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11449",
+        "gene_name": "succinate-CoA ligase alpha subunit",
+        "omim_gene": [
+          "611224"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SUCLG1",
+        "hgnc_symbol": "SUCLG1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:84650647-84687169",
+              "ensembl_id": "ENSG00000163541"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:84423523-84460045",
+              "ensembl_id": "ENSG00000163541"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "SUCLG1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FGE",
+          "UNQ3037"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20376",
+        "gene_name": "sulfatase modifying factor 1",
+        "omim_gene": [
+          "607939"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SUMF1",
+        "hgnc_symbol": "SUMF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:3742498-4508965",
+              "ensembl_id": "ENSG00000144455"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:3700814-4467281",
+              "ensembl_id": "ENSG00000144455"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-04-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SUMF1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BTHS",
+          "XAP-2",
+          "G4.5",
+          "TAZ1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11577",
+        "gene_name": "tafazzin",
+        "omim_gene": [
+          "300394"
+        ],
+        "alias_name": [
+          "Barth syndrome"
+        ],
+        "gene_symbol": "TAZ",
+        "hgnc_symbol": "TAZ",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153639854-153650065",
+              "ensembl_id": "ENSG00000102125"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154411518-154421726",
+              "ensembl_id": "ENSG00000102125"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "TAZ",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2073",
+        "gene_name": "tripeptidyl peptidase 1",
+        "omim_gene": [
+          "607998"
+        ],
+        "alias_name": [
+          "TPP I"
+        ],
+        "gene_symbol": "TPP1",
+        "hgnc_symbol": "TPP1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:6634000-6640692",
+              "ensembl_id": "ENSG00000166340"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:6612763-6619461",
+              "ensembl_id": "ENSG00000166340"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-12-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "TPP1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

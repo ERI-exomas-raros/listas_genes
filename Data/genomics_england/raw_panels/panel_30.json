@@ -1,0 +1,349 @@
+{
+  "id": 30,
+  "hash_id": "554a0ac9bb5a167e4ccd1ec0",
+  "name": "Chondrodysplasia punctata",
+  "disease_group": "Skeletal disorders",
+  "disease_sub_group": "Skeletal dysplasias",
+  "status": "public",
+  "version": "1.7",
+  "version_created": "2026-05-01T14:43:50.098947Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 6,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "ADHAPS",
+          "ADAS",
+          "ALDHPSY",
+          "ADPS",
+          "ADAP-S"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:327",
+        "gene_name": "alkylglycerone phosphate synthase",
+        "omim_gene": [
+          "603051"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AGPS",
+        "hgnc_symbol": "AGPS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:178257372-178408564",
+              "ensembl_id": "ENSG00000018510"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:177392644-177559299",
+              "ensembl_id": "ENSG00000018510"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGPS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Rhizomelic chondrodysplasia punctata, type 3, 600121"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:719",
+        "gene_name": "arylsulfatase E (chondrodysplasia punctata 1)",
+        "omim_gene": [
+          "300180"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ARSE",
+        "hgnc_symbol": "ARSE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:2852699-2886286",
+              "ensembl_id": "ENSG00000157399"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:2934632-2968310",
+              "ensembl_id": "ENSG00000157399"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-04-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARSE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Chondrodysplasia punctata, X-linked recessive, 302950",
+        "X-linked recessive chondrodysplasia punctata",
+        "CHONDRODYSPLASIA PUNCTATA 1, X-LINKED"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CPX",
+          "CPXD",
+          "CHO2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3133",
+        "gene_name": "emopamil binding protein (sterol isomerase)",
+        "omim_gene": [
+          "300205"
+        ],
+        "alias_name": [
+          "3-beta-hydroxysteroid-delta-8,delta-7-isomerase",
+          "Chondrodysplasia punctata-2, X-linked dominant (Happle syndrome)",
+          "sterol 8-isomerase"
+        ],
+        "gene_symbol": "EBP",
+        "hgnc_symbol": "EBP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:48379546-48387104",
+              "ensembl_id": "ENSG00000147155"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:48521158-48528716",
+              "ensembl_id": "ENSG00000147155"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-02-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "EBP",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Chondrodysplasia punctata, X-linked dominant, 302960",
+        "X-linked dominant chondrodysplasia punctata",
+        "MEND syndrome"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DHAPAT",
+          "DAPAT",
+          "DAP-AT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4416",
+        "gene_name": "glyceronephosphate O-acyltransferase",
+        "omim_gene": [
+          "602744"
+        ],
+        "alias_name": [
+          "glycerone-phosphate O-acyltransferase",
+          "dihydroxyacetone phosphate acyltransferase"
+        ],
+        "gene_symbol": "GNPAT",
+        "hgnc_symbol": "GNPAT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:231376953-231413719",
+              "ensembl_id": "ENSG00000116906"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:231241207-231277973",
+              "ensembl_id": "ENSG00000116906"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNPAT",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Rhizomelic Chondrodysplasia Punctata",
+        "Chondrodysplasia punctata, rhizomelic, type 2, 222765",
+        "Rhizomelic chondrodysplasia punctata type 2"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PTS2R",
+          "RD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8860",
+        "gene_name": "peroxisomal biogenesis factor 7",
+        "omim_gene": [
+          "601757"
+        ],
+        "alias_name": [
+          "Refsum disease"
+        ],
+        "gene_symbol": "PEX7",
+        "hgnc_symbol": "PEX7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:137143717-137235075",
+              "ensembl_id": "ENSG00000112357"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:136822564-136913937",
+              "ensembl_id": "ENSG00000112357"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX7",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 9B, OMIM:614879",
+        "Rhizomelic chondrodysplasia punctata, type 1, OMIM:215100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC16824"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24641",
+        "gene_name": "chromosome 16 open reading frame 62",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "C16orf62",
+        "hgnc_symbol": "C16orf62",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:19566562-19718115",
+              "ensembl_id": "ENSG00000103544"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:19555240-19706793",
+              "ensembl_id": "ENSG00000103544"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-10-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "C16orf62",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31712251"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ritscher-Schinzel syndrome 3, OMIM:619135"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name",
+        "gene-checked"
+      ],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

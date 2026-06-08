@@ -1,0 +1,2544 @@
+{
+  "id": 554,
+  "hash_id": null,
+  "name": "Epidermolysis bullosa and congenital skin fragility",
+  "disease_group": "Dermatology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.15",
+  "version_created": "2026-05-20T14:52:58.709334Z",
+  "relevant_disorders": [
+    "R164"
+  ],
+  "stats": {
+    "number_of_genes": 47,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1347",
+          "ATP2C1A",
+          "PMR1",
+          "SPCA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13211",
+        "gene_name": "ATPase secretory pathway Ca2+ transporting 1",
+        "omim_gene": [
+          "604384"
+        ],
+        "alias_name": [
+          "secretory pathway Ca2+/Mn2+ ATPase 1",
+          "calcium-transporting ATPase type 2C member 1"
+        ],
+        "gene_symbol": "ATP2C1",
+        "hgnc_symbol": "ATP2C1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:130569439-130735556",
+              "ensembl_id": "ENSG00000017260"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:130850595-131016712",
+              "ensembl_id": "ENSG00000017260"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP2C1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hailey-Hailey disease, OMIM:169600"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1515",
+        "gene_name": "calpastatin",
+        "omim_gene": [
+          "114090"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CAST",
+        "hgnc_symbol": "CAST",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:95860971-96115299",
+              "ensembl_id": "ENSG00000153113"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:96525267-96779595",
+              "ensembl_id": "ENSG00000153113"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-07-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "CAST",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25683118"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Peeling skin with leukonychia, acral punctate keratoses, cheilitis, and knuckle pads, OMIM:616295"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D6S586E"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1802",
+        "gene_name": "corneodesmosin",
+        "omim_gene": [
+          "602593"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDSN",
+        "hgnc_symbol": "CDSN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31082867-31088223",
+              "ensembl_id": "ENSG00000204539"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31115090-31120446",
+              "ensembl_id": "ENSG00000204539"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-05-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDSN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21191406",
+        "22146835",
+        "23957618",
+        "20691404"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Peeling skin syndrome 1, OMIM:270300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BP180"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2194",
+        "gene_name": "collagen type XVII alpha 1 chain",
+        "omim_gene": [
+          "113811"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL17A1",
+        "hgnc_symbol": "COL17A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:105791044-105845760",
+              "ensembl_id": "ENSG00000065618"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:104031286-104086002",
+              "ensembl_id": "ENSG00000065618"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL17A1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "7550320",
+        "9012408",
+        "10577906",
+        "10951237"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa, junctional 4, intermediate, OMIM:619787"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2214",
+        "gene_name": "collagen type VII alpha 1 chain",
+        "omim_gene": [
+          "120120"
+        ],
+        "alias_name": [
+          "collagen VII, alpha-1 polypeptide",
+          "LC collagen"
+        ],
+        "gene_symbol": "COL7A1",
+        "hgnc_symbol": "COL7A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:48601506-48632700",
+              "ensembl_id": "ENSG00000114270"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:48564073-48595267",
+              "ensembl_id": "ENSG00000114270"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-11-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL7A1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11781296",
+        "24599399",
+        "20055845",
+        "19197535",
+        "23616197"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa dystrophica (AD), OMIM:131750",
+        "Epidermolysis bullosa, pretibial (AR,AD), OMIM:131850",
+        "Epidermolysis bullosa dystrophica (AR), OMIM:226600",
+        "EBD, Bart type (AD), OMIM:132000",
+        "Epidermolysis bullosa pruriginosa, OMIM:604129",
+        "Transient bullous of the newborn (AR,AD), OMIM:131705",
+        "EBD inversa (AR), OMIM:226600"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2481",
+        "gene_name": "cystatin A",
+        "omim_gene": [
+          "184600"
+        ],
+        "alias_name": [
+          "stefin A"
+        ],
+        "gene_symbol": "CSTA",
+        "hgnc_symbol": "CSTA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:122044091-122060819",
+              "ensembl_id": "ENSG00000121552"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:122325244-122341972",
+              "ensembl_id": "ENSG00000121552"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-02-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "CSTA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23534700",
+        "26684698",
+        "25400170",
+        "21944047"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Peeling skin syndrome 4, OMIM:607936"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDHF4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3048",
+        "gene_name": "desmoglein 1",
+        "omim_gene": [
+          "125670"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSG1",
+        "hgnc_symbol": "DSG1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:28898052-28936992",
+              "ensembl_id": "ENSG00000134760"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:31318089-31357029",
+              "ensembl_id": "ENSG00000134760"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSG1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Erythroderma, congenital, with palmoplantar keratoderma, hypotrichosis, and hyper IgE, OMIM:615508",
+        "Keratosis palmoplantaris striata I, AD, OMIM:148700"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KPPS2",
+          "PPKS2",
+          "DPI",
+          "DPII"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3052",
+        "gene_name": "desmoplakin",
+        "omim_gene": [
+          "125647"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSP",
+        "hgnc_symbol": "DSP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:7541808-7586950",
+              "ensembl_id": "ENSG00000096696"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:7541575-7586717",
+              "ensembl_id": "ENSG00000096696"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa, lethal acantholytic, OMIM:609638",
+        "Skin fragility-woolly hair syndrome, OMIM:607655"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BP240",
+          "KIAA0728",
+          "FLJ21489",
+          "FLJ13425",
+          "FLJ32235",
+          "FLJ30627",
+          "CATX-15",
+          "BPA",
+          "MACF2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1090",
+        "gene_name": "dystonin",
+        "omim_gene": [
+          "113810"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DST",
+        "hgnc_symbol": "DST",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:56322785-56819426",
+              "ensembl_id": "ENSG00000151914"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:56457987-56954628",
+              "ensembl_id": "ENSG00000151914"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "DST",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27669234",
+        "26719633",
+        "25059916",
+        "22113475",
+        "20164846"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa simplex, autosomal recessive 2, OMIM:615425"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SLAC2-B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30578",
+        "gene_name": "exophilin 5",
+        "omim_gene": [
+          "612878"
+        ],
+        "alias_name": [
+          "synaptotagmin-like homologue lacking C2 domains b"
+        ],
+        "gene_symbol": "EXPH5",
+        "hgnc_symbol": "EXPH5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:108376158-108464465",
+              "ensembl_id": "ENSG00000110723"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:108505431-108593738",
+              "ensembl_id": "ENSG00000110723"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-10-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "EXPH5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23176819",
+        "27730671",
+        "26719633"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa, nonspecific, autosomal recessive, OMIM:615028"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20116",
+          "URP1",
+          "KIND1",
+          "UNC112A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15889",
+        "gene_name": "fermitin family member 1",
+        "omim_gene": [
+          "607900"
+        ],
+        "alias_name": [
+          "kindlin-1",
+          "kinderlin"
+        ],
+        "gene_symbol": "FERMT1",
+        "hgnc_symbol": "FERMT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:6055492-6104191",
+              "ensembl_id": "ENSG00000101311"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:6074845-6123544",
+              "ensembl_id": "ENSG00000101311"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "FERMT1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12789646",
+        "27489438",
+        "27862150",
+        "12668616"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Kindler syndrome, OMIM:173650"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IFPS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:33276",
+        "gene_name": "filaggrin family member 2",
+        "omim_gene": [
+          "616284"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FLG2",
+        "hgnc_symbol": "FLG2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:152321211-152332482",
+              "ensembl_id": "ENSG00000143520"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:152348735-152360006",
+              "ensembl_id": "ENSG00000143520"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLG2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Peeling skin syndrome 6, OMIM:618084"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IKK-gamma",
+          "NEMO",
+          "Fip3p",
+          "FIP-3",
+          "FIP3",
+          "ZC2HC9"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:5961",
+        "gene_name": "inhibitor of nuclear factor kappa B kinase subunit gamma",
+        "omim_gene": [
+          "300248"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IKBKG",
+        "hgnc_symbol": "IKBKG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153769414-153796782",
+              "ensembl_id": "ENSG00000073009"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154541199-154565046",
+              "ensembl_id": "ENSG00000269335"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "IKBKG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Incontinentia pigmenti, OMIM:308300"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "currently-ngs-unreportable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD49c",
+          "VLA3a",
+          "VCA-2",
+          "GAP-B3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6139",
+        "gene_name": "integrin subunit alpha 3",
+        "omim_gene": [
+          "605025"
+        ],
+        "alias_name": [
+          "alpha 3 subunit of VLA-3 receptor",
+          "antigen CD49C"
+        ],
+        "gene_symbol": "ITGA3",
+        "hgnc_symbol": "ITGA3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:48133332-48167845",
+              "ensembl_id": "ENSG00000005884"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:50055968-50090481",
+              "ensembl_id": "ENSG00000005884"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "ITGA3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26854491",
+        "23114595",
+        "27717396",
+        "22512483",
+        "26719633"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Interstitial lung disease, nephrotic syndrome, and epidermolysis bullosa, congenital, OMIM:614748"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD49f"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6142",
+        "gene_name": "integrin subunit alpha 6",
+        "omim_gene": [
+          "147556"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ITGA6",
+        "hgnc_symbol": "ITGA6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:173292082-173371181",
+              "ensembl_id": "ENSG00000091409"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:172427354-172506282",
+              "ensembl_id": "ENSG00000091409"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "ITGA6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27186702",
+        "9185503",
+        "26739954",
+        "26817667"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa, junctional, with pyloric stenosis, OMIM:226730"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD104"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6158",
+        "gene_name": "integrin subunit beta 4",
+        "omim_gene": [
+          "147557"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ITGB4",
+        "hgnc_symbol": "ITGB4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:73717408-73753899",
+              "ensembl_id": "ENSG00000132470"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:75721328-75757818",
+              "ensembl_id": "ENSG00000132470"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "ITGB4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18348258",
+        "10792571",
+        "7545057",
+        "10484780"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa, junctional, non-Herlitz type, OMIM:226650",
+        "Epidermolysis bullosa, junctional, with pyloric atresia, OMIM:226730"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DP3",
+          "PDGB",
+          "PKGB",
+          "DPIII"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6207",
+        "gene_name": "junction plakoglobin",
+        "omim_gene": [
+          "173325"
+        ],
+        "alias_name": null,
+        "gene_symbol": "JUP",
+        "hgnc_symbol": "JUP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:39775692-39943183",
+              "ensembl_id": "ENSG00000173801"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:41754604-41786931",
+              "ensembl_id": "ENSG00000173801"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "JUP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20130592",
+        "19067702",
+        "10902626",
+        "21668431"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Naxos disease, OMIM:601214",
+        "Generalised skin fragility, epidermolysis bullosa"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DRE1",
+          "FLJ20059"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25947",
+        "gene_name": "kelch like family member 24",
+        "omim_gene": [
+          "611295"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KLHL24",
+        "hgnc_symbol": "KLHL24",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:183353356-183402265",
+              "ensembl_id": "ENSG00000114796"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:183635568-183684477",
+              "ensembl_id": "ENSG00000114796"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "KLHL24",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "27798626",
+        "27889062",
+        "28111128"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa simplex, generalized, with scarring and hair loss, OMIM:617294"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KRT1A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6412",
+        "gene_name": "keratin 1",
+        "omim_gene": [
+          "139350"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KRT1",
+        "hgnc_symbol": "KRT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:53068520-53074191",
+              "ensembl_id": "ENSG00000167768"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:52674736-52680407",
+              "ensembl_id": "ENSG00000167768"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-09-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRT1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolytic hyperkeratosis, OMIM:113800"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "K10",
+          "CK10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6413",
+        "gene_name": "keratin 10",
+        "omim_gene": [
+          "148080"
+        ],
+        "alias_name": [
+          "cytokeratin 10",
+          "epidermolytic hyperkeratosis"
+        ],
+        "gene_symbol": "KRT10",
+        "hgnc_symbol": "KRT10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:38974369-38978847",
+              "ensembl_id": "ENSG00000186395"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:40818117-40822595",
+              "ensembl_id": "ENSG00000186395"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-08-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRT10",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16505000",
+        "20302579",
+        "23957016",
+        "29277919",
+        "34273205",
+        "38741524"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolytic hyperkeratosis 2B, autosomal recessive, OMIM:620707",
+        "Epidermolytic hyperkeratosis 2A, autosomal dominant, OMIM:620150"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "Q2_26_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6416",
+        "gene_name": "keratin 14",
+        "omim_gene": [
+          "148066"
+        ],
+        "alias_name": [
+          "epidermolysis bullosa simplex, Dowling-Meara, Koebner"
+        ],
+        "gene_symbol": "KRT14",
+        "hgnc_symbol": "KRT14",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:39738531-39743173",
+              "ensembl_id": "ENSG00000186847"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:41582279-41586921",
+              "ensembl_id": "ENSG00000186847"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRT14",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "7506606",
+        "7526933",
+        "12485428",
+        "7525408",
+        "10733662",
+        "16960809",
+        "1720261",
+        "7682883",
+        "7561171",
+        "1717157",
+        "16098032"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa simplex, Weber-Cockayne type (AD), OMIM:131800",
+        "Dermatopathia pigmentosa reticularis (AD), OMIM:125595",
+        "Naegeli-Franceschetti-Jadassohn syndrome (AD), OMIM:161000",
+        "Epidermolysis bullosa simplex, Koebner type (AD), OMIM:131900",
+        "Epidermolysis bullosa simplex, Dowling-Meara type (AD), OMIM:131760",
+        "Epidermolysis bullosa simplex, recessive 1 (AR), OMIM:601001"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KRT5A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6442",
+        "gene_name": "keratin 5",
+        "omim_gene": [
+          "148040"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KRT5",
+        "hgnc_symbol": "KRT5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:52908359-52914471",
+              "ensembl_id": "ENSG00000186081"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:52514575-52520687",
+              "ensembl_id": "ENSG00000186081"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-09-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRT5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa simplex, Dowling-Meara type, OMIM:131760",
+        "Epidermolysis bullosa simplex, Koebner type, OMIM:131900",
+        "Epidermolysis bullosa simplex with mottled pigmentation, OMIM:131960",
+        "Epidermolysis bullosa simplex, Weber-Cockayne type, OMIM:131800"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "nicein-150kDa",
+          "kalinin-165kDa",
+          "BM600-150kDa",
+          "epiligrin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6483",
+        "gene_name": "laminin subunit alpha 3",
+        "omim_gene": [
+          "600805"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMA3",
+        "hgnc_symbol": "LAMA3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:21269407-21535030",
+              "ensembl_id": "ENSG00000053747"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:23689443-23955066",
+              "ensembl_id": "ENSG00000053747"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMA3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8586427",
+        "8618022",
+        "20301304",
+        "12915477",
+        "11810295",
+        "8530087"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa, junctional, Herlitz type, OMIM:226700",
+        "Epidermolysis bullosa, generalized atrophic benign, OMIM:226650",
+        "Laryngoonychocutaneous syndrome, OMIM:245660"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "nicein-125kDa",
+          "kalinin-140kDa",
+          "BM600-125kDa"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6490",
+        "gene_name": "laminin subunit beta 3",
+        "omim_gene": [
+          "150310"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMB3",
+        "hgnc_symbol": "LAMB3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:209788215-209825811",
+              "ensembl_id": "ENSG00000196878"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:209614870-209652466",
+              "ensembl_id": "ENSG00000196878"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMB3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "7706760",
+        "7698759",
+        "8824879",
+        "9205497",
+        "9856855"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa, junctional, Herlitz type, OMIM:226700",
+        "Epidermolysis bullosa, junctional, non-Herlitz type, OMIM:226650"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "nicein-100kDa",
+          "kalinin-105kDa",
+          "BM600-100kDa"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6493",
+        "gene_name": "laminin subunit gamma 2",
+        "omim_gene": [
+          "150292"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMC2",
+        "hgnc_symbol": "LAMC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:183155373-183214035",
+              "ensembl_id": "ENSG00000058085"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:183186238-183244900",
+              "ensembl_id": "ENSG00000058085"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMC2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20336083",
+        "11564184",
+        "8012393",
+        "16473856",
+        "10951251",
+        "11810295",
+        "11907499",
+        "8012394"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa, junctional, Herlitz type, OMIM:226700",
+        "Epidermolysis bullosa, junctional, non-Herlitz type, OMIM:226650"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B6P"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9023",
+        "gene_name": "plakophilin 1",
+        "omim_gene": [
+          "601975"
+        ],
+        "alias_name": [
+          "ectodermal dysplasia/skin fragility syndrome"
+        ],
+        "gene_symbol": "PKP1",
+        "hgnc_symbol": "PKP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:201252580-201302121",
+              "ensembl_id": "ENSG00000081277"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:201283452-201332993",
+              "ensembl_id": "ENSG00000081277"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-10-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "PKP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19945625",
+        "25565931",
+        "28182260",
+        "26288439",
+        "24073657"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ectodermal dysplasia/skin fragility syndrome, OMIM:604536"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PCN",
+          "PLTN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9069",
+        "gene_name": "plectin",
+        "omim_gene": [
+          "601282"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLEC",
+        "hgnc_symbol": "PLEC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:144989321-145050902",
+              "ensembl_id": "ENSG00000178209"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:143915147-143976734",
+              "ensembl_id": "ENSG00000178209"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-02-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLEC",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa simplex, Ogna type (AD), OMIM:131950",
+        "Epidermolysis bullosa simplex with muscular dystrophy, OMIM:226670",
+        "Epidermolysis bullosa simplex with pyloric atresia (AR), OMIM:612138"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CAP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8952",
+        "gene_name": "serpin family B member 8",
+        "omim_gene": [
+          "601697"
+        ],
+        "alias_name": [
+          "cytoplasmic antiproteinase 2"
+        ],
+        "gene_symbol": "SERPINB8",
+        "hgnc_symbol": "SERPINB8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:61637159-61672278",
+              "ensembl_id": "ENSG00000166401"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:63969925-64019779",
+              "ensembl_id": "ENSG00000166401"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SERPINB8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27476651"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Peeling skin syndrome 5, OMIM:617115"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ZIP4",
+          "AWMS2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17129",
+        "gene_name": "solute carrier family 39 member 4",
+        "omim_gene": [
+          "607059"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC39A4",
+        "hgnc_symbol": "SLC39A4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:145635126-145642279",
+              "ensembl_id": "ENSG00000147804"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:144409742-144416895",
+              "ensembl_id": "ENSG00000147804"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-02-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC39A4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Acrodermatitis enteropathica, OMIM:201100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TGX"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11781",
+        "gene_name": "transglutaminase 5",
+        "omim_gene": [
+          "603805"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TGM5",
+        "hgnc_symbol": "TGM5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:43524793-43559055",
+              "ensembl_id": "ENSG00000104055"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:43232595-43266857",
+              "ensembl_id": "ENSG00000104055"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-03-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "TGM5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20164844",
+        "22622422",
+        "16380904",
+        "22036214"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Peeling skin syndrome 2, OMIM:609796",
+        "Acral peeling skin sydrome,MONDO:0012345"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SERCA2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:812",
+        "gene_name": "ATPase sarcoplasmic/endoplasmic reticulum Ca2+ transporting 2",
+        "omim_gene": [
+          "108740"
+        ],
+        "alias_name": [
+          "sarcoplasmic/endoplasmic reticulum calcium ATPase 2",
+          "calcium pump 2"
+        ],
+        "gene_symbol": "ATP2A2",
+        "hgnc_symbol": "ATP2A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:110718561-110788898",
+              "ensembl_id": "ENSG00000174437"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:110280756-110351093",
+              "ensembl_id": "ENSG00000174437"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP2A2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10080178",
+        "10441325",
+        "35283639",
+        "38791022",
+        "38536168"
+      ],
+      "evidence": [
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Darier disease, OMIM:124200",
+        "Acrokeratosis verruciformis, OMIM:101900",
+        "Darier disease, MONDO:0007417",
+        "acrokeratosis verruciformis, MONDO:0007048"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q1_26_promote_green",
+        "Q1_26_NHS_review"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SFA-1",
+          "PETA-3",
+          "TSPAN24",
+          "RAPH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1630",
+        "gene_name": "CD151 molecule (Raph blood group)",
+        "omim_gene": [
+          "602243"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CD151",
+        "hgnc_symbol": "CD151",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:832843-839831",
+              "ensembl_id": "ENSG00000177697"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:832843-839831",
+              "ensembl_id": "ENSG00000177697"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "CD151",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29138120"
+      ],
+      "evidence": [
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Nephropathy with pretibial epidermolysis bullosa and deafness, OMIM:609057"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2527",
+        "gene_name": "cathepsin B",
+        "omim_gene": [
+          "116810"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CTSB",
+        "hgnc_symbol": "CTSB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:11700033-11726957",
+              "ensembl_id": "ENSG00000164733"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:11842524-11869448",
+              "ensembl_id": "ENSG00000164733"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTSB",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDHF3",
+          "DSC",
+          "DSC1",
+          "DSC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3037",
+        "gene_name": "desmocollin 3",
+        "omim_gene": [
+          "600271"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSC3",
+        "hgnc_symbol": "DSC3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:28569974-28622781",
+              "ensembl_id": "ENSG00000134762"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:30990008-31042815",
+              "ensembl_id": "ENSG00000134762"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSC3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19765682",
+        "31790667"
+      ],
+      "evidence": [
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "?Hypotrichosis and recurrent skin vesicles, OMIM:613102"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LP3298",
+          "FLJ10769"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25576",
+        "gene_name": "NAD(P)HX dehydratase",
+        "omim_gene": [
+          "615910"
+        ],
+        "alias_name": [
+          "ATP-dependent NAD(P)H-hydrate dehydratase"
+        ],
+        "gene_symbol": "NAXD",
+        "hgnc_symbol": "NAXD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:111267881-111292340",
+              "ensembl_id": "ENSG00000213995"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:110615460-110639993",
+              "ensembl_id": "ENSG00000213995"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2016-03-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "NAXD",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30576410",
+        "33224489",
+        "31755961"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Encephalopathy, progressive, early-onset, with brain edema and/or leukoencephalopathy, 2, OMIM:618321"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LH3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9083",
+        "gene_name": "procollagen-lysine,2-oxoglutarate 5-dioxygenase 3",
+        "omim_gene": [
+          "603066"
+        ],
+        "alias_name": [
+          "lysyl hydroxlase 3"
+        ],
+        "gene_symbol": "PLOD3",
+        "hgnc_symbol": "PLOD3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:100849258-100861701",
+              "ensembl_id": "ENSG00000106397"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:101205977-101218420",
+              "ensembl_id": "ENSG00000106397"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLOD3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30463024",
+        "18834968"
+      ],
+      "evidence": [
+        "Expert Review Amber"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "H2-KE4",
+          "D6S2244E",
+          "KE4",
+          "RING5",
+          "ZIP7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4927",
+        "gene_name": "solute carrier family 39 member 7",
+        "omim_gene": [
+          "601416"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC39A7",
+        "hgnc_symbol": "SLC39A7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:33168222-33172216",
+              "ensembl_id": "ENSG00000112473"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:33200445-33204439",
+              "ensembl_id": "ENSG00000112473"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC39A7",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CARMA2",
+          "BIMP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16446",
+        "gene_name": "caspase recruitment domain family member 14",
+        "omim_gene": [
+          "607211"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CARD14",
+        "hgnc_symbol": "CARD14",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:78143791-78183130",
+              "ensembl_id": "ENSG00000141527"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:80169992-80209331",
+              "ensembl_id": "ENSG00000141527"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "CARD14",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Pityriasis rubra pilaris, OMIM:173200",
+        "Thick scales on the scalp and areas of superficial peeling on the face, palms, soles, and genital region"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GALNAC-4-ST1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15993",
+        "gene_name": "carbohydrate sulfotransferase 8",
+        "omim_gene": [
+          "610190"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CHST8",
+        "hgnc_symbol": "CHST8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:34112861-34264414",
+              "ensembl_id": "ENSG00000124302"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:33621955-33773509",
+              "ensembl_id": "ENSG00000124302"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHST8",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 22289416"
+      ],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Ichthyosis HP:0008064",
+        "Peeling skin HP:0040189",
+        "OMIM:#616265",
+        "?Peeling skin syndrome 3, 616265"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDHF6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3050",
+        "gene_name": "desmoglein 3",
+        "omim_gene": [
+          "169615"
+        ],
+        "alias_name": [
+          "pemphigus vulgaris antigen"
+        ],
+        "gene_symbol": "DSG3",
+        "hgnc_symbol": "DSG3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:29027758-29058665",
+              "ensembl_id": "ENSG00000134757"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:31447795-31478702",
+              "ensembl_id": "ENSG00000134757"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-08-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSG3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30528827",
+        "16403096",
+        "19678820"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Blistering, acantholytic, of oral and laryngeal mucosa, OMIM:619226"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EDA1",
+          "XLHED",
+          "HED",
+          "XHED",
+          "ED1-A1",
+          "ED1-A2",
+          "EDA-A1",
+          "EDA-A2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3157",
+        "gene_name": "ectodysplasin A",
+        "omim_gene": [
+          "300451"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EDA",
+        "hgnc_symbol": "EDA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:68835911-69259319",
+              "ensembl_id": "ENSG00000158813"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:69616067-70039469",
+              "ensembl_id": "ENSG00000158813"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "EDA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Skin peeling/scaling (newborn)",
+        "Ectodermal dysplasia 1, hypohidrotic, X-linked, 305100"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ERBB1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3236",
+        "gene_name": "epidermal growth factor receptor",
+        "omim_gene": [
+          "131550"
+        ],
+        "alias_name": [
+          "erythroblastic leukemia viral (v-erb-b) oncogene homolog (avian)",
+          "erb-b2 receptor tyrosine kinase 1"
+        ],
+        "gene_symbol": "EGFR",
+        "hgnc_symbol": "EGFR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:55086714-55324313",
+              "ensembl_id": "ENSG00000146648"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:55019021-55211628",
+              "ensembl_id": "ENSG00000146648"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "EGFR",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24691054"
+      ],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "?Inflammatory skin and bowel disease, neonatal, 2, OMIM:616069"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KRTE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6439",
+        "gene_name": "keratin 2",
+        "omim_gene": [
+          "600194"
+        ],
+        "alias_name": [
+          "epidermal ichthyosis bullosa of Siemens"
+        ],
+        "gene_symbol": "KRT2",
+        "hgnc_symbol": "KRT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:53038342-53045948",
+              "ensembl_id": "ENSG00000172867"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:52644558-52652164",
+              "ensembl_id": "ENSG00000172867"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRT2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Ichthyosis bullosa of Siemens, 146800",
+        "blistering, superficial peeling of the skin, and localized lichenified hyperkeratosis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7155",
+        "gene_name": "matrix metallopeptidase 1",
+        "omim_gene": [
+          "120353"
+        ],
+        "alias_name": [
+          "interstitial collagenase"
+        ],
+        "gene_symbol": "MMP1",
+        "hgnc_symbol": "MMP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:102660651-102668891",
+              "ensembl_id": "ENSG00000196611"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:102789920-102798160",
+              "ensembl_id": "ENSG00000196611"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "MMP1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "{Epidermolysis bullosa dystrophica, autosomal recessive, modifier of}, 226600",
+        "COPD, rate of decline of lung function in, 606963"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VAKTI",
+          "LEKTI",
+          "LETKI",
+          "NETS",
+          "NS",
+          "FLJ21544",
+          "FLJ97536",
+          "FLJ97596",
+          "FLJ99794",
+          "DKFZp686K19184"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15464",
+        "gene_name": "serine peptidase inhibitor, Kazal type 5",
+        "omim_gene": [
+          "605010"
+        ],
+        "alias_name": [
+          "lymphoepithelial Kazal-type-related inhibitor"
+        ],
+        "gene_symbol": "SPINK5",
+        "hgnc_symbol": "SPINK5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:147405246-147516852",
+              "ensembl_id": "ENSG00000133710"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:148025683-148137289",
+              "ensembl_id": "ENSG00000133710"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-03-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPINK5",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27905021"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Netherton syndrome, OMIM:256500"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p51",
+          "SHFM4",
+          "EEC3",
+          "p63",
+          "p73L",
+          "OFC8",
+          "KET",
+          "p73H",
+          "NBP",
+          "p53CP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15979",
+        "gene_name": "tumor protein p63",
+        "omim_gene": [
+          "603273"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TP63",
+        "hgnc_symbol": "TP63",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:189349205-189615068",
+              "ensembl_id": "ENSG00000073282"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:189631416-189897279",
+              "ensembl_id": "ENSG00000073282"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-04-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "TP63",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Hay-Wells syndrome, 106260",
+        "Red, cracking, peeling skin at birth"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VRL3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18084",
+        "gene_name": "transient receptor potential cation channel subfamily V member 3",
+        "omim_gene": [
+          "607066"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRPV3",
+        "hgnc_symbol": "TRPV3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:3413796-3461289",
+              "ensembl_id": "ENSG00000167723"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:3510502-3557995",
+              "ensembl_id": "ENSG00000167723"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-07-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRPV3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "superficial peeling of the skin",
+        "Olmsted syndrome, 614594"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

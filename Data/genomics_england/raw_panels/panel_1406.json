@@ -1,0 +1,86 @@
+{
+  "id": 1406,
+  "hash_id": null,
+  "name": "Wiskott-Aldrich syndrome",
+  "disease_group": "Immunology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.4",
+  "version_created": "2026-01-25T14:43:38.762632Z",
+  "relevant_disorders": [
+    "R20"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "WASP",
+          "WASPA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12731",
+        "gene_name": "Wiskott-Aldrich syndrome",
+        "omim_gene": [
+          "300392"
+        ],
+        "alias_name": [
+          "eczema-thrombocytopenia"
+        ],
+        "gene_symbol": "WAS",
+        "hgnc_symbol": "WAS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:48534985-48549818",
+              "ensembl_id": "ENSG00000015285"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:48676596-48691427",
+              "ensembl_id": "ENSG00000015285"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "WAS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Wiskott-Aldrich syndrome, OMIM:301000",
+        "Wiskott-Aldrich syndrome, MONDO:0010518"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

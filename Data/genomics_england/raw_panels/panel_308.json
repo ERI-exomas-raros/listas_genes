@@ -1,0 +1,1324 @@
+{
+  "id": 308,
+  "hash_id": "553f9781bb5a1616e5ed45f4",
+  "name": "Congenital hyperinsulinism",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.8",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Hyperinsulinism",
+    "R144"
+  ],
+  "stats": {
+    "number_of_genes": 24,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "HI",
+          "PHHI",
+          "SUR1",
+          "MRP8",
+          "ABC36",
+          "HHF1",
+          "TNDM2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:59",
+        "gene_name": "ATP binding cassette subfamily C member 8",
+        "omim_gene": [
+          "600509"
+        ],
+        "alias_name": [
+          "sulfonylurea receptor (hyperinsulinemia)"
+        ],
+        "gene_symbol": "ABCC8",
+        "hgnc_symbol": "ABCC8",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:17414432-17498449",
+              "ensembl_id": "ENSG00000006071"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:17392885-17476845",
+              "ensembl_id": "ENSG00000006071"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-01-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCC8",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Hyperinsulinism, Dominant/Recessive",
+        "Hyperinsulinemic hypoglycemia, familial, 1, 256450"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:392",
+        "gene_name": "AKT serine/threonine kinase 2",
+        "omim_gene": [
+          "164731"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AKT2",
+        "hgnc_symbol": "AKT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:40736224-40791443",
+              "ensembl_id": "ENSG00000105221"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:40230317-40285536",
+              "ensembl_id": "ENSG00000105221"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "AKT2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "21979934",
+        "24285683"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hypoinsulinemic hypoglycemia with hemihypertrophy, OMIM:240900",
+        "Hypoinsulinemic hypoglycemia and body hemihypertrophy, MONDO:0009416"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "to_be_confirmed_NHSE"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Cav1.2",
+          "CACH2",
+          "CACN2",
+          "TS",
+          "LQT8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1390",
+        "gene_name": "calcium voltage-gated channel subunit alpha1 C",
+        "omim_gene": [
+          "114205"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNA1C",
+        "hgnc_symbol": "CACNA1C",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:2079952-2802108",
+              "ensembl_id": "ENSG00000151067"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:1970786-2697950",
+              "ensembl_id": "ENSG00000151067"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-01-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNA1C",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "35897673"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert review"
+      ],
+      "phenotypes": [
+        "non-syndromic congeital hyperinsulinism",
+        "Timothy syndrome, OMIM:601005",
+        "Timothy syndrome, MONDO:0010979",
+        "CACNA1C-related disorder"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Cav1.3",
+          "CACH3",
+          "CACN4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1391",
+        "gene_name": "calcium voltage-gated channel subunit alpha1 D",
+        "omim_gene": [
+          "114206"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNA1D",
+        "hgnc_symbol": "CACNA1D",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:53528683-53847760",
+              "ensembl_id": "ENSG00000157388"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:53328963-53813733",
+              "ensembl_id": "ENSG00000157388"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-12-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNA1D",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28318089",
+        "32336187"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "hyperinsulinaemic hypoglycaemia, heart defects",
+        "severe hypotonia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5022",
+        "gene_name": "forkhead box A2",
+        "omim_gene": [
+          "600288"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOXA2",
+        "hgnc_symbol": "FOXA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:22561643-22566093",
+              "ensembl_id": "ENSG00000125798"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:22581005-22585455",
+              "ensembl_id": "ENSG00000125798"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29329447",
+        "28973288"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hyperinsulinism",
+        "hypopituitarism",
+        "Dominant Hyperinsulinism, Hypopituitarism with Craniofacial and Endoderm-derived organ abnormalities"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HK4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4195",
+        "gene_name": "glucokinase",
+        "omim_gene": [
+          "138079"
+        ],
+        "alias_name": [
+          "hexokinase 4"
+        ],
+        "gene_symbol": "GCK",
+        "hgnc_symbol": "GCK",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:44183872-44237769",
+              "ensembl_id": "ENSG00000106633"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:44144271-44198170",
+              "ensembl_id": "ENSG00000106633"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "GCK",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Hyperinsulinism, Dominant",
+        "MODY, type II, 125851"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GDH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4335",
+        "gene_name": "glutamate dehydrogenase 1",
+        "omim_gene": [
+          "138130"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLUD1",
+        "hgnc_symbol": "GLUD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:88810243-88854623",
+              "ensembl_id": "ENSG00000148672"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:87050486-87094866",
+              "ensembl_id": "ENSG00000148672"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLUD1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hyperinsulinism-hyperammonemia syndrome, 606762",
+        "Hyperinsulinism, Dominant"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OCI-5",
+          "SGBS",
+          "SGBS1",
+          "SGB",
+          "DGSX"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4451",
+        "gene_name": "glypican 3",
+        "omim_gene": [
+          "300037"
+        ],
+        "alias_name": [
+          "glypican proteoglycan 3"
+        ],
+        "gene_symbol": "GPC3",
+        "hgnc_symbol": "GPC3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:132669773-133119922",
+              "ensembl_id": "ENSG00000147257"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:133535745-133985895",
+              "ensembl_id": "ENSG00000147257"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-08-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "GPC3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20301398"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "neonatal hypoglycaemia",
+        "distinctive craniofacies, congenital heart defects, genitourinary defects, GI anomalies, skeletal anomalies",
+        "supernumerary nipples",
+        "X-linked recessive hypoglycaemia as part of Simpson-Golabi-Behmel syndrome (312870)"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "to_be_confirmed_NHSE"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HADH1",
+          "SCHAD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4799",
+        "gene_name": "hydroxyacyl-CoA dehydrogenase",
+        "omim_gene": [
+          "601609"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HADH",
+        "hgnc_symbol": "HADH",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:108910870-108956331",
+              "ensembl_id": "ENSG00000138796"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:107989714-108035175",
+              "ensembl_id": "ENSG00000138796"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HADH",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Congenital hyperinsulinemic hypoglycemia (HH)",
+        "Hyperinsulinism, Dominant/Recessive",
+        "3-hydroxyacyl-CoA dehydrogenase deficiency, 231530",
+        "Protein sensitive hyperinsulinism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4922",
+        "gene_name": "hexokinase 1",
+        "omim_gene": [
+          "142600"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HK1",
+        "hgnc_symbol": "HK1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:71029740-71161638",
+              "ensembl_id": "ENSG00000156515"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:69269984-69401882",
+              "ensembl_id": "ENSG00000156515"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HK1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "36333503",
+        "40033430"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert review"
+      ],
+      "phenotypes": [
+        "Congenital hyperinsulinism"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "non-coding-known-pathogenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNF1",
+          "LFB1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11621",
+        "gene_name": "HNF1 homeobox A",
+        "omim_gene": [
+          "142410"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HNF1A",
+        "hgnc_symbol": "HNF1A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:121416346-121440315",
+              "ensembl_id": "ENSG00000135100"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:120978543-121002512",
+              "ensembl_id": "ENSG00000135100"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "HNF1A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22802087"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Autosomal dominant Hyperinsulinism",
+        "MODY, type III, 600496"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NR2A1",
+          "HNF4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5024",
+        "gene_name": "hepatocyte nuclear factor 4 alpha",
+        "omim_gene": [
+          "600281"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HNF4A",
+        "hgnc_symbol": "HNF4A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:42984340-43061485",
+              "ensembl_id": "ENSG00000101076"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:44355700-44434596",
+              "ensembl_id": "ENSG00000101076"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "HNF4A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22802087"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Hyperinsulinism, Dominant",
+        "Autosomal dominant Hyperinsulinism",
+        "MODY, type I, 125850"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD220"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6091",
+        "gene_name": "insulin receptor",
+        "omim_gene": [
+          "147670"
+        ],
+        "alias_name": null,
+        "gene_symbol": "INSR",
+        "hgnc_symbol": "INSR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:7112266-7294045",
+              "ensembl_id": "ENSG00000171105"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:7112255-7294034",
+              "ensembl_id": "ENSG00000171105"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "INSR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15161766"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Leprechaunism, 246200",
+        "hyperinsulinemic hypoglycaemia",
+        "Autosomal dominant postprandial hypoglycaemia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kir6.2",
+          "BIR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6257",
+        "gene_name": "potassium voltage-gated channel subfamily J member 11",
+        "omim_gene": [
+          "600937"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNJ11",
+        "hgnc_symbol": "KCNJ11",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:17407406-17410878",
+              "ensembl_id": "ENSG00000187486"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:17385859-17389331",
+              "ensembl_id": "ENSG00000187486"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-09-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNJ11",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Hyperinsulinism, Dominant/Recessive",
+        "Hyperinsulinemic hypoglycemia, familial, 2, 601820"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12637",
+        "gene_name": "lysine demethylase 6A",
+        "omim_gene": [
+          "300128"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KDM6A",
+        "hgnc_symbol": "KDM6A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:44732757-44971847",
+              "ensembl_id": "ENSG00000147050"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:44873177-45112602",
+              "ensembl_id": "ENSG00000147050"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-04-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "KDM6A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29907798"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Kabuki syndrome 2, 300867",
+        "X-linked dominant neonatal hypoglycaemia as part of Kabuki syndrome"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ALR",
+          "MLL4",
+          "CAGL114"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7133",
+        "gene_name": "lysine methyltransferase 2D",
+        "omim_gene": [
+          "602113"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KMT2D",
+        "hgnc_symbol": "KMT2D",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:49412758-49453557",
+              "ensembl_id": "ENSG00000167548"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:49018975-49059774",
+              "ensembl_id": "ENSG00000167548"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2013-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "KMT2D",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29907798"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Kabuki syndrome 1, 147920",
+        "Autosomal dominant neonatal hypoglycaemia as part of Kabuki syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "nM15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6814",
+        "gene_name": "MAGE family member L2",
+        "omim_gene": [
+          "605283"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAGEL2",
+        "hgnc_symbol": "MAGEL2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:23888691-23891175",
+              "ensembl_id": "ENSG00000254585"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:23643544-23647841",
+              "ensembl_id": "ENSG00000254585"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAGEL2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25473036",
+        "29599419",
+        "31397880"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert review"
+      ],
+      "phenotypes": [
+        "Schaaf-Yang syndrome, OMIM:615547",
+        "Schaaf-Yang syndrome, MONDO:0014243"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, maternally imprinted (paternal allele expressed)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARA267",
+          "FLJ22263",
+          "KMT3B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14234",
+        "gene_name": "nuclear receptor binding SET domain protein 1",
+        "omim_gene": [
+          "606681"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NSD1",
+        "hgnc_symbol": "NSD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:176560026-176727216",
+              "ensembl_id": "ENSG00000165671"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:177133025-177300215",
+              "ensembl_id": "ENSG00000165671"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-02-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "NSD1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30719864"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Sotos syndrome, OMIM:117550",
+        "Sotos syndrome 1, MONDO:0007299"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDGS",
+          "CDG1a",
+          "PMI",
+          "PMI1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9115",
+        "gene_name": "phosphomannomutase 2",
+        "omim_gene": [
+          "601785"
+        ],
+        "alias_name": [
+          "phosphomannose isomerase 1",
+          "mannose-6-phosphate isomerase"
+        ],
+        "gene_symbol": "PMM2",
+        "hgnc_symbol": "PMM2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:8882680-8943188",
+              "ensembl_id": "ENSG00000140650"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:8788823-8849331",
+              "ensembl_id": "ENSG00000140650"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PMM2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28373276"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hyperinsulinemic Hypoglycaemia",
+        "polycystic kidney disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MCT",
+          "MCT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10922",
+        "gene_name": "solute carrier family 16 member 1",
+        "omim_gene": [
+          "600682"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC16A1",
+        "hgnc_symbol": "SLC16A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:113454469-113499635",
+              "ensembl_id": "ENSG00000155380"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:112911847-112957013",
+              "ensembl_id": "ENSG00000155380"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC16A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "12502513"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Hyperinsulinemic hypoglycemia, familial, 7, OMIM:610021"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SLC25A8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12518",
+        "gene_name": "uncoupling protein 2",
+        "omim_gene": [
+          "601693"
+        ],
+        "alias_name": null,
+        "gene_symbol": "UCP2",
+        "hgnc_symbol": "UCP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:73685712-73694352",
+              "ensembl_id": "ENSG00000175567"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:73974667-73983307",
+              "ensembl_id": "ENSG00000175567"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "UCP2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "19065272"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Hyperinsulinism, MONDO:0002177"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RIPE3b1",
+          "hMafA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23145",
+        "gene_name": "MAF bZIP transcription factor A",
+        "omim_gene": [
+          "610303"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAFA",
+        "hgnc_symbol": "MAFA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:144501352-144512576",
+              "ensembl_id": "ENSG00000182759"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:143419182-143430406",
+              "ensembl_id": "ENSG00000182759"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-01-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAFA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10485",
+        "gene_name": "ryanodine receptor 3",
+        "omim_gene": [
+          "180903"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RYR3",
+        "hgnc_symbol": "RYR3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:33603163-34158303",
+              "ensembl_id": "ENSG00000198838"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:33310945-33866121",
+              "ensembl_id": "ENSG00000198838"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-05-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "RYR3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "No OMIM phenotypeEpileptic encephalopathy (Appenzeller (2014) Am J Hum Genet 95, 360)Hyperinsulinism (Proverbio (2013) PLoS One 8, e68740)Schizophrenia (Fromer (2014) Nature 506, 179)Lennox-Gastaut syndrome (Appenzeller (2014) Am J Hum Genet 95, 360)"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC27034",
+          "TRM10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28403",
+        "gene_name": "tRNA methyltransferase 10A",
+        "omim_gene": [
+          "616013"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRMT10A",
+        "hgnc_symbol": "TRMT10A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:100467866-100485189",
+              "ensembl_id": "ENSG00000145331"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:99546709-99564032",
+              "ensembl_id": "ENSG00000145331"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-06-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRMT10A",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25053765"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert Review"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

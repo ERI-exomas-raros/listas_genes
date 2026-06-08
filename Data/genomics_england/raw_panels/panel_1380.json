@@ -1,0 +1,87 @@
+{
+  "id": 1380,
+  "hash_id": null,
+  "name": "Primary hyperaldosteronism - KCNJ5",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.3",
+  "version_created": "2026-01-25T14:31:08.856466Z",
+  "relevant_disorders": [
+    "R344"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "Kir3.4",
+          "CIR",
+          "KATP1",
+          "GIRK4",
+          "LQT13"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6266",
+        "gene_name": "potassium voltage-gated channel subfamily J member 5",
+        "omim_gene": [
+          "600734"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNJ5",
+        "hgnc_symbol": "KCNJ5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:128761251-128790930",
+              "ensembl_id": "ENSG00000120457"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:128891356-128921035",
+              "ensembl_id": "ENSG00000120457"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-04-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNJ5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hyperaldosteronism, familial, type III, OMIM:613677",
+        "familial hyperaldosteronism type III, MONDO:0013359"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

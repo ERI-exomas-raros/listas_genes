@@ -1,0 +1,135 @@
+{
+  "id": 1374,
+  "hash_id": null,
+  "name": "Niemann Pick disease type C",
+  "disease_group": "Metabolic",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.4",
+  "version_created": "2026-01-23T12:09:16.752396Z",
+  "relevant_disorders": [
+    "R380"
+  ],
+  "stats": {
+    "number_of_genes": 2,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7897",
+        "gene_name": "NPC intracellular cholesterol transporter 1",
+        "omim_gene": [
+          "607623"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NPC1",
+        "hgnc_symbol": "NPC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:21086148-21166862",
+              "ensembl_id": "ENSG00000141458"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:23506184-23586898",
+              "ensembl_id": "ENSG00000141458"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-04-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "NPC1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Niemann-Pick disease, type C1, OMIM:257220",
+        "Niemann-Pick disease, type D, OMIM:257220",
+        "Niemann-Pick disease, type C1, MONDO:0009757"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HE1",
+          "NP-C2",
+          "EDDM1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14537",
+        "gene_name": "NPC intracellular cholesterol transporter 2",
+        "omim_gene": [
+          "601015"
+        ],
+        "alias_name": [
+          "epididymal protein 1"
+        ],
+        "gene_symbol": "NPC2",
+        "hgnc_symbol": "NPC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:74942895-74960880",
+              "ensembl_id": "ENSG00000119655"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:74476192-74494177",
+              "ensembl_id": "ENSG00000119655"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "NPC2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Niemann-pick disease, type C2, OMIM:607625",
+        "Niemann-Pick disease, type C2, MONDO:0011873"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

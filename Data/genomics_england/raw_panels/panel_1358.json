@@ -1,0 +1,83 @@
+{
+  "id": 1358,
+  "hash_id": null,
+  "name": "Monitoring for G(M)CSF escape mutations",
+  "disease_group": "Haematology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.3",
+  "version_created": "2026-01-23T11:19:24.721644Z",
+  "relevant_disorders": [
+    "R338"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "GCSFR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2439",
+        "gene_name": "colony stimulating factor 3 receptor",
+        "omim_gene": [
+          "138971"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CSF3R",
+        "hgnc_symbol": "CSF3R",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:36931644-36948879",
+              "ensembl_id": "ENSG00000119535"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:36466043-36483278",
+              "ensembl_id": "ENSG00000119535"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-12-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "CSF3R",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Neutropenia, severe congenital, 7, autosomal recessive, OMIM:617014",
+        "autosomal recessive severe congenital neutropenia due to CSF3R deficiency, MONDO:0014865"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

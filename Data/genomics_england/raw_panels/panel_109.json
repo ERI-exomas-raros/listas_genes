@@ -1,0 +1,248 @@
+{
+  "id": 109,
+  "hash_id": "55537918bb5a161bf644a3c7",
+  "name": "Cerebral folate deficiency",
+  "disease_group": "Metabolic disorders",
+  "disease_sub_group": "Specific metabolic abnormalities",
+  "status": "public",
+  "version": "1.4",
+  "version_created": "2025-11-17T21:58:00.334529Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 4,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2861",
+        "gene_name": "dihydrofolate reductase",
+        "omim_gene": [
+          "126060"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DHFR",
+        "hgnc_symbol": "DHFR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:79922047-79950802",
+              "ensembl_id": "ENSG00000228716"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:80626228-80654983",
+              "ensembl_id": "ENSG00000228716"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "DHFR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21310276",
+        "21310277",
+        "27604308"
+      ],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Megaloblastic anemia due to dihydrofolate reductase deficiency\t613839"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3791",
+        "gene_name": "folate receptor 1",
+        "omim_gene": [
+          "136430"
+        ],
+        "alias_name": [
+          "folate receptor alpha"
+        ],
+        "gene_symbol": "FOLR1",
+        "hgnc_symbol": "FOLR1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:71900602-71907345",
+              "ensembl_id": "ENSG00000110195"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:72189558-72196323",
+              "ensembl_id": "ENSG00000110195"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOLR1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19732866",
+        "27604308",
+        "27743887",
+        "27328863"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Neurodegeneration due to cerebral folate transport deficiency, 613068"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7436",
+        "gene_name": "methylenetetrahydrofolate reductase",
+        "omim_gene": [
+          "607093"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MTHFR",
+        "hgnc_symbol": "MTHFR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:11845780-11866977",
+              "ensembl_id": "ENSG00000177000"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:11785723-11806920",
+              "ensembl_id": "ENSG00000177000"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "MTHFR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21555636",
+        "27604308",
+        "27604308"
+      ],
+      "evidence": [
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Homocystinuria due to MTHFR deficiency\t236250"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HCP1",
+          "MGC9564",
+          "PCFT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30521",
+        "gene_name": "solute carrier family 46 member 1",
+        "omim_gene": [
+          "611672"
+        ],
+        "alias_name": [
+          "heme carrier protein 1",
+          "proton-coupled folate transporter"
+        ],
+        "gene_symbol": "SLC46A1",
+        "hgnc_symbol": "SLC46A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:26721661-26734215",
+              "ensembl_id": "ENSG00000076351"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:28394756-28407197",
+              "ensembl_id": "ENSG00000076351"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-03-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC46A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21333572",
+        "27604308"
+      ],
+      "evidence": [
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Folate malabsorption, hereditary, OMIM:229050"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

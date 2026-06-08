@@ -1,0 +1,86 @@
+{
+  "id": 1377,
+  "hash_id": null,
+  "name": "Peutz Jeghers Syndrome",
+  "disease_group": "Inherited cancer",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.3",
+  "version_created": "2026-01-23T15:13:22.216679Z",
+  "relevant_disorders": [
+    "R212"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "PJS",
+          "LKB1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11389",
+        "gene_name": "serine/threonine kinase 11",
+        "omim_gene": [
+          "602216"
+        ],
+        "alias_name": [
+          "polarization-related protein LKB1"
+        ],
+        "gene_symbol": "STK11",
+        "hgnc_symbol": "STK11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:1189406-1228428",
+              "ensembl_id": "ENSG00000118046"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:1177558-1228435",
+              "ensembl_id": "ENSG00000118046"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "STK11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Peutz-Jeghers syndrome, OMIM:175200",
+        "Peutz-Jeghers syndrome, MONDO:0008280"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

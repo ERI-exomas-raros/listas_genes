@@ -1,0 +1,90 @@
+{
+  "id": 1347,
+  "hash_id": null,
+  "name": "Incontinentia pigmenti",
+  "disease_group": "Dermatology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.4",
+  "version_created": "2026-01-23T11:16:20.710250Z",
+  "relevant_disorders": [
+    "R239"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "IKK-gamma",
+          "NEMO",
+          "Fip3p",
+          "FIP-3",
+          "FIP3",
+          "ZC2HC9"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:5961",
+        "gene_name": "inhibitor of nuclear factor kappa B kinase subunit gamma",
+        "omim_gene": [
+          "300248"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IKBKG",
+        "hgnc_symbol": "IKBKG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153769414-153796782",
+              "ensembl_id": "ENSG00000073009"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154541199-154565046",
+              "ensembl_id": "ENSG00000269335"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "IKBKG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Incontinentia pigmenti, OMIM:308300",
+        "incontinentia pigmenti, MONDO:0010631"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [
+        "currently-ngs-unreportable"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

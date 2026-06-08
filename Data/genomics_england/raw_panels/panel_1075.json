@@ -1,0 +1,2641 @@
+{
+  "id": 1075,
+  "hash_id": null,
+  "name": "Autoinflammatory disorders",
+  "disease_group": "Immunology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.9",
+  "version_created": "2026-05-22T11:43:24.695688Z",
+  "relevant_disorders": [
+    "R413"
+  ],
+  "stats": {
+    "number_of_genes": 44,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "ADGF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1839",
+        "gene_name": "adenosine deaminase 2",
+        "omim_gene": [
+          "607575"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADA2",
+        "hgnc_symbol": "ADA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:17660194-17702879",
+              "ensembl_id": "ENSG00000093072"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:17178790-17221989",
+              "ensembl_id": "ENSG00000093072"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24552285",
+        "29564582",
+        "27059682",
+        "24552284",
+        "26922074",
+        "27444081"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Vasculitis, autoinflammation, immunodeficiency, and hematologic defects syndrome, OMIM:615688"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Lak",
+          "FLJ22670",
+          "KIAA1527"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20917",
+        "gene_name": "alpha kinase 1",
+        "omim_gene": [
+          "607347"
+        ],
+        "alias_name": [
+          "lymphocyte alpha-kinase"
+        ],
+        "gene_symbol": "ALPK1",
+        "hgnc_symbol": "ALPK1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:113206665-113363776",
+              "ensembl_id": "ENSG00000073331"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:112285509-112442620",
+              "ensembl_id": "ENSG00000073331"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALPK1",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "30967659",
+        "35868845",
+        "36332842",
+        "38251500",
+        "40069099"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "ROSAH syndrome, OMIM:614979"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CARMA2",
+          "BIMP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16446",
+        "gene_name": "caspase recruitment domain family member 14",
+        "omim_gene": [
+          "607211"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CARD14",
+        "hgnc_symbol": "CARD14",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:78143791-78183130",
+              "ensembl_id": "ENSG00000141527"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:80169992-80209331",
+              "ensembl_id": "ENSG00000141527"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "CARD14",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29980436",
+        "22521418",
+        "22703878",
+        "29704870",
+        "23648549",
+        "23067081",
+        "29689250",
+        "23711932",
+        "30248356"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Psoriasis 2, OMIM:602723",
+        "Pityriasis rubra pilaris, OMIM:173200"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HEP-COP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2230",
+        "gene_name": "coatomer protein complex subunit alpha",
+        "omim_gene": [
+          "601924"
+        ],
+        "alias_name": [
+          "proxenin",
+          "xenin"
+        ],
+        "gene_symbol": "COPA",
+        "hgnc_symbol": "COPA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:160259063-160313190",
+              "ensembl_id": "ENSG00000122218"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:160289273-160343400",
+              "ensembl_id": "ENSG00000122218"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-11-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "COPA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "25894502",
+        "31455335",
+        "38175705"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "{Autoinflammation and autoimmunity, systemic, with immune dysregulation}, OMIM:616414",
+        "COPA syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MEF",
+          "ELFR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3319",
+        "gene_name": "E74 like ETS transcription factor 4",
+        "omim_gene": [
+          "300775"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ELF4",
+        "hgnc_symbol": "ELF4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:129198849-129244691",
+              "ensembl_id": "ENSG00000102034"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:130064874-130110716",
+              "ensembl_id": "ENSG00000102034"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-10-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "ELF4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34326534",
+        "35266071",
+        "36823308",
+        "38231408",
+        "38773005",
+        "39563044",
+        "39976696"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Autoinflammatory syndrome, familial, X-linked, Behcet-like 2, OMIM:301074"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [
+        "Skewed X-inactivation"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IKK-gamma",
+          "NEMO",
+          "Fip3p",
+          "FIP-3",
+          "FIP3",
+          "ZC2HC9"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:5961",
+        "gene_name": "inhibitor of nuclear factor kappa B kinase subunit gamma",
+        "omim_gene": [
+          "300248"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IKBKG",
+        "hgnc_symbol": "IKBKG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153769414-153796782",
+              "ensembl_id": "ENSG00000073009"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154541199-154565046",
+              "ensembl_id": "ENSG00000269335"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "IKBKG",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "35120036",
+        "35289316",
+        "20133626",
+        "21722947",
+        "35163099",
+        "39264518",
+        "31874111"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Other"
+      ],
+      "phenotypes": [
+        "Autoinflammatory disease, systemic, X-linked, OMIM:301081"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [
+        "currently-ngs-unreportable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IL1RA",
+          "ICIL-1RA",
+          "IL1F3",
+          "IRAP",
+          "IL-1RN",
+          "MGC10430"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6000",
+        "gene_name": "interleukin 1 receptor antagonist",
+        "omim_gene": [
+          "147679"
+        ],
+        "alias_name": [
+          "interleukin-1 receptor antagonist protein",
+          "intracellular interleukin-1 receptor antagonist"
+        ],
+        "gene_symbol": "IL1RN",
+        "hgnc_symbol": "IL1RN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:113864791-113891593",
+              "ensembl_id": "ENSG00000136689"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:113107214-113134016",
+              "ensembl_id": "ENSG00000136689"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-11-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL1RN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22127713",
+        "19494219",
+        "19494218"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Interleukin 1 receptor antagonist deficiency, OMIM:612852"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FIL1",
+          "FIL1(DELTA)",
+          "FIL1D",
+          "IL1HY1",
+          "IL1RP3",
+          "IL1L1",
+          "IL-1F5",
+          "IL36RA",
+          "MGC29840"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15561",
+        "gene_name": "interleukin 36 receptor antagonist",
+        "omim_gene": [
+          "605507"
+        ],
+        "alias_name": [
+          "family of interleukin 1-delta",
+          "interleukin-1 receptor antagonist homolog 1",
+          "interleukin-1 HY1",
+          "IL-1 related protein 3"
+        ],
+        "gene_symbol": "IL36RN",
+        "hgnc_symbol": "IL36RN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:113816215-113822959",
+              "ensembl_id": "ENSG00000136695"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:113058638-113065382",
+              "ensembl_id": "ENSG00000136695"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL36RN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23698098",
+        "21839423",
+        "21848462",
+        "23303454",
+        "22903787"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Psoriasis 14, pustular, OMIM:614204"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0249"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14450",
+        "gene_name": "lipin 2",
+        "omim_gene": [
+          "605519"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LPIN2",
+        "hgnc_symbol": "LPIN2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:2916992-3013313",
+              "ensembl_id": "ENSG00000101577"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:2916994-3013315",
+              "ensembl_id": "ENSG00000101577"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-01-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "LPIN2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17330256",
+        "27860302",
+        "15994876",
+        "29387759"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Majeed syndrome, OMIM:609628"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FMF",
+          "TRIM20"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6998",
+        "gene_name": "MEFV, pyrin innate immunity regulator",
+        "omim_gene": [
+          "608107"
+        ],
+        "alias_name": [
+          "marenostrin"
+        ],
+        "gene_symbol": "MEFV",
+        "hgnc_symbol": "MEFV",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:3292028-3306627",
+              "ensembl_id": "ENSG00000103313"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:3242028-3256627",
+              "ensembl_id": "ENSG00000103313"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-10-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "MEFV",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27030597",
+        "9288094",
+        "28835462",
+        "14679589",
+        "9288758",
+        "10787449"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Familial Mediterranean fever, AR, OMIM:249100",
+        "Neutrophilic dermatosis, acute febrile, OMIM:608068",
+        "Familial Mediterranean fever, AD, OMIM:134610"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LRBP",
+          "MK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7530",
+        "gene_name": "mevalonate kinase",
+        "omim_gene": [
+          "251170"
+        ],
+        "alias_name": [
+          "LH receptor mRNA-binding protein",
+          "mevalonic aciduria"
+        ],
+        "gene_symbol": "MVK",
+        "hgnc_symbol": "MVK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:110011060-110035067",
+              "ensembl_id": "ENSG00000110921"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:109573255-109598117",
+              "ensembl_id": "ENSG00000110921"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "MVK",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21708801",
+        "16435210",
+        "22038276",
+        "10369261",
+        "19011501"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mevalonic aciduria, OMIM:610377",
+        "Hyper-IgD syndrome, OMIM:260920"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CLAN1",
+          "ipaf",
+          "CLANA",
+          "CLANB",
+          "CLANC",
+          "CLAND",
+          "CLR2.1",
+          "CLAN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16412",
+        "gene_name": "NLR family CARD domain containing 4",
+        "omim_gene": [
+          "606831"
+        ],
+        "alias_name": [
+          "nucleotide-binding oligomerization domain, leucine rich repeat and CARD domain containing 4",
+          "NOD-like receptor C4"
+        ],
+        "gene_symbol": "NLRC4",
+        "hgnc_symbol": "NLRC4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:32449522-32490923",
+              "ensembl_id": "ENSG00000091106"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:32224453-32265854",
+              "ensembl_id": "ENSG00000091106"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NLRC4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27876626",
+        "25217959",
+        "25385754",
+        "25217960"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Autoinflammation with infantile enterocolitis, OMIM:616050",
+        "?Familial cold autoinflammatory syndrome 4, OMIM:616115"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNO2",
+          "PYPAF7",
+          "Monarch1",
+          "PAN6",
+          "CLR19.3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:22938",
+        "gene_name": "NLR family pyrin domain containing 12",
+        "omim_gene": [
+          "609648"
+        ],
+        "alias_name": [
+          "nucleotide-binding oligomerization domain, leucine rich repeat and pyrin domain containing 12"
+        ],
+        "gene_symbol": "NLRP12",
+        "hgnc_symbol": "NLRP12",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:54296857-54327648",
+              "ensembl_id": "ENSG00000142405"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:53793603-53824394",
+              "ensembl_id": "ENSG00000142405"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NLRP12",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21360512",
+        "27779193",
+        "27633793",
+        "29178652",
+        "18230725",
+        "29248470"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Familial cold autoinflammatory syndrome 2, OMIM:611762"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AGTAVPRL",
+          "AII",
+          "AVP",
+          "FCAS",
+          "FCU",
+          "NALP3",
+          "PYPAF1",
+          "MWS",
+          "CLR1.1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16400",
+        "gene_name": "NLR family pyrin domain containing 3",
+        "omim_gene": [
+          "606416"
+        ],
+        "alias_name": [
+          "Cryopyrin",
+          "nucleotide-binding oligomerization domain, leucine rich repeat and pyrin domain containing 3"
+        ],
+        "gene_symbol": "NLRP3",
+        "hgnc_symbol": "NLRP3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:247579458-247612410",
+              "ensembl_id": "ENSG00000162711"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:247416156-247449108",
+              "ensembl_id": "ENSG00000162711"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NLRP3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11687797",
+        "18423104",
+        "11992256",
+        "14872505",
+        "29366613",
+        "11590390",
+        "12032915",
+        "12522564",
+        "28847925"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Deafness, autosomal dominant 34, with or without inflammation, OMIM:617772",
+        "Familial cold inflammatory syndrome 1, OMIM:120100",
+        "Muckle-Wells syndrome, OMIM:191900",
+        "CINCA syndrome, OMIM:607115"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BLAU",
+          "CD",
+          "PSORAS1",
+          "CLR16.3",
+          "NLRC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5331",
+        "gene_name": "nucleotide binding oligomerization domain containing 2",
+        "omim_gene": [
+          "605956"
+        ],
+        "alias_name": [
+          "nucleotide-binding oligomerization domain, leucine rich repeat and CARD domain containing 2",
+          "NOD-like receptor C2",
+          "NLR family, CARD domain containing 2"
+        ],
+        "gene_symbol": "NOD2",
+        "hgnc_symbol": "NOD2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:50727514-50766988",
+              "ensembl_id": "ENSG00000167207"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:50693603-50734041",
+              "ensembl_id": "ENSG00000167207"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NOD2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11385576",
+        "25136265",
+        "19479837",
+        "25416713",
+        "21914217",
+        "26070941"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "{Inflammatory bowel disease 1, Crohn disease}, OMIM:266600",
+        "Blau syndrome, OMIM:186580",
+        "{Yao syndrome}, OMIM:617321"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ34884"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25118",
+        "gene_name": "OTU deubiquitinase with linear linkage specificity",
+        "omim_gene": [
+          "615712"
+        ],
+        "alias_name": [
+          "gumby"
+        ],
+        "gene_symbol": "OTULIN",
+        "hgnc_symbol": "OTULIN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:14664773-14699820",
+              "ensembl_id": "ENSG00000154124"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:14664664-14699711",
+              "ensembl_id": "ENSG00000154124"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-03-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "OTULIN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27559085",
+        "27523608",
+        "38630025",
+        "38914362"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Autoinflammation, panniculitis, and dermatosis syndrome, autosomal recessive, OMIM:617099",
+        "Autoinflammation, panniculitis, and dermatosis syndrome, autosomal dominant, OMIM:621030"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9066",
+        "gene_name": "phospholipase C gamma 2",
+        "omim_gene": [
+          "600220"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLCG2",
+        "hgnc_symbol": "PLCG2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:81772702-81991899",
+              "ensembl_id": "ENSG00000197943"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:81739097-81962693",
+              "ensembl_id": "ENSG00000197943"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-05-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLCG2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29538758",
+        "22236196",
+        "23000145",
+        "25760457"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Autoinflammation, antibody deficiency, and immune dysregulation syndrome, OMIM:614878",
+        "Familial cold autoinflammatory syndrome 3, OMIM:614468"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSPC014",
+          "UMP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20330",
+        "gene_name": "proteasome maturation protein",
+        "omim_gene": [
+          "613386"
+        ],
+        "alias_name": [
+          "proteassemblin"
+        ],
+        "gene_symbol": "POMP",
+        "hgnc_symbol": "POMP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:29233241-29253062",
+              "ensembl_id": "ENSG00000132963"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:28659104-28678925",
+              "ensembl_id": "ENSG00000132963"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "POMP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "38111302",
+        "29805043",
+        "26524591"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "ClinGen",
+        "Research",
+        "Literature",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Proteasome-associated autoinflammatory syndrome 2, OMIM:618048"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HN3",
+          "PROS26"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9541",
+        "gene_name": "proteasome subunit beta 4",
+        "omim_gene": [
+          "602177"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PSMB4",
+        "hgnc_symbol": "PSMB4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:151372010-151374420",
+              "ensembl_id": "ENSG00000159377"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:151399534-151401944",
+              "ensembl_id": "ENSG00000159377"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSMB4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "34416217",
+        "26524591"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "CANDLE syndrome (Autoinflammation, lipodystrophy, and dermatosis syndrome)",
+        "Proteasome-associated autoinflammatory syndrome 3 and digenic forms, OMIM:617591"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "digenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RING10",
+          "D6S216E",
+          "PSMB5i",
+          "beta5i"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9545",
+        "gene_name": "proteasome subunit beta 8",
+        "omim_gene": [
+          "177046"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PSMB8",
+        "hgnc_symbol": "PSMB8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:32808494-32812480",
+              "ensembl_id": "ENSG00000204264"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:32840717-32844703",
+              "ensembl_id": "ENSG00000204264"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSMB8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21852578",
+        "21953331",
+        "20534754",
+        "20159315",
+        "21881205",
+        "21129723"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Proteasome-associated autoinflammatory syndrome 1 and digenic forms, OMIM:256040"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "digenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RING12",
+          "beta1i",
+          "PSMB6i"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9546",
+        "gene_name": "proteasome subunit beta 9",
+        "omim_gene": [
+          "177045"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PSMB9",
+        "hgnc_symbol": "PSMB9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:32811913-32827362",
+              "ensembl_id": "ENSG00000240065"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:32844136-32859585",
+              "ensembl_id": "ENSG00000240065"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-12-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSMB9",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26524591",
+        "33727065",
+        "34819510"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "CANDLE syndrome (Autoinflammation, lipodystrophy, and dermatosis syndrome)",
+        "Proteasome-associated autoinflammatory syndrome 3, digenic, OMIM:617591"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "digenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PSTPIP",
+          "CD2BP1L",
+          "CD2BP1",
+          "CD2BP1S",
+          "H-PIP",
+          "PAPAS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9580",
+        "gene_name": "proline-serine-threonine phosphatase interacting protein 1",
+        "omim_gene": [
+          "606347"
+        ],
+        "alias_name": [
+          "CD2 cytoplasmic tail-binding protein",
+          "CD2 antigen-binding protein 1",
+          "PEST phosphatase-interacting protein 1"
+        ],
+        "gene_symbol": "PSTPIP1",
+        "hgnc_symbol": "PSTPIP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:77285700-77329673",
+              "ensembl_id": "ENSG00000140368"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:76993359-77037332",
+              "ensembl_id": "ENSG00000140368"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-01-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSTPIP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29575118",
+        "28960754",
+        "28251506",
+        "26025129",
+        "9212761",
+        "21532836",
+        "28628471",
+        "22161697"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Pyogenic sterile arthritis, pyoderma gangrenosum, and acne, OMIM:604416"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RBCK2",
+          "XAP4",
+          "RNF54",
+          "ZRANB4",
+          "UBCE7IP3",
+          "HOIL1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15864",
+        "gene_name": "RANBP2-type and C3HC4-type zinc finger containing 1",
+        "omim_gene": [
+          "610924"
+        ],
+        "alias_name": [
+          "heme-oxidized IRP2 ubiquitin ligase 1"
+        ],
+        "gene_symbol": "RBCK1",
+        "hgnc_symbol": "RBCK1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:388142-411610",
+              "ensembl_id": "ENSG00000125826"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:407498-430966",
+              "ensembl_id": "ENSG00000125826"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-06-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "RBCK1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23798481",
+        "610924",
+        "23104095",
+        "29260357"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Polyglucosan body myopathy 1 with or without immunodeficiency, OMIM:615895"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p65"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9955",
+        "gene_name": "RELA proto-oncogene, NF-kB subunit",
+        "omim_gene": [
+          "164014"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RELA",
+        "hgnc_symbol": "RELA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:65421067-65430565",
+              "ensembl_id": "ENSG00000173039"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:65653596-65663094",
+              "ensembl_id": "ENSG00000173039"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-11-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "RELA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "36926348",
+        "32969189",
+        "35412596",
+        "28600438",
+        "29305315"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Research",
+        "Literature",
+        "Expert Review",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Autoinflammatory disease, familial, Behcet-like-3, OMIM:618287"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RIP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10019",
+        "gene_name": "receptor interacting serine/threonine kinase 1",
+        "omim_gene": [
+          "603453"
+        ],
+        "alias_name": [
+          "receptor-interacting protein kinase 1"
+        ],
+        "gene_symbol": "RIPK1",
+        "hgnc_symbol": "RIPK1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:3064225-3115421",
+              "ensembl_id": "ENSG00000137275"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:3063991-3115187",
+              "ensembl_id": "ENSG00000137275"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-05-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "RIPK1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30026316",
+        "31827280",
+        "31827281",
+        "31911632",
+        "35716229",
+        "35786329",
+        "39557292"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Research",
+        "Literature",
+        "Expert Review",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Autoinflammation with episodic fever and lymphadenopathy, OMIM:618852",
+        "Immunodeficiency 57 with autoinflammation, OMIM: 618108"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RES4-23",
+          "CRBM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10825",
+        "gene_name": "SH3 domain binding protein 2",
+        "omim_gene": [
+          "602104"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SH3BP2",
+        "hgnc_symbol": "SH3BP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:2794750-2842825",
+              "ensembl_id": "ENSG00000087266"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:2793023-2841098",
+              "ensembl_id": "ENSG00000087266"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-08-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SH3BP2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25705883",
+        "25220465",
+        "26152156",
+        "25470448",
+        "32825821"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Cherubism, OMIM:118400"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ENT3",
+          "FLJ11160"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23096",
+        "gene_name": "solute carrier family 29 member 3",
+        "omim_gene": [
+          "612373"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC29A3",
+        "hgnc_symbol": "SLC29A3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:73079015-73123142",
+              "ensembl_id": "ENSG00000198246"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:71319258-71363385",
+              "ensembl_id": "ENSG00000198246"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC29A3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22238637",
+        "18940313",
+        "20619369",
+        "20140240",
+        "19336477",
+        "16650224",
+        "23530176",
+        "22653152",
+        "16118898",
+        "22875837",
+        "21888995",
+        "19175903",
+        "21178579"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Histiocytosis-lymphadenopathy plus syndrome, OMIM:602782"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NAK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11584",
+        "gene_name": "TANK binding kinase 1",
+        "omim_gene": [
+          "604834"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TBK1",
+        "hgnc_symbol": "TBK1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:64845660-64895888",
+              "ensembl_id": "ENSG00000183735"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:64451880-64502108",
+              "ensembl_id": "ENSG00000183735"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-06-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBK1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28148298",
+        "34210994",
+        "34363755"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature",
+        "Expert Review",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Autoinflammation with arthritis and vasculitis, OMIM:620880"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ38577",
+          "NET23",
+          "ERIS",
+          "MPYS",
+          "STING",
+          "MITA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:27962",
+        "gene_name": "transmembrane protein 173",
+        "omim_gene": [
+          "612374"
+        ],
+        "alias_name": [
+          "stimulator of interferon genes"
+        ],
+        "gene_symbol": "TMEM173",
+        "hgnc_symbol": "TMEM173",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:138855119-138862520",
+              "ensembl_id": "ENSG00000184584"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:139475534-139482935",
+              "ensembl_id": "ENSG00000184584"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMEM173",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25401470",
+        "29491158",
+        "29425920",
+        "30705050",
+        "25029335",
+        "29976662"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "STING-associated vasculopathy, infantile-onset, OMIM:615934"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "A20",
+          "OTUD7C"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11896",
+        "gene_name": "TNF alpha induced protein 3",
+        "omim_gene": [
+          "191163"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TNFAIP3",
+        "hgnc_symbol": "TNFAIP3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:138188351-138204449",
+              "ensembl_id": "ENSG00000118503"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:137867188-137883312",
+              "ensembl_id": "ENSG00000118503"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNFAIP3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29317407",
+        "29572183",
+        "27845235",
+        "28659290",
+        "31164164",
+        "26642243"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Autoinflammatory syndrome, familial, Behcet-like, OMIM:616744"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TNF-R",
+          "TNFAR",
+          "TNFR60",
+          "TNF-R-I",
+          "CD120a",
+          "TNF-R55"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11916",
+        "gene_name": "TNF receptor superfamily member 1A",
+        "omim_gene": [
+          "191190"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TNFRSF1A",
+        "hgnc_symbol": "TNFRSF1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:6437923-6451280",
+              "ensembl_id": "ENSG00000067182"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:6328757-6342114",
+              "ensembl_id": "ENSG00000067182"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-01-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNFRSF1A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10199409",
+        "10902757",
+        "23965844",
+        "12209523",
+        "17360963",
+        "11175303",
+        "11115159"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Periodic fever, familial, OMIM:142680"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "UBE1X",
+          "POC20",
+          "CFAP124"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12469",
+        "gene_name": "ubiquitin like modifier activating enzyme 1",
+        "omim_gene": [
+          "314370"
+        ],
+        "alias_name": [
+          "UBA1, ubiquitin-activating enzyme E1 homolog (yeast)",
+          "POC20 centriolar protein homolog (Chlamydomonas)"
+        ],
+        "gene_symbol": "UBA1",
+        "hgnc_symbol": "UBA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:47050260-47074527",
+              "ensembl_id": "ENSG00000130985"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:47190861-47215128",
+              "ensembl_id": "ENSG00000130985"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "UBA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "33108101",
+        "36823397",
+        "34048852",
+        "34213531",
+        "34340250",
+        "33930131",
+        "34802547",
+        "37501758",
+        "37223371",
+        "36692560",
+        "33789873",
+        "33779074",
+        "33690815",
+        "34077651",
+        "34196684"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "VEXAS syndrome, somatic, OMIM:301054"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "somatic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hIL-17R",
+          "IL-17RA",
+          "CDw217",
+          "CD217"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5985",
+        "gene_name": "interleukin 17 receptor A",
+        "omim_gene": [
+          "605461"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IL17RA",
+        "hgnc_symbol": "IL17RA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:17565844-17596583",
+              "ensembl_id": "ENSG00000177663"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:17084954-17115694",
+              "ensembl_id": "ENSG00000177663"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-04-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL17RA",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32098966"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Immunodeficiency 51, OMIM:613953"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AIP4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13890",
+        "gene_name": "itchy E3 ubiquitin protein ligase",
+        "omim_gene": [
+          "606409"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ITCH",
+        "hgnc_symbol": "ITCH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:32951041-33099198",
+              "ensembl_id": "ENSG00000078747"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:34363235-34511393",
+              "ensembl_id": "ENSG00000078747"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-04-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "ITCH",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "18727493",
+        "20170897",
+        "30705142",
+        "31091003",
+        "33894394",
+        "36338154"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Other"
+      ],
+      "phenotypes": [
+        "Autoimmune disease, multisystem, with facial dysmorphism, OMIM:613385",
+        "syndromic multisystem autoimmune disease due to ITCH deficiency, MONDO:0013245"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q3_25_promote_green",
+        "Q3_25_NHS_review"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dJ331H24.1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21378",
+        "gene_name": "opioid growth factor receptor like 1",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "OGFRL1",
+        "hgnc_symbol": "OGFRL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:71998506-72018653",
+              "ensembl_id": "ENSG00000119900"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:71288803-71308950",
+              "ensembl_id": "ENSG00000119900"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "OGFRL1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "38699440"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Cherubism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PLC148",
+          "PLC-II",
+          "PLCgamma1",
+          "NCKAP3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9065",
+        "gene_name": "phospholipase C gamma 1",
+        "omim_gene": [
+          "172420"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLCG1",
+        "hgnc_symbol": "PLCG1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:39765600-39811629",
+              "ensembl_id": "ENSG00000124181"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:41136960-41196801",
+              "ensembl_id": "ENSG00000124181"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLCG1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "37422272",
+        "40862571"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "?Immune dysregulation, autoimmunity, and autoinflammation, OMIM:620514",
+        "immune dysregulation, autoimmunity, and autoinflammation, MONDO:0957790"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q2_26_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PFP",
+          "P1",
+          "HPLH2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9360",
+        "gene_name": "perforin 1",
+        "omim_gene": [
+          "170280"
+        ],
+        "alias_name": [
+          "Perforin",
+          "perforin 1 (preforming protein)"
+        ],
+        "gene_symbol": "PRF1",
+        "hgnc_symbol": "PRF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:72357104-72362531",
+              "ensembl_id": "ENSG00000180644"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:70597348-70602775",
+              "ensembl_id": "ENSG00000180644"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-02-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRF1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32098966",
+        "24753205",
+        "22248322",
+        "28468610",
+        "27269180"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hemophagocytic lymphohistiocytosis, familial, 2, OMIM:603553"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LMP10",
+          "MGC1665",
+          "beta2i"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9538",
+        "gene_name": "proteasome subunit beta 10",
+        "omim_gene": [
+          "176847"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PSMB10",
+        "hgnc_symbol": "PSMB10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:67968405-67970990",
+              "ensembl_id": "ENSG00000205220"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:67934502-67937087",
+              "ensembl_id": "ENSG00000205220"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSMB10",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31783057",
+        "36250618",
+        "37600812",
+        "38503300",
+        "39734035"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Immunodeficiency 121 with autoinflammation, OMIM:620807",
+        "Proteasome-associated autoinflammatory syndrome 5, OMIM:619175"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "Q1_26_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9642",
+        "gene_name": "protein tyrosine phosphatase, non-receptor type 1",
+        "omim_gene": [
+          "176885"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTPN1",
+        "hgnc_symbol": "PTPN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:49126891-49201299",
+              "ensembl_id": "ENSG00000196396"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:50510321-50585241",
+              "ensembl_id": "ENSG00000196396"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTPN1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "10066179",
+        "39986310"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Encephalopathy, HP:0001298",
+        "dystonia, early-onset, and/or spastic paraplegia, MONDO:0859215"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q1_26_promote_green",
+        "Q1_26_expert_review"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ZIBRA",
+          "FLJ10111",
+          "FLJ23501",
+          "HOIP",
+          "Paul"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16031",
+        "gene_name": "ring finger protein 31",
+        "omim_gene": [
+          "612487"
+        ],
+        "alias_name": [
+          "HOIL-1-interacting protein"
+        ],
+        "gene_symbol": "RNF31",
+        "hgnc_symbol": "RNF31",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:24615892-24629870",
+              "ensembl_id": "ENSG00000092098"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:24146683-24160661",
+              "ensembl_id": "ENSG00000092098"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-09-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "RNF31",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26008899",
+        "30936877",
+        "39009172",
+        "41026334"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Immunodeficiency 115 with autoinflammation, OMIM:620632",
+        "immunodeficiency 115 with autoinflammation, MONDO:0957981"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:186",
+        "gene_name": "adenosine deaminase",
+        "omim_gene": [
+          "608958"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADA",
+        "hgnc_symbol": "ADA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:43248163-43280874",
+              "ensembl_id": "ENSG00000196839"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:44619522-44652233",
+              "ensembl_id": "ENSG00000196839"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32098966"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Severe combined immunodeficiency due to ADA deficiency, OMIM:102700",
+        "Adenosine deaminase deficiency, partial, OMIM:102700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GPVI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14388",
+        "gene_name": "glycoprotein VI platelet",
+        "omim_gene": [
+          "605546"
+        ],
+        "alias_name": [
+          "platelet glycoprotein VI"
+        ],
+        "gene_symbol": "GP6",
+        "hgnc_symbol": "GP6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:55525073-55549632",
+              "ensembl_id": "ENSG00000088053"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:55013705-55038264",
+              "ensembl_id": "ENSG00000088053"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-01-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "GP6",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32098966"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Bleeding disorder, platelet-type, 11, OMIM:614201"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1438",
+          "MAL",
+          "MRTF-A",
+          "BSAC",
+          "MKL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14334",
+        "gene_name": "megakaryoblastic leukemia (translocation) 1",
+        "omim_gene": [
+          "606078"
+        ],
+        "alias_name": [
+          "megakaryocytic acute leukemia",
+          "myocardin-related transcription factor A",
+          "basic, SAP and coiled-coil domain"
+        ],
+        "gene_symbol": "MKL1",
+        "hgnc_symbol": "MKL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:40806285-41032706",
+              "ensembl_id": "ENSG00000196588"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:40410281-40636702",
+              "ensembl_id": "ENSG00000196588"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-05-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "MKL1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26224645",
+        "27479822",
+        "32128589",
+        "40808667"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "?Immunodeficiency 66 , OMIM:618847",
+        "immunodeficiency 66, MONDO:0030013",
+        "neutropenia, MONDO:0001475"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDA-II",
+          "CDAII",
+          "HEMPAS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10702",
+        "gene_name": "Sec23 homolog B, coat complex II component",
+        "omim_gene": [
+          "610512"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SEC23B",
+        "hgnc_symbol": "SEC23B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:18488137-18542059",
+              "ensembl_id": "ENSG00000101310"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:18507493-18561415",
+              "ensembl_id": "ENSG00000101310"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-01-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "SEC23B",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32098966"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Dyserythropoietic anemia, congenital, type II, OMIM:224100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

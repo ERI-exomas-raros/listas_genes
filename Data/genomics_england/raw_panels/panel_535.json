@@ -1,0 +1,451 @@
+{
+  "id": 535,
+  "hash_id": null,
+  "name": "Mitochondrial disorder with complex II deficiency",
+  "disease_group": "Mitochondrial",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.11",
+  "version_created": "2026-01-23T10:48:26.995462Z",
+  "relevant_disorders": [
+    "R354"
+  ],
+  "stats": {
+    "number_of_genes": 8,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "FP",
+          "SDHF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10680",
+        "gene_name": "succinate dehydrogenase complex flavoprotein subunit A",
+        "omim_gene": [
+          "600857"
+        ],
+        "alias_name": [
+          "succinate dehydrogenase [ubiquinone] flavoprotein subunit",
+          "flavoprotein subunit of complex II"
+        ],
+        "gene_symbol": "SDHA",
+        "hgnc_symbol": "SDHA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:218356-256815",
+              "ensembl_id": "ENSG00000073578"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:218241-256700",
+              "ensembl_id": "ENSG00000073578"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-10-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10976639",
+        "27683074",
+        "33471299"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex II deficiency, nuclear type 1, OMIM:252011",
+        "Neurodegeneration with ataxia and late-onset optic atrophy, OMIM:619259",
+        "Cardiomyopathy, dilated, 1GG, OMIM:613642"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LYRM8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:33867",
+        "gene_name": "succinate dehydrogenase complex assembly factor 1",
+        "omim_gene": [
+          "612848"
+        ],
+        "alias_name": [
+          "LYR motif containing 8"
+        ],
+        "gene_symbol": "SDHAF1",
+        "hgnc_symbol": "SDHAF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:36486090-36487220",
+              "ensembl_id": "ENSG00000205138"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:35995199-35996315",
+              "ensembl_id": "ENSG00000205138"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-05-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHAF1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19465911",
+        "22995659",
+        "26642834"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial respiratory chain complex II deficiency, 252011"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10681",
+        "gene_name": "succinate dehydrogenase complex iron sulfur subunit B",
+        "omim_gene": [
+          "185470"
+        ],
+        "alias_name": [
+          "iron-sulfur subunit of complex II",
+          "succinate dehydrogenase [ubiquinone] iron-sulfur subunit"
+        ],
+        "gene_symbol": "SDHB",
+        "hgnc_symbol": "SDHB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:17345217-17380665",
+              "ensembl_id": "ENSG00000117118"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:17018722-17054170",
+              "ensembl_id": "ENSG00000117118"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22972948",
+        "26925370",
+        "27604842",
+        "32124427"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex II deficiency, nuclear type 4, OMIM:619224"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cybS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10683",
+        "gene_name": "succinate dehydrogenase complex subunit D",
+        "omim_gene": [
+          "602690"
+        ],
+        "alias_name": [
+          "small subunit of cytochrome b"
+        ],
+        "gene_symbol": "SDHD",
+        "hgnc_symbol": "SDHD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:111957497-111990353",
+              "ensembl_id": "ENSG00000204370"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:112086773-112120013",
+              "ensembl_id": "ENSG00000204370"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHD",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24367056",
+        "26008905"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial respiratory chain complex II deficiency, 252011"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20487",
+          "SDH5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26034",
+        "gene_name": "succinate dehydrogenase complex assembly factor 2",
+        "omim_gene": [
+          "613019"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SDHAF2",
+        "hgnc_symbol": "SDHAF2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:61197514-61215001",
+              "ensembl_id": "ENSG00000167985"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:61430042-61447529",
+              "ensembl_id": "ENSG00000167985"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-08-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHAF2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CYB560",
+          "cybL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10682",
+        "gene_name": "succinate dehydrogenase complex subunit C",
+        "omim_gene": [
+          "602413"
+        ],
+        "alias_name": [
+          "succinate dehydrogenase cytochrome b560 subunit",
+          "succinate dehydrgenase cytochrome b",
+          "large subunit of cytochrome b"
+        ],
+        "gene_symbol": "SDHC",
+        "hgnc_symbol": "SDHC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:161284047-161332984",
+              "ensembl_id": "ENSG00000143252"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:161314257-161375340",
+              "ensembl_id": "ENSG00000143252"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHC",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DC11",
+          "Sdh7",
+          "LYRM10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21752",
+        "gene_name": "succinate dehydrogenase complex assembly factor 3",
+        "omim_gene": [
+          "615773"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SDHAF3",
+        "hgnc_symbol": "SDHAF3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:96745902-96811075",
+              "ensembl_id": "ENSG00000196636"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:97116590-97181763",
+              "ensembl_id": "ENSG00000196636"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2015-02-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHAF3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Sdh8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20957",
+        "gene_name": "succinate dehydrogenase complex assembly factor 4",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "SDHAF4",
+        "hgnc_symbol": "SDHAF4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:71276620-71299272",
+              "ensembl_id": "ENSG00000154079"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:70566917-70589569",
+              "ensembl_id": "ENSG00000154079"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2015-02-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHAF4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

@@ -1,0 +1,2010 @@
+{
+  "id": 235,
+  "hash_id": "55b7a0bb22c1fc05fd2345d1",
+  "name": "Distal myopathies",
+  "disease_group": "Neurology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "7.1",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 33,
+    "number_of_strs": 3,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "Component Of Super Panel",
+      "slug": "component-of-super-panel",
+      "description": "This panel is a component of a Super Panel"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "NEM3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:129",
+        "gene_name": "actin, alpha 1, skeletal muscle",
+        "omim_gene": [
+          "102610"
+        ],
+        "alias_name": [
+          "nemaline myopathy type 3"
+        ],
+        "gene_symbol": "ACTA1",
+        "hgnc_symbol": "ACTA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:229566992-229569845",
+              "ensembl_id": "ENSG00000143632"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:229431245-229434098",
+              "ensembl_id": "ENSG00000143632"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACTA1",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Nemaline myopathy 3, autosomal dominant or recessive, OMIM:161800"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ38602"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20093",
+        "gene_name": "adenylosuccinate synthase like 1",
+        "omim_gene": [
+          "612498"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADSSL1",
+        "hgnc_symbol": "ADSSL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:105190523-105213662",
+              "ensembl_id": "ENSG00000185100"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:104724186-104747325",
+              "ensembl_id": "ENSG00000185100"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADSSL1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26506222",
+        "28268051",
+        "32331917",
+        "32646962",
+        "35668205"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Myopathy, distal, 5, OMIM:617030"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GDD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:27337",
+        "gene_name": "anoctamin 5",
+        "omim_gene": [
+          "608662"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANO5",
+        "hgnc_symbol": "ANO5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:22214722-22304903",
+              "ensembl_id": "ENSG00000171714"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:22193176-22283357",
+              "ensembl_id": "ENSG00000171714"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-08-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANO5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20096397"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Miyoshi muscular dystrophy 3, 613319"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:939",
+        "gene_name": "BCL2 associated athanogene 3",
+        "omim_gene": [
+          "603883"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BAG3",
+        "hgnc_symbol": "BAG3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:121410882-121437331",
+              "ensembl_id": "ENSG00000151929"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:119651370-119677819",
+              "ensembl_id": "ENSG00000151929"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-04-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "BAG3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21361913",
+        "19085932"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "myofibrillar myopathy 6, 612954"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSPB5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2389",
+        "gene_name": "crystallin alpha B",
+        "omim_gene": [
+          "123590"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CRYAB",
+        "hgnc_symbol": "CRYAB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:111779289-111794446",
+              "ensembl_id": "ENSG00000109846"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:111908565-111923722",
+              "ensembl_id": "ENSG00000109846"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1987-09-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "CRYAB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Myopathy, myofibrillar, 2, OMIM:608810",
+        "Myopathy, myofibrillar, fatal infantile hypertonic, alpha-B crystallin-related, OMIM:613869"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMD1I",
+          "CSM1",
+          "CSM2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2770",
+        "gene_name": "desmin",
+        "omim_gene": [
+          "125660"
+        ],
+        "alias_name": [
+          "intermediate filament protein"
+        ],
+        "gene_symbol": "DES",
+        "hgnc_symbol": "DES",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:220283099-220291461",
+              "ensembl_id": "ENSG00000175084"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:219418377-219426739",
+              "ensembl_id": "ENSG00000175084"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "DES",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20718792"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Myopathy, myofibrillar 1, 601419"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MRJ"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14888",
+        "gene_name": "DnaJ heat shock protein family (Hsp40) member B6",
+        "omim_gene": [
+          "611332"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAJB6",
+        "hgnc_symbol": "DNAJB6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:157128075-157210133",
+              "ensembl_id": "ENSG00000105993"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:157335381-157417439",
+              "ensembl_id": "ENSG00000105993"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-03-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAJB6",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "limb-girdle muscular dystrophy type 1E, 603511"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DYNII",
+          "DYN2",
+          "CMTDIB",
+          "CMTDI1",
+          "DI-CMTB",
+          "CMT2M"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2974",
+        "gene_name": "dynamin 2",
+        "omim_gene": [
+          "602378"
+        ],
+        "alias_name": [
+          "dynamin II",
+          "cytoskeletal protein"
+        ],
+        "gene_symbol": "DNM2",
+        "hgnc_symbol": "DNM2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:10828755-10944164",
+              "ensembl_id": "ENSG00000079805"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:10718079-10833488",
+              "ensembl_id": "ENSG00000079805"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-10-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNM2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Centronuclear myopathy 1, OMIM:160150"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FER1L1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3097",
+        "gene_name": "dysferlin",
+        "omim_gene": [
+          "603009"
+        ],
+        "alias_name": [
+          "fer-1-like family member 1"
+        ],
+        "gene_symbol": "DYSF",
+        "hgnc_symbol": "DYSF",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:71680852-71913898",
+              "ensembl_id": "ENSG00000135636"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:71453722-71686768",
+              "ensembl_id": "ENSG00000135636"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-03-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "DYSF",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20301480"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Miyoshi muscular dystrophy 1, 254130"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SLIM1",
+          "KYO-T",
+          "bA535K18.1",
+          "FHL1B",
+          "XMPMA",
+          "FLH1A",
+          "MGC111107"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3702",
+        "gene_name": "four and a half LIM domains 1",
+        "omim_gene": [
+          "300163"
+        ],
+        "alias_name": [
+          "Four-and-a-half LIM domains 1",
+          "LIM protein SLIMMER"
+        ],
+        "gene_symbol": "FHL1",
+        "hgnc_symbol": "FHL1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:135229559-135293518",
+              "ensembl_id": "ENSG00000022267"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:136146702-136211359",
+              "ensembl_id": "ENSG00000022267"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-08-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "FHL1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22094483",
+        "7709723"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Reducing body myopathy, X-linked 1b, with late childhood or adult onset, 300718"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ABP-280",
+          "ABPL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3756",
+        "gene_name": "filamin C",
+        "omim_gene": [
+          "102565"
+        ],
+        "alias_name": [
+          "actin binding protein 280",
+          "gamma filamin"
+        ],
+        "gene_symbol": "FLNC",
+        "hgnc_symbol": "FLNC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:128470431-128499328",
+              "ensembl_id": "ENSG00000128591"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:128830377-128859274",
+              "ensembl_id": "ENSG00000128591"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLNC",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21620354",
+        "15824355",
+        "15929027"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Myopathy, distal, 4, OMIM:614065",
+        "Distal myopathy with posterior leg and anterior hand involvement, MONDO:0013550",
+        "Myopathy, myofibrillar, 5, OMIM:609524",
+        "Myopathy, myofibrillar, 5, MONDO:0012289"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Uae1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23657",
+        "gene_name": "glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine kinase",
+        "omim_gene": [
+          "603824"
+        ],
+        "alias_name": [
+          "bifunctional UDP-N-acetylglucosamine 2-epimerase/N-acetylmannosamine kinase"
+        ],
+        "gene_symbol": "GNE",
+        "hgnc_symbol": "GNE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:36214438-36277053",
+              "ensembl_id": "ENSG00000159921"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:36214441-36277056",
+              "ensembl_id": "ENSG00000159921"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-11-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16372135"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Nonaka myopathy, 605820"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSP27",
+          "HSP28",
+          "Hs.76067",
+          "Hsp25",
+          "CMT2F"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5246",
+        "gene_name": "heat shock protein family B (small) member 1",
+        "omim_gene": [
+          "602195"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HSPB1",
+        "hgnc_symbol": "HSPB1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:75931861-75933612",
+              "ensembl_id": "ENSG00000106211"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:76302544-76304295",
+              "ensembl_id": "ENSG00000106211"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "HSPB1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27830184"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Neuropathy, distal hereditary motor type IIB, 608634"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "H11",
+          "E2IG1",
+          "HSP22",
+          "HspB8",
+          "CMT2L"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30171",
+        "gene_name": "heat shock protein family B (small) member 8",
+        "omim_gene": [
+          "608014"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HSPB8",
+        "hgnc_symbol": "HSPB8",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:119616447-119658936",
+              "ensembl_id": "ENSG00000152137"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:119178642-119221131",
+              "ensembl_id": "ENSG00000152137"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-01-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "HSPB8",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26718575"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Neuropathy, distal hereditary motor type IIA, 158590",
+        "distal myopathy"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PDLIM6",
+          "KIAA0613",
+          "ZASP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15710",
+        "gene_name": "LIM domain binding 3",
+        "omim_gene": [
+          "605906"
+        ],
+        "alias_name": [
+          "cypher",
+          "oracle",
+          "Z-band alternatively spliced PDZ motif protein"
+        ],
+        "gene_symbol": "LDB3",
+        "hgnc_symbol": "LDB3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:88428206-88495825",
+              "ensembl_id": "ENSG00000122367"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:86668449-86736068",
+              "ensembl_id": "ENSG00000122367"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "LDB3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15668942"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Myopathy, myofibrillar 4, 609452"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0723",
+          "MGC9105",
+          "VCPDM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6912",
+        "gene_name": "matrin 3",
+        "omim_gene": [
+          "164015"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MATR3",
+        "hgnc_symbol": "MATR3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:138609441-138667360",
+              "ensembl_id": "ENSG00000015479"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:139293648-139331677",
+              "ensembl_id": "ENSG00000015479"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-07-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "MATR3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Distal Myopathy"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMD1S"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7577",
+        "gene_name": "myosin heavy chain 7",
+        "omim_gene": [
+          "160760"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYH7",
+        "hgnc_symbol": "MYH7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:23881947-23904927",
+              "ensembl_id": "ENSG00000092054"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:23412738-23435718",
+              "ensembl_id": "ENSG00000092054"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYH7",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20301606"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Laing distal myopathy, OMIM:160500",
+        "Laing early-onset distal myopathy, MONDO:0008050",
+        "Scapuloperoneal syndrome, myopathic type, OMIM:181430",
+        "MYH7-related late-onset scapuloperoneal muscular dystrophy, MONDO:0008409"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12399",
+        "gene_name": "myotilin",
+        "omim_gene": [
+          "604103"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYOT",
+        "hgnc_symbol": "MYOT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:137203480-137223540",
+              "ensembl_id": "ENSG00000120729"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:137867791-137887851",
+              "ensembl_id": "ENSG00000120729"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-09-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYOT",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15111675"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Myopathy, myofibrillar, 3, OMIM:609200",
+        "Myopathy, spheroid body, OMIM:182920"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NEB177D"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7720",
+        "gene_name": "nebulin",
+        "omim_gene": [
+          "161650"
+        ],
+        "alias_name": [
+          "nemaline myopathy type 2"
+        ],
+        "gene_symbol": "NEB",
+        "hgnc_symbol": "NEB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:152341850-152591001",
+              "ensembl_id": "ENSG00000183091"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:151485336-151734487",
+              "ensembl_id": "ENSG00000183091"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "NEB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12207937",
+        "30679003",
+        "39474605",
+        "40517164"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Nemaline myopathy 2, OMIM:256030",
+        "distal myopathy, MONDO:0018949"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DFNX4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11122",
+        "gene_name": "small muscle protein, X-linked",
+        "omim_gene": [
+          "300226"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SMPX",
+        "hgnc_symbol": "SMPX",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:21724090-21776281",
+              "ensembl_id": "ENSG00000091482"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:21705972-21758163",
+              "ensembl_id": "ENSG00000091482"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-03-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMPX",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "33974137"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Myopathy, distal, 7, adult-onset, X-linked, OMIM:301075",
+        "myopathy, distal, 7, adult-onset, X-linked, MONDO:0024771"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p62",
+          "p60",
+          "p62B",
+          "A170"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11280",
+        "gene_name": "sequestosome 1",
+        "omim_gene": [
+          "601530"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SQSTM1",
+        "hgnc_symbol": "SQSTM1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:179233388-179265078",
+              "ensembl_id": "ENSG00000161011"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:179806398-179838078",
+              "ensembl_id": "ENSG00000161011"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-06-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "SQSTM1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26208961"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Dystal Myopathy with rimmed vacuoles, 617158"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11802",
+        "gene_name": "TIA1 cytotoxic granule associated RNA binding protein",
+        "omim_gene": [
+          "603518"
+        ],
+        "alias_name": [
+          "T-cell-restricted intracellular antigen-1",
+          "nucleolysin TIA-1 isoform p40"
+        ],
+        "gene_symbol": "TIA1",
+        "hgnc_symbol": "TIA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:70436576-70475792",
+              "ensembl_id": "ENSG00000116001"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:70209444-70248660",
+              "ensembl_id": "ENSG00000116001"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TIA1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23401021",
+        "13469174",
+        "10482271"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Welander distal myopathy, OMIM:604454",
+        "distal myopathy, Welander type, MONDO:0011466"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMPD4",
+          "FLJ32040",
+          "TMD",
+          "CMH9",
+          "LGMD2J",
+          "MYLK5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12403",
+        "gene_name": "titin",
+        "omim_gene": [
+          "188840"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTN",
+        "hgnc_symbol": "TTN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:179390716-179695529",
+              "ensembl_id": "ENSG00000155657"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:178525989-178830802",
+              "ensembl_id": "ENSG00000155657"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12145747"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Tibial muscular dystrophy, tardive, 600334"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IBMPFD",
+          "p97",
+          "CDC48",
+          "TERA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12666",
+        "gene_name": "valosin containing protein",
+        "omim_gene": [
+          "601023"
+        ],
+        "alias_name": [
+          "transitional endoplasmic reticulum ATPase"
+        ],
+        "gene_symbol": "VCP",
+        "hgnc_symbol": "VCP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:35056061-35073246",
+              "ensembl_id": "ENSG00000165280"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:35056064-35073249",
+              "ensembl_id": "ENSG00000165280"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-08-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "VCP",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21684747"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Inclusion body myopathy with early-onset Paget disease and frontotemporal dementia 1, 167320"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hnRNPA1",
+          "hnRNP-A1",
+          "ALS20"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5031",
+        "gene_name": "heterogeneous nuclear ribonucleoprotein A1",
+        "omim_gene": [
+          "164017"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HNRNPA1",
+        "hgnc_symbol": "HNRNPA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:54673977-54680872",
+              "ensembl_id": "ENSG00000135486"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:54280193-54287088",
+              "ensembl_id": "ENSG00000135486"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "HNRNPA1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34291734",
+        "34722876",
+        "39072769"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Other"
+      ],
+      "phenotypes": [
+        "Myopathy, distal, 3 , OMIM:610099",
+        "distal myopathy, MONDO:0018949"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "Q4_25_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RIF1",
+          "FLJ11269"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30299",
+        "gene_name": "ligand dependent nuclear receptor interacting factor 1",
+        "omim_gene": [
+          "615354"
+        ],
+        "alias_name": [
+          "receptor interacting factor 1"
+        ],
+        "gene_symbol": "LRIF1",
+        "hgnc_symbol": "LRIF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:111489807-111506701",
+              "ensembl_id": "ENSG00000121931"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:110947185-110964079",
+              "ensembl_id": "ENSG00000121931"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-04-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "LRIF1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32467133"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Facioscapulohumeral muscular dystrophy"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11273",
+        "gene_name": "spectrin alpha, non-erythrocytic 1",
+        "omim_gene": [
+          "182810"
+        ],
+        "alias_name": [
+          "alpha-fodrin"
+        ],
+        "gene_symbol": "SPTAN1",
+        "hgnc_symbol": "SPTAN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:131314866-131395941",
+              "ensembl_id": "ENSG00000197694"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:128552558-128633662",
+              "ensembl_id": "ENSG00000197694"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPTAN1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "40023774",
+        "40999194"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "distal myopathy, MONDO:0018949"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q1_26_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNF163",
+          "ZCCHC22",
+          "CNBP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13164",
+        "gene_name": "CCHC-type zinc finger nucleic acid binding protein",
+        "omim_gene": [
+          "116955"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CNBP",
+        "hgnc_symbol": "CNBP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:128888327-128902765",
+              "ensembl_id": "ENSG00000169714"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:129169484-129183922",
+              "ensembl_id": "ENSG00000169714"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-06-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "CNBP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Myotonic dystrophy 2, OMIM:602668",
+        "Myotonic dystrophy type 2, MONDO:0011266"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "nucleotide-repeat-expansion"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BMD",
+          "DXS142",
+          "DXS164",
+          "DXS206",
+          "DXS230",
+          "DXS239",
+          "DXS268",
+          "DXS269",
+          "DXS270",
+          "DXS272"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2928",
+        "gene_name": "dystrophin",
+        "omim_gene": [
+          "300377"
+        ],
+        "alias_name": [
+          "muscular dystrophy, Duchenne and Becker types"
+        ],
+        "gene_symbol": "DMD",
+        "hgnc_symbol": "DMD",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:31115794-33357558",
+              "ensembl_id": "ENSG00000198947"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:31097677-33339441",
+              "ensembl_id": "ENSG00000198947"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "DMD",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [
+        "Skewed X-inactivation"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DMK",
+          "DM1PK",
+          "MDPK",
+          "MT-PK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2933",
+        "gene_name": "DM1 protein kinase",
+        "omim_gene": [
+          "605377"
+        ],
+        "alias_name": [
+          "dystrophia myotonica 1",
+          "DM protein kinase",
+          "myotonin protein kinase A",
+          "myotonic dystrophy associated protein kinase",
+          "thymopoietin homolog"
+        ],
+        "gene_symbol": "DMPK",
+        "hgnc_symbol": "DMPK",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:46272975-46285810",
+              "ensembl_id": "ENSG00000104936"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:45769717-45782552",
+              "ensembl_id": "ENSG00000104936"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "DMPK",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Myotonic dystrophy 1, OMIM:160900"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "nucleotide-repeat-expansion",
+        "currently-ngs-unreportable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": null,
+        "hgnc_id": "HGNC:50800",
+        "gene_name": "double homeobox 4",
+        "omim_gene": [
+          "606009"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DUX4",
+        "hgnc_symbol": "DUX4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:191005267-191007077",
+              "ensembl_id": "ENSG00000258389"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:190173774-190185942",
+              "ensembl_id": "ENSG00000260596"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-06-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "DUX4",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "FACIOSCAPULOHUMERAL MUSCULAR DYSTROPHY 1 (FSHD1A)"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TIP-2",
+          "Hs.6454",
+          "GIPC",
+          "SEMCAP",
+          "GLUT1CBP",
+          "SYNECTIN",
+          "NIP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1226",
+        "gene_name": "GIPC PDZ domain containing family member 1",
+        "omim_gene": [
+          "605072"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GIPC1",
+        "hgnc_symbol": "GIPC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:14588572-14606944",
+              "ensembl_id": "ENSG00000123159"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:14477760-14496149",
+              "ensembl_id": "ENSG00000123159"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-06-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "GIPC1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "32413282",
+        "33374016"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Oculopharyngodistal myopathy 2, OMIM:618940",
+        "oculopharyngodistal myopathy 2, MONDO:0030134"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "STR"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1354",
+          "FLJ13568"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18732",
+        "gene_name": "kelch like family member 9",
+        "omim_gene": [
+          "611201"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KLHL9",
+        "hgnc_symbol": "KLHL9",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:21329670-21335379",
+              "ensembl_id": "ENSG00000198642"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:21329671-21335380",
+              "ensembl_id": "ENSG00000198642"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-06-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "KLHL9",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20554658"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "distal myopathy (no OMIM number)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [
+    {
+      "gene_data": {
+        "alias": [
+          "AIS",
+          "NR3C4",
+          "SMAX1",
+          "HUMARA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:644",
+        "gene_name": "androgen receptor",
+        "omim_gene": [
+          "313700"
+        ],
+        "alias_name": [
+          "testicular feminization",
+          "Kennedy disease"
+        ],
+        "gene_symbol": "AR",
+        "hgnc_symbol": "AR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:66764465-66950461",
+              "ensembl_id": "ENSG00000169083"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:67544032-67730619",
+              "ensembl_id": "ENSG00000169083"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "str",
+      "entity_name": "AR_CAG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Spinal and bulbar muscular atrophy of Kennedy, OMIM:313200"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "repeated_sequence": "CAG",
+      "chromosome": "X",
+      "grch37_coordinates": [
+        66765160,
+        66765225
+      ],
+      "grch38_coordinates": [
+        67545316,
+        67545383
+      ],
+      "normal_repeats": 35,
+      "pathogenic_repeats": 38,
+      "tags": [
+        "STR"
+      ]
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNF163",
+          "ZCCHC22",
+          "CNBP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13164",
+        "gene_name": "CCHC-type zinc finger nucleic acid binding protein",
+        "omim_gene": [
+          "116955"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CNBP",
+        "hgnc_symbol": "CNBP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:128888327-128902765",
+              "ensembl_id": "ENSG00000169714"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:129169484-129183922",
+              "ensembl_id": "ENSG00000169714"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-06-29"
+      },
+      "entity_type": "str",
+      "entity_name": "CNBP_CCTG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Myotonic dystrophy 2, OMIM:602668",
+        "Myotonic dystrophy type 2, MONDO:0011266"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "repeated_sequence": "CCTG",
+      "chromosome": "3",
+      "grch37_coordinates": [
+        128891420,
+        128891499
+      ],
+      "grch38_coordinates": [
+        129172577,
+        129172656
+      ],
+      "normal_repeats": 27,
+      "pathogenic_repeats": 75,
+      "tags": [
+        "STR"
+      ]
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TIP-2",
+          "Hs.6454",
+          "GIPC",
+          "SEMCAP",
+          "GLUT1CBP",
+          "SYNECTIN",
+          "NIP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1226",
+        "gene_name": "GIPC PDZ domain containing family member 1",
+        "omim_gene": [
+          "605072"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GIPC1",
+        "hgnc_symbol": "GIPC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:14588572-14606944",
+              "ensembl_id": "ENSG00000123159"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:14477760-14496149",
+              "ensembl_id": "ENSG00000123159"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-06-28"
+      },
+      "entity_type": "str",
+      "entity_name": "GIPC1_GGC",
+      "confidence_level": "1",
+      "penetrance": null,
+      "publications": [
+        "32413282",
+        "33374016"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Oculopharyngodistal myopathy 2, OMIM:618940"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "repeated_sequence": "GGC",
+      "chromosome": "19",
+      "grch37_coordinates": null,
+      "grch38_coordinates": [
+        14496041,
+        14496074
+      ],
+      "normal_repeats": 32,
+      "pathogenic_repeats": 73,
+      "tags": [
+        "STR",
+        "NGS Not Validated"
+      ]
+    }
+  ],
+  "regions": []
+}

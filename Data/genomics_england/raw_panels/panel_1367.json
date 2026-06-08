@@ -1,0 +1,138 @@
+{
+  "id": 1367,
+  "hash_id": null,
+  "name": "Multiple exostoses",
+  "disease_group": "Musculoskeletal",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.4",
+  "version_created": "2026-01-23T11:35:34.446657Z",
+  "relevant_disorders": [
+    "R390"
+  ],
+  "stats": {
+    "number_of_genes": 2,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "ttv"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3512",
+        "gene_name": "exostosin glycosyltransferase 1",
+        "omim_gene": [
+          "608177"
+        ],
+        "alias_name": [
+          "Glucuronosyl-N-acetylglucosaminyl-proteoglycan 4-alpha-N- acetylglucosaminyltransferase",
+          "N-acetylglucosaminyl-proteoglycan 4-beta-glucuronosyltransferase"
+        ],
+        "gene_symbol": "EXT1",
+        "hgnc_symbol": "EXT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:118806729-119124092",
+              "ensembl_id": "ENSG00000182197"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:117794490-118111853",
+              "ensembl_id": "ENSG00000182197"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-05-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "EXT1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Exostoses, multiple, type 1, OMIM:133700",
+        "exostoses, multiple, type 1, MONDO:0007585"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SOTV"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3513",
+        "gene_name": "exostosin glycosyltransferase 2",
+        "omim_gene": [
+          "608210"
+        ],
+        "alias_name": [
+          "Glucuronosyl-N-acetylglucosaminyl-proteoglycan 4-alpha-N- acetylglucosaminyltransferase",
+          "N-acetylglucosaminyl-proteoglycan 4-beta-glucuronosyltransferase"
+        ],
+        "gene_symbol": "EXT2",
+        "hgnc_symbol": "EXT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:44117099-44266979",
+              "ensembl_id": "ENSG00000151348"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:44095549-44245429",
+              "ensembl_id": "ENSG00000151348"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-06-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "EXT2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Exostoses, multiple, type 2, OMIM:133701",
+        "exostoses, multiple, type 2, MONDO:0007586"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

@@ -1,0 +1,1231 @@
+{
+  "id": 653,
+  "hash_id": null,
+  "name": "Polycystic liver disease",
+  "disease_group": "Gastrohepatology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.32",
+  "version_created": "2026-01-25T14:28:33.181588Z",
+  "relevant_disorders": [
+    "Polycystic liver disease interim",
+    "R173"
+  ],
+  "stats": {
+    "number_of_genes": 20,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "MGC2840"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23161",
+        "gene_name": "ALG8, alpha-1,3-glucosyltransferase",
+        "omim_gene": [
+          "608103"
+        ],
+        "alias_name": [
+          "dolichyl-P-Glc:Glc(1)Man(9)GlcNAc(2)-PP-dolichol alpha- 1->3-glucosyltransferase"
+        ],
+        "gene_symbol": "ALG8",
+        "hgnc_symbol": "ALG8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:77811982-77850706",
+              "ensembl_id": "ENSG00000159063"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:78100936-78139660",
+              "ensembl_id": "ENSG00000159063"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALG8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28375157",
+        "15235028"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "NHS GMS",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Polycystic liver disease 3 with or without kidney cysts, OMIM:617874"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EDJ",
+          "HEDJ",
+          "ERdj3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14889",
+        "gene_name": "DnaJ heat shock protein family (Hsp40) member B11",
+        "omim_gene": [
+          "611341"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAJB11",
+        "hgnc_symbol": "DNAJB11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:186285192-186315061",
+              "ensembl_id": "ENSG00000090520"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:186567403-186585800",
+              "ensembl_id": "ENSG00000090520"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-03-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAJB11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29706351"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Polycystic kidney disease 6 with or without polycystic liver disease, OMIM:618061"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GluII",
+          "G2AN",
+          "KIAA0088",
+          "GIIA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4138",
+        "gene_name": "glucosidase II alpha subunit",
+        "omim_gene": [
+          "104160"
+        ],
+        "alias_name": [
+          "neutral alpha-glucosidase AB"
+        ],
+        "gene_symbol": "GANAB",
+        "hgnc_symbol": "GANAB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:62392298-62414104",
+              "ensembl_id": "ENSG00000089597"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:62624826-62646726",
+              "ensembl_id": "ENSG00000089597"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GANAB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29243290",
+        "27259053",
+        "28862642"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "NHS GMS",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Polycystic kidney disease 3, OMIM:600666"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LR3",
+          "BMND1",
+          "HBM",
+          "OPS",
+          "OPTA1",
+          "VBCH2",
+          "EVR4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6697",
+        "gene_name": "LDL receptor related protein 5",
+        "omim_gene": [
+          "603506"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LRP5",
+        "hgnc_symbol": "LRP5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:68080077-68216743",
+              "ensembl_id": "ENSG00000162337"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:68312609-68449275",
+              "ensembl_id": "ENSG00000162337"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "LRP5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25920554"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "NHS GMS",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Polycystic liver disease 4 with or without kidney cysts, OMIM:617875"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PBP",
+          "Pc-1",
+          "TRPP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9008",
+        "gene_name": "polycystin 1, transient receptor potential channel interacting",
+        "omim_gene": [
+          "601313"
+        ],
+        "alias_name": [
+          "polycystin 1",
+          "transient receptor potential cation channel, subfamily P, member 1"
+        ],
+        "gene_symbol": "PKD1",
+        "hgnc_symbol": "PKD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:2138711-2185899",
+              "ensembl_id": "ENSG00000008710"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:2088710-2135898",
+              "ensembl_id": "ENSG00000008710"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PKD1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8554072",
+        "3178424",
+        "9211343"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list",
+        "Eligibility statement prior genetic testing",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Polycystic kidney disease 1, OMIM:173900",
+        "Caroli disease, MONDO:0010913"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PKD4",
+          "PC2",
+          "Pc-2",
+          "TRPP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9009",
+        "gene_name": "polycystin 2, transient receptor potential cation channel",
+        "omim_gene": [
+          "173910"
+        ],
+        "alias_name": [
+          "transient receptor potential cation channel, subfamily P, member 2"
+        ],
+        "gene_symbol": "PKD2",
+        "hgnc_symbol": "PKD2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:88928820-88998929",
+              "ensembl_id": "ENSG00000118762"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:88007668-88077777",
+              "ensembl_id": "ENSG00000118762"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-08-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "PKD2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29321346"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "NHS GMS",
+        "Emory Genetics Laboratory",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Polycystic kidney disease 2, OMIM:613095",
+        "liver cysts"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARPKD",
+          "FCYT",
+          "FPC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9016",
+        "gene_name": "PKHD1, fibrocystin/polyductin",
+        "omim_gene": [
+          "606702"
+        ],
+        "alias_name": [
+          "tigmin",
+          "polyductin",
+          "fibrocystin",
+          "fibrocystin/polyductin complex"
+        ],
+        "gene_symbol": "PKHD1",
+        "hgnc_symbol": "PKHD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:51480098-51952423",
+              "ensembl_id": "ENSG00000170927"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:51615300-52087625",
+              "ensembl_id": "ENSG00000170927"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "PKHD1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11135065",
+        "30211211",
+        "11919560",
+        "28862642",
+        "11337358"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "NHS GMS",
+        "Emory Genetics Laboratory",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Polycystic kidney disease 4 with or without hepatic disease, OMIM:263200",
+        "Caroli disease, MONDO:0010913"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "Q1_26_MOI",
+        "Q1_26_NHS_review",
+        "Q1_26_expert_review"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VASAP-60",
+          "GIIB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9411",
+        "gene_name": "protein kinase C substrate 80K-H",
+        "omim_gene": [
+          "177060"
+        ],
+        "alias_name": [
+          "advanced glycation end-product receptor 2",
+          "glucosidase II beta subunit",
+          "glucosidase 2 subunit beta",
+          "hepatocystin"
+        ],
+        "gene_symbol": "PRKCSH",
+        "hgnc_symbol": "PRKCSH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:11546109-11561783",
+              "ensembl_id": "ENSG00000130175"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:11435288-11450968",
+              "ensembl_id": "ENSG00000130175"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRKCSH",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11047756",
+        "29038287",
+        "12529853",
+        "12577059"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "NHS GMS",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Polycystic liver disease 1 OMIM:174050"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SEC63L",
+          "PRO2507",
+          "ERdj2",
+          "DNAJC23"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21082",
+        "gene_name": "SEC63 homolog, protein translocation regulator",
+        "omim_gene": [
+          "608648"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SEC63",
+        "hgnc_symbol": "SEC63",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:108188960-108279393",
+              "ensembl_id": "ENSG00000025796"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:107867756-107958189",
+              "ensembl_id": "ENSG00000025796"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-05-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "SEC63",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15133510"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "NHS GMS",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Polycystic liver disease 2, OMIM:617004"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15672",
+        "gene_name": "ALG9, alpha-1,2-mannosyltransferase",
+        "omim_gene": [
+          "606941"
+        ],
+        "alias_name": [
+          "dolichyl-P-Man:Man(6)GlcNAc(2)-PP-dolichol alpha-1,2-mannosyltransferase",
+          "dolichyl-P-Man:Man(8)GlcNAc(2)-PP-dolichol alpha-1,2-mannosyltransferase",
+          "dol-P-Man dependent alpha-1,2-mannosyltransferase"
+        ],
+        "gene_symbol": "ALG9",
+        "hgnc_symbol": "ALG9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:111652919-111742305",
+              "ensembl_id": "ENSG00000086848"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:111782195-111871581",
+              "ensembl_id": "ENSG00000086848"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALG9",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31395617"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "autosomal dominant polycystic kidney disease, MONDO:0004691",
+        "PCLD"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B9",
+          "EPPB9",
+          "MKS9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24123",
+        "gene_name": "B9 domain containing 1",
+        "omim_gene": [
+          "614144"
+        ],
+        "alias_name": [
+          "endothelial precursor protein B9"
+        ],
+        "gene_symbol": "B9D1",
+        "hgnc_symbol": "B9D1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:19240867-19281495",
+              "ensembl_id": "ENSG00000108641"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:19337554-19378182",
+              "ensembl_id": "ENSG00000108641"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "B9D1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21763481",
+        "21493627"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "NHS GMS",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "?Meckel syndrome 9, OMIM:614209",
+        "Meckel syndrome 9, MONDO:0013630",
+        "Joubert syndrome 27, OMIM:617120",
+        "Joubert syndrome 27, MONDO:0014927"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "bK3184A7.3",
+          "NHL",
+          "DKFZP434C013",
+          "KIAA1088",
+          "RTEL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15888",
+        "gene_name": "regulator of telomere elongation helicase 1",
+        "omim_gene": [
+          "608833"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RTEL1",
+        "hgnc_symbol": "RTEL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:62289163-62328416",
+              "ensembl_id": "ENSG00000258366"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:63657810-63696253",
+              "ensembl_id": "ENSG00000258366"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-10-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "RTEL1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28495916"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Dyskeratosis congenita, autosomal recessive 5 (615190)",
+        "Dyskeratosiscongenita, autosomal dominant 4 (615190)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16993",
+        "gene_name": "Sec61 translocon beta subunit",
+        "omim_gene": [
+          "609214"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SEC61B",
+        "hgnc_symbol": "SEC61B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:101984346-101992897",
+              "ensembl_id": "ENSG00000106803"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:99222064-99230615",
+              "ensembl_id": "ENSG00000106803"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "SEC61B",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28862642"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "NHS GMS",
+        "Literature",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Association with polycystic liver disease 1 with or without renal cysts",
+        "Polycystic liver disease 1, MONDO:0008265"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ22559",
+          "bA541N10.2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26200",
+        "gene_name": "STN1, CST complex subunit",
+        "omim_gene": [
+          "613128"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STN1",
+        "hgnc_symbol": "STN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:105642300-105677963",
+              "ensembl_id": "ENSG00000107960"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:103882542-103918205",
+              "ensembl_id": "ENSG00000107960"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2016-10-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "STN1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27432940"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Cerebroretinal microangiopathy with calcifications and cysts 2, OMIM:617341"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TR",
+          "hTR",
+          "TRC3",
+          "SCARNA19"
+        ],
+        "biotype": "lincRNA",
+        "hgnc_id": "HGNC:11727",
+        "gene_name": "telomerase RNA component",
+        "omim_gene": [
+          "602322"
+        ],
+        "alias_name": [
+          "small Cajal body-specific RNA 19"
+        ],
+        "gene_symbol": "TERC",
+        "hgnc_symbol": "TERC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:169482308-169482848",
+              "ensembl_id": "ENSG00000270141"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:169764520-169765060",
+              "ensembl_id": "ENSG00000270141"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TERC",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21436073",
+        "19936245",
+        "22341970"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Dyskeratosiscongenita, autosomal dominant 1, OMIM:127550"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "locus-type-rna-long-non-coding"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRT",
+          "TP2",
+          "TCS1",
+          "hEST2",
+          "EST2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11730",
+        "gene_name": "telomerase reverse transcriptase",
+        "omim_gene": [
+          "187270"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TERT",
+        "hgnc_symbol": "TERT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:1253262-1295184",
+              "ensembl_id": "ENSG00000164362"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:1253147-1295069",
+              "ensembl_id": "ENSG00000164362"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "TERT",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21436073",
+        "19936245",
+        "21483807"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "NHS GMS",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "{Dyskeratosis congenita, autosomal dominant 2}, OMIM:613989",
+        "{Dyskeratosis congenita, autosomal recessive 4}, OMIM:613989"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1345",
+          "MKS6",
+          "JBTS9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29253",
+        "gene_name": "coiled-coil and C2 domain containing 2A",
+        "omim_gene": [
+          "612013"
+        ],
+        "alias_name": [
+          "Meckel syndrome, type 6"
+        ],
+        "gene_symbol": "CC2D2A",
+        "hgnc_symbol": "CC2D2A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:15471489-15603180",
+              "ensembl_id": "ENSG00000048342"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:15469865-15601557",
+              "ensembl_id": "ENSG00000048342"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-10-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "CC2D2A",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19574260",
+        "18513680"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "COACH syndrome (216360)",
+        "congenital hepatic fibrosis",
+        "Joubert syndrome 9 (612285)",
+        "Meckel syndrome 6 (612284)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dGK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2858",
+        "gene_name": "deoxyguanosine kinase",
+        "omim_gene": [
+          "601465"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DGUOK",
+        "hgnc_symbol": "DGUOK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:74153953-74186088",
+              "ensembl_id": "ENSG00000114956"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:73926826-73958961",
+              "ensembl_id": "ENSG00000114956"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "DGUOK",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30234759",
+        "17073823",
+        "26874653"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Portal hypertension, noncirrhotic (617068)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1005",
+          "CORS3",
+          "JBTS7",
+          "MKS5",
+          "NPHP8",
+          "FTM",
+          "PPP1R134"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29168",
+        "gene_name": "RPGRIP1 like",
+        "omim_gene": [
+          "610937"
+        ],
+        "alias_name": [
+          "fantom homolog",
+          "Meckel syndrome, type 5",
+          "protein phosphatase 1, regulatory subunit 134"
+        ],
+        "gene_symbol": "RPGRIP1L",
+        "hgnc_symbol": "RPGRIP1L",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:53631595-53737850",
+              "ensembl_id": "ENSG00000103494"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:53597683-53703938",
+              "ensembl_id": "ENSG00000103494"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-05-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "RPGRIP1L",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19574260",
+        "17558409"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "COACH syndrome (216360)",
+        "Joubert syndrome 7 (611560)",
+        "Meckel syndrome 5 (611561)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC26979",
+          "JBTS6",
+          "NPHP11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28396",
+        "gene_name": "transmembrane protein 67",
+        "omim_gene": [
+          "609884"
+        ],
+        "alias_name": [
+          "Meckelin"
+        ],
+        "gene_symbol": "TMEM67",
+        "hgnc_symbol": "TMEM67",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:94767072-94831462",
+              "ensembl_id": "ENSG00000164953"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:93754844-93819234",
+              "ensembl_id": "ENSG00000164953"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-08-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMEM67",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16415887",
+        "28680603",
+        "19058225",
+        "26191240"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Joubert syndrome 6 (310688)",
+        "{Bardet-Biedl syndrome 14, modifier of} (615991)",
+        "Meckel syndrome 3 (607361)",
+        "Nephronophthisis 11 (613550)",
+        "congenital hepatic fibrosis",
+        "COACH syndrome (216360)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

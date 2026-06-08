@@ -1,0 +1,1429 @@
+{
+  "id": 508,
+  "hash_id": null,
+  "name": "Confirmed Fanconi anaemia or Bloom syndrome",
+  "disease_group": "Haematology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.15",
+  "version_created": "2026-06-01T16:11:14.000519Z",
+  "relevant_disorders": [
+    "R229",
+    "R258",
+    "Confirmed Fanconi anaemia or Bloom syndrome - mutation testing",
+    "Cytopenia - Fanconi breakage testing indicated"
+  ],
+  "stats": {
+    "number_of_genes": 24,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "BS",
+          "RECQL3",
+          "RECQ2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1058",
+        "gene_name": "Bloom syndrome RecQ like helicase",
+        "omim_gene": [
+          "604610"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BLM",
+        "hgnc_symbol": "BLM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:91260558-91358859",
+              "ensembl_id": "ENSG00000197299"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:90717327-90816165",
+              "ensembl_id": "ENSG00000197299"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "BLM",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Bloom syndrome, OMIM:210900"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNF53",
+          "BRCC1",
+          "PPP1R53",
+          "FANCS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1100",
+        "gene_name": "BRCA1, DNA repair associated",
+        "omim_gene": [
+          "113705"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-containing complex, subunit 1",
+          "protein phosphatase 1, regulatory subunit 53",
+          "Fanconi anemia, complementation group S"
+        ],
+        "gene_symbol": "BRCA1",
+        "hgnc_symbol": "BRCA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:41196312-41277500",
+              "ensembl_id": "ENSG00000012048"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:43044295-43170245",
+              "ensembl_id": "ENSG00000012048"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-02-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRCA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25472942",
+        "28122244",
+        "26644450"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group S, OMIM:617883"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAD",
+          "FAD1",
+          "BRCC2",
+          "XRCC11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1101",
+        "gene_name": "BRCA2, DNA repair associated",
+        "omim_gene": [
+          "600185"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-containing complex, subunit 2"
+        ],
+        "gene_symbol": "BRCA2",
+        "hgnc_symbol": "BRCA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:32889611-32973805",
+              "ensembl_id": "ENSG00000139618"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:32315474-32400266",
+              "ensembl_id": "ENSG00000139618"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-10-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRCA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28185119",
+        "14670928",
+        "12065746",
+        "11239453",
+        "24395671"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group D1, OMIM:605724"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OF",
+          "BACH1",
+          "FANCJ"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20473",
+        "gene_name": "BRCA1 interacting protein C-terminal helicase 1",
+        "omim_gene": [
+          "605882"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-associated helicase 1"
+        ],
+        "gene_symbol": "BRIP1",
+        "hgnc_symbol": "BRIP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:59758627-59940882",
+              "ensembl_id": "ENSG00000136492"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:61681266-61863521",
+              "ensembl_id": "ENSG00000136492"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-04-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRIP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16116424",
+        "16153896",
+        "14630800",
+        "16116423"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group J, OMIM:609054"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RAD1",
+          "FANCQ"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3436",
+        "gene_name": "ERCC excision repair 4, endonuclease catalytic subunit",
+        "omim_gene": [
+          "133520"
+        ],
+        "alias_name": [
+          "xeroderma pigmentosum, complementation group F"
+        ],
+        "gene_symbol": "ERCC4",
+        "hgnc_symbol": "ERCC4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:14014014-14046202",
+              "ensembl_id": "ENSG00000175595"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:13920157-13952345",
+              "ensembl_id": "ENSG00000175595"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ERCC4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24027083",
+        "23623386",
+        "23623389"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group Q, 615272",
+        "615272 Fanconi anemia, complementation group Q"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAA",
+          "FA-H",
+          "FAH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3582",
+        "gene_name": "Fanconi anemia complementation group A",
+        "omim_gene": [
+          "607139"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCA",
+        "hgnc_symbol": "FANCA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:89803957-89883065",
+              "ensembl_id": "ENSG00000187741"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:89737549-89816657",
+              "ensembl_id": "ENSG00000187741"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-12-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8896563"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group A, 227650",
+        "Fanconi anemia",
+        "227650 Fanconi anemia complementation group A"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAB",
+          "FLJ34064",
+          "FAAP95"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3583",
+        "gene_name": "Fanconi anemia complementation group B",
+        "omim_gene": [
+          "300515"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCB",
+        "hgnc_symbol": "FANCB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:14861529-14891191",
+              "ensembl_id": "ENSG00000181544"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:14843407-14873069",
+              "ensembl_id": "ENSG00000181544"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Falcon anemia",
+        "Fanconi Anemia Type B",
+        "300514 Fanconi anemia, complementation group B",
+        "Fanconi Anemia, X-Linked",
+        "Fanconi Anaemia",
+        "Fanconi anemia, complementation group B, 300514"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAC",
+          "FA3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3584",
+        "gene_name": "Fanconi anemia complementation group C",
+        "omim_gene": [
+          "613899"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCC",
+        "hgnc_symbol": "FANCC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:97861336-98079991",
+              "ensembl_id": "ENSG00000158169"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:95099054-95426796",
+              "ensembl_id": "ENSG00000158169"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCC",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "1574115"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi Anemia",
+        "227645 Fanconi anemia, complementation group C",
+        "Fanconi anemia, complementation group C, 227645"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAD",
+          "FA-D2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3585",
+        "gene_name": "Fanconi anemia complementation group D2",
+        "omim_gene": [
+          "613984"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCD2",
+        "hgnc_symbol": "FANCD2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:10068098-10143614",
+              "ensembl_id": "ENSG00000144554"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:10026414-10101930",
+              "ensembl_id": "ENSG00000144554"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-10-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCD2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11239454"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi Anemia",
+        "227646 Fanconi anemia, complementation group D2",
+        "Fanconi anemia, complementation group D2, 227646"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3586",
+        "gene_name": "Fanconi anemia complementation group E",
+        "omim_gene": [
+          "613976"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCE",
+        "hgnc_symbol": "FANCE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:35420138-35434880",
+              "ensembl_id": "ENSG00000112039"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:35452361-35467103",
+              "ensembl_id": "ENSG00000112039"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-04-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCE",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9147877",
+        "9382107",
+        "10205272",
+        "7662964"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi Anemia",
+        "Fanconi anemia, complementation group E, 600901",
+        "600901 Fanconi anemia, complementation group E"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3587",
+        "gene_name": "Fanconi anemia complementation group F",
+        "omim_gene": [
+          "613897"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCF",
+        "hgnc_symbol": "FANCF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:22644079-22647387",
+              "ensembl_id": "ENSG00000183161"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:22622519-22626787",
+              "ensembl_id": "ENSG00000183161"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCF",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10615118"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi Anemia",
+        "603467 Fanconi anemia, complementation group F",
+        "Fanconi anemia, complementation group F, 603467"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3588",
+        "gene_name": "Fanconi anemia complementation group G",
+        "omim_gene": [
+          "602956"
+        ],
+        "alias_name": [
+          "DNA repair protein XRCC9",
+          "X-ray repair, complementing defective, in Chinese hamster, 9",
+          "X-ray repair complementing defective repair in Chinese hamster cells 9"
+        ],
+        "gene_symbol": "FANCG",
+        "hgnc_symbol": "FANCG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:35073832-35080013",
+              "ensembl_id": "ENSG00000221829"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:35073835-35080016",
+              "ensembl_id": "ENSG00000221829"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9806548"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi Anemia",
+        "614082 Fanconi anemia, complementation group G",
+        "Fanconi anemia, complementation group G, 614082"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10719"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25568",
+        "gene_name": "Fanconi anemia complementation group I",
+        "omim_gene": [
+          "611360"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCI",
+        "hgnc_symbol": "FANCI",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:89787180-89860492",
+              "ensembl_id": "ENSG00000140525"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:89243949-89317261",
+              "ensembl_id": "ENSG00000140525"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-05-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCI",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17452773",
+        "11239453"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group I, 609053",
+        "Fanconi Anemia",
+        "609053 Fanconi anemia, complementation group I"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10335",
+          "FAAP43",
+          "Pog"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20748",
+        "gene_name": "Fanconi anemia complementation group L",
+        "omim_gene": [
+          "608111"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCL",
+        "hgnc_symbol": "FANCL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:58386378-58468507",
+              "ensembl_id": "ENSG00000115392"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:58159243-58241372",
+              "ensembl_id": "ENSG00000115392"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCL",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16474160",
+        "12724401",
+        "25754594",
+        "12973351",
+        "19405097"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi Anemia",
+        "Fanconi anemia, complementation group L, 614083",
+        "614083Fanconi anemia, complementation group L"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ21816",
+          "FANCN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26144",
+        "gene_name": "partner and localizer of BRCA2",
+        "omim_gene": [
+          "610355"
+        ],
+        "alias_name": [
+          "Fanconi anemia, complementation group N"
+        ],
+        "gene_symbol": "PALB2",
+        "hgnc_symbol": "PALB2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:23614488-23652631",
+              "ensembl_id": "ENSG00000083093"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:23603160-23641310",
+              "ensembl_id": "ENSG00000083093"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "PALB2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17200672",
+        "17200671"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group N, 610832",
+        "610832 Fanconi anemia, complementation group N"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HsRad51",
+          "HsT16930",
+          "BRCC5",
+          "FANCR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9817",
+        "gene_name": "RAD51 recombinase",
+        "omim_gene": [
+          "179617"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-containing complex, subunit 5"
+        ],
+        "gene_symbol": "RAD51",
+        "hgnc_symbol": "RAD51",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:40986972-41024354",
+              "ensembl_id": "ENSG00000051180"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:40694774-40732339",
+              "ensembl_id": "ENSG00000051180"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-05-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAD51",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26681308",
+        "26253028",
+        "30907510"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group R, OMIM:617244"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1784",
+          "KIAA1987",
+          "FANCP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23845",
+        "gene_name": "SLX4 structure-specific endonuclease subunit",
+        "omim_gene": [
+          "613278"
+        ],
+        "alias_name": [
+          "Fanconi anemia, complementation group P"
+        ],
+        "gene_symbol": "SLX4",
+        "hgnc_symbol": "SLX4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:3631182-3661599",
+              "ensembl_id": "ENSG00000188827"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:3581181-3611598",
+              "ensembl_id": "ENSG00000188827"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLX4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21240275",
+        "21240277"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi Anemia",
+        "613951 Fanconi Anemia Fanconi anemia, complementation group P",
+        "Fanconi anemia, complementation group P, 613951"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ZGRF7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11992",
+        "gene_name": "DNA topoisomerase III alpha",
+        "omim_gene": [
+          "601243"
+        ],
+        "alias_name": [
+          "zinc finger, GRF-type containing 7"
+        ],
+        "gene_symbol": "TOP3A",
+        "hgnc_symbol": "TOP3A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:18174742-18218321",
+              "ensembl_id": "ENSG00000177302"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:18271428-18315007",
+              "ensembl_id": "ENSG00000177302"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-03-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "TOP3A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Microcephaly, growth restriction, and increased sister chromatid exchange 2",
+        "618097 MGRISCE2 (Bloom-like syndrome)",
+        "MGRISCE2 (Bloom-like syndrome) 618097"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSPC150",
+          "FANCT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25009",
+        "gene_name": "ubiquitin conjugating enzyme E2 T",
+        "omim_gene": [
+          "610538"
+        ],
+        "alias_name": null,
+        "gene_symbol": "UBE2T",
+        "hgnc_symbol": "UBE2T",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:202300785-202311108",
+              "ensembl_id": "ENSG00000077152"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:202331657-202341980",
+              "ensembl_id": "ENSG00000077152"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-03-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "UBE2T",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26046368"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "616435 Fanconi anemia, complementation group T",
+        "Falcon anemia",
+        "Fanconi anemia, complementation group T, 616435"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ22175"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26171",
+        "gene_name": "Fanconi anemia core complex associated protein 100",
+        "omim_gene": [
+          "611301"
+        ],
+        "alias_name": [
+          "Fanconi anemia-associated protein, 100kDa"
+        ],
+        "gene_symbol": "FAAP100",
+        "hgnc_symbol": "FAAP100",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:79506911-79520987",
+              "ensembl_id": "ENSG00000185504"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:81539885-81553961",
+              "ensembl_id": "ENSG00000185504"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2015-05-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "FAAP100",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "40232843",
+        "40244696"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group X, OMIM:621258",
+        "Fanconi anemia, MONDO:0019391"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q1_26_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MAD2B",
+          "REV7",
+          "POLZ2",
+          "FANCV"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6764",
+        "gene_name": "mitotic arrest deficient 2 like 2",
+        "omim_gene": [
+          "604094"
+        ],
+        "alias_name": [
+          "mitotic arrest deficient homolog-like 2",
+          "polymerase (DNA-directed), zeta 2, accessory subunit"
+        ],
+        "gene_symbol": "MAD2L2",
+        "hgnc_symbol": "MAD2L2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:11734537-11751707",
+              "ensembl_id": "ENSG00000116670"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:11674480-11691650",
+              "ensembl_id": "ENSG00000116670"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAD2L2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Expert Review Amber",
+        "NHS GMS",
+        "Yorkshire and North East GLH"
+      ],
+      "phenotypes": [
+        "?Fanconi anemia, complementation group V, 617243",
+        "617243 ?Fanconi anemia, complementation group V"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RAD51L2",
+          "FANCO"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9820",
+        "gene_name": "RAD51 paralog C",
+        "omim_gene": [
+          "602774"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RAD51C",
+        "hgnc_symbol": "RAD51C",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:56769934-56811703",
+              "ensembl_id": "ENSG00000108384"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:58692573-58735611",
+              "ensembl_id": "ENSG00000108384"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-02-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAD51C",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20400963",
+        "22232082",
+        "26681308",
+        "29278735",
+        "37031326"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group O, OMIM:613390",
+        "Fanconi anemia complementation group O, MONDO:0013248"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FANCU"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12829",
+        "gene_name": "X-ray repair cross complementing 2",
+        "omim_gene": [
+          "600375"
+        ],
+        "alias_name": [
+          "RAD51-like"
+        ],
+        "gene_symbol": "XRCC2",
+        "hgnc_symbol": "XRCC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:152341864-152373250",
+              "ensembl_id": "ENSG00000196584"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:152644779-152676165",
+              "ensembl_id": "ENSG00000196584"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-02-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "XRCC2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22232082",
+        "27208205",
+        "30237576",
+        "42071175"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Yorkshire and North East GLH"
+      ],
+      "phenotypes": [
+        "?Fanconi anemia, complementation group U, OMIM:617247",
+        "Fanconi anemia complementation group U, MONDO:0014987"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_promote_green"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAAP250"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23168",
+        "gene_name": "Fanconi anemia complementation group M",
+        "omim_gene": [
+          "609644"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCM",
+        "hgnc_symbol": "FANCM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:45605143-45670093",
+              "ensembl_id": "ENSG00000187790"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:45135940-45200890",
+              "ensembl_id": "ENSG00000187790"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCM",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19423727",
+        "25078778",
+        "16116422",
+        "28837162"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Fanconi Anemia",
+        "614087Fanconi anemia, complementation group M",
+        "Fanconi anemia, complementation group M, 614087"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

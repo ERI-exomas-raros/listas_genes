@@ -1,0 +1,6831 @@
+{
+  "id": 545,
+  "hash_id": null,
+  "name": "Bleeding and platelet disorders",
+  "disease_group": "Haematology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "4.14",
+  "version_created": "2026-05-13T15:39:55.730794Z",
+  "relevant_disorders": [
+    "R90"
+  ],
+  "stats": {
+    "number_of_genes": 119,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "STSL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13886",
+        "gene_name": "ATP binding cassette subfamily G member 5",
+        "omim_gene": [
+          "605459"
+        ],
+        "alias_name": [
+          "sterolin 1"
+        ],
+        "gene_symbol": "ABCG5",
+        "hgnc_symbol": "ABCG5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:44039611-44066004",
+              "ensembl_id": "ENSG00000138075"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:43812472-43838865",
+              "ensembl_id": "ENSG00000138075"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-12-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCG5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30270055",
+        "24623560",
+        "27291889"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "210250 Sitosterolemia & Thrombocytopenia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GBD4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13887",
+        "gene_name": "ATP binding cassette subfamily G member 8",
+        "omim_gene": [
+          "605460"
+        ],
+        "alias_name": [
+          "gallbladder disease 4",
+          "sterolin 2"
+        ],
+        "gene_symbol": "ABCG8",
+        "hgnc_symbol": "ABCG8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:44066103-44105605",
+              "ensembl_id": "ENSG00000143921"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:43838964-43878466",
+              "ensembl_id": "ENSG00000143921"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-12-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCG8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24166850",
+        "27291889"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "210250 Sitosterolemia & Thrombocytopenia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:132",
+        "gene_name": "actin beta",
+        "omim_gene": [
+          "102630"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACTB",
+        "hgnc_symbol": "ACTB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:5566782-5603415",
+              "ensembl_id": "ENSG00000075624"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:5527151-5563784",
+              "ensembl_id": "ENSG00000075624"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACTB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30451859"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "thrombocytopenia, MONDO:0002049 (AD)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:163",
+        "gene_name": "actinin alpha 1",
+        "omim_gene": [
+          "102575"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACTN1",
+        "hgnc_symbol": "ACTN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:69340860-69446157",
+              "ensembl_id": "ENSG00000072110"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:68874143-68979440",
+              "ensembl_id": "ENSG00000072110"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACTN1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25361813",
+        "23434115",
+        "25949529"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "615193 Bleeding disorder, platelet-type, 15"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HHT2",
+          "ALK1",
+          "HHT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:175",
+        "gene_name": "activin A receptor like type 1",
+        "omim_gene": [
+          "601284"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACVRL1",
+        "hgnc_symbol": "ACVRL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:52300692-52317145",
+              "ensembl_id": "ENSG00000139567"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:51906908-51923361",
+              "ensembl_id": "ENSG00000139567"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACVRL1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16752392",
+        "25970827",
+        "30251589"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "600376 Telangiectasia, hereditary hemorrhagic, type 2"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VWFCP",
+          "TTP",
+          "vWF-CP",
+          "FLJ42993",
+          "MGC118899",
+          "MGC118900",
+          "DKFZp434C2322"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1366",
+        "gene_name": "ADAM metallopeptidase with thrombospondin type 1 motif 13",
+        "omim_gene": [
+          "604134"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADAMTS13",
+        "hgnc_symbol": "ADAMTS13",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:136279478-136324508",
+              "ensembl_id": "ENSG00000160323"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:133414358-133459402",
+              "ensembl_id": "ENSG00000160323"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-09-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADAMTS13",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11586351",
+        "12181489",
+        "12753286",
+        "14512317",
+        "15009458",
+        "15521921",
+        "30792199",
+        "32197596",
+        "32255295",
+        "33014938",
+        "33072671"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Thrombotic thrombocytopenic purpura, hereditary, OMIM:274150"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1074"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29186",
+        "gene_name": "ankyrin repeat domain 26",
+        "omim_gene": [
+          "610855"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANKRD26",
+        "hgnc_symbol": "ANKRD26",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:27280843-27389421",
+              "ensembl_id": "ENSG00000107890"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:26991914-27100498",
+              "ensembl_id": "ENSG00000107890"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANKRD26",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21467542",
+        "24030261",
+        "21211618"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "188000 Thrombocytopenia 2"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp313M0720"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25240",
+        "gene_name": "anoctamin 6",
+        "omim_gene": [
+          "608663"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANO6",
+        "hgnc_symbol": "ANO6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:45609770-45834187",
+              "ensembl_id": "ENSG00000177119"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:45215987-45440404",
+              "ensembl_id": "ENSG00000177119"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-08-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANO6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21511967",
+        "21107324",
+        "27879994"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "262890 Scott syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ADTB3A",
+          "HPS2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:566",
+        "gene_name": "adaptor related protein complex 3 beta 1 subunit",
+        "omim_gene": [
+          "603401"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AP3B1",
+        "hgnc_symbol": "AP3B1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:77296349-77590579",
+              "ensembl_id": "ENSG00000132842"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:78000525-78294755",
+              "ensembl_id": "ENSG00000132842"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AP3B1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28585318",
+        "23403622",
+        "26684649"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "608233 Hermansky-Pudlak syndrome 2"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ADTD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:568",
+        "gene_name": "adaptor related protein complex 3 delta 1 subunit",
+        "omim_gene": [
+          "607246"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AP3D1",
+        "hgnc_symbol": "AP3D1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:2100988-2164464",
+              "ensembl_id": "ENSG00000065000"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:2100988-2164465",
+              "ensembl_id": "ENSG00000065000"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AP3D1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28936583",
+        "26744459"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "617050 ?Hermansky-Pudlak syndrome 10"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARC41",
+          "p40-ARC",
+          "p41-ARC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:704",
+        "gene_name": "actin related protein 2/3 complex subunit 1B",
+        "omim_gene": [
+          "604223"
+        ],
+        "alias_name": [
+          "ARP2/3 protein complex subunit p41",
+          "actin related protein 2/3 complex, subunit 1A (41 kD)"
+        ],
+        "gene_symbol": "ARPC1B",
+        "hgnc_symbol": "ARPC1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:98971872-98992424",
+              "ensembl_id": "ENSG00000130429"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:99374249-99394801",
+              "ensembl_id": "ENSG00000130429"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-08-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARPC1B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29127144",
+        "28368018"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Immunodeficiency 71 with inflammatory disease and congenital thrombocytopenia, OMIM:617718"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BLOS3",
+          "HPS8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20914",
+        "gene_name": "biogenesis of lysosomal organelles complex 1 subunit 3",
+        "omim_gene": [
+          "609762"
+        ],
+        "alias_name": [
+          "BLOC-1 subunit 3",
+          "Biogenesis of Lysosome-related Organelles complex-1 Subunit 3",
+          "Hermansky-Pudlak syndrome 8"
+        ],
+        "gene_symbol": "BLOC1S3",
+        "hgnc_symbol": "BLOC1S3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:45682003-45685059",
+              "ensembl_id": "ENSG00000189114"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:45178745-45181801",
+              "ensembl_id": "ENSG00000189114"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "BLOC1S3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16385460",
+        "22709368",
+        "32687635"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Hermansky-Pudlak syndrome 8, 614077"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MU",
+          "dJ303A1.3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18561",
+        "gene_name": "biogenesis of lysosomal organelles complex 1 subunit 5",
+        "omim_gene": [
+          "607289"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BLOC1S5",
+        "hgnc_symbol": "BLOC1S5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:8013800-8064647",
+              "ensembl_id": "ENSG00000188428"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:8013567-8064414",
+              "ensembl_id": "ENSG00000188428"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-08-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "BLOC1S5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32565547",
+        "34685610",
+        "34058075"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hermansky–Pudlak syndrome 11, OMIM:619172",
+        "Hermansky-Pudlak syndrome 11, MONDO:0030903"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HPS9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8549",
+        "gene_name": "biogenesis of lysosomal organelles complex 1 subunit 6",
+        "omim_gene": [
+          "604310"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BLOC1S6",
+        "hgnc_symbol": "BLOC1S6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:45879321-45908197",
+              "ensembl_id": "ENSG00000104164"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:45587123-45615999",
+              "ensembl_id": "ENSG00000104164"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-08-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "BLOC1S6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22461475",
+        "29054114"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "614171 ?Hermansky-pudlak syndrome 9"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "G25K",
+          "CDC42Hs"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1736",
+        "gene_name": "cell division cycle 42",
+        "omim_gene": [
+          "116952"
+        ],
+        "alias_name": [
+          "GTP binding protein, 25kDa"
+        ],
+        "gene_symbol": "CDC42",
+        "hgnc_symbol": "CDC42",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:22379120-22419437",
+              "ensembl_id": "ENSG00000070831"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:22052627-22092946",
+              "ensembl_id": "ENSG00000070831"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDC42",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26708094",
+        "26386261",
+        "29394990"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "616737 Takenouchi-Kosaki syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HD4ST",
+          "D4ST-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24464",
+        "gene_name": "carbohydrate sulfotransferase 14",
+        "omim_gene": [
+          "608429"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CHST14",
+        "hgnc_symbol": "CHST14",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:40763160-40765353",
+              "ensembl_id": "ENSG00000169105"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:40470998-40474571",
+              "ensembl_id": "ENSG00000169105"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-03-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHST14",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20533528",
+        "26373698",
+        "25703627"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, musculocontractural type 1, 601776"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2201",
+        "gene_name": "collagen type III alpha 1 chain",
+        "omim_gene": [
+          "120180"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL3A1",
+        "hgnc_symbol": "COL3A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:189839046-189877472",
+              "ensembl_id": "ENSG00000168542"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:188974320-189012746",
+              "ensembl_id": "ENSG00000168542"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL3A1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22019127",
+        "25758994",
+        "22143279",
+        "30690834"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, vascular type, OMIM:130050",
+        "Polymicrogyria with or without vascular-type EDS, OMIM:618343"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HCS",
+          "CYC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19986",
+        "gene_name": "cytochrome c, somatic",
+        "omim_gene": [
+          "123970"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CYCS",
+        "hgnc_symbol": "CYCS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:25159710-25164980",
+              "ensembl_id": "ENSG00000172115"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:25120091-25125361",
+              "ensembl_id": "ENSG00000172115"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-12-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYCS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18345000",
+        "27479822",
+        "24326104"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Thrombocytopenia 4, OMIM:612004"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hDIA1",
+          "LFHL1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2876",
+        "gene_name": "diaphanous related formin 1",
+        "omim_gene": [
+          "602121"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DIAPH1",
+        "hgnc_symbol": "DIAPH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:140894583-140998622",
+              "ensembl_id": "ENSG00000131504"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:141515016-141619055",
+              "ensembl_id": "ENSG00000131504"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "DIAPH1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28815995",
+        "26912466",
+        "27707755"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "(NO OMIM NUMBER)",
+        "124900 Macrothrombocytopenia and hearing loss",
+        "Macrothrombocytopenia and hearing loss"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Dysbindin",
+          "My031",
+          "HPS7",
+          "DBND",
+          "BLOC1S8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17328",
+        "gene_name": "dystrobrevin binding protein 1",
+        "omim_gene": [
+          "607145"
+        ],
+        "alias_name": [
+          "dysbindin-1",
+          "biogenesis of lysosomal organelles complex-1, subunit 8"
+        ],
+        "gene_symbol": "DTNBP1",
+        "hgnc_symbol": "DTNBP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:15523032-15663289",
+              "ensembl_id": "ENSG00000047579"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:15522801-15663058",
+              "ensembl_id": "ENSG00000047579"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-01-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "DTNBP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12923531",
+        "23364359",
+        "28259707"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "614076 Hermansky-Pudlak syndrome 7"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "END",
+          "HHT1",
+          "CD105"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3349",
+        "gene_name": "endoglin",
+        "omim_gene": [
+          "131195"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ENG",
+        "hgnc_symbol": "ENG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:130577291-130617035",
+              "ensembl_id": "ENSG00000106991"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:127815012-127854756",
+              "ensembl_id": "ENSG00000106991"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-03-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "ENG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "7894484",
+        "25970827",
+        "30251589"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "187300 Telangiectasia, hereditary hemorrhagic, type 1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TEL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3495",
+        "gene_name": "ETS variant 6",
+        "omim_gene": [
+          "600618"
+        ],
+        "alias_name": [
+          "TEL oncogene"
+        ],
+        "gene_symbol": "ETV6",
+        "hgnc_symbol": "ETV6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:11802788-12048336",
+              "ensembl_id": "ENSG00000139083"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:11649854-11895402",
+              "ensembl_id": "ENSG00000139083"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "ETV6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27365488",
+        "27663637",
+        "28555414"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "616216 Thrombocytopenia 5"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3528",
+        "gene_name": "coagulation factor X",
+        "omim_gene": [
+          "613872"
+        ],
+        "alias_name": null,
+        "gene_symbol": "F10",
+        "hgnc_symbol": "F10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:113777128-113803843",
+              "ensembl_id": "ENSG00000126218"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:113122814-113149529",
+              "ensembl_id": "ENSG00000126218"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F10",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21854511",
+        "20331754",
+        "9198147"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "227600 Factor X deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FXI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3529",
+        "gene_name": "coagulation factor XI",
+        "omim_gene": [
+          "264900"
+        ],
+        "alias_name": [
+          "plasma thromboplastin antecedent"
+        ],
+        "gene_symbol": "F11",
+        "hgnc_symbol": "F11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:187187099-187210835",
+              "ensembl_id": "ENSG00000088926"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:186265945-186288806",
+              "ensembl_id": "ENSG00000088926"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "F11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16835901",
+        "24112640",
+        "29178608"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "612416 Factor XI deficiency"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3530",
+        "gene_name": "coagulation factor XII",
+        "omim_gene": [
+          "610619"
+        ],
+        "alias_name": null,
+        "gene_symbol": "F12",
+        "hgnc_symbol": "F12",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:176829141-176836577",
+              "ensembl_id": "ENSG00000131187"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:177402140-177409576",
+              "ensembl_id": "ENSG00000131187"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F12",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9354665",
+        "20386432",
+        "27003566"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Angioedema, hereditary, type III, OMIM:610618",
+        "Factor XII deficiency, OMIM:234000"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3531",
+        "gene_name": "coagulation factor XIII A chain",
+        "omim_gene": [
+          "134570"
+        ],
+        "alias_name": null,
+        "gene_symbol": "F13A1",
+        "hgnc_symbol": "F13A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:6144318-6321246",
+              "ensembl_id": "ENSG00000124491"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:6144085-6321013",
+              "ensembl_id": "ENSG00000124491"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F13A1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26852661",
+        "28520207",
+        "8555083"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Factor XIIIA deficiency, OMIM:613225"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FXIIIB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3534",
+        "gene_name": "coagulation factor XIII B chain",
+        "omim_gene": [
+          "134580"
+        ],
+        "alias_name": null,
+        "gene_symbol": "F13B",
+        "hgnc_symbol": "F13B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:197008321-197036397",
+              "ensembl_id": "ENSG00000143278"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:197039191-197067267",
+              "ensembl_id": "ENSG00000143278"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F13B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11313256",
+        "8324218",
+        "20331752"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Factor XIIIB deficiency, OMIM:613235"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3535",
+        "gene_name": "coagulation factor II, thrombin",
+        "omim_gene": [
+          "176930"
+        ],
+        "alias_name": [
+          "prepro-coagulation factor II"
+        ],
+        "gene_symbol": "F2",
+        "hgnc_symbol": "F2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:46740730-46761056",
+              "ensembl_id": "ENSG00000180210"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:46719180-46739506",
+              "ensembl_id": "ENSG00000180210"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "Expert Review Green",
+        "NHS GMS",
+        "London South GLH"
+      ],
+      "phenotypes": [
+        "613679 Factor II deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3542",
+        "gene_name": "coagulation factor V",
+        "omim_gene": [
+          "612309"
+        ],
+        "alias_name": null,
+        "gene_symbol": "F5",
+        "hgnc_symbol": "F5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:169483404-169555826",
+              "ensembl_id": "ENSG00000198734"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:169514166-169586588",
+              "ensembl_id": "ENSG00000198734"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19861681",
+        "20546033",
+        "19486170"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "227400 Factor V deficiency, 188055 Thrombophilia due to activated protein C resistance, 188055 {Thrombophilia, susceptibility to, due to factor V Leiden}",
+        "227400 Factor V deficiency",
+        "188055 {Thrombophilia, susceptibility to, due to factor V Leiden}",
+        "188055 Thrombophilia due to activated protein C resistance"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3544",
+        "gene_name": "coagulation factor VII",
+        "omim_gene": [
+          "613878"
+        ],
+        "alias_name": [
+          "eptacog alfa",
+          "FVII coagulation protein",
+          "factor VII"
+        ],
+        "gene_symbol": "F7",
+        "hgnc_symbol": "F7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:113760105-113774995",
+              "ensembl_id": "ENSG00000057593"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:113105788-113120681",
+              "ensembl_id": "ENSG00000057593"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11129332",
+        "21206266",
+        "10862079"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "227500 Factor VII deficiency"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FVIII",
+          "DXS1253E",
+          "HEMA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3546",
+        "gene_name": "coagulation factor VIII",
+        "omim_gene": [
+          "300841"
+        ],
+        "alias_name": [
+          "Factor VIIIF8B",
+          "hemophilia A"
+        ],
+        "gene_symbol": "F8",
+        "hgnc_symbol": "F8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:154064063-154255215",
+              "ensembl_id": "ENSG00000185010"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154835788-155026940",
+              "ensembl_id": "ENSG00000185010"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22103590",
+        "11857744",
+        "18217193"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "306700 Haemophilia A"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FIX"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3551",
+        "gene_name": "coagulation factor IX",
+        "omim_gene": [
+          "300746"
+        ],
+        "alias_name": [
+          "Factor IX",
+          "plasma thromboplastic component",
+          "Christmas disease",
+          "hemophilia B"
+        ],
+        "gene_symbol": "F9",
+        "hgnc_symbol": "F9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:138612917-138645617",
+              "ensembl_id": "ENSG00000101981"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:139530758-139563458",
+              "ensembl_id": "ENSG00000101981"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F9",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "7937052",
+        "22103590",
+        "15921378"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "306900 Haemophilia B"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "URP2",
+          "KIND3",
+          "MIG2B",
+          "MGC10966",
+          "MIG-2",
+          "UNC112C"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23151",
+        "gene_name": "fermitin family member 3",
+        "omim_gene": [
+          "607901"
+        ],
+        "alias_name": [
+          "kindlin-3"
+        ],
+        "gene_symbol": "FERMT3",
+        "hgnc_symbol": "FERMT3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:63974150-63991354",
+              "ensembl_id": "ENSG00000149781"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:64206678-64223886",
+              "ensembl_id": "ENSG00000149781"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "FERMT3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20357244",
+        "20216991"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "612840 Leukocyte integrin adhesion deficiency, type III"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3661",
+        "gene_name": "fibrinogen alpha chain",
+        "omim_gene": [
+          "134820"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FGA",
+        "hgnc_symbol": "FGA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:155504278-155511918",
+              "ensembl_id": "ENSG00000171560"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:154583126-154590766",
+              "ensembl_id": "ENSG00000171560"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18771425",
+        "23061815",
+        "25427968"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "202400 Afibrinogenemia, congenital",
+        "616004 Hypodysfibrinogenemia, congenital",
+        "105200 Amyloidosis, familial visceral",
+        "616004 Dysfibrinogenemia, congenital"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3662",
+        "gene_name": "fibrinogen beta chain",
+        "omim_gene": [
+          "134830"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FGB",
+        "hgnc_symbol": "FGB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:155484108-155492238",
+              "ensembl_id": "ENSG00000171564"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:154562956-154571086",
+              "ensembl_id": "ENSG00000171564"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "1565641",
+        "12161363",
+        "19404555"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "202400 Afibrinogenemia, congenital",
+        "202400 Afibrinogenemia, congenital, Hypofibrinogenemia, congenital, 616004 Dysfibrinogenemia, congenital",
+        "616004 Dysfibrinogenemia, congenital",
+        "202400 Hypofibrinogenemia, congenital",
+        "202400 Afibrinogenemia, congenital, Hypofibrinogenemia, congenital"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3694",
+        "gene_name": "fibrinogen gamma chain",
+        "omim_gene": [
+          "134850"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FGG",
+        "hgnc_symbol": "FGG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:155525286-155534119",
+              "ensembl_id": "ENSG00000171557"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:154604134-154612967",
+              "ensembl_id": "ENSG00000171557"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17295221",
+        "30418131",
+        "30349899"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "202400 Afibrinogenemia, congenital",
+        "616004 Hypodysfibrinogenemia, congenital",
+        "616004 Dysfibrinogenemia, congenital"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SIC-1",
+          "EWSR2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3749",
+        "gene_name": "Fli-1 proto-oncogene, ETS transcription factor",
+        "omim_gene": [
+          "193067"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FLI1",
+        "hgnc_symbol": "FLI1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:128556430-128683162",
+              "ensembl_id": "ENSG00000151702"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:128686535-128813267",
+              "ensembl_id": "ENSG00000151702"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLI1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26316623",
+        "24100448",
+        "28255014"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "617443 BLEEDING DISORDER, PLATELET-TYPE, 21",
+        "BDPLT21",
+        "617443.BLEEDING DISORDER, PLATELET-TYPE, 21"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ABP-280"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3754",
+        "gene_name": "filamin A",
+        "omim_gene": [
+          "300017"
+        ],
+        "alias_name": [
+          "actin binding protein 280",
+          "alpha filamin"
+        ],
+        "gene_symbol": "FLNA",
+        "hgnc_symbol": "FLNA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153576892-153603006",
+              "ensembl_id": "ENSG00000196924"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154348524-154374638",
+              "ensembl_id": "ENSG00000196924"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-03-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLNA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16684786",
+        "21960593",
+        "29449050",
+        "32299270",
+        "21652675",
+        "30602618",
+        "31471375"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Heterotopia, periventricular, 1, OMIM:300049",
+        "Macrothrombocytopenia"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SLAP-130",
+          "FYB-120/130",
+          "ADAP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4036",
+        "gene_name": "FYN binding protein 1",
+        "omim_gene": [
+          "602731"
+        ],
+        "alias_name": [
+          "adhesion and degranulation promoting adaptor protein"
+        ],
+        "gene_symbol": "FYB1",
+        "hgnc_symbol": "FYB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:39105338-39274630",
+              "ensembl_id": "ENSG00000082074"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:39105236-39274528",
+              "ensembl_id": "ENSG00000082074"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "FYB1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25516138",
+        "25876182"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "273900 Thrombocytopenia 3"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ERYF1",
+          "NFE1",
+          "GATA-1",
+          "NF-E1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4170",
+        "gene_name": "GATA binding protein 1",
+        "omim_gene": [
+          "305371"
+        ],
+        "alias_name": [
+          "nuclear factor, erythroid 1"
+        ],
+        "gene_symbol": "GATA1",
+        "hgnc_symbol": "GATA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:48644962-48652716",
+              "ensembl_id": "ENSG00000102145"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:48786554-48794311",
+              "ensembl_id": "ENSG00000102145"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "GATA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10700180",
+        "23704091",
+        "16103636"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "300367 Thrombocytopenia, X-linked, with or without dyserythropoietic anemia"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GBA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4177",
+        "gene_name": "glucosylceramidase beta",
+        "omim_gene": [
+          "606463"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GBA",
+        "hgnc_symbol": "GBA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:155204243-155214490",
+              "ensembl_id": "ENSG00000177628"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:155234452-155244699",
+              "ensembl_id": "ENSG00000177628"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GBA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27265538",
+        "27816428",
+        "20575041"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "230900 Gaucher disease, type II",
+        "231005 Gaucher disease, type IIIC",
+        "231000 Gaucher disease, type III",
+        "230800 Gaucher disease, type I"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ZNF163B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4238",
+        "gene_name": "growth factor independent 1B transcriptional repressor",
+        "omim_gene": [
+          "604383"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GFI1B",
+        "hgnc_symbol": "GFI1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:135820932-135867083",
+              "ensembl_id": "ENSG00000165702"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:132944000-132991687",
+              "ensembl_id": "ENSG00000165702"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "GFI1B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23927492",
+        "28041820"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "187900 Bleeding disorder, platelet-type, 17"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VKCFD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4247",
+        "gene_name": "gamma-glutamyl carboxylase",
+        "omim_gene": [
+          "137167"
+        ],
+        "alias_name": [
+          "vitamin K-dependent gamma-carboxylase"
+        ],
+        "gene_symbol": "GGCX",
+        "hgnc_symbol": "GGCX",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:85771846-85788670",
+              "ensembl_id": "ENSG00000115486"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:85544723-85561547",
+              "ensembl_id": "ENSG00000115486"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "GGCX",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25151188",
+        "28679738",
+        "21435120"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "277450 Vitamin K-dependent clotting factors, combined deficiency of, 1"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Uae1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23657",
+        "gene_name": "glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine kinase",
+        "omim_gene": [
+          "603824"
+        ],
+        "alias_name": [
+          "bifunctional UDP-N-acetylglucosamine 2-epimerase/N-acetylmannosamine kinase"
+        ],
+        "gene_symbol": "GNE",
+        "hgnc_symbol": "GNE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:36214438-36277053",
+              "ensembl_id": "ENSG00000159921"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:36214441-36277056",
+              "ensembl_id": "ENSG00000159921"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-11-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNE",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27479822",
+        "29941673",
+        "30171045"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "(NO OMIM NUMBER)",
+        "Myopathy associated with thrombocytopenia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD42b",
+          "GPIbalpha"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4439",
+        "gene_name": "glycoprotein Ib platelet alpha subunit",
+        "omim_gene": [
+          "606672"
+        ],
+        "alias_name": [
+          "platelet glycoprotein Ib alpha chain"
+        ],
+        "gene_symbol": "GP1BA",
+        "hgnc_symbol": "GP1BA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:4835592-4838325",
+              "ensembl_id": "ENSG00000185245"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:4932297-4935030",
+              "ensembl_id": "ENSG00000185245"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "GP1BA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24934643",
+        "9616133",
+        "21357716"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "BSS",
+        "231200 BERNARD-SOULIER SYNDROME",
+        "177820 von Willebrand disease, platelet-type",
+        "231200BERNARD-SOULIER SYNDROME"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD42c",
+          "GPIbbeta"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4440",
+        "gene_name": "glycoprotein Ib platelet beta subunit",
+        "omim_gene": [
+          "138720"
+        ],
+        "alias_name": [
+          "platelet glycoprotein Ib beta chain"
+        ],
+        "gene_symbol": "GP1BB",
+        "hgnc_symbol": "GP1BB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:19710468-19712294",
+              "ensembl_id": "ENSG00000203618"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:19722945-19724771",
+              "ensembl_id": "ENSG00000203618"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-11-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "GP1BB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9116284",
+        "24934643",
+        "28064200",
+        "29527674",
+        "30609015",
+        "33657022",
+        "33813986"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Bernard-Soulier syndrome, type B, OMIM:231200",
+        "Giant platelet disorder, isolated, OMIM:231200",
+        "Macrothrombocytopenia"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GPVI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14388",
+        "gene_name": "glycoprotein VI platelet",
+        "omim_gene": [
+          "605546"
+        ],
+        "alias_name": [
+          "platelet glycoprotein VI"
+        ],
+        "gene_symbol": "GP6",
+        "hgnc_symbol": "GP6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:55525073-55549632",
+              "ensembl_id": "ENSG00000088053"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:55013705-55038264",
+              "ensembl_id": "ENSG00000088053"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-01-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "GP6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19552682",
+        "19549989"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Bleeding disorder, platelet-type, 11, OMIM:614201"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD42a",
+          "GPIX"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4444",
+        "gene_name": "glycoprotein IX platelet",
+        "omim_gene": [
+          "173515"
+        ],
+        "alias_name": [
+          "platelet glycoprotein IX"
+        ],
+        "gene_symbol": "GP9",
+        "hgnc_symbol": "GP9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:128779610-128781249",
+              "ensembl_id": "ENSG00000169704"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:129060767-129062406",
+              "ensembl_id": "ENSG00000169704"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "GP9",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24934643",
+        "9616133",
+        "21357716"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "BSS",
+        "231200 BERNARD-SOULIER SYNDROME",
+        "231200BERNARD-SOULIER SYNDROME",
+        "231200.BERNARD-SOULIER SYNDROME"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BLOC3S1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5163",
+        "gene_name": "HPS1, biogenesis of lysosomal organelles complex 3 subunit 1",
+        "omim_gene": [
+          "604982"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HPS1",
+        "hgnc_symbol": "HPS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:100175955-100206684",
+              "ensembl_id": "ENSG00000107521"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:98416198-98446947",
+              "ensembl_id": "ENSG00000107521"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-05-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "HPS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27514596",
+        "29345414",
+        "12442288",
+        "25707719"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "203300 Hermansky-Pudlak syndrome 1"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SUTAL",
+          "BLOC2S1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15597",
+        "gene_name": "HPS3, biogenesis of lysosomal organelles complex 2 subunit 1",
+        "omim_gene": [
+          "606118"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HPS3",
+        "hgnc_symbol": "HPS3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:148847371-148891519",
+              "ensembl_id": "ENSG00000163755"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:149129584-149173732",
+              "ensembl_id": "ENSG00000163755"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "HPS3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27514596",
+        "11590544",
+        "28284561"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "614072 Hermansky-Pudlak syndrome 3"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1667",
+          "LE",
+          "BLOC3S2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15844",
+        "gene_name": "HPS4, biogenesis of lysosomal organelles complex 3 subunit 2",
+        "omim_gene": [
+          "606682"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HPS4",
+        "hgnc_symbol": "HPS4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:26839389-26879803",
+              "ensembl_id": "ENSG00000100099"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:26443423-26483837",
+              "ensembl_id": "ENSG00000100099"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "HPS4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27514596",
+        "12664304",
+        "29108692"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "614073 Hermansky-Pudlak syndrome 4"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BLOC2S2",
+          "AIBP63",
+          "RU2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17022",
+        "gene_name": "HPS5, biogenesis of lysosomal organelles complex 2 subunit 2",
+        "omim_gene": [
+          "607521"
+        ],
+        "alias_name": [
+          "alpha-integrin-binding protein 63",
+          "Ruby-eye protein 2 homolog"
+        ],
+        "gene_symbol": "HPS5",
+        "hgnc_symbol": "HPS5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:18300223-18343745",
+              "ensembl_id": "ENSG00000110756"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:18278668-18322198",
+              "ensembl_id": "ENSG00000110756"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-06-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "HPS5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27514596",
+        "28296950",
+        "28640947"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "614074 Hermansky-Pudlak syndrome 5"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ22501",
+          "BLOC2S3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18817",
+        "gene_name": "HPS6, biogenesis of lysosomal organelles complex 2 subunit 3",
+        "omim_gene": [
+          "607522"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HPS6",
+        "hgnc_symbol": "HPS6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:103825147-103827792",
+              "ensembl_id": "ENSG00000166189"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:102065390-102068038",
+              "ensembl_id": "ENSG00000166189"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "HPS6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27514596",
+        "27593200",
+        "19843503"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "614075 Hermansky-Pudlak syndrome 6"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Pegasus",
+          "FLJ22973"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14283",
+        "gene_name": "IKAROS family zinc finger 5",
+        "omim_gene": [
+          "606238"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IKZF5",
+        "hgnc_symbol": "IKZF5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:124750322-124768333",
+              "ensembl_id": "ENSG00000095574"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:122990806-123008817",
+              "ensembl_id": "ENSG00000095574"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-08-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "IKZF5",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "31217188",
+        "32419556"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Thrombocytopenia (HP:0001873),  Reduced platelet alpha granules (HP:0012528)."
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD41B",
+          "CD41",
+          "PPP1R93"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6138",
+        "gene_name": "integrin subunit alpha 2b",
+        "omim_gene": [
+          "607759"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 93",
+          "platelet glycoprotein IIb of IIb/IIIa complex"
+        ],
+        "gene_symbol": "ITGA2B",
+        "hgnc_symbol": "ITGA2B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:42449548-42466873",
+              "ensembl_id": "ENSG00000005961"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:44372180-44389505",
+              "ensembl_id": "ENSG00000005961"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ITGA2B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29675921",
+        "25728920",
+        "24498605"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "273800 Glanzmann thrombasthenia",
+        "187800 Bleeding disorder, platelet-type, 16, autosomal dominant"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD61",
+          "GPIIIa"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6156",
+        "gene_name": "integrin subunit beta 3",
+        "omim_gene": [
+          "173470"
+        ],
+        "alias_name": [
+          "platelet glycoprotein IIIa",
+          "antigen CD61"
+        ],
+        "gene_symbol": "ITGB3",
+        "hgnc_symbol": "ITGB3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:45331212-45421658",
+              "ensembl_id": "ENSG00000259207"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:47253846-47311816",
+              "ensembl_id": "ENSG00000259207"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-06-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "ITGB3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19691478",
+        "25728920",
+        "20020534"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "273800 Glanzmann thrombasthenia",
+        "187800 Bleeding disorder, platelet-type, 16, autosomal dominant"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DHSR",
+          "SDR35C1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4021",
+        "gene_name": "3-ketodihydrosphingosine reductase",
+        "omim_gene": [
+          "136440"
+        ],
+        "alias_name": [
+          "3-dehydrosphinganine reductase",
+          "short chain dehydrogenase/reductase family 35C, member 1"
+        ],
+        "gene_symbol": "KDSR",
+        "hgnc_symbol": "KDSR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:60994959-61034743",
+              "ensembl_id": "ENSG00000119537"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:63327726-63367510",
+              "ensembl_id": "ENSG00000119537"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-02-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "KDSR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30467204"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "(NO OMIM NUMBER OR DISEASE)",
+        "Recessive severe thrombocytopenia with progression to marrow fibrosis at young age"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6371",
+        "gene_name": "kallikrein B1",
+        "omim_gene": [
+          "229000"
+        ],
+        "alias_name": [
+          "Fletcher factor"
+        ],
+        "gene_symbol": "KLKB1",
+        "hgnc_symbol": "KLKB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:187130133-187179625",
+              "ensembl_id": "ENSG00000164344"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:186208979-186258471",
+              "ensembl_id": "ENSG00000164344"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-04-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "KLKB1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17598838",
+        "14652634",
+        "20301226"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "612423 Fletcher factor (prekallikrein) deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6383",
+        "gene_name": "kininogen 1",
+        "omim_gene": [
+          "612358"
+        ],
+        "alias_name": [
+          "alpha-2-thiol proteinase inhibitor",
+          "bradykinin"
+        ],
+        "gene_symbol": "KNG1",
+        "hgnc_symbol": "KNG1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:186435065-186461743",
+              "ensembl_id": "ENSG00000113889"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:186717276-186743954",
+              "ensembl_id": "ENSG00000113889"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "KNG1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12576314",
+        "24492696",
+        "7901207"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "228960 [High molecular weight kininogen deficiency]",
+        "228960 [High molecular weight kininogen deficiency]/[Kininogen deficiency]",
+        "[Kininogen deficiency]"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MR60",
+          "ERGIC-53",
+          "ERGIC53",
+          "gp58",
+          "MCFD1",
+          "FMFD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6631",
+        "gene_name": "lectin, mannose binding 1",
+        "omim_gene": [
+          "601567"
+        ],
+        "alias_name": [
+          "endoplasmic reticulum-golgi intermediate compartment protein 53"
+        ],
+        "gene_symbol": "LMAN1",
+        "hgnc_symbol": "LMAN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:56995055-57027194",
+              "ensembl_id": "ENSG00000074695"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:59327823-59359962",
+              "ensembl_id": "ENSG00000074695"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "LMAN1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10090934",
+        "10090935",
+        "16304051"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "227300 Combined factor V and VIII deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CHS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1968",
+        "gene_name": "lysosomal trafficking regulator",
+        "omim_gene": [
+          "606897"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LYST",
+        "hgnc_symbol": "LYST",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:235824341-236046940",
+              "ensembl_id": "ENSG00000143669"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:235661041-235883640",
+              "ensembl_id": "ENSG00000143669"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-12-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "LYST",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9215680",
+        "11857544",
+        "21209802"
+      ],
+      "evidence": [
+        "North West GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "214500 Chediak-Higashi syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "F5F8D",
+          "LMAN1IP",
+          "SDNSF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18451",
+        "gene_name": "multiple coagulation factor deficiency 2",
+        "omim_gene": [
+          "607788"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MCFD2",
+        "hgnc_symbol": "MCFD2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47129009-47168994",
+              "ensembl_id": "ENSG00000180398"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:46901870-46941855",
+              "ensembl_id": "ENSG00000180398"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "MCFD2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20004600",
+        "12717434",
+        "16304051"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "613625 Factor V and factor VIII, combined deficiency of"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MDS1-EVI1",
+          "PRDM3",
+          "KMT8E"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3498",
+        "gene_name": "MDS1 and EVI1 complex locus",
+        "omim_gene": [
+          "165215"
+        ],
+        "alias_name": [
+          "PR domain 3"
+        ],
+        "gene_symbol": "MECOM",
+        "hgnc_symbol": "MECOM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:168801287-169381406",
+              "ensembl_id": "ENSG00000085276"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:169083499-169663618",
+              "ensembl_id": "ENSG00000085276"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-08-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "MECOM",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26581901",
+        "29540340",
+        "29519864"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Radioulnar synostosis with amegakaryocytic thrombocytopenia 2, OMIM:616738"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "G6b",
+          "NG31",
+          "G6b-B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13937",
+        "gene_name": "megakaryocyte and platelet inhibitory receptor G6b",
+        "omim_gene": [
+          "606520"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MPIG6B",
+        "hgnc_symbol": "MPIG6B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31686371-31694491",
+              "ensembl_id": "ENSG00000204420"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31718594-31726714",
+              "ensembl_id": "ENSG00000204420"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-01-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "MPIG6B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29898956",
+        "27743390"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "617441 ?Thrombocytopenia, anemia, and myelofibrosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD110",
+          "TPOR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7217",
+        "gene_name": "MPL proto-oncogene, thrombopoietin receptor",
+        "omim_gene": [
+          "159530"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MPL",
+        "hgnc_symbol": "MPL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:43803478-43818443",
+              "ensembl_id": "ENSG00000117400"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:43337849-43352772",
+              "ensembl_id": "ENSG00000117400"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "MPL",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16470591",
+        "11133753",
+        "22180433"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Thrombocytopenia, congenital amegakaryocytic, OMIM:604498"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NMMHCA",
+          "NMHC-II-A",
+          "MHA",
+          "FTNS",
+          "EPSTS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7579",
+        "gene_name": "myosin heavy chain 9",
+        "omim_gene": [
+          "160775"
+        ],
+        "alias_name": [
+          "nonmuscle myosin heavy chain II-A"
+        ],
+        "gene_symbol": "MYH9",
+        "hgnc_symbol": "MYH9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:36677327-36784063",
+              "ensembl_id": "ENSG00000100345"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:36281281-36388018",
+              "ensembl_id": "ENSG00000100345"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYH9",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28368695",
+        "29679756",
+        "24186861"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "155100, Macrothrombocytopenia and granulocyte inclusions with or without nephritis or sensorineural hearing loss",
+        "155100 Macrothrombocytopenia and granulocyte inclusions with or without nephritis or sensorineural hearing loss"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0540"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:31928",
+        "gene_name": "neurobeachin like 2",
+        "omim_gene": [
+          "614169"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NBEAL2",
+        "hgnc_symbol": "NBEAL2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:47021173-47051193",
+              "ensembl_id": "ENSG00000160796"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:46979683-47009703",
+              "ensembl_id": "ENSG00000160796"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "NBEAL2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21765412",
+        "27870194",
+        "21765411"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "139090, Gray platelet syndrome",
+        "139090 Gray platelet syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P2Y12",
+          "SP1999",
+          "HORK3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18124",
+        "gene_name": "purinergic receptor P2Y12",
+        "omim_gene": [
+          "600515"
+        ],
+        "alias_name": null,
+        "gene_symbol": "P2RY12",
+        "hgnc_symbol": "P2RY12",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:151055168-151102600",
+              "ensembl_id": "ENSG00000169313"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:151337380-151384812",
+              "ensembl_id": "ENSG00000169313"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-12-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "P2RY12",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11196645",
+        "609821",
+        "20966167"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "600515.PURINERGIC RECEPTOR P2Y, G PROTEIN-COUPLED, 12",
+        "P2RY12",
+        "600515 PURINERGIC RECEPTOR P2Y, G PROTEIN-COUPLED, 12"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cPLA2-alpha"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9035",
+        "gene_name": "phospholipase A2 group IVA",
+        "omim_gene": [
+          "600522"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLA2G4A",
+        "hgnc_symbol": "PLA2G4A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:186798085-186958113",
+              "ensembl_id": "ENSG00000116711"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:186828953-186988981",
+              "ensembl_id": "ENSG00000116711"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLA2G4A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21247147",
+        "18451993",
+        "23268370"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Phospholipase A2, group IV A, deficiency of",
+        "(NO OMIM NUMBER)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "URK",
+          "UPA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9052",
+        "gene_name": "plasminogen activator, urokinase",
+        "omim_gene": [
+          "191840"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLAU",
+        "hgnc_symbol": "PLAU",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:75668935-75677255",
+              "ensembl_id": "ENSG00000122861"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:73909177-73917497",
+              "ensembl_id": "ENSG00000122861"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLAU",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28301587",
+        "20007542"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "601709 Quebec platelet disorder"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "COX1",
+          "PGHS-1",
+          "PTGHS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9604",
+        "gene_name": "prostaglandin-endoperoxide synthase 1",
+        "omim_gene": [
+          "176805"
+        ],
+        "alias_name": [
+          "cyclooxygenase-1"
+        ],
+        "gene_symbol": "PTGS1",
+        "hgnc_symbol": "PTGS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:125132824-125157982",
+              "ensembl_id": "ENSG00000095303"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:122370530-122395703",
+              "ensembl_id": "ENSG00000095303"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTGS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11442478",
+        "27629384",
+        "8562397",
+        "28748566",
+        "6103258",
+        "32299908",
+        "24008976",
+        "33326144",
+        "32584621"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "BDPLT12",
+        "605735 BLEEDING DISORDER, PLATELET-TYPE, 12"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CALDAG-GEFI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9879",
+        "gene_name": "RAS guanyl releasing protein 2",
+        "omim_gene": [
+          "605577"
+        ],
+        "alias_name": [
+          "calcium- and diacylglycerol-regulated guanine nucleotide exchange factor I"
+        ],
+        "gene_symbol": "RASGRP2",
+        "hgnc_symbol": "RASGRP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:64494383-64512928",
+              "ensembl_id": "ENSG00000068831"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:64726911-64745456",
+              "ensembl_id": "ENSG00000068831"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-07-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "RASGRP2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28637664",
+        "27235135",
+        "28762304"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "615888 ?Bleeding disorder, platelet-type, 18"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ZNRP",
+          "BOV-1A",
+          "BOV-1B",
+          "BOV-1C",
+          "RBM8B",
+          "Y14"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:9905",
+        "gene_name": "RNA binding motif protein 8A",
+        "omim_gene": [
+          "605313"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RBM8A",
+        "hgnc_symbol": "RBM8A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:145507598-145513536",
+              "ensembl_id": "ENSG00000131795"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:145917714-145927678",
+              "ensembl_id": "ENSG00000265241"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-05-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "RBM8A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22366785",
+        "24053387"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "274000 Thrombocytopenia-absent radius syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PEBP2A2",
+          "AMLCR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10471",
+        "gene_name": "runt related transcription factor 1",
+        "omim_gene": [
+          "151385"
+        ],
+        "alias_name": [
+          "aml1 oncogene"
+        ],
+        "gene_symbol": "RUNX1",
+        "hgnc_symbol": "RUNX1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:36160098-37376965",
+              "ensembl_id": "ENSG00000159216"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:34787801-36004667",
+              "ensembl_id": "ENSG00000159216"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "RUNX1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28240786",
+        "24100448",
+        "10508512"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "601399 Platelet disorder, familial, with associated myeloid malignancy"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PAI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8583",
+        "gene_name": "serpin family E member 1",
+        "omim_gene": [
+          "173360"
+        ],
+        "alias_name": [
+          "plasminogen activator inhibitor, type I"
+        ],
+        "gene_symbol": "SERPINE1",
+        "hgnc_symbol": "SERPINE1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:100770370-100782547",
+              "ensembl_id": "ENSG00000106366"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:101127089-101139266",
+              "ensembl_id": "ENSG00000106366"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SERPINE1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "Expert Review Green",
+        "NHS GMS",
+        "London South GLH"
+      ],
+      "phenotypes": [
+        "613329 Plasminogen activator inhibitor-1 deficiency"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "API",
+          "ALPHA-2-PI",
+          "A2AP",
+          "AAP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9075",
+        "gene_name": "serpin family F member 2",
+        "omim_gene": [
+          "613168"
+        ],
+        "alias_name": [
+          "alpha-2-plasmin inhibitor",
+          "alpha-2-antiplasmin"
+        ],
+        "gene_symbol": "SERPINF2",
+        "hgnc_symbol": "SERPINF2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:1646130-1658562",
+              "ensembl_id": "ENSG00000167711"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:1742836-1755268",
+              "ensembl_id": "ENSG00000167711"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-04-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "SERPINF2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "14999928",
+        "29656168",
+        "17961166"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "262850 Alpha-2-plasmin inhibitor deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:32689",
+        "gene_name": "schlafen family member 14",
+        "omim_gene": [
+          "614958"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLFN14",
+        "hgnc_symbol": "SLFN14",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:33875144-33885117",
+              "ensembl_id": "ENSG00000236320"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:35548125-35558098",
+              "ensembl_id": "ENSG00000236320"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-04-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLFN14",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26769223",
+        "26280575"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "616913 Bleeding disorder, platelet-type, 20"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ASV",
+          "c-src"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11283",
+        "gene_name": "SRC proto-oncogene, non-receptor tyrosine kinase",
+        "omim_gene": [
+          "190090"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SRC",
+        "hgnc_symbol": "SRC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:35973088-36034453",
+              "ensembl_id": "ENSG00000197122"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:37344685-37406050",
+              "ensembl_id": "ENSG00000197122"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SRC",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26936507"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "616937 ?Thrombocytopenia 6"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GOK",
+          "D11S4896E"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11386",
+        "gene_name": "stromal interaction molecule 1",
+        "omim_gene": [
+          "605921"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STIM1",
+        "hgnc_symbol": "STIM1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:3875757-4114439",
+              "ensembl_id": "ENSG00000167323"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:3854527-4093210",
+              "ensembl_id": "ENSG00000167323"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-02-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "STIM1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19420366",
+        "27876257"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "185070 Stormorken syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "UNC18B",
+          "Hunc18b"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11445",
+        "gene_name": "syntaxin binding protein 2",
+        "omim_gene": [
+          "601717"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STXBP2",
+        "hgnc_symbol": "STXBP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:7701767-7712759",
+              "ensembl_id": "ENSG00000076944"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:7636881-7647873",
+              "ensembl_id": "ENSG00000076944"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-12-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "STXBP2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20798128",
+        "25564401",
+        "19804848"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "613101 Hemophagocytic lymphohistiocytosis, familial, 5"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11608",
+        "gene_name": "thromboxane A2 receptor",
+        "omim_gene": [
+          "188070"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TBXA2R",
+        "hgnc_symbol": "TBXA2R",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:3594504-3606838",
+              "ensembl_id": "ENSG00000006638"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:3594506-3606840",
+              "ensembl_id": "ENSG00000006638"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBXA2R",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22517902",
+        "8972034",
+        "24452735",
+        "30089223",
+        "19828703",
+        "8428006"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "{Bleeding disorder, platelet-type, 13, susceptibility to}, OMIM:614009"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CYP5",
+          "CYP5A1",
+          "THAS",
+          "TXS",
+          "TXAS",
+          "TS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11609",
+        "gene_name": "thromboxane A synthase 1",
+        "omim_gene": [
+          "274180"
+        ],
+        "alias_name": [
+          "cytochrome P450, family 5, subfamily A, polypeptide 1"
+        ],
+        "gene_symbol": "TBXAS1",
+        "hgnc_symbol": "TBXAS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:139476850-139720125",
+              "ensembl_id": "ENSG00000059377"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:139777051-140020325",
+              "ensembl_id": "ENSG00000059377"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBXAS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18264100",
+        "28868793"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Ghosal hematodiaphyseal syndrome, OMIM:231095",
+        "?Thromboxane synthase deficiency, OMIM:614158",
+        "Bleeding disorder, platelet-type, 14, OMIM:614158"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD141"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11784",
+        "gene_name": "thrombomodulin",
+        "omim_gene": [
+          "188040"
+        ],
+        "alias_name": null,
+        "gene_symbol": "THBD",
+        "hgnc_symbol": "THBD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:23026270-23030378",
+              "ensembl_id": "ENSG00000178726"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:23045633-23049741",
+              "ensembl_id": "ENSG00000178726"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "THBD",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25564403"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "AD bleeding disorder",
+        "614486 Thrombophilia due to thrombomodulin defect"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TPO",
+          "MPLLG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11795",
+        "gene_name": "thrombopoietin",
+        "omim_gene": [
+          "600044"
+        ],
+        "alias_name": [
+          "prepro-thrombopoietin",
+          "megakaryocyte stimulating factor",
+          "myeloproliferative leukemia virus oncogene ligand",
+          "megakaryocyte growth and development factor",
+          "MPL ligand",
+          "megakaryocyte colony-stimulating factor",
+          "c-mpl ligand",
+          "thrombopoietin nirs variant 1"
+        ],
+        "gene_symbol": "THPO",
+        "hgnc_symbol": "THPO",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:184089723-184095932",
+              "ensembl_id": "ENSG00000090534"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:184371935-184378144",
+              "ensembl_id": "ENSG00000090534"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-11-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "THPO",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28466964",
+        "28559357",
+        "29191945"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "187950 Thrombocytopenia and thrombocythemia 1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TNXBS",
+          "XBS",
+          "XB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11976",
+        "gene_name": "tenascin XB",
+        "omim_gene": [
+          "600985"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TNXB",
+        "hgnc_symbol": "TNXB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:32008931-32083111",
+              "ensembl_id": "ENSG00000168477"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:32041154-32115334",
+              "ensembl_id": "ENSG00000168477"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-07-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNXB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28306229",
+        "28306225",
+        "11642233",
+        "15733269",
+        "23768946",
+        "27582382"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome due to tenascin X deficiency, 606408",
+        "significant bruising/haematomas"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12013",
+        "gene_name": "tropomyosin 4",
+        "omim_gene": [
+          "600317"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TPM4",
+        "hgnc_symbol": "TPM4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:16177831-16213813",
+              "ensembl_id": "ENSG00000167460"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:16067021-16103005",
+              "ensembl_id": "ENSG00000167460"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "TPM4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27479822",
+        "28134622"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Bleeding disorder, platelet-type, 25, OMIM:620486"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dJ543J19.4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16257",
+        "gene_name": "tubulin beta 1 class VI",
+        "omim_gene": [
+          "612901"
+        ],
+        "alias_name": [
+          "class VI beta-tubulin"
+        ],
+        "gene_symbol": "TUBB1",
+        "hgnc_symbol": "TUBB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:57594309-57601709",
+              "ensembl_id": "ENSG00000101162"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:59019254-59026654",
+              "ensembl_id": "ENSG00000101162"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUBB1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27479822",
+        "27905099",
+        "24344610"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "613112 Macrothrombocytopenia, autosomal dominant, TUBB1-related"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VIPAR",
+          "VPS16B",
+          "SPE-39",
+          "SPE39",
+          "hSPE-39"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20347",
+        "gene_name": "VPS33B interacting protein, apical-basolateral polarity regulator, spe-39 homolog",
+        "omim_gene": [
+          "613401"
+        ],
+        "alias_name": [
+          "VPS33B interacting protein, apical-basolateral polarity regulator"
+        ],
+        "gene_symbol": "VIPAS39",
+        "hgnc_symbol": "VIPAS39",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:77893018-77924295",
+              "ensembl_id": "ENSG00000151445"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:77426675-77457952",
+              "ensembl_id": "ENSG00000151445"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-07-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "VIPAS39",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22753090",
+        "28039895",
+        "20190753"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Arthrogryposis, renal dysfunction, and cholestasis 2, OMIM:613404",
+        "ARC syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23663",
+        "gene_name": "vitamin K epoxide reductase complex subunit 1",
+        "omim_gene": [
+          "608547"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VKORC1",
+        "hgnc_symbol": "VKORC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:31102163-31107301",
+              "ensembl_id": "ENSG00000167397"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:31090842-31095980",
+              "ensembl_id": "ENSG00000167397"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "VKORC1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26287237",
+        "14765194",
+        "20946155"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Vitamin K-dependent clotting factors, combined deficiency of, 2, OMIM:607473",
+        "Warfarin resistance, OMIM:122700"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ14848"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12712",
+        "gene_name": "VPS33B, late endosome and lysosome associated",
+        "omim_gene": [
+          "608552"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VPS33B",
+        "hgnc_symbol": "VPS33B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:91541646-91565833",
+              "ensembl_id": "ENSG00000184056"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:90998416-91022603",
+              "ensembl_id": "ENSG00000184056"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-11-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "VPS33B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15052268",
+        "16896922",
+        "22753090"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "208085 Arthrogryposis, renal dysfunction, and cholestasis 1"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12726",
+        "gene_name": "von Willebrand factor",
+        "omim_gene": [
+          "613160"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VWF",
+        "hgnc_symbol": "VWF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:6058040-6233936",
+              "ensembl_id": "ENSG00000110799"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:5948874-6124770",
+              "ensembl_id": "ENSG00000110799"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "VWF",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16985174",
+        "23407766",
+        "28971901"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "613554 von Willebrand disease, types 2A, 2B, 2M, and 2N",
+        "277480 von Willibrand disease, type 3",
+        "193400 von Willebrand disease, type 1"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "WASP",
+          "WASPA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12731",
+        "gene_name": "Wiskott-Aldrich syndrome",
+        "omim_gene": [
+          "300392"
+        ],
+        "alias_name": [
+          "eczema-thrombocytopenia"
+        ],
+        "gene_symbol": "WAS",
+        "hgnc_symbol": "WAS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:48534985-48549818",
+              "ensembl_id": "ENSG00000015285"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:48676596-48691427",
+              "ensembl_id": "ENSG00000015285"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "WAS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20173115",
+        "15284122",
+        "17400488"
+      ],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "313900 Thrombocytopenia, X-linked (intermittent)",
+        "300299 Neutropenia, severe congenital, X-linked",
+        "313900 Thrombocytopenia, X-linked intermittent",
+        "301000 Wiskott-Aldrich syndrome"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OI4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2197",
+        "gene_name": "collagen type I alpha 1 chain",
+        "omim_gene": [
+          "120150"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL1A1",
+        "hgnc_symbol": "COL1A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:48260650-48278993",
+              "ensembl_id": "ENSG00000108821"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:50183289-50201632",
+              "ensembl_id": "ENSG00000108821"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL1A1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27011056"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "114000 Caffey disease",
+        "130060 Ehlers-Danlos syndrome, arthrochalasia type, 1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2209",
+        "gene_name": "collagen type V alpha 1 chain",
+        "omim_gene": [
+          "120215"
+        ],
+        "alias_name": [
+          "alpha 1 type V collagen"
+        ],
+        "gene_symbol": "COL5A1",
+        "hgnc_symbol": "COL5A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:137533620-137736686",
+              "ensembl_id": "ENSG00000130635"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:134641774-134844843",
+              "ensembl_id": "ENSG00000130635"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL5A1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22696272",
+        "28485813",
+        "23587214"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "130000 Ehlers-Danlos syndrome, classic type, 1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2210",
+        "gene_name": "collagen type V alpha 2 chain",
+        "omim_gene": [
+          "120190"
+        ],
+        "alias_name": [
+          "AB collagen"
+        ],
+        "gene_symbol": "COL5A2",
+        "hgnc_symbol": "COL5A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:189896622-190044605",
+              "ensembl_id": "ENSG00000204262"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:189031896-189179879",
+              "ensembl_id": "ENSG00000204262"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL5A2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15580559",
+        ":28485813",
+        "25987251"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "130010 Ehlers-Danlos syndrome, classic type, 2"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Hek5",
+          "Tyro5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3393",
+        "gene_name": "EPH receptor B2",
+        "omim_gene": [
+          "600997"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EPHB2",
+        "hgnc_symbol": "EPHB2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:23037332-23241818",
+              "ensembl_id": "ENSG00000133216"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:22710839-22921500",
+              "ensembl_id": "ENSG00000133216"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "EPHB2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30213874"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "North West GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TR",
+          "CF2R",
+          "PAR1",
+          "PAR-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3537",
+        "gene_name": "coagulation factor II thrombin receptor",
+        "omim_gene": [
+          "187930"
+        ],
+        "alias_name": [
+          "protease activated receptor 1"
+        ],
+        "gene_symbol": "F2R",
+        "hgnc_symbol": "F2R",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:76011868-76031606",
+              "ensembl_id": "ENSG00000181104"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:76716043-76735781",
+              "ensembl_id": "ENSG00000181104"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "F2R",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26630678"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Type 1 VWD"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SDR1E1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4116",
+        "gene_name": "UDP-galactose-4-epimerase",
+        "omim_gene": [
+          "606953"
+        ],
+        "alias_name": [
+          "short chain dehydrogenase/reductase family 1E, member 1",
+          "UDP-glucose 4-epimerase"
+        ],
+        "gene_symbol": "GALE",
+        "hgnc_symbol": "GALE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:24122089-24127271",
+              "ensembl_id": "ENSG00000117308"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:23795599-23800804",
+              "ensembl_id": "ENSG00000117308"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GALE",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30247636"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Inherited Thrombocytopenia assiciated with mutation of UDP-Galactose-4-Epimerase (GALE)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5101",
+        "gene_name": "homeobox A11",
+        "omim_gene": [
+          "142958"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HOXA11",
+        "hgnc_symbol": "HOXA11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:27221129-27224842",
+              "ensembl_id": "ENSG00000005073"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:27181510-27185223",
+              "ensembl_id": "ENSG00000005073"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-07-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "HOXA11",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16765069",
+        "11101832"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "605432 Radioulnar synostosis with amegakaryocytic thrombocytopenia 1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1438",
+          "MAL",
+          "MRTF-A",
+          "BSAC",
+          "MKL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14334",
+        "gene_name": "megakaryoblastic leukemia (translocation) 1",
+        "omim_gene": [
+          "606078"
+        ],
+        "alias_name": [
+          "megakaryocytic acute leukemia",
+          "myocardin-related transcription factor A",
+          "basic, SAP and coiled-coil domain"
+        ],
+        "gene_symbol": "MKL1",
+        "hgnc_symbol": "MKL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:40806285-41032706",
+              "ensembl_id": "ENSG00000196588"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:40410281-40636702",
+              "ensembl_id": "ENSG00000196588"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-05-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "MKL1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27479822",
+        "26224645",
+        "32128589",
+        "40808667"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name",
+        "Q2_26_promote_green"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P2X1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8533",
+        "gene_name": "purinergic receptor P2X 1",
+        "omim_gene": [
+          "600845"
+        ],
+        "alias_name": null,
+        "gene_symbol": "P2RX1",
+        "hgnc_symbol": "P2RX1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:3799886-3819794",
+              "ensembl_id": "ENSG00000108405"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:3896592-3916500",
+              "ensembl_id": "ENSG00000108405"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-01-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "P2RX1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10816552"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Purinergic receptor P2X, ligand-gated ion channel, 1 DEFICIENCY"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BPTP3",
+          "SH-PTP2",
+          "SHP-2",
+          "PTP2C",
+          "SHP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9644",
+        "gene_name": "protein tyrosine phosphatase, non-receptor type 11",
+        "omim_gene": [
+          "176876"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTPN11",
+        "hgnc_symbol": "PTPN11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:112856155-112947717",
+              "ensembl_id": "ENSG00000179295"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:112418351-112509913",
+              "ensembl_id": "ENSG00000179295"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-03-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTPN11",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "none submitted"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "North West GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "163950 Noonan syndrome 1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DEP1",
+          "HPTPeta",
+          "CD148"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9673",
+        "gene_name": "protein tyrosine phosphatase, receptor type J",
+        "omim_gene": [
+          "600925"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTPRJ",
+        "hgnc_symbol": "PTPRJ",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:48002113-48189670",
+              "ensembl_id": "ENSG00000149177"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:47980558-48170841",
+              "ensembl_id": "ENSG00000149177"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTPRJ",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30591527"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "North West GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "K-REV",
+          "RAL1B",
+          "DKFZp586H0723"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9857",
+        "gene_name": "RAP1B, member of RAS oncogene family",
+        "omim_gene": [
+          "179530"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RAP1B",
+        "hgnc_symbol": "RAP1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:69004619-69054372",
+              "ensembl_id": "ENSG00000127314"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:68610839-68671901",
+              "ensembl_id": "ENSG00000127314"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAP1B",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "32627184",
+        "35451551",
+        "37850357"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Thrombocytopenia 11 with multiple congenital anomalies and dysmorphic facies, OMIM:620654",
+        "thrombocytopenia 11 with multiple congenital anomalies and dysmorphic facies, MONDO:0958000"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q4_25_promote_green",
+        "Q4_25_NHS_review"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9998",
+        "gene_name": "regulator of G protein signaling 2",
+        "omim_gene": [
+          "600861"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RGS2",
+        "hgnc_symbol": "RGS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:192778169-192781403",
+              "ensembl_id": "ENSG00000116741"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:192809039-192812283",
+              "ensembl_id": "ENSG00000116741"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-11-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "RGS2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20403096",
+        "28784619"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNU4ATAC1"
+        ],
+        "biotype": "snRNA",
+        "hgnc_id": "HGNC:34016",
+        "gene_name": "RNA, U4atac small nuclear (U12-dependent splicing)",
+        "omim_gene": [
+          "601428"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RNU4ATAC",
+        "hgnc_symbol": "RNU4ATAC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:122288457-122288583",
+              "ensembl_id": "ENSG00000264229"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:121530881-121531007",
+              "ensembl_id": "ENSG00000264229"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-03-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "RNU4ATAC",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "none submitted"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Roifman syndrome, OMIM:616651"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "locus-type-rna-small-nuclear"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AIM-1",
+          "OCA4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16472",
+        "gene_name": "solute carrier family 45 member 2",
+        "omim_gene": [
+          "606202"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC45A2",
+        "hgnc_symbol": "SLC45A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:33944721-33984835",
+              "ensembl_id": "ENSG00000164175"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:33944616-33984730",
+              "ensembl_id": "ENSG00000164175"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-10-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC45A2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "none submitted"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "North West GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "606574 Albinism, oculocutaneous, type IV"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DPC4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6770",
+        "gene_name": "SMAD family member 4",
+        "omim_gene": [
+          "600993"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SMAD4",
+        "hgnc_symbol": "SMAD4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:48494410-48611415",
+              "ensembl_id": "ENSG00000141646"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:51028394-51085045",
+              "ensembl_id": "ENSG00000141646"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMAD4",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25269631",
+        "24001356",
+        "30251589",
+        "16613914"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "hereditary hemorrhagic telangiectasia syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CHAK1",
+          "LTRPC7",
+          "TRP-PLIK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17994",
+        "gene_name": "transient receptor potential cation channel subfamily M member 7",
+        "omim_gene": [
+          "605692"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRPM7",
+        "hgnc_symbol": "TRPM7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:50844670-50979012",
+              "ensembl_id": "ENSG00000092439"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:50552473-50686815",
+              "ensembl_id": "ENSG00000092439"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-01-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRPM7",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27020697"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "macrothrombocytopenia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ30169",
+          "H2-ALPHA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12407",
+        "gene_name": "tubulin alpha 4a",
+        "omim_gene": [
+          "191110"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TUBA4A",
+        "hgnc_symbol": "TUBA4A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:220114433-220142892",
+              "ensembl_id": "ENSG00000127824"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:219249711-219278170",
+              "ensembl_id": "ENSG00000127824"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-02-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUBA4A",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30760556",
+        "36026602"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Macrothrombocytopenia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12410",
+        "gene_name": "tubulin alpha 8",
+        "omim_gene": [
+          "605742"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TUBA8",
+        "hgnc_symbol": "TUBA8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:18593097-18629321",
+              "ensembl_id": "ENSG00000183785"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:18110331-18146554",
+              "ensembl_id": "ENSG00000183785"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUBA8",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34662886",
+        "34704371"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Macrothrombocytopenia, isolated, 2, autosomal dominant, OMIM:619840",
+        "macrothrombocytopenia, isolated, 2, autosomal dominant, MONDO:0030827"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Munc13-4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23147",
+        "gene_name": "unc-13 homolog D",
+        "omim_gene": [
+          "608897"
+        ],
+        "alias_name": null,
+        "gene_symbol": "UNC13D",
+        "hgnc_symbol": "UNC13D",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:73823306-73840798",
+              "ensembl_id": "ENSG00000092929"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:75827225-75844717",
+              "ensembl_id": "ENSG00000092929"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "UNC13D",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28399723",
+        "28748566"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ25138",
+          "DKFZP434F0318"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25268",
+        "gene_name": "apolipoprotein L domain containing 1",
+        "omim_gene": [
+          "612456"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOLD1",
+        "hgnc_symbol": "APOLD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:12878851-12982909",
+              "ensembl_id": "ENSG00000178878"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:12725917-12829975",
+              "ensembl_id": "ENSG00000178878"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-01-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOLD1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "35638551"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "inherited bleeding disorder"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD49b"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6137",
+        "gene_name": "integrin subunit alpha 2",
+        "omim_gene": [
+          "192974"
+        ],
+        "alias_name": [
+          "alpha 2 subunit of VLA-2 receptor"
+        ],
+        "gene_symbol": "ITGA2",
+        "hgnc_symbol": "ITGA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:52285156-52390609",
+              "ensembl_id": "ENSG00000164171"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:52989326-53094779",
+              "ensembl_id": "ENSG00000164171"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "ITGA2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10590055"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "614200 ?Glycoprotein Ia deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MAST205",
+          "KIAA0807"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19035",
+        "gene_name": "microtubule associated serine/threonine kinase 2",
+        "omim_gene": [
+          "612257"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAST2",
+        "hgnc_symbol": "MAST2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:46252659-46501796",
+              "ensembl_id": "ENSG00000086015"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:45786987-46036124",
+              "ensembl_id": "ENSG00000086015"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAST2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33465109"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Venous thromboembolism",
+        "Thrombophilia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1544",
+          "BCL8B",
+          "FLJ10197",
+          "LYST2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7648",
+        "gene_name": "neurobeachin",
+        "omim_gene": [
+          "604889"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NBEA",
+        "hgnc_symbol": "NBEA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:35516424-36247159",
+              "ensembl_id": "ENSG00000172915"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:34942287-35673022",
+              "ensembl_id": "ENSG00000172915"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-12-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "NBEA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28748566"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "North West GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PKACg"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9382",
+        "gene_name": "protein kinase cAMP-activated catalytic subunit gamma",
+        "omim_gene": [
+          "176893"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PRKACG",
+        "hgnc_symbol": "PRKACG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:71627469-71629039",
+              "ensembl_id": "ENSG00000165059"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:69012529-69014113",
+              "ensembl_id": "ENSG00000165059"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRKACG",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25061177",
+        "30819905"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "?Bleeding disorder, platelet-type, 19, OMIM:616176",
+        "Platelet-type bleeding disorder 19, MONDO:0014518"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11429",
+        "gene_name": "syntaxin 11",
+        "omim_gene": [
+          "605014"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STX11",
+        "hgnc_symbol": "STX11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:144471663-144509507",
+              "ensembl_id": "ENSG00000135604"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:144150526-144188370",
+              "ensembl_id": "ENSG00000135604"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "STX11",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28399723"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "North West GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ILWEQ"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11845",
+        "gene_name": "talin 1",
+        "omim_gene": [
+          "186745"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TLN1",
+        "hgnc_symbol": "TLN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:35696945-35732392",
+              "ensembl_id": "ENSG00000137076"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:35696948-35732395",
+              "ensembl_id": "ENSG00000137076"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-10-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "TLN1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "35861643"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "thrombocytopenia, MONDO:0002049"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

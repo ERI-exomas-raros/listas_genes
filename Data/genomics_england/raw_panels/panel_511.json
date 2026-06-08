@@ -1,0 +1,2688 @@
+{
+  "id": 511,
+  "hash_id": null,
+  "name": "Albinism or congenital nystagmus",
+  "disease_group": "Ophthalmology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "4.11",
+  "version_created": "2026-06-05T15:33:24.689991Z",
+  "relevant_disorders": [
+    "R39"
+  ],
+  "stats": {
+    "number_of_genes": 50,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "ADTB3A",
+          "HPS2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:566",
+        "gene_name": "adaptor related protein complex 3 beta 1 subunit",
+        "omim_gene": [
+          "603401"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AP3B1",
+        "hgnc_symbol": "AP3B1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:77296349-77590579",
+              "ensembl_id": "ENSG00000132842"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:78000525-78294755",
+              "ensembl_id": "ENSG00000132842"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AP3B1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Hermansky-Pudlak syndrome 2 608233 AR"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BLOS3",
+          "HPS8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20914",
+        "gene_name": "biogenesis of lysosomal organelles complex 1 subunit 3",
+        "omim_gene": [
+          "609762"
+        ],
+        "alias_name": [
+          "BLOC-1 subunit 3",
+          "Biogenesis of Lysosome-related Organelles complex-1 Subunit 3",
+          "Hermansky-Pudlak syndrome 8"
+        ],
+        "gene_symbol": "BLOC1S3",
+        "hgnc_symbol": "BLOC1S3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:45682003-45685059",
+              "ensembl_id": "ENSG00000189114"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:45178745-45181801",
+              "ensembl_id": "ENSG00000189114"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "BLOC1S3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22709368",
+        "16385460",
+        "32687635"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hermansky-Pudlak syndrome 8, OMIM:614077, MONDO:0013560"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MU",
+          "dJ303A1.3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18561",
+        "gene_name": "biogenesis of lysosomal organelles complex 1 subunit 5",
+        "omim_gene": [
+          "607289"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BLOC1S5",
+        "hgnc_symbol": "BLOC1S5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:8013800-8064647",
+              "ensembl_id": "ENSG00000188428"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:8013567-8064414",
+              "ensembl_id": "ENSG00000188428"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-08-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "BLOC1S5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32565547"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hermansky-Pudlak syndrome, MONDO:0019312"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HPS9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8549",
+        "gene_name": "biogenesis of lysosomal organelles complex 1 subunit 6",
+        "omim_gene": [
+          "604310"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BLOC1S6",
+        "hgnc_symbol": "BLOC1S6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:45879321-45908197",
+              "ensembl_id": "ENSG00000104164"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:45587123-45615999",
+              "ensembl_id": "ENSG00000104164"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-08-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "BLOC1S6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "?Hermansky-pudlak syndrome 9 614171 AR"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Cav2.1",
+          "EA2",
+          "APCA",
+          "HPCA",
+          "FHM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1388",
+        "gene_name": "calcium voltage-gated channel subunit alpha1 A",
+        "omim_gene": [
+          "601011"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNA1A",
+        "hgnc_symbol": "CACNA1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:13317256-13734804",
+              "ensembl_id": "ENSG00000141837"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:13206442-13633025",
+              "ensembl_id": "ENSG00000141837"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-06-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNA1A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19182766"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Episodic ataxia, type 2, OMIM:108500"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Cav1.4",
+          "JM8",
+          "JMC8",
+          "CSNBX2",
+          "CORDX3",
+          "CSNB2A",
+          "OA2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1393",
+        "gene_name": "calcium voltage-gated channel subunit alpha1 F",
+        "omim_gene": [
+          "300110"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNA1F",
+        "hgnc_symbol": "CACNA1F",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:49061523-49089833",
+              "ensembl_id": "ENSG00000102001"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:49205063-49233371",
+              "ensembl_id": "ENSG00000102001"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNA1F",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Night blindness, congenital stationary (incomplete), 2A, X-linked 300071 XL",
+        "Cone-rod dystrophy, X-linked, 3 300476 XLR",
+        "Aland Island eye disease 300600 XL"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LIN2",
+          "CAGH39",
+          "FGS4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1497",
+        "gene_name": "calcium/calmodulin dependent serine protein kinase",
+        "omim_gene": [
+          "300172"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CASK",
+        "hgnc_symbol": "CASK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:41374187-41782716",
+              "ensembl_id": "ENSG00000147044"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:41514934-41923463",
+              "ensembl_id": "ENSG00000147044"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "CASK",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Mental retardation, with or without nystagmus 300422",
+        "Mental retardation and microcephaly with pontine and cerebellar hypoplasia 300749 XLD",
+        "FG syndrome 4 300422"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OSP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8514",
+        "gene_name": "claudin 11",
+        "omim_gene": [
+          "601326"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CLDN11",
+        "hgnc_symbol": "CLDN11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:170136653-170578169",
+              "ensembl_id": "ENSG00000013297"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:170418865-170860380",
+              "ensembl_id": "ENSG00000013297"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLDN11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33313762"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Leukodystrophy, hypomyelinating, 22, OMIM:619328"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2153",
+        "gene_name": "cyclic nucleotide gated channel beta 3",
+        "omim_gene": [
+          "605080"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CNGB3",
+        "hgnc_symbol": "CNGB3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:87566205-87755903",
+              "ensembl_id": "ENSG00000170289"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:86553977-86743675",
+              "ensembl_id": "ENSG00000170289"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-07-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "CNGB3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "10888875",
+        "10958649",
+        "35332618"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Achromatopsia 3, OMIM:262300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2709",
+        "gene_name": "dopachrome tautomerase",
+        "omim_gene": [
+          "191275"
+        ],
+        "alias_name": [
+          "dopachrome delta-isomerase",
+          "L-dopachrome isomerase"
+        ],
+        "gene_symbol": "DCT",
+        "hgnc_symbol": "DCT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:95089558-95131936",
+              "ensembl_id": "ENSG00000080166"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:94436808-94479682",
+              "ensembl_id": "ENSG00000080166"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "DCT",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33100333",
+        "33959807"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Oculocutaneous albinism, type VIII, OMIM:619165",
+        "oculocutaneous albinism type 8, MONDO:0030899"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ43346"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8079",
+        "gene_name": "FERM domain containing 7",
+        "omim_gene": [
+          "300628"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FRMD7",
+        "hgnc_symbol": "FRMD7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:131211021-131262048",
+              "ensembl_id": "ENSG00000165694"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:132076993-132128020",
+              "ensembl_id": "ENSG00000165694"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "FRMD7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24688117",
+        "17013395",
+        "21303855",
+        "17397053",
+        "18431453",
+        "17846367"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Nystagmus 1, Congenital, X-Linked",
+        "Infantile Nystagmus",
+        "Nystagmus, infantile periodic alternating, X-linked, 310700",
+        "Nystagmus 1, congenital, X-linked, 310700",
+        "(not relevant if inheritance through paternal line)"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20145",
+        "gene_name": "G protein-coupled receptor 143",
+        "omim_gene": [
+          "300808"
+        ],
+        "alias_name": [
+          "ocular albinism 1"
+        ],
+        "gene_symbol": "GPR143",
+        "hgnc_symbol": "GPR143",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:9693386-9754337",
+              "ensembl_id": "ENSG00000101850"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:9725346-9786297",
+              "ensembl_id": "ENSG00000101850"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GPR143",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26160353",
+        "21423867",
+        "26061757",
+        "21541274"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Nystagmus 6, congenital, X-linked, 300814",
+        "Ocular albinism, type I",
+        "Ocular albinism, type I, Nettleship-Falls type, 300500"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BLOC3S1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5163",
+        "gene_name": "HPS1, biogenesis of lysosomal organelles complex 3 subunit 1",
+        "omim_gene": [
+          "604982"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HPS1",
+        "hgnc_symbol": "HPS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:100175955-100206684",
+              "ensembl_id": "ENSG00000107521"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:98416198-98446947",
+              "ensembl_id": "ENSG00000107521"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-05-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "HPS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9705234",
+        "10971344",
+        "9497254",
+        "7573033"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hermansky-Pudlak syndrome 1"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SUTAL",
+          "BLOC2S1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15597",
+        "gene_name": "HPS3, biogenesis of lysosomal organelles complex 2 subunit 1",
+        "omim_gene": [
+          "606118"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HPS3",
+        "hgnc_symbol": "HPS3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:148847371-148891519",
+              "ensembl_id": "ENSG00000163755"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:149129584-149173732",
+              "ensembl_id": "ENSG00000163755"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "HPS3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11455388",
+        "11590544"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hermansky-Pudlak syndrome 3"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1667",
+          "LE",
+          "BLOC3S2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15844",
+        "gene_name": "HPS4, biogenesis of lysosomal organelles complex 3 subunit 2",
+        "omim_gene": [
+          "606682"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HPS4",
+        "hgnc_symbol": "HPS4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:26839389-26879803",
+              "ensembl_id": "ENSG00000100099"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:26443423-26483837",
+              "ensembl_id": "ENSG00000100099"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "HPS4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11836498",
+        "15108212"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hermansky-Pudlak syndrome 4"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BLOC2S2",
+          "AIBP63",
+          "RU2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17022",
+        "gene_name": "HPS5, biogenesis of lysosomal organelles complex 2 subunit 2",
+        "omim_gene": [
+          "607521"
+        ],
+        "alias_name": [
+          "alpha-integrin-binding protein 63",
+          "Ruby-eye protein 2 homolog"
+        ],
+        "gene_symbol": "HPS5",
+        "hgnc_symbol": "HPS5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:18300223-18343745",
+              "ensembl_id": "ENSG00000110756"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:18278668-18322198",
+              "ensembl_id": "ENSG00000110756"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-06-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "HPS5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18182080",
+        "28296950",
+        "12548288",
+        "27593200",
+        "26785811"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hermansky-Pudlak syndrome 5"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ22501",
+          "BLOC2S3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18817",
+        "gene_name": "HPS6, biogenesis of lysosomal organelles complex 2 subunit 3",
+        "omim_gene": [
+          "607522"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HPS6",
+        "hgnc_symbol": "HPS6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:103825147-103827792",
+              "ensembl_id": "ENSG00000166189"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:102065390-102068038",
+              "ensembl_id": "ENSG00000166189"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "HPS6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Hermansky-Pudlak syndrome 6 614075 AR"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6481",
+        "gene_name": "laminin subunit alpha 1",
+        "omim_gene": [
+          "150320"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMA1",
+        "hgnc_symbol": "LAMA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:6941743-7117813",
+              "ensembl_id": "ENSG00000101680"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:6941744-7117814",
+              "ensembl_id": "ENSG00000101680"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "25105227",
+        "28283601",
+        "33251915",
+        "29167897",
+        "328840387",
+        "32195884"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Poretti-Boltshauser syndrome, OMIM:615960"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDA017",
+          "OCA7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23405",
+        "gene_name": "leucine rich melanocyte differentiation associated",
+        "omim_gene": [
+          "614537"
+        ],
+        "alias_name": [
+          "oculocutaneous albinism 7, autosomal recessive"
+        ],
+        "gene_symbol": "LRMDA",
+        "hgnc_symbol": "LRMDA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:77360998-78319925",
+              "ensembl_id": "ENSG00000148655"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:75431453-76560167",
+              "ensembl_id": "ENSG00000148655"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-04-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "LRMDA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 26818737 - a novel homozygous variant in this gene is reported a patient within a screen of Iranian patients with nonsyndromic OCA or autosomal recessive ocular albinism",
+        "PMID: 27031267 - identification of a 1.77-Mb de novo interstitial deletion in 10q22.2q22.3 in a female patient with 2.5-year-old female patient with developmental delay, speech delay, congenital cleft palate, and bilateral hearing impairment. The deletion included 9 genes, including KAT6B, DUPD1, DUSP13, SAMD8, VDAC2, COMTD1, ZNF503, NCRNA00245, and C10orf11",
+        "23395477"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Albinism, oculocutaneous, type VII"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CHS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1968",
+        "gene_name": "lysosomal trafficking regulator",
+        "omim_gene": [
+          "606897"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LYST",
+        "hgnc_symbol": "LYST",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:235824341-236046940",
+              "ensembl_id": "ENSG00000143669"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:235661041-235883640",
+              "ensembl_id": "ENSG00000143669"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-12-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "LYST",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8896560",
+        "9215679",
+        "20301751 - Chediak-Higashi syndrome (CHS) is characterized by partial oculocutaneous albinism (OCA), immunodeficiency, and a mild bleeding tendency.",
+        "10482950"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Chediak-Higashi syndrome",
+        "oculo-cutaneous albinism",
+        "optic neuropathy with progressive vision loss"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BEY2",
+          "EYCL",
+          "BEY",
+          "BEY1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8101",
+        "gene_name": "OCA2 melanosomal transmembrane protein",
+        "omim_gene": [
+          "611409"
+        ],
+        "alias_name": [
+          "melanocyte-specific transporter protein",
+          "P-protein"
+        ],
+        "gene_symbol": "OCA2",
+        "hgnc_symbol": "OCA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:28000021-28344504",
+              "ensembl_id": "ENSG00000104044"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:27754875-28099358",
+              "ensembl_id": "ENSG00000104044"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-02-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "OCA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Skin/hair/eye pigmentation 1, blue/nonblue eyes",
+        "Albinism, brown oculocutaneous",
+        "Albinism, oculocutaneous, type II",
+        "Skin/hair/eye pigmentation 1, blond/brown hair",
+        "Oculocutaneous Albinism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D11S812E",
+          "AN",
+          "WAGR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8620",
+        "gene_name": "paired box 6",
+        "omim_gene": [
+          "607108"
+        ],
+        "alias_name": [
+          "aniridia, keratitis"
+        ],
+        "gene_symbol": "PAX6",
+        "hgnc_symbol": "PAX6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:31806340-31839509",
+              "ensembl_id": "ENSG00000007372"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:31784779-31818062",
+              "ensembl_id": "ENSG00000007372"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PAX6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "?Coloboma of optic nerve 120430 AD",
+        "Optic nerve hypoplasia 165550 AD",
+        "Aniridia 106210 AD",
+        "Cataract with late-onset corneal dystrophy 106210 AD",
+        "?Morning glory disc anomaly 120430 AD",
+        "Anterior segment dysgenesis 5, multiple subtypes 604229",
+        "Keratitis 148190 AD",
+        "Foveal hypoplasia 1 136520 AD",
+        "?Coloboma, ocular 120200 AD"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RAB27",
+          "RAM",
+          "GS2",
+          "HsT18676"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9766",
+        "gene_name": "RAB27A, member RAS oncogene family",
+        "omim_gene": [
+          "603868"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RAB27A",
+        "hgnc_symbol": "RAB27A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:55495164-55611311",
+              "ensembl_id": "ENSG00000069974"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:55202966-55319113",
+              "ensembl_id": "ENSG00000069974"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-11-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAB27A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Griscelli syndrome, type 2 607624 AR"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARSACS",
+          "KIAA0730",
+          "DKFZp686B15167",
+          "DNAJC29",
+          "SPAX6",
+          "PPP1R138"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10519",
+        "gene_name": "sacsin molecular chaperone",
+        "omim_gene": [
+          "604490"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 138"
+        ],
+        "gene_symbol": "SACS",
+        "hgnc_symbol": "SACS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:23902965-24007841",
+              "ensembl_id": "ENSG00000151835"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:23328826-23411513",
+              "ensembl_id": "ENSG00000151835"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-11-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "SACS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Spastic ataxia, Charlevoix-Saguenay type 270550 AR"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0625",
+          "AOA2",
+          "Sen1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:445",
+        "gene_name": "senataxin",
+        "omim_gene": [
+          "608465"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SETX",
+        "hgnc_symbol": "SETX",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:135136743-135230372",
+              "ensembl_id": "ENSG00000107290"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:132261356-132354985",
+              "ensembl_id": "ENSG00000107290"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "SETX",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Spinocerebellar ataxia, autosomal recessive 1, OMIM:606002"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JSX",
+          "OCA6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20611",
+        "gene_name": "solute carrier family 24 member 5",
+        "omim_gene": [
+          "609802"
+        ],
+        "alias_name": [
+          "oculocutaneous albinism 6 (autosomal recessive)"
+        ],
+        "gene_symbol": "SLC24A5",
+        "hgnc_symbol": "SLC24A5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:48413169-48434869",
+              "ensembl_id": "ENSG00000188467"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:48120972-48142672",
+              "ensembl_id": "ENSG00000188467"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-03-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC24A5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23985994 - homozygous variants identified in an additional 5 patients with Non-Syndromic Oculocutaneous Albinism",
+        "27129268 - functional data to support the phenotypic effects of variants reported",
+        "23364476 - case report of patient of Chinese origin",
+        "26686029 case identified in a cohort South-Italian origin"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Albinism, oculocutaneous, type VI",
+        "Non-Syndromic Oculocutaneous Albinism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:32434",
+        "gene_name": "solute carrier family 38 member 8",
+        "omim_gene": [
+          "615585"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC38A8",
+        "hgnc_symbol": "SLC38A8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:84043272-84076241",
+              "ensembl_id": "ENSG00000166558"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:84009667-84042636",
+              "ensembl_id": "ENSG00000166558"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-02-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC38A8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24290379",
+        "29345414",
+        "24045842",
+        "32744312"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Foveal hypoplasia 2, with or without optic nerve misrouting and/or anterior segment dysgenesis OMIM:609218",
+        "foveal hypoplasia - optic nerve decussation defect - anterior segment dysgenesis syndrome MONDO:0012216"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AIM-1",
+          "OCA4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16472",
+        "gene_name": "solute carrier family 45 member 2",
+        "omim_gene": [
+          "606202"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC45A2",
+        "hgnc_symbol": "SLC45A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:33944721-33984835",
+              "ensembl_id": "ENSG00000164175"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:33944616-33984730",
+              "ensembl_id": "ENSG00000164175"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-10-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC45A2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Oculocutaneous albinism type IV,606574",
+        "skin/hair/eye pigmentation 5,227240",
+        "Albinism, oculocutaneous, type IV",
+        "Oculocutaneous Albinism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OCAIA",
+          "OCA1A",
+          "OCA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12442",
+        "gene_name": "tyrosinase",
+        "omim_gene": [
+          "606933"
+        ],
+        "alias_name": [
+          "oculocutaneous albinism IA"
+        ],
+        "gene_symbol": "TYR",
+        "hgnc_symbol": "TYR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:88910620-89028927",
+              "ensembl_id": "ENSG00000077498"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:89177452-89295759",
+              "ensembl_id": "ENSG00000077498"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-08-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "TYR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Albinism, oculocutaneous, type IA, OMIM:203100",
+        "Albinism, oculocutaneous, type IB, OMIM:606952",
+        "Waardenburg syndrome/albinism, digenic, OMIM:103470"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GP75",
+          "CATB",
+          "TRP",
+          "b-PROTEIN",
+          "OCA3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12450",
+        "gene_name": "tyrosinase related protein 1",
+        "omim_gene": [
+          "115501"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TYRP1",
+        "hgnc_symbol": "TYRP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:12685439-12710290",
+              "ensembl_id": "ENSG00000107165"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:12685439-12710290",
+              "ensembl_id": "ENSG00000107165"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-09-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "TYRP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Albinism, oculocutaneous, type III",
+        "Oculocutaneous Albinism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "bHLHe76"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:348",
+        "gene_name": "aryl hydrocarbon receptor",
+        "omim_gene": [
+          "600253"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AHR",
+        "hgnc_symbol": "AHR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:17338246-17385776",
+              "ensembl_id": "ENSG00000106546"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:17298622-17346152",
+              "ensembl_id": "ENSG00000106546"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-05-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "AHR",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28851966",
+        "23301081",
+        "29726989",
+        "31896775",
+        "31009037",
+        "33193710",
+        "35188035"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "?Retinitis pigmentosa 85, OMIM:618345",
+        "retinitis pigmentosa 85, MONDO:0032689"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ADTD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:568",
+        "gene_name": "adaptor related protein complex 3 delta 1 subunit",
+        "omim_gene": [
+          "607246"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AP3D1",
+        "hgnc_symbol": "AP3D1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:2100988-2164464",
+              "ensembl_id": "ENSG00000065000"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:2100988-2164465",
+              "ensembl_id": "ENSG00000065000"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AP3D1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "?Hermansky-Pudlak syndrome 10 617050 AR"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1403",
+        "gene_name": "calcium voltage-gated channel auxiliary subunit beta 3",
+        "omim_gene": [
+          "601958"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNB3",
+        "hgnc_symbol": "CACNB3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:49207577-49222724",
+              "ensembl_id": "ENSG00000167535"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:48813794-48828941",
+              "ensembl_id": "ENSG00000167535"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNB3",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "41822111"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "infantile nystagmus"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CLC-7",
+          "OPTA2",
+          "CLC7",
+          "ClC-7",
+          "PPP1R63"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2025",
+        "gene_name": "chloride voltage-gated channel 7",
+        "omim_gene": [
+          "602727"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 63"
+        ],
+        "gene_symbol": "CLCN7",
+        "hgnc_symbol": "CLCN7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:1494935-1525581",
+              "ensembl_id": "ENSG00000103249"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:1444934-1475580",
+              "ensembl_id": "ENSG00000103249"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLCN7",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "31155284",
+        "38838776",
+        "39056574"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypopigmentation, organomegaly, and delayed myelination and development, OMIM:618541",
+        "hypopigmentation, organomegaly, and delayed myelination and development, MONDO:0032805"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q2_26_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Dysbindin",
+          "My031",
+          "HPS7",
+          "DBND",
+          "BLOC1S8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17328",
+        "gene_name": "dystrobrevin binding protein 1",
+        "omim_gene": [
+          "607145"
+        ],
+        "alias_name": [
+          "dysbindin-1",
+          "biogenesis of lysosomal organelles complex-1, subunit 8"
+        ],
+        "gene_symbol": "DTNBP1",
+        "hgnc_symbol": "DTNBP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:15523032-15663289",
+              "ensembl_id": "ENSG00000047579"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:15522801-15663058",
+              "ensembl_id": "ENSG00000047579"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-01-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "DTNBP1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hermansky-Pudlak syndrome 7 614076 AR"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CAGR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6757",
+        "gene_name": "mab-21 like 1",
+        "omim_gene": [
+          "601280"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAB21L1",
+        "hgnc_symbol": "MAB21L1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:36047926-36050832",
+              "ensembl_id": "ENSG00000180660"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:35474182-35477209",
+              "ensembl_id": "ENSG00000180660"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-08-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAB21L1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27103078",
+        "30487245"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Cerebellar, ocular, craniofacial, and genital syndrome, OMIM:618479",
+        "cerebellar, ocular, craniofacial, and genital syndrome, MONDO:0032774"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6831",
+        "gene_name": "mannosidase beta",
+        "omim_gene": [
+          "609489"
+        ],
+        "alias_name": [
+          "beta-mannosidase A"
+        ],
+        "gene_symbol": "MANBA",
+        "hgnc_symbol": "MANBA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:103552660-103682151",
+              "ensembl_id": "ENSG00000109323"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:102631488-102760994",
+              "ensembl_id": "ENSG00000109323"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "MANBA",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mannosidosis, beta 248510 AR"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "l1Rk3",
+          "l(1)-3Rk",
+          "Slac-2a",
+          "ln",
+          "exophilin-3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29643",
+        "gene_name": "melanophilin",
+        "omim_gene": [
+          "606526"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MLPH",
+        "hgnc_symbol": "MLPH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:238394071-238463961",
+              "ensembl_id": "ENSG00000115648"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:237485428-237555318",
+              "ensembl_id": "ENSG00000115648"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-01-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "MLPH",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12897212",
+        "21883982",
+        "22711375",
+        "26337734",
+        "30389201",
+        "31721180",
+        "35602484"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Griscelli syndrome, type 3, OMIM:609227",
+        "Griscelli syndrome type 3, MONDO:0012220"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_promote_green"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MYO5",
+          "GS1",
+          "MYR12"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7602",
+        "gene_name": "myosin VA",
+        "omim_gene": [
+          "160777"
+        ],
+        "alias_name": [
+          "myosin, heavy polypeptide kinase",
+          "myosin heavy chain 12",
+          "myoxin",
+          "myosin V"
+        ],
+        "gene_symbol": "MYO5A",
+        "hgnc_symbol": "MYO5A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:52599480-52821247",
+              "ensembl_id": "ENSG00000197535"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:52307283-52529050",
+              "ensembl_id": "ENSG00000197535"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYO5A",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Griscelli syndrome, type 1 214450 AR"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TUBL1",
+          "LCA15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12423",
+        "gene_name": "tubby like protein 1",
+        "omim_gene": [
+          "602280"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TULP1",
+        "hgnc_symbol": "TULP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:35465651-35480715",
+              "ensembl_id": "ENSG00000112041"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:35497874-35512938",
+              "ensembl_id": "ENSG00000112041"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "TULP1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Leber congenital amaurosis 15 613843 AR",
+        "Retinitis pigmentosa 14 600132 AR"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dGK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2858",
+        "gene_name": "deoxyguanosine kinase",
+        "omim_gene": [
+          "601465"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DGUOK",
+        "hgnc_symbol": "DGUOK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:74153953-74186088",
+              "ensembl_id": "ENSG00000114956"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:73926826-73958961",
+              "ensembl_id": "ENSG00000114956"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "DGUOK",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12210798",
+        "12205643"
+      ],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Mitochondrial DNA depletion syndrome 3"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "87U6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4387",
+        "gene_name": "G protein subunit alpha i3",
+        "omim_gene": [
+          "139370"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GNAI3",
+        "hgnc_symbol": "GNAI3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:110091233-110136975",
+              "ensembl_id": "ENSG00000065135"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:109548611-109618321",
+              "ensembl_id": "ENSG00000065135"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNAI3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27607449"
+      ],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Auriculocondylar syndrome 1 602483",
+        "Ocular Albinism"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MI",
+          "bHLHe32"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7105",
+        "gene_name": "melanogenesis associated transcription factor",
+        "omim_gene": [
+          "156845"
+        ],
+        "alias_name": [
+          "homolog of mouse microphthalmia"
+        ],
+        "gene_symbol": "MITF",
+        "hgnc_symbol": "MITF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:69788586-70017488",
+              "ensembl_id": "ENSG00000187098"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:69739435-69968337",
+              "ensembl_id": "ENSG00000187098"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "MITF",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Tietz Syndrome (TIETZS), Waardenburg Syndrome Type 2A (WS2A)",
+        "Waardenburg syndrome/ocular albinism, digenic,103470",
+        "Waardenburg Syndrome Type 2 with Ocular Albinism (WS2-OA)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ATP6",
+          "ATPase-6",
+          "Su6m"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7414",
+        "gene_name": "mitochondrially encoded ATP synthase 6",
+        "omim_gene": [
+          "516060"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-ATP6",
+        "hgnc_symbol": "MT-ATP6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:8527-9207",
+              "ensembl_id": "ENSG00000198899"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:8527-9207",
+              "ensembl_id": "ENSG00000198899"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-ATP6",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26448634"
+      ],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Retinal degeneration and nystagmus",
+        "Optic neuropathy and nystagmus",
+        "Nystagmus"
+      ],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "COX1",
+          "COI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7419",
+        "gene_name": "mitochondrially encoded cytochrome c oxidase I",
+        "omim_gene": [
+          "516030"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-CO1",
+        "hgnc_symbol": "MT-CO1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:5904-7445",
+              "ensembl_id": "ENSG00000198804"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:5904-7445",
+              "ensembl_id": "ENSG00000198804"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-CO1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26448634"
+      ],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Nystagmus",
+        "Optic neuropathy"
+      ],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "COX3",
+          "COIII",
+          "CO3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7422",
+        "gene_name": "mitochondrially encoded cytochrome c oxidase III",
+        "omim_gene": [
+          "516050"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-CO3",
+        "hgnc_symbol": "MT-CO3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:9207-9990",
+              "ensembl_id": "ENSG00000198938"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:9207-9990",
+              "ensembl_id": "ENSG00000198938"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-CO3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26448634"
+      ],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Nystagmus"
+      ],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "COB",
+          "CYTB",
+          "UQCR3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7427",
+        "gene_name": "mitochondrially encoded cytochrome b",
+        "omim_gene": [
+          "516020"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-CYB",
+        "hgnc_symbol": "MT-CYB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:14747-15887",
+              "ensembl_id": "ENSG00000198727"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:14747-15887",
+              "ensembl_id": "ENSG00000198727"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-CYB",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26448634"
+      ],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Nystagmus"
+      ],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ND2",
+          "NAD2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7456",
+        "gene_name": "mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 2",
+        "omim_gene": [
+          "516001"
+        ],
+        "alias_name": [
+          "complex I ND2 subunit",
+          "NADH-ubiquinone oxidoreductase chain 2"
+        ],
+        "gene_symbol": "MT-ND2",
+        "hgnc_symbol": "MT-ND2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:4470-5511",
+              "ensembl_id": "ENSG00000198763"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:4470-5511",
+              "ensembl_id": "ENSG00000198763"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-ND2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26448634"
+      ],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Retinal degeneration and nystagmus"
+      ],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NAD6",
+          "ND6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7462",
+        "gene_name": "mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 6",
+        "omim_gene": [
+          "516006"
+        ],
+        "alias_name": [
+          "complex I ND6 subunit",
+          "NADH-ubiquinone oxidoreductase chain 6"
+        ],
+        "gene_symbol": "MT-ND6",
+        "hgnc_symbol": "MT-ND6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:14149-14673",
+              "ensembl_id": "ENSG00000198695"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:14149-14673",
+              "ensembl_id": "ENSG00000198695"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-ND6",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26448634"
+      ],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Nystagmus"
+      ],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DUTT1",
+          "FLJ21882",
+          "SAX3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10249",
+        "gene_name": "roundabout guidance receptor 1",
+        "omim_gene": [
+          "602430"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ROBO1",
+        "hgnc_symbol": "ROBO1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:78646390-79816965",
+              "ensembl_id": "ENSG00000169855"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:78597240-79767815",
+              "ensembl_id": "ENSG00000169855"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "ROBO1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "35348658"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "?Nystagmus 8, congenital, autosomal recessive, OMIM:257400"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

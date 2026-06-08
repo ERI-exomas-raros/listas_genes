@@ -1,0 +1,542 @@
+{
+  "id": 199,
+  "hash_id": "5739e7268f62030c3a8f9767",
+  "name": "Silver Russell syndrome",
+  "disease_group": "Growth disorders",
+  "disease_sub_group": "Growth restriction",
+  "status": "public",
+  "version": "1.14",
+  "version_created": "2025-11-23T17:48:34.350483Z",
+  "relevant_disorders": [
+    "Silver-Russell syndrome"
+  ],
+  "stats": {
+    "number_of_genes": 9,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "BABL",
+          "LIPO"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5009",
+        "gene_name": "high mobility group AT-hook 2",
+        "omim_gene": [
+          "600698"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HMGA2",
+        "hgnc_symbol": "HMGA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:66217911-66360075",
+              "ensembl_id": "ENSG00000149948"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:65824131-65966295",
+              "ensembl_id": "ENSG00000149948"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-07-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "HMGA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29655892"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Silver-Russell syndrome 5, OMIM:618908",
+        "Silver-Russell syndrome 5, MONDO:0020795"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IGF1A",
+          "IGFI",
+          "IGF-I"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5464",
+        "gene_name": "insulin like growth factor 1",
+        "omim_gene": [
+          "147440"
+        ],
+        "alias_name": [
+          "somatomedin C"
+        ],
+        "gene_symbol": "IGF1",
+        "hgnc_symbol": "IGF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:102789645-102874423",
+              "ensembl_id": "ENSG00000017427"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:102395867-102480645",
+              "ensembl_id": "ENSG00000017427"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "IGF1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21396584"
+      ],
+      "evidence": [
+        "Expert list",
+        "Literature",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Insulin-like growth factor I deficiency, OMIM:608747"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JTK13",
+          "CD221",
+          "IGFIR",
+          "MGC18216",
+          "IGFR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5465",
+        "gene_name": "insulin like growth factor 1 receptor",
+        "omim_gene": [
+          "147370"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IGF1R",
+        "hgnc_symbol": "IGF1R",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:99192200-99507759",
+              "ensembl_id": "ENSG00000140443"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:98648971-98964530",
+              "ensembl_id": "ENSG00000140443"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-07-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "IGF1R",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21396585"
+      ],
+      "evidence": [
+        "Expert list",
+        "Literature",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Insulin-like growth factor I, resistance to, OMIM:270450"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ44734",
+          "IGF-II"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5466",
+        "gene_name": "insulin like growth factor 2",
+        "omim_gene": [
+          "147470"
+        ],
+        "alias_name": [
+          "somatomedin A",
+          "preptin"
+        ],
+        "gene_symbol": "IGF2",
+        "hgnc_symbol": "IGF2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:2150342-2170833",
+              "ensembl_id": "ENSG00000167244"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:2129112-2141238",
+              "ensembl_id": "ENSG00000167244"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "IGF2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26154720"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review Green",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Silver Russell syndrome, 180860"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, paternally imprinted (maternal allele expressed)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ZNF912"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9045",
+        "gene_name": "PLAG1 zinc finger",
+        "omim_gene": [
+          "603026"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLAG1",
+        "hgnc_symbol": "PLAG1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:57073463-57123883",
+              "ensembl_id": "ENSG00000181690"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:56160904-56211324",
+              "ensembl_id": "ENSG00000181690"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-02-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLAG1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28796236"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "SRS",
+        "Silver-Russell syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P57",
+          "KIP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1786",
+        "gene_name": "cyclin dependent kinase inhibitor 1C",
+        "omim_gene": [
+          "600856"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDKN1C",
+        "hgnc_symbol": "CDKN1C",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:2904443-2907111",
+              "ensembl_id": "ENSG00000129757"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:2883213-2885881",
+              "ensembl_id": "ENSG00000129757"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDKN1C",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "8841187",
+        "20503313",
+        "10424811",
+        "24065356",
+        "22634751"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Red",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Beckwith-Wiedemann syndrome, 130650",
+        "IMAGE syndrome, 614732"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, paternally imprinted (maternal allele expressed)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D11S813E",
+          "ASM",
+          "ASM1",
+          "NCRNA00008",
+          "LINC00008"
+        ],
+        "biotype": "processed_transcript",
+        "hgnc_id": "HGNC:4713",
+        "gene_name": "H19, imprinted maternally expressed transcript (non-protein coding)",
+        "omim_gene": [
+          "103280"
+        ],
+        "alias_name": [
+          "non-protein coding RNA 8",
+          "long intergenic non-protein coding RNA 8"
+        ],
+        "gene_symbol": "H19",
+        "hgnc_symbol": "H19",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:2016406-2022700",
+              "ensembl_id": "ENSG00000130600"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:1995163-2001470",
+              "ensembl_id": "ENSG00000130600"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-04-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "H19",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20007505",
+        "16532391"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Silver-Russell syndrome\t180860"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, paternally imprinted (maternal allele expressed)",
+      "tags": [
+        "locus-type-rna-long-non-coding"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IGF-BP25",
+          "AFBP",
+          "hIGFBP-1",
+          "PP12"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5469",
+        "gene_name": "insulin like growth factor binding protein 1",
+        "omim_gene": [
+          "146730"
+        ],
+        "alias_name": [
+          "placental protein 12",
+          "amniotic fluid binding protein",
+          "alpha-pregnancy-associated endometrial globulin",
+          "growth hormone independent-binding protein",
+          "binding protein-28",
+          "binding protein-26",
+          "binding protein-25",
+          "IGF-binding protein 1"
+        ],
+        "gene_symbol": "IGFBP1",
+        "hgnc_symbol": "IGFBP1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:45927956-45933267",
+              "ensembl_id": "ENSG00000146678"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:45888357-45893668",
+              "ensembl_id": "ENSG00000146678"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "IGFBP1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10364674"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Silver-Russell Syndrome"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IBP3",
+          "BP-53"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5472",
+        "gene_name": "insulin like growth factor binding protein 3",
+        "omim_gene": [
+          "146732"
+        ],
+        "alias_name": [
+          "growth hormone-dependent binding protein",
+          "acid stable subunit of the 140 K IGF complex",
+          "binding protein 53",
+          "binding protein 29",
+          "IGF-binding protein 3"
+        ],
+        "gene_symbol": "IGFBP3",
+        "hgnc_symbol": "IGFBP3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:45951949-45961473",
+              "ensembl_id": "ENSG00000146674"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:45912245-45921874",
+              "ensembl_id": "ENSG00000146674"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "IGFBP3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10364674"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Silver Russell Syndrome"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

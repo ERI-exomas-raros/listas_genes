@@ -1,0 +1,316 @@
+{
+  "id": 18,
+  "hash_id": "575ec3a58f62034208b69eda",
+  "name": "Monogenic nephrogenic diabetes insipidus",
+  "disease_group": "",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.12",
+  "version_created": "2025-11-23T17:32:18.470855Z",
+  "relevant_disorders": [
+    "monogenic nephrogenic diabetes insipidus"
+  ],
+  "stats": {
+    "number_of_genes": 5,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:634",
+        "gene_name": "aquaporin 2",
+        "omim_gene": [
+          "107777"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AQP2",
+        "hgnc_symbol": "AQP2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:50344524-50352664",
+              "ensembl_id": "ENSG00000167580"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:49950741-49958881",
+              "ensembl_id": "ENSG00000167580"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "AQP2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8140421",
+        "7524315",
+        "9048343",
+        "9649557",
+        "9302264",
+        "9745427",
+        "11929850",
+        "12050236",
+        "15509592"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Diabetes insipidus, nephrogenic, 125800",
+        "Nephrogenic Diabetes Insipidus"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "V2R"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:897",
+        "gene_name": "arginine vasopressin receptor 2",
+        "omim_gene": [
+          "300538"
+        ],
+        "alias_name": [
+          "nephrogenic diabetes insipidus"
+        ],
+        "gene_symbol": "AVPR2",
+        "hgnc_symbol": "AVPR2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153167985-153172620",
+              "ensembl_id": "ENSG00000126895"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:153902531-153907166",
+              "ensembl_id": "ENSG00000126895"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "AVPR2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18726898",
+        "27565746",
+        "27117808",
+        "26974133",
+        "26828532"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Diabetes insipidus, nephrogenic, 304800",
+        "Nephrogenic Diabetes Insipidus",
+        "Diabetes Insipidus, Nephrogenic, X-Linked",
+        "nephrogenic diabetes insipidus (commonest cause, affected females also reported often with a milder and later presentation)"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [
+        "treatable",
+        "Skewed X-inactivation"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ADH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:894",
+        "gene_name": "arginine vasopressin",
+        "omim_gene": [
+          "192340"
+        ],
+        "alias_name": [
+          "antidiuretic hormone",
+          "neurophysin II",
+          "diabetes insipidus",
+          "neurohypophyseal",
+          "prepro-AVP-NP II",
+          "prepro-arginine-vasopressin-neurophysin II",
+          "copeptin"
+        ],
+        "gene_symbol": "AVP",
+        "hgnc_symbol": "AVP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:3063202-3065370",
+              "ensembl_id": "ENSG00000101200"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:3082556-3084724",
+              "ensembl_id": "ENSG00000101200"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AVP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Diabetes insipidus,neurohypophyseal,125700"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NKCC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10910",
+        "gene_name": "solute carrier family 12 member 1",
+        "omim_gene": [
+          "600839"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC12A1",
+        "hgnc_symbol": "SLC12A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:48483861-48596275",
+              "ensembl_id": "ENSG00000074803"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:48191664-48304078",
+              "ensembl_id": "ENSG00000074803"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC12A1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8640224",
+        "9355073",
+        "28095294",
+        "32506365"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Bartter syndrome, type 1, OMIM:601678",
+        "Bartter disease type 1, MONDO:0100344"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DIDMOAD",
+          "WFS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12762",
+        "gene_name": "wolframin ER transmembrane glycoprotein",
+        "omim_gene": [
+          "606201"
+        ],
+        "alias_name": null,
+        "gene_symbol": "WFS1",
+        "hgnc_symbol": "WFS1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:6271576-6304992",
+              "ensembl_id": "ENSG00000109501"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:6269849-6303265",
+              "ensembl_id": "ENSG00000109501"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-01-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "WFS1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Wolfram syndrome-1",
+        "Wolfram syndrome, central/neurogenic diabetes insipidus only"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

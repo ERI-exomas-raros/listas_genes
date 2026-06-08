@@ -1,0 +1,698 @@
+{
+  "id": 736,
+  "hash_id": null,
+  "name": "Neurological segmental overgrowth",
+  "disease_group": "Neurology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.5",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 13,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Component Of Super Panel",
+      "slug": "component-of-super-panel",
+      "description": "This panel is a component of a Super Panel"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "RAC",
+          "PKB",
+          "PRKBA",
+          "AKT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:391",
+        "gene_name": "AKT serine/threonine kinase 1",
+        "omim_gene": [
+          "164730"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AKT1",
+        "hgnc_symbol": "AKT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:105235686-105262088",
+              "ensembl_id": "ENSG00000142208"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:104769349-104795751",
+              "ensembl_id": "ENSG00000142208"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AKT1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "33030203"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Proteus syndrome, somatic, OMIM:176920",
+        "Macrocephaly and Overgrowth Syndromes",
+        "Segmental Overgrowth Syndrome",
+        "Proteus syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PKBG",
+          "RAC-gamma",
+          "PRKBG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:393",
+        "gene_name": "AKT serine/threonine kinase 3",
+        "omim_gene": [
+          "611223"
+        ],
+        "alias_name": [
+          "protein kinase B, gamma"
+        ],
+        "gene_symbol": "AKT3",
+        "hgnc_symbol": "AKT3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:243651535-244014381",
+              "ensembl_id": "ENSG00000117020"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:243488233-243851079",
+              "ensembl_id": "ENSG00000117020"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-11-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "AKT3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome 2, OMIM:615937",
+        "Macrocephaly and Overgrowth Syndromes"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "mosaicism"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1583",
+        "gene_name": "cyclin D2",
+        "omim_gene": [
+          "123833"
+        ],
+        "alias_name": [
+          "G1/S-specific cyclin D2"
+        ],
+        "gene_symbol": "CCND2",
+        "hgnc_symbol": "CCND2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:4382938-4414516",
+              "ensembl_id": "ENSG00000118971"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:4273772-4305350",
+              "ensembl_id": "ENSG00000118971"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-12-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCND2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome 3, OMIM:615938"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "bHLHd4",
+          "bHLHd5",
+          "bHLHd6",
+          "bHLHd7",
+          "bHLHd8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6913",
+        "gene_name": "MYC associated factor X",
+        "omim_gene": [
+          "154950"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAX",
+        "hgnc_symbol": "MAX",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:65472892-65569413",
+              "ensembl_id": "ENSG00000125952"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:65006174-65102695",
+              "ensembl_id": "ENSG00000125952"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAX",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "38141607"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Polydactyly-macrocephaly syndrome, OMIM:620712"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PI3K"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8975",
+        "gene_name": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",
+        "omim_gene": [
+          "171834"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PIK3CA",
+        "hgnc_symbol": "PIK3CA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:178865902-178957881",
+              "ensembl_id": "ENSG00000121879"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:179148114-179240093",
+              "ensembl_id": "ENSG00000121879"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIK3CA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Cowden syndrome 5, OMIM:615108",
+        "CLAPO syndrome, somatic, OMIM:613089",
+        "CLOVE syndrome, somatic, OMIM:612918",
+        "Macrodactyly, somatic, OMIM:155500",
+        "Megalencephaly-capillary malformation-polymicrogyria syndrome, somatic, OMIM:602501"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "mosaicism",
+        "somatic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P85B",
+          "p85"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8980",
+        "gene_name": "phosphoinositide-3-kinase regulatory subunit 2",
+        "omim_gene": [
+          "603157"
+        ],
+        "alias_name": [
+          "phosphoinositide-3-kinase regulatory subunit beta"
+        ],
+        "gene_symbol": "PIK3R2",
+        "hgnc_symbol": "PIK3R2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:18263928-18281350",
+              "ensembl_id": "ENSG00000105647"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:18153118-18170540",
+              "ensembl_id": "ENSG00000105647"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIK3R2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome 1, OMIM:603387"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MMAC1",
+          "TEP1",
+          "PTEN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9588",
+        "gene_name": "phosphatase and tensin homolog",
+        "omim_gene": [
+          "601728"
+        ],
+        "alias_name": [
+          "mutated in multiple advanced cancers 1"
+        ],
+        "gene_symbol": "PTEN",
+        "hgnc_symbol": "PTEN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:89622870-89731687",
+              "ensembl_id": "ENSG00000171862"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:87863113-87971930",
+              "ensembl_id": "ENSG00000171862"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTEN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Cowden syndrome 1, OMIM:158350",
+        "Lhermitte-Duclos syndrome, OMIM:158350",
+        "Macrocephaly/autism syndrome, OMIM:605309"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:392",
+        "gene_name": "AKT serine/threonine kinase 2",
+        "omim_gene": [
+          "164731"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AKT2",
+        "hgnc_symbol": "AKT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:40736224-40791443",
+              "ensembl_id": "ENSG00000105221"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:40230317-40285536",
+              "ensembl_id": "ENSG00000105221"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "AKT2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Hypoinsulinemic hypoglycemia with hemihypertrophy, OMIM:240900",
+        "Hypoinsulinemic hypoglycemia and body hemihypertrophy, MONDO:0009416"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5173",
+        "gene_name": "HRas proto-oncogene, GTPase",
+        "omim_gene": [
+          "190020"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HRAS",
+        "hgnc_symbol": "HRAS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:532242-537287",
+              "ensembl_id": "ENSG00000174775"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:532242-537287",
+              "ensembl_id": "ENSG00000174775"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HRAS",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Schimmelpenning-Feuerstein-Mims syndrome, somatic mosaic, 163200",
+        "Hemimegalencephaly"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KRAS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6407",
+        "gene_name": "KRAS proto-oncogene, GTPase",
+        "omim_gene": [
+          "190070"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KRAS",
+        "hgnc_symbol": "KRAS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:25357723-25403870",
+              "ensembl_id": "ENSG00000133703"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:25204789-25250936",
+              "ensembl_id": "ENSG00000133703"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRAS",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Schimmelpenning-Feuerstein-Mims syndrome, somatic mosaic, 163200",
+        "Hemimegalencephaly"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RAFT1",
+          "RAPT1",
+          "FLJ44809"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3942",
+        "gene_name": "mechanistic target of rapamycin kinase",
+        "omim_gene": [
+          "601231"
+        ],
+        "alias_name": [
+          "FK506 binding protein 12-rapamycin associated protein 2",
+          "rapamycin target protein",
+          "FKBP12-rapamycin complex-associated protein 1",
+          "FKBP-rapamycin associated protein",
+          "rapamycin associated protein FRAP2",
+          "dJ576K7.1 (FK506 binding protein 12-rapamycin associated protein 1)",
+          "rapamycin and FKBP12 target 1",
+          "mammalian target of rapamycin"
+        ],
+        "gene_symbol": "MTOR",
+        "hgnc_symbol": "MTOR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:11166592-11322564",
+              "ensembl_id": "ENSG00000198793"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:11106535-11262507",
+              "ensembl_id": "ENSG00000198793"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-05-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "MTOR",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Segmental Overgrowth Syndrome",
+        "HME",
+        "Hemimegalencephaly"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "N-ras"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7989",
+        "gene_name": "NRAS proto-oncogene, GTPase",
+        "omim_gene": [
+          "164790"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NRAS",
+        "hgnc_symbol": "NRAS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:115247090-115259515",
+              "ensembl_id": "ENSG00000213281"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:114704469-114716894",
+              "ensembl_id": "ENSG00000213281"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "NRAS",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Schimmelpenning-Feuerstein-Mims syndrome, somatic mosaic, 163200",
+        "Hemimegalencephaly"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dJ257A7.3",
+          "FLJ32666"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21066",
+        "gene_name": "TBC1 domain family member 7",
+        "omim_gene": [
+          "612655"
+        ],
+        "alias_name": [
+          "TS complex subunit 3"
+        ],
+        "gene_symbol": "TBC1D7",
+        "hgnc_symbol": "TBC1D7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:13266774-13328815",
+              "ensembl_id": "ENSG00000145979"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:13266542-13328583",
+              "ensembl_id": "ENSG00000145979"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-05-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBC1D7",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Macrocephaly/megalencephaly syndrome, autosomal recessive, OMIM:248000"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

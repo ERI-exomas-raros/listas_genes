@@ -1,0 +1,92 @@
+{
+  "id": 1366,
+  "hash_id": null,
+  "name": "Multiple endocrine neoplasia type 2",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.3",
+  "version_created": "2026-01-23T11:34:22.473491Z",
+  "relevant_disorders": [
+    "R218"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "PTC",
+          "CDHF12",
+          "RET51",
+          "CDHR16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9967",
+        "gene_name": "ret proto-oncogene",
+        "omim_gene": [
+          "164761"
+        ],
+        "alias_name": [
+          "cadherin-related family member 16",
+          "RET receptor tyrosine kinase",
+          "rearranged during transfection"
+        ],
+        "gene_symbol": "RET",
+        "hgnc_symbol": "RET",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:43572475-43625799",
+              "ensembl_id": "ENSG00000165731"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:43077027-43130351",
+              "ensembl_id": "ENSG00000165731"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-07-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "RET",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Multiple endocrine neoplasia IIA, OMIM:171400",
+        "Multiple endocrine neoplasia IIB, OMIM:162300",
+        "multiple endocrine neoplasia type 2A, MONDO:0008234",
+        "multiple endocrine neoplasia type 2B, MONDO:0008082"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

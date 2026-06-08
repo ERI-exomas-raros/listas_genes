@@ -1,0 +1,763 @@
+{
+  "id": 648,
+  "hash_id": null,
+  "name": "Endocrine neoplasia",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.5",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Endocrine neoplasms",
+    "R217"
+  ],
+  "stats": {
+    "number_of_genes": 14,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "XAP2",
+          "ARA9",
+          "FKBP16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:358",
+        "gene_name": "aryl hydrocarbon receptor interacting protein",
+        "omim_gene": [
+          "605555"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AIP",
+        "hgnc_symbol": "AIP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:67250512-67258574",
+              "ensembl_id": "ENSG00000110711"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:67483041-67491103",
+              "ensembl_id": "ENSG00000110711"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-01-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "AIP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Endocrine Cancer",
+        "Pituitary adenoma, growth hormone-secreting, 102200",
+        "pituitary tumours",
+        "Familial Isolated Pituitary Adenomas",
+        "Pituitary adenoma, prolactin-secreting, 600634",
+        "Pituitary adenoma, ACTH-secreting, 219090"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "parafibromin",
+          "FIHP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16783",
+        "gene_name": "cell division cycle 73",
+        "omim_gene": [
+          "607393"
+        ],
+        "alias_name": [
+          "Paf1/RNA polymerase II complex component"
+        ],
+        "gene_symbol": "CDC73",
+        "hgnc_symbol": "CDC73",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:193091147-193223031",
+              "ensembl_id": "ENSG00000134371"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:193122017-193253901",
+              "ensembl_id": "ENSG00000134371"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDC73",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Endocrine Cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIP1",
+          "P27KIP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1785",
+        "gene_name": "cyclin dependent kinase inhibitor 1B",
+        "omim_gene": [
+          "600778"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDKN1B",
+        "hgnc_symbol": "CDKN1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:12867992-12875305",
+              "ensembl_id": "ENSG00000111276"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:12715058-12722371",
+              "ensembl_id": "ENSG00000111276"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDKN1B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Multiple endocrine neoplasia, type IV, OMIM:610755"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7010",
+        "gene_name": "menin 1",
+        "omim_gene": [
+          "613733"
+        ],
+        "alias_name": [
+          "menin"
+        ],
+        "gene_symbol": "MEN1",
+        "hgnc_symbol": "MEN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:64570982-64578766",
+              "ensembl_id": "ENSG00000133895"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:64803510-64811294",
+              "ensembl_id": "ENSG00000133895"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MEN1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Endocrine Cancer",
+        "pituitary tumours",
+        "Multiple Endocrine Neoplasia Type 1: MEN1 Gene Deletion/Duplication",
+        "Parathyroid adenoma, somatic",
+        "Multiple endocrine neoplasia 1, 131100",
+        "Carcinoid tumor of lung",
+        "Angiofibroma, somatic",
+        "Adrenal adenoma, somatic",
+        "Lipoma, somatic",
+        "MEN1-like spectrum",
+        "Multiple Endocrine Neoplasia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CNC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9388",
+        "gene_name": "protein kinase cAMP-dependent type I regulatory subunit alpha",
+        "omim_gene": [
+          "188830"
+        ],
+        "alias_name": [
+          "Carney complex type 1"
+        ],
+        "gene_symbol": "PRKAR1A",
+        "hgnc_symbol": "PRKAR1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:66507921-66547460",
+              "ensembl_id": "ENSG00000108946"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:68511780-68551319",
+              "ensembl_id": "ENSG00000108946"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRKAR1A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Endocrine Cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PTC",
+          "CDHF12",
+          "RET51",
+          "CDHR16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9967",
+        "gene_name": "ret proto-oncogene",
+        "omim_gene": [
+          "164761"
+        ],
+        "alias_name": [
+          "cadherin-related family member 16",
+          "RET receptor tyrosine kinase",
+          "rearranged during transfection"
+        ],
+        "gene_symbol": "RET",
+        "hgnc_symbol": "RET",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:43572475-43625799",
+              "ensembl_id": "ENSG00000165731"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:43077027-43130351",
+              "ensembl_id": "ENSG00000165731"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-07-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "RET",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "MEN2-like spectrum",
+        "Multiple Endocrine Neoplasia Type 2: RET Gene Deletion/Duplication",
+        "Multiple endocrine neoplasia IIA, 171400",
+        "Endocrine Cancer",
+        "Multiple Endocrine Neoplasia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VHL1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12687",
+        "gene_name": "von Hippel-Lindau tumor suppressor",
+        "omim_gene": [
+          "608537"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VHL",
+        "hgnc_symbol": "VHL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:10182692-10193904",
+              "ensembl_id": "ENSG00000134086"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:10141008-10152220",
+              "ensembl_id": "ENSG00000134086"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "VHL",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Endocrine Cancer",
+        "Paragangliomas 1, with or without deafness, 168000",
+        "Pheochromocytoma, 171300",
+        "Carcinoid tumors, intestinal, 114900",
+        "Merkel cell carcinoma, somatic",
+        "Paraganglioma and gastric stromal sarcoma, 606864",
+        "Cowden syndrome 3, 615106"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ERBB1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3236",
+        "gene_name": "epidermal growth factor receptor",
+        "omim_gene": [
+          "131550"
+        ],
+        "alias_name": [
+          "erythroblastic leukemia viral (v-erb-b) oncogene homolog (avian)",
+          "erb-b2 receptor tyrosine kinase 1"
+        ],
+        "gene_symbol": "EGFR",
+        "hgnc_symbol": "EGFR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:55086714-55324313",
+              "ensembl_id": "ENSG00000146648"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:55019021-55211628",
+              "ensembl_id": "ENSG00000146648"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "EGFR",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33326033"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Adrenocortical carcinoma"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNPCC",
+          "FCC2",
+          "HNPCC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7127",
+        "gene_name": "mutL homolog 1",
+        "omim_gene": [
+          "120436"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MLH1",
+        "hgnc_symbol": "MLH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:37034823-37107380",
+              "ensembl_id": "ENSG00000076242"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:36993332-37050918",
+              "ensembl_id": "ENSG00000076242"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "MLH1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNPCC",
+          "HNPCC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7325",
+        "gene_name": "mutS homolog 2",
+        "omim_gene": [
+          "609309"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH2",
+        "hgnc_symbol": "MSH2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47630108-47789450",
+              "ensembl_id": "ENSG00000095002"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47402969-47562311",
+              "ensembl_id": "ENSG00000095002"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7329",
+        "gene_name": "mutS homolog 6",
+        "omim_gene": [
+          "600678"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH6",
+        "hgnc_symbol": "MSH6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47922669-48037240",
+              "ensembl_id": "ENSG00000116062"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47695530-47810101",
+              "ensembl_id": "ENSG00000116062"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-08-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH6",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "H_DJ0042M02.9",
+          "HNPCC4",
+          "MLH4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9122",
+        "gene_name": "PMS1 homolog 2, mismatch repair system component",
+        "omim_gene": [
+          "600259"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PMS2",
+        "hgnc_symbol": "PMS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:6012870-6048756",
+              "ensembl_id": "ENSG00000122512"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:5973239-6009125",
+              "ensembl_id": "ENSG00000122512"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "PMS2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert Review"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MMAC1",
+          "TEP1",
+          "PTEN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9588",
+        "gene_name": "phosphatase and tensin homolog",
+        "omim_gene": [
+          "601728"
+        ],
+        "alias_name": [
+          "mutated in multiple advanced cancers 1"
+        ],
+        "gene_symbol": "PTEN",
+        "hgnc_symbol": "PTEN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:89622870-89731687",
+              "ensembl_id": "ENSG00000171862"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:87863113-87971930",
+              "ensembl_id": "ENSG00000171862"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTEN",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p53",
+          "LFS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11998",
+        "gene_name": "tumor protein p53",
+        "omim_gene": [
+          "191170"
+        ],
+        "alias_name": [
+          "Li-Fraumeni syndrome"
+        ],
+        "gene_symbol": "TP53",
+        "hgnc_symbol": "TP53",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:7565097-7590856",
+              "ensembl_id": "ENSG00000141510"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:7661779-7687550",
+              "ensembl_id": "ENSG00000141510"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TP53",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Endocrine Cancer",
+        "Paragangliomas 1, with or without deafness, 168000",
+        "Pheochromocytoma, 171300",
+        "Carcinoid tumors, intestinal, 114900",
+        "Merkel cell carcinoma, somatic",
+        "Paraganglioma and gastric stromal sarcoma, 606864",
+        "Cowden syndrome 3, 615106"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

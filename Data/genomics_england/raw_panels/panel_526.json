@@ -1,0 +1,782 @@
+{
+  "id": 526,
+  "hash_id": null,
+  "name": "Neuronal ceroid lipofuscinosis",
+  "disease_group": "Metabolic",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.2",
+  "version_created": "2026-01-23T12:05:11.837746Z",
+  "relevant_disorders": [
+    "R231"
+  ],
+  "stats": {
+    "number_of_genes": 14,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "HSA9947",
+          "CLN12"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30213",
+        "gene_name": "ATPase 13A2",
+        "omim_gene": [
+          "610513"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ATP13A2",
+        "hgnc_symbol": "ATP13A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:17312453-17338423",
+              "ensembl_id": "ENSG00000159363"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:16985958-17011928",
+              "ensembl_id": "ENSG00000159363"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP13A2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21362476",
+        "22388936"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "London North GLH"
+      ],
+      "phenotypes": [
+        "Kufor-Rakeb syndrome OMIM:606693",
+        "Kufor-Rakeb syndrome MONDO:0011706"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CLC-6",
+          "KIAA0046",
+          "ClC-6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2024",
+        "gene_name": "chloride voltage-gated channel 6",
+        "omim_gene": [
+          "602726"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CLCN6",
+        "hgnc_symbol": "CLCN6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:11866207-11903201",
+              "ensembl_id": "ENSG00000011021"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:11806096-11843144",
+              "ensembl_id": "ENSG00000011021"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLCN6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "29667327",
+        "26658788",
+        "25794116",
+        "21107136",
+        "33217309",
+        "16950870"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "London North GLH"
+      ],
+      "phenotypes": [
+        "Neurodegeneration, childhood-onset, hypotonia, respiratory insufficiency and brain imaging abnormalities OMIM:619173"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JNCL",
+          "BTN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2074",
+        "gene_name": "CLN3, battenin",
+        "omim_gene": [
+          "607042"
+        ],
+        "alias_name": [
+          "juvenile neuronal ceroid lipofuscinosis"
+        ],
+        "gene_symbol": "CLN3",
+        "hgnc_symbol": "CLN3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:28477983-28506896",
+              "ensembl_id": "ENSG00000188603"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:28474111-28495575",
+              "ensembl_id": "ENSG00000188603"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLN3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 3 OMIM:204200",
+        "neuronal ceroid lipofuscinosis 3 MONDO:0008767"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2076",
+        "gene_name": "CLN5, intracellular trafficking protein",
+        "omim_gene": [
+          "608102"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CLN5",
+        "hgnc_symbol": "CLN5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:77564795-77576652",
+              "ensembl_id": "ENSG00000102805"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:76990660-77019143",
+              "ensembl_id": "ENSG00000102805"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLN5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 5 OMIM:256731",
+        "neuronal ceroid lipofuscinosis 5 MONDO:0009745"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20561",
+          "HsT18960",
+          "nclf"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2077",
+        "gene_name": "CLN6, transmembrane ER protein",
+        "omim_gene": [
+          "606725"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CLN6",
+        "hgnc_symbol": "CLN6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:68499330-68549549",
+              "ensembl_id": "ENSG00000128973"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:68206992-68257211",
+              "ensembl_id": "ENSG00000128973"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-10-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLN6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 6 OMIM:601780",
+        "neuronal ceroid lipofuscinosis 6 MONDO:0011144",
+        "Ceroid lipofuscinosis, neuronal, Kufs type, adult onset OMIM:204300",
+        "neuronal ceroid lipofuscinosis 4A MONDO:0008768"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ39417"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2079",
+        "gene_name": "CLN8, transmembrane ER and ERGIC protein",
+        "omim_gene": [
+          "607837"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CLN8",
+        "hgnc_symbol": "CLN8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:1703944-1734738",
+              "ensembl_id": "ENSG00000182372"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:1755778-1801711",
+              "ensembl_id": "ENSG00000182372"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLN8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 8 OMIM:600143",
+        "neuronal ceroid lipofuscinosis 8 MONDO:0010830",
+        "Ceroid lipofuscinosis, neuronal, 8, Northern epilepsy variant OMIM:610003",
+        "neuronal ceroid lipofuscinosis 8 northern epilepsy variant MONDO:0012391"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CLN10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2529",
+        "gene_name": "cathepsin D",
+        "omim_gene": [
+          "116840"
+        ],
+        "alias_name": [
+          "ceroid-lipofuscinosis, neuronal 10"
+        ],
+        "gene_symbol": "CTSD",
+        "hgnc_symbol": "CTSD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:1773982-1785222",
+              "ensembl_id": "ENSG00000117984"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:1752752-1764573",
+              "ensembl_id": "ENSG00000117984"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTSD",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 10 OMIM:610127",
+        "neuronal ceroid lipofuscinosis 10 MONDO:0012414"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CATSF",
+          "CLN13"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2531",
+        "gene_name": "cathepsin F",
+        "omim_gene": [
+          "603539"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CTSF",
+        "hgnc_symbol": "CTSF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:66330934-66336312",
+              "ensembl_id": "ENSG00000174080"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:66563463-66568841",
+              "ensembl_id": "ENSG00000174080"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTSF",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23297359",
+        "25274848"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 13, Kufs type OMIM:615362",
+        "neuronal ceroid lipofuscinosis 13 MONDO:0014147"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ00118",
+          "FLJ13070",
+          "DNAJC5A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16235",
+        "gene_name": "DnaJ heat shock protein family (Hsp40) member C5",
+        "omim_gene": [
+          "611203"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAJC5",
+        "hgnc_symbol": "DNAJC5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:62526518-62567384",
+              "ensembl_id": "ENSG00000101152"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:63895182-63936031",
+              "ensembl_id": "ENSG00000101152"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAJC5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 4, Parry type OMIM:162350",
+        "neuronal ceroid lipofuscinosis 4B MONDO:0008083"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PCDGF",
+          "PGRN",
+          "CLN11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4601",
+        "gene_name": "granulin precursor",
+        "omim_gene": [
+          "138945"
+        ],
+        "alias_name": [
+          "progranulin"
+        ],
+        "gene_symbol": "GRN",
+        "hgnc_symbol": "GRN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:42422614-42430470",
+              "ensembl_id": "ENSG00000030582"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:44345086-44353102",
+              "ensembl_id": "ENSG00000030582"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "GRN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22608501",
+        "27021778",
+        "28000352",
+        "28404863",
+        "30922528",
+        "31855245"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "London North GLH"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 11\tOMIM:614706",
+        "neuronal ceroid lipofuscinosis 11 MONDO:0013866"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ32069",
+          "EPM3",
+          "CLN14"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21957",
+        "gene_name": "potassium channel tetramerization domain containing 7",
+        "omim_gene": [
+          "611725"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCTD7",
+        "hgnc_symbol": "KCTD7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:66093868-66276446",
+              "ensembl_id": "ENSG00000243335"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:66628767-66649067",
+              "ensembl_id": "ENSG00000243335"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCTD7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epilepsy, progressive myoclonic 3, with or without intracellular inclusions OMIM:611726",
+        "progressive myoclonic epilepsy type 3 MONDO:0012721"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC33302"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28486",
+        "gene_name": "major facilitator superfamily domain containing 8",
+        "omim_gene": [
+          "611124"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MFSD8",
+        "hgnc_symbol": "MFSD8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:128838960-128887150",
+              "ensembl_id": "ENSG00000164073"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:127917732-127966034",
+              "ensembl_id": "ENSG00000164073"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-02-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "MFSD8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 7 OMIM:610951",
+        "neuronal ceroid lipofuscinosis 7 MONDO:0012588"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CLN1",
+          "INCL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9325",
+        "gene_name": "palmitoyl-protein thioesterase 1",
+        "omim_gene": [
+          "600722"
+        ],
+        "alias_name": [
+          "ceroid-lipofuscinosis, neuronal 1, infantile"
+        ],
+        "gene_symbol": "PPT1",
+        "hgnc_symbol": "PPT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:40538379-40563375",
+              "ensembl_id": "ENSG00000131238"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:40071461-40097727",
+              "ensembl_id": "ENSG00000131238"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-06-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "PPT1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 1 OMIM:256730",
+        "neuronal ceroid lipofuscinosis 1 MONDO:0009744"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2073",
+        "gene_name": "tripeptidyl peptidase 1",
+        "omim_gene": [
+          "607998"
+        ],
+        "alias_name": [
+          "TPP I"
+        ],
+        "gene_symbol": "TPP1",
+        "hgnc_symbol": "TPP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:6634000-6640692",
+              "ensembl_id": "ENSG00000166340"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:6612763-6619461",
+              "ensembl_id": "ENSG00000166340"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-12-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "TPP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 2 OMIM:204500",
+        "neuronal ceroid lipofuscinosis 2 MONDO:0008769"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

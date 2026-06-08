@@ -1,0 +1,1469 @@
+{
+  "id": 48,
+  "hash_id": "564cbd3622c1fc10dcb42ac7",
+  "name": "RASopathies",
+  "disease_group": "Dysmorphic and congenital abnormality syndromes",
+  "disease_sub_group": "RASopathies",
+  "status": "public",
+  "version": "1.87",
+  "version_created": "2025-11-23T17:46:13.267102Z",
+  "relevant_disorders": [
+    "Cardio-facio-cutaneous syndrome",
+    "Costello syndrome",
+    "LEOPARD syndrome",
+    "Legius syndrome",
+    "Noonan syndrome",
+    "Noonan syndrome plus other features"
+  ],
+  "stats": {
+    "number_of_genes": 25,
+    "number_of_strs": 0,
+    "number_of_regions": 1
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "BRAF1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1097",
+        "gene_name": "B-Raf proto-oncogene, serine/threonine kinase",
+        "omim_gene": [
+          "164757"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BRAF",
+        "hgnc_symbol": "BRAF",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:140419127-140624564",
+              "ensembl_id": "ENSG00000157764"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:140719327-140924764",
+              "ensembl_id": "ENSG00000157764"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRAF",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "19206169",
+        "21396583"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "LEOPARD syndrome 3 613707",
+        "Cardiofaciocutaneous syndrome 115150",
+        "Noonan syndrome 7 613706"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNF55",
+          "c-Cbl"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1541",
+        "gene_name": "Cbl proto-oncogene",
+        "omim_gene": [
+          "165360"
+        ],
+        "alias_name": [
+          "oncogene CBL2"
+        ],
+        "gene_symbol": "CBL",
+        "hgnc_symbol": "CBL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:119076752-119178859",
+              "ensembl_id": "ENSG00000110395"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:119206276-119313926",
+              "ensembl_id": "ENSG00000110395"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "CBL",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "20619386",
+        "20543203",
+        "19571318"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Noonan syndrome-like disorder with or without juvenile myelomonocytic leukemia 613563"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5173",
+        "gene_name": "HRas proto-oncogene, GTPase",
+        "omim_gene": [
+          "190020"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HRAS",
+        "hgnc_symbol": "HRAS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:532242-537287",
+              "ensembl_id": "ENSG00000174775"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:532242-537287",
+              "ensembl_id": "ENSG00000174775"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HRAS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "16170316",
+        "16969868",
+        "16443854",
+        "21396583",
+        "32499600"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Costello syndrome, 218040"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KRAS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6407",
+        "gene_name": "KRAS proto-oncogene, GTPase",
+        "omim_gene": [
+          "190070"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KRAS",
+        "hgnc_symbol": "KRAS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:25357723-25403870",
+              "ensembl_id": "ENSG00000133703"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:25204789-25250936",
+              "ensembl_id": "ENSG00000133703"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRAS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "PMID: 21396583"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Noonan syndrome 3 609942",
+        "Cardiofaciocutaneous syndrome 2 615278"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LZTR-1",
+          "BTBD29"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6742",
+        "gene_name": "leucine zipper like transcription regulator 1",
+        "omim_gene": [
+          "600574"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LZTR1",
+        "hgnc_symbol": "LZTR1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:21333751-21353327",
+              "ensembl_id": "ENSG00000099949"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:20979462-20999038",
+              "ensembl_id": "ENSG00000099949"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "LZTR1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25795793",
+        "29469822"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Noonan syndrome 10 616564",
+        "Schwannomatosis-2, susceptibility to 615670",
+        "Noonan syndrome 2, 605275"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MEK1",
+          "MAPKK1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6840",
+        "gene_name": "mitogen-activated protein kinase kinase 1",
+        "omim_gene": [
+          "176872"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAP2K1",
+        "hgnc_symbol": "MAP2K1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:66679155-66784650",
+              "ensembl_id": "ENSG00000169032"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:66386817-66492312",
+              "ensembl_id": "ENSG00000169032"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAP2K1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "21396583",
+        "23321623"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cardiofaciocutaneous syndrome 3, 615279",
+        "LEOPARD syndrome",
+        "?Noonan syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MEK2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6842",
+        "gene_name": "mitogen-activated protein kinase kinase 2",
+        "omim_gene": [
+          "601263"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAP2K2",
+        "hgnc_symbol": "MAP2K2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:4090319-4124126",
+              "ensembl_id": "ENSG00000126934"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:4090321-4124129",
+              "ensembl_id": "ENSG00000126934"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAP2K2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "21396583",
+        "23379592"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Eligibility statement prior genetic testing",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cardiofaciocutaneous syndrome 4 615280"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HGK",
+          "NIK",
+          "FLH21957"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6866",
+        "gene_name": "mitogen-activated protein kinase kinase kinase kinase 4",
+        "omim_gene": [
+          "604666"
+        ],
+        "alias_name": [
+          "HPK/GCK-like kinase",
+          "hepatocyte progenitor kinase-like/germinal center kinase-like kinase"
+        ],
+        "gene_symbol": "MAP4K4",
+        "hgnc_symbol": "MAP4K4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:102313312-102511149",
+              "ensembl_id": "ENSG00000071054"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:101696850-101894689",
+              "ensembl_id": "ENSG00000071054"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-09-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAP4K4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "37126546"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "neurodevelopmental differences",
+        "multiple congenital anomalies"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "M-RAs",
+          "R-RAS3",
+          "RRAS3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7227",
+        "gene_name": "muscle RAS oncogene homolog",
+        "omim_gene": [
+          "608435"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MRAS",
+        "hgnc_symbol": "MRAS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:138066539-138124375",
+              "ensembl_id": "ENSG00000158186"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:138347648-138405534",
+              "ensembl_id": "ENSG00000158186"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-09-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "MRAS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28289718",
+        "31173466",
+        "31108500",
+        "31173466"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Noonan syndrome 11, OMIM:618499",
+        "Noonan syndrome 11, MONDO:0032786"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7765",
+        "gene_name": "neurofibromin 1",
+        "omim_gene": [
+          "613113"
+        ],
+        "alias_name": [
+          "neurofibromatosis",
+          "von Recklinghausen disease",
+          "Watson disease"
+        ],
+        "gene_symbol": "NF1",
+        "hgnc_symbol": "NF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:29421945-29709134",
+              "ensembl_id": "ENSG00000196712"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:31094927-31382116",
+              "ensembl_id": "ENSG00000196712"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "NF1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16380919",
+        "19845691",
+        "12707950"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Neurofibromatosis-Noonan syndrome 601321",
+        "Neurofibromatosis, type 1 162200"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "N-ras"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7989",
+        "gene_name": "NRAS proto-oncogene, GTPase",
+        "omim_gene": [
+          "164790"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NRAS",
+        "hgnc_symbol": "NRAS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:115247090-115259515",
+              "ensembl_id": "ENSG00000213281"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:114704469-114716894",
+              "ensembl_id": "ENSG00000213281"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "NRAS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "19966803",
+        "19775298"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Eligibility statement prior genetic testing",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Noonan syndrome 6 613224",
+        "Cardio-Facio-cutanenous syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PP1B",
+          "PP-1B",
+          "PP1beta"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9282",
+        "gene_name": "protein phosphatase 1 catalytic subunit beta",
+        "omim_gene": [
+          "600590"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PPP1CB",
+        "hgnc_symbol": "PPP1CB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:28974506-29025806",
+              "ensembl_id": "ENSG00000213639"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:28751640-28802940",
+              "ensembl_id": "ENSG00000213639"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-01-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PPP1CB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27264673",
+        "28211982",
+        "27681385"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Noonan syndrome-like disorder with loose anagen hair 2, 617506",
+        "Rasopathy with developmental delay, short stature and sparse slow-growing hair"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BPTP3",
+          "SH-PTP2",
+          "SHP-2",
+          "PTP2C",
+          "SHP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9644",
+        "gene_name": "protein tyrosine phosphatase, non-receptor type 11",
+        "omim_gene": [
+          "176876"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTPN11",
+        "hgnc_symbol": "PTPN11",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:112856155-112947717",
+              "ensembl_id": "ENSG00000179295"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:112418351-112509913",
+              "ensembl_id": "ENSG00000179295"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-03-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTPN11",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "17603483",
+        "11704759",
+        "12529711",
+        "12634870",
+        "15384080",
+        "15240615",
+        "16263833",
+        "17497712",
+        "18678287"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "LEOPARD syndrome 1 151100",
+        "Noonan syndrome 1 163950"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Raf-1",
+          "c-Raf",
+          "CRAF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9829",
+        "gene_name": "Raf-1 proto-oncogene, serine/threonine kinase",
+        "omim_gene": [
+          "164760"
+        ],
+        "alias_name": [
+          "C-Raf proto-oncogene, serine/threonine kinase"
+        ],
+        "gene_symbol": "RAF1",
+        "hgnc_symbol": "RAF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:12625100-12705725",
+              "ensembl_id": "ENSG00000132155"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:12583601-12664226",
+              "ensembl_id": "ENSG00000132155"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAF1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "17603483",
+        "17603482"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Eligibility statement prior genetic testing",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "LEOPARD syndrome 2 611554",
+        "Noonan syndrome 5 611553"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RIBB",
+          "ROC1",
+          "MGC125864",
+          "MGC125865"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10023",
+        "gene_name": "Ras like without CAAX 1",
+        "omim_gene": [
+          "609591"
+        ],
+        "alias_name": [
+          "Ric-like, expressed in many tissues",
+          "GTP-binding protein Roc1"
+        ],
+        "gene_symbol": "RIT1",
+        "hgnc_symbol": "RIT1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:155867599-155881195",
+              "ensembl_id": "ENSG00000143622"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:155897808-155911404",
+              "ensembl_id": "ENSG00000143622"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "RIT1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "23791108",
+        "25124994",
+        "24939608"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Noonan syndrome 8 615355"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "R-Ras"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10447",
+        "gene_name": "RAS related",
+        "omim_gene": [
+          "165090"
+        ],
+        "alias_name": [
+          "Oncogene RRAS"
+        ],
+        "gene_symbol": "RRAS",
+        "hgnc_symbol": "RRAS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:50138549-50143458",
+              "ensembl_id": "ENSG00000126458"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:49635292-49640201",
+              "ensembl_id": "ENSG00000126458"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "RRAS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "24705357",
+        "32815881",
+        "34935735"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "RRAS-related atypical Noonan syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TC21"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17271",
+        "gene_name": "RAS related 2",
+        "omim_gene": [
+          "600098"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RRAS2",
+        "hgnc_symbol": "RRAS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:14299472-14386052",
+              "ensembl_id": "ENSG00000133818"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:14277926-14364506",
+              "ensembl_id": "ENSG00000133818"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "RRAS2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "31130282",
+        "31130285"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Noonan syndrome 12, 618624"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10449",
+        "gene_name": "ras responsive element binding protein 1",
+        "omim_gene": [
+          "602209"
+        ],
+        "alias_name": [
+          "hindsight homolog (drosophila)"
+        ],
+        "gene_symbol": "RREB1",
+        "hgnc_symbol": "RREB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:7107830-7252213",
+              "ensembl_id": "ENSG00000124782"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:7107597-7251980",
+              "ensembl_id": "ENSG00000124782"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-08-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "RREB1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32938917",
+        "38332451",
+        "40418122"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "RASopathy, MONDO:0021060"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0862",
+          "SOC2",
+          "SUR-8",
+          "SOC-2",
+          "SUR8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15454",
+        "gene_name": "SHOC2, leucine rich repeat scaffold protein",
+        "omim_gene": [
+          "602775"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SHOC2",
+        "hgnc_symbol": "SHOC2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:112679301-112773425",
+              "ensembl_id": "ENSG00000108061"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:110919547-111013667",
+              "ensembl_id": "ENSG00000108061"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-03-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SHOC2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "19684605",
+        "22528146",
+        "23918763"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Noonan syndrome-like with loose anagen hair 1, 607721"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HGF",
+          "GF1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11187",
+        "gene_name": "SOS Ras/Rac guanine nucleotide exchange factor 1",
+        "omim_gene": [
+          "182530"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOS1",
+        "hgnc_symbol": "SOS1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:39208537-39351486",
+              "ensembl_id": "ENSG00000115904"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:38981396-39124345",
+              "ensembl_id": "ENSG00000115904"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOS1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "19438935",
+        "17143285",
+        "17143282",
+        "17586837"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Noonan syndrome 4 610733"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11188",
+        "gene_name": "SOS Ras/Rho guanine nucleotide exchange factor 2",
+        "omim_gene": [
+          "601247"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOS2",
+        "hgnc_symbol": "SOS2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:50583847-50698276",
+              "ensembl_id": "ENSG00000100485"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:50117120-50231558",
+              "ensembl_id": "ENSG00000100485"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOS2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "25795793",
+        "26173643"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Noonan syndrome 9 616559"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "curated-variant-list"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ33903",
+          "PPP1R147"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20249",
+        "gene_name": "sprouty related EVH1 domain containing 1",
+        "omim_gene": [
+          "609291"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 147"
+        ],
+        "gene_symbol": "SPRED1",
+        "hgnc_symbol": "SPRED1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:38544527-38649450",
+              "ensembl_id": "ENSG00000166068"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:38252326-38357249",
+              "ensembl_id": "ENSG00000166068"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-01-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPRED1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17704776",
+        "19366998",
+        "19443465",
+        "21649642",
+        "21548021"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Legius syndrome 611431"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Spred-2",
+          "FLJ21897",
+          "FLJ31917"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17722",
+        "gene_name": "sprouty related EVH1 domain containing 2",
+        "omim_gene": [
+          "609292"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SPRED2",
+        "hgnc_symbol": "SPRED2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:65537985-65659771",
+              "ensembl_id": "ENSG00000198369"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:65310851-65432637",
+              "ensembl_id": "ENSG00000198369"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPRED2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34626534"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "developmental delay",
+        "intellectual disability",
+        "cardiac defects",
+        "short stature",
+        "skeletal anomalies",
+        "a typical facial gestalt"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GAP1M"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9872",
+        "gene_name": "RAS p21 protein activator 2",
+        "omim_gene": [
+          "601589"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RASA2",
+        "hgnc_symbol": "RASA2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:141205889-141334184",
+              "ensembl_id": "ENSG00000155903"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:141487047-141615342",
+              "ensembl_id": "ENSG00000155903"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-11-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "RASA2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25049390"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Other"
+      ],
+      "phenotypes": [
+        "Noonan syndrome?"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ25179",
+          "p170"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23336",
+        "gene_name": "alpha-2-macroglobulin like 1",
+        "omim_gene": [
+          "610627"
+        ],
+        "alias_name": null,
+        "gene_symbol": "A2ML1",
+        "hgnc_symbol": "A2ML1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:8975068-9039597",
+              "ensembl_id": "ENSG00000166535"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:8822472-8887001",
+              "ensembl_id": "ENSG00000166535"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "A2ML1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "24939586",
+        "25862627",
+        "27942422"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "Noonan syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": [
+    {
+      "gene_data": null,
+      "entity_type": "region",
+      "entity_name": "ISCA-37431-Loss",
+      "verbose_name": "17q11.2 recurrent region (includes NF1) Loss",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "haploinsufficiency_score": "3",
+      "triplosensitivity_score": "",
+      "required_overlap_percentage": 60,
+      "type_of_variants": "cnv_loss",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "dysmorphic features, cardiac anomalies and mental retardation",
+        "613675",
+        "variable facial dysmorphism,  cafe-au-lait spots, neurofibromas and Lisch nodules in the iris, mental retardation, developmental delay, an excessive number of early-onset neurofibromas and an increased risk for malignant peripheral nerve sheath tumors",
+        "NEUROFIBROMATOSIS 1 MICRODELETION SYNDROME",
+        "NF1 MICRODELETION SYNDROME",
+        "Chromosome 17q11.2 deletion syndrome, 1.4Mb"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "chromosome": "17",
+      "grch37_coordinates": null,
+      "grch38_coordinates": [
+        30780079,
+        31937008
+      ],
+      "tags": []
+    }
+  ]
+}

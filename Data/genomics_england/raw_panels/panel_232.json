@@ -1,0 +1,2085 @@
+{
+  "id": 232,
+  "hash_id": "553f94c2bb5a1616e5ed459c",
+  "name": "Congenital myaesthenic syndrome",
+  "disease_group": "Neurology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "6.1",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Congenital myaesthenia",
+    "Congenital myasthenia",
+    "R80"
+  ],
+  "stats": {
+    "number_of_genes": 36,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "Component Of Super Panel",
+      "slug": "component-of-super-panel",
+      "description": "This panel is a component of a Super Panel"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:329",
+        "gene_name": "agrin",
+        "omim_gene": [
+          "103320"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AGRN",
+        "hgnc_symbol": "AGRN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:955503-991496",
+              "ensembl_id": "ENSG00000188157"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:1020123-1056118",
+              "ensembl_id": "ENSG00000188157"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGRN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24951643",
+        "22205389",
+        "24951643",
+        "19631309"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 8, with pre- and postsynaptic defects, OMIM:615120"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC19780"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28287",
+        "gene_name": "ALG14, UDP-N-acetylglucosaminyltransferase subunit",
+        "omim_gene": [
+          "612866"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALG14",
+        "hgnc_symbol": "ALG14",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:95439963-95538501",
+              "ensembl_id": "ENSG00000172339"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:94974407-95072945",
+              "ensembl_id": "ENSG00000172339"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-08-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALG14",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28733338",
+        "23404334",
+        "30221345"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "?Myasthenic syndrome, congenital, 15, without tubular aggregates, OMIM:616227"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDGIi",
+          "FLJ14511",
+          "hALPG2",
+          "NET38",
+          "CDG1I"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23159",
+        "gene_name": "ALG2, alpha-1,3/1,6-mannosyltransferase",
+        "omim_gene": [
+          "607905"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALG2",
+        "hgnc_symbol": "ALG2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:101978708-101984238",
+              "ensembl_id": "ENSG00000119523"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:99216426-99221956",
+              "ensembl_id": "ENSG00000119523"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALG2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23404334"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 14, with tubular aggregates, OMIM:616228"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1912",
+        "gene_name": "choline O-acetyltransferase",
+        "omim_gene": [
+          "118490"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CHAT",
+        "hgnc_symbol": "CHAT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:50817141-50901925",
+              "ensembl_id": "ENSG00000070748"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:49609095-49665104",
+              "ensembl_id": "ENSG00000070748"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHAT",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11172068",
+        "12756141"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 6, presynaptic, OMIM:254210"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1955",
+        "gene_name": "cholinergic receptor nicotinic alpha 1 subunit",
+        "omim_gene": [
+          "100690"
+        ],
+        "alias_name": [
+          "acetylcholine receptor, nicotinic, alpha 1 (muscle)"
+        ],
+        "gene_symbol": "CHRNA1",
+        "hgnc_symbol": "CHRNA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:175612320-175629200",
+              "ensembl_id": "ENSG00000138435"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:174747592-174787935",
+              "ensembl_id": "ENSG00000138435"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHRNA1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "7619526",
+        "15034283",
+        "15079006"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 1A, slow-channel, OMIM:601462",
+        "Myasthenic syndrome, congenital, 1B, fast-channel, OMIM:608930"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1961",
+        "gene_name": "cholinergic receptor nicotinic beta 1 subunit",
+        "omim_gene": [
+          "100710"
+        ],
+        "alias_name": [
+          "acetylcholine receptor, nicotinic, beta 1 (muscle)"
+        ],
+        "gene_symbol": "CHRNB1",
+        "hgnc_symbol": "CHRNB1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:7348380-7361026",
+              "ensembl_id": "ENSG00000170175"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:7445061-7457707",
+              "ensembl_id": "ENSG00000170175"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHRNB1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "8651643",
+        "8872460",
+        "22104196",
+        "8651643",
+        "10562302"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "?Myasthenic syndrome, congenital, 2C, associated with acetylcholine receptor deficiency, OMIM:616314",
+        "Myasthenic syndrome, congenital, 2A, slow-channel, OMIM:616313"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "deletions"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1965",
+        "gene_name": "cholinergic receptor nicotinic delta subunit",
+        "omim_gene": [
+          "100720"
+        ],
+        "alias_name": [
+          "acetylcholine receptor, nicotinic, delta (muscle)"
+        ],
+        "gene_symbol": "CHRND",
+        "hgnc_symbol": "CHRND",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:233390703-233401377",
+              "ensembl_id": "ENSG00000135902"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:232525993-232536667",
+              "ensembl_id": "ENSG00000135902"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHRND",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "16916845",
+        "11782989",
+        "11435464"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "?Myasthenic syndrome, congenital, 3A, slow-channel, OMIM:616321",
+        "?Myasthenic syndrome, congenital, 3C, associated with acetylcholine receptor deficiency, OMIM:616323",
+        "Myasthenic syndrome, congenital, 3B, fast-channel, OMIM:616322"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ACHRE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1966",
+        "gene_name": "cholinergic receptor nicotinic epsilon subunit",
+        "omim_gene": [
+          "100725"
+        ],
+        "alias_name": [
+          "acetylcholine receptor, nicotinic, epsilon (muscle)"
+        ],
+        "gene_symbol": "CHRNE",
+        "hgnc_symbol": "CHRNE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:4801069-4806369",
+              "ensembl_id": "ENSG00000108556"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:4897774-4903074",
+              "ensembl_id": "ENSG00000108556"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHRNE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12417530",
+        "14719537",
+        "25792100",
+        "24295813",
+        "21175599"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 4A, slow-channel, OMIM:605809",
+        "Myasthenic syndrome, congenital, 4B, fast-channel, OMIM:616324",
+        "Myasthenic syndrome, congenital, 4C, associated with acetylcholine receptor deficiency, OMIM:608931"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1967",
+        "gene_name": "cholinergic receptor nicotinic gamma subunit",
+        "omim_gene": [
+          "100730"
+        ],
+        "alias_name": [
+          "acetylcholine receptor, nicotinic, gamma (muscle)"
+        ],
+        "gene_symbol": "CHRNG",
+        "hgnc_symbol": "CHRNG",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:233404437-233411113",
+              "ensembl_id": "ENSG00000196811"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:232539727-232546403",
+              "ensembl_id": "ENSG00000196811"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHRNG",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16826531",
+        "22167768",
+        "27245440",
+        "25411939",
+        "8040310",
+        "16826520"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "transient neonatal myasthenia gravis, MONDO:0018326"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2190",
+        "gene_name": "collagen type XIII alpha 1 chain",
+        "omim_gene": [
+          "120350"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL13A1",
+        "hgnc_symbol": "COL13A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:71561644-71724031",
+              "ensembl_id": "ENSG00000197467"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:69801931-69964275",
+              "ensembl_id": "ENSG00000197467"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-08-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL13A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26626625"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Literature",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 19, OMIM:616720"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EAD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2226",
+        "gene_name": "collagen like tail subunit of asymmetric acetylcholinesterase",
+        "omim_gene": [
+          "603033"
+        ],
+        "alias_name": [
+          "single strand of homotrimeric collagen-like tail subunit of asymmetric acetylcholinesterase",
+          "collagenic tail of endplate acetylcholinesterase",
+          "AChE Q subunit",
+          "acetylcholinesterase-associated collagen"
+        ],
+        "gene_symbol": "COLQ",
+        "hgnc_symbol": "COLQ",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:15491640-15563258",
+              "ensembl_id": "ENSG00000206561"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:15450133-15521751",
+              "ensembl_id": "ENSG00000206561"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "COLQ",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10665486",
+        "9689136",
+        "18180250",
+        "10441569"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 5, OMIM:603034"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ33718",
+          "FLJ39137",
+          "Dok-7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26594",
+        "gene_name": "docking protein 7",
+        "omim_gene": [
+          "610285"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DOK7",
+        "hgnc_symbol": "DOK7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:3465033-3503200",
+              "ensembl_id": "ENSG00000175920"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:3463311-3494483",
+              "ensembl_id": "ENSG00000175920"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "DOK7",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16917026",
+        "17452375",
+        "22661499",
+        "18626973",
+        "36579833"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 10, OMIM:254300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GPT",
+          "D11S366",
+          "DGPT",
+          "ALG7",
+          "CDG-Ij"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2995",
+        "gene_name": "dolichyl-phosphate N-acetylglucosaminephosphotransferase 1",
+        "omim_gene": [
+          "191350"
+        ],
+        "alias_name": [
+          "GlcNAc-1-P transferase 1",
+          "UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase 1"
+        ],
+        "gene_symbol": "DPAGT1",
+        "hgnc_symbol": "DPAGT1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:118967213-118979041",
+              "ensembl_id": "ENSG00000172269"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:119096503-119108331",
+              "ensembl_id": "ENSG00000172269"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "DPAGT1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22742743",
+        "23278575",
+        "23447650",
+        "23591138",
+        "25500013"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 13, with tubular aggregates, OMIM:614750"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GFAT",
+          "GFA",
+          "GFAT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4241",
+        "gene_name": "glutamine--fructose-6-phosphate transaminase 1",
+        "omim_gene": [
+          "138292"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GFPT1",
+        "hgnc_symbol": "GFPT1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:69546905-69614382",
+              "ensembl_id": "ENSG00000198380"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:69319769-69387254",
+              "ensembl_id": "ENSG00000198380"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "GFPT1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21975507",
+        "21310273",
+        "22230109",
+        "23569079"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Myasthenia, congenital, 12, with tubular aggregates, OMIM:610542"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1851"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:22932",
+        "gene_name": "GDP-mannose pyrophosphorylase B",
+        "omim_gene": [
+          "615320"
+        ],
+        "alias_name": [
+          "mannose-1-phosphate guanyltransferase beta"
+        ],
+        "gene_symbol": "GMPPB",
+        "hgnc_symbol": "GMPPB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:49754277-49761384",
+              "ensembl_id": "ENSG00000173540"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:49716844-49723951",
+              "ensembl_id": "ENSG00000173540"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "GMPPB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26133662",
+        "27147698"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Muscular dystrophy-dystroglycanopathy (limb-girdle), type C, 14 OMIM:615352",
+        "autosomal recessive limb-girdle muscular dystrophy type 2T MONDO:0014142"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MEGF7",
+          "CLSS",
+          "LRP-4",
+          "SOST2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6696",
+        "gene_name": "LDL receptor related protein 4",
+        "omim_gene": [
+          "604270"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LRP4",
+        "hgnc_symbol": "LRP4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:46878419-46940193",
+              "ensembl_id": "ENSG00000134569"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:46856868-46918642",
+              "ensembl_id": "ENSG00000134569"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "LRP4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24234652",
+        "26052878"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "?Myasthenic syndrome, congenital, 17, OMIM:616304"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7525",
+        "gene_name": "muscle associated receptor tyrosine kinase",
+        "omim_gene": [
+          "601296"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MUSK",
+        "hgnc_symbol": "MUSK",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:113431051-113563859",
+              "ensembl_id": "ENSG00000030304"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:110668771-110801620",
+              "ensembl_id": "ENSG00000030304"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "MUSK",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15496425",
+        "16550915",
+        "23326516",
+        "24183479",
+        "19949040"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency, OMIM:616325"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "deletions"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ11061",
+          "FLJ13244",
+          "MGC71859"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7608",
+        "gene_name": "myosin IXA",
+        "omim_gene": [
+          "604875"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYO9A",
+        "hgnc_symbol": "MYO9A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:72114632-72410918",
+              "ensembl_id": "ENSG00000066933"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:71822289-72118577",
+              "ensembl_id": "ENSG00000066933"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-04-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYO9A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29462312",
+        "27259756",
+        "26752647"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 24, presynaptic, OMIM:618198",
+        "Myasthenic syndrome, congenital, 24, presynaptic, MONDO:0032597"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PCN",
+          "PLTN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9069",
+        "gene_name": "plectin",
+        "omim_gene": [
+          "601282"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLEC",
+        "hgnc_symbol": "PLEC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:144989321-145050902",
+              "ensembl_id": "ENSG00000178209"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:143915147-143976734",
+              "ensembl_id": "ENSG00000178209"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-02-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLEC",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10446808",
+        "27472506 (Review)",
+        "21263134",
+        "21175599",
+        "25683118"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa simplex 5B, with muscular dystrophy, OMIM:226670"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNF205",
+          "CMS1D",
+          "CMS1E"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9863",
+        "gene_name": "receptor associated protein of the synapse",
+        "omim_gene": [
+          "601592"
+        ],
+        "alias_name": [
+          "rapsyn"
+        ],
+        "gene_symbol": "RAPSN",
+        "hgnc_symbol": "RAPSN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:47459308-47470730",
+              "ensembl_id": "ENSG00000165917"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:47437757-47449178",
+              "ensembl_id": "ENSG00000165917"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-03-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAPSN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11791205",
+        "16945936",
+        "15145336",
+        "14504330"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 11, associated with acetylcholine receptor deficiency, OMIM:616326"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Nav1.4",
+          "HYPP",
+          "SkM1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10591",
+        "gene_name": "sodium voltage-gated channel alpha subunit 4",
+        "omim_gene": [
+          "603967"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCN4A",
+        "hgnc_symbol": "SCN4A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:62015914-62050278",
+              "ensembl_id": "ENSG00000007314"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:63938554-63972918",
+              "ensembl_id": "ENSG00000007314"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN4A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "http://dx.doi.org/10.1016/j.nmd.2015.06.091"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 16, OMIM:614198"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VACHT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10936",
+        "gene_name": "solute carrier family 18 member A3",
+        "omim_gene": [
+          "600336"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC18A3",
+        "hgnc_symbol": "SLC18A3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:50818347-50820765",
+              "ensembl_id": "ENSG00000187714"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:49610301-49612720",
+              "ensembl_id": "ENSG00000187714"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-06-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC18A3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27590285"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 21, presynaptic, OMIM:617239"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CTP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10979",
+        "gene_name": "solute carrier family 25 member 1",
+        "omim_gene": [
+          "190315"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC25A1",
+        "hgnc_symbol": "SLC25A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:19163095-19166343",
+              "ensembl_id": "ENSG00000100075"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:19175575-19178830",
+              "ensembl_id": "ENSG00000100075"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-08-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC25A1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26870663"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 23, presynaptic, OMIM:618197"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hCHT",
+          "CHT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14025",
+        "gene_name": "solute carrier family 5 member 7",
+        "omim_gene": [
+          "608761"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC5A7",
+        "hgnc_symbol": "SLC5A7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:108602979-108630450",
+              "ensembl_id": "ENSG00000115665"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:107986523-108013994",
+              "ensembl_id": "ENSG00000115665"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-11-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC5A7",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27569547",
+        "23141292",
+        "26786006",
+        "36611016"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 20, presynaptic, OMIM:617143"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11510",
+        "gene_name": "synaptotagmin 2",
+        "omim_gene": [
+          "600104"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SYT2",
+        "hgnc_symbol": "SYT2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:202559724-202679545",
+              "ensembl_id": "ENSG00000143858"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:202590596-202710417",
+              "ensembl_id": "ENSG00000143858"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SYT2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26519543",
+        "25192047",
+        "27472506",
+        "30533528",
+        "32776697",
+        "32250532"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 7, presynaptic, OMIM:616040"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LAP1B",
+          "FLJ13142"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29456",
+        "gene_name": "torsin 1A interacting protein 1",
+        "omim_gene": [
+          "614512"
+        ],
+        "alias_name": [
+          "lamina associated polypeptide 1B"
+        ],
+        "gene_symbol": "TOR1AIP1",
+        "hgnc_symbol": "TOR1AIP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:179851177-179894135",
+              "ensembl_id": "ENSG00000143337"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:179882042-179925000",
+              "ensembl_id": "ENSG00000143337"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-06-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "TOR1AIP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "33215087",
+        "34164833"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Muscular dystrophy, autosomal recessive, with rigid spine and distal joint contractures, OMIM:617072",
+        "Autosomal recessive limb-girdle muscular dystrophy type 2Y, MONDO:0014900"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VAMP-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12642",
+        "gene_name": "vesicle associated membrane protein 1",
+        "omim_gene": [
+          "185880"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VAMP1",
+        "hgnc_symbol": "VAMP1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:6571403-6580153",
+              "ensembl_id": "ENSG00000139190"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:6462237-6470987",
+              "ensembl_id": "ENSG00000139190"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "VAMP1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28168212",
+        "28253535"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Myasthenic syndrome, congenital, 25, OMIM:618323"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CIA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14280",
+        "gene_name": "cytosolic iron-sulfur assembly component 1",
+        "omim_gene": [
+          "604333"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CIAO1",
+        "hgnc_symbol": "CIAO1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:96931870-96939087",
+              "ensembl_id": "ENSG00000144021"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:96266132-96273349",
+              "ensembl_id": "ENSG00000144021"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-11-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "CIAO1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "38950322"
+      ],
+      "evidence": [
+        "Literature",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Multiple mitochondrial dysfunctions syndrome 10, OMIM:620960"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "to_be_confirmed_NHSE"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1032",
+          "Munc13-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23150",
+        "gene_name": "unc-13 homolog A",
+        "omim_gene": [
+          "609894"
+        ],
+        "alias_name": null,
+        "gene_symbol": "UNC13A",
+        "hgnc_symbol": "UNC13A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:17712137-17799401",
+              "ensembl_id": "ENSG00000130477"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:17601328-17688365",
+              "ensembl_id": "ENSG00000130477"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "UNC13A",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27648472",
+        "28192369",
+        "39634123"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "congenital myasthenic syndrome, MONDO:0018940",
+        "Neurodevelopmental disorder with hypotonia, epilepsy, and absent speech, OMIM:621455"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q4_25_promote_green",
+        "Q4_25_NHS_review"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Cav2.1",
+          "EA2",
+          "APCA",
+          "HPCA",
+          "FHM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1388",
+        "gene_name": "calcium voltage-gated channel subunit alpha1 A",
+        "omim_gene": [
+          "601011"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNA1A",
+        "hgnc_symbol": "CACNA1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:13317256-13734804",
+              "ensembl_id": "ENSG00000141837"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:13206442-13633025",
+              "ensembl_id": "ENSG00000141837"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-06-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNA1A",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11723274"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Lambert-Eaton myasthenic syndrome, MONDO:0018556"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6485",
+        "gene_name": "laminin subunit alpha 5",
+        "omim_gene": [
+          "601033"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMA5",
+        "hgnc_symbol": "LAMA5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:60883011-60942368",
+              "ensembl_id": "ENSG00000130702"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:62307955-62367312",
+              "ensembl_id": "ENSG00000130702"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMA5",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28544784"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "myopia, facial tics, and failure of neuromuscular transmission"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NPHS5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6487",
+        "gene_name": "laminin subunit beta 2",
+        "omim_gene": [
+          "150325"
+        ],
+        "alias_name": [
+          "laminin S"
+        ],
+        "gene_symbol": "LAMB2",
+        "hgnc_symbol": "LAMB2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:49158547-49170551",
+              "ensembl_id": "ENSG00000172037"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:49121114-49133118",
+              "ensembl_id": "ENSG00000172037"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-05-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMB2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19251977",
+        "27472506 (Review)"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Congenital myasthenic syndrome",
+        "congenital myasthenic syndrome (CMS) associated with congenital nephrosis and ocular malformations",
+        "synaptic congenital myasthenic syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0436"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30228",
+        "gene_name": "prolyl endopeptidase-like",
+        "omim_gene": [
+          "609557"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PREPL",
+        "hgnc_symbol": "PREPL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:44543420-44589001",
+              "ensembl_id": "ENSG00000138078"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:44316281-44361862",
+              "ensembl_id": "ENSG00000138078"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "PREPL",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29483676",
+        "28726805",
+        "24610330",
+        "27472506"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "myasthenic syndrome",
+        "congenital myasthenic syndrome with pre- and postsynaptic features and growth hormone deficiency",
+        "?Myasthenic syndrome, congenital, 22, 616224"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "polygenic",
+        "treatable",
+        "deletions"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RYR",
+          "PPP1R137"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10483",
+        "gene_name": "ryanodine receptor 1",
+        "omim_gene": [
+          "180901"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 137"
+        ],
+        "gene_symbol": "RYR1",
+        "hgnc_symbol": "RYR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:38924339-39078204",
+              "ensembl_id": "ENSG00000196218"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:38433699-38587564",
+              "ensembl_id": "ENSG00000196218"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "RYR1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24951453",
+        "30808424",
+        "30406384",
+        "17483490"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "RYR1-related congenital myopathy"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SNAP-25",
+          "RIC-4",
+          "RIC4",
+          "SEC9",
+          "bA416N4.2",
+          "dJ1068F16.2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11132",
+        "gene_name": "synaptosome associated protein 25",
+        "omim_gene": [
+          "600322"
+        ],
+        "alias_name": [
+          "resistance to inhibitors of cholinesterase 4 homolog"
+        ],
+        "gene_symbol": "SNAP25",
+        "hgnc_symbol": "SNAP25",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:10199478-10288066",
+              "ensembl_id": "ENSG00000132639"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:10218830-10307418",
+              "ensembl_id": "ENSG00000132639"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-01-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "SNAP25",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25381298",
+        "27472506 (Review)"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Other",
+        "Literature"
+      ],
+      "phenotypes": [
+        "?Myasthenic syndrome, congenital, 18,  616330"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CHR10SYT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17167",
+        "gene_name": "synaptotagmin 15",
+        "omim_gene": [
+          "608081"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SYT15",
+        "hgnc_symbol": "SYT15",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:46955444-46971400",
+              "ensembl_id": "ENSG00000204176"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:46578217-46594173",
+              "ensembl_id": "ENSG00000204176"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "SYT15",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

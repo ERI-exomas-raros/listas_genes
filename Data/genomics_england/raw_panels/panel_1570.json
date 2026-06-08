@@ -1,0 +1,145 @@
+{
+  "id": 1570,
+  "hash_id": null,
+  "name": "NICE approved PARP inhibitor treatment",
+  "disease_group": "Inherited cancer",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.2",
+  "version_created": "2026-01-23T12:08:07.287421Z",
+  "relevant_disorders": [
+    "R444"
+  ],
+  "stats": {
+    "number_of_genes": 2,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "RNF53",
+          "BRCC1",
+          "PPP1R53",
+          "FANCS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1100",
+        "gene_name": "BRCA1, DNA repair associated",
+        "omim_gene": [
+          "113705"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-containing complex, subunit 1",
+          "protein phosphatase 1, regulatory subunit 53",
+          "Fanconi anemia, complementation group S"
+        ],
+        "gene_symbol": "BRCA1",
+        "hgnc_symbol": "BRCA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:41196312-41277500",
+              "ensembl_id": "ENSG00000012048"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:43044295-43170245",
+              "ensembl_id": "ENSG00000012048"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-02-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRCA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "{Breast-ovarian cancer, familial, 1}, OMIM:604370",
+        "Fanconi anemia, complementation group S, OMIM:617883"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAD",
+          "FAD1",
+          "BRCC2",
+          "XRCC11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1101",
+        "gene_name": "BRCA2, DNA repair associated",
+        "omim_gene": [
+          "600185"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-containing complex, subunit 2"
+        ],
+        "gene_symbol": "BRCA2",
+        "hgnc_symbol": "BRCA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:32889611-32973805",
+              "ensembl_id": "ENSG00000139618"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:32315474-32400266",
+              "ensembl_id": "ENSG00000139618"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-10-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRCA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "{Breast-ovarian cancer, familial, 2}, OMIM:612555",
+        "{Breast cancer, male, susceptibility to}, OMIM:114480",
+        "{Prostate cancer}, OMIM:176807"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

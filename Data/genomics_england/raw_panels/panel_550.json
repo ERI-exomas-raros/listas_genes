@@ -1,0 +1,4827 @@
+{
+  "id": 550,
+  "hash_id": null,
+  "name": "Respiratory ciliopathies including non-CF bronchiectasis",
+  "disease_group": "Respiratory",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "5.1",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R189"
+  ],
+  "stats": {
+    "number_of_genes": 90,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "XAG-2",
+          "HAG-2",
+          "AG2",
+          "PDIA17"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:328",
+        "gene_name": "anterior gradient 2, protein disulphide isomerase family member",
+        "omim_gene": [
+          "606358"
+        ],
+        "alias_name": [
+          "protein disulfide isomerase family A, member 17"
+        ],
+        "gene_symbol": "AGR2",
+        "hgnc_symbol": "AGR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:16831435-16873057",
+              "ensembl_id": "ENSG00000106541"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:16791811-16833433",
+              "ensembl_id": "ENSG00000106541"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-03-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGR2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34952832"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Cystic fibrosis-like syndrome",
+        "chronic diarrhoea"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10817",
+          "FLJ10376",
+          "DKFZP434P1735",
+          "CILD23"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25583",
+        "gene_name": "armadillo repeat containing 4",
+        "omim_gene": [
+          "615408"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ARMC4",
+        "hgnc_symbol": "ARMC4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:28064115-28287977",
+              "ensembl_id": "ENSG00000169126"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:27812164-27999048",
+              "ensembl_id": "ENSG00000169126"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARMC4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 23, 615451"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC13040"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28188",
+        "gene_name": "chromosome 11 open reading frame 70",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "C11orf70",
+        "hgnc_symbol": "C11orf70",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:101918174-101955291",
+              "ensembl_id": "ENSG00000137691"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:102047443-102084560",
+              "ensembl_id": "ENSG00000137691"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-03-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "C11orf70",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29727692"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 38, OMIM:618063"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20467",
+          "FBB18",
+          "CILD26",
+          "Kur"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1301",
+        "gene_name": "chromosome 21 open reading frame 59",
+        "omim_gene": [
+          "615494"
+        ],
+        "alias_name": [
+          "kurly homolog (zebrafish)"
+        ],
+        "gene_symbol": "C21orf59",
+        "hgnc_symbol": "C21orf59",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:33964389-33985176",
+              "ensembl_id": "ENSG00000159079"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:32592079-32612866",
+              "ensembl_id": "ENSG00000159079"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-06-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "C21orf59",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 26, 615500"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ13094",
+          "FLJ34211",
+          "PR46b",
+          "CILD17"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:32700",
+        "gene_name": "coiled-coil domain containing 103",
+        "omim_gene": [
+          "614677"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CCDC103",
+        "hgnc_symbol": "CCDC103",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:42976510-42982758",
+              "ensembl_id": "ENSG00000167131"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:44899142-44905390",
+              "ensembl_id": "ENSG00000167131"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-04-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCDC103",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 17, 614679",
+        "Primary Ciliary Dyskinesia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ32926",
+          "CILD20"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26560",
+        "gene_name": "coiled-coil domain containing 114",
+        "omim_gene": [
+          "615038"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CCDC114",
+        "hgnc_symbol": "CCDC114",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:48799714-48825151",
+              "ensembl_id": "ENSG00000105479"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:48296457-48321894",
+              "ensembl_id": "ENSG00000105479"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-06-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCDC114",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 20, 615067"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC20983"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28303",
+        "gene_name": "coiled-coil domain containing 151",
+        "omim_gene": [
+          "615956"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CCDC151",
+        "hgnc_symbol": "CCDC151",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:11531272-11546603",
+              "ensembl_id": "ENSG00000198003"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:11420604-11435782",
+              "ensembl_id": "ENSG00000198003"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCDC151",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 30, 616037"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp434A128",
+          "CILD14",
+          "FAP59"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25244",
+        "gene_name": "coiled-coil domain containing 39",
+        "omim_gene": [
+          "613798"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CCDC39",
+        "hgnc_symbol": "CCDC39",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:180320646-180588793",
+              "ensembl_id": "ENSG00000145075"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:180602858-180871005",
+              "ensembl_id": "ENSG00000145075"
+            },
+            "107": {
+              "location": "3:180602858-180684942",
+              "ensembl_id": "ENSG00000284862"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCDC39",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 14, 613807",
+        "Primary Ciliary Dyskinesia",
+        "Bronchiectasis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20753",
+          "KIAA1640",
+          "FLJ32021",
+          "CILD15",
+          "FAP172"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26090",
+        "gene_name": "coiled-coil domain containing 40",
+        "omim_gene": [
+          "613799"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CCDC40",
+        "hgnc_symbol": "CCDC40",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:78010435-78074412",
+              "ensembl_id": "ENSG00000141519"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:80036632-80100613",
+              "ensembl_id": "ENSG00000141519"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCDC40",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 15, 613808",
+        "Primary Ciliary Dyskinesia",
+        "Bronchiectasis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NYD-SP28",
+          "FLJ35732",
+          "FAP250",
+          "CFAP250",
+          "CILD27",
+          "DRC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29937",
+        "gene_name": "coiled-coil domain containing 65",
+        "omim_gene": [
+          "611088"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CCDC65",
+        "hgnc_symbol": "CCDC65",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:49297893-49325623",
+              "ensembl_id": "ENSG00000139537"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:48904110-48931840",
+              "ensembl_id": "ENSG00000139537"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-01-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCDC65",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23991085",
+        "24094744"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 27, 615504"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name",
+        "founder-effect"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "UDG2",
+          "FLJ22422",
+          "UNG2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18576",
+        "gene_name": "cyclin O",
+        "omim_gene": [
+          "607752"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CCNO",
+        "hgnc_symbol": "CCNO",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:54526980-54529508",
+              "ensembl_id": "ENSG00000152669"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:55231152-55233680",
+              "ensembl_id": "ENSG00000152669"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-07-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCNO",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 29"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1052",
+          "NPHP15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29182",
+        "gene_name": "centrosomal protein 164",
+        "omim_gene": [
+          "614848"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CEP164",
+        "hgnc_symbol": "CEP164",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:117185273-117283984",
+              "ensembl_id": "ENSG00000110274"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:117314557-117413268",
+              "ensembl_id": "ENSG00000110274"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CEP164",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "22863007",
+        "34556108",
+        "36273371"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nephronophthisis 15, OMIM:614845",
+        "Bronchiectasis, HP:0002110"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAP221",
+          "PCDP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:33720",
+        "gene_name": "cilia and flagella associated protein 221",
+        "omim_gene": null,
+        "alias_name": [
+          "flagellar associated protein 221 homolog (Chlamydomonas)",
+          "primary ciliary dyskinesia 1 homolog (mouse)"
+        ],
+        "gene_symbol": "CFAP221",
+        "hgnc_symbol": "CFAP221",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:120302008-120419827",
+              "ensembl_id": "ENSG00000163075"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:119544432-119662251",
+              "ensembl_id": "ENSG00000163075"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-07-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "CFAP221",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31636325",
+        "38960684",
+        "39362668",
+        "40250778"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 55, OMIM:279000"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ31514",
+          "FLJ44112"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26456",
+        "gene_name": "cilia and flagella associated protein 54",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "CFAP54",
+        "hgnc_symbol": "CFAP54",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:96883349-97269333",
+              "ensembl_id": "ENSG00000188596"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:96489571-96875555",
+              "ensembl_id": "ENSG00000188596"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-09-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "CFAP54",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26224312",
+        "37725231",
+        "39362668"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 54, OMIM:621125"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ45476"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29368",
+        "gene_name": "cilia and flagella associated protein 74",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "CFAP74",
+        "hgnc_symbol": "CFAP74",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:1853396-1935276",
+              "ensembl_id": "ENSG00000142609"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:1921951-2003837",
+              "ensembl_id": "ENSG00000142609"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-09-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "CFAP74",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32555313",
+        "36047773",
+        "39362668"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 49, without situs inversus, OMIM:620197",
+        "ciliary dyskinesia, primary, 49, without situs inversus, OMIM:620197"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MRP7",
+          "ABC35",
+          "TNR-CFTR",
+          "dJ760C5.1",
+          "CFTR/MRP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1884",
+        "gene_name": "cystic fibrosis transmembrane conductance regulator",
+        "omim_gene": [
+          "602421"
+        ],
+        "alias_name": [
+          "ATP-binding cassette sub-family C, member 7"
+        ],
+        "gene_symbol": "CFTR",
+        "hgnc_symbol": "CFTR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:117105838-117356025",
+              "ensembl_id": "ENSG00000001626"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:117465784-117715971",
+              "ensembl_id": "ENSG00000001626"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CFTR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Cystic Fibrosis",
+        "Ciliopathies",
+        "Congenital bilateral absence of vas deferens, 277180",
+        "Sweat chloride elevation without CF",
+        "{Hypertrypsinemia, neonatal}",
+        "Cystic fibrosis, 219700",
+        "{Bronchiectasis with or without elevated sweat chloride 1, modifier of}, 211400",
+        "Bronchiectasis",
+        "{Pancreatitis, idiopathic}, 167800"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ25330",
+          "ODA7",
+          "CILD13",
+          "swt"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30539",
+        "gene_name": "dynein axonemal assembly factor 1",
+        "omim_gene": [
+          "613190"
+        ],
+        "alias_name": [
+          "outer row dynein assembly 7 homolog (Chlamydomonas)"
+        ],
+        "gene_symbol": "DNAAF1",
+        "hgnc_symbol": "DNAAF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:84178865-84212373",
+              "ensembl_id": "ENSG00000154099"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:84145287-84178767",
+              "ensembl_id": "ENSG00000154099"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-06-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAAF1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 13, 613193",
+        "Primary Ciliary Dyskinesia",
+        "Bronchiectasis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10563",
+          "KTU",
+          "PF13",
+          "CILD10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20188",
+        "gene_name": "dynein axonemal assembly factor 2",
+        "omim_gene": [
+          "612517"
+        ],
+        "alias_name": [
+          "kintoun"
+        ],
+        "gene_symbol": "DNAAF2",
+        "hgnc_symbol": "DNAAF2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:50091892-50101948",
+              "ensembl_id": "ENSG00000165506"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:49625174-49635230",
+              "ensembl_id": "ENSG00000165506"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-06-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAAF2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Primary Ciliary Dyskinesia",
+        "Bronchiectasis",
+        "Ciliary dyskinesia, primary, 10, 612518"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ40069",
+          "FLJ36139",
+          "PF22",
+          "PCD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30492",
+        "gene_name": "dynein axonemal assembly factor 3",
+        "omim_gene": [
+          "614566"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAAF3",
+        "hgnc_symbol": "DNAAF3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:55670031-55678090",
+              "ensembl_id": "ENSG00000167646"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:55158661-55166722",
+              "ensembl_id": "ENSG00000167646"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-03-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAAF3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Primary Ciliary Dyskinesia",
+        "Ciliary dyskinesia, primary, 2, 606763"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EKN1",
+          "FLJ37882",
+          "CILD25"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21493",
+        "gene_name": "dynein axonemal assembly factor 4",
+        "omim_gene": [
+          "608706"
+        ],
+        "alias_name": [
+          "dynein, axonemal, assembly factor 4"
+        ],
+        "gene_symbol": "DNAAF4",
+        "hgnc_symbol": "DNAAF4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:55702723-55800432",
+              "ensembl_id": "ENSG00000256061"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:55410525-55508234",
+              "ensembl_id": "ENSG00000256061"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-03-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAAF4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 25, 615482{Dyslexia, susceptibility to, 1}, 127700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20397",
+          "FLJ31671",
+          "FLJ39381",
+          "FLJ25564",
+          "CILD18"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26013",
+        "gene_name": "dynein axonemal assembly factor 5",
+        "omim_gene": [
+          "614864"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAAF5",
+        "hgnc_symbol": "DNAAF5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:766338-829190",
+              "ensembl_id": "ENSG00000164818"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:726701-786475",
+              "ensembl_id": "ENSG00000164818"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-12-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAAF5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 18, 614874"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Dnahc11",
+          "DPL11",
+          "CILD7",
+          "DNAHC11",
+          "DNAHBL",
+          "DNHBL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2942",
+        "gene_name": "dynein axonemal heavy chain 11",
+        "omim_gene": [
+          "603339"
+        ],
+        "alias_name": [
+          "dynein, ciliary, heavy chain 11",
+          "dynein, heavy chain beta-like"
+        ],
+        "gene_symbol": "DNAH11",
+        "hgnc_symbol": "DNAH11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:21582833-21941457",
+              "ensembl_id": "ENSG00000105877"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:21543215-21901839",
+              "ensembl_id": "ENSG00000105877"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-02-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAH11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 7, with or without situs inversus, 611884",
+        "Primary Ciliary Dyskinesia",
+        "Bronchiectasis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Dnahc5",
+          "HL1",
+          "PCD",
+          "CILD3",
+          "KTGNR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2950",
+        "gene_name": "dynein axonemal heavy chain 5",
+        "omim_gene": [
+          "603335"
+        ],
+        "alias_name": [
+          "dynein heavy chain 5"
+        ],
+        "gene_symbol": "DNAH5",
+        "hgnc_symbol": "DNAH5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:13690440-13944652",
+              "ensembl_id": "ENSG00000039139"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:13690331-13944543",
+              "ensembl_id": "ENSG00000039139"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAH5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Primary Ciliary Dyskinesia",
+        "Bronchiectasis",
+        "Ciliary dyskinesia, primary, 3, with or without situs inversus, 608644"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Dnahc9",
+          "KIAA0357",
+          "HL20",
+          "HL-20",
+          "DNAL1",
+          "DYH9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2953",
+        "gene_name": "dynein axonemal heavy chain 9",
+        "omim_gene": [
+          "603330"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAH9",
+        "hgnc_symbol": "DNAH9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:11501748-11873065",
+              "ensembl_id": "ENSG00000007174"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:11598431-11969748",
+              "ensembl_id": "ENSG00000007174"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-02-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAH9",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30471717"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 40, OMIM:618300",
+        "ciliary dyskinesia, primary, 40, MONDO:0032664"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DIC1",
+          "PCD",
+          "CILD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2954",
+        "gene_name": "dynein axonemal intermediate chain 1",
+        "omim_gene": [
+          "604366"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAI1",
+        "hgnc_symbol": "DNAI1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:34457412-34520982",
+              "ensembl_id": "ENSG00000122735"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:34457414-34520989",
+              "ensembl_id": "ENSG00000122735"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-06-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAI1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 1, with or without situs inversus, 244400",
+        "Primary Ciliary Dyskinesia",
+        "Bronchiectasis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CILD9",
+          "DIC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18744",
+        "gene_name": "dynein axonemal intermediate chain 2",
+        "omim_gene": [
+          "605483"
+        ],
+        "alias_name": [
+          "dynein intermediate chain 2"
+        ],
+        "gene_symbol": "DNAI2",
+        "hgnc_symbol": "DNAI2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:72270386-72311023",
+              "ensembl_id": "ENSG00000171595"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:74274247-74314884",
+              "ensembl_id": "ENSG00000171595"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-06-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAI2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 9, with or without situs inversus, 612444",
+        "Primary Ciliary Dyskinesia",
+        "Bronchiectasis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TSARG6",
+          "RSPH16A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30718",
+        "gene_name": "DnaJ heat shock protein family (Hsp40) member B13",
+        "omim_gene": [
+          "610263"
+        ],
+        "alias_name": [
+          "radial spoke 16 homolog A (Chlamydomonas)"
+        ],
+        "gene_symbol": "DNAJB13",
+        "hgnc_symbol": "DNAJB13",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:73661364-73681411",
+              "ensembl_id": "ENSG00000187726"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:73950319-73970366",
+              "ensembl_id": "ENSG00000187726"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAJB13",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27486783",
+        "35166991",
+        "40637281"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 34, OMIM:617091, MONDO:0014909"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC12435",
+          "1700010H15RiK",
+          "CILD16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23247",
+        "gene_name": "dynein axonemal light chain 1",
+        "omim_gene": [
+          "610062"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAL1",
+        "hgnc_symbol": "DNAL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:74111578-74170435",
+              "ensembl_id": "ENSG00000119661"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:73644875-73703732",
+              "ensembl_id": "ENSG00000119661"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-09-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAL1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 16, 614017",
+        "Primary Ciliary Dyskinesia",
+        "Bronchiectasis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC16372",
+          "FLJ32660",
+          "CILD21"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24245",
+        "gene_name": "dynein regulatory complex subunit 1",
+        "omim_gene": [
+          "615288"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DRC1",
+        "hgnc_symbol": "DRC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:26624784-26679579",
+              "ensembl_id": "ENSG00000157856"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:26401916-26456711",
+              "ensembl_id": "ENSG00000157856"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2013-03-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "DRC1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 21, 615294"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ11767"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25678",
+        "gene_name": "EF-hand calcium binding domain 1",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "EFCAB1",
+        "hgnc_symbol": "EFCAB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:49623348-49647870",
+              "ensembl_id": "ENSG00000034239"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:48710789-48735311",
+              "ensembl_id": "ENSG00000034239"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "EFCAB1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "36727596"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 53, OMIM:620642"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HFH-4",
+          "HFH4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3816",
+        "gene_name": "forkhead box J1",
+        "omim_gene": [
+          "602291"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOXJ1",
+        "hgnc_symbol": "FOXJ1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:74132414-74137380",
+              "ensembl_id": "ENSG00000129654"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:76136333-76141299",
+              "ensembl_id": "ENSG00000129654"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-11-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXJ1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "31630787",
+        "37469238",
+        "37813609"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 43, OMIM:618699, MONDO:0032874"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GAR17"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:24846",
+        "gene_name": "growth arrest specific 2 like 2",
+        "omim_gene": [
+          "611398"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GAS2L2",
+        "hgnc_symbol": "GAS2L2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:34071530-34079897",
+              "ensembl_id": "ENSG00000132139"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:35744511-35752878",
+              "ensembl_id": "ENSG00000270765"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-06-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "GAS2L2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30665704",
+        "36104176"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "?Ciliary dyskinesia, primary, 41, OMIM:618449"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DRC4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4166",
+        "gene_name": "growth arrest specific 8",
+        "omim_gene": [
+          "605178"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GAS8",
+        "hgnc_symbol": "GAS8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:90086037-90111383",
+              "ensembl_id": "ENSG00000141013"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:90019629-90044975",
+              "ensembl_id": "ENSG00000141013"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-01-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "GAS8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp434D0513",
+          "KIAA1864",
+          "PPP1R31",
+          "CILD5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19368",
+        "gene_name": "HYDIN, axonemal central pair apparatus protein",
+        "omim_gene": [
+          "610812"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 31"
+        ],
+        "gene_symbol": "HYDIN",
+        "hgnc_symbol": "HYDIN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:70841281-71264625",
+              "ensembl_id": "ENSG00000157423"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:70807378-71230722",
+              "ensembl_id": "ENSG00000157423"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "HYDIN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23022101"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 5, OMIM:608647"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ00101",
+          "DKFZp761L1518"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25430",
+        "gene_name": "leucine rich repeat containing 56",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "LRRC56",
+        "hgnc_symbol": "LRRC56",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:537527-554916",
+              "ensembl_id": "ENSG00000161328"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:537527-554916",
+              "ensembl_id": "ENSG00000161328"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-10-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "LRRC56",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30388400"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 39, OMIM:618254",
+        "Ciliary dyskinesia, primary, 39, MONDO:0032637"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TSLRP",
+          "LRTP",
+          "CILD19"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16725",
+        "gene_name": "leucine rich repeat containing 6",
+        "omim_gene": [
+          "614930"
+        ],
+        "alias_name": [
+          "leucine rich testes protein"
+        ],
+        "gene_symbol": "LRRC6",
+        "hgnc_symbol": "LRRC6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:133584320-133687838",
+              "ensembl_id": "ENSG00000129295"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:132571953-132675617",
+              "ensembl_id": "ENSG00000129295"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "LRRC6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 19, 614935",
+        "Primary Ciliary Dyskinesia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MCI",
+          "IDAS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:40050",
+        "gene_name": "multiciliate differentiation and DNA synthesis associated cell cycle protein",
+        "omim_gene": [
+          "614086"
+        ],
+        "alias_name": [
+          "multicilin"
+        ],
+        "gene_symbol": "MCIDAS",
+        "hgnc_symbol": "MCIDAS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:54515442-54523143",
+              "ensembl_id": "ENSG00000234602"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:55219614-55227315",
+              "ensembl_id": "ENSG00000234602"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2013-02-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "MCIDAS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 42, OMIM:618695,MONDO:0032872"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ32685"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18592",
+        "gene_name": "NIMA related kinase 10",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "NEK10",
+        "hgnc_symbol": "NEK10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:27151576-27410951",
+              "ensembl_id": "ENSG00000163491"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:27110085-27369460",
+              "ensembl_id": "ENSG00000163491"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-05-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NEK10",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31959991",
+        "32414360",
+        "35728977"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 44, OMIM:618781",
+        "ciliary dyskinesia, primary, 44, MONDO:0032914"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KBF1",
+          "p105",
+          "NFKB-p50",
+          "p50",
+          "NF-kappaB",
+          "NFkappaB",
+          "NF-kB1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7794",
+        "gene_name": "nuclear factor kappa B subunit 1",
+        "omim_gene": [
+          "164011"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NFKB1",
+        "hgnc_symbol": "NFKB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:103422486-103538459",
+              "ensembl_id": "ENSG00000109320"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:102501329-102617302",
+              "ensembl_id": "ENSG00000109320"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-11-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "NFKB1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26279205"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Immunodeficiency, common variable, 12, 616576",
+        "Recurrent sinopulmonary infections"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LYT-10",
+          "p52",
+          "p105",
+          "NF-kB2",
+          "p49/p100"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7795",
+        "gene_name": "nuclear factor kappa B subunit 2",
+        "omim_gene": [
+          "164012"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NFKB2",
+        "hgnc_symbol": "NFKB2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:104153867-104162281",
+              "ensembl_id": "ENSG00000077150"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:102394110-102402529",
+              "ensembl_id": "ENSG00000077150"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-11-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "NFKB2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26279205"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Immunodeficiency, common variable, 10, 615577",
+        "Bronchiectasis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "nm23-H5",
+          "RSPH23"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7853",
+        "gene_name": "NME/NM23 family member 5",
+        "omim_gene": [
+          "603575"
+        ],
+        "alias_name": [
+          "radial spoke 23 homolog (Chlamydomonas)"
+        ],
+        "gene_symbol": "NME5",
+        "hgnc_symbol": "NME5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:137450866-137475132",
+              "ensembl_id": "ENSG00000112981"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:138115172-138139443",
+              "ensembl_id": "ENSG00000112981"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-02-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "NME5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31479451",
+        "32185794",
+        "37957793"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 48, without situs inversus, OMIM:620032"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "71-7A",
+          "JBTS10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2567",
+        "gene_name": "OFD1, centriole and centriolar satellite protein",
+        "omim_gene": [
+          "300170"
+        ],
+        "alias_name": null,
+        "gene_symbol": "OFD1",
+        "hgnc_symbol": "OFD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:13752832-13787480",
+              "ensembl_id": "ENSG00000046651"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:13734745-13769353",
+              "ensembl_id": "ENSG00000046651"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "OFD1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "31366608",
+        "32276433",
+        "31373179",
+        "16783569",
+        "22548404"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliopathies",
+        "Primary ciliary dyskinesia",
+        "Simpson-Golabi-Behmel syndrome, type 2, OMIM:300209, MONDO:0010265"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC35261",
+          "NYSAR97"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28570",
+        "gene_name": "PIH1 domain containing 3",
+        "omim_gene": [
+          "300933"
+        ],
+        "alias_name": [
+          "sarcoma antigen NY-SAR-97"
+        ],
+        "gene_symbol": "PIH1D3",
+        "hgnc_symbol": "PIH1D3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:106449862-106487473",
+              "ensembl_id": "ENSG00000080572"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:107206632-107244243",
+              "ensembl_id": "ENSG00000080572"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-07-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIH1D3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "X-linked primary ciliary dyskinesia",
+        "X-Linked Primary Ciliary Dyskinesia with Outer and Inner Dynein Arm Defects"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p110D"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8977",
+        "gene_name": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta",
+        "omim_gene": [
+          "602839"
+        ],
+        "alias_name": [
+          "phosphatidylinositol 3-kinase, catalytic, delta polypeptide",
+          "phosphoinositide-3-kinase C"
+        ],
+        "gene_symbol": "PIK3CD",
+        "hgnc_symbol": "PIK3CD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:9711790-9789172",
+              "ensembl_id": "ENSG00000171608"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:9651732-9729114",
+              "ensembl_id": "ENSG00000171608"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-06-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIK3CD",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "29556229"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Immunodeficiency 14A, autosomal dominant, OMIM:615513",
+        "Bronchiectasis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GRB1",
+          "p85-ALPHA",
+          "p85"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8979",
+        "gene_name": "phosphoinositide-3-kinase regulatory subunit 1",
+        "omim_gene": [
+          "171833"
+        ],
+        "alias_name": [
+          "phosphoinositide-3-kinase regulatory subunit alpha"
+        ],
+        "gene_symbol": "PIK3R1",
+        "hgnc_symbol": "PIK3R1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:67511548-67597649",
+              "ensembl_id": "ENSG00000145675"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:68215720-68301821",
+              "ensembl_id": "ENSG00000145675"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIK3R1",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29556229"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Immunodeficiency 36, 616005",
+        "Bronchiectasis"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNF74",
+          "MGC43321"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9831",
+        "gene_name": "recombination activating 1",
+        "omim_gene": [
+          "179615"
+        ],
+        "alias_name": [
+          "recombination activating protein 1",
+          "RING finger protein 74",
+          "V(D)J recombination-activating protein 1"
+        ],
+        "gene_symbol": "RAG1",
+        "hgnc_symbol": "RAG1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:36532259-36614706",
+              "ensembl_id": "ENSG00000166349"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:36510709-36593156",
+              "ensembl_id": "ENSG00000166349"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-06-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAG1",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "24996264",
+        "29477728",
+        "25516070"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Combined immunodeficiency (CID)",
+        "Combined immunodeficiency with granuloma and/or autoimmunity (CID-G/A)",
+        "early onset and progressive lung disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9832",
+        "gene_name": "recombination activating 2",
+        "omim_gene": [
+          "179616"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RAG2",
+        "hgnc_symbol": "RAG2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:36597124-36619829",
+              "ensembl_id": "ENSG00000175097"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:36575574-36598279",
+              "ensembl_id": "ENSG00000175097"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-08-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAG2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "24996264",
+        "29477728"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Combined immunodeficiency (CID)",
+        "Combined immunodeficiency with granuloma and/or autoimmunity (CID-G/A)",
+        "early onset and progressive lung disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CORDX1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10295",
+        "gene_name": "retinitis pigmentosa GTPase regulator",
+        "omim_gene": [
+          "312610"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RPGR",
+        "hgnc_symbol": "RPGR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:38128416-38186817",
+              "ensembl_id": "ENSG00000156313"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:38269163-38327564",
+              "ensembl_id": "ENSG00000156313"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-04-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "RPGR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10094550",
+        "12920075",
+        "16055928",
+        "22888088",
+        "14627685"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliopathies",
+        "Retinitis pigmentosa, X-linked, and sinorespiratory infections, with or without deafness, OMIM:300455",
+        "primary ciliary dyskinesia-retinitis pigmentosa syndrome, MONDO:0010330"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ32753",
+          "RSP44",
+          "RSPH10A",
+          "CILD24"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12371",
+        "gene_name": "radial spoke head 1 homolog",
+        "omim_gene": [
+          "609314"
+        ],
+        "alias_name": [
+          "meichroacidin"
+        ],
+        "gene_symbol": "RSPH1",
+        "hgnc_symbol": "RSPH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:43892596-43916464",
+              "ensembl_id": "ENSG00000160188"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:42472486-42496354",
+              "ensembl_id": "ENSG00000160188"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "RSPH1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 24, 615481"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dJ111C20.1",
+          "RSP3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21054",
+        "gene_name": "radial spoke head 3 homolog",
+        "omim_gene": [
+          "615876"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RSPH3",
+        "hgnc_symbol": "RSPH3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:159393903-159421219",
+              "ensembl_id": "ENSG00000130363"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:158972871-159000187",
+              "ensembl_id": "ENSG00000130363"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-06-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "RSPH3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 32, 616481"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dJ412I7.1",
+          "FLJ37974",
+          "RSPH6B",
+          "CILD11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21558",
+        "gene_name": "radial spoke head 4 homolog A",
+        "omim_gene": [
+          "612647"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RSPH4A",
+        "hgnc_symbol": "RSPH4A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:116937642-116954148",
+              "ensembl_id": "ENSG00000111834"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:116616479-116632985",
+              "ensembl_id": "ENSG00000111834"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-02-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "RSPH4A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "sinusitis",
+        "chronic wet cough",
+        "nasal symptoms",
+        "rhinorrhea",
+        "recurrent respiratory infections",
+        "Primary Ciliary Dyskinesia",
+        "rhinitis",
+        "Reduced exercise tolerance",
+        "otitis media",
+        "nasal blockage",
+        "Bronchiectasis",
+        "short stature",
+        "deafness",
+        "glue ear",
+        "low weight",
+        "hearing problems",
+        "Ciliary dyskinesia, primary, 11, 612649"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ30845",
+          "CILD12"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21057",
+        "gene_name": "radial spoke head 9 homolog",
+        "omim_gene": [
+          "612648"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RSPH9",
+        "hgnc_symbol": "RSPH9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:43612783-43640336",
+              "ensembl_id": "ENSG00000172426"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:43645046-43672599",
+              "ensembl_id": "ENSG00000172426"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-02-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "RSPH9",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 12, 612650",
+        "Primary Ciliary Dyskinesia",
+        "Bronchiectasis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ENaCalpha"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10599",
+        "gene_name": "sodium channel epithelial 1 alpha subunit",
+        "omim_gene": [
+          "600228"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCNN1A",
+        "hgnc_symbol": "SCNN1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:6456009-6486896",
+              "ensembl_id": "ENSG00000111319"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:6346843-6377730",
+              "ensembl_id": "ENSG00000111319"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCNN1A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliopathies",
+        "Bronchiectasis",
+        "Pseudohypoaldosteronism, type I, 264350",
+        "Bronchiectasis with or without elevated sweat chloride 2, 613021"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ENaCbeta"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10600",
+        "gene_name": "sodium channel epithelial 1 beta subunit",
+        "omim_gene": [
+          "600760"
+        ],
+        "alias_name": [
+          "Liddle syndrome"
+        ],
+        "gene_symbol": "SCNN1B",
+        "hgnc_symbol": "SCNN1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:23289552-23392620",
+              "ensembl_id": "ENSG00000168447"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:23278231-23381299",
+              "ensembl_id": "ENSG00000168447"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCNN1B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliopathies",
+        "Non-Classic Cystic Fibrosis-Like Syndrome",
+        "Pseudohypoaldosteronism, type I, 264350",
+        "Liddle syndrome, 177200",
+        "Bronchiectasis with or without elevated sweat chloride 1, 211400",
+        "Bronchiectasis"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ENaCgamma",
+          "SCNEG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10602",
+        "gene_name": "sodium channel epithelial 1 gamma subunit",
+        "omim_gene": [
+          "600761"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCNN1G",
+        "hgnc_symbol": "SCNN1G",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:23194036-23228204",
+              "ensembl_id": "ENSG00000166828"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:23182715-23216883",
+              "ensembl_id": "ENSG00000166828"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCNN1G",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Liddle syndrome, 177200",
+        "Ciliopathies",
+        "Bronchiectasis",
+        "Bronchiectasis with or without elevated sweat chloride 3, 613071",
+        "Pseudohypoaldosteronism, type I, 264350"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SP75",
+          "FLJ32920",
+          "HSD-3.8",
+          "TPIS",
+          "CT140",
+          "CILD28"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11212",
+        "gene_name": "sperm associated antigen 1",
+        "omim_gene": [
+          "603395"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SPAG1",
+        "hgnc_symbol": "SPAG1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:101170134-101271506",
+              "ensembl_id": "ENSG00000104450"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:100157906-100259278",
+              "ensembl_id": "ENSG00000104450"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-09-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPAG1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 28, 615505"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KPL2",
+          "FLJ23577",
+          "CT122"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26293",
+        "gene_name": "sperm flagellar 2",
+        "omim_gene": [
+          "610172"
+        ],
+        "alias_name": [
+          "cancer/testis antigen 122"
+        ],
+        "gene_symbol": "SPEF2",
+        "hgnc_symbol": "SPEF2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:35617946-35814713",
+              "ensembl_id": "ENSG00000152582"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:35617844-35814611",
+              "ensembl_id": "ENSG00000152582"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPEF2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31151990",
+        "31278745",
+        "31048344",
+        "31942643"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Spermatogenic failure 43, OMIM:618751, MONDO:0032898",
+        "Primary ciliary dyskinesia-like phenotype"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P73"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12003",
+        "gene_name": "tumor protein p73",
+        "omim_gene": [
+          "601990"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TP73",
+        "hgnc_symbol": "TP73",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:3569084-3652765",
+              "ensembl_id": "ENSG00000078900"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:3652520-3736201",
+              "ensembl_id": "ENSG00000078900"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-11-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "TP73",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34077761"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 47, and lissencephaly, OMIM:619466"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ13859",
+          "FLJ20535",
+          "TPARM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23700",
+        "gene_name": "tetratricopeptide repeat domain 12",
+        "omim_gene": [
+          "610732"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTC12",
+        "hgnc_symbol": "TTC12",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:113185251-113254266",
+              "ensembl_id": "ENSG00000149292"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:113314529-113383544",
+              "ensembl_id": "ENSG00000149292"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-12-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTC12",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31978331",
+        "36273201",
+        "37325566",
+        "38992144"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 45, OMIM:618801",
+        "MONDO:0032924"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZP434H0115"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25280",
+        "gene_name": "tetratricopeptide repeat domain 25",
+        "omim_gene": [
+          "617095"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTC25",
+        "hgnc_symbol": "TTC25",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:40086888-40117648",
+              "ensembl_id": "ENSG00000204815"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:41930635-41965651",
+              "ensembl_id": "ENSG00000204815"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTC25",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27486780",
+        "31765523",
+        "33715250",
+        "33746037",
+        "34215651"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 35, OMIM:617092"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Beta2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20771",
+        "gene_name": "tubulin beta 4B class IVb",
+        "omim_gene": [
+          "602660"
+        ],
+        "alias_name": [
+          "class IVb beta-tubulin"
+        ],
+        "gene_symbol": "TUBB4B",
+        "hgnc_symbol": "TUBB4B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:140135665-140138159",
+              "ensembl_id": "ENSG00000188229"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:137241213-137243707",
+              "ensembl_id": "ENSG00000188229"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-10-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUBB4B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "38662826",
+        "39115449"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "primary ciliary dyskinesia, MONDO:0016575"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BLU",
+          "CILD22"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19412",
+        "gene_name": "zinc finger MYND-type containing 10",
+        "omim_gene": [
+          "607070"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ZMYND10",
+        "hgnc_symbol": "ZMYND10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:50378541-50384283",
+              "ensembl_id": "ENSG00000004838"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:50341110-50346852",
+              "ensembl_id": "ENSG00000004838"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-05-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZMYND10",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 22, 615444"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1278",
+          "FU"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17209",
+        "gene_name": "serine/threonine kinase 36",
+        "omim_gene": [
+          "607652"
+        ],
+        "alias_name": [
+          "fused homolog (Drosophila)"
+        ],
+        "gene_symbol": "STK36",
+        "hgnc_symbol": "STK36",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:219536749-219567439",
+              "ensembl_id": "ENSG00000163482"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:218672026-218702716",
+              "ensembl_id": "ENSG00000163482"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-11-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "STK36",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543983"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HE4",
+          "WAP5",
+          "dJ461P17.6",
+          "EDDM4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15939",
+        "gene_name": "WAP four-disulfide core domain 2",
+        "omim_gene": [
+          "617548"
+        ],
+        "alias_name": [
+          "epididymal protein 4"
+        ],
+        "gene_symbol": "WFDC2",
+        "hgnc_symbol": "WFDC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:44098346-44110172",
+              "ensembl_id": "ENSG00000101443"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:45469706-45481532",
+              "ensembl_id": "ENSG00000101443"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-07-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "WFDC2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "38626355",
+        "40401042"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Bronchiectasis and nasal polyposis, OMIM:620984"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "to_be_confirmed_NHSE"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LPAAT-beta"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:325",
+        "gene_name": "1-acylglycerol-3-phosphate O-acyltransferase 2",
+        "omim_gene": [
+          "603100"
+        ],
+        "alias_name": [
+          "lysophosphatidic acid acyltransferase, beta"
+        ],
+        "gene_symbol": "AGPAT2",
+        "hgnc_symbol": "AGPAT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:139567595-139581875",
+              "ensembl_id": "ENSG00000169692"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:136673143-136687423",
+              "ensembl_id": "ENSG00000169692"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGPAT2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Primary Ciliary Dyskinesia & Reduced Generation of Multiple Motile Cilia Syndrome"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ32864"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20091",
+        "gene_name": "adenylate kinase 7",
+        "omim_gene": [
+          "615364"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AK7",
+        "hgnc_symbol": "AK7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:96858448-96955764",
+              "ensembl_id": "ENSG00000140057"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:96392111-96489427",
+              "ensembl_id": "ENSG00000140057"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "AK7",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "?Spermatogenic failure 27, OMIM:617965",
+        "primary ciliary dyskinesia, MONDO:0016575"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "disputed"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1968"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24108",
+        "gene_name": "AT-hook transcription factor",
+        "omim_gene": [
+          "605729"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AKNA",
+        "hgnc_symbol": "AKNA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:117096436-117156685",
+              "ensembl_id": "ENSG00000106948"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:114334156-114394405",
+              "ensembl_id": "ENSG00000106948"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "AKNA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32367404",
+        "21606955"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Primary ciliary dyskinesia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ11315",
+          "N143",
+          "DCAF19"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12760",
+        "gene_name": "bromodomain and WD repeat domain containing 1",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "BRWD1",
+        "hgnc_symbol": "BRWD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:40556102-40693485",
+              "ensembl_id": "ENSG00000185658"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:39184176-39321559",
+              "ensembl_id": "ENSG00000185658"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-05-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRWD1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33389130"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Primary ciliary dyskinesia, asthenoteratozoospermia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "disputed"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hcp-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1857",
+        "gene_name": "centromere protein F",
+        "omim_gene": [
+          "600236"
+        ],
+        "alias_name": [
+          "mitosin"
+        ],
+        "gene_symbol": "CENPF",
+        "hgnc_symbol": "CENPF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:214776538-214837931",
+              "ensembl_id": "ENSG00000117724"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:214603195-214664588",
+              "ensembl_id": "ENSG00000117724"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "CENPF",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 31, 616369"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ36006",
+          "bA373N18.2",
+          "FLJ22944"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26684",
+        "gene_name": "cilia and flagella associated protein 43",
+        "omim_gene": [
+          "617558"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CFAP43",
+        "hgnc_symbol": "CFAP43",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:105889646-105992120",
+              "ensembl_id": "ENSG00000197748"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:104129888-104232362",
+              "ensembl_id": "ENSG00000197748"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-07-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "CFAP43",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "Spermatogenic failure 19, OMIM:617592",
+        "primary ciliary dyskinesia, MONDO:0016575"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "disputed"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp434A1721",
+          "bA288G11.4",
+          "bA288G11.5",
+          "bB137A17.2",
+          "FLJ25954",
+          "bB137A17.3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25247",
+        "gene_name": "cilia and flagella associated protein 46",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "CFAP46",
+        "hgnc_symbol": "CFAP46",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:134621896-134756327",
+              "ensembl_id": "ENSG00000171811"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:132808392-132942823",
+              "ensembl_id": "ENSG00000171811"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-07-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "CFAP46",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22573824",
+        "23715323",
+        "29843777",
+        "39362668"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "primary ciliary dyskinesia, MONDO:0016575"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ32000"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26485",
+        "gene_name": "cilia and flagella associated protein 57",
+        "omim_gene": [
+          "614259"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CFAP57",
+        "hgnc_symbol": "CFAP57",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:43637820-43720029",
+              "ensembl_id": "ENSG00000243710"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:43172149-43254358",
+              "ensembl_id": "ENSG00000243710"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-08-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "CFAP57",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32764743"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "Primary ciliary dyskinesia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ25955",
+          "ODA16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26383",
+        "gene_name": "dynein assembly factor with WD repeats 1",
+        "omim_gene": null,
+        "alias_name": [
+          "outer row dynein assembly 16 homolog (Chlamydomonas)"
+        ],
+        "gene_symbol": "DAW1",
+        "hgnc_symbol": "DAW1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:228735770-228789060",
+              "ensembl_id": "ENSG00000123977"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:227871054-227924344",
+              "ensembl_id": "ENSG00000123977"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2013-02-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "DAW1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "36074124",
+        "28991257"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 52, OMIM:620570"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XLHSRF-1",
+          "DNAHC1",
+          "HDHC7",
+          "HL-11",
+          "HL11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2940",
+        "gene_name": "dynein axonemal heavy chain 1",
+        "omim_gene": [
+          "603332"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAH1",
+        "hgnc_symbol": "DNAH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:52350335-52434507",
+              "ensembl_id": "ENSG00000114841"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:52316319-52400491",
+              "ensembl_id": "ENSG00000114841"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAH1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25927852",
+        "31765523",
+        "34210339"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 37, OMIM:617577",
+        "ciliary dyskinesia, primary, 37, MONDO:0033204"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ43808"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2941",
+        "gene_name": "dynein axonemal heavy chain 10",
+        "omim_gene": [
+          "605884"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAH10",
+        "hgnc_symbol": "DNAH10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:124247042-124420753",
+              "ensembl_id": "ENSG00000197653"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:123762188-123936206",
+              "ensembl_id": "ENSG00000197653"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-07-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAH10",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "Spermatogenic failure 56, OMIM:619515",
+        "primary ciliary dyskinesia, MONDO:0016575"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Dnahc14",
+          "HL-18",
+          "HL18",
+          "DKFZp781B1548",
+          "MGC27277"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2945",
+        "gene_name": "dynein axonemal heavy chain 14",
+        "omim_gene": [
+          "603341"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAH14",
+        "hgnc_symbol": "DNAH14",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:225083964-225586996",
+              "ensembl_id": "ENSG00000185842"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:224896262-225399292",
+              "ensembl_id": "ENSG00000185842"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-02-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAH14",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "primary ciliary dyskinesia, MONDO:0016575"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Dnahc6",
+          "HL-2",
+          "FLJ37357"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2951",
+        "gene_name": "dynein axonemal heavy chain 6",
+        "omim_gene": [
+          "603336"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAH6",
+        "hgnc_symbol": "DNAH6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:84743579-85046713",
+              "ensembl_id": "ENSG00000115423"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:84516455-84819589",
+              "ensembl_id": "ENSG00000115423"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAH6",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "primary ciliary dyskinesia, MONDO:0016575"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "disputed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0944"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18661",
+        "gene_name": "dynein axonemal heavy chain 7",
+        "omim_gene": [
+          "610061"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAH7",
+        "hgnc_symbol": "DNAH7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:196602427-196933536",
+              "ensembl_id": "ENSG00000118997"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:195737703-196068812",
+              "ensembl_id": "ENSG00000118997"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAH7",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 50, OMIM:620356",
+        "ciliary dyskinesia, primary, 50, MONDO:0957252"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hdhc9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2952",
+        "gene_name": "dynein axonemal heavy chain 8",
+        "omim_gene": [
+          "603337"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAH8",
+        "hgnc_symbol": "DNAH8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:38683117-38998301",
+              "ensembl_id": "ENSG00000124721"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:38715341-39030529",
+              "ensembl_id": "ENSG00000124721"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAH8",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Spermatogenic failure 46, OMIM:619095",
+        "primary ciliary dyskinesia, MONDO:0016575"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "disputed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "golgin-160",
+          "GCP170",
+          "MEA-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4426",
+        "gene_name": "golgin A3",
+        "omim_gene": [
+          "602581"
+        ],
+        "alias_name": [
+          "SY2/SY10 protein",
+          "Golgi complex-associated protein of 170 kD"
+        ],
+        "gene_symbol": "GOLGA3",
+        "hgnc_symbol": "GOLGA3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:133345495-133405444",
+              "ensembl_id": "ENSG00000090615"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:132768909-132828858",
+              "ensembl_id": "ENSG00000090615"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "GOLGA3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23495255",
+        "32367404"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Primary ciliary dyskinesia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "gs114",
+          "KIAA0590"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29077",
+        "gene_name": "intraflagellar transport 140",
+        "omim_gene": [
+          "614620"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IFT140",
+        "hgnc_symbol": "IFT140",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:1560428-1662111",
+              "ensembl_id": "ENSG00000187535"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:1510427-1612110",
+              "ensembl_id": "ENSG00000187535"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "IFT140",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34556108"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Short-rib thoracic dysplasia 9 with or without polydactyly OMIM:266920"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMG1",
+          "CMG-1",
+          "FLJ22621"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21424",
+        "gene_name": "intraflagellar transport 74",
+        "omim_gene": [
+          "608040"
+        ],
+        "alias_name": [
+          "capillary morphogenesis protein 1"
+        ],
+        "gene_symbol": "IFT74",
+        "hgnc_symbol": "IFT74",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:26947037-27062928",
+              "ensembl_id": "ENSG00000096872"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:26947039-27062930",
+              "ensembl_id": "ENSG00000096872"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "IFT74",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "primary ciliary dyskinesia, MONDO:0016575"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AIP4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13890",
+        "gene_name": "itchy E3 ubiquitin protein ligase",
+        "omim_gene": [
+          "606409"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ITCH",
+        "hgnc_symbol": "ITCH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:32951041-33099198",
+              "ensembl_id": "ENSG00000078747"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:34363235-34511393",
+              "ensembl_id": "ENSG00000078747"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-04-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "ITCH",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "20170897",
+        "32367404"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Autoimmune disease, multisystem, with facial dysmorphism OMIM:613385",
+        "syndromic multisystem autoimmune disease due to ITCH deficiency, MONDO:0013245",
+        "primary ciliary dyskinesia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ11222",
+          "SPATA40"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29636",
+        "gene_name": "meiosis specific nuclear structural 1",
+        "omim_gene": [
+          "610766"
+        ],
+        "alias_name": [
+          "spermatogenesis associated 40"
+        ],
+        "gene_symbol": "MNS1",
+        "hgnc_symbol": "MNS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:56713742-56757335",
+              "ensembl_id": "ENSG00000138587"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:56421544-56465137",
+              "ensembl_id": "ENSG00000138587"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "MNS1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "Heterotaxy, visceral, 9, autosomal, with male infertility, OMIM:618948"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "disputed"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CILD6",
+          "SPTRX2",
+          "NM23-H8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16473",
+        "gene_name": "NME/NM23 family member 8",
+        "omim_gene": [
+          "607421"
+        ],
+        "alias_name": [
+          "sperm-specific thioredoxin 2"
+        ],
+        "gene_symbol": "NME8",
+        "hgnc_symbol": "NME8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:37888199-37940003",
+              "ensembl_id": "ENSG00000086288"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:37848597-37900401",
+              "ensembl_id": "ENSG00000086288"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-05-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "NME8",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Ciliary dyskinesia, primary, 6, 610852",
+        "Bronchiectasis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16038",
+        "gene_name": "ORMDL sphingolipid biosynthesis regulator 3",
+        "omim_gene": [
+          "610075"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ORMDL3",
+        "hgnc_symbol": "ORMDL3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:38077294-38083854",
+              "ensembl_id": "ENSG00000172057"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:39921041-39927601",
+              "ensembl_id": "ENSG00000172057"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-07-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "ORMDL3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Sak"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11397",
+        "gene_name": "polo like kinase 4",
+        "omim_gene": [
+          "605031"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLK4",
+        "hgnc_symbol": "PLK4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:128802016-128820350",
+              "ensembl_id": "ENSG00000142731"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:127880861-127899195",
+              "ensembl_id": "ENSG00000142731"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-01-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLK4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "25344692",
+        "34556108"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Microcephaly and chorioretinopathy, autosomal recessive 2 OMIM:616171",
+        "microcephaly and chorioretinopathy 2 MONDO:0014516"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ34497",
+          "PF6",
+          "RP4-776P7.2",
+          "CT143"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26620",
+        "gene_name": "sperm associated antigen 17",
+        "omim_gene": [
+          "616554"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SPAG17",
+        "hgnc_symbol": "SPAG17",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:118496484-118727846",
+              "ensembl_id": "ENSG00000155761"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:117953861-118185223",
+              "ensembl_id": "ENSG00000155761"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-08-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPAG17",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ90013"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26887",
+        "gene_name": "transmembrane anterior posterior transformation 1",
+        "omim_gene": [
+          "612758"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TAPT1",
+        "hgnc_symbol": "TAPT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:16162128-16229033",
+              "ensembl_id": "ENSG00000169762"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:16160505-16227410",
+              "ensembl_id": "ENSG00000169762"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-02-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "TAPT1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15534",
+        "gene_name": "tektin 1",
+        "omim_gene": [
+          "609002"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TEKT1",
+        "hgnc_symbol": "TEKT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:6692452-6735080",
+              "ensembl_id": "ENSG00000167858"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:6789133-6831761",
+              "ensembl_id": "ENSG00000167858"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-04-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TEKT1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "primary ciliary dyskinesia, MONDO:0016575"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "disputed"
+      ],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

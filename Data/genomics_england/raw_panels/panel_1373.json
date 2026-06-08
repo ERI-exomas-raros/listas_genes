@@ -1,0 +1,134 @@
+{
+  "id": 1373,
+  "hash_id": null,
+  "name": "Nevoid Basal Cell Carcinoma Syndrome or Gorlin syndrome",
+  "disease_group": "Inherited cancer",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.4",
+  "version_created": "2026-01-23T12:07:03.874084Z",
+  "relevant_disorders": [
+    "R214"
+  ],
+  "stats": {
+    "number_of_genes": 2,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "BCNS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9585",
+        "gene_name": "patched 1",
+        "omim_gene": [
+          "601309"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTCH1",
+        "hgnc_symbol": "PTCH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:98205262-98279339",
+              "ensembl_id": "ENSG00000185920"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:95442980-95517057",
+              "ensembl_id": "ENSG00000185920"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-09-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTCH1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Basal cell nevus syndrome 1, OMIM:109400",
+        "basal cell nevus syndrome 1, MONDO:0958174"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SUFUH",
+          "SUFUXL",
+          "PRO1280"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16466",
+        "gene_name": "SUFU negative regulator of hedgehog signaling",
+        "omim_gene": [
+          "607035"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SUFU",
+        "hgnc_symbol": "SUFU",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:104263744-104393292",
+              "ensembl_id": "ENSG00000107882"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:102503987-102633535",
+              "ensembl_id": "ENSG00000107882"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-08-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "SUFU",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Basal cell nevus syndrome 2, OMIM:620343",
+        "basal cell nevus syndrome 2, MONDO:0958189"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

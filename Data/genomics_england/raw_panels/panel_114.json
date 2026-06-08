@@ -1,0 +1,2109 @@
+{
+  "id": 114,
+  "hash_id": "57b6f5058f6203767a308772",
+  "name": "Peroxisomal disorders",
+  "disease_group": "Metabolic disorders",
+  "disease_sub_group": "Peroxisomal disorders",
+  "status": "public",
+  "version": "1.20",
+  "version_created": "2025-11-23T17:42:06.254609Z",
+  "relevant_disorders": [
+    "Other peroxisomal disorders",
+    "Peroxisomal biogenesis disorders"
+  ],
+  "stats": {
+    "number_of_genes": 38,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "AMN",
+          "ALDP",
+          "adrenoleukodystrophy"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:61",
+        "gene_name": "ATP binding cassette subfamily D member 1",
+        "omim_gene": [
+          "300371"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ABCD1",
+        "hgnc_symbol": "ABCD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:152990323-153010216",
+              "ensembl_id": "ENSG00000101986"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:153724868-153744762",
+              "ensembl_id": "ENSG00000101986"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCD1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25655951"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Adrenoleukodystrophy 300100"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [
+        "gene-therapy-trial"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp434A2417",
+          "KIAA1996"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23338",
+        "gene_name": "acyl-CoA binding domain containing 5",
+        "omim_gene": [
+          "616618"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACBD5",
+        "hgnc_symbol": "ACBD5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:27484146-27531059",
+              "ensembl_id": "ENSG00000107897"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:27195214-27242130",
+              "ensembl_id": "ENSG00000107897"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-11-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACBD5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23105016",
+        "27899449",
+        "27799409",
+        "33427402"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Retinal dystrophy with leukodystrophy, OMIM:618863"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PALMCOX"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:119",
+        "gene_name": "acyl-CoA oxidase 1",
+        "omim_gene": [
+          "609751"
+        ],
+        "alias_name": [
+          "palmitoyl-CoA oxidase"
+        ],
+        "gene_symbol": "ACOX1",
+        "hgnc_symbol": "ACOX1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:73937588-73975515",
+              "ensembl_id": "ENSG00000161533"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:75941507-75979363",
+              "ensembl_id": "ENSG00000161533"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-02-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACOX1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25655951"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Peroxisomal acyl-CoA oxidase deficiency, OMIM:264470"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10842"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21869",
+        "gene_name": "acylglycerol kinase",
+        "omim_gene": [
+          "610345"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AGK",
+        "hgnc_symbol": "AGK",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:141250989-141355044",
+              "ensembl_id": "ENSG00000006530"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:141551189-141655244",
+              "ensembl_id": "ENSG00000006530"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGK",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Sengers syndrome 212350"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ADHAPS",
+          "ADAS",
+          "ALDHPSY",
+          "ADPS",
+          "ADAP-S"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:327",
+        "gene_name": "alkylglycerone phosphate synthase",
+        "omim_gene": [
+          "603051"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AGPS",
+        "hgnc_symbol": "AGPS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:178257372-178408564",
+              "ensembl_id": "ENSG00000018510"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:177392644-177559299",
+              "ensembl_id": "ENSG00000018510"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGPS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11152660",
+        "21990100",
+        "25197626",
+        "24849933"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Rhizomelic chondrodysplasia punctata, type 3 600121"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AGXT1",
+          "PH1",
+          "AGT",
+          "SPT",
+          "AGT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:341",
+        "gene_name": "alanine-glyoxylate aminotransferase",
+        "omim_gene": [
+          "604285"
+        ],
+        "alias_name": [
+          "oxalosis I",
+          "primary hyperoxaluria type 1",
+          "L-alanine: glyoxylate aminotransferase 1",
+          "serine:pyruvate aminotransferase",
+          "glycolicaciduria"
+        ],
+        "gene_symbol": "AGXT",
+        "hgnc_symbol": "AGXT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:241807896-241819919",
+              "ensembl_id": "ENSG00000172482"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:240868479-240880502",
+              "ensembl_id": "ENSG00000172482"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-11-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGXT",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Hyperoxaluria, primary, type 1\t259900"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RACE",
+          "P504S"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:451",
+        "gene_name": "alpha-methylacyl-CoA racemase",
+        "omim_gene": [
+          "604489"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AMACR",
+        "hgnc_symbol": "AMACR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:33986283-34008220",
+              "ensembl_id": "ENSG00000242110"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:33986178-34008108",
+              "ensembl_id": "ENSG00000242110"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "AMACR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15249642",
+        "18032455",
+        "20821052",
+        "10655068"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Alpha-methylacyl-CoA racemase deficiency\t614307"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:719",
+        "gene_name": "arylsulfatase E (chondrodysplasia punctata 1)",
+        "omim_gene": [
+          "300180"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ARSE",
+        "hgnc_symbol": "ARSE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:2852699-2886286",
+              "ensembl_id": "ENSG00000157399"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:2934632-2968310",
+              "ensembl_id": "ENSG00000157399"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-04-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARSE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Chondrodysplasia punctata, X-linked recessive 302950"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1516",
+        "gene_name": "catalase",
+        "omim_gene": [
+          "115500"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CAT",
+        "hgnc_symbol": "CAT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:34460472-34493609",
+              "ensembl_id": "ENSG00000121691"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:34438925-34472062",
+              "ensembl_id": "ENSG00000121691"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CAT",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24025477",
+        "25772105"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Acatalasemia, 614097"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DRP1",
+          "DVLP",
+          "HDYNIV",
+          "DYMPLE",
+          "VPS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2973",
+        "gene_name": "dynamin 1 like",
+        "omim_gene": [
+          "603850"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNM1L",
+        "hgnc_symbol": "DNM1L",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:32832134-32898486",
+              "ensembl_id": "ENSG00000087470"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:32679200-32745650",
+              "ensembl_id": "ENSG00000087470"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-04-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNM1L",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27328748",
+        "27145208",
+        "26992161",
+        "26825290"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Other",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Encephalopahty, lethal, due to defective mitochondrial peroxisomal fission\t614388"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20071",
+          "DMC",
+          "SMC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21317",
+        "gene_name": "dymeclin",
+        "omim_gene": [
+          "607461"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DYM",
+        "hgnc_symbol": "DYM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:46570039-46987717",
+              "ensembl_id": "ENSG00000141627"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:49041474-49461347",
+              "ensembl_id": "ENSG00000141627"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "DYM",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Dyggve-Melchior-Clausen disease, 223800",
+        "Smith-McCort dysplasia, 607326"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CPX",
+          "CPXD",
+          "CHO2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3133",
+        "gene_name": "emopamil binding protein (sterol isomerase)",
+        "omim_gene": [
+          "300205"
+        ],
+        "alias_name": [
+          "3-beta-hydroxysteroid-delta-8,delta-7-isomerase",
+          "Chondrodysplasia punctata-2, X-linked dominant (Happle syndrome)",
+          "sterol 8-isomerase"
+        ],
+        "gene_symbol": "EBP",
+        "hgnc_symbol": "EBP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:48379546-48387104",
+              "ensembl_id": "ENSG00000147155"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:48521158-48528716",
+              "ensembl_id": "ENSG00000147155"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-02-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "EBP",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Chondrodysplasia punctata, X-linked dominant 302960 XLD",
+        "MEND syndrome 300960 XLR"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ22728",
+          "SDR10E1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26222",
+        "gene_name": "fatty acyl-CoA reductase 1",
+        "omim_gene": [
+          "616107"
+        ],
+        "alias_name": [
+          "short chain dehydrogenase/reductase family 10E, member 1"
+        ],
+        "gene_symbol": "FAR1",
+        "hgnc_symbol": "FAR1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:13690217-13753893",
+              "ensembl_id": "ENSG00000197601"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:13668670-13732346",
+              "ensembl_id": "ENSG00000197601"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "FAR1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25439727",
+        "model of function postulated by Honsho et al. (J. Biol. Chem. 285: 8537-8542, 2010) for the protein"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Peroxisomal fatty acyl-CoA reductase 1 disorder, OMIM:616154"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DHAPAT",
+          "DAPAT",
+          "DAP-AT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4416",
+        "gene_name": "glyceronephosphate O-acyltransferase",
+        "omim_gene": [
+          "602744"
+        ],
+        "alias_name": [
+          "glycerone-phosphate O-acyltransferase",
+          "dihydroxyacetone phosphate acyltransferase"
+        ],
+        "gene_symbol": "GNPAT",
+        "hgnc_symbol": "GNPAT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:231376953-231413719",
+              "ensembl_id": "ENSG00000116906"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:231241207-231277973",
+              "ensembl_id": "ENSG00000116906"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNPAT",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Rhizomelic chondrodysplasia punctata, type 2 222765"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PH2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4570",
+        "gene_name": "glyoxylate and hydroxypyruvate reductase",
+        "omim_gene": [
+          "604296"
+        ],
+        "alias_name": [
+          "primary hyperoxaluria type 2"
+        ],
+        "gene_symbol": "GRHPR",
+        "hgnc_symbol": "GRHPR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:37422663-37436987",
+              "ensembl_id": "ENSG00000137106"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:37422666-37436990",
+              "ensembl_id": "ENSG00000137106"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-03-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "GRHPR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Hyperoxaluria, primary, type II\t 260000"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ37472",
+          "DHDPS2",
+          "NPL2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25155",
+        "gene_name": "4-hydroxy-2-oxoglutarate aldolase 1",
+        "omim_gene": [
+          "613597"
+        ],
+        "alias_name": [
+          "dihydrodipicolinate synthetase homolog 2 (E. coli)",
+          "N-acetylneuraminate pyruvate lyase 2 (putative)"
+        ],
+        "gene_symbol": "HOGA1",
+        "hgnc_symbol": "HOGA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:99344080-99372559",
+              "ensembl_id": "ENSG00000241935"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:97584323-97612802",
+              "ensembl_id": "ENSG00000241935"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-12-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "HOGA1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Hyperoxaluria, primary, type III 613616"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MFE-2",
+          "DBP",
+          "SDR8C1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5213",
+        "gene_name": "hydroxysteroid 17-beta dehydrogenase 4",
+        "omim_gene": [
+          "601860"
+        ],
+        "alias_name": [
+          "17beta-estradiol dehydrogenase type IV",
+          "peroxisomal multifunctional protein 2",
+          "17-beta-HSD IV",
+          "17-beta-hydroxysteroid dehydrogenase 4",
+          "D-bifunctional protein, peroxisomal",
+          "D-3-hydroxyacyl-CoA dehydratase",
+          "3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholest-24-enoyl-CoA hydratase",
+          "beta-keto-reductase",
+          "beta-hydroxyacyl dehydrogenase",
+          "short chain dehydrogenase/reductase family 8C, member 1"
+        ],
+        "gene_symbol": "HSD17B4",
+        "hgnc_symbol": "HSD17B4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:118788138-118972894",
+              "ensembl_id": "ENSG00000133835"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:119452443-119637199",
+              "ensembl_id": "ENSG00000133835"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "HSD17B4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16385454",
+        "25655951"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "D-bifunctional protein deficiency, 261515"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XAP104",
+          "H105e3",
+          "SDR31E1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13398",
+        "gene_name": "NAD(P) dependent steroid dehydrogenase-like",
+        "omim_gene": [
+          "300275"
+        ],
+        "alias_name": [
+          "short chain dehydrogenase/reductase family 31E, member 1"
+        ],
+        "gene_symbol": "NSDHL",
+        "hgnc_symbol": "NSDHL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:151999511-152038273",
+              "ensembl_id": "ENSG00000147383"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:152830967-152869729",
+              "ensembl_id": "ENSG00000147383"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-04-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "NSDHL",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "CHILD syndrome 308050 XLD",
+        "CK syndrome 300831 XLR"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8850",
+        "gene_name": "peroxisomal biogenesis factor 1",
+        "omim_gene": [
+          "602136"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX1",
+        "hgnc_symbol": "PEX1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:92116334-92157845",
+              "ensembl_id": "ENSG00000127980"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:92487020-92528531",
+              "ensembl_id": "ENSG00000127980"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 1A (Zellweger) 214100",
+        "Peroxisome biogenesis disorder 1B (NALD/IRD) 601539"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNF69"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8851",
+        "gene_name": "peroxisomal biogenesis factor 10",
+        "omim_gene": [
+          "602859"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX10",
+        "hgnc_symbol": "PEX10",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:2336236-2345236",
+              "ensembl_id": "ENSG00000157911"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:2403964-2413797",
+              "ensembl_id": "ENSG00000157911"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX10",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 6A (Zellweger) 614870",
+        "Peroxisome biogenesis disorder 6B 614871"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8853",
+        "gene_name": "peroxisomal biogenesis factor 11 beta",
+        "omim_gene": [
+          "603867"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX11B",
+        "hgnc_symbol": "PEX11B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:145516252-145523730",
+              "ensembl_id": "ENSG00000131779"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:145911350-145918837",
+              "ensembl_id": "ENSG00000131779"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX11B",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22581968",
+        "21954064",
+        "26233629"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 14B\t614920"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8854",
+        "gene_name": "peroxisomal biogenesis factor 12",
+        "omim_gene": [
+          "601758"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX12",
+        "hgnc_symbol": "PEX12",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:33901814-33905882",
+              "ensembl_id": "ENSG00000108733"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:35574795-35578863",
+              "ensembl_id": "ENSG00000108733"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX12",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 3A (Zellweger), 614859",
+        "Peroxisome biogenesis disorder 3B\t266510"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8855",
+        "gene_name": "peroxisomal biogenesis factor 13",
+        "omim_gene": [
+          "601789"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX13",
+        "hgnc_symbol": "PEX13",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:61244360-61279125",
+              "ensembl_id": "ENSG00000162928"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:61017225-61051990",
+              "ensembl_id": "ENSG00000162928"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-06-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX13",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9480815",
+        "19449432",
+        "23716570"
+      ],
+      "evidence": [
+        "Emory Genetics Laboratory",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 11A (Zellweger)\t614883",
+        "Peroxisome biogenesis disorder 11B\t614885"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8856",
+        "gene_name": "peroxisomal biogenesis factor 14",
+        "omim_gene": [
+          "601791"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX14",
+        "hgnc_symbol": "PEX14",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:10532345-10690815",
+              "ensembl_id": "ENSG00000142655"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:10472288-10630758",
+              "ensembl_id": "ENSG00000142655"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX14",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15146459",
+        "26627464",
+        "18285423"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 13A (Zellweger)\t614887"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8857",
+        "gene_name": "peroxisomal biogenesis factor 16",
+        "omim_gene": [
+          "603360"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX16",
+        "hgnc_symbol": "PEX16",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:45931220-45940363",
+              "ensembl_id": "ENSG00000121680"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:45909669-45918812",
+              "ensembl_id": "ENSG00000121680"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-04-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX16",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26870756",
+        "26644994",
+        "21826223",
+        "20647552"
+      ],
+      "evidence": [
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 8A, (Zellweger), 614876",
+        "Zellweger Syndrome",
+        "Peroxisome Biogenesis Disorders, Zellweger Syndrome Spectrum",
+        "Peroxisomal biogenesis disorders"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HK33",
+          "D1S2223E",
+          "PMP1",
+          "PMPI",
+          "PXMP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9713",
+        "gene_name": "peroxisomal biogenesis factor 19",
+        "omim_gene": [
+          "600279"
+        ],
+        "alias_name": [
+          "housekeeping gene, 33kD"
+        ],
+        "gene_symbol": "PEX19",
+        "hgnc_symbol": "PEX19",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:160246602-160256138",
+              "ensembl_id": "ENSG00000162735"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:160276812-160286348",
+              "ensembl_id": "ENSG00000162735"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-03-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX19",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10051604",
+        "20683989"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 12A (Zellweger)\t614886"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PMP35",
+          "PAF-1",
+          "RNF72",
+          "ZWS3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9717",
+        "gene_name": "peroxisomal biogenesis factor 2",
+        "omim_gene": [
+          "170993"
+        ],
+        "alias_name": [
+          "Zellweger syndrome",
+          "peroxin 2"
+        ],
+        "gene_symbol": "PEX2",
+        "hgnc_symbol": "PEX2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:77892494-77913280",
+              "ensembl_id": "ENSG00000164751"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:76980258-77001044",
+              "ensembl_id": "ENSG00000164751"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-01-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23430938",
+        "21392394",
+        "25655951"
+      ],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 5A (Zellweger), 614866",
+        "Peroxisome biogenesis disorder 5B, 614867"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20695"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:22965",
+        "gene_name": "peroxisomal biogenesis factor 26",
+        "omim_gene": [
+          "608666"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX26",
+        "hgnc_symbol": "PEX26",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:18560689-18613905",
+              "ensembl_id": "ENSG00000215193"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:18077920-18131138",
+              "ensembl_id": "ENSG00000215193"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-08-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX26",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21387236",
+        "25655951",
+        "19105186",
+        "15542397"
+      ],
+      "evidence": [
+        "Expert list",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 7A (Zellweger) 61487",
+        "Peroxisome biogenesis disorder 7B 614873"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8858",
+        "gene_name": "peroxisomal biogenesis factor 3",
+        "omim_gene": [
+          "603164"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX3",
+        "hgnc_symbol": "PEX3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:143771944-143811147",
+              "ensembl_id": "ENSG00000034693"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:143450807-143490010",
+              "ensembl_id": "ENSG00000034693"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23245813",
+        "25655951",
+        "10968777"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 10A (Zellweger) 614882"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PTS1R"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9719",
+        "gene_name": "peroxisomal biogenesis factor 5",
+        "omim_gene": [
+          "600414"
+        ],
+        "alias_name": [
+          "peroxisomal targeting signal 1 receptor",
+          "peroxisomal import receptor 5"
+        ],
+        "gene_symbol": "PEX5",
+        "hgnc_symbol": "PEX5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:7341281-7371170",
+              "ensembl_id": "ENSG00000139197"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:7188685-7218574",
+              "ensembl_id": "ENSG00000139197"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-03-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26220973",
+        "27290639"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 2A (Zellweger)\t214110",
+        "Peroxisome biogenesis disorder 2B\t202370"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PXAAA1",
+          "PAF-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8859",
+        "gene_name": "peroxisomal biogenesis factor 6",
+        "omim_gene": [
+          "601498"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX6",
+        "hgnc_symbol": "PEX6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:42931608-42946958",
+              "ensembl_id": "ENSG00000124587"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:42963870-42979220",
+              "ensembl_id": "ENSG00000124587"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX6",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29220678",
+        "20301621",
+        "25655951"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Heimler syndrome 2, OMIM:616617",
+        "Peroxisome biogenesis disorder 4A (Zellweger), OMIM:614862",
+        "Peroxisome biogenesis disorder 4B, OMIM:614863"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PTS2R",
+          "RD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8860",
+        "gene_name": "peroxisomal biogenesis factor 7",
+        "omim_gene": [
+          "601757"
+        ],
+        "alias_name": [
+          "Refsum disease"
+        ],
+        "gene_symbol": "PEX7",
+        "hgnc_symbol": "PEX7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:137143717-137235075",
+              "ensembl_id": "ENSG00000112357"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:136822564-136913937",
+              "ensembl_id": "ENSG00000112357"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX7",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Peroxisome biogenesis disorder 9B, OMIM:614879",
+        "Rhizomelic chondrodysplasia punctata, type 1, OMIM:215100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PAHX",
+          "RD",
+          "PHYH1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8940",
+        "gene_name": "phytanoyl-CoA 2-hydroxylase",
+        "omim_gene": [
+          "602026"
+        ],
+        "alias_name": [
+          "Refsum disease",
+          "phytanoyl-CoA dioxygenase"
+        ],
+        "gene_symbol": "PHYH",
+        "hgnc_symbol": "PHYH",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:13319796-13344412",
+              "ensembl_id": "ENSG00000107537"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:13277796-13302412",
+              "ensembl_id": "ENSG00000107537"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "PHYH",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Refsum disease, 266500"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10606",
+        "gene_name": "sterol carrier protein 2",
+        "omim_gene": [
+          "184755"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCP2",
+        "hgnc_symbol": "SCP2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:53392901-53517375",
+              "ensembl_id": "ENSG00000116171"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:52927229-53051703",
+              "ensembl_id": "ENSG00000116171"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCP2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25655951",
+        "26497993"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Leukoencephalopathy with dystonia and motor neuropathy\t613724"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0898",
+          "POB1",
+          "TEF3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7523",
+        "gene_name": "tripartite motif containing 37",
+        "omim_gene": [
+          "605073"
+        ],
+        "alias_name": [
+          "RING-B-box-coiled-coil protein"
+        ],
+        "gene_symbol": "TRIM37",
+        "hgnc_symbol": "TRIM37",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:57059999-57184282",
+              "ensembl_id": "ENSG00000108395"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:58982638-59106921",
+              "ensembl_id": "ENSG00000108395"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRIM37",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17100991"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Mulibrey nanism\t253250"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PMP70",
+          "ZWS2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:67",
+        "gene_name": "ATP binding cassette subfamily D member 3",
+        "omim_gene": [
+          "170995"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ABCD3",
+        "hgnc_symbol": "ABCD3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:94883933-94984222",
+              "ensembl_id": "ENSG00000117528"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:94418455-94518666",
+              "ensembl_id": "ENSG00000117528"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-03-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCD3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25168382"
+      ],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Bile acid synthesis defect, congenital, 5\t616278"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HIP4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1550",
+        "gene_name": "cystathionine-beta-synthase",
+        "omim_gene": [
+          "613381"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CBS",
+        "hgnc_symbol": "CBS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:44473301-44497053",
+              "ensembl_id": "ENSG00000160200"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:43053191-43076943",
+              "ensembl_id": "ENSG00000160200"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CBS",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Homocystinuria, B6-responsive and nonresponsive types 236200",
+        "Thrombosis, hyperhomocysteinemic 236200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5382",
+        "gene_name": "isocitrate dehydrogenase (NADP(+)) 1, cytosolic",
+        "omim_gene": [
+          "147700"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IDH1",
+        "hgnc_symbol": "IDH1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:209100951-209130798",
+              "ensembl_id": "ENSG00000138413"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:208236227-208266074",
+              "ensembl_id": "ENSG00000138413"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "IDH1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Other"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

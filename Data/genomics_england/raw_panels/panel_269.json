@@ -1,0 +1,2719 @@
+{
+  "id": 269,
+  "hash_id": "58c7f3c78f620328d77ce70e",
+  "name": "Amelogenesis imperfecta",
+  "disease_group": "Musculoskeletal",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "4.36",
+  "version_created": "2026-06-05T16:56:36.272495Z",
+  "relevant_disorders": [
+    "Amelogenesis Imperfecta",
+    "R340"
+  ],
+  "stats": {
+    "number_of_genes": 46,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14376",
+        "gene_name": "acid phosphatase 4",
+        "omim_gene": [
+          "606362"
+        ],
+        "alias_name": [
+          "testicular acid phosphatase"
+        ],
+        "gene_symbol": "ACP4",
+        "hgnc_symbol": "ACP4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:51293672-51298481",
+              "ensembl_id": "ENSG00000142513"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:50790415-50795224",
+              "ensembl_id": "ENSG00000142513"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-06-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACP4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28513613",
+        "27843125"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta, type IJ,  617297",
+        "hypoplastic amelogenesis imperfecta"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:452",
+        "gene_name": "ameloblastin",
+        "omim_gene": [
+          "601259"
+        ],
+        "alias_name": [
+          "enamel matrix protein"
+        ],
+        "gene_symbol": "AMBN",
+        "hgnc_symbol": "AMBN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:71457973-71473005",
+              "ensembl_id": "ENSG00000178522"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:70592256-70607288",
+              "ensembl_id": "ENSG00000178522"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-01-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "AMBN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24858907",
+        "26502894",
+        "30174330",
+        "31402633",
+        "38058155"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Other",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta, type IF, OMIM:616270"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "cnv"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:461",
+        "gene_name": "amelogenin, X-linked",
+        "omim_gene": [
+          "300391"
+        ],
+        "alias_name": [
+          "amelogenesis imperfecta 1"
+        ],
+        "gene_symbol": "AMELX",
+        "hgnc_symbol": "AMELX",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:11311533-11318881",
+              "ensembl_id": "ENSG00000125363"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:11293413-11300761",
+              "ensembl_id": "ENSG00000125363"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "AMELX",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19610109",
+        "23251683",
+        "15111628",
+        "7782077",
+        "1916828",
+        "25117480",
+        "7599636",
+        "1483698",
+        "17189466",
+        "9188994",
+        "11922869",
+        "11839357",
+        "7599636",
+        "22243263",
+        "11201048",
+        "26502894",
+        "28130977",
+        "8406474"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta, type 1E, 301200",
+        "iX-linked hypoplastic amelogenesis imperfecta",
+        "hypomaturation AI with variable hypoplastic foci",
+        "smooth hypoplastic AI"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [
+        "deletions"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ23657",
+          "AI2A4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26300",
+        "gene_name": "odontogenesis associated phosphoprotein",
+        "omim_gene": [
+          "614829"
+        ],
+        "alias_name": [
+          "amelogenesis imperfecta type IIA4"
+        ],
+        "gene_symbol": "C4orf26",
+        "hgnc_symbol": "ODAPH",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:76481258-76491095",
+              "ensembl_id": "ENSG00000174792"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:75556048-75565885",
+              "ensembl_id": "ENSG00000174792"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-08-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "C4orf26",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27558265",
+        "22901946"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta, type IIA4, 614832",
+        "Amelogenesis Imperfecta, Type IIA4, 614832",
+        "hypomineralized amelogenesis imperfecta"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1592"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:105",
+        "gene_name": "cyclin and CBS domain divalent metal cation transport mediator 4",
+        "omim_gene": [
+          "607805"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CNNM4",
+        "hgnc_symbol": "CNNM4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:97426639-97477628",
+              "ensembl_id": "ENSG00000158158"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:96760902-96811891",
+              "ensembl_id": "ENSG00000158158"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "CNNM4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Jalili syndrome, 217080 (includes amelogenesis imperfecta)",
+        "cone-rod dystrophy and amelogenesis imperfecta"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BP180"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2194",
+        "gene_name": "collagen type XVII alpha 1 chain",
+        "omim_gene": [
+          "113811"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL17A1",
+        "hgnc_symbol": "COL17A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:105791044-105845760",
+              "ensembl_id": "ENSG00000065618"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:104031286-104086002",
+              "ensembl_id": "ENSG00000065618"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL17A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16820943",
+        "27558265",
+        "26502894",
+        "8669466"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Epidermolysis bullosa, junctional 4, intermediate, OMIM:619787 (includes enamel pitting)",
+        "Hypoplastic amelogenesis imperfecta"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2916",
+        "gene_name": "distal-less homeobox 3",
+        "omim_gene": [
+          "600525"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DLX3",
+        "hgnc_symbol": "DLX3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:48067369-48072588",
+              "ensembl_id": "ENSG00000064195"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:49990005-49995224",
+              "ensembl_id": "ENSG00000064195"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "DLX3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21252474",
+        "20151948",
+        "26104267",
+        "15666299",
+        "9467018",
+        "23949819"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta, type IV, 104510",
+        "Amelogenesis Imperfecta, Type IV, 104510",
+        "Amelogenesis Imperfecta, Dominant",
+        "amelogenesis imperfecta with taurodontism",
+        "Trichodontoosseous syndrome, 190320",
+        "Tricho-dento-osseous syndrome (TDO) (includes enamel hypoplasia)",
+        "hypoplastic AI, taurodontism and kinky hair",
+        "Tricho-Dento-Osseous syndrome , Amelogenesis Imperfecta, hypoplastic"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3344",
+        "gene_name": "enamelin",
+        "omim_gene": [
+          "606585"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ENAM",
+        "hgnc_symbol": "ENAM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:71494461-71552533",
+              "ensembl_id": "ENSG00000132464"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:70628744-70686816",
+              "ensembl_id": "ENSG00000132464"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-05-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ENAM",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22029166",
+        "22540999",
+        "11978766",
+        "15723871",
+        "25143514",
+        "11487571",
+        "21597265",
+        "17316551",
+        "12407086",
+        "20439930",
+        "16246937",
+        "14684688",
+        "19329462",
+        "25769099",
+        "26502894",
+        "28334996"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta, type IB, 104500",
+        "Amelogenesis imperfecta, type IC, 204650",
+        "Amelogenesis Imperfecta, Dominant",
+        "autosomal recessive amelogenesis imperfecta"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp434F2322"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23015",
+        "gene_name": "FAM20A, golgi associated secretory pathway pseudokinase",
+        "omim_gene": [
+          "611062"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FAM20A",
+        "hgnc_symbol": "FAM20A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:66531254-66597530",
+              "ensembl_id": "ENSG00000108950"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:68535113-68601389",
+              "ensembl_id": "ENSG00000108950"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-09-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "FAM20A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21990045",
+        "24756937",
+        "23697977",
+        "23434854",
+        "24259279",
+        "24196488",
+        "21549343",
+        "23468644",
+        "26502894",
+        "25827751"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta, type IG (enamel-renal syndrome), 204690",
+        "Amelogenesis Imperfecta, Type IG, 204690",
+        "Hypomieralised AI"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IMAGE:4942737",
+          "DKFZp547D065",
+          "DMP4",
+          "G-CK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:22140",
+        "gene_name": "FAM20C, golgi associated secretory pathway kinase",
+        "omim_gene": [
+          "611061"
+        ],
+        "alias_name": [
+          "dentin matrix protein 4",
+          "golgi casein kinase"
+        ],
+        "gene_symbol": "FAM20C",
+        "hgnc_symbol": "FAM20C",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:192969-300711",
+              "ensembl_id": "ENSG00000177706"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:192969-260745",
+              "ensembl_id": "ENSG00000177706"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-09-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "FAM20C",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25928877",
+        "17924334",
+        "24039075",
+        "24458843",
+        "19250384",
+        "23325605",
+        "20825432",
+        "24982027",
+        "20453638",
+        "27667191",
+        "27862258"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Raine Syndrome, 259775",
+        "hypoplastic Amelogenesis Imperfecta"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ46072"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24797",
+        "gene_name": "family with sequence similarity 83 member H",
+        "omim_gene": [
+          "611927"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FAM83H",
+        "hgnc_symbol": "FAM83H",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:144806103-144815971",
+              "ensembl_id": "ENSG00000180921"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:143723933-143733801",
+              "ensembl_id": "ENSG00000180921"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-03-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "FAM83H",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "20160442",
+        "19407157",
+        "18484629",
+        "21702852",
+        "19407157",
+        "22414746",
+        "18252228",
+        "21597265",
+        "19828885",
+        "19825039",
+        "19220331",
+        "26788537",
+        "21118793",
+        "26502894",
+        "26171361",
+        "26481691",
+        "26142250"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta, type III, 130900",
+        "Amelogenesis Imperfecta, Type III, 130900",
+        "Hypocalcified AI"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OGR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4519",
+        "gene_name": "G protein-coupled receptor 68",
+        "omim_gene": [
+          "601404"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GPR68",
+        "hgnc_symbol": "GPR68",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:91698876-91720269",
+              "ensembl_id": "ENSG00000119714"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:91232532-91253925",
+              "ensembl_id": "ENSG00000119714"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GPR68",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27693231"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta, hypomaturation type, IIA6, 617217"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "deletions"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6161",
+        "gene_name": "integrin subunit beta 6",
+        "omim_gene": [
+          "147558"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ITGB6",
+        "hgnc_symbol": "ITGB6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:160956177-161128399",
+              "ensembl_id": "ENSG00000115221"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:160099666-160271888",
+              "ensembl_id": "ENSG00000115221"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "ITGB6",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24305999",
+        "25431241",
+        "24319098",
+        "26695873"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Other"
+      ],
+      "phenotypes": [
+        "amelogenesis imperfecta (non-syndromic form)",
+        "Amelogenesis imperfecta, type IH,  616221",
+        "Amelogenesis imperfecta, type IH, 616221"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EMSP",
+          "EMSP1",
+          "PSTS",
+          "KLK-L1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6365",
+        "gene_name": "kallikrein related peptidase 4",
+        "omim_gene": [
+          "603767"
+        ],
+        "alias_name": [
+          "enamel matrix serine proteinase 1"
+        ],
+        "gene_symbol": "KLK4",
+        "hgnc_symbol": "KLK4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:51409608-51413994",
+              "ensembl_id": "ENSG00000167749"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:50906352-50910738",
+              "ensembl_id": "ENSG00000167749"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-04-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "KLK4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15235027",
+        "23355523",
+        "26124219",
+        "28611678"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta, type IIA1, 204700",
+        "Amelogenesis Imperfecta, Hypomaturation Type, IIA1, 204700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "nicein-150kDa",
+          "kalinin-165kDa",
+          "BM600-150kDa",
+          "epiligrin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6483",
+        "gene_name": "laminin subunit alpha 3",
+        "omim_gene": [
+          "600805"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMA3",
+        "hgnc_symbol": "LAMA3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:21269407-21535030",
+              "ensembl_id": "ENSG00000053747"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:23689443-23955066",
+              "ensembl_id": "ENSG00000053747"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMA3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22434185",
+        "26502894",
+        "27827380"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta, hypoplastic type",
+        "Epidermolysis bullosa, generalized atrophic benign 226650",
+        "Epidermolysis bullosa, junctional, Herlitz type 226700",
+        "Laryngoonychocutaneous syndrome 245660"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "nicein-125kDa",
+          "kalinin-140kDa",
+          "BM600-125kDa"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6490",
+        "gene_name": "laminin subunit beta 3",
+        "omim_gene": [
+          "150310"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMB3",
+        "hgnc_symbol": "LAMB3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:209788215-209825811",
+              "ensembl_id": "ENSG00000196878"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:209614870-209652466",
+              "ensembl_id": "ENSG00000196878"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMB3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "24494736",
+        "23632796",
+        "23958762",
+        "25769099",
+        "7706760",
+        "26502894",
+        "27220909"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta, type IA, 104530",
+        "Amelogenesis Imperfecta, Type IA, 104530",
+        "Epidermolysis bullosa, junctional, Herlitz type, 26700",
+        "Epidermolysis bullosa, junctional, non-Herlitz type, 226650"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6716",
+        "gene_name": "latent transforming growth factor beta binding protein 3",
+        "omim_gene": [
+          "602090"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LTBP3",
+        "hgnc_symbol": "LTBP3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:65306276-65326401",
+              "ensembl_id": "ENSG00000168056"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:65538805-65558930",
+              "ensembl_id": "ENSG00000168056"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "LTBP3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25669657",
+        "28084688",
+        "25899461",
+        "19344874"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Eligibility statement prior genetic testing",
+        "Other"
+      ],
+      "phenotypes": [
+        "Dental anomalies and short stature, OMIM:601216"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7167",
+        "gene_name": "matrix metallopeptidase 20",
+        "omim_gene": [
+          "604629"
+        ],
+        "alias_name": [
+          "enamelysin"
+        ],
+        "gene_symbol": "MMP20",
+        "hgnc_symbol": "MMP20",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:102447566-102496063",
+              "ensembl_id": "ENSG00000137674"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:102576835-102625332",
+              "ensembl_id": "ENSG00000137674"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-07-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "MMP20",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28473773",
+        "15744043",
+        "18096894",
+        "26502894",
+        "23625376",
+        "23355523",
+        "16246936",
+        "19966041",
+        "26124219",
+        "28659819"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta, type IIA2, 612529",
+        "Amelogenesis Imperfecta, Hypomaturation Type, IIA2, 612529",
+        "Amelogenesis Imperfecta, Recessive"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ14466",
+          "CRACM1"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:25896",
+        "gene_name": "ORAI calcium release-activated calcium modulator 1",
+        "omim_gene": [
+          "610277"
+        ],
+        "alias_name": [
+          "calcium release-activated calcium modulator 1"
+        ],
+        "gene_symbol": "ORAI1",
+        "hgnc_symbol": "ORAI1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:122064455-122080583",
+              "ensembl_id": "ENSG00000182500"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:121626550-121642677",
+              "ensembl_id": "ENSG00000276045"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "ORAI1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20004786",
+        "26469693",
+        "16582901"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Immunodeficiency 9, 612782"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8850",
+        "gene_name": "peroxisomal biogenesis factor 1",
+        "omim_gene": [
+          "602136"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX1",
+        "hgnc_symbol": "PEX1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:92116334-92157845",
+              "ensembl_id": "ENSG00000127980"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:92487020-92528531",
+              "ensembl_id": "ENSG00000127980"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27302843",
+        "26387595",
+        "27633571"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Heimler Syndrome 1, 234580 (includes amelogenesis imperfecta)",
+        "hypomineralized amelogenesis imperfecta",
+        "amelogenesis imperfecta",
+        "Peroxisomal Biogenesis Disorder 1A (NALD / IRD) 601539",
+        "Peroxisome biogenesis disorder 1A (Zellweger), 214100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20695"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:22965",
+        "gene_name": "peroxisomal biogenesis factor 26",
+        "omim_gene": [
+          "608666"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX26",
+        "hgnc_symbol": "PEX26",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:18560689-18613905",
+              "ensembl_id": "ENSG00000215193"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:18077920-18131138",
+              "ensembl_id": "ENSG00000215193"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-08-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX26",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28944237",
+        "33926089"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert Review",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Amelogenesis Imperfecta, MONDO:0019507",
+        "Heimler syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PXAAA1",
+          "PAF-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8859",
+        "gene_name": "peroxisomal biogenesis factor 6",
+        "omim_gene": [
+          "601498"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PEX6",
+        "hgnc_symbol": "PEX6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:42931608-42946958",
+              "ensembl_id": "ENSG00000124587"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:42963870-42979220",
+              "ensembl_id": "ENSG00000124587"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PEX6",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27302843",
+        "26387595",
+        "16530715",
+        "29220678"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "UKGTN",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Heimler Syndrome 2, 616617 (includes amelogenesis imperfecta)",
+        "Peroxisome biogenesis disorder 4A (Zellweger), 614862",
+        "Peroxisome biogenesis disorder 4B, 614863"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MM1",
+          "KIAA0315",
+          "PLEXB2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9104",
+        "gene_name": "plexin B2",
+        "omim_gene": [
+          "604293"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLXNB2",
+        "hgnc_symbol": "PLXNB2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:50713408-50746056",
+              "ensembl_id": "ENSG00000196576"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:50274979-50307627",
+              "ensembl_id": "ENSG00000196576"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-11-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLXNB2",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "38458752"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert Review",
+        "Literature"
+      ],
+      "phenotypes": [
+        "amelogenesis imperfecta, MONDO:0019507",
+        "sensorineural hearing loss disorder, MONDO:0020678",
+        "intellectual disability, MONDO:0001071"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ14993"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13764",
+        "gene_name": "RELT, TNF receptor",
+        "omim_gene": [
+          "611211"
+        ],
+        "alias_name": [
+          "receptor expressed in lymphoid tissues"
+        ],
+        "gene_symbol": "RELT",
+        "hgnc_symbol": "RELT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:73087309-73108519",
+              "ensembl_id": "ENSG00000054967"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:73376264-73397474",
+              "ensembl_id": "ENSG00000054967"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-06-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "RELT",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30506946"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "amelogenesis imperfecta (hypoplastic)",
+        "Amelogenesis imperfecta, type IIIC, 618386"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ22386"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29478",
+        "gene_name": "rogdi homolog",
+        "omim_gene": [
+          "614574"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ROGDI",
+        "hgnc_symbol": "ROGDI",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:4846969-4852951",
+              "ensembl_id": "ENSG00000067836"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:4796968-4802950",
+              "ensembl_id": "ENSG00000067836"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-03-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "ROGDI",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "3236364",
+        "23086778",
+        "25565929",
+        "22424600",
+        "22482807",
+        "28651123"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Kohlschutter-Tonz syndrome,  226750",
+        "Amelogenesis imperfecta, hypocalcified type (primary and secondary teeth)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC25043",
+          "DKFZp566M114",
+          "DKFZp313H0531",
+          "DKFZp779O2438"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23088",
+        "gene_name": "solute carrier family 10 member 7",
+        "omim_gene": [
+          "611459"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC10A7",
+        "hgnc_symbol": "SLC10A7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:147175127-147443123",
+              "ensembl_id": "ENSG00000120519"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:146253975-146521964",
+              "ensembl_id": "ENSG00000120519"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC10A7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30082715",
+        "29878199"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "skeletal dysplasia and amelogenesis imperfecta",
+        "Short stature, amelogenesis imperfecta, and skeletal dysplasia with scoliosis (SSASKS) 618363",
+        "short stature",
+        "amelogenesis imperfect hypo mineralised",
+        "skeletal dysplasia",
+        "scoliosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NACT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23089",
+        "gene_name": "solute carrier family 13 member 5",
+        "omim_gene": [
+          "608305"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC13A5",
+        "hgnc_symbol": "SLC13A5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:6588032-6616886",
+              "ensembl_id": "ENSG00000141485"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:6684713-6713567",
+              "ensembl_id": "ENSG00000141485"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-09-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC13A5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27600704",
+        "26384929",
+        "24995870",
+        "27261973"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Kohlschütter-Tönz syndrome(KTZS)",
+        "hypoplastic amelogenesis imperfecta",
+        "Epileptic encephalopathy, early infantile, 25 615905"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NCKX4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10978",
+        "gene_name": "solute carrier family 24 member 4",
+        "omim_gene": [
+          "609840"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC24A4",
+        "hgnc_symbol": "SLC24A4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:92788925-92962596",
+              "ensembl_id": "ENSG00000140090"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:92322581-92501483",
+              "ensembl_id": "ENSG00000140090"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC24A4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24621671",
+        "23375655",
+        "25442250",
+        "24532815",
+        "26502894",
+        "27129268"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Other"
+      ],
+      "phenotypes": [
+        "amelogenesis imperfecta (non-syndromic form)",
+        "Amelogenesis imperfecta, type IIA5, 615887",
+        "hypomaturation/hypomineralised amelogenesis imperfecta"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KLF14",
+          "Epfn"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14530",
+        "gene_name": "Sp6 transcription factor",
+        "omim_gene": [
+          "608613"
+        ],
+        "alias_name": [
+          "epiprofin"
+        ],
+        "gene_symbol": "SP6",
+        "hgnc_symbol": "SP6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:45922279-45933240",
+              "ensembl_id": "ENSG00000189120"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:47844908-47855874",
+              "ensembl_id": "ENSG00000189120"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-02-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "SP6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32167558",
+        "18156176",
+        "18297738",
+        "22676574",
+        "33652941"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Amelogenesis Imperfecta, MONDO:0019507"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GOK",
+          "D11S4896E"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11386",
+        "gene_name": "stromal interaction molecule 1",
+        "omim_gene": [
+          "605921"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STIM1",
+        "hgnc_symbol": "STIM1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:3875757-4114439",
+              "ensembl_id": "ENSG00000167323"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:3854527-4093210",
+              "ensembl_id": "ENSG00000167323"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-02-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "STIM1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28732182",
+        "24621671",
+        "26560041",
+        "19420366",
+        "22190180"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Immunodeficiency 10, 612783"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ38736"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26790",
+        "gene_name": "WD repeat domain 72",
+        "omim_gene": [
+          "613214"
+        ],
+        "alias_name": null,
+        "gene_symbol": "WDR72",
+        "hgnc_symbol": "WDR72",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:53805938-54055075",
+              "ensembl_id": "ENSG00000166415"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:53513741-53762878",
+              "ensembl_id": "ENSG00000166415"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-05-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "WDR72",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25008349",
+        "23293580",
+        "20938048",
+        "19853237",
+        "21196691",
+        "26502894",
+        "27259663"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta, type IIA3, 613211",
+        "Amelogenesis Imperfecta, Type IIA3, 613211",
+        "Amelogenesis Imperfecta, Recessive",
+        "Hypomaturation AI"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PGA1",
+          "APS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:360",
+        "gene_name": "autoimmune regulator",
+        "omim_gene": [
+          "607358"
+        ],
+        "alias_name": [
+          "autoimmune polyendocrinopathy candidiasis ectodermal dystrophy"
+        ],
+        "gene_symbol": "AIRE",
+        "hgnc_symbol": "AIRE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:45705721-45718531",
+              "ensembl_id": "ENSG00000160224"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:44285838-44298648",
+              "ensembl_id": "ENSG00000160224"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-09-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "AIRE",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "19393987",
+        "27253668",
+        "31905445",
+        "35521792",
+        "37993717",
+        "37235056"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia, OMIM:240300",
+        "autoimmune polyendocrine syndrome type 1, MONDO:0009411",
+        "amelogenesis imperfecta, MONDO:0019507"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q4_25_promote_green"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TNSALP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:438",
+        "gene_name": "alkaline phosphatase, liver/bone/kidney",
+        "omim_gene": [
+          "171760"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALPL",
+        "hgnc_symbol": "ALPL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:21835858-21904905",
+              "ensembl_id": "ENSG00000162551"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:21509372-21578412",
+              "ensembl_id": "ENSG00000162551"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALPL",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "19500388",
+        "32758526",
+        "34164522",
+        "36101824",
+        "39872235",
+        "39983296"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert Review",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Odontohypophosphatasia, OMIM:146300",
+        "hypophosphatasia, MONDO:0018570"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [
+        "Q1_26_promote_green"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "UNQ689",
+          "RSTI689"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:33188",
+        "gene_name": "amelotin",
+        "omim_gene": [
+          "610912"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AMTN",
+        "hgnc_symbol": "AMTN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:71384257-71398459",
+              "ensembl_id": "ENSG00000187689"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:70518540-70532742",
+              "ensembl_id": "ENSG00000187689"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "AMTN",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27412008"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Amelogenesis imperfecta",
+        "dominant hypomineralised AI",
+        "Amelogenesis imperfecta, hypomaturation type",
+        "?Amelogenesis imperfecta, type IIIB, \t617607"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "deletions",
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PCLN1",
+          "HOMG3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2037",
+        "gene_name": "claudin 16",
+        "omim_gene": [
+          "603959"
+        ],
+        "alias_name": [
+          "paracellin-1",
+          "hypomagnesemia 3, with hypercalciuria and nephrocalcinosis"
+        ],
+        "gene_symbol": "CLDN16",
+        "hgnc_symbol": "CLDN16",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:190040330-190129932",
+              "ensembl_id": "ENSG00000113946"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:190322541-190412143",
+              "ensembl_id": "ENSG00000113946"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-01-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLDN16",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26426912",
+        "32710267"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "familial primary hypomagnesemia with hypercalciuria and nephrocalcinosis, MONDO:0017624",
+        "amelogenesis imperfecta, MONDO:0019507"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q4_25_promote_green"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2040",
+        "gene_name": "claudin 19",
+        "omim_gene": [
+          "610036"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CLDN19",
+        "hgnc_symbol": "CLDN19",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:43198764-43205925",
+              "ensembl_id": "ENSG00000164007"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:42733093-42740254",
+              "ensembl_id": "ENSG00000164007"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-03-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLDN19",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27530400"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypomagnesemia 5, renal, with ocular involvement, OMIM:248190"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_promote_green",
+        "Q2_26_expert_review"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DMP3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3054",
+        "gene_name": "dentin sialophosphoprotein",
+        "omim_gene": [
+          "125485"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSPP",
+        "hgnc_symbol": "DSPP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:88529681-88538062",
+              "ensembl_id": "ENSG00000152591"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:87608529-87616910",
+              "ensembl_id": "ENSG00000152591"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-01-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSPP",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "18456718",
+        "39806231"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Deafness, autosomal dominant 39, with dentinogenesis, OMIM:605594",
+        "Dentin dysplasia, type II, OMIM:125420",
+        "Dentinogenesis imperfecta, Shields type II, OMIM:125490",
+        "Dentinogenesis imperfecta, Shields type III, OMIM:125500"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD104"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6158",
+        "gene_name": "integrin subunit beta 4",
+        "omim_gene": [
+          "147557"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ITGB4",
+        "hgnc_symbol": "ITGB4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:73717408-73753899",
+              "ensembl_id": "ENSG00000132470"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:75721328-75757818",
+              "ensembl_id": "ENSG00000132470"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "ITGB4",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "UKGTN",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Amelogenesis Imperfecta",
+        "Epidermolysis bullosa, junctional, with pyloric atresia, 226730 (includes Enamel hypoplasia)",
+        "Epidermolysis bullosa, junctional, non-Herlitz type, 226650 (includes enamel pitting)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "nicein-100kDa",
+          "kalinin-105kDa",
+          "BM600-100kDa"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6493",
+        "gene_name": "laminin subunit gamma 2",
+        "omim_gene": [
+          "150292"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMC2",
+        "hgnc_symbol": "LAMC2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:183155373-183214035",
+              "ensembl_id": "ENSG00000058085"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:183186238-183244900",
+              "ensembl_id": "ENSG00000058085"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMC2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26956061",
+        "37228816"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "UKGTN",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "amelogenesis imperfecta, MONDO:0019507"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "nectin-4",
+          "PRR4",
+          "LNIR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19688",
+        "gene_name": "nectin cell adhesion molecule 4",
+        "omim_gene": [
+          "609607"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NECTIN4",
+        "hgnc_symbol": "NECTIN4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:161040785-161059389",
+              "ensembl_id": "ENSG00000143217"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:161070995-161089599",
+              "ensembl_id": "ENSG00000143217"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2016-02-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "NECTIN4",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "20691405",
+        "21346770",
+        "34067522",
+        "37183149",
+        "37829154"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ectodermal dysplasia-syndactyly syndrome 1, OMIM:613573",
+        "ectodermal dysplasia-syndactyly syndrome 1, MONDO:0024565",
+        "amelogenesis imperfecta, MONDO:0019507"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q4_25_promote_green"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BAF60B",
+          "Rsc6p",
+          "CRACD2",
+          "PRO2451"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11107",
+        "gene_name": "SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 2",
+        "omim_gene": [
+          "601736"
+        ],
+        "alias_name": [
+          "mammalian chromatin remodeling complex BRG1-associated factor 60B",
+          "Swp73-like protein",
+          "chromatin remodeling complex BAF60B subunit",
+          "SWI/SNF complex 60 kDa subunit B"
+        ],
+        "gene_symbol": "SMARCD2",
+        "hgnc_symbol": "SMARCD2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:61909444-61920425",
+              "ensembl_id": "ENSG00000108604"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:63832081-63843065",
+              "ensembl_id": "ENSG00000108604"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-05-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMARCD2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28369036",
+        "33025377",
+        "33279574",
+        "36135322"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Other"
+      ],
+      "phenotypes": [
+        "Specific granule deficiency 2, OMIM:617475"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SMAP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20323",
+        "gene_name": "SPARC related modular calcium binding 2",
+        "omim_gene": [
+          "607223"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SMOC2",
+        "hgnc_symbol": "SMOC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:168841831-169073984",
+              "ensembl_id": "ENSG00000112562"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:168441151-168673445",
+              "ensembl_id": "ENSG00000112562"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-01-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMOC2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "22152679",
+        "23317772",
+        "32908163"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Dentin dysplasia, type IA, OMIM:125400",
+        "atypical dentin dysplasia due to SMOC2 deficiency, MONDO:0017819",
+        "dentin dysplasia type 1 with microdontia and shape anomalies"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p51",
+          "SHFM4",
+          "EEC3",
+          "p63",
+          "p73L",
+          "OFC8",
+          "KET",
+          "p73H",
+          "NBP",
+          "p53CP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15979",
+        "gene_name": "tumor protein p63",
+        "omim_gene": [
+          "603273"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TP63",
+        "hgnc_symbol": "TP63",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:189349205-189615068",
+              "ensembl_id": "ENSG00000073282"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:189631416-189897279",
+              "ensembl_id": "ENSG00000073282"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-04-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "TP63",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10227293",
+        "22065540",
+        "31050217",
+        "33126320"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ectrodactyly, ectodermal dysplasia, and cleft lip/palate syndrome 3, OMIM:604292",
+        "ectrodactyly, ectodermal dysplasia, and cleft lip-palate syndrome 3, MONDO:0011428"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "Q4_25_promote_green",
+        "Q4_25_expert_review"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kir1.1",
+          "ROMK1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6255",
+        "gene_name": "potassium voltage-gated channel subfamily J member 1",
+        "omim_gene": [
+          "600359"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNJ1",
+        "hgnc_symbol": "KCNJ1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:128706210-128737268",
+              "ensembl_id": "ENSG00000151704"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:128836315-128867373",
+              "ensembl_id": "ENSG00000151704"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-08-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNJ1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23341834"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Bartter syndrome, type 2,  241200",
+        "Amelogenesis Imperfecta"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TMPT27",
+          "TPARL",
+          "GDT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30760",
+        "gene_name": "transmembrane protein 165",
+        "omim_gene": [
+          "614726"
+        ],
+        "alias_name": [
+          "TPA regulated locus"
+        ],
+        "gene_symbol": "TMEM165",
+        "hgnc_symbol": "TMEM165",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:56262124-56319564",
+              "ensembl_id": "ENSG00000134851"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:55395957-55453397",
+              "ensembl_id": "ENSG00000134851"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMEM165",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22683087"
+      ],
+      "evidence": [
+        "Other"
+      ],
+      "phenotypes": [
+        "amelogenesis imperfecta"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12422",
+        "gene_name": "tuftelin 1",
+        "omim_gene": [
+          "600087"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TUFT1",
+        "hgnc_symbol": "TUFT1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:151512781-151556059",
+              "ensembl_id": "ENSG00000143367"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:151540305-151583583",
+              "ensembl_id": "ENSG00000143367"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUFT1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25531160",
+        "36689522",
+        "37716648"
+      ],
+      "evidence": [
+        "Other"
+      ],
+      "phenotypes": [
+        "Woolly hair-skin fragility syndrome, OMIM:620415"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

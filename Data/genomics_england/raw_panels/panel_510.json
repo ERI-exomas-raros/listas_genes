@@ -1,0 +1,414 @@
+{
+  "id": 510,
+  "hash_id": null,
+  "name": "Sporadic aniridia",
+  "disease_group": "Ophthalmology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.6",
+  "version_created": "2026-01-25T18:10:42.741292Z",
+  "relevant_disorders": [
+    "Aniridia",
+    "R38"
+  ],
+  "stats": {
+    "number_of_genes": 6,
+    "number_of_strs": 0,
+    "number_of_regions": 1
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "FREAC3",
+          "ARA",
+          "IGDA",
+          "IHG1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3800",
+        "gene_name": "forkhead box C1",
+        "omim_gene": [
+          "601090"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOXC1",
+        "hgnc_symbol": "FOXC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:1610681-1614127",
+              "ensembl_id": "ENSG00000054598"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:1609972-1613897",
+              "ensembl_id": "ENSG00000054598"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXC1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19279310",
+        "25691405",
+        "27124303",
+        "32720677"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Aniridia, MONDO:0019172"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Insp3r1",
+          "IP3R1",
+          "ACV",
+          "PPP1R94"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6180",
+        "gene_name": "inositol 1,4,5-trisphosphate receptor type 1",
+        "omim_gene": [
+          "147265"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 94"
+        ],
+        "gene_symbol": "ITPR1",
+        "hgnc_symbol": "ITPR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:4535032-4889524",
+              "ensembl_id": "ENSG00000150995"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:4493348-4847840",
+              "ensembl_id": "ENSG00000150995"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "ITPR1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27108797",
+        "27108798"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Gillespie syndrome, OMIM:206700"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D11S812E",
+          "AN",
+          "WAGR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8620",
+        "gene_name": "paired box 6",
+        "omim_gene": [
+          "607108"
+        ],
+        "alias_name": [
+          "aniridia, keratitis"
+        ],
+        "gene_symbol": "PAX6",
+        "hgnc_symbol": "PAX6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:31806340-31839509",
+              "ensembl_id": "ENSG00000007372"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:31784779-31818062",
+              "ensembl_id": "ENSG00000007372"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PAX6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "1302030",
+        "8111379",
+        "7951315",
+        "7666404",
+        "7550230",
+        "19876904",
+        "9931324",
+        "12552561",
+        "11826019",
+        "﻿11553050",
+        "17148041",
+        "17595013",
+        "17406642",
+        "32467297",
+        "33782094"
+      ],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Aniridia, OMIM:106210"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IGDS",
+          "RS",
+          "Brx1",
+          "Otlx2",
+          "ARP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9005",
+        "gene_name": "paired like homeodomain 2",
+        "omim_gene": [
+          "601542"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PITX2",
+        "hgnc_symbol": "PITX2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:111538579-111563279",
+              "ensembl_id": "ENSG00000164093"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:110617423-110642123",
+              "ensembl_id": "ENSG00000164093"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "PITX2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21423868",
+        "27124303"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Aniridia, MONDO:0019172"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PAXNEB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1171",
+        "gene_name": "elongator acetyltransferase complex subunit 4",
+        "omim_gene": [
+          "606985"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ELP4",
+        "hgnc_symbol": "ELP4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:31531297-31805546",
+              "ensembl_id": "ENSG00000109911"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:31509700-31790328",
+              "ensembl_id": "ENSG00000109911"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-05-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "ELP4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "24290376"
+      ],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen",
+        "Other"
+      ],
+      "phenotypes": [
+        "?Aniridia 2, OMIM:617141"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DIPB",
+          "MC7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19016",
+        "gene_name": "tripartite motif containing 44",
+        "omim_gene": [
+          "612298"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRIM44",
+        "hgnc_symbol": "TRIM44",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:35684353-35829775",
+              "ensembl_id": "ENSG00000166326"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:35662805-35818007",
+              "ensembl_id": "ENSG00000166326"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-01-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRIM44",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26394807"
+      ],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen",
+        "Other"
+      ],
+      "phenotypes": [
+        "?Aniridia 3, OMIM:617142"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": [
+    {
+      "gene_data": null,
+      "entity_type": "region",
+      "entity_name": "ISCA-37401-Loss",
+      "verbose_name": "11p13 (WAGR syndrome) region Loss",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "haploinsufficiency_score": "3",
+      "triplosensitivity_score": "",
+      "required_overlap_percentage": 60,
+      "type_of_variants": "cnv_loss",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "Wilms tumor, aniridia, genitourinary anomalies and mental retardation syndrome",
+        "194072"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "chromosome": "11",
+      "grch37_coordinates": null,
+      "grch38_coordinates": [
+        31781961,
+        32489442
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "id": 86,
+  "hash_id": "55d3196022c1fc313273e328",
+  "name": "Parathyroid Cancer",
+  "disease_group": "Tumour syndromes",
+  "disease_sub_group": "Breast and endocrine",
+  "status": "public",
+  "version": "1.5",
+  "version_created": "2025-11-23T17:39:55.474182Z",
+  "relevant_disorders": [
+    "Parathyroid cancer"
+  ],
+  "stats": {
+    "number_of_genes": 7,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "parafibromin",
+          "FIHP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16783",
+        "gene_name": "cell division cycle 73",
+        "omim_gene": [
+          "607393"
+        ],
+        "alias_name": [
+          "Paf1/RNA polymerase II complex component"
+        ],
+        "gene_symbol": "CDC73",
+        "hgnc_symbol": "CDC73",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:193091147-193223031",
+              "ensembl_id": "ENSG00000134371"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:193122017-193253901",
+              "ensembl_id": "ENSG00000134371"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDC73",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hyperparathyroidism, familial primary, 145000",
+        "Hyperparathyroidism-jaw tumor syndrome, 145001",
+        "Parathyroid adenoma with cystic changes, 145001",
+        "Parathyroid carcinoma, 608266",
+        "Parathyroid Carcinoma",
+        "Pituitary Cancer, Parathyroid and Hypercalcemia",
+        "Parathyroid Cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7010",
+        "gene_name": "menin 1",
+        "omim_gene": [
+          "613733"
+        ],
+        "alias_name": [
+          "menin"
+        ],
+        "gene_symbol": "MEN1",
+        "hgnc_symbol": "MEN1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:64570982-64578766",
+              "ensembl_id": "ENSG00000133895"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:64803510-64811294",
+              "ensembl_id": "ENSG00000133895"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MEN1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Multiple endocrine neoplasia 1, 131100",
+        "Carcinoid tumor of lung",
+        "Parathyroid adenoma, somatic",
+        "Lipoma, somatic",
+        "Angiofibroma, somatic",
+        "Adrenal adenoma, somatic",
+        "Pituitary Cancer, Parathyroid and Hypercalcemia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XAP2",
+          "ARA9",
+          "FKBP16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:358",
+        "gene_name": "aryl hydrocarbon receptor interacting protein",
+        "omim_gene": [
+          "605555"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AIP",
+        "hgnc_symbol": "AIP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:67250512-67258574",
+              "ensembl_id": "ENSG00000110711"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:67483041-67491103",
+              "ensembl_id": "ENSG00000110711"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-01-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "AIP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Pituitary Cancer, Parathyroid and Hypercalcemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FHH",
+          "NSHPT",
+          "GPRC2A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1514",
+        "gene_name": "calcium sensing receptor",
+        "omim_gene": [
+          "601199"
+        ],
+        "alias_name": [
+          "severe neonatal hyperparathyroidism"
+        ],
+        "gene_symbol": "CASR",
+        "hgnc_symbol": "CASR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:121902530-122005342",
+              "ensembl_id": "ENSG00000036828"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:122183683-122291629",
+              "ensembl_id": "ENSG00000036828"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "CASR",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Pituitary Cancer, Parathyroid and Hypercalcemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIP1",
+          "P27KIP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1785",
+        "gene_name": "cyclin dependent kinase inhibitor 1B",
+        "omim_gene": [
+          "600778"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDKN1B",
+        "hgnc_symbol": "CDKN1B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:12867992-12875305",
+              "ensembl_id": "ENSG00000111276"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:12715058-12722371",
+              "ensembl_id": "ENSG00000111276"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDKN1B",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Multiple endocrine neoplasia, type IV, OMIM:610755",
+        "Pituitary Cancer, Parathyroid and Hypercalcemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CNC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9388",
+        "gene_name": "protein kinase cAMP-dependent type I regulatory subunit alpha",
+        "omim_gene": [
+          "188830"
+        ],
+        "alias_name": [
+          "Carney complex type 1"
+        ],
+        "gene_symbol": "PRKAR1A",
+        "hgnc_symbol": "PRKAR1A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:66507921-66547460",
+              "ensembl_id": "ENSG00000108946"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:68511780-68551319",
+              "ensembl_id": "ENSG00000108946"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRKAR1A",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Pituitary Cancer, Parathyroid and Hypercalcemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PTC",
+          "CDHF12",
+          "RET51",
+          "CDHR16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9967",
+        "gene_name": "ret proto-oncogene",
+        "omim_gene": [
+          "164761"
+        ],
+        "alias_name": [
+          "cadherin-related family member 16",
+          "RET receptor tyrosine kinase",
+          "rearranged during transfection"
+        ],
+        "gene_symbol": "RET",
+        "hgnc_symbol": "RET",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:43572475-43625799",
+              "ensembl_id": "ENSG00000165731"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:43077027-43130351",
+              "ensembl_id": "ENSG00000165731"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-07-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "RET",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Pituitary Cancer, Parathyroid and Hypercalcemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

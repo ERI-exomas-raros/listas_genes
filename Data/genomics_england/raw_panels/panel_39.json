@@ -1,0 +1,4620 @@
+{
+  "id": 39,
+  "hash_id": "58078e6e8f62030e233a8157",
+  "name": "Parkinson Disease and Complex Parkinsonism",
+  "disease_group": "Neurology and neurodevelopmental disorders",
+  "disease_sub_group": "Neurodegenerative disorders",
+  "status": "public",
+  "version": "1.128",
+  "version_created": "2025-11-23T17:40:24.277998Z",
+  "relevant_disorders": [
+    "Complex Parkinsonism (includes pallido-pyramidal syndromes)",
+    "Early onset and familial Parkinson's Disease"
+  ],
+  "stats": {
+    "number_of_genes": 72,
+    "number_of_strs": 9,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "HSA9947",
+          "CLN12"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30213",
+        "gene_name": "ATPase 13A2",
+        "omim_gene": [
+          "610513"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ATP13A2",
+        "hgnc_symbol": "ATP13A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:17312453-17338423",
+              "ensembl_id": "ENSG00000159363"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:16985958-17011928",
+              "ensembl_id": "ENSG00000159363"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP13A2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Parkinson disease 9, 606693",
+        "Kufor-Rakeb Syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:801",
+        "gene_name": "ATPase Na+/K+ transporting subunit alpha 3",
+        "omim_gene": [
+          "182350"
+        ],
+        "alias_name": [
+          "sodium/potassium-transporting ATPase subunit alpha-3",
+          "sodium pump subunit alpha-3",
+          "sodium-potassium ATPase catalytic subunit alpha-3"
+        ],
+        "gene_symbol": "ATP1A3",
+        "hgnc_symbol": "ATP1A3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:42470734-42501649",
+              "ensembl_id": "ENSG00000105409"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:41966582-41997497",
+              "ensembl_id": "ENSG00000105409"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP1A3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Rapid-Onset Dystonia-Parkinsonism",
+        "Dystonia-12",
+        "rapid-onset dystonia-parkinsonism",
+        "alternating hemiplegia of childhood",
+        "CAPOS syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC10922",
+          "DKFZP762D096",
+          "NBIA4",
+          "MPAN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25443",
+        "gene_name": "chromosome 19 open reading frame 12",
+        "omim_gene": [
+          "614297"
+        ],
+        "alias_name": [
+          "neurodegeneration with brain iron accumulation 4",
+          "membrane protein-associated neurodegeneration"
+        ],
+        "gene_symbol": "C19orf12",
+        "hgnc_symbol": "C19orf12",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:30191721-30206364",
+              "ensembl_id": "ENSG00000131943"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:29698886-29715789",
+              "ensembl_id": "ENSG00000131943"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "C19orf12",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23269600",
+        "21981780",
+        "29295770",
+        "31087512"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "?Spastic paraplegia 43, autosomal recessive, OMIM:615043",
+        "Neurodegeneration with brain iron accumulation 4, OMIM: 614298"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "C-FMS",
+          "CSFR",
+          "CD115"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2433",
+        "gene_name": "colony stimulating factor 1 receptor",
+        "omim_gene": [
+          "164770"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CSF1R",
+        "hgnc_symbol": "CSF1R",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:149432854-149492935",
+              "ensembl_id": "ENSG00000182578"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:150053291-150113372",
+              "ensembl_id": "ENSG00000182578"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CSF1R",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23787135"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert"
+      ],
+      "phenotypes": [
+        "Leukoencephalopathy, diffuse hereditary, with spheroids, OMIM:221820"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "adult-onset"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2711",
+        "gene_name": "dynactin subunit 1",
+        "omim_gene": [
+          "601143"
+        ],
+        "alias_name": [
+          "p150 glued homolog (Drosophila)"
+        ],
+        "gene_symbol": "DCTN1",
+        "hgnc_symbol": "DCTN1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:74588281-74619214",
+              "ensembl_id": "ENSG00000204843"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:74361154-74392087",
+              "ensembl_id": "ENSG00000204843"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-10-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "DCTN1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20945553 (Gene Reviews)",
+        "﻿﻿19136952",
+        "20437543",
+        "﻿19136952",
+        "24343258",
+        "27346608",
+        "27132499"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert"
+      ],
+      "phenotypes": [
+        "Perry syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0473",
+          "PARK19"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15469",
+        "gene_name": "DnaJ heat shock protein family (Hsp40) member C6",
+        "omim_gene": [
+          "608375"
+        ],
+        "alias_name": [
+          "auxilin"
+        ],
+        "gene_symbol": "DNAJC6",
+        "hgnc_symbol": "DNAJC6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:65713902-65881552",
+              "ensembl_id": "ENSG00000116675"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:65248219-65415869",
+              "ensembl_id": "ENSG00000116675"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-03-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAJC6",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27687717",
+        "22563501",
+        "23211418",
+        "26528954",
+        "34175496",
+        "26703368",
+        "33181391",
+        "32472658"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Parkinson disease 19b, early-onset, OMIM:615528",
+        "Parkinson disease 19a juvenile-onset, OMIM:615528",
+        "juvenile onset Parkinson disease 19A, MONDO:0014231"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FBX7",
+          "Fbx",
+          "PARK15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13586",
+        "gene_name": "F-box protein 7",
+        "omim_gene": [
+          "605648"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FBXO7",
+        "hgnc_symbol": "FBXO7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:32870663-32894818",
+              "ensembl_id": "ENSG00000100225"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:32474676-32498829",
+              "ensembl_id": "ENSG00000100225"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "FBXO7",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert"
+      ],
+      "phenotypes": [
+        "Parkinson disease 15, autosomal recessive, 260300",
+        "Parkinson Disease, Recessive",
+        "Early Onset Complex Disease",
+        "parkinsonian-pyramidal syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC71996",
+          "NBIA3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3999",
+        "gene_name": "ferritin light chain",
+        "omim_gene": [
+          "134790"
+        ],
+        "alias_name": [
+          "ferritin light polypeptide-like 3",
+          "L apoferritin",
+          "ferritin L subunit",
+          "ferritin light chain",
+          "ferritin L-chain",
+          "neurodegeneration with brain iron accumulation 3"
+        ],
+        "gene_symbol": "FTL",
+        "hgnc_symbol": "FTL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:49468558-49470135",
+              "ensembl_id": "ENSG00000087086"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:48965301-48966878",
+              "ensembl_id": "ENSG00000087086"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FTL",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24209436",
+        "http://www.ncbi.nlm.nih.gov/pubmed/24209436"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert"
+      ],
+      "phenotypes": [
+        "Neurodegeneration with brain iron accumulation 3",
+        "movement disorder"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GBA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4177",
+        "gene_name": "glucosylceramidase beta",
+        "omim_gene": [
+          "606463"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GBA",
+        "hgnc_symbol": "GBA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:155204243-155214490",
+              "ensembl_id": "ENSG00000177628"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:155234452-155244699",
+              "ensembl_id": "ENSG00000177628"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GBA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27779773",
+        "27632223",
+        "27648471",
+        "27717005",
+        "29400127"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "{Parkinson disease, late-onset, susceptibility to}, 168600"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "treatable",
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GTPCH1",
+          "DYT5a"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4193",
+        "gene_name": "GTP cyclohydrolase 1",
+        "omim_gene": [
+          "600225"
+        ],
+        "alias_name": [
+          "dopa-responsive dystonia"
+        ],
+        "gene_symbol": "GCH1",
+        "hgnc_symbol": "GCH1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:55308726-55369570",
+              "ensembl_id": "ENSG00000131979"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:54842008-54902852",
+              "ensembl_id": "ENSG00000131979"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "GCH1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Dystonia, DOPA-responsive, with or without hyperphenylalaninemia, 128230",
+        "Hyperphenylalaninemia, BH4-deficient, B, 233910",
+        "Dopa-Responsive Dystonia (DRD)",
+        "Dopa-Responsive Dystonia (DRD)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PCDGF",
+          "PGRN",
+          "CLN11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4601",
+        "gene_name": "granulin precursor",
+        "omim_gene": [
+          "138945"
+        ],
+        "alias_name": [
+          "progranulin"
+        ],
+        "gene_symbol": "GRN",
+        "hgnc_symbol": "GRN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:42422614-42430470",
+              "ensembl_id": "ENSG00000030582"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:44345086-44353102",
+              "ensembl_id": "ENSG00000030582"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "GRN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20301545",
+        "17923627"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Expert"
+      ],
+      "phenotypes": [
+        "clinical presentation suggestive of cortico-basal/PSP syndrome",
+        "frontotemporal lobar degeneration with TDP43 inclusions",
+        "Complex parkinsonism"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ROCO2",
+          "DKFZp434H2111",
+          "FLJ45829",
+          "RIPK7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18618",
+        "gene_name": "leucine rich repeat kinase 2",
+        "omim_gene": [
+          "609007"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LRRK2",
+        "hgnc_symbol": "LRRK2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:40590546-40763087",
+              "ensembl_id": "ENSG00000188906"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:40196744-40369285",
+              "ensembl_id": "ENSG00000188906"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-10-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "LRRK2",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "25391693",
+        "27090875",
+        "28395805",
+        "28395804",
+        "28395803",
+        "28395802"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Parkinson disease 8, 607060",
+        "Parkinson Disease, Dominant",
+        "Parkinson Disease 8, Autosomal Dominant",
+        "PARKINSON DISEASE 8, AUTOSOMAL DOMINANT",
+        "LRRK2 G2019S mutation",
+        "Autosomal dominant Parkinson's disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "missense",
+        "curated-variant-list"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CHS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1968",
+        "gene_name": "lysosomal trafficking regulator",
+        "omim_gene": [
+          "606897"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LYST",
+        "hgnc_symbol": "LYST",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:235824341-236046940",
+              "ensembl_id": "ENSG00000143669"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:235661041-235883640",
+              "ensembl_id": "ENSG00000143669"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-12-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "LYST",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23436631",
+        "8896560",
+        "9215679",
+        "9215680",
+        "11857544"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Parkinsonism",
+        "albinism",
+        "peripheral neuropathy",
+        "Chediak-Higashi syndrome 214500"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MTBT1",
+          "tau",
+          "PPND",
+          "FTDP-17",
+          "TAU",
+          "MSTD",
+          "MTBT2",
+          "FLJ31424",
+          "MGC138549",
+          "PPP1R103"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6893",
+        "gene_name": "microtubule associated protein tau",
+        "omim_gene": [
+          "157140"
+        ],
+        "alias_name": [
+          "G protein beta1/gamma2 subunit-interacting factor 1",
+          "microtubule-associated protein tau, isoform 4",
+          "protein phosphatase 1, regulatory subunit 103"
+        ],
+        "gene_symbol": "MAPT",
+        "hgnc_symbol": "MAPT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:43971748-44105700",
+              "ensembl_id": "ENSG00000186868"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:45894382-46028334",
+              "ensembl_id": "ENSG00000186868"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAPT",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28334843",
+        "20301678"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert"
+      ],
+      "phenotypes": [
+        "Dementia, frontotemporal, with or without parkinsonism, 600274",
+        "{Parkinson disease, susceptibility to}, 168600",
+        "Pick disease, 172700",
+        "Supranuclear palsy, progressive, 601104",
+        "Supranuclear palsy, progressive atypical, 260540",
+        "Tauopathy and r",
+        "Pick disease, 172700",
+        "PARKINSON-DEMENTIA SYNDROME",
+        "clinical presentation suggestive of cortico-basal/PSP syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ22187",
+          "MGA3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8142",
+        "gene_name": "OPA3, outer mitochondrial membrane lipid metabolism regulator",
+        "omim_gene": [
+          "606580"
+        ],
+        "alias_name": null,
+        "gene_symbol": "OPA3",
+        "hgnc_symbol": "OPA3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:46030685-46105470",
+              "ensembl_id": "ENSG00000125741"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:45527427-45602212",
+              "ensembl_id": "ENSG00000125741"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-03-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "OPA3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25201222",
+        "11668429",
+        "24944951",
+        "25657044",
+        "20301646"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "Other"
+      ],
+      "phenotypes": [
+        "3-methylglutaconic aciduria, type III, 258501",
+        "Costeff syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSS",
+          "FLJ11729",
+          "PKAN",
+          "HARP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15894",
+        "gene_name": "pantothenate kinase 2",
+        "omim_gene": [
+          "606157"
+        ],
+        "alias_name": [
+          "Hallervorden-Spatz syndrome"
+        ],
+        "gene_symbol": "PANK2",
+        "hgnc_symbol": "PANK2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:3869486-3907605",
+              "ensembl_id": "ENSG00000125779"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:3888839-3929882",
+              "ensembl_id": "ENSG00000125779"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "PANK2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Exper",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Early Onset Complex Disease",
+        "Dystonia",
+        "pantothenate kinase-associated neurodegeneration",
+        "Dystonia",
+        "Neurodegeneration with brain iron accumulation 1",
+        "234200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DJ-1",
+          "DJ1",
+          "GATD2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16369",
+        "gene_name": "Parkinsonism associated deglycase",
+        "omim_gene": [
+          "602533"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PARK7",
+        "hgnc_symbol": "PARK7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:8014351-8045565",
+              "ensembl_id": "ENSG00000116288"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:7954291-7985505",
+              "ensembl_id": "ENSG00000116288"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-08-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "PARK7",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Parkinson disease 7 autosomal recessive early-onset",
+        "606324"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SSV"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8800",
+        "gene_name": "platelet derived growth factor subunit B",
+        "omim_gene": [
+          "190040"
+        ],
+        "alias_name": [
+          "oncogene SIS",
+          "becaplermin"
+        ],
+        "gene_symbol": "PDGFB",
+        "hgnc_symbol": "PDGFB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:39619364-39640756",
+              "ensembl_id": "ENSG00000100311"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:39223359-39244751",
+              "ensembl_id": "ENSG00000100311"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDGFB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26129893",
+        "23913003",
+        "30952898",
+        "30609140",
+        "35747618"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Basal ganglia calcification, idiopathic, 5, OMIM:615483",
+        "basal ganglia calcification, idiopathic, 5, MONDO:0014204"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14581",
+        "gene_name": "PTEN induced putative kinase 1",
+        "omim_gene": [
+          "608309"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PINK1",
+        "hgnc_symbol": "PINK1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:20959948-20978004",
+              "ensembl_id": "ENSG00000158828"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:20633455-20651511",
+              "ensembl_id": "ENSG00000158828"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-02-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "PINK1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Parkinson disease 6, early onset, 605909",
+        "Parkinson Disease 6, Autosomal Recessive Early-Onset"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "iPLA2",
+          "PNPLA9",
+          "PARK14",
+          "iPLA2beta",
+          "NBIA2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9039",
+        "gene_name": "phospholipase A2 group VI",
+        "omim_gene": [
+          "603604"
+        ],
+        "alias_name": [
+          "neurodegeneration with brain iron accumulation 2"
+        ],
+        "gene_symbol": "PLA2G6",
+        "hgnc_symbol": "PLA2G6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:38507502-38601697",
+              "ensembl_id": "ENSG00000184381"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:38111495-38205690",
+              "ensembl_id": "ENSG00000184381"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLA2G6",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Infantile neuroaxonal dystrophy 1, 256600",
+        "Neurodegeneration with brain iron accumulation 2B, 610217",
+        "Parkinson disease 14, 612953",
+        "Early Onset Complex Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PDJ",
+          "AR-JP",
+          "parkin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8607",
+        "gene_name": "parkin RBR E3 ubiquitin protein ligase",
+        "omim_gene": [
+          "602544"
+        ],
+        "alias_name": [
+          "E3 ubiquitin ligase"
+        ],
+        "gene_symbol": "PRKN",
+        "hgnc_symbol": "PRKN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:161768452-163148803",
+              "ensembl_id": "ENSG00000185345"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:161347420-162727771",
+              "ensembl_id": "ENSG00000185345"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-02-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRKN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 22956510"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Eligibility statement prior genetic testing",
+        "Expert",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Parkinson Disease, Juvenile",
+        "Parkinson Disease 2, Autosomal Recessive Juvenile"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PACT",
+          "RAX",
+          "HSD14",
+          "DYT16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9438",
+        "gene_name": "protein activator of interferon induced protein kinase EIF2AK2",
+        "omim_gene": [
+          "603424"
+        ],
+        "alias_name": [
+          "protein activator of the interferon-induced protein kinase"
+        ],
+        "gene_symbol": "PRKRA",
+        "hgnc_symbol": "PRKRA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:179296141-179316239",
+              "ensembl_id": "ENSG00000180228"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:178431414-178451512",
+              "ensembl_id": "ENSG00000180228"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRKRA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 26990861 - c.665C>T homozygous variant was identified in 3 affected siblings with Early-Onset Generalized Dystonia-Parkinsonism (and was heterozygous in the unaffected patients and an unaffected sibling). It was confirmed by Sanger sequencing and had a frequency of 0.01% in the Exome Aggregation Consortium database, predicted to be deleterious by 2 of 6 in silico tools. They showed it was within a founder haplotype shared by all previoulsy reported cases. The Authors state \"Screening of PRKRA is warranted in all patients with early-onset generalized dystonia, or dystonia parkinsonism compatible with autosomal recessive inheritance\"",
+        "25737287 Compound het variants (c.G230C (p.Cys77Ser), and in exon 7, c.G638T (p.Cys213Phe)) identified in the two affected siblings reported with dystonia without parkinsonism, unaffected family members were heterozygous",
+        "25142429 In a Polish family, the homozygous p.Pro222Leu mutation segregated with autosomal-recessive, early-onset generalized dystonia and slight parkinsonism",
+        "25914261",
+        "22842711 describes the clinical features of three original cases with homozygous PRKRA variants - the patients presented with either a pure generalised dystonia or with a dystonia-parkinsonism that was relatively unresponsive to L-dopa",
+        "18243799 - two unrelated families with members with an apparent autosomal recessive, novel, young-onset, generalised form of dystonia parkinsonism. A region of homozygosity was found in all affected individuals, and narrowed down to the homozygous variant c.665C>T (P222L)",
+        "24142417 - Compound heterozygous variants were reported in a patient with early onset dystonia c.665C>T (p.P222L) inherited from his mother, and c.637T>C (p.C213R) was a novel mutation",
+        "18420150 - a novel heterozygous variant c.266_267delAT",
+        "p.H89fsX20 was reported in a proband with  early childhood-onset leg dystonia (though testing in the parents was not mentioned)."
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert"
+      ],
+      "phenotypes": [
+        "Early Onset Complex Disease",
+        "Early-Onset Generalized Dystonia-Parkinsonism",
+        "Dystonia 16",
+        "early-onset generalized dystonia-parkinsonism (DYT16), non-responsive to levo-dopa"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LOC391356"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:33782",
+        "gene_name": "peptidyl-tRNA hydrolase domain containing 1",
+        "omim_gene": [
+          "617342"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTRHD1",
+        "hgnc_symbol": "PTRHD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:25012603-25016251",
+              "ensembl_id": "ENSG00000184924"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:24789734-24793382",
+              "ensembl_id": "ENSG00000184924"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTRHD1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30398675",
+        "27134041",
+        "29143421",
+        "27753167"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Neurodevelopmental disorder with early-onset parkinsonism and behavioral abnormalities, OMIM:620747"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16499",
+        "gene_name": "RAB39B, member RAS oncogene family",
+        "omim_gene": [
+          "300774"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RAB39B",
+        "hgnc_symbol": "RAB39B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:154487526-154493874",
+              "ensembl_id": "ENSG00000155961"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:155258241-155264589",
+              "ensembl_id": "ENSG00000155961"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-09-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAB39B",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25434005",
+        "26399558",
+        "27694831",
+        "27459931",
+        "27066548",
+        "2639955"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert"
+      ],
+      "phenotypes": [
+        "Waisman syndrome, OMIM:311510",
+        "early-onset parkinsonism and intellectual disability"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp547M236",
+          "ZnT-10",
+          "ZRC1",
+          "ZNT8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25355",
+        "gene_name": "solute carrier family 30 member 10",
+        "omim_gene": [
+          "611146"
+        ],
+        "alias_name": [
+          "zinc transporter 8"
+        ],
+        "gene_symbol": "SLC30A10",
+        "hgnc_symbol": "SLC30A10",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:219858769-220131989",
+              "ensembl_id": "ENSG00000196660"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:219685427-219958647",
+              "ensembl_id": "ENSG00000196660"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-09-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC30A10",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22341971",
+        "22341972",
+        "22926781",
+        "22934317"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Hypermanganesemia with dystonia 1, OMIM:613280",
+        "Dystonia/Parkinsonism, Hypermanganesemia, Polycythemia, and Chronic Liver Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0062",
+          "NET34",
+          "ZIP14"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20858",
+        "gene_name": "solute carrier family 39 member 14",
+        "omim_gene": [
+          "608736"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC39A14",
+        "hgnc_symbol": "SLC39A14",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:22224762-22291642",
+              "ensembl_id": "ENSG00000104635"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:22367249-22434129",
+              "ensembl_id": "ENSG00000104635"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC39A14",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Hypermanganesemia with dystonia 2\t617013"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DAT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11049",
+        "gene_name": "solute carrier family 6 member 3",
+        "omim_gene": [
+          "126455"
+        ],
+        "alias_name": [
+          "dopamine transporter"
+        ],
+        "gene_symbol": "SLC6A3",
+        "hgnc_symbol": "SLC6A3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:1392909-1445545",
+              "ensembl_id": "ENSG00000142319"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:1392790-1445430",
+              "ensembl_id": "ENSG00000142319"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-03-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC6A3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Parkinsonism-dystonia, infantile, 613135"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NACP",
+          "PD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11138",
+        "gene_name": "synuclein alpha",
+        "omim_gene": [
+          "163890"
+        ],
+        "alias_name": [
+          "non A4 component of amyloid precursor",
+          "alpha-synuclein",
+          "Î±-synuclein"
+        ],
+        "gene_symbol": "SNCA",
+        "hgnc_symbol": "SNCA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:90645250-90759466",
+              "ensembl_id": "ENSG00000145335"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:89724099-89838315",
+              "ensembl_id": "ENSG00000145335"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-01-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "SNCA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Parkinson disease 4, 605543",
+        "Dementia, Lewy body, 127750",
+        "Parkinson disease 1, 168601",
+        "Autosomal dominant Parkinson's disease with alpha-synuclein rearrangements (PARK1/4)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "gene-duplication"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ21439"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11226",
+        "gene_name": "SPG11, spatacsin vesicle trafficking associated",
+        "omim_gene": [
+          "610844"
+        ],
+        "alias_name": [
+          "spatacsin"
+        ],
+        "gene_symbol": "SPG11",
+        "hgnc_symbol": "SPG11",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:44854894-44955876",
+              "ensembl_id": "ENSG00000104133"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:44562696-44663678",
+              "ensembl_id": "ENSG00000104133"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPG11",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19224311",
+        "21381113",
+        "27820618"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert"
+      ],
+      "phenotypes": [
+        "Early Onset Complex Disease",
+        "hereditary spastic paraparesis",
+        "early onset parkinsonism, levo dopa responsve",
+        "Complex parkinsonism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SDR38C1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11257",
+        "gene_name": "sepiapterin reductase",
+        "omim_gene": [
+          "182125"
+        ],
+        "alias_name": [
+          "short chain dehydrogenase/reductase family 38C, member 1",
+          "Sepiapterin reductase (L-erythro-7,8-dihydrobiopterin forming)"
+        ],
+        "gene_symbol": "SPR",
+        "hgnc_symbol": "SPR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:73114489-73119287",
+              "ensembl_id": "ENSG00000116096"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:72887360-72892158",
+              "ensembl_id": "ENSG00000116096"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-12-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "http://www.ncbi.nlm.nih.gov/books/NBK1155/",
+        "22522443"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Dystonia, dopa-responsive, due to sepiapterin reductase deficiency, OMIM:612716",
+        "paediatric form of dopa responsive dystonia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "INPP5G",
+          "PARK20"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11503",
+        "gene_name": "synaptojanin 1",
+        "omim_gene": [
+          "604297"
+        ],
+        "alias_name": [
+          "phosphoinositide 5-phosphatase",
+          "synaptic inositol 1,4,5-trisphosphate 5-phosphatase 1",
+          "inositol polyphosphate-5-phosphatase G"
+        ],
+        "gene_symbol": "SYNJ1",
+        "hgnc_symbol": "SYNJ1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:34001069-34100359",
+              "ensembl_id": "ENSG00000159082"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:32628759-32728048",
+              "ensembl_id": "ENSG00000159082"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "SYNJ1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26149920",
+        "27496670",
+        "27435091"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert"
+      ],
+      "phenotypes": [
+        "Parkinson disease 20, early-onset, 615530",
+        "Early Onset Complex Disease",
+        "juvenile Parkinsonism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DYT5b"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11782",
+        "gene_name": "tyrosine hydroxylase",
+        "omim_gene": [
+          "191290"
+        ],
+        "alias_name": [
+          "tyrosine 3-monooxygenase"
+        ],
+        "gene_symbol": "TH",
+        "hgnc_symbol": "TH",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:2185159-2193107",
+              "ensembl_id": "ENSG00000180176"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:2163929-2171877",
+              "ensembl_id": "ENSG00000180176"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TH",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "http://www.ncbi.nlm.nih.gov/books/NBK1155/"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Segawa syndrome, recessive, 605407",
+        "paediatric form of dopa responsive dystonia",
+        "infantile parkinsonism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "beta-5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20774",
+        "gene_name": "tubulin beta 4A class IVa",
+        "omim_gene": [
+          "602662"
+        ],
+        "alias_name": [
+          "class IVa beta-tubulin"
+        ],
+        "gene_symbol": "TUBB4A",
+        "hgnc_symbol": "TUBB4A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:6494330-6502859",
+              "ensembl_id": "ENSG00000104833"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:6494319-6502848",
+              "ensembl_id": "ENSG00000104833"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-10-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUBB4A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27809427"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Complex parkinsonism",
+        "Dystonia",
+        "?Dystonia 4, torsion, autosomal dominant, 128101",
+        "hereditary whispering dysphonia",
+        "Dystonia",
+        "hypomyelinating leukodystrophy 6"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0986"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1908",
+        "gene_name": "vacuolar protein sorting 13 homolog A",
+        "omim_gene": [
+          "605978"
+        ],
+        "alias_name": [
+          "chorein"
+        ],
+        "gene_symbol": "VPS13A",
+        "hgnc_symbol": "VPS13A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:79792269-80036457",
+              "ensembl_id": "ENSG00000197969"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:77177353-77421541",
+              "ensembl_id": "ENSG00000197969"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "VPS13A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11381253"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Choreoacanthocytosis",
+        "200150",
+        "Complex parkinsonism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10752",
+          "MEM3",
+          "PARK17"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13487",
+        "gene_name": "VPS35, retromer complex component",
+        "omim_gene": [
+          "601501"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VPS35",
+        "hgnc_symbol": "VPS35",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:46690054-46723430",
+              "ensembl_id": "ENSG00000069329"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:46656132-46689518",
+              "ensembl_id": "ENSG00000069329"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "VPS35",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21763482",
+        "22991136",
+        "21763483",
+        "22517097",
+        "27777137",
+        "24854799",
+        "26547032",
+        "23408866"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Parkinson disease 17, 614203",
+        "Parkinson Disease, Dominant",
+        "PARKINSON DISEASE 17",
+        "PARK17",
+        "late onset parkinson disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "missense"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JM5",
+          "WIPI4",
+          "NBIA5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28912",
+        "gene_name": "WD repeat domain 45",
+        "omim_gene": [
+          "300526"
+        ],
+        "alias_name": [
+          "neurodegeneration with brain iron accumulation 5"
+        ],
+        "gene_symbol": "WDR45",
+        "hgnc_symbol": "WDR45",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:48929385-48958108",
+              "ensembl_id": "ENSG00000196998"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:49071470-49101170",
+              "ensembl_id": "ENSG00000196998"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-09-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "WDR45",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Dystonia",
+        "beta-propeller protein-associated neurodegeneration",
+        "beta-propeller protein-associated neurodegeneration"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:713",
+        "gene_name": "arylsulfatase A",
+        "omim_gene": [
+          "607574"
+        ],
+        "alias_name": [
+          "metachromatic leucodystrophy"
+        ],
+        "gene_symbol": "ARSA",
+        "hgnc_symbol": "ARSA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:51061182-51066607",
+              "ensembl_id": "ENSG00000100299"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:50622754-50628173",
+              "ensembl_id": "ENSG00000100299"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARSA",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "37381728",
+        "31312839"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Metachromatic leukodystrophy, OMIM:250100",
+        "metachromatic leukodystrophy, juvenile form, MONDO:0009591"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21645",
+        "gene_name": "coiled-coil-helix-coiled-coil-helix domain containing 2",
+        "omim_gene": [
+          "616244"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CHCHD2",
+        "hgnc_symbol": "CHCHD2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:56169262-56174269",
+              "ensembl_id": "ENSG00000106153"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:56101569-56106576",
+              "ensembl_id": "ENSG00000106153"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-01-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHCHD2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "Funayama, M., Ohe, K., Amo, T., Furuya, N., Yamaguchi, J., Saiki, S., Li, Y., Ogaki, K., Ando, M., Yoshino, H., Tomiyama, H., Nishioka, K., and 12 others. CHCHD2 mutations in autosomal dominant late-onset Parkinson's disease: a genome-wide linkage and sequencing study. Lancet Neurol. 14: 274-282, 2015",
+        "26067114",
+        "25662902",
+        "26067110"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Parkinson disease 22, autosomal dominant",
+        "616710"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DPCK",
+          "NBP",
+          "CoASY",
+          "PPAT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29932",
+        "gene_name": "Coenzyme A synthase",
+        "omim_gene": [
+          "609855"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COASY",
+        "hgnc_symbol": "COASY",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:40713485-40718295",
+              "ensembl_id": "ENSG00000068120"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:42561467-42566277",
+              "ensembl_id": "ENSG00000068120"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-03-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COASY",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "11980892",
+        "25778941",
+        "24360804",
+        "27021474",
+        "28489334",
+        "30089828",
+        "36495139"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Neurodegeneration with brain iron accumulation 6, OMIM:615643",
+        "neurodegeneration with brain iron accumulation 6, MONDO:0014290"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NSCL2",
+          "TAFII250",
+          "KAT4",
+          "DYT3/TAF1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11535",
+        "gene_name": "TATA-box binding protein associated factor 1",
+        "omim_gene": [
+          "313650"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TAF1",
+        "hgnc_symbol": "TAF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:70586114-70752224",
+              "ensembl_id": "ENSG00000147133"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:71366239-71532374",
+              "ensembl_id": "ENSG00000147133"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "TAF1",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "17273961",
+        "17668393",
+        "26637982",
+        "20301662",
+        "12928496"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Dystonia-Parkinsonism, X-linked, 314250",
+        "SVA retrotransposon insertion Dystonia-Parkinsonism, X-linked, 314250"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [
+        "sva"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GENX-3947",
+          "DYT23"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14004",
+        "gene_name": "anoctamin 3",
+        "omim_gene": [
+          "610110"
+        ],
+        "alias_name": [
+          "transmembrane protein 16C (eight membrane-spanning domains)"
+        ],
+        "gene_symbol": "ANO3",
+        "hgnc_symbol": "ANO3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:26210829-26684835",
+              "ensembl_id": "ENSG00000134343"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:26309599-26663288",
+              "ensembl_id": "ENSG00000134343"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-08-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANO3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Dystonia 24, 615034",
+        "familial form of cranio-cervical dystonia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "M8-9",
+          "APT6M8-9",
+          "ATP6M8-9",
+          "PRR",
+          "RENR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18305",
+        "gene_name": "ATPase H+ transporting accessory protein 2",
+        "omim_gene": [
+          "300556"
+        ],
+        "alias_name": [
+          "prorenin receptor",
+          "renin receptor"
+        ],
+        "gene_symbol": "ATP6AP2",
+        "hgnc_symbol": "ATP6AP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:40440146-40465889",
+              "ensembl_id": "ENSG00000182220"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:40579372-40606848",
+              "ensembl_id": "ENSG00000182220"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-08-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP6AP2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23595882"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "?Parkinsonism with spasticity, X-linked\t300911",
+        "Mental retardation, X-linked, syndromic, Hedera type 300423"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ATX2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10555",
+        "gene_name": "ataxin 2",
+        "omim_gene": [
+          "601517"
+        ],
+        "alias_name": [
+          "trinucleotide repeat containing 13"
+        ],
+        "gene_symbol": "ATXN2",
+        "hgnc_symbol": "ATXN2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:111890018-112037480",
+              "ensembl_id": "ENSG00000204842"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:111452214-111599676",
+              "ensembl_id": "ENSG00000204842"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATXN2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Expert"
+      ],
+      "phenotypes": [
+        "{Parkinson disease, late-onset, susceptibility to}, OMIM:168600"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "nucleotide-repeat-expansion",
+        "currently-ngs-unreportable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ATX3",
+          "JOS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7106",
+        "gene_name": "ataxin 3",
+        "omim_gene": [
+          "607047"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ATXN3",
+        "hgnc_symbol": "ATXN3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:92524896-92572965",
+              "ensembl_id": "ENSG00000066427"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:92038652-92106621",
+              "ensembl_id": "ENSG00000066427"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATXN3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Expert"
+      ],
+      "phenotypes": [
+        "Machado-Joseph disease, OMIM:109150",
+        "Susceptibility to Late-Onset Parkinson Disease"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "nucleotide-repeat-expansion",
+        "currently-ngs-unreportable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC23980",
+          "DENNL72"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28337",
+        "gene_name": "chromosome 9 open reading frame 72",
+        "omim_gene": [
+          "614260"
+        ],
+        "alias_name": null,
+        "gene_symbol": "C9orf72",
+        "hgnc_symbol": "C9orf72",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:27546544-27573864",
+              "ensembl_id": "ENSG00000147894"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:27546545-27573866",
+              "ensembl_id": "ENSG00000147894"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-01-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "C9orf72",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "25326098",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25326098"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Eligibility statement prior genetic testing",
+        "Expert"
+      ],
+      "phenotypes": [
+        "Frontotemporal dementia and/or amyotrophic lateral sclerosis 1, OMIM:105550"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "nucleotide-repeat-expansion",
+        "currently-ngs-unreportable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p220",
+          "PARK18"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3296",
+        "gene_name": "eukaryotic translation initiation factor 4 gamma 1",
+        "omim_gene": [
+          "600495"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EIF4G1",
+        "hgnc_symbol": "EIF4G1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:184032283-184053146",
+              "ensembl_id": "ENSG00000114867"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:184314495-184335358",
+              "ensembl_id": "ENSG00000114867"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-06-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "EIF4G1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Parkinsons disease 18, 614251"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0642",
+          "GYF2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11960",
+        "gene_name": "GRB10 interacting GYF protein 2",
+        "omim_gene": [
+          "612003"
+        ],
+        "alias_name": [
+          "GYF domain containing 2"
+        ],
+        "gene_symbol": "GIGYF2",
+        "hgnc_symbol": "GIGYF2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:233562009-233725285",
+              "ensembl_id": "ENSG00000204120"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:232697299-232860575",
+              "ensembl_id": "ENSG00000204120"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-02-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "GIGYF2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18923002",
+        "19279319",
+        "19250854",
+        "19279319",
+        "19449032",
+        "18358451",
+        "18923002",
+        "19250854",
+        "19279319",
+        "19429085",
+        "19482505",
+        "20044296",
+        "20685231",
+        "19321232",
+        "26134514",
+        "201788319",
+        "20060621"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Susceptibility to Parkinson disease 11, 607688",
+        "{Parkinson disease 11}"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4388",
+        "gene_name": "G protein subunit alpha L",
+        "omim_gene": [
+          "139312"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GNAL",
+        "hgnc_symbol": "GNAL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:11688955-11885684",
+              "ensembl_id": "ENSG00000141404"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:11688956-11885685",
+              "ensembl_id": "ENSG00000141404"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-07-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNAL",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "http://www.ncbi.nlm.nih.gov/books/NBK1155/",
+        "27222887",
+        "27123488",
+        "27093447",
+        "26810727",
+        "26725140",
+        "26506956",
+        "26365774",
+        "25847575",
+        "25382112",
+        "23222958",
+        "23449625",
+        "23759320",
+        "24151159",
+        "24408567",
+        "24535567",
+        "24729450",
+        "25382112",
+        "27222887"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Dystonia 25, 615073",
+        "adult-onset cranio-cervical dystonia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OMI",
+          "PARK13"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14348",
+        "gene_name": "HtrA serine peptidase 2",
+        "omim_gene": [
+          "606441"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HTRA2",
+        "hgnc_symbol": "HTRA2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:74756504-74760472",
+              "ensembl_id": "ENSG00000115317"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:74529377-74533348",
+              "ensembl_id": "ENSG00000115317"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-08-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "HTRA2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15961413",
+        "18364387",
+        "18401856",
+        "15961413",
+        "23462481"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Parkinson disease 13, 610297",
+        "Parkinson Disease, Dominant"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IT15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4851",
+        "gene_name": "huntingtin",
+        "omim_gene": [
+          "613004"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HTT",
+        "hgnc_symbol": "HTT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:3076408-3245676",
+              "ensembl_id": "ENSG00000197386"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:3074681-3243959",
+              "ensembl_id": "ENSG00000197386"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-12-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "HTT",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Expert"
+      ],
+      "phenotypes": [
+        "Huntington disease, OMIM:143100"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "nucleotide-repeat-expansion",
+        "currently-ngs-unreportable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "INSP5K2",
+          "FLJ13163",
+          "IP5K",
+          "IPK1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14645",
+        "gene_name": "inositol-pentakisphosphate 2-kinase",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "IPPK",
+        "hgnc_symbol": "IPPK",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:95375466-95432547",
+              "ensembl_id": "ENSG00000127080"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:92613184-92670265",
+              "ensembl_id": "ENSG00000127080"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-10-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "IPPK",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Expert"
+      ],
+      "phenotypes": [
+        "Early Onset Complex Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JP-3",
+          "CAGL237",
+          "HDL2",
+          "JP3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14203",
+        "gene_name": "junctophilin 3",
+        "omim_gene": [
+          "605268"
+        ],
+        "alias_name": null,
+        "gene_symbol": "JPH3",
+        "hgnc_symbol": "JPH3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:87635441-87731762",
+              "ensembl_id": "ENSG00000154118"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:87601835-87698156",
+              "ensembl_id": "ENSG00000154118"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "JPH3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Huntington disease-like 2, OMIM:606438"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "nucleotide-repeat-expansion",
+        "currently-ngs-unreportable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TINUR",
+          "NOT",
+          "RNR1",
+          "HZF-3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7981",
+        "gene_name": "nuclear receptor subfamily 4 group A member 2",
+        "omim_gene": [
+          "601828"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NR4A2",
+        "hgnc_symbol": "NR4A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:157180944-157198860",
+              "ensembl_id": "ENSG00000153234"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:156324432-156342348",
+              "ensembl_id": "ENSG00000153234"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "NR4A2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12496759",
+        "12827450",
+        "15184637",
+        "15276233",
+        "15390059",
+        "27012974",
+        "25543265",
+        "24126627"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Parkinson Disease, Dominant/Recessive (susceptibility to)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10808",
+        "gene_name": "sarcoglycan epsilon",
+        "omim_gene": [
+          "604149"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SGCE",
+        "hgnc_symbol": "SGCE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:94214542-94285521",
+              "ensembl_id": "ENSG00000127990"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:94585230-94656209",
+              "ensembl_id": "ENSG00000127990"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-01-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "SGCE",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "http://www.ncbi.nlm.nih.gov/books/NBK1155/",
+        "11528394",
+        "12325078"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Myoclonus-Dystonia",
+        "maternally imprinted Dystonia-11, myoclonic, 159900",
+        "Myoclonus dystonia syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, maternally imprinted (paternal allele expressed)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MgtE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19429",
+        "gene_name": "solute carrier family 41 member 1",
+        "omim_gene": [
+          "610801"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC41A1",
+        "hgnc_symbol": "SLC41A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:205758221-205782876",
+              "ensembl_id": "ENSG00000133065"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:205789093-205813748",
+              "ensembl_id": "ENSG00000133065"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-02-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC41A1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27612022 and 26308152 - reduced risk of PD association",
+        "24661466 - A novel heterozygous variant (R244H) reported in the SLC41A1 gene was identified in one early onset PD patient, which not present either in 479 PD patients or 525 normal controls with age onset >50",
+        "21812739 and 20683486 novel heterozygous variants identified in PD patients"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Parkinson disease (Yan (2011) Int J Neurosci 121,632)"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SYPH1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11139",
+        "gene_name": "synuclein alpha interacting protein",
+        "omim_gene": [
+          "603779"
+        ],
+        "alias_name": [
+          "synphilin"
+        ],
+        "gene_symbol": "SNCAIP",
+        "hgnc_symbol": "SNCAIP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:121647049-121799914",
+              "ensembl_id": "ENSG00000064692"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:122311354-122464219",
+              "ensembl_id": "ENSG00000064692"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-05-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SNCAIP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Parkinson Disease, Dominant/Recessive"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TFIID"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11588",
+        "gene_name": "TATA-box binding protein",
+        "omim_gene": [
+          "600075"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TBP",
+        "hgnc_symbol": "TBP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:170863390-170881958",
+              "ensembl_id": "ENSG00000112592"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:170554302-170572870",
+              "ensembl_id": "ENSG00000112592"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-05-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "34906452",
+        "35493319"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Expert",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Spinocerebellar ataxia 17, OMIM:607136",
+        "{Parkinson disease, susceptibility to}, OMIM:168600"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "nucleotide-repeat-expansion",
+        "currently-ngs-unreportable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10477",
+          "4833431A01Rik"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20856",
+        "gene_name": "THAP domain containing 1",
+        "omim_gene": [
+          "609520"
+        ],
+        "alias_name": null,
+        "gene_symbol": "THAP1",
+        "hgnc_symbol": "THAP1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:42691817-42698468",
+              "ensembl_id": "ENSG00000131931"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:42836674-42843325",
+              "ensembl_id": "ENSG00000131931"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-07-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "THAP1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "http://www.ncbi.nlm.nih.gov/books/NBK1155/",
+        "21793105"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Dystonia",
+        "Dystonia 6, torsion, 602629",
+        "DYT6"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DQ2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3098",
+        "gene_name": "torsin family 1 member A",
+        "omim_gene": [
+          "605204"
+        ],
+        "alias_name": [
+          "torsin A"
+        ],
+        "gene_symbol": "TOR1A",
+        "hgnc_symbol": "TOR1A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:132575223-132586413",
+              "ensembl_id": "ENSG00000136827"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:129812944-129824134",
+              "ensembl_id": "ENSG00000136827"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-11-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "TOR1A",
+      "confidence_level": "1",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "http://www.ncbi.nlm.nih.gov/books/NBK1155/",
+        "20301665"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Dystonia-1, torsion, OMIM:128100",
+        "Dystonic disorder, MONDO:0003441"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PGP9.5",
+          "Uch-L1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12513",
+        "gene_name": "ubiquitin C-terminal hydrolase L1",
+        "omim_gene": [
+          "191342"
+        ],
+        "alias_name": [
+          "ubiquitin thiolesterase"
+        ],
+        "gene_symbol": "UCHL1",
+        "hgnc_symbol": "UCHL1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:41258430-41270472",
+              "ensembl_id": "ENSG00000154277"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:41256413-41268455",
+              "ensembl_id": "ENSG00000154277"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "UCHL1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "{?Parkinson disease 5, susceptibility to}, OMIM:613643"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:870",
+        "gene_name": "ATPase copper transporting beta",
+        "omim_gene": [
+          "606882"
+        ],
+        "alias_name": [
+          "Wilson disease",
+          "copper pump 2",
+          "copper-transporting ATPase 2"
+        ],
+        "gene_symbol": "ATP7B",
+        "hgnc_symbol": "ATP7B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:52506809-52585630",
+              "ensembl_id": "ENSG00000123191"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:51930436-52012125",
+              "ensembl_id": "ENSG00000123191"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP7B",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "17435591"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Wilson disease MIM#277900"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JNCL",
+          "BTN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2074",
+        "gene_name": "CLN3, battenin",
+        "omim_gene": [
+          "607042"
+        ],
+        "alias_name": [
+          "juvenile neuronal ceroid lipofuscinosis"
+        ],
+        "gene_symbol": "CLN3",
+        "hgnc_symbol": "CLN3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:28477983-28506896",
+              "ensembl_id": "ENSG00000188603"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:28474111-28495575",
+              "ensembl_id": "ENSG00000188603"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLN3",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "19489875",
+        "11342698"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 3 MIM#204200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2295",
+        "gene_name": "ceruloplasmin",
+        "omim_gene": [
+          "117700"
+        ],
+        "alias_name": [
+          "ferroxidase"
+        ],
+        "gene_symbol": "CP",
+        "hgnc_symbol": "CP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:148880197-148939842",
+              "ensembl_id": "ENSG00000047457"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:149162410-149222055",
+              "ensembl_id": "ENSG00000047457"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CP",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28012953"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Hemosiderosis, systemic, due to aceruloplasminemia MIM#604290"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JDP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28908",
+        "gene_name": "DnaJ heat shock protein family (Hsp40) member C12",
+        "omim_gene": [
+          "606060"
+        ],
+        "alias_name": [
+          "J domain protein 1"
+        ],
+        "gene_symbol": "DNAJC12",
+        "hgnc_symbol": "DNAJC12",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:69556427-69597924",
+              "ensembl_id": "ENSG00000108176"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:67796665-67838166",
+              "ensembl_id": "ENSG00000108176"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-04-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAJC12",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Hyperphenylalaninemia, mild, non-BH4-deficient, MIM#617384"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ00118",
+          "FLJ13070",
+          "DNAJC5A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16235",
+        "gene_name": "DnaJ heat shock protein family (Hsp40) member C5",
+        "omim_gene": [
+          "611203"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAJC5",
+        "hgnc_symbol": "DNAJC5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:62526518-62567384",
+              "ensembl_id": "ENSG00000101152"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:63895182-63936031",
+              "ensembl_id": "ENSG00000101152"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAJC5",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "22978711",
+        "21820099",
+        "22235333"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ceroid lipofuscinosis, neuronal, 4, Parry type, MIM# 162350"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Tyro11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3395",
+        "gene_name": "EPH receptor B4",
+        "omim_gene": [
+          "600011"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EPHB4",
+        "hgnc_symbol": "EPHB4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:100400187-100425121",
+              "ensembl_id": "ENSG00000196411"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:100802565-100827521",
+              "ensembl_id": "ENSG00000196411"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "EPHB4",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype -please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed",
+        ""
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8794",
+        "gene_name": "phosphodiesterase 8B",
+        "omim_gene": [
+          "603390"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PDE8B",
+        "hgnc_symbol": "PDE8B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:76506274-76725632",
+              "ensembl_id": "ENSG00000113231"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:77210449-77429807",
+              "ensembl_id": "ENSG00000113231"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDE8B",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "20085714",
+        "26769607",
+        "26475694"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Striatal degeneration, autosomal dominant, MIM#609161"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JTK12",
+          "CD140b",
+          "PDGFR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8804",
+        "gene_name": "platelet derived growth factor receptor beta",
+        "omim_gene": [
+          "173410"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PDGFRB",
+        "hgnc_symbol": "PDGFRB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:149493400-149535435",
+              "ensembl_id": "ENSG00000113721"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:150113837-150155872",
+              "ensembl_id": "ENSG00000113721"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDGFRB",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23255827",
+        "30979360"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Basal ganglia calcification, idiopathic, 4, MIM# 615007"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PiT-2",
+          "Glvr-2",
+          "Ram-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10947",
+        "gene_name": "solute carrier family 20 member 2",
+        "omim_gene": [
+          "158378"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC20A2",
+        "hgnc_symbol": "SLC20A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:42273993-42397069",
+              "ensembl_id": "ENSG00000168575"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:42416475-42541926",
+              "ensembl_id": "ENSG00000168575"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-06-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC20A2",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "22327515",
+        "23334463"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Basal ganglia calcification, idiopathic, 1, MIM# 213600"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PEO",
+          "PEO1",
+          "TWINKLE",
+          "FLJ21832",
+          "TWINL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1160",
+        "gene_name": "twinkle mtDNA helicase",
+        "omim_gene": [
+          "606075"
+        ],
+        "alias_name": [
+          "T7 helicase-related protein with intramitochondrial nucleoid localization"
+        ],
+        "gene_symbol": "TWNK",
+        "hgnc_symbol": "TWNK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:102747124-102754158",
+              "ensembl_id": "ENSG00000107815"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:100987367-100994401",
+              "ensembl_id": "ENSG00000107815"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2016-10-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "TWNK",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "24076137",
+        "22949510",
+        "22580846",
+        "19353676"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 3 MIM#609286"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20136",
+          "FLJ10381",
+          "KIAA1421"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23594",
+        "gene_name": "vacuolar protein sorting 13 homolog C",
+        "omim_gene": [
+          "608879"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VPS13C",
+        "hgnc_symbol": "VPS13C",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:62144588-62352672",
+              "ensembl_id": "ENSG00000129003"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:61852389-62060473",
+              "ensembl_id": "ENSG00000129003"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "VPS13C",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26942284",
+        "30452786",
+        "28862745"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Parkinson disease 23, autosomal recessive, early onset MIM#616840"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SYG1",
+          "X3",
+          "SLC53A1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12827",
+        "gene_name": "xenotropic and polytropic retrovirus receptor 1",
+        "omim_gene": [
+          "605237"
+        ],
+        "alias_name": [
+          "solute carrier family 53 (phosphate exporter), member 1"
+        ],
+        "gene_symbol": "XPR1",
+        "hgnc_symbol": "XPR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:180601140-180859387",
+              "ensembl_id": "ENSG00000143324"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:180632004-180890251",
+              "ensembl_id": "ENSG00000143324"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-02-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "XPR1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "25938945"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Basal ganglia calcification, idiopathic, 6, MIM# 616413"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [
+    {
+      "gene_data": {
+        "alias": [
+          "B37"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3033",
+        "gene_name": "atrophin 1",
+        "omim_gene": [
+          "607462"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ATN1",
+        "hgnc_symbol": "ATN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:7033626-7051484",
+              "ensembl_id": "ENSG00000111676"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:6924463-6942321",
+              "ensembl_id": "ENSG00000111676"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-03-17"
+      },
+      "entity_type": "str",
+      "entity_name": "ATN1_CAG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Dentatorubral-pallidoluysian atrophy, OMIM:125370"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "repeated_sequence": "CAG",
+      "chromosome": "12",
+      "grch37_coordinates": [
+        7045880,
+        7045936
+      ],
+      "grch38_coordinates": [
+        6936717,
+        6936772
+      ],
+      "normal_repeats": 36,
+      "pathogenic_repeats": 48,
+      "tags": [
+        "STR"
+      ]
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D6S504E",
+          "ATX1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10548",
+        "gene_name": "ataxin 1",
+        "omim_gene": [
+          "601556"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ATXN1",
+        "hgnc_symbol": "ATXN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:16299343-16761722",
+              "ensembl_id": "ENSG00000124788"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:16299112-16761491",
+              "ensembl_id": "ENSG00000124788"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-13"
+      },
+      "entity_type": "str",
+      "entity_name": "ATXN1_CAG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Spinocerebellar ataxia 1, OMIM:164400"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "repeated_sequence": "CAG",
+      "chromosome": "6",
+      "grch37_coordinates": [
+        16327867,
+        16327953
+      ],
+      "grch38_coordinates": [
+        16327636,
+        16327722
+      ],
+      "normal_repeats": 36,
+      "pathogenic_repeats": 45,
+      "tags": [
+        "STR"
+      ]
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ATX2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10555",
+        "gene_name": "ataxin 2",
+        "omim_gene": [
+          "601517"
+        ],
+        "alias_name": [
+          "trinucleotide repeat containing 13"
+        ],
+        "gene_symbol": "ATXN2",
+        "hgnc_symbol": "ATXN2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:111890018-112037480",
+              "ensembl_id": "ENSG00000204842"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:111452214-111599676",
+              "ensembl_id": "ENSG00000204842"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-13"
+      },
+      "entity_type": "str",
+      "entity_name": "ATXN2_CAG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "{Parkinson disease, late-onset, susceptibility to}, OMIM:168600"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "repeated_sequence": "CAG",
+      "chromosome": "12",
+      "grch37_coordinates": [
+        112036755,
+        112036823
+      ],
+      "grch38_coordinates": [
+        111598951,
+        111599019
+      ],
+      "normal_repeats": 32,
+      "pathogenic_repeats": 35,
+      "tags": [
+        "STR"
+      ]
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ATX3",
+          "JOS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7106",
+        "gene_name": "ataxin 3",
+        "omim_gene": [
+          "607047"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ATXN3",
+        "hgnc_symbol": "ATXN3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:92524896-92572965",
+              "ensembl_id": "ENSG00000066427"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:92038652-92106621",
+              "ensembl_id": "ENSG00000066427"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-13"
+      },
+      "entity_type": "str",
+      "entity_name": "ATXN3_CAG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Machado-Joseph disease, OMIM:109150"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "repeated_sequence": "CAG",
+      "chromosome": "14",
+      "grch37_coordinates": [
+        92537355,
+        92537396
+      ],
+      "grch38_coordinates": [
+        92071011,
+        92071052
+      ],
+      "normal_repeats": 45,
+      "pathogenic_repeats": 60,
+      "tags": [
+        "STR"
+      ]
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC23980",
+          "DENNL72"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28337",
+        "gene_name": "chromosome 9 open reading frame 72",
+        "omim_gene": [
+          "614260"
+        ],
+        "alias_name": null,
+        "gene_symbol": "C9orf72",
+        "hgnc_symbol": "C9orf72",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:27546544-27573864",
+              "ensembl_id": "ENSG00000147894"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:27546545-27573866",
+              "ensembl_id": "ENSG00000147894"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-01-06"
+      },
+      "entity_type": "str",
+      "entity_name": "C9orf72_GGGGCC",
+      "confidence_level": "3",
+      "penetrance": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Frontotemporal dementia and/or amyotrophic lateral sclerosis 1, OMIM:105550"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "repeated_sequence": "GGGGCC",
+      "chromosome": "9",
+      "grch37_coordinates": [
+        27573527,
+        27573544
+      ],
+      "grch38_coordinates": [
+        27573529,
+        27573546
+      ],
+      "normal_repeats": 24,
+      "pathogenic_repeats": 200,
+      "tags": [
+        "STR"
+      ]
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IT15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4851",
+        "gene_name": "huntingtin",
+        "omim_gene": [
+          "613004"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HTT",
+        "hgnc_symbol": "HTT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:3076408-3245676",
+              "ensembl_id": "ENSG00000197386"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:3074681-3243959",
+              "ensembl_id": "ENSG00000197386"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-12-04"
+      },
+      "entity_type": "str",
+      "entity_name": "HTT_CAG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "publications": [
+        "24256063"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Huntington disease, OMIM:143100"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "repeated_sequence": "CAG",
+      "chromosome": "4",
+      "grch37_coordinates": [
+        3076604,
+        3076666
+      ],
+      "grch38_coordinates": [
+        3074877,
+        3074939
+      ],
+      "normal_repeats": 36,
+      "pathogenic_repeats": 40,
+      "tags": [
+        "STR"
+      ]
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JP-3",
+          "CAGL237",
+          "HDL2",
+          "JP3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14203",
+        "gene_name": "junctophilin 3",
+        "omim_gene": [
+          "605268"
+        ],
+        "alias_name": null,
+        "gene_symbol": "JPH3",
+        "hgnc_symbol": "JPH3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:87635441-87731762",
+              "ensembl_id": "ENSG00000154118"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:87601835-87698156",
+              "ensembl_id": "ENSG00000154118"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-12-08"
+      },
+      "entity_type": "str",
+      "entity_name": "JPH3_CTG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Huntington disease-like 2, OMIM:606438"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "repeated_sequence": "CTG",
+      "chromosome": "16",
+      "grch37_coordinates": [
+        87637894,
+        87637932
+      ],
+      "grch38_coordinates": [
+        87604288,
+        87604326
+      ],
+      "normal_repeats": 29,
+      "pathogenic_repeats": 40,
+      "tags": [
+        "STR"
+      ]
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PR55-BETA",
+          "PR52B",
+          "B55beta"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9305",
+        "gene_name": "protein phosphatase 2 regulatory subunit Bbeta",
+        "omim_gene": [
+          "604325"
+        ],
+        "alias_name": [
+          "PP2A subunit B isoform beta"
+        ],
+        "gene_symbol": "PPP2R2B",
+        "hgnc_symbol": "PPP2R2B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:145967936-146464347",
+              "ensembl_id": "ENSG00000156475"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:146581146-147084784",
+              "ensembl_id": "ENSG00000156475"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-01-25"
+      },
+      "entity_type": "str",
+      "entity_name": "PPP2R2B_CAG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Spinocerebellar ataxia 12, OMIM:604326"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "repeated_sequence": "CAG",
+      "chromosome": "5",
+      "grch37_coordinates": [
+        146258292,
+        146258321
+      ],
+      "grch38_coordinates": [
+        146878729,
+        146878758
+      ],
+      "normal_repeats": 33,
+      "pathogenic_repeats": 43,
+      "tags": [
+        "STR"
+      ]
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TFIID"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11588",
+        "gene_name": "TATA-box binding protein",
+        "omim_gene": [
+          "600075"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TBP",
+        "hgnc_symbol": "TBP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:170863390-170881958",
+              "ensembl_id": "ENSG00000112592"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:170554302-170572870",
+              "ensembl_id": "ENSG00000112592"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-05-26"
+      },
+      "entity_type": "str",
+      "entity_name": "TBP_CAG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "publications": [
+        "20301611",
+        "34906452",
+        "35493319"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Spinocerebellar ataxia 17, OMIM:607136",
+        "{Parkinson disease, susceptibility to}, OMIM:168600"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "repeated_sequence": "CAG",
+      "chromosome": "6",
+      "grch37_coordinates": [
+        170870996,
+        170871109
+      ],
+      "grch38_coordinates": [
+        170561908,
+        170562021
+      ],
+      "normal_repeats": 41,
+      "pathogenic_repeats": 49,
+      "tags": [
+        "STR"
+      ]
+    }
+  ],
+  "regions": []
+}

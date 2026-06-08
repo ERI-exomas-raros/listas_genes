@@ -1,0 +1,692 @@
+{
+  "id": 480,
+  "hash_id": null,
+  "name": "Familial hyperparathyroidism or hypocalciuric hypercalcaemia",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.8",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Familial hyperparathyroidism",
+    "Hypocalciuric hypercalcaemia",
+    "R151"
+  ],
+  "stats": {
+    "number_of_genes": 11,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "FBHOk",
+          "FBH3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:565",
+        "gene_name": "adaptor related protein complex 2 sigma 1 subunit",
+        "omim_gene": [
+          "602242"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AP2S1",
+        "hgnc_symbol": "AP2S1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:47341393-47354249",
+              "ensembl_id": "ENSG00000042753"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:46838136-46850992",
+              "ensembl_id": "ENSG00000042753"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AP2S1",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23222959",
+        "24081735",
+        "25162666",
+        "25993639",
+        "26082470",
+        "26963950",
+        "28176280",
+        "28740527",
+        "33729479"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Hypocalciuric hypercalcemia, type III, OMIM:600740"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FHH",
+          "NSHPT",
+          "GPRC2A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1514",
+        "gene_name": "calcium sensing receptor",
+        "omim_gene": [
+          "601199"
+        ],
+        "alias_name": [
+          "severe neonatal hyperparathyroidism"
+        ],
+        "gene_symbol": "CASR",
+        "hgnc_symbol": "CASR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:121902530-122005342",
+              "ensembl_id": "ENSG00000036828"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:122183683-122291629",
+              "ensembl_id": "ENSG00000036828"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "CASR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15292296",
+        "7916660",
+        "9253359",
+        "8675635",
+        "25162666",
+        "28740527",
+        "7874174",
+        "7916660",
+        "19423559",
+        "9011580",
+        "7717399"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hyperparathyroidism, neonatal, OMIM:239200",
+        "Hypocalcemia, autosomal dominant, OMIM:601198",
+        "Hypocalcemia, autosomal dominant, with Bartter syndrome, OMIM:601198",
+        "Hypocalciuric hypercalcemia, type I, OMIM:145980",
+        "Familial isolated hyperparathyroidism",
+        "FHH1"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "parafibromin",
+          "FIHP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16783",
+        "gene_name": "cell division cycle 73",
+        "omim_gene": [
+          "607393"
+        ],
+        "alias_name": [
+          "Paf1/RNA polymerase II complex component"
+        ],
+        "gene_symbol": "CDC73",
+        "hgnc_symbol": "CDC73",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:193091147-193223031",
+              "ensembl_id": "ENSG00000134371"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:193122017-193253901",
+              "ensembl_id": "ENSG00000134371"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDC73",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12434154",
+        "15531515",
+        "20052758",
+        "28740527"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hyperparathyroidism, familial primary (145000)",
+        "Hyperparathyroidism-jaw tumor syndrome (145001)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIP1",
+          "P27KIP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1785",
+        "gene_name": "cyclin dependent kinase inhibitor 1B",
+        "omim_gene": [
+          "600778"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDKN1B",
+        "hgnc_symbol": "CDKN1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:12867992-12875305",
+              "ensembl_id": "ENSG00000111276"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:12715058-12722371",
+              "ensembl_id": "ENSG00000111276"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDKN1B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28740527",
+        "25162666"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Multiple endocrine neoplasia, type IV, OMIM:610755"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hGCMb"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4198",
+        "gene_name": "glial cells missing homolog 2",
+        "omim_gene": [
+          "603716"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GCM2",
+        "hgnc_symbol": "GCM2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:10873456-10882174",
+              "ensembl_id": "ENSG00000124827"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:10873223-10881941",
+              "ensembl_id": "ENSG00000124827"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "GCM2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27745835",
+        "29264504",
+        "14715834",
+        "29199197",
+        "31671402"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hypoparathyroidism, familial isolated (146200)",
+        "Hyperparathyroidism 4 (617343)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FBH",
+          "FBH2",
+          "FHH2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4379",
+        "gene_name": "G protein subunit alpha 11",
+        "omim_gene": [
+          "139313"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GNA11",
+        "hgnc_symbol": "GNA11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:3094408-3124002",
+              "ensembl_id": "ENSG00000088256"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:3094410-3124004",
+              "ensembl_id": "ENSG00000088256"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-07-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNA11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23222959",
+        "26729423"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hypocalcemia, autosomal dominant 2, OMIM:615361",
+        "Hypocalciuric hypercalcemia, type II, OMIM:145981"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7010",
+        "gene_name": "menin 1",
+        "omim_gene": [
+          "613733"
+        ],
+        "alias_name": [
+          "menin"
+        ],
+        "gene_symbol": "MEN1",
+        "hgnc_symbol": "MEN1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:64570982-64578766",
+              "ensembl_id": "ENSG00000133895"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:64803510-64811294",
+              "ensembl_id": "ENSG00000133895"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MEN1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28740527",
+        "25162666"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Multiple endocrine neoplasia 1 (131100)",
+        "Familial isolated hyperparathyroidism"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PTC",
+          "CDHF12",
+          "RET51",
+          "CDHR16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9967",
+        "gene_name": "ret proto-oncogene",
+        "omim_gene": [
+          "164761"
+        ],
+        "alias_name": [
+          "cadherin-related family member 16",
+          "RET receptor tyrosine kinase",
+          "rearranged during transfection"
+        ],
+        "gene_symbol": "RET",
+        "hgnc_symbol": "RET",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:43572475-43625799",
+              "ensembl_id": "ENSG00000165731"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:43077027-43130351",
+              "ensembl_id": "ENSG00000165731"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-07-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "RET",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "28740527",
+        "25162666"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Multiple endocrine neoplasia IIB (162300)",
+        "Multiple endocrine neoplasia IIA (171400)/MEN3"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P21",
+          "CIP1",
+          "WAF1",
+          "SDI1",
+          "CAP20",
+          "p21CIP1",
+          "p21Cip1/Waf1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1784",
+        "gene_name": "cyclin dependent kinase inhibitor 1A",
+        "omim_gene": [
+          "116899"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDKN1A",
+        "hgnc_symbol": "CDKN1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:36644305-36655116",
+              "ensembl_id": "ENSG00000124762"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:36676460-36687339",
+              "ensembl_id": "ENSG00000124762"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-05-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDKN1A",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19141585",
+        "23715670",
+        "30536424"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "No OMIM number",
+        "Multiple endocrine neoplasia 1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P15",
+          "MTS2",
+          "INK4B",
+          "TP15",
+          "CDK4I",
+          "p15INK4b"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1788",
+        "gene_name": "cyclin dependent kinase inhibitor 2B",
+        "omim_gene": [
+          "600431"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDKN2B",
+        "hgnc_symbol": "CDKN2B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:22002902-22009362",
+              "ensembl_id": "ENSG00000147883"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:22002903-22009363",
+              "ensembl_id": "ENSG00000147883"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-06-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDKN2B",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19141585",
+        "23715670",
+        "30536424"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "No OMIM number",
+        "Multiple endocrine neoplasia 1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "INK4C",
+          "p18"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1789",
+        "gene_name": "cyclin dependent kinase inhibitor 2C",
+        "omim_gene": [
+          "603369"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDKN2C",
+        "hgnc_symbol": "CDKN2C",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:51426417-51440305",
+              "ensembl_id": "ENSG00000123080"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:50960745-50974633",
+              "ensembl_id": "ENSG00000123080"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDKN2C",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19141585",
+        "23715670",
+        "30536424"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "No OMIM number",
+        "Multiple endocrine neoplasia 1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

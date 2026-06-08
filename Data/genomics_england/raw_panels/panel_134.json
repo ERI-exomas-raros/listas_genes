@@ -1,0 +1,1212 @@
+{
+  "id": 134,
+  "hash_id": "55a3876e22c1fc63fec6d0da",
+  "name": "Arrhythmogenic right ventricular cardiomyopathy",
+  "disease_group": "Cardiology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.16",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Arrhythmogenic cardiomyopathy",
+    "R133"
+  ],
+  "stats": {
+    "number_of_genes": 20,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "Component Of Super Panel",
+      "slug": "component-of-super-panel",
+      "description": "This panel is a component of a Super Panel"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "CMD1I",
+          "CSM1",
+          "CSM2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2770",
+        "gene_name": "desmin",
+        "omim_gene": [
+          "125660"
+        ],
+        "alias_name": [
+          "intermediate filament protein"
+        ],
+        "gene_symbol": "DES",
+        "hgnc_symbol": "DES",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:220283099-220291461",
+              "ensembl_id": "ENSG00000175084"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:219418377-219426739",
+              "ensembl_id": "ENSG00000175084"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "DES",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29567486",
+        "23168288",
+        "30370089",
+        "20829228",
+        "25921558",
+        "29212896"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "Expert Review Green",
+        "UKGTN",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, dilated, 1I (604765)",
+        "Myopathy, myofibrillar, 1 (601419)",
+        "Scapuloperoneal syndrome, neurogenic, Kaeser type (181400)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDHF2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3036",
+        "gene_name": "desmocollin 2",
+        "omim_gene": [
+          "125645"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSC2",
+        "hgnc_symbol": "DSC2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:28645940-28682378",
+              "ensembl_id": "ENSG00000134755"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:31058840-31102415",
+              "ensembl_id": "ENSG00000134755"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSC2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "23500315",
+        "29567486"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Expert list",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Arrhythmogenic right ventricular dysplasia 11",
+        "Arrhythmogenic right ventricular dysplasia 11 (610476)",
+        "Arrhythmogenic right ventricular dysplasia 11 with mild palmoplantar keratoderma and woolly hair",
+        "Arrhythmogenic right ventricular dysplasia 11 with mild palmoplantar keratoderma and woolly hair (610476)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDHF5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3049",
+        "gene_name": "desmoglein 2",
+        "omim_gene": [
+          "125671"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSG2",
+        "hgnc_symbol": "DSG2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:29078006-29128971",
+              "ensembl_id": "ENSG00000046604"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:31498043-31549008",
+              "ensembl_id": "ENSG00000046604"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-11-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSG2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "23500315",
+        "29567486"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, dilated, 1BB (612877)",
+        "Arrhythmogenic right ventricular dysplasia 10",
+        "Arrhythmogenic right ventricular dysplasia 10 (610193)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KPPS2",
+          "PPKS2",
+          "DPI",
+          "DPII"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3052",
+        "gene_name": "desmoplakin",
+        "omim_gene": [
+          "125647"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSP",
+        "hgnc_symbol": "DSP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:7541808-7586950",
+              "ensembl_id": "ENSG00000096696"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:7541575-7586717",
+              "ensembl_id": "ENSG00000096696"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSP",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "23500315",
+        "35348702"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Arrhythmogenic right ventricular dysplasia 8, OMIM:607450 (AD)",
+        "Cardiomyopathy, dilated, with woolly hair and keratoderma, OMIM:605676 (AR)",
+        "Dilated cardiomyopathy with woolly hair, keratoderma, and tooth agenesis, OMIM:615821 (AD)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ABP-280",
+          "ABPL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3756",
+        "gene_name": "filamin C",
+        "omim_gene": [
+          "102565"
+        ],
+        "alias_name": [
+          "actin binding protein 280",
+          "gamma filamin"
+        ],
+        "gene_symbol": "FLNC",
+        "hgnc_symbol": "FLNC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:128470431-128499328",
+              "ensembl_id": "ENSG00000128591"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:128830377-128859274",
+              "ensembl_id": "ENSG00000128591"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLNC",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27908349",
+        "26666891",
+        "31924696"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic, 26, OMIM:617047",
+        "Cardiomyopathy, familial restrictive 5, OMIM:617047",
+        "Hypertrophic cardiomyopathy 26, MONDO:0014883"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DP3",
+          "PDGB",
+          "PKGB",
+          "DPIII"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6207",
+        "gene_name": "junction plakoglobin",
+        "omim_gene": [
+          "173325"
+        ],
+        "alias_name": null,
+        "gene_symbol": "JUP",
+        "hgnc_symbol": "JUP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:39775692-39943183",
+              "ensembl_id": "ENSG00000173801"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:41754604-41786931",
+              "ensembl_id": "ENSG00000173801"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "JUP",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "23500315"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "UKGTN",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Naxos disease, OMIM:601214",
+        "Arrhythmogenic right ventricular dysplasia 12, OMIM:611528"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HGPS",
+          "MADA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6636",
+        "gene_name": "lamin A/C",
+        "omim_gene": [
+          "150330"
+        ],
+        "alias_name": [
+          "mandibuloacral dysplasia type A"
+        ],
+        "gene_symbol": "LMNA",
+        "hgnc_symbol": "LMNA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:156052364-156109880",
+              "ensembl_id": "ENSG00000160789"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:156082573-156140089",
+              "ensembl_id": "ENSG00000160789"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "LMNA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "35348702"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "London South GLH",
+        "UKGTN",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "LMNA-related DCM"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9024",
+        "gene_name": "plakophilin 2",
+        "omim_gene": [
+          "602861"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PKP2",
+        "hgnc_symbol": "PKP2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:32943679-33049774",
+              "ensembl_id": "ENSG00000057294"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:32790745-32896840",
+              "ensembl_id": "ENSG00000057294"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-08-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "PKP2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "23500315"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Arrhythmogenic right ventricular dysplasia 9 (609040)",
+        "Arrhythmogenic right ventricular cardiomyopathy",
+        "Arrhythmogenic right ventricular dysplasia 9"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMD1P"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9080",
+        "gene_name": "phospholamban",
+        "omim_gene": [
+          "172405"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLN",
+        "hgnc_symbol": "PLN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:118869461-118881893",
+              "ensembl_id": "ENSG00000198523"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:118548298-118560730",
+              "ensembl_id": "ENSG00000198523"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22820313",
+        "28102477",
+        "23595706",
+        "23568436",
+        "24909667",
+        "25700660",
+        "30763825",
+        "28102477"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "London South GLH",
+        "Wessex and West Midlands GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, dilated, 1P (609909)",
+        "Cardiomyopathy, hypertrophic, 18 (613874)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "founder-effect"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC3222",
+          "DKFZp586G1919",
+          "LUMA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28472",
+        "gene_name": "transmembrane protein 43",
+        "omim_gene": [
+          "612048"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TMEM43",
+        "hgnc_symbol": "TMEM43",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:14166440-14185179",
+              "ensembl_id": "ENSG00000170876"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:14124940-14143679",
+              "ensembl_id": "ENSG00000170876"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMEM43",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "23812740",
+        "29567486",
+        "26840987"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "UKGTN",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Arrhythmogenic right ventricular dysplasia 5 (604400)",
+        "Arrhythmogenic right ventricular dysplasia 5",
+        "Emery-Dreifuss muscular dystrophy 7, AD (614302)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:493",
+        "gene_name": "ankyrin 2",
+        "omim_gene": [
+          "106410"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANK2",
+        "hgnc_symbol": "ANK2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:113739265-114304896",
+              "ensembl_id": "ENSG00000145362"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:112818109-113383740",
+              "ensembl_id": "ENSG00000145362"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANK2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDHN",
+          "CD325"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1759",
+        "gene_name": "cadherin 2",
+        "omim_gene": [
+          "114020"
+        ],
+        "alias_name": [
+          "N-cadherin"
+        ],
+        "gene_symbol": "CDH2",
+        "hgnc_symbol": "CDH2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:25530930-25757410",
+              "ensembl_id": "ENSG00000170558"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:27950966-28177446",
+              "ensembl_id": "ENSG00000170558"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDH2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28326674",
+        "28280076",
+        "24294380"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Arrhythmogenic right ventricular dysplasia, familial, 14, 618920"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cavin-4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:33742",
+        "gene_name": "caveolae associated protein 4",
+        "omim_gene": [
+          "617714"
+        ],
+        "alias_name": [
+          "muscle-restricted coiled-coil protein"
+        ],
+        "gene_symbol": "CAVIN4",
+        "hgnc_symbol": "CAVIN4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:103340361-103350188",
+              "ensembl_id": "ENSG00000170681"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:100578079-100587906",
+              "ensembl_id": "ENSG00000170681"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-03-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "CAVIN4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VR22",
+          "MGC26194"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2511",
+        "gene_name": "catenin alpha 3",
+        "omim_gene": [
+          "607667"
+        ],
+        "alias_name": [
+          "alpha-T-catenin"
+        ],
+        "gene_symbol": "CTNNA3",
+        "hgnc_symbol": "CTNNA3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:67672276-69455927",
+              "ensembl_id": "ENSG00000183230"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:65912518-67696169",
+              "ensembl_id": "ENSG00000183230"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-03-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTNNA3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Arrhythmogenic right ventricular dysplasia, familial, 13,"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PDLIM6",
+          "KIAA0613",
+          "ZASP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15710",
+        "gene_name": "LIM domain binding 3",
+        "omim_gene": [
+          "605906"
+        ],
+        "alias_name": [
+          "cypher",
+          "oracle",
+          "Z-band alternatively spliced PDZ motif protein"
+        ],
+        "gene_symbol": "LDB3",
+        "hgnc_symbol": "LDB3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:88428206-88495825",
+              "ensembl_id": "ENSG00000122367"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:86668449-86736068",
+              "ensembl_id": "ENSG00000122367"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "LDB3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:27424",
+        "gene_name": "RNA binding motif protein 20",
+        "omim_gene": [
+          "613171"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RBM20",
+        "hgnc_symbol": "RBM20",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:112404155-112599227",
+              "ensembl_id": "ENSG00000203867"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:110644397-110839469",
+              "ensembl_id": "ENSG00000203867"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-04-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "RBM20",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29650543",
+        "22466703",
+        "22561820",
+        "30482687"
+      ],
+      "evidence": [
+        "London South GLH"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, dilated, 1DD 613172"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARVC2",
+          "VTSIP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10484",
+        "gene_name": "ryanodine receptor 2",
+        "omim_gene": [
+          "180902"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RYR2",
+        "hgnc_symbol": "RYR2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:237205505-237997288",
+              "ensembl_id": "ENSG00000198626"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:237042205-237833988",
+              "ensembl_id": "ENSG00000198626"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "RYR2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "http://www.ncbi.nlm.nih.gov/books/NBK1131/",
+        "19926015",
+        "17875969",
+        "29567486",
+        "28404607"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "South West GLH",
+        "London South GLH",
+        "Wessex and West Midlands GLH",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Arrhythmogenic right ventricular dysplasia 2",
+        "Arrhythmogenic right ventricular dysplasia 2 (600996)",
+        "Ventricular tachycardia, catecholaminergic polymorphic, 1 (604772)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "deletions"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Nav1.5",
+          "LQT3",
+          "HB1",
+          "HBBD",
+          "PFHB1",
+          "IVF",
+          "HB2",
+          "HH1",
+          "SSS1",
+          "CDCD2",
+          "CMPD2",
+          "ICCD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10593",
+        "gene_name": "sodium voltage-gated channel alpha subunit 5",
+        "omim_gene": [
+          "600163"
+        ],
+        "alias_name": [
+          "long QT syndrome 3"
+        ],
+        "gene_symbol": "SCN5A",
+        "hgnc_symbol": "SCN5A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:38589548-38691164",
+              "ensembl_id": "ENSG00000183873"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:38548057-38649673",
+              "ensembl_id": "ENSG00000183873"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN5A",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24317018",
+        "doi:10.​1007/​s12265-016-9673-5",
+        "26916278",
+        "28069705"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Arrhythmogenic right ventricular cardiomyopathy",
+        "Long QT syndrome",
+        "Brugada syndrome",
+        "Dilated cardiomyopathy",
+        "Arrhythmogenic right ventricular cardiomyopathy"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11769",
+        "gene_name": "transforming growth factor beta 3",
+        "omim_gene": [
+          "190230"
+        ],
+        "alias_name": [
+          "prepro-transforming growth factor beta-3"
+        ],
+        "gene_symbol": "TGFB3",
+        "hgnc_symbol": "TGFB3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:76424442-76449334",
+              "ensembl_id": "ENSG00000119699"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:75958099-75982991",
+              "ensembl_id": "ENSG00000119699"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "TGFB3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "Expert Review Red",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Arrhythmogenic right ventricular dysplasia 1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMPD4",
+          "FLJ32040",
+          "TMD",
+          "CMH9",
+          "LGMD2J",
+          "MYLK5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12403",
+        "gene_name": "titin",
+        "omim_gene": [
+          "188840"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTN",
+        "hgnc_symbol": "TTN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:179390716-179695529",
+              "ensembl_id": "ENSG00000155657"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:178525989-178830802",
+              "ensembl_id": "ENSG00000155657"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30535219",
+        "31251381",
+        "33106378"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, dilated, 1G, 604145"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

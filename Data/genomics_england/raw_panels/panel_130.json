@@ -1,0 +1,2777 @@
+{
+  "id": 130,
+  "hash_id": "55d2fc2d22c1fc2cc6635960",
+  "name": "Severe early-onset obesity",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "6.1",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Significant early-onset obesity with or without other endocrine features and short stature",
+    "Significant early-onset obesity +/- other endocrine features and short stature",
+    "R149"
+  ],
+  "stats": {
+    "number_of_genes": 48,
+    "number_of_strs": 0,
+    "number_of_regions": 3
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "AC3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:234",
+        "gene_name": "adenylate cyclase 3",
+        "omim_gene": [
+          "600291"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADCY3",
+        "hgnc_symbol": "ADCY3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:25042038-25142708",
+              "ensembl_id": "ENSG00000138031"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:24819169-24919839",
+              "ensembl_id": "ENSG00000138031"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADCY3",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29311636",
+        "29311637",
+        "35026759"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Monogenic severe obesity",
+        "{Obesity, susceptibility to, BMIQ19}, OMIM:617885"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0328"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:428",
+        "gene_name": "ALMS1, centrosome and basal body associated protein",
+        "omim_gene": [
+          "606844"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALMS1",
+        "hgnc_symbol": "ALMS1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:73612886-73837920",
+              "ensembl_id": "ENSG00000116127"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:73385758-73610793",
+              "ensembl_id": "ENSG00000116127"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALMS1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Alstrom syndrome, OMIM:203800"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RP55"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13210",
+        "gene_name": "ADP ribosylation factor like GTPase 6",
+        "omim_gene": [
+          "608845"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ARL6",
+        "hgnc_symbol": "ARL6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:97483365-97519953",
+              "ensembl_id": "ENSG00000113966"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:97764521-97801242",
+              "ensembl_id": "ENSG00000113966"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARL6",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Obesity",
+        "Bardet-Biedl syndrome 3, OMIM:600151"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ23590"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:966",
+        "gene_name": "Bardet-Biedl syndrome 1",
+        "omim_gene": [
+          "209901"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBS1",
+        "hgnc_symbol": "BBS1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:66278077-66301098",
+              "ensembl_id": "ENSG00000174483"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:66510606-66533627",
+              "ensembl_id": "ENSG00000174483"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-01-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Bardet-Biedl syndrome 1 OMIM:209900",
+        "Bardet-Biedl syndrome 1 MONDO:0008854"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ23560"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26291",
+        "gene_name": "Bardet-Biedl syndrome 10",
+        "omim_gene": [
+          "610148"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBS10",
+        "hgnc_symbol": "BBS10",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:76738254-76742222",
+              "ensembl_id": "ENSG00000179941"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:76344474-76348442",
+              "ensembl_id": "ENSG00000179941"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-04-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS10",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "obesity",
+        "Bardet-Biedl syndrome 10, OMIM:615987"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ35630",
+          "FLJ41559"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26648",
+        "gene_name": "Bardet-Biedl syndrome 12",
+        "omim_gene": [
+          "610683"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBS12",
+        "hgnc_symbol": "BBS12",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:123653857-123666098",
+              "ensembl_id": "ENSG00000181004"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:122732702-122744943",
+              "ensembl_id": "ENSG00000181004"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS12",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "obesity",
+        "Bardet-Biedl syndrome 12, OMIM:615989"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:967",
+        "gene_name": "Bardet-Biedl syndrome 2",
+        "omim_gene": [
+          "606151"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBS2",
+        "hgnc_symbol": "BBS2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:56500748-56554195",
+              "ensembl_id": "ENSG00000125124"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:56466836-56520283",
+              "ensembl_id": "ENSG00000125124"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-10-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Obesity",
+        "Bardet-Biedl syndrome 2, OMIM:615981"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:969",
+        "gene_name": "Bardet-Biedl syndrome 4",
+        "omim_gene": [
+          "600374"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBS4",
+        "hgnc_symbol": "BBS4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:72978527-73030817",
+              "ensembl_id": "ENSG00000140463"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:72686179-72738476",
+              "ensembl_id": "ENSG00000140463"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Obesity",
+        "Bardet-Biedl syndrome 4, OMIM:615982"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp762I194"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:970",
+        "gene_name": "Bardet-Biedl syndrome 5",
+        "omim_gene": [
+          "603650"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBS5",
+        "hgnc_symbol": "BBS5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:170335688-170382432",
+              "ensembl_id": "ENSG00000163093"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:169479178-169506655",
+              "ensembl_id": "ENSG00000163093"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Obesity",
+        "Bardet-Biedl syndrome 5, OMIM:615983"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10715",
+          "BBS2L1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18758",
+        "gene_name": "Bardet-Biedl syndrome 7",
+        "omim_gene": [
+          "607590"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBS7",
+        "hgnc_symbol": "BBS7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:122745595-122791652",
+              "ensembl_id": "ENSG00000138686"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:121824440-121870497",
+              "ensembl_id": "ENSG00000138686"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-02-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS7",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Obesity",
+        "Bardet-Biedl syndrome 7, OMIM:615984"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B1",
+          "PTHB1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30000",
+        "gene_name": "Bardet-Biedl syndrome 9",
+        "omim_gene": [
+          "607968"
+        ],
+        "alias_name": [
+          "parathyroid hormone responsive B1 gene"
+        ],
+        "gene_symbol": "BBS9",
+        "hgnc_symbol": "BBS9",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:33168856-33645680",
+              "ensembl_id": "ENSG00000122507"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:33129244-33606068",
+              "ensembl_id": "ENSG00000122507"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS9",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Obesity",
+        "Bardet-Biedl syndrome 9, OMIM:615986"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC14126"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28209",
+        "gene_name": "centrosomal protein 19",
+        "omim_gene": [
+          "615586"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CEP19",
+        "hgnc_symbol": "CEP19",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:196433148-196439164",
+              "ensembl_id": "ENSG00000174007"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:196706277-196712293",
+              "ensembl_id": "ENSG00000174007"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-05-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "CEP19",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29127258",
+        "24268657"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Morbid obesity and spermatogenic failure, OMIM:615703"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2303",
+        "gene_name": "carboxypeptidase E",
+        "omim_gene": [
+          "114855"
+        ],
+        "alias_name": [
+          "carboxypeptidase H",
+          "enkephalin convertase",
+          "insulin granule-associated carboxypeptidase",
+          "cobalt-stimulated chromaffin granule carboxypeptidase"
+        ],
+        "gene_symbol": "CPE",
+        "hgnc_symbol": "CPE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:166282346-166419472",
+              "ensembl_id": "ENSG00000109472"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:165361194-165498320",
+              "ensembl_id": "ENSG00000109472"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "CPE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15870393",
+        "15358678",
+        "26120850",
+        "32936766",
+        "34383079"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Intellectual developmental disorder and hypogonadotropic hypogonadism, OMIM:619326"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MIRK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3092",
+        "gene_name": "dual specificity tyrosine phosphorylation regulated kinase 1B",
+        "omim_gene": [
+          "604556"
+        ],
+        "alias_name": [
+          "minibrain-related kinase"
+        ],
+        "gene_symbol": "DYRK1B",
+        "hgnc_symbol": "DYRK1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:40315990-40324841",
+              "ensembl_id": "ENSG00000105204"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:39825350-39834201",
+              "ensembl_id": "ENSG00000105204"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-01-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "DYRK1B",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34193236",
+        "34786696",
+        "24827035"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Abdominal obesity-metabolic syndrome 3, OMIM:615812"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NESP55",
+          "NESP",
+          "GNASXL",
+          "GPSA",
+          "SCG6",
+          "SgVI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4392",
+        "gene_name": "GNAS complex locus",
+        "omim_gene": [
+          "139320"
+        ],
+        "alias_name": [
+          "secretogranin VI",
+          "G protein subunit alpha S"
+        ],
+        "gene_symbol": "GNAS",
+        "hgnc_symbol": "GNAS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:57414773-57486247",
+              "ensembl_id": "ENSG00000087460"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:58839718-58911192",
+              "ensembl_id": "ENSG00000087460"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNAS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27991864",
+        "28663568",
+        "28453643"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Pseudohypoparathyroidism Ia, OMIM:103580",
+        "pseudohypoparathyroidism type 1A, MONDO:0007078",
+        "Pseudohypoparathyroidism Ic, OMIM:612462",
+        "pseudohypoparathyroidism type 1C, MONDO:0012911",
+        "Pseudopseudohypoparathyroidism, OMIM:612463",
+        "pseudopseudohypoparathyroidism, MONDO:0012912"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARMS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29508",
+        "gene_name": "kinase D interacting substrate 220",
+        "omim_gene": [
+          "615759"
+        ],
+        "alias_name": [
+          "ankyrin repeat-rich membrane-spanning protein"
+        ],
+        "gene_symbol": "KIDINS220",
+        "hgnc_symbol": "KIDINS220",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:8865408-8977760",
+              "ensembl_id": "ENSG00000134313"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:8721081-8837630",
+              "ensembl_id": "ENSG00000134313"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-11-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "KIDINS220",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27005418",
+        "29667355",
+        "33763417"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Spastic paraplegia, intellectual disability, nystagmus, and obesity, OMIM:617296"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6553",
+        "gene_name": "leptin",
+        "omim_gene": [
+          "164160"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LEP",
+        "hgnc_symbol": "LEP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:127881337-127897681",
+              "ensembl_id": "ENSG00000174697"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:128241284-128257628",
+              "ensembl_id": "ENSG00000174697"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-01-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "LEP",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Obesity, morbid, due to leptin deficiency, OMIM:614962"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OBR",
+          "CD295"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6554",
+        "gene_name": "leptin receptor",
+        "omim_gene": [
+          "601007"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LEPR",
+        "hgnc_symbol": "LEPR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:65886248-66107242",
+              "ensembl_id": "ENSG00000116678"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:65420652-65641559",
+              "ensembl_id": "ENSG00000116678"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "LEPR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27225180",
+        "26925581",
+        "25751111",
+        "24611737",
+        "23275530"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Obesity, morbid, due to leptin receptor deficiency, OMIM:614963"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6932",
+        "gene_name": "melanocortin 4 receptor",
+        "omim_gene": [
+          "155541"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MC4R",
+        "hgnc_symbol": "MC4R",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:58038564-58040001",
+              "ensembl_id": "ENSG00000166603"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:60371110-60372775",
+              "ensembl_id": "ENSG00000166603"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "MC4R",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Obesity (BMIQ20), OMIM:618406",
+        "{Obesity, resistence to (BMIQ20)}, OMIM:618306"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7108",
+        "gene_name": "McKusick-Kaufman syndrome",
+        "omim_gene": [
+          "604896"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MKKS",
+        "hgnc_symbol": "MKKS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:10381657-10414870",
+              "ensembl_id": "ENSG00000125863"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:10401009-10434222",
+              "ensembl_id": "ENSG00000125863"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "MKKS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Obesity",
+        "Bardet-Biedl syndrome 6, OMIM:605231"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20345",
+          "POC12",
+          "BBS13"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7121",
+        "gene_name": "Meckel syndrome, type 1",
+        "omim_gene": [
+          "609883"
+        ],
+        "alias_name": [
+          "POC12 centriolar protein homolog (Chlamydomonas)"
+        ],
+        "gene_symbol": "MKS1",
+        "hgnc_symbol": "MKS1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:56282803-56296966",
+              "ensembl_id": "ENSG00000011143"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:58205437-58219605",
+              "ensembl_id": "ENSG00000011143"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "MKS1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Obesity",
+        "Bardet-Biedl syndrome 13, OMIM:615990"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1106",
+          "NZF1",
+          "ZC2HC4B",
+          "ZC2H2C2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7623",
+        "gene_name": "myelin transcription factor 1 like",
+        "omim_gene": [
+          "613084"
+        ],
+        "alias_name": [
+          "neural zinc finger transcription factor 1"
+        ],
+        "gene_symbol": "MYT1L",
+        "hgnc_symbol": "MYT1L",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:1792885-2335032",
+              "ensembl_id": "ENSG00000186487"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:1789113-2331260",
+              "ensembl_id": "ENSG00000186487"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-07-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYT1L",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26240977",
+        "25232846",
+        "26240977",
+        "25232846",
+        "25126114",
+        "24129437",
+        "21990140"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "obesity",
+        "Mental retardation, autosomal dominant 39, OMIM:616521"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRKB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8032",
+        "gene_name": "neurotrophic receptor tyrosine kinase 2",
+        "omim_gene": [
+          "600456"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NTRK2",
+        "hgnc_symbol": "NTRK2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:87283466-87638505",
+              "ensembl_id": "ENSG00000148053"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:84668551-85027070",
+              "ensembl_id": "ENSG00000148053"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "NTRK2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16702999",
+        "27884935",
+        "29100083",
+        "24950379",
+        "26727462",
+        "26629410",
+        "15494731"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Obesity, hyperphagia, and developmental delay, OMIM:613886"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PC1",
+          "PC3",
+          "SPC3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8743",
+        "gene_name": "proprotein convertase subtilisin/kexin type 1",
+        "omim_gene": [
+          "162150"
+        ],
+        "alias_name": [
+          "prohormone convertase 3",
+          "prohormone convertase 1",
+          "neuroendocrine convertase 1",
+          "proprotein convertase 1"
+        ],
+        "gene_symbol": "PCSK1",
+        "hgnc_symbol": "PCSK1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:95726119-95769847",
+              "ensembl_id": "ENSG00000175426"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:96390415-96434143",
+              "ensembl_id": "ENSG00000175426"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCSK1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30383237"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Obesity with impaired prohormone processing, OMIM:600955",
+        "obesity due to prohormone convertase I deficiency, MONDO:0010961",
+        "{Obesity, susceptibility to, BMIQ12},OMIM:612362"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ32029",
+          "BM32A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20898",
+        "gene_name": "phosphoglucomutase 2 like 1",
+        "omim_gene": [
+          "611610"
+        ],
+        "alias_name": [
+          "glucose-1,6-bisphosphate synthase"
+        ],
+        "gene_symbol": "PGM2L1",
+        "hgnc_symbol": "PGM2L1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:74041363-74109518",
+              "ensembl_id": "ENSG00000165434"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:74330318-74398473",
+              "ensembl_id": "ENSG00000165434"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-01-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "PGM2L1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33979636"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Neurodevelopmental disorder with hypotonia, dysmorphic facies, and skin abnormalities, OMIM:620191"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1823",
+          "MGC14797",
+          "CENP-31"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18145",
+        "gene_name": "PHD finger protein 6",
+        "omim_gene": [
+          "300414"
+        ],
+        "alias_name": [
+          "centromere protein 31"
+        ],
+        "gene_symbol": "PHF6",
+        "hgnc_symbol": "PHF6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:133507283-133562820",
+              "ensembl_id": "ENSG00000156531"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:134373253-134428791",
+              "ensembl_id": "ENSG00000156531"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-02-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "PHF6",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24092917",
+        "25099957"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Borjeson-Forssman-Lehmann syndrome, OMIM:301900"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ndrp",
+          "FLJ20705",
+          "DCAF14",
+          "BRWD2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15673",
+        "gene_name": "pleckstrin homology domain interacting protein",
+        "omim_gene": [
+          "612870"
+        ],
+        "alias_name": [
+          "DDB1 and CUL4 associated factor 14"
+        ],
+        "gene_symbol": "PHIP",
+        "hgnc_symbol": "PHIP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:79645584-79787953",
+              "ensembl_id": "ENSG00000146247"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:78935867-79078236",
+              "ensembl_id": "ENSG00000146247"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-05-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "PHIP",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27900362",
+        "29209020",
+        "31167805",
+        "32492392",
+        "33867250"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Obesity",
+        "global developmental delay",
+        "intellectual disability",
+        "behavioral abnormality",
+        "dysmorphic facies"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MSH",
+          "POC",
+          "CLIP",
+          "ACTH",
+          "NPP",
+          "LPH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9201",
+        "gene_name": "proopiomelanocortin",
+        "omim_gene": [
+          "176830"
+        ],
+        "alias_name": [
+          "adrenocorticotropin",
+          "beta-lipotropin",
+          "alpha-melanocyte stimulating hormone",
+          "beta-melanocyte stimulating hormone",
+          "beta-endorphin",
+          "adrenocorticotropic hormone",
+          "opiomelanocortin prepropeptide"
+        ],
+        "gene_symbol": "POMC",
+        "hgnc_symbol": "POMC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:25383722-25391772",
+              "ensembl_id": "ENSG00000115138"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:25160853-25168903",
+              "ensembl_id": "ENSG00000115138"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "POMC",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "{Obesity, early-onset, susceptibility to}, OMIM:601665",
+        "Obesity, adrenal insufficiency, and red hair due to POMC deficiency, OMIM:609734"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NY-CO-8",
+          "CCCAP",
+          "SLSN7",
+          "NPHP10",
+          "BBS16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10671",
+        "gene_name": "serologically defined colon cancer antigen 8",
+        "omim_gene": [
+          "613524"
+        ],
+        "alias_name": [
+          "centrosomal colon cancer autoantigen protein",
+          "Bardet-Biedl syndrome 16",
+          "nephrocystin 10",
+          "Senior-Loken syndrome 7"
+        ],
+        "gene_symbol": "SDCCAG8",
+        "hgnc_symbol": "SDCCAG8",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:243419320-243663394",
+              "ensembl_id": "ENSG00000054282"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:243256034-243500092",
+              "ensembl_id": "ENSG00000054282"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-08-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDCCAG8",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Obesity",
+        "Bardet-Biedl syndrome 16, OMIM:615993"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "bHLHe14"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10882",
+        "gene_name": "single-minded family bHLH transcription factor 1",
+        "omim_gene": [
+          "603128"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SIM1",
+        "hgnc_symbol": "SIM1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:100832891-100912805",
+              "ensembl_id": "ENSG00000112246"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:100385015-100464929",
+              "ensembl_id": "ENSG00000112246"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SIM1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25805767",
+        "24814368",
+        "24260538",
+        "24097297",
+        "23778139",
+        "23778136",
+        "16924270"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review",
+        "Expert list",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "obesity",
+        "Congenital Obesity"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hsyn16",
+          "SYN16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11431",
+        "gene_name": "syntaxin 16",
+        "omim_gene": [
+          "603666"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STX16",
+        "hgnc_symbol": "STX16",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:57226328-57254582",
+              "ensembl_id": "ENSG00000124222"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:58651253-58679526",
+              "ensembl_id": "ENSG00000124222"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "STX16",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27338644",
+        "28453643"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Pseudohypoparathyroidism, type IB OMIM:603233",
+        "Obesity, HP:0001513"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BBS8",
+          "RP51"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20087",
+        "gene_name": "tetratricopeptide repeat domain 8",
+        "omim_gene": [
+          "608132"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTC8",
+        "hgnc_symbol": "TTC8",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:89290497-89344335",
+              "ensembl_id": "ENSG00000165533"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:88824153-88881078",
+              "ensembl_id": "ENSG00000165533"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTC8",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Obesity",
+        "Bardet-Biedl syndrome 8, OMIM:615985"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2183",
+        "gene_name": "vacuolar protein sorting 13 homolog B",
+        "omim_gene": [
+          "607817"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VPS13B",
+        "hgnc_symbol": "VPS13B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:100025494-100889808",
+              "ensembl_id": "ENSG00000132549"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:99013266-99877580",
+              "ensembl_id": "ENSG00000132549"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-04-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "VPS13B",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Obesity",
+        "Cohen syndrome, OMIM:216550"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0373",
+          "FLJ13615",
+          "3H11Ag",
+          "rd16",
+          "NPHP6",
+          "JBTS5",
+          "SLSN6",
+          "LCA10",
+          "MKS4",
+          "BBS14",
+          "CT87",
+          "POC3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29021",
+        "gene_name": "centrosomal protein 290",
+        "omim_gene": [
+          "610142"
+        ],
+        "alias_name": [
+          "Joubert syndrome 5",
+          "nephrocystin-6",
+          "cancer/testis antigen 87",
+          "POC3 centriolar protein homolog (Chlamydomonas)",
+          "Meckel syndrome, type 4",
+          "Bardet-Biedl syndrome 14"
+        ],
+        "gene_symbol": "CEP290",
+        "hgnc_symbol": "CEP290",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:88442793-88535993",
+              "ensembl_id": "ENSG00000198707"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:88049014-88142216",
+              "ensembl_id": "ENSG00000198707"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "CEP290",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23943788",
+        "18327255"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Congenital Obesity",
+        "?Bardet-Biedl syndrome 14, OMIM:615991"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4396",
+        "gene_name": "G protein subunit beta 1",
+        "omim_gene": [
+          "139380"
+        ],
+        "alias_name": [
+          "transducin beta chain 1",
+          "guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1"
+        ],
+        "gene_symbol": "GNB1",
+        "hgnc_symbol": "GNB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:1716729-1822495",
+              "ensembl_id": "ENSG00000078369"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:1785285-1891117",
+              "ensembl_id": "ENSG00000078369"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNB1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "38596856"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Obesity, HP:0001513"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PPI5PIV",
+          "CORS1",
+          "pharbin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21474",
+        "gene_name": "inositol polyphosphate-5-phosphatase E",
+        "omim_gene": [
+          "613037"
+        ],
+        "alias_name": null,
+        "gene_symbol": "INPP5E",
+        "hgnc_symbol": "INPP5E",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:139323071-139334274",
+              "ensembl_id": "ENSG00000148384"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:136428619-136439823",
+              "ensembl_id": "ENSG00000148384"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "INPP5E",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19668215",
+        "31173343"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Mental retardation, truncal obesity, retinal dystrophy, and micropenis, OMIM:610156"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ25965"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18610",
+        "gene_name": "kinase suppressor of ras 2",
+        "omim_gene": [
+          "610737"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KSR2",
+        "hgnc_symbol": "KSR2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:117890817-118406788",
+              "ensembl_id": "ENSG00000171435"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:117453012-117968983",
+              "ensembl_id": "ENSG00000171435"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "KSR2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29273807"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "obesity"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ30542",
+          "SH2B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30417",
+        "gene_name": "SH2B adaptor protein 1",
+        "omim_gene": [
+          "608937"
+        ],
+        "alias_name": [
+          "SH2-B homolog"
+        ],
+        "gene_symbol": "SH2B1",
+        "hgnc_symbol": "SH2B1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:28857921-28885526",
+              "ensembl_id": "ENSG00000178188"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:28846600-28874212",
+              "ensembl_id": "ENSG00000178188"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "SH2B1",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20808231",
+        "24971614",
+        "28663568",
+        "23160192"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "obesity",
+        "Severe early-onset obesity-insulin resistance syndrome due to SH2B1 deficiency, MONDO:0017994"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PPP1R159"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12337",
+        "gene_name": "transient receptor potential cation channel subfamily C member 5",
+        "omim_gene": [
+          "300334"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 159"
+        ],
+        "gene_symbol": "TRPC5",
+        "hgnc_symbol": "TRPC5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:111017543-111326004",
+              "ensembl_id": "ENSG00000072315"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:111774315-112082776",
+              "ensembl_id": "ENSG00000072315"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-03-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRPC5",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "38959890"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Obesity, HP:0001513"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "rd5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12406",
+        "gene_name": "tubby bipartite transcription factor",
+        "omim_gene": [
+          "601197"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TUB",
+        "hgnc_symbol": "TUB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:8040791-8127659",
+              "ensembl_id": "ENSG00000166402"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:8019244-8106112",
+              "ensembl_id": "ENSG00000166402"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-10-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUB",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24375934",
+        "22618246",
+        "22492381",
+        "19885003",
+        "18619628",
+        "18183286",
+        "17955208 (candidate for late-onset obesity)",
+        "16643894",
+        "16443771",
+        "12076089",
+        "10629044",
+        "10196693",
+        "8612280"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "?Retinal dystrophy and obesity, OMIM:616188"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DD",
+          "BABP",
+          "DD2",
+          "HAKRD",
+          "MCDR2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:385",
+        "gene_name": "aldo-keto reductase family 1 member C2",
+        "omim_gene": [
+          "600450"
+        ],
+        "alias_name": [
+          "dihydrodiol dehydrogenase 2; bile acid binding protein; 3-alpha hydroxysteroid dehydrogenase, type III"
+        ],
+        "gene_symbol": "AKR1C2",
+        "hgnc_symbol": "AKR1C2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:5029967-5060223",
+              "ensembl_id": "ENSG00000151632"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:4987400-5018031",
+              "ensembl_id": "ENSG00000151632"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "AKR1C2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Obesity, hyperphagia, and developmental delay"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "nM15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6814",
+        "gene_name": "MAGE family member L2",
+        "omim_gene": [
+          "605283"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAGEL2",
+        "hgnc_symbol": "MAGEL2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:23888691-23891175",
+              "ensembl_id": "ENSG00000254585"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:23643544-23647841",
+              "ensembl_id": "ENSG00000254585"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAGEL2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Congenital Obesity"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MC3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6931",
+        "gene_name": "melanocortin 3 receptor",
+        "omim_gene": [
+          "155540"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MC3R",
+        "hgnc_symbol": "MC3R",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:54823788-54824871",
+              "ensembl_id": "ENSG00000124089"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:56248732-56249815",
+              "ensembl_id": "ENSG00000124089"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "MC3R",
+      "confidence_level": "1",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31090190"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "{Obesity, severe, susceptibility to, BMIQ9}, OMIM:602025"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "bA51G5.2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21232",
+        "gene_name": "melanocortin 2 receptor accessory protein 2",
+        "omim_gene": [
+          "615410"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MRAP2",
+        "hgnc_symbol": "MRAP2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:84743475-84800600",
+              "ensembl_id": "ENSG00000135324"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:84033756-84090881",
+              "ensembl_id": "ENSG00000135324"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MRAP2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23869016",
+        "26795956",
+        "27474872",
+        "31700171"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Red",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "{?Obesity, susceptibility to, BMIQ18}, OMIM:615457"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SHP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7961",
+        "gene_name": "nuclear receptor subfamily 0 group B member 2",
+        "omim_gene": [
+          "604630"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NR0B2",
+        "hgnc_symbol": "NR0B2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:27237980-27240457",
+              "ensembl_id": "ENSG00000131910"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:26911489-26913966",
+              "ensembl_id": "ENSG00000131910"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-08-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "NR0B2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Red",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Obesity, mild, early-onset, 601665",
+        "Congenital Obesity"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PPARG1",
+          "PPARG2",
+          "NR1C3",
+          "PPARgamma"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9236",
+        "gene_name": "peroxisome proliferator activated receptor gamma",
+        "omim_gene": [
+          "601487"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PPARG",
+        "hgnc_symbol": "PPARG",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:12328867-12475855",
+              "ensembl_id": "ENSG00000132170"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:12287368-12434356",
+              "ensembl_id": "ENSG00000132170"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-03-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "PPARG",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Obesity, severe, 601665",
+        "[Obesity, resistance to]",
+        "Insulin resistance, severe, digenic, 604367",
+        "Lipodystrophy, familial partial, type 3, 604367",
+        "Carotid intimal medial thickness 1, 609338",
+        "{Diabetes, type 2}, 125853"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HT2A",
+          "TATIP",
+          "BBS11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16380",
+        "gene_name": "tripartite motif containing 32",
+        "omim_gene": [
+          "602290"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRIM32",
+        "hgnc_symbol": "TRIM32",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:119449581-119463579",
+              "ensembl_id": "ENSG00000119401"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:116687302-116701300",
+              "ensembl_id": "ENSG00000119401"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-08-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRIM32",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Expert Review Red",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "?Bardet-Biedl syndrome 11",
+        "615988"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hFrtz",
+          "fritz",
+          "BBS15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28027",
+        "gene_name": "WD repeat containing planar cell polarity effector",
+        "omim_gene": [
+          "613580"
+        ],
+        "alias_name": null,
+        "gene_symbol": "WDPCP",
+        "hgnc_symbol": "WDPCP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:63348518-64054977",
+              "ensembl_id": "ENSG00000143951"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:63121383-63827843",
+              "ensembl_id": "ENSG00000143951"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-02-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "WDPCP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26518167"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Red",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Congenital Obesity"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": [
+    {
+      "gene_data": null,
+      "entity_type": "region",
+      "entity_name": "ISCA-37404-Loss",
+      "verbose_name": "15q11q13 recurrent (PWS/AS) region (BP1-BP3, Class 1) Loss",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "haploinsufficiency_score": "3",
+      "triplosensitivity_score": "",
+      "required_overlap_percentage": 60,
+      "type_of_variants": "cnv_loss",
+      "publications": [
+        "22045295",
+        "7611294"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "microcephaly",
+        "Developmental delay, muscle weakness",
+        "Mental retardation",
+        "Angelman syndrome",
+        "176270",
+        "Prader-Willi syndrome",
+        "105835"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "chromosome": "15",
+      "grch37_coordinates": null,
+      "grch38_coordinates": [
+        22782170,
+        28134728
+      ],
+      "tags": [
+        "Q4_25_demote_red"
+      ]
+    },
+    {
+      "gene_data": null,
+      "entity_type": "region",
+      "entity_name": "ISCA-37478-Loss",
+      "verbose_name": "15q11q13 recurrent (PWS/AS) region (BP2-BP3, Class 2) Loss",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "haploinsufficiency_score": "3",
+      "triplosensitivity_score": "",
+      "required_overlap_percentage": 60,
+      "type_of_variants": "cnv_loss",
+      "publications": [
+        "22045295",
+        "7611294"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "microcephaly",
+        "Developmental delay, muscle weakness",
+        "Mental retardation",
+        "Angelman syndrome",
+        "176270",
+        "Prader-Willi syndrome",
+        "105830"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "chromosome": "15",
+      "grch37_coordinates": null,
+      "grch38_coordinates": [
+        23465365,
+        28134728
+      ],
+      "tags": []
+    },
+    {
+      "gene_data": null,
+      "entity_type": "region",
+      "entity_name": "ISCA-37486-Loss",
+      "verbose_name": "16p11.2 recurrent region (includes SH2B1) (distal region) (BP2-BP3) Loss",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "haploinsufficiency_score": "3",
+      "triplosensitivity_score": "",
+      "required_overlap_percentage": 60,
+      "type_of_variants": "cnv_loss",
+      "publications": [
+        "23258348",
+        "19966786",
+        "20808231"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "developmental delay",
+        "613444",
+        "obesity"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "chromosome": "16",
+      "grch37_coordinates": null,
+      "grch38_coordinates": [
+        28811314,
+        29035178
+      ],
+      "tags": []
+    }
+  ]
+}

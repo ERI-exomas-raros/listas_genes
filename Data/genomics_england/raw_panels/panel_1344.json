@@ -1,0 +1,83 @@
+{
+  "id": 1344,
+  "hash_id": null,
+  "name": "Haemophagocytic syndrome with absent XIAP expression",
+  "disease_group": "Immunology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.4",
+  "version_created": "2026-01-23T11:02:57.602310Z",
+  "relevant_disorders": [
+    "R18"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "hILP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:592",
+        "gene_name": "X-linked inhibitor of apoptosis",
+        "omim_gene": [
+          "300079"
+        ],
+        "alias_name": null,
+        "gene_symbol": "XIAP",
+        "hgnc_symbol": "XIAP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:122993574-123047829",
+              "ensembl_id": "ENSG00000101966"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:123859724-123913979",
+              "ensembl_id": "ENSG00000101966"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "XIAP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Lymphoproliferative syndrome, X-linked, 2, OMIM:300635",
+        "X-linked lymphoproliferative disease due to XIAP deficiency, MONDO:0010385"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

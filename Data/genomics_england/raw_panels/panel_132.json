@@ -1,0 +1,669 @@
+{
+  "id": 132,
+  "hash_id": "5616435a22c1fc212900fbd1",
+  "name": "Generalised pustular psoriasis",
+  "disease_group": "Dermatological disorders",
+  "disease_sub_group": "Autoimmune skin disorders",
+  "status": "public",
+  "version": "1.13",
+  "version_created": "2025-11-23T17:17:13.376008Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 12,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "CARMA2",
+          "BIMP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16446",
+        "gene_name": "caspase recruitment domain family member 14",
+        "omim_gene": [
+          "607211"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CARD14",
+        "hgnc_symbol": "CARD14",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:78143791-78183130",
+              "ensembl_id": "ENSG00000141527"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:80169992-80209331",
+              "ensembl_id": "ENSG00000141527"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "CARD14",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "26203641",
+        "23648549",
+        "22521418",
+        "22703878",
+        "23067081",
+        "29704870",
+        "29689250"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Psoriasis 2, OMIM:602723",
+        "Pityriasis rubra pilaris, OMIM:173200"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FIL1",
+          "FIL1(DELTA)",
+          "FIL1D",
+          "IL1HY1",
+          "IL1RP3",
+          "IL1L1",
+          "IL-1F5",
+          "IL36RA",
+          "MGC29840"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15561",
+        "gene_name": "interleukin 36 receptor antagonist",
+        "omim_gene": [
+          "605507"
+        ],
+        "alias_name": [
+          "family of interleukin 1-delta",
+          "interleukin-1 receptor antagonist homolog 1",
+          "interleukin-1 HY1",
+          "IL-1 related protein 3"
+        ],
+        "gene_symbol": "IL36RN",
+        "hgnc_symbol": "IL36RN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:113816215-113822959",
+              "ensembl_id": "ENSG00000136695"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:113058638-113065382",
+              "ensembl_id": "ENSG00000136695"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL36RN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21839423",
+        "25458002",
+        "27388993"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Psoriasis 14, pustular, OMIM:614204"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18971",
+        "gene_name": "adaptor related protein complex 1 sigma 3 subunit",
+        "omim_gene": [
+          "615781"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AP1S3",
+        "hgnc_symbol": "AP1S3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:224616403-224702744",
+              "ensembl_id": "ENSG00000152056"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:223751686-223838027",
+              "ensembl_id": "ENSG00000152056"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "AP1S3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24791904",
+        "27388993"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature",
+        "Research"
+      ],
+      "phenotypes": [
+        "{Psoriasis 15, pustular, susceptibility to}\t616106"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4933",
+        "gene_name": "major histocompatibility complex, class I, C",
+        "omim_gene": [
+          "142840"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HLA-C",
+        "hgnc_symbol": "HLA-C",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31236526-31239907",
+              "ensembl_id": "ENSG00000204525"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31268749-31272130",
+              "ensembl_id": "ENSG00000204525"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "HLA-C",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "{Psoriasis susceptibility 1}\t177900"
+      ],
+      "mode_of_inheritance": "Other - please specifiy in evaluation comments",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DESP4",
+          "ERG25"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10545",
+        "gene_name": "methylsterol monooxygenase 1",
+        "omim_gene": [
+          "607545"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSMO1",
+        "hgnc_symbol": "MSMO1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:166248775-166264312",
+              "ensembl_id": "ENSG00000052802"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:165327623-165343160",
+              "ensembl_id": "ENSG00000052802"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSMO1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Microcephaly, congenital cataract, and psoriasiform dermatitis, OMIM:616834",
+        "Microcephaly-congenital cataract-psoriasiform dermatitis syndrome, MONDO:0014793"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BLAU",
+          "CD",
+          "PSORAS1",
+          "CLR16.3",
+          "NLRC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5331",
+        "gene_name": "nucleotide binding oligomerization domain containing 2",
+        "omim_gene": [
+          "605956"
+        ],
+        "alias_name": [
+          "nucleotide-binding oligomerization domain, leucine rich repeat and CARD domain containing 2",
+          "NOD-like receptor C2",
+          "NLR family, CARD domain containing 2"
+        ],
+        "gene_symbol": "NOD2",
+        "hgnc_symbol": "NOD2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:50727514-50766988",
+              "ensembl_id": "ENSG00000167207"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:50693603-50734041",
+              "ensembl_id": "ENSG00000167207"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NOD2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "{Psoriatic arthritis, susceptibility to}, 607507"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PSTPIP",
+          "CD2BP1L",
+          "CD2BP1",
+          "CD2BP1S",
+          "H-PIP",
+          "PAPAS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9580",
+        "gene_name": "proline-serine-threonine phosphatase interacting protein 1",
+        "omim_gene": [
+          "606347"
+        ],
+        "alias_name": [
+          "CD2 cytoplasmic tail-binding protein",
+          "CD2 antigen-binding protein 1",
+          "PEST phosphatase-interacting protein 1"
+        ],
+        "gene_symbol": "PSTPIP1",
+        "hgnc_symbol": "PSTPIP1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:77285700-77329673",
+              "ensembl_id": "ENSG00000140368"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:76993359-77037332",
+              "ensembl_id": "ENSG00000140368"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-01-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSTPIP1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Pyogenic sterile arthritis, pyoderma gangrenosum, and acne, OMIM:604416"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ZIP4",
+          "AWMS2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17129",
+        "gene_name": "solute carrier family 39 member 4",
+        "omim_gene": [
+          "607059"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC39A4",
+        "hgnc_symbol": "SLC39A4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:145635126-145642279",
+              "ensembl_id": "ENSG00000147804"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:144409742-144416895",
+              "ensembl_id": "ENSG00000147804"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-02-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC39A4",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Acrodermatitis enteropathica, 201100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "STAT113"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11363",
+        "gene_name": "signal transducer and activator of transcription 2",
+        "omim_gene": [
+          "600556"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STAT2",
+        "hgnc_symbol": "STAT2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:56735381-56753939",
+              "ensembl_id": "ENSG00000170581"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:56341597-56360155",
+              "ensembl_id": "ENSG00000170581"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "STAT2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23143594"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Immunodeficiency 44\t616636"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZP586G0522",
+          "ACT1",
+          "CIKS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1343",
+        "gene_name": "TRAF3 interacting protein 2",
+        "omim_gene": [
+          "607043"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRAF3IP2",
+        "hgnc_symbol": "TRAF3IP2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:111877657-111927481",
+              "ensembl_id": "ENSG00000056972"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:111556454-111606278",
+              "ensembl_id": "ENSG00000056972"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-04-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRAF3IP2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24005976"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "{Psoriasis susceptibility 13}\t614070"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VRL3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18084",
+        "gene_name": "transient receptor potential cation channel subfamily V member 3",
+        "omim_gene": [
+          "607066"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRPV3",
+        "hgnc_symbol": "TRPV3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:3413796-3461289",
+              "ensembl_id": "ENSG00000167723"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:3510502-3557995",
+              "ensembl_id": "ENSG00000167723"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-07-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRPV3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Palmoplantar keratoderma, nonepidermolytic, focal 2 616400",
+        "AD 3 Olmsted syndrome 614594"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ13841",
+          "Zfp750"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25843",
+        "gene_name": "zinc finger protein 750",
+        "omim_gene": [
+          "610226"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ZNF750",
+        "hgnc_symbol": "ZNF750",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:80787311-80798454",
+              "ensembl_id": "ENSG00000141579"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:82829435-82840578",
+              "ensembl_id": "ENSG00000141579"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-06-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZNF750",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16751772",
+        "22185198"
+      ],
+      "evidence": [
+        "Literature",
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Seborrhea-like dermatitis with psoriasiform elements, 610227"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

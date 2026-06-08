@@ -1,0 +1,87 @@
+{
+  "id": 1364,
+  "hash_id": null,
+  "name": "Mucopolysaccharidosis type IVA",
+  "disease_group": "Metabolic",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.3",
+  "version_created": "2026-01-23T11:28:22.658266Z",
+  "relevant_disorders": [
+    "R287"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "GAS",
+          "GALNAC6S"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4122",
+        "gene_name": "galactosamine (N-acetyl)-6-sulfatase",
+        "omim_gene": [
+          "612222"
+        ],
+        "alias_name": [
+          "Morquio syndrome",
+          "mucopolysaccharidosis type IVA"
+        ],
+        "gene_symbol": "GALNS",
+        "hgnc_symbol": "GALNS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:88880142-88923378",
+              "ensembl_id": "ENSG00000141012"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:88813734-88856970",
+              "ensembl_id": "ENSG00000141012"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "GALNS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mucopolysaccharidosis IVA, OMIM:253000",
+        "mucopolysaccharidosis type 4A, MONDO:0009659"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

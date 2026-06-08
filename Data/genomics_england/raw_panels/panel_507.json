@@ -1,0 +1,430 @@
+{
+  "id": 507,
+  "hash_id": null,
+  "name": "Common craniosynostosis syndromes",
+  "disease_group": "Musculoskeletal",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.17",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R99"
+  ],
+  "stats": {
+    "number_of_genes": 7,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "LERK2",
+          "Elk-L"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3226",
+        "gene_name": "ephrin B1",
+        "omim_gene": [
+          "300035"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EFNB1",
+        "hgnc_symbol": "EFNB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:68048840-68061990",
+              "ensembl_id": "ENSG00000090776"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:68828997-68842147",
+              "ensembl_id": "ENSG00000090776"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-01-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "EFNB1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert list",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Craniofrontonasal dysplasia OMIM:304110"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PE-2",
+          "PE2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3444",
+        "gene_name": "ETS2 repressor factor",
+        "omim_gene": [
+          "611888"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ERF",
+        "hgnc_symbol": "ERF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:42751724-42759309",
+              "ensembl_id": "ENSG00000105722"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:42247572-42255157",
+              "ensembl_id": "ENSG00000105722"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ERF",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert list",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Craniosynostosis 4 OMIM:600775"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "H2",
+          "H3",
+          "H4",
+          "H5",
+          "CEK",
+          "FLG",
+          "BFGFR",
+          "N-SAM",
+          "CD331"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3688",
+        "gene_name": "fibroblast growth factor receptor 1",
+        "omim_gene": [
+          "136350"
+        ],
+        "alias_name": [
+          "Pfeiffer syndrome"
+        ],
+        "gene_symbol": "FGFR1",
+        "hgnc_symbol": "FGFR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:38268656-38326352",
+              "ensembl_id": "ENSG00000077782"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:38411138-38468834",
+              "ensembl_id": "ENSG00000077782"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGFR1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert list",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Jackson-Weiss syndrome OMIM:123150",
+        "Osteoglophonic dysplasia OMIM:166250",
+        "Pfeiffer syndrome OMIM:101600",
+        "Trigonocephaly 1 OMIM:190440"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CEK3",
+          "TK14",
+          "TK25",
+          "ECT1",
+          "K-SAM",
+          "CD332"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3689",
+        "gene_name": "fibroblast growth factor receptor 2",
+        "omim_gene": [
+          "176943"
+        ],
+        "alias_name": [
+          "Crouzon syndrome",
+          "Pfeiffer syndrome"
+        ],
+        "gene_symbol": "FGFR2",
+        "hgnc_symbol": "FGFR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:123237848-123357972",
+              "ensembl_id": "ENSG00000066468"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:121478334-121598458",
+              "ensembl_id": "ENSG00000066468"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGFR2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert list",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Antley-Bixler syndrome without genital anomalies or disordered steroidogenesis OMIM:207410",
+        "Apert syndrome OMIM:101200",
+        "Beare-Stevenson cutis gyrata syndrome OMIM:123790",
+        "Pfeiffer syndrome OMIM:101600",
+        "Craniofacial-skeletal-dermatologic dysplasia OMIM:101600",
+        "Crouzon syndrome OMIM:123500",
+        "Jackson-Weiss syndrome OMIM:123150",
+        "Saethre-Chotzen syndrome OMIM:101400",
+        "Scaphocephaly, maxillary retrusion, and mental retardation OMIM:609579"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CEK2",
+          "JTK4",
+          "CD333"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3690",
+        "gene_name": "fibroblast growth factor receptor 3",
+        "omim_gene": [
+          "134934"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FGFR3",
+        "hgnc_symbol": "FGFR3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:1795034-1810599",
+              "ensembl_id": "ENSG00000068078"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:1793307-1808872",
+              "ensembl_id": "ENSG00000068078"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGFR3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert list",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Muenke syndrome OMIM:602849",
+        "Crouzon syndrome with acanthosis nigricans OMIM:612247",
+        "Thanatophoric dysplasia, type I OMIM:187600",
+        "Thanatophoric dysplasia, type II OMIM:187601"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HEB",
+          "HTF4",
+          "HsT17266",
+          "bHLHb20"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11623",
+        "gene_name": "transcription factor 12",
+        "omim_gene": [
+          "600480"
+        ],
+        "alias_name": [
+          "helix-loop-helix transcription factor 4"
+        ],
+        "gene_symbol": "TCF12",
+        "hgnc_symbol": "TCF12",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:57210821-57591479",
+              "ensembl_id": "ENSG00000140262"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:56918623-57299281",
+              "ensembl_id": "ENSG00000140262"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-06-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "TCF12",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert list",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Craniosynostosis 3 OMIM:615314"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SCS",
+          "H-twist",
+          "BPES2",
+          "bHLHa38",
+          "CRS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12428",
+        "gene_name": "twist family bHLH transcription factor 1",
+        "omim_gene": [
+          "601622"
+        ],
+        "alias_name": [
+          "Saethre-Chotzen syndrome"
+        ],
+        "gene_symbol": "TWIST1",
+        "hgnc_symbol": "TWIST1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:19060614-19157295",
+              "ensembl_id": "ENSG00000122691"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:19020991-19117672",
+              "ensembl_id": "ENSG00000122691"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-03-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "TWIST1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert list",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Craniosynostosis 1 OMIM:123100",
+        "Saethre-Chotzen syndrome with or without eyelid anomalies OMIM:101400"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

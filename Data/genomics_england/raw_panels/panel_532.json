@@ -1,0 +1,602 @@
+{
+  "id": 532,
+  "hash_id": null,
+  "name": "Mitochondrial liver disease, including transient infantile liver failure",
+  "disease_group": "Mitochondrial",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.14",
+  "version_created": "2026-01-23T16:54:02.619656Z",
+  "relevant_disorders": [
+    "Mitochondrial liver disease",
+    "R317"
+  ],
+  "stats": {
+    "number_of_genes": 11,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "Hs.6719",
+          "BCS",
+          "h-BCS",
+          "BJS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1020",
+        "gene_name": "BCS1 homolog, ubiquinol-cytochrome c reductase complex chaperone",
+        "omim_gene": [
+          "603647"
+        ],
+        "alias_name": [
+          "GRACILE syndrome",
+          "Bjornstad syndrome"
+        ],
+        "gene_symbol": "BCS1L",
+        "hgnc_symbol": "BCS1L",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:219523487-219528166",
+              "ensembl_id": "ENSG00000074582"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:218658764-218663443",
+              "ensembl_id": "ENSG00000074582"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-07-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "BCS1L",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex III deficiency, nuclear type 1, 124000",
+        "Leigh syndrome, 256000"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dGK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2858",
+        "gene_name": "deoxyguanosine kinase",
+        "omim_gene": [
+          "601465"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DGUOK",
+        "hgnc_symbol": "DGUOK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:74153953-74186088",
+              "ensembl_id": "ENSG00000114956"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:73926826-73958961",
+              "ensembl_id": "ENSG00000114956"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "DGUOK",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial DNA depletion syndrome 3 (hepatocerebral type), 251880",
+        "Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 4, 617070"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SYM1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7224",
+        "gene_name": "MPV17, mitochondrial inner membrane protein",
+        "omim_gene": [
+          "137960"
+        ],
+        "alias_name": [
+          "glomerulosclerosis"
+        ],
+        "gene_symbol": "MPV17",
+        "hgnc_symbol": "MPV17",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:27532360-27548547",
+              "ensembl_id": "ENSG00000115204"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:27309492-27325680",
+              "ensembl_id": "ENSG00000115204"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-03-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "MPV17",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial DNA depletion syndrome 6 (hepatocerebral type), 256810"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "POLG1",
+          "POLGA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9179",
+        "gene_name": "DNA polymerase gamma, catalytic subunit",
+        "omim_gene": [
+          "174763"
+        ],
+        "alias_name": null,
+        "gene_symbol": "POLG",
+        "hgnc_symbol": "POLG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:89859534-89878092",
+              "ensembl_id": "ENSG00000140521"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:89305198-89334861",
+              "ensembl_id": "ENSG00000140521"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "POLG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial DNA depletion syndrome 4A (Alpers type), 203700",
+        "Mitochondrial recessive ataxia syndrome (includes SANDO and SCAE), 607459",
+        "Mitochondrial DNA depletion syndrome 4B (MNGIE type), 613662",
+        "Progressive external ophthalmoplegia, autosomal dominant 1, 157640",
+        "Progressive external ophthalmoplegia, autosomal recessive 1, 258450"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10140",
+          "MTO2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25481",
+        "gene_name": "tRNA 5-methylaminomethyl-2-thiouridylate methyltransferase",
+        "omim_gene": [
+          "610230"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRMU",
+        "hgnc_symbol": "TRMU",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:46726772-46753237",
+              "ensembl_id": "ENSG00000100416"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:46330875-46357340",
+              "ensembl_id": "ENSG00000100416"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-08-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRMU",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "LIVER FAILURE, INFANTILE, TRANSIENT, 613070"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PEO",
+          "PEO1",
+          "TWINKLE",
+          "FLJ21832",
+          "TWINL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1160",
+        "gene_name": "twinkle mtDNA helicase",
+        "omim_gene": [
+          "606075"
+        ],
+        "alias_name": [
+          "T7 helicase-related protein with intramitochondrial nucleoid localization"
+        ],
+        "gene_symbol": "TWNK",
+        "hgnc_symbol": "TWNK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:102747124-102754158",
+              "ensembl_id": "ENSG00000107815"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:100987367-100994401",
+              "ensembl_id": "ENSG00000107815"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2016-10-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "TWNK",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30391088"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial DNA depletion syndrome 7 (hepatocerebral type), OMIM:271245",
+        "Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 3, OMIM:609286",
+        "Perrault syndrome 5, OMIM:616138"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11741",
+        "gene_name": "transcription factor A, mitochondrial",
+        "omim_gene": [
+          "600438"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TFAM",
+        "hgnc_symbol": "TFAM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:60144782-60158981",
+              "ensembl_id": "ENSG00000108064"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:58385022-58399221",
+              "ensembl_id": "ENSG00000108064"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "TFAM",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27448789"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial DNA depletion syndrome 15 (hepatocerebral type), OMIM:617156"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NPD002",
+          "MGC14452"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21497",
+        "gene_name": "acyl-CoA dehydrogenase family member 9",
+        "omim_gene": [
+          "611103"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACAD9",
+        "hgnc_symbol": "ACAD9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:128598439-128634910",
+              "ensembl_id": "ENSG00000177646"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:128879596-128916067",
+              "ensembl_id": "ENSG00000177646"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACAD9",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 20, 611126"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MTPOLB",
+          "HP55"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9180",
+        "gene_name": "DNA polymerase gamma 2, accessory subunit",
+        "omim_gene": [
+          "604983"
+        ],
+        "alias_name": null,
+        "gene_symbol": "POLG2",
+        "hgnc_symbol": "POLG2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:62473902-62493154",
+              "ensembl_id": "ENSG00000256525"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:64477785-64497036",
+              "ensembl_id": "ENSG00000256525"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-09-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "POLG2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16685652",
+        "21555342",
+        "27592148",
+        "30157269",
+        "31778857"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial DNA depletion syndrome syndrome 16 (hepatic type), OMIM:618528",
+        "Mitochondrial DNA depletion syndrome 16B (neuroophthalmic type), OMIM:619425",
+        "Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 4, OMIM:610131"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p53R2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17296",
+        "gene_name": "ribonucleotide reductase regulatory TP53 inducible subunit M2B",
+        "omim_gene": [
+          "604712"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RRM2B",
+        "hgnc_symbol": "RRM2B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:103216730-103251346",
+              "ensembl_id": "ENSG00000048392"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:102204502-102239118",
+              "ensembl_id": "ENSG00000048392"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-01-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "RRM2B",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27483465"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "612075",
+        "Mitochondrial DNA depletion syndrome 8B (MNGIE type)",
+        "Mitochondrial DNA depletion syndrome 8A (encephalomyopathic type with renal tubulopathy), 612075",
+        "Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 5, 613077"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10603",
+        "gene_name": "SCO1, cytochrome c oxidase assembly protein",
+        "omim_gene": [
+          "603644"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCO1",
+        "hgnc_symbol": "SCO1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:10583654-10601692",
+              "ensembl_id": "ENSG00000133028"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:10672474-10698375",
+              "ensembl_id": "ENSG00000133028"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-07-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCO1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex IV deficiency, nuclear type 4, OMIM:619048"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

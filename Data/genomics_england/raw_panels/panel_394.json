@@ -1,0 +1,6482 @@
+{
+  "id": 394,
+  "hash_id": null,
+  "name": "Familial Meniere Disease",
+  "disease_group": "Hearing and ear disorders",
+  "disease_sub_group": "Other hearing and ear disorders",
+  "status": "public",
+  "version": "1.4",
+  "version_created": "2025-11-23T17:09:45.539440Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 130,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "COCH-5B2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2180",
+        "gene_name": "cochlin",
+        "omim_gene": [
+          "603196"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COCH",
+        "hgnc_symbol": "COCH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:31343720-31364271",
+              "ensembl_id": "ENSG00000100473"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:30874514-30895065",
+              "ensembl_id": "ENSG00000100473"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "COCH",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "28787010",
+        "9806553",
+        "10400989",
+        "14512963",
+        "14704763",
+        "26758463"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Other"
+      ],
+      "phenotypes": [
+        "Deafness, autosomal dominant 9, 601369",
+        "cochlear-vestibular dysfunction"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3011",
+        "gene_name": "dermatopontin",
+        "omim_gene": [
+          "125597"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DPT",
+        "hgnc_symbol": "DPT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:168664697-168698502",
+              "ensembl_id": "ENSG00000143196"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:168695459-168729264",
+              "ensembl_id": "ENSG00000143196"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "DPT",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29095749",
+        "27876815"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D18S892E",
+          "DTN",
+          "DTN-1",
+          "DTN-2",
+          "DTN-3",
+          "DRP3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3057",
+        "gene_name": "dystrobrevin alpha",
+        "omim_gene": [
+          "601239"
+        ],
+        "alias_name": [
+          "dystrophin-related protein 3"
+        ],
+        "gene_symbol": "DTNA",
+        "hgnc_symbol": "DTNA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:32073254-32471808",
+              "ensembl_id": "ENSG00000134769"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:34493290-34891844",
+              "ensembl_id": "ENSG00000134769"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-02-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "DTNA",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010",
+        "25305078"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature",
+        "Other"
+      ],
+      "phenotypes": [
+        "Meniere disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "multifactorial",
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ14668"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25911",
+        "gene_name": "family with sequence similarity 136 member A",
+        "omim_gene": [
+          "616275"
+        ],
+        "alias_name": [
+          "hypothetical protein FLJ14668"
+        ],
+        "gene_symbol": "FAM136A",
+        "hgnc_symbol": "FAM136A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:70523107-70529222",
+              "ensembl_id": "ENSG00000035141"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:70295975-70302090",
+              "ensembl_id": "ENSG00000035141"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-07-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "FAM136A",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010",
+        "25305078"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature",
+        "Other"
+      ],
+      "phenotypes": [
+        "Meniere disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "multifactorial",
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9395",
+        "gene_name": "protein kinase C beta",
+        "omim_gene": [
+          "176970"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PRKCB",
+        "hgnc_symbol": "PRKCB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:23847322-24231932",
+              "ensembl_id": "ENSG00000166501"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:23836001-24220611",
+              "ensembl_id": "ENSG00000166501"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-08-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRKCB",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29095749",
+        "27329761",
+        "25305078"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature",
+        "Other"
+      ],
+      "phenotypes": [
+        "Meniere disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "multifactorial",
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:243",
+        "gene_name": "adducin 1",
+        "omim_gene": [
+          "102680"
+        ],
+        "alias_name": [
+          "alpha-adducin"
+        ],
+        "gene_symbol": "ADD1",
+        "hgnc_symbol": "ADD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:2845584-2931803",
+              "ensembl_id": "ENSG00000087274"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:2843857-2930076",
+              "ensembl_id": "ENSG00000087274"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADD1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ADDB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:244",
+        "gene_name": "adducin 2",
+        "omim_gene": [
+          "102681"
+        ],
+        "alias_name": [
+          "beta-adducin"
+        ],
+        "gene_symbol": "ADD2",
+        "hgnc_symbol": "ADD2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:70834750-70995357",
+              "ensembl_id": "ENSG00000075340"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:70607618-70768225",
+              "ensembl_id": "ENSG00000075340"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADD2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:245",
+        "gene_name": "adducin 3",
+        "omim_gene": [
+          "601568"
+        ],
+        "alias_name": [
+          "gamma-adducin"
+        ],
+        "gene_symbol": "ADD3",
+        "hgnc_symbol": "ADD3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:111756126-111895323",
+              "ensembl_id": "ENSG00000148700"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:109996368-110135565",
+              "ensembl_id": "ENSG00000148700"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADD3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CHIP28"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:633",
+        "gene_name": "aquaporin 1 (Colton blood group)",
+        "omim_gene": [
+          "107776"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AQP1",
+        "hgnc_symbol": "AQP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:30893010-30965131",
+              "ensembl_id": "ENSG00000240583"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:30911694-30925516",
+              "ensembl_id": "ENSG00000240583"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "AQP1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:634",
+        "gene_name": "aquaporin 2",
+        "omim_gene": [
+          "107777"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AQP2",
+        "hgnc_symbol": "AQP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:50344524-50352664",
+              "ensembl_id": "ENSG00000167580"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:49950741-49958881",
+              "ensembl_id": "ENSG00000167580"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "AQP2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GIL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:636",
+        "gene_name": "aquaporin 3 (Gill blood group)",
+        "omim_gene": [
+          "600170"
+        ],
+        "alias_name": [
+          "Gill blood group"
+        ],
+        "gene_symbol": "AQP3",
+        "hgnc_symbol": "AQP3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:33441152-33447609",
+              "ensembl_id": "ENSG00000165272"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:33441154-33447611",
+              "ensembl_id": "ENSG00000165272"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "AQP3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MIWC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:637",
+        "gene_name": "aquaporin 4",
+        "omim_gene": [
+          "600308"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AQP4",
+        "hgnc_symbol": "AQP4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:24432002-24445782",
+              "ensembl_id": "ENSG00000171885"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:26852038-26865818",
+              "ensembl_id": "ENSG00000171885"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "AQP4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010",
+        "26208470",
+        "25766597",
+        "23352976",
+        "22732097",
+        "20461409",
+        "19096777",
+        "9875338"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:638",
+        "gene_name": "aquaporin 5",
+        "omim_gene": [
+          "600442"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AQP5",
+        "hgnc_symbol": "AQP5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:50355653-50359464",
+              "ensembl_id": "ENSG00000161798"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:49961870-49965681",
+              "ensembl_id": "ENSG00000161798"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "AQP5",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:639",
+        "gene_name": "aquaporin 6",
+        "omim_gene": [
+          "601383"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AQP6",
+        "hgnc_symbol": "AQP6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:50360977-50370922",
+              "ensembl_id": "ENSG00000086159"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:49967194-49977139",
+              "ensembl_id": "ENSG00000086159"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "AQP6",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AIS",
+          "NR3C4",
+          "SMAX1",
+          "HUMARA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:644",
+        "gene_name": "androgen receptor",
+        "omim_gene": [
+          "313700"
+        ],
+        "alias_name": [
+          "testicular feminization",
+          "Kennedy disease"
+        ],
+        "gene_symbol": "AR",
+        "hgnc_symbol": "AR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:66764465-66950461",
+              "ensembl_id": "ENSG00000169083"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:67544032-67730619",
+              "ensembl_id": "ENSG00000169083"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AR",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "V2R"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:897",
+        "gene_name": "arginine vasopressin receptor 2",
+        "omim_gene": [
+          "300538"
+        ],
+        "alias_name": [
+          "nephrogenic diabetes insipidus"
+        ],
+        "gene_symbol": "AVPR2",
+        "hgnc_symbol": "AVPR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153167985-153172620",
+              "ensembl_id": "ENSG00000126895"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:153902531-153907166",
+              "ensembl_id": "ENSG00000126895"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "AVPR2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Cav2.1",
+          "EA2",
+          "APCA",
+          "HPCA",
+          "FHM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1388",
+        "gene_name": "calcium voltage-gated channel subunit alpha1 A",
+        "omim_gene": [
+          "601011"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNA1A",
+        "hgnc_symbol": "CACNA1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:13317256-13734804",
+              "ensembl_id": "ENSG00000141837"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:13206442-13633025",
+              "ensembl_id": "ENSG00000141837"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-06-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNA1A",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010",
+        "8898206",
+        "12756131"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Episodic ataxia, type 2, OMIM:108500",
+        "Migraine, familial hemiplegic, 1, OMIM:141500",
+        "Migraine, familial hemiplegic, 1, with progressive cerebellar ataxia, OMIM:141500"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CPP32",
+          "CPP32B",
+          "Yama",
+          "apopain"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1504",
+        "gene_name": "caspase 3",
+        "omim_gene": [
+          "600636"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CASP3",
+        "hgnc_symbol": "CASP3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:185548850-185570663",
+              "ensembl_id": "ENSG00000164305"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:184627696-184649509",
+              "ensembl_id": "ENSG00000164305"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-07-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CASP3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1527",
+        "gene_name": "caveolin 1",
+        "omim_gene": [
+          "601047"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CAV1",
+        "hgnc_symbol": "CAV1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:116164839-116201233",
+              "ensembl_id": "ENSG00000105974"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:116524785-116561184",
+              "ensembl_id": "ENSG00000105974"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "CAV1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MCP1",
+          "MCP-1",
+          "MCAF",
+          "SMC-CF",
+          "GDCF-2",
+          "HC11",
+          "MGC9434"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10618",
+        "gene_name": "C-C motif chemokine ligand 2",
+        "omim_gene": [
+          "158105"
+        ],
+        "alias_name": [
+          "monocyte chemotactic protein 1, homologous to mouse Sig-je",
+          "monocyte chemoattractant protein-1",
+          "monocyte chemotactic and activating factor",
+          "monocyte secretory protein JE",
+          "small inducible cytokine subfamily A (Cys-Cys), member 2"
+        ],
+        "gene_symbol": "CCL2",
+        "hgnc_symbol": "CCL2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:32582304-32584222",
+              "ensembl_id": "ENSG00000108691"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:34255218-34257203",
+              "ensembl_id": "ENSG00000108691"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-08-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCL2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MIP-1-beta",
+          "Act-2",
+          "AT744.1"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:10630",
+        "gene_name": "C-C motif chemokine ligand 4",
+        "omim_gene": [
+          "182284"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CCL4",
+        "hgnc_symbol": "CCL4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:34430983-34433014",
+              "ensembl_id": "ENSG00000129277"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:36103590-36105621",
+              "ensembl_id": "ENSG00000275302"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-08-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCL4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RANTES",
+          "SISd",
+          "TCP228",
+          "MGC17164"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:10632",
+        "gene_name": "C-C motif chemokine ligand 5",
+        "omim_gene": [
+          "187011"
+        ],
+        "alias_name": [
+          "T-cell specific protein p288",
+          "T-cell specific RANTES protein",
+          "SIS-delta",
+          "regulated upon activation, normally T-expressed, and presumably secreted",
+          "beta-chemokine RANTES",
+          "small inducible cytokine subfamily A (Cys-Cys), member 5"
+        ],
+        "gene_symbol": "CCL5",
+        "hgnc_symbol": "CCL5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:34198495-34207797",
+              "ensembl_id": "ENSG00000161570"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:35871491-35880793",
+              "ensembl_id": "ENSG00000271503"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-08-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCL5",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "U21B31"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1582",
+        "gene_name": "cyclin D1",
+        "omim_gene": [
+          "168461"
+        ],
+        "alias_name": [
+          "parathyroid adenomatosis 1",
+          "B-cell CLL/lymphoma 1",
+          "G1/S-specific cyclin D1"
+        ],
+        "gene_symbol": "CCND1",
+        "hgnc_symbol": "CCND1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:69455855-69469242",
+              "ensembl_id": "ENSG00000110092"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:69641087-69654474",
+              "ensembl_id": "ENSG00000110092"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCND1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CKR-5",
+          "CC-CKR-5",
+          "CKR5",
+          "CD195",
+          "IDDM22"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1606",
+        "gene_name": "C-C motif chemokine receptor 5 (gene/pseudogene)",
+        "omim_gene": [
+          "601373"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CCR5",
+        "hgnc_symbol": "CCR5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:46411633-46417697",
+              "ensembl_id": "ENSG00000160791"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:46370854-46376206",
+              "ensembl_id": "ENSG00000160791"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-05-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCR5",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B7-H3",
+          "B7H3",
+          "B7RP-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19137",
+        "gene_name": "CD276 molecule",
+        "omim_gene": [
+          "605715"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CD276",
+        "hgnc_symbol": "CD276",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:73976307-74006859",
+              "ensembl_id": "ENSG00000103855"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:73683966-73714518",
+              "ensembl_id": "ENSG00000103855"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "CD276",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1678",
+        "gene_name": "CD4 molecule",
+        "omim_gene": [
+          "186940"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CD4",
+        "hgnc_symbol": "CD4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:6896024-6929974",
+              "ensembl_id": "ENSG00000010610"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:6786858-6820808",
+              "ensembl_id": "ENSG00000010610"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CD4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p50",
+          "Bp50"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11919",
+        "gene_name": "CD40 molecule",
+        "omim_gene": [
+          "109535"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CD40",
+        "hgnc_symbol": "CD40",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:44746911-44758502",
+              "ensembl_id": "ENSG00000101017"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:46118272-46129863",
+              "ensembl_id": "ENSG00000101017"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CD40",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B7.1",
+          "B7-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1700",
+        "gene_name": "CD80 molecule",
+        "omim_gene": [
+          "112203"
+        ],
+        "alias_name": [
+          "B-lymphocyte activation antigen B7"
+        ],
+        "gene_symbol": "CD80",
+        "hgnc_symbol": "CD80",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:119243140-119278449",
+              "ensembl_id": "ENSG00000121594"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:119524293-119559602",
+              "ensembl_id": "ENSG00000121594"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CD80",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B7.2",
+          "B7-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1705",
+        "gene_name": "CD86 molecule",
+        "omim_gene": [
+          "601020"
+        ],
+        "alias_name": [
+          "B-lymphocyte antigen B7-2"
+        ],
+        "gene_symbol": "CD86",
+        "hgnc_symbol": "CD86",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:121774213-121839983",
+              "ensembl_id": "ENSG00000114013"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:122055366-122121139",
+              "ensembl_id": "ENSG00000114013"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "CD86",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HCG",
+          "GPHa",
+          "GPHA1",
+          "FSHA",
+          "LHA",
+          "TSHA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1885",
+        "gene_name": "glycoprotein hormones, alpha polypeptide",
+        "omim_gene": [
+          "118850"
+        ],
+        "alias_name": [
+          "follicle-stimulating hormone alpha subunit",
+          "chorionic gonadotropin, alpha polypeptide",
+          "luteinizing hormone alpha chain",
+          "lutropin alpha chain",
+          "thyroid-stimulating hormone alpha chain",
+          "glycoprotein hormones alpha chain"
+        ],
+        "gene_symbol": "CGA",
+        "hgnc_symbol": "CGA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:87795216-87804824",
+              "ensembl_id": "ENSG00000135346"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:87085498-87095406",
+              "ensembl_id": "ENSG00000135346"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CGA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1929",
+        "gene_name": "chromogranin A",
+        "omim_gene": [
+          "118910"
+        ],
+        "alias_name": [
+          "vasostatin",
+          "pancreastatin",
+          "parastatin",
+          "parathyroid secretory protein 1"
+        ],
+        "gene_symbol": "CHGA",
+        "hgnc_symbol": "CHGA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:93389425-93401638",
+              "ensembl_id": "ENSG00000100604"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:92923080-92935293",
+              "ensembl_id": "ENSG00000100604"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHGA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GM-CSF",
+          "GMCSF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2434",
+        "gene_name": "colony stimulating factor 2",
+        "omim_gene": [
+          "138960"
+        ],
+        "alias_name": [
+          "sargramostim",
+          "molgramostin",
+          "granulocyte-macrophage colony stimulating factor"
+        ],
+        "gene_symbol": "CSF2",
+        "hgnc_symbol": "CSF2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:131409483-131411859",
+              "ensembl_id": "ENSG00000164400"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:132073790-132076170",
+              "ensembl_id": "ENSG00000164400"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CSF2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD152",
+          "CD",
+          "GSE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2505",
+        "gene_name": "cytotoxic T-lymphocyte associated protein 4",
+        "omim_gene": [
+          "123890"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CTLA4",
+        "hgnc_symbol": "CTLA4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:204732509-204738683",
+              "ensembl_id": "ENSG00000163599"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:203867786-203873960",
+              "ensembl_id": "ENSG00000163599"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTLA4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SCYB1",
+          "GROa",
+          "MGSA-a",
+          "NAP-3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4602",
+        "gene_name": "C-X-C motif chemokine ligand 1",
+        "omim_gene": [
+          "155730"
+        ],
+        "alias_name": [
+          "melanoma growth stimulating activity, alpha"
+        ],
+        "gene_symbol": "CXCL1",
+        "hgnc_symbol": "CXCL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:74735110-74736959",
+              "ensembl_id": "ENSG00000163739"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:73869393-73871242",
+              "ensembl_id": "ENSG00000163739"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-08-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "CXCL1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IFI10",
+          "IP-10",
+          "crg-2",
+          "mob-1",
+          "C7",
+          "gIP-10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10637",
+        "gene_name": "C-X-C motif chemokine ligand 10",
+        "omim_gene": [
+          "147310"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CXCL10",
+        "hgnc_symbol": "CXCL10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:76942273-76944650",
+              "ensembl_id": "ENSG00000169245"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:76021117-76023497",
+              "ensembl_id": "ENSG00000169245"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-08-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "CXCL10",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SCYB8",
+          "LUCT",
+          "LECT",
+          "MDNCF",
+          "TSG-1",
+          "IL-8",
+          "NAP-1",
+          "3-10C",
+          "MONAP",
+          "AMCF-I",
+          "LYNAP",
+          "NAF",
+          "b-ENAP",
+          "GCP-1",
+          "K60",
+          "GCP1",
+          "NAP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6025",
+        "gene_name": "C-X-C motif chemokine ligand 8",
+        "omim_gene": [
+          "146930"
+        ],
+        "alias_name": [
+          "neutrophil-activating peptide 1",
+          "granulocyte chemotactic protein 1",
+          "monocyte-derived neutrophil chemotactic factor",
+          "lung giant cell carcinoma-derived chemotactic protein",
+          "tumor necrosis factor-induced gene 1",
+          "monocyte-derived neutrophil-activating peptide",
+          "lymphocyte derived neutrophil activating peptide",
+          "beta endothelial cell-derived neutrophil activating peptide",
+          "alveolar macrophage chemotactic factor I"
+        ],
+        "gene_symbol": "CXCL8",
+        "hgnc_symbol": "CXCL8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:74606223-74609433",
+              "ensembl_id": "ENSG00000169429"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:73740506-73743716",
+              "ensembl_id": "ENSG00000169429"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "CXCL8",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SCYB9",
+          "Humig",
+          "crg-10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7098",
+        "gene_name": "C-X-C motif chemokine ligand 9",
+        "omim_gene": [
+          "601704"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CXCL9",
+        "hgnc_symbol": "CXCL9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:76922428-76928641",
+              "ensembl_id": "ENSG00000138755"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:76001275-76007488",
+              "ensembl_id": "ENSG00000138755"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-08-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "CXCL9",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HBD-1",
+          "DEFB-1",
+          "DEFB101",
+          "HBD1",
+          "BD1",
+          "MGC51822"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2766",
+        "gene_name": "defensin beta 1",
+        "omim_gene": [
+          "602056"
+        ],
+        "alias_name": [
+          "beta-defensin 1",
+          "beta defensin 1"
+        ],
+        "gene_symbol": "DEFB1",
+        "hgnc_symbol": "DEFB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:6728097-6735544",
+              "ensembl_id": "ENSG00000164825"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:6870575-6878022",
+              "ensembl_id": "ENSG00000164825"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "DEFB1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hDIA1",
+          "LFHL1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2876",
+        "gene_name": "diaphanous related formin 1",
+        "omim_gene": [
+          "602121"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DIAPH1",
+        "hgnc_symbol": "DIAPH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:140894583-140998622",
+              "ensembl_id": "ENSG00000131504"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:141515016-141619055",
+              "ensembl_id": "ENSG00000131504"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "DIAPH1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NR3A1",
+          "Era",
+          "ER-alpha"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3467",
+        "gene_name": "estrogen receptor 1",
+        "omim_gene": [
+          "133430"
+        ],
+        "alias_name": [
+          "nuclear receptor subfamily 3 group A member 1",
+          "estrogen receptor alpha",
+          "oestrogen receptor alpha",
+          "E2 receptor alpha"
+        ],
+        "gene_symbol": "ESR1",
+        "hgnc_symbol": "ESR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:151977826-152450754",
+              "ensembl_id": "ENSG00000091831"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:151656691-152129619",
+              "ensembl_id": "ENSG00000091831"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ESR1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NR3A2",
+          "Erb",
+          "ER-beta"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3468",
+        "gene_name": "estrogen receptor 2",
+        "omim_gene": [
+          "601663"
+        ],
+        "alias_name": [
+          "ER beta",
+          "estrogen receptor beta",
+          "oestrogen receptor beta",
+          "nuclear receptor subfamily 3 group A member 2"
+        ],
+        "gene_symbol": "ESR2",
+        "hgnc_symbol": "ESR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:64550950-64804830",
+              "ensembl_id": "ENSG00000140009"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:64084232-64338112",
+              "ensembl_id": "ENSG00000140009"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-01-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ESR2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0290"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29002",
+        "gene_name": "FCH domain only 1",
+        "omim_gene": [
+          "613437"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FCHO1",
+        "hgnc_symbol": "FCHO1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:17858527-17899377",
+              "ensembl_id": "ENSG00000130475"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:17747718-17788568",
+              "ensembl_id": "ENSG00000130475"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-01-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "FCHO1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25180",
+        "gene_name": "FCH domain only 2",
+        "omim_gene": [
+          "613438"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FCHO2",
+        "hgnc_symbol": "FCHO2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:72251808-72386349",
+              "ensembl_id": "ENSG00000157107"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:72955981-73090522",
+              "ensembl_id": "ENSG00000157107"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "FCHO2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ABP-280"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3754",
+        "gene_name": "filamin A",
+        "omim_gene": [
+          "300017"
+        ],
+        "alias_name": [
+          "actin binding protein 280",
+          "alpha filamin"
+        ],
+        "gene_symbol": "FLNA",
+        "hgnc_symbol": "FLNA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153576892-153603006",
+              "ensembl_id": "ENSG00000196924"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154348524-154374638",
+              "ensembl_id": "ENSG00000196924"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-03-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLNA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "c-fos",
+          "AP-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3796",
+        "gene_name": "Fos proto-oncogene, AP-1 transcription factor subunit",
+        "omim_gene": [
+          "164810"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOS",
+        "hgnc_symbol": "FOS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:75745477-75748933",
+              "ensembl_id": "ENSG00000170345"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:75278774-75282230",
+              "ensembl_id": "ENSG00000170345"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOS",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JM2",
+          "XPID",
+          "AIID",
+          "PIDX",
+          "DIETER",
+          "SCURFIN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6106",
+        "gene_name": "forkhead box P3",
+        "omim_gene": [
+          "300292"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOXP3",
+        "hgnc_symbol": "FOXP3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:49106897-49121288",
+              "ensembl_id": "ENSG00000049768"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:49250436-49264826",
+              "ensembl_id": "ENSG00000049768"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXP3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CX31"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4285",
+        "gene_name": "gap junction protein beta 3",
+        "omim_gene": [
+          "603324"
+        ],
+        "alias_name": [
+          "connexin 31"
+        ],
+        "gene_symbol": "GJB3",
+        "hgnc_symbol": "GJB3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:35246790-35251970",
+              "ensembl_id": "ENSG00000188910"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:34781189-34786369",
+              "ensembl_id": "ENSG00000188910"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "GJB3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EDH",
+          "HED",
+          "CX30"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4288",
+        "gene_name": "gap junction protein beta 6",
+        "omim_gene": [
+          "604418"
+        ],
+        "alias_name": [
+          "connexin 30"
+        ],
+        "gene_symbol": "GJB6",
+        "hgnc_symbol": "GJB6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:20796110-20806534",
+              "ensembl_id": "ENSG00000121742"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:20221971-20232395",
+              "ensembl_id": "ENSG00000121742"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-07-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "GJB6",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4553",
+        "gene_name": "glutathione peroxidase 1",
+        "omim_gene": [
+          "138320"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GPX1",
+        "hgnc_symbol": "GPX1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:49394609-49396033",
+              "ensembl_id": "ENSG00000233276"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:49357176-49358600",
+              "ensembl_id": "ENSG00000233276"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GPX1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PHGPx",
+          "MCSP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4556",
+        "gene_name": "glutathione peroxidase 4",
+        "omim_gene": [
+          "138322"
+        ],
+        "alias_name": [
+          "phospholipid hydroperoxidase"
+        ],
+        "gene_symbol": "GPX4",
+        "hgnc_symbol": "GPX4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:1103936-1106787",
+              "ensembl_id": "ENSG00000167468"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:1103926-1106791",
+              "ensembl_id": "ENSG00000167468"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-05-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "GPX4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4557",
+        "gene_name": "glutathione peroxidase 5",
+        "omim_gene": [
+          "603435"
+        ],
+        "alias_name": [
+          "epididymal androgen-related protein"
+        ],
+        "gene_symbol": "GPX5",
+        "hgnc_symbol": "GPX5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:28493702-28502729",
+              "ensembl_id": "ENSG00000224586"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:28525925-28534952",
+              "ensembl_id": "ENSG00000224586"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-11-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "GPX5",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HCF-1",
+          "HCF1",
+          "CFF",
+          "VCAF",
+          "MGC70925",
+          "PPP1R89"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4839",
+        "gene_name": "host cell factor C1",
+        "omim_gene": [
+          "300019"
+        ],
+        "alias_name": [
+          "VP16-accessory protein",
+          "protein phosphatase 1, regulatory subunit 89"
+        ],
+        "gene_symbol": "HCFC1",
+        "hgnc_symbol": "HCFC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153213004-153237258",
+              "ensembl_id": "ENSG00000172534"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:153947553-153971807",
+              "ensembl_id": "ENSG00000172534"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-10-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "HCFC1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4931",
+        "gene_name": "major histocompatibility complex, class I, A",
+        "omim_gene": [
+          "142800"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HLA-A",
+        "hgnc_symbol": "HLA-A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:29909037-29913661",
+              "ensembl_id": "ENSG00000206503"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:29941260-29945884",
+              "ensembl_id": "ENSG00000206503"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HLA-A",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4932",
+        "gene_name": "major histocompatibility complex, class I, B",
+        "omim_gene": [
+          "142830"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HLA-B",
+        "hgnc_symbol": "HLA-B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31321649-31324965",
+              "ensembl_id": "ENSG00000234745"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31269491-31357188",
+              "ensembl_id": "ENSG00000234745"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HLA-B",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4933",
+        "gene_name": "major histocompatibility complex, class I, C",
+        "omim_gene": [
+          "142840"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HLA-C",
+        "hgnc_symbol": "HLA-C",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31236526-31239907",
+              "ensembl_id": "ENSG00000204525"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31268749-31272130",
+              "ensembl_id": "ENSG00000204525"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "HLA-C",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "unprocessed_pseudogene",
+        "hgnc_id": "HGNC:4939",
+        "gene_name": "major histocompatibility complex, class II, DP alpha 2 (pseudogene)",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "HLA-DPA2",
+        "hgnc_symbol": "HLA-DPA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:33059530-33065072",
+              "ensembl_id": "ENSG00000231461"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:33091753-33097295",
+              "ensembl_id": "ENSG00000231461"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "HLA-DPA2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CELIAC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4942",
+        "gene_name": "major histocompatibility complex, class II, DQ alpha 1",
+        "omim_gene": [
+          "146880"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HLA-DQA1",
+        "hgnc_symbol": "HLA-DQA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:32595956-32614839",
+              "ensembl_id": "ENSG00000196735"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:32628179-32647062",
+              "ensembl_id": "ENSG00000196735"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HLA-DQA1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4948",
+        "gene_name": "major histocompatibility complex, class II, DR beta 1",
+        "omim_gene": [
+          "142857"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HLA-DRB1",
+        "hgnc_symbol": "HLA-DRB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:32546546-32557625",
+              "ensembl_id": "ENSG00000196126"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:32578769-32589848",
+              "ensembl_id": "ENSG00000196126"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HLA-DRB1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010",
+        "17592398",
+        "25397881",
+        "12189399",
+        "12542204",
+        "12622783"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4953",
+        "gene_name": "major histocompatibility complex, class II, DR beta 5",
+        "omim_gene": [
+          "604776"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HLA-DRB5",
+        "hgnc_symbol": "HLA-DRB5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:32485120-32498064",
+              "ensembl_id": "ENSG00000198502"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:32517343-32530287",
+              "ensembl_id": "ENSG00000198502"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-10-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "HLA-DRB5",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSP70-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5232",
+        "gene_name": "heat shock protein family A (Hsp70) member 1A",
+        "omim_gene": [
+          "140550"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HSPA1A",
+        "hgnc_symbol": "HSPA1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31783291-31785723",
+              "ensembl_id": "ENSG00000204389"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31815464-31817946",
+              "ensembl_id": "ENSG00000204389"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HSPA1A",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BB2",
+          "CD54"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5344",
+        "gene_name": "intercellular adhesion molecule 1",
+        "omim_gene": [
+          "147840"
+        ],
+        "alias_name": [
+          "human rhinovirus receptor"
+        ],
+        "gene_symbol": "ICAM1",
+        "hgnc_symbol": "ICAM1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:10381511-10397291",
+              "ensembl_id": "ENSG00000090339"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:10270835-10286615",
+              "ensembl_id": "ENSG00000090339"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-04-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "ICAM1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5438",
+        "gene_name": "interferon gamma",
+        "omim_gene": [
+          "147570"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IFNG",
+        "hgnc_symbol": "IFNG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:68548548-68553527",
+              "ensembl_id": "ENSG00000111537"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:68154768-68159747",
+              "ensembl_id": "ENSG00000111537"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "IFNG",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CSIF",
+          "TGIF",
+          "IL10A",
+          "IL-10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5962",
+        "gene_name": "interleukin 10",
+        "omim_gene": [
+          "124092"
+        ],
+        "alias_name": [
+          "cytokine synthesis inhibitory factor",
+          "T-cell growth inhibitory factor"
+        ],
+        "gene_symbol": "IL10",
+        "hgnc_symbol": "IL10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:206940947-206945839",
+              "ensembl_id": "ENSG00000136634"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:206767602-206772494",
+              "ensembl_id": "ENSG00000136634"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-10-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL10",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IGIF",
+          "IL1F4",
+          "IL-1g",
+          "IL-18"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5986",
+        "gene_name": "interleukin 18",
+        "omim_gene": [
+          "600953"
+        ],
+        "alias_name": [
+          "interferon-gamma-inducing factor"
+        ],
+        "gene_symbol": "IL18",
+        "hgnc_symbol": "IL18",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:112013974-112034840",
+              "ensembl_id": "ENSG00000150782"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:112143251-112164117",
+              "ensembl_id": "ENSG00000150782"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL18",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IL1F1",
+          "IL-1A",
+          "IL1-ALPHA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5991",
+        "gene_name": "interleukin 1 alpha",
+        "omim_gene": [
+          "147760"
+        ],
+        "alias_name": [
+          "preinterleukin 1 alpha",
+          "hematopoietin-1",
+          "pro-interleukin-1-alpha"
+        ],
+        "gene_symbol": "IL1A",
+        "hgnc_symbol": "IL1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:113531492-113542167",
+              "ensembl_id": "ENSG00000115008"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:112773915-112784590",
+              "ensembl_id": "ENSG00000115008"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL1A",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IL1F2",
+          "IL-1B",
+          "IL1-BETA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5992",
+        "gene_name": "interleukin 1 beta",
+        "omim_gene": [
+          "147720"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IL1B",
+        "hgnc_symbol": "IL1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:113587328-113594480",
+              "ensembl_id": "ENSG00000125538"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:112829751-112836903",
+              "ensembl_id": "ENSG00000125538"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-03-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL1B",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D2S1473",
+          "CD121A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5993",
+        "gene_name": "interleukin 1 receptor type 1",
+        "omim_gene": [
+          "147810"
+        ],
+        "alias_name": [
+          "interleukin-1 receptor, type I"
+        ],
+        "gene_symbol": "IL1R1",
+        "hgnc_symbol": "IL1R1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:102681004-102796334",
+              "ensembl_id": "ENSG00000115594"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:102064544-102179874",
+              "ensembl_id": "ENSG00000115594"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-06-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL1R1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IL-2",
+          "TCGF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6001",
+        "gene_name": "interleukin 2",
+        "omim_gene": [
+          "147680"
+        ],
+        "alias_name": [
+          "T cell growth factor"
+        ],
+        "gene_symbol": "IL2",
+        "hgnc_symbol": "IL2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:123372625-123377880",
+              "ensembl_id": "ENSG00000109471"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:122451470-122456725",
+              "ensembl_id": "ENSG00000109471"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD25"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6008",
+        "gene_name": "interleukin 2 receptor subunit alpha",
+        "omim_gene": [
+          "147730"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IL2RA",
+        "hgnc_symbol": "IL2RA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:6052652-6104288",
+              "ensembl_id": "ENSG00000134460"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:6010689-6062325",
+              "ensembl_id": "ENSG00000134460"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-01-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL2RA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IL-6",
+          "BSF2",
+          "HGF",
+          "HSF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6018",
+        "gene_name": "interleukin 6",
+        "omim_gene": [
+          "147620"
+        ],
+        "alias_name": [
+          "interferon, beta 2"
+        ],
+        "gene_symbol": "IL6",
+        "hgnc_symbol": "IL6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:22765503-22771621",
+              "ensembl_id": "ENSG00000136244"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:22725884-22732002",
+              "ensembl_id": "ENSG00000136244"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL6",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6122",
+        "gene_name": "interferon regulatory factor 7",
+        "omim_gene": [
+          "605047"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IRF7",
+        "hgnc_symbol": "IRF7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:612553-615999",
+              "ensembl_id": "ENSG00000185507"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:612553-615999",
+              "ensembl_id": "ENSG00000185507"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-11-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "IRF7",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kv1.1",
+          "RBK1",
+          "HUK1",
+          "MBK1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6218",
+        "gene_name": "potassium voltage-gated channel subfamily A member 1",
+        "omim_gene": [
+          "176260"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNA1",
+        "hgnc_symbol": "KCNA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:5019071-5040527",
+              "ensembl_id": "ENSG00000111262"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:4909893-4918256",
+              "ensembl_id": "ENSG00000111262"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNA1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kv1.4",
+          "HK1",
+          "HPCN2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6222",
+        "gene_name": "potassium voltage-gated channel subfamily A member 4",
+        "omim_gene": [
+          "176266"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNA4",
+        "hgnc_symbol": "KCNA4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:30031288-30038570",
+              "ensembl_id": "ENSG00000182255"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:30009741-30017023",
+              "ensembl_id": "ENSG00000182255"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNA4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kv1.5",
+          "HK2",
+          "HPCN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6224",
+        "gene_name": "potassium voltage-gated channel subfamily A member 5",
+        "omim_gene": [
+          "176267"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNA5",
+        "hgnc_symbol": "KCNA5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:5153085-5155949",
+              "ensembl_id": "ENSG00000130037"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:5043989-5046788",
+              "ensembl_id": "ENSG00000130037"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNA5",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "minK",
+          "ISK",
+          "JLNS2",
+          "LQT5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6240",
+        "gene_name": "potassium voltage-gated channel subfamily E regulatory subunit 1",
+        "omim_gene": [
+          "176261"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNE1",
+        "hgnc_symbol": "KCNE1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:35818988-35884573",
+              "ensembl_id": "ENSG00000180509"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:34446688-34512275",
+              "ensembl_id": "ENSG00000180509"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNE1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MiRP2",
+          "HOKPP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6243",
+        "gene_name": "potassium voltage-gated channel subfamily E regulatory subunit 3",
+        "omim_gene": [
+          "604433"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNE3",
+        "hgnc_symbol": "KCNE3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:74165886-74178774",
+              "ensembl_id": "ENSG00000175538"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:74454841-74467729",
+              "ensembl_id": "ENSG00000175538"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNE3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kv7.1",
+          "KCNA8",
+          "KVLQT1",
+          "JLNS1",
+          "LQT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6294",
+        "gene_name": "potassium voltage-gated channel subfamily Q member 1",
+        "omim_gene": [
+          "607542"
+        ],
+        "alias_name": [
+          "Jervell and Lange-Nielsen syndrome 1"
+        ],
+        "gene_symbol": "KCNQ1",
+        "hgnc_symbol": "KCNQ1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:2465914-2870339",
+              "ensembl_id": "ENSG00000053918"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:2444684-2849109",
+              "ensembl_id": "ENSG00000053918"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-02-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNQ1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kv7.4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6298",
+        "gene_name": "potassium voltage-gated channel subfamily Q member 4",
+        "omim_gene": [
+          "603537"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNQ4",
+        "hgnc_symbol": "KCNQ4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:41249684-41306124",
+              "ensembl_id": "ENSG00000117013"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:40784012-40840452",
+              "ensembl_id": "ENSG00000117013"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-02-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNQ4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HLF2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6720",
+        "gene_name": "lactotransferrin",
+        "omim_gene": [
+          "150210"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LTF",
+        "hgnc_symbol": "LTF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:46477136-46526724",
+              "ensembl_id": "ENSG00000012223"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:46435645-46485234",
+              "ensembl_id": "ENSG00000012223"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "LTF",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ30532",
+          "TRIC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26401",
+        "gene_name": "MARVEL domain containing 2",
+        "omim_gene": [
+          "610572"
+        ],
+        "alias_name": [
+          "tricellulin"
+        ],
+        "gene_symbol": "MARVELD2",
+        "hgnc_symbol": "MARVELD2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:68710939-68740157",
+              "ensembl_id": "ENSG00000152939"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:69415112-69444330",
+              "ensembl_id": "ENSG00000152939"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "MARVELD2",
+      "confidence_level": "1",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "Non published"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Sporadic Meniere disease",
+        "Deafness, autosomal recessive 49 610153"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PERB11.1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7090",
+        "gene_name": "MHC class I polypeptide-related sequence A",
+        "omim_gene": [
+          "600169"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MICA",
+        "hgnc_symbol": "MICA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31371356-31383092",
+              "ensembl_id": "ENSG00000204520"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31399784-31415315",
+              "ensembl_id": "ENSG00000204520"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-05-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MICA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GIF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7097",
+        "gene_name": "macrophage migration inhibitory factor",
+        "omim_gene": [
+          "153620"
+        ],
+        "alias_name": [
+          "glycosylation-inhibiting factor"
+        ],
+        "gene_symbol": "MIF",
+        "hgnc_symbol": "MIF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:24236191-24237414",
+              "ensembl_id": "ENSG00000240972"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:23894004-23895227",
+              "ensembl_id": "ENSG00000240972"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-10-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "MIF",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7176",
+        "gene_name": "matrix metallopeptidase 9",
+        "omim_gene": [
+          "120361"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MMP9",
+        "hgnc_symbol": "MMP9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:44637547-44645200",
+              "ensembl_id": "ENSG00000100985"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:46008908-46016561",
+              "ensembl_id": "ENSG00000100985"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "MMP9",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RPS12",
+          "RPSM12"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10380",
+        "gene_name": "mitochondrial ribosomal protein S12",
+        "omim_gene": [
+          "603021"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MRPS12",
+        "hgnc_symbol": "MRPS12",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:39421188-39423802",
+              "ensembl_id": "ENSG00000128626"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:38930548-38933162",
+              "ensembl_id": "ENSG00000128626"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "MRPS12",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7436",
+        "gene_name": "methylenetetrahydrofolate reductase",
+        "omim_gene": [
+          "607093"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MTHFR",
+        "hgnc_symbol": "MTHFR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:11845780-11866977",
+              "ensembl_id": "ENSG00000177000"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:11785723-11806920",
+              "ensembl_id": "ENSG00000177000"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "MTHFR",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7464",
+        "gene_name": "melatonin receptor 1B",
+        "omim_gene": [
+          "600804"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MTNR1B",
+        "hgnc_symbol": "MTNR1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:92702886-92718232",
+              "ensembl_id": "ENSG00000134640"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:92969720-92985066",
+              "ensembl_id": "ENSG00000134640"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-06-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "MTNR1B",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cblG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7468",
+        "gene_name": "5-methyltetrahydrofolate-homocysteine methyltransferase",
+        "omim_gene": [
+          "156570"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MTR",
+        "hgnc_symbol": "MTR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:236958610-237067281",
+              "ensembl_id": "ENSG00000116984"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:236795281-236903981",
+              "ensembl_id": "ENSG00000116984"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "MTR",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cblE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7473",
+        "gene_name": "5-methyltetrahydrofolate-homocysteine methyltransferase reductase",
+        "omim_gene": [
+          "602568"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MTRR",
+        "hgnc_symbol": "MTRR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:7851299-7906138",
+              "ensembl_id": "ENSG00000124275"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:7851186-7906025",
+              "ensembl_id": "ENSG00000124275"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "MTRR",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7562",
+        "gene_name": "myeloid differentiation primary response 88",
+        "omim_gene": [
+          "602170"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYD88",
+        "hgnc_symbol": "MYD88",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:38179969-38184513",
+              "ensembl_id": "ENSG00000172936"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:38138478-38143022",
+              "ensembl_id": "ENSG00000172936"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-12-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYD88",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "D22S674"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7631",
+        "gene_name": "alpha-N-acetylgalactosaminidase",
+        "omim_gene": [
+          "104170"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NAGA",
+        "hgnc_symbol": "NAGA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:42454358-42466846",
+              "ensembl_id": "ENSG00000198951"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:42058354-42070842",
+              "ensembl_id": "ENSG00000198951"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "NAGA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CI-49"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7708",
+        "gene_name": "NADH:ubiquinone oxidoreductase core subunit S2",
+        "omim_gene": [
+          "602985"
+        ],
+        "alias_name": [
+          "complex I 49kDa subunit",
+          "NADH dehydrogenase [ubiquinone] iron-sulfur protein 2, mitochondrial"
+        ],
+        "gene_symbol": "NDUFS2",
+        "hgnc_symbol": "NDUFS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:161166894-161184185",
+              "ensembl_id": "ENSG00000158864"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:161197104-161214395",
+              "ensembl_id": "ENSG00000158864"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFS2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KBF1",
+          "p105",
+          "NFKB-p50",
+          "p50",
+          "NF-kappaB",
+          "NFkappaB",
+          "NF-kB1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7794",
+        "gene_name": "nuclear factor kappa B subunit 1",
+        "omim_gene": [
+          "164011"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NFKB1",
+        "hgnc_symbol": "NFKB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:103422486-103538459",
+              "ensembl_id": "ENSG00000109320"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:102501329-102617302",
+              "ensembl_id": "ENSG00000109320"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-11-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "NFKB1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010",
+        "29326686",
+        "25397881"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Bilateral Meniere disease",
+        "autoimmune Meniere disease"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IKBA",
+          "MAD-3",
+          "IkappaBalpha"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7797",
+        "gene_name": "NFKB inhibitor alpha",
+        "omim_gene": [
+          "164008"
+        ],
+        "alias_name": [
+          "NF-kappa-B inhibitor alpha"
+        ],
+        "gene_symbol": "NFKBIA",
+        "hgnc_symbol": "NFKBIA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:35870717-35873955",
+              "ensembl_id": "ENSG00000100906"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:35401511-35404749",
+              "ensembl_id": "ENSG00000100906"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "NFKBIA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "iNOS",
+          "NOS",
+          "HEP-NOS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7873",
+        "gene_name": "nitric oxide synthase 2",
+        "omim_gene": [
+          "163730"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NOS2",
+        "hgnc_symbol": "NOS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:26083792-26127525",
+              "ensembl_id": "ENSG00000007171"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:27756766-27800499",
+              "ensembl_id": "ENSG00000007171"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-09-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "NOS2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ECNOS",
+          "eNOS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7876",
+        "gene_name": "nitric oxide synthase 3",
+        "omim_gene": [
+          "163729"
+        ],
+        "alias_name": [
+          "endothelial nitric oxide synthase"
+        ],
+        "gene_symbol": "NOS3",
+        "hgnc_symbol": "NOS3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:150688083-150711676",
+              "ensembl_id": "ENSG00000164867"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:150990995-151014588",
+              "ensembl_id": "ENSG00000164867"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-08-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "NOS3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7882",
+        "gene_name": "notch 2",
+        "omim_gene": [
+          "600275"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NOTCH2",
+        "hgnc_symbol": "NOTCH2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:120454176-120612240",
+              "ensembl_id": "ENSG00000134250"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:119911553-120069626",
+              "ensembl_id": "ENSG00000134250"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-11-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "NOTCH2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CASIL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7883",
+        "gene_name": "notch 3",
+        "omim_gene": [
+          "600276"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NOTCH3",
+        "hgnc_symbol": "NOTCH3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:15270444-15311792",
+              "ensembl_id": "ENSG00000074181"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:15159038-15200981",
+              "ensembl_id": "ENSG00000074181"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "NOTCH3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GUCY2A",
+          "ANPa"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7943",
+        "gene_name": "natriuretic peptide receptor 1",
+        "omim_gene": [
+          "108960"
+        ],
+        "alias_name": [
+          "guanylate cyclase A"
+        ],
+        "gene_symbol": "NPR1",
+        "hgnc_symbol": "NPR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:153651113-153666468",
+              "ensembl_id": "ENSG00000169418"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:153678637-153693992",
+              "ensembl_id": "ENSG00000169418"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "NPR1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GUCY2B",
+          "ANPb"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7944",
+        "gene_name": "natriuretic peptide receptor 2",
+        "omim_gene": [
+          "108961"
+        ],
+        "alias_name": [
+          "guanylate cyclase 2B"
+        ],
+        "gene_symbol": "NPR2",
+        "hgnc_symbol": "NPR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:35792151-35809729",
+              "ensembl_id": "ENSG00000159899"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:35792154-35809732",
+              "ensembl_id": "ENSG00000159899"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "NPR2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GUCY2B",
+          "FLJ14054"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7945",
+        "gene_name": "natriuretic peptide receptor 3",
+        "omim_gene": [
+          "108962"
+        ],
+        "alias_name": [
+          "guanylate cyclase C"
+        ],
+        "gene_symbol": "NPR3",
+        "hgnc_symbol": "NPR3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:32689176-32791819",
+              "ensembl_id": "ENSG00000113389"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:32689070-32791724",
+              "ensembl_id": "ENSG00000113389"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "NPR3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PARP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:270",
+        "gene_name": "poly(ADP-ribose) polymerase 1",
+        "omim_gene": [
+          "173870"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PARP1",
+        "hgnc_symbol": "PARP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:226548392-226595780",
+              "ensembl_id": "ENSG00000143799"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:226360691-226408079",
+              "ensembl_id": "ENSG00000143799"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "PARP1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ESA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9204",
+        "gene_name": "paraoxonase 1",
+        "omim_gene": [
+          "168820"
+        ],
+        "alias_name": [
+          "esterase A",
+          "arylesterase 1"
+        ],
+        "gene_symbol": "PON1",
+        "hgnc_symbol": "PON1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:94926988-95025673",
+              "ensembl_id": "ENSG00000005421"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:95297676-95324707",
+              "ensembl_id": "ENSG00000005421"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PON1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9205",
+        "gene_name": "paraoxonase 2",
+        "omim_gene": [
+          "602447"
+        ],
+        "alias_name": [
+          "paraoxonase nirs",
+          "arylesterase 2"
+        ],
+        "gene_symbol": "PON2",
+        "hgnc_symbol": "PON2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:95034175-95064510",
+              "ensembl_id": "ENSG00000105854"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:95404863-95435329",
+              "ensembl_id": "ENSG00000105854"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "PON2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BRN3C"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9220",
+        "gene_name": "POU class 4 homeobox 3",
+        "omim_gene": [
+          "602460"
+        ],
+        "alias_name": null,
+        "gene_symbol": "POU4F3",
+        "hgnc_symbol": "POU4F3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:145718587-145720083",
+              "ensembl_id": "ENSG00000091010"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:146339024-146340520",
+              "ensembl_id": "ENSG00000091010"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "POU4F3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "COX2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9605",
+        "gene_name": "prostaglandin-endoperoxide synthase 2",
+        "omim_gene": [
+          "600262"
+        ],
+        "alias_name": [
+          "prostaglandin G/H synthase 2",
+          "cyclooxygenase 2"
+        ],
+        "gene_symbol": "PTGS2",
+        "hgnc_symbol": "PTGS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:186640923-186649559",
+              "ensembl_id": "ENSG00000073756"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:186671791-186680427",
+              "ensembl_id": "ENSG00000073756"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTGS2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Lyp",
+          "Lyp1",
+          "Lyp2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9652",
+        "gene_name": "protein tyrosine phosphatase, non-receptor type 22",
+        "omim_gene": [
+          "600716"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTPN22",
+        "hgnc_symbol": "PTPN22",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:114356433-114414381",
+              "ensembl_id": "ENSG00000134242"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:113813811-113871759",
+              "ensembl_id": "ENSG00000134242"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-11-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTPN22",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010",
+        "19780033"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "I-Rel",
+          "c-Rel"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9954",
+        "gene_name": "REL proto-oncogene, NF-kB subunit",
+        "omim_gene": [
+          "164910"
+        ],
+        "alias_name": null,
+        "gene_symbol": "REL",
+        "hgnc_symbol": "REL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:61108656-61158745",
+              "ensembl_id": "ENSG00000162924"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:60881521-60931610",
+              "ensembl_id": "ENSG00000162924"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "REL",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p65"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9955",
+        "gene_name": "RELA proto-oncogene, NF-kB subunit",
+        "omim_gene": [
+          "164014"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RELA",
+        "hgnc_symbol": "RELA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:65421067-65430565",
+              "ensembl_id": "ENSG00000173039"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:65653596-65663094",
+              "ensembl_id": "ENSG00000173039"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-11-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "RELA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "coll-2",
+          "Sema-Z2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10726",
+        "gene_name": "semaphorin 3D",
+        "omim_gene": [
+          "609907"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SEMA3D",
+        "hgnc_symbol": "SEMA3D",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:84624869-84816171",
+              "ensembl_id": "ENSG00000153993"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:84995553-85186855",
+              "ensembl_id": "ENSG00000153993"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "SEMA3D",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29095749",
+        "27876815"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "msk"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11142",
+        "gene_name": "salt inducible kinase 1",
+        "omim_gene": [
+          "605705"
+        ],
+        "alias_name": [
+          "myocardial SNF1-like kinase"
+        ],
+        "gene_symbol": "SIK1",
+        "hgnc_symbol": "SIK1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:44834395-44847008",
+              "ensembl_id": "ENSG00000142178"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:43414515-43427128",
+              "ensembl_id": "ENSG00000142178"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-12-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "SIK1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NKCC1",
+          "BSC",
+          "BSC2",
+          "PPP1R141"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10911",
+        "gene_name": "solute carrier family 12 member 2",
+        "omim_gene": [
+          "600840"
+        ],
+        "alias_name": [
+          "bumetanide-sensitive sodium-(potassium)-chloride cotransporter 1",
+          "basolateral Na-K-Cl symporter",
+          "protein phosphatase 1, regulatory subunit 141"
+        ],
+        "gene_symbol": "SLC12A2",
+        "hgnc_symbol": "SLC12A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:127419458-127525380",
+              "ensembl_id": "ENSG00000064651"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:128083766-128189688",
+              "ensembl_id": "ENSG00000064651"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC12A2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PDS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8818",
+        "gene_name": "solute carrier family 26 member 4",
+        "omim_gene": [
+          "605646"
+        ],
+        "alias_name": [
+          "pendrin"
+        ],
+        "gene_symbol": "SLC26A4",
+        "hgnc_symbol": "SLC26A4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:107301080-107358254",
+              "ensembl_id": "ENSG00000091137"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:107660635-107717809",
+              "ensembl_id": "ENSG00000091137"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC26A4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11068",
+        "gene_name": "solute carrier family 8 member A1",
+        "omim_gene": [
+          "182305"
+        ],
+        "alias_name": [
+          "Na+/Ca++ exchanger"
+        ],
+        "gene_symbol": "SLC8A1",
+        "hgnc_symbol": "SLC8A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:40324410-40838193",
+              "ensembl_id": "ENSG00000183023"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:40097270-40611053",
+              "ensembl_id": "ENSG00000183023"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-10-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC8A1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11180",
+        "gene_name": "superoxide dismutase 2",
+        "omim_gene": [
+          "147460"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOD2",
+        "hgnc_symbol": "SOD2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:160090089-160183561",
+              "ensembl_id": "ENSG00000112096"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:159669057-159762529",
+              "ensembl_id": "ENSG00000112096"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOD2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "APRF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11364",
+        "gene_name": "signal transducer and activator of transcription 3",
+        "omim_gene": [
+          "102582"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STAT3",
+        "hgnc_symbol": "STAT3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:40465342-40540586",
+              "ensembl_id": "ENSG00000168610"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:42313324-42388568",
+              "ensembl_id": "ENSG00000168610"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "STAT3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "mtTFB",
+          "CGI-75"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17037",
+        "gene_name": "transcription factor B1, mitochondrial",
+        "omim_gene": [
+          "607033"
+        ],
+        "alias_name": [
+          "dimethyladenosine transferase 1, mitochondrial"
+        ],
+        "gene_symbol": "TFB1M",
+        "hgnc_symbol": "TFB1M",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:155578643-155635627",
+              "ensembl_id": "ENSG00000029639"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:155257509-155314493",
+              "ensembl_id": "ENSG00000029639"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-04-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "TFB1M",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD290"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15634",
+        "gene_name": "toll like receptor 10",
+        "omim_gene": [
+          "606270"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TLR10",
+        "hgnc_symbol": "TLR10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:38773860-38784611",
+              "ensembl_id": "ENSG00000174123"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:38772239-38782990",
+              "ensembl_id": "ENSG00000174123"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-04-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "TLR10",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TIL4",
+          "CD282"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11848",
+        "gene_name": "toll like receptor 2",
+        "omim_gene": [
+          "603028"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TLR2",
+        "hgnc_symbol": "TLR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:154622652-154626851",
+              "ensembl_id": "ENSG00000137462"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:153701500-153705699",
+              "ensembl_id": "ENSG00000137462"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TLR2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD283"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11849",
+        "gene_name": "toll like receptor 3",
+        "omim_gene": [
+          "603029"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TLR3",
+        "hgnc_symbol": "TLR3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:186990306-187009223",
+              "ensembl_id": "ENSG00000164342"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:186069152-186088069",
+              "ensembl_id": "ENSG00000164342"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TLR3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hToll",
+          "CD284",
+          "TLR-4",
+          "ARMD10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11850",
+        "gene_name": "toll like receptor 4",
+        "omim_gene": [
+          "603030"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TLR4",
+        "hgnc_symbol": "TLR4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:120466610-120479149",
+              "ensembl_id": "ENSG00000136869"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:117704332-117716871",
+              "ensembl_id": "ENSG00000136869"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TLR4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15631",
+        "gene_name": "toll like receptor 7",
+        "omim_gene": [
+          "300365"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TLR7",
+        "hgnc_symbol": "TLR7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:12885202-12908499",
+              "ensembl_id": "ENSG00000196664"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:12867083-12890380",
+              "ensembl_id": "ENSG00000196664"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-04-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "TLR7",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD288"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15632",
+        "gene_name": "toll like receptor 8",
+        "omim_gene": [
+          "300366"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TLR8",
+        "hgnc_symbol": "TLR8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:12924739-12941288",
+              "ensembl_id": "ENSG00000101916"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:12906620-12923169",
+              "ensembl_id": "ENSG00000101916"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-04-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "TLR8",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD289"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15633",
+        "gene_name": "toll like receptor 9",
+        "omim_gene": [
+          "605474"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TLR9",
+        "hgnc_symbol": "TLR9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:52255096-52273183",
+              "ensembl_id": "ENSG00000239732"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:52221080-52226163",
+              "ensembl_id": "ENSG00000239732"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-04-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "TLR9",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TNFSF2",
+          "DIF",
+          "TNF-alpha"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11892",
+        "gene_name": "tumor necrosis factor",
+        "omim_gene": [
+          "191160"
+        ],
+        "alias_name": [
+          "TNF superfamily, member 2"
+        ],
+        "gene_symbol": "TNF",
+        "hgnc_symbol": "TNF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31543344-31546113",
+              "ensembl_id": "ENSG00000232810"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31575567-31578336",
+              "ensembl_id": "ENSG00000232810"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNF",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "A20",
+          "OTUD7C"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11896",
+        "gene_name": "TNF alpha induced protein 3",
+        "omim_gene": [
+          "191163"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TNFAIP3",
+        "hgnc_symbol": "TNFAIP3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:138188351-138204449",
+              "ensembl_id": "ENSG00000118503"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:137867188-137883312",
+              "ensembl_id": "ENSG00000118503"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNFAIP3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TNF-R",
+          "TNFAR",
+          "TNFR60",
+          "TNF-R-I",
+          "CD120a",
+          "TNF-R55"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11916",
+        "gene_name": "TNF receptor superfamily member 1A",
+        "omim_gene": [
+          "191190"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TNFRSF1A",
+        "hgnc_symbol": "TNFRSF1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:6437923-6451280",
+              "ensembl_id": "ENSG00000067182"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:6328757-6342114",
+              "ensembl_id": "ENSG00000067182"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-01-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNFRSF1A",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Periodic fever, familial, OMIM:142680"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NAF1",
+          "KIAA0113",
+          "ABIN-1",
+          "VAN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16903",
+        "gene_name": "TNFAIP3 interacting protein 1",
+        "omim_gene": [
+          "607714"
+        ],
+        "alias_name": [
+          "virion-associated nuclear-shuttling protein",
+          "Nef-associated factor 1 SNP"
+        ],
+        "gene_symbol": "TNIP1",
+        "hgnc_symbol": "TNIP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:150409506-150473138",
+              "ensembl_id": "ENSG00000145901"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:151029945-151093577",
+              "ensembl_id": "ENSG00000145901"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-10-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNIP1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD106"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12663",
+        "gene_name": "vascular cell adhesion molecule 1",
+        "omim_gene": [
+          "192225"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VCAM1",
+        "hgnc_symbol": "VCAM1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:101185298-101204601",
+              "ensembl_id": "ENSG00000162692"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:100719742-100739045",
+              "ensembl_id": "ENSG00000162692"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "VCAM1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VHL1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12687",
+        "gene_name": "von Hippel-Lindau tumor suppressor",
+        "omim_gene": [
+          "608537"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VHL",
+        "hgnc_symbol": "VHL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:10182692-10193904",
+              "ensembl_id": "ENSG00000134086"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:10141008-10152220",
+              "ensembl_id": "ENSG00000134086"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "VHL",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DIDMOAD",
+          "WFS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12762",
+        "gene_name": "wolframin ER transmembrane glycoprotein",
+        "omim_gene": [
+          "606201"
+        ],
+        "alias_name": null,
+        "gene_symbol": "WFS1",
+        "hgnc_symbol": "WFS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:6271576-6304992",
+              "ensembl_id": "ENSG00000109501"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:6269849-6303265",
+              "ensembl_id": "ENSG00000109501"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-01-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "WFS1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28787010"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Sporadic Meniere disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

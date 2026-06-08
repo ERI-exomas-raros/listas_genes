@@ -1,0 +1,1361 @@
+{
+  "id": 229,
+  "hash_id": "55c4a3ed22c1fc0fe5e416e9",
+  "name": "Skeletal Muscle Channelopathies",
+  "disease_group": "Neurology and neurodevelopmental disorders",
+  "disease_sub_group": "Channelopathies",
+  "status": "public",
+  "version": "1.48",
+  "version_created": "2025-11-23T17:49:00.785594Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 22,
+    "number_of_strs": 2,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "AC5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:236",
+        "gene_name": "adenylate cyclase 5",
+        "omim_gene": [
+          "600293"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADCY5",
+        "hgnc_symbol": "ADCY5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:123001143-123168605",
+              "ensembl_id": "ENSG00000173175"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:123282296-123449758",
+              "ensembl_id": "ENSG00000173175"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADCY5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Dyskinesia, familial, with facial myokymia, 606703"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FHM2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:800",
+        "gene_name": "ATPase Na+/K+ transporting subunit alpha 2",
+        "omim_gene": [
+          "182340"
+        ],
+        "alias_name": [
+          "sodium/potassium-transporting ATPase subunit alpha-2",
+          "sodium pump subunit alpha-2",
+          "sodium-potassium ATPase catalytic subunit alpha-2"
+        ],
+        "gene_symbol": "ATP1A2",
+        "hgnc_symbol": "ATP1A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:160085549-160113381",
+              "ensembl_id": "ENSG00000018625"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:160115759-160143591",
+              "ensembl_id": "ENSG00000018625"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP1A2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30423015",
+        "15286158",
+        "18056581"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Migraine, familial hemiplegic, 2, 602481",
+        "Alternating hemiplegia of childhood 1, 104290",
+        "Hypokalaemic periodic paralysis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SERCA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:811",
+        "gene_name": "ATPase sarcoplasmic/endoplasmic reticulum Ca2+ transporting 1",
+        "omim_gene": [
+          "108730"
+        ],
+        "alias_name": [
+          "sarcoplasmic/endoplasmic reticulum calcium ATPase 1",
+          "calcium pump 1"
+        ],
+        "gene_symbol": "ATP2A1",
+        "hgnc_symbol": "ATP2A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:28889726-28915830",
+              "ensembl_id": "ENSG00000196296"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:28878405-28904509",
+              "ensembl_id": "ENSG00000196296"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP2A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "884119",
+        "8841193",
+        "9367679"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Brody myopathy 601003"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Cav2.1",
+          "EA2",
+          "APCA",
+          "HPCA",
+          "FHM"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1388",
+        "gene_name": "calcium voltage-gated channel subunit alpha1 A",
+        "omim_gene": [
+          "601011"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNA1A",
+        "hgnc_symbol": "CACNA1A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:13317256-13734804",
+              "ensembl_id": "ENSG00000141837"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:13206442-13633025",
+              "ensembl_id": "ENSG00000141837"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-06-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNA1A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29442233",
+        "8734765",
+        "17575281"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Episodic ataxia, type 2, OMIM:108500",
+        "Migraine, familial hemiplegic, 1, OMIM:141500",
+        "Migraine, familial hemiplegic, 1, with progressive cerebellar ataxia, OMIM:141500"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Cav1.1",
+          "hypoPP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1397",
+        "gene_name": "calcium voltage-gated channel subunit alpha1 S",
+        "omim_gene": [
+          "114208"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNA1S",
+        "hgnc_symbol": "CACNA1S",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:201008642-201081694",
+              "ensembl_id": "ENSG00000081248"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:201039512-201112566",
+              "ensembl_id": "ENSG00000081248"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-03-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNA1S",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15534250",
+        "18835861",
+        "28012042"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hypokalemic periodic paralysis, type 1, 170400"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CLC1",
+          "ClC-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2019",
+        "gene_name": "chloride voltage-gated channel 1",
+        "omim_gene": [
+          "118425"
+        ],
+        "alias_name": [
+          "Thomsen disease, autosomal dominant"
+        ],
+        "gene_symbol": "CLCN1",
+        "hgnc_symbol": "CLCN1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:143013219-143049176",
+              "ensembl_id": "ENSG00000188037"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:143316126-143352083",
+              "ensembl_id": "ENSG00000188037"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLCN1",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11840191",
+        "18337100",
+        "22649220"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Myotonia congenita, recessive, 255700",
+        "Myotonia congenita, dominant, 160800",
+        "Myotonia levior, recessive",
+        "Myotonia Congenita",
+        "Hyperkalemic Periodic Paralysis",
+        "Myotonia"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kv1.1",
+          "RBK1",
+          "HUK1",
+          "MBK1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6218",
+        "gene_name": "potassium voltage-gated channel subfamily A member 1",
+        "omim_gene": [
+          "176260"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNA1",
+        "hgnc_symbol": "KCNA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:5019071-5040527",
+              "ensembl_id": "ENSG00000111262"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:4909893-4918256",
+              "ensembl_id": "ENSG00000111262"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNA1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Episodic ataxia/myokymia syndrome, 160120",
+        "Episodic Ataxia",
+        "Myokymia",
+        "Episodic Ataxia, Type 1",
+        "EA1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kir2.1",
+          "IRK1",
+          "LQT7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6263",
+        "gene_name": "potassium voltage-gated channel subfamily J member 2",
+        "omim_gene": [
+          "600681"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNJ2",
+        "hgnc_symbol": "KCNJ2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:68164814-68176189",
+              "ensembl_id": "ENSG00000123700"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:70168673-70180048",
+              "ensembl_id": "ENSG00000123700"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-02-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNJ2",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16217063"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Andersen syndrome, OMIM:170390",
+        "Andersen-Tawil syndrome, MONDO:0008222",
+        "Episodic weakness",
+        "Periodic paralysis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ATP6",
+          "ATPase-6",
+          "Su6m"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7414",
+        "gene_name": "mitochondrially encoded ATP synthase 6",
+        "omim_gene": [
+          "516060"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-ATP6",
+        "hgnc_symbol": "MT-ATP6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:8527-9207",
+              "ensembl_id": "ENSG00000198899"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:8527-9207",
+              "ensembl_id": "ENSG00000198899"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-ATP6",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ATP8",
+          "A6L"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7415",
+        "gene_name": "mitochondrially encoded ATP synthase 8",
+        "omim_gene": [
+          "516070"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-ATP8",
+        "hgnc_symbol": "MT-ATP8",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:8366-8572",
+              "ensembl_id": "ENSG00000228253"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:8366-8572",
+              "ensembl_id": "ENSG00000228253"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-ATP8",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9726",
+        "gene_name": "glycogen phosphorylase, muscle associated",
+        "omim_gene": [
+          "608455"
+        ],
+        "alias_name": [
+          "McArdle syndrome",
+          "glycogen storage disease type V",
+          "glycogen phosphorylase, muscle form",
+          "myophosphorylase"
+        ],
+        "gene_symbol": "PYGM",
+        "hgnc_symbol": "PYGM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:64513861-64527769",
+              "ensembl_id": "ENSG00000068976"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:64746389-64760297",
+              "ensembl_id": "ENSG00000068976"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PYGM",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "McArdle disease, 232600"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RYR",
+          "PPP1R137"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10483",
+        "gene_name": "ryanodine receptor 1",
+        "omim_gene": [
+          "180901"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 137"
+        ],
+        "gene_symbol": "RYR1",
+        "hgnc_symbol": "RYR1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:38924339-39078204",
+              "ensembl_id": "ENSG00000196218"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:38433699-38587564",
+              "ensembl_id": "ENSG00000196218"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "RYR1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Nav1.4",
+          "HYPP",
+          "SkM1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10591",
+        "gene_name": "sodium voltage-gated channel alpha subunit 4",
+        "omim_gene": [
+          "603967"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCN4A",
+        "hgnc_symbol": "SCN4A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:62015914-62050278",
+              "ensembl_id": "ENSG00000007314"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:63938554-63972918",
+              "ensembl_id": "ENSG00000007314"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN4A",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17395131",
+        "15534250"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hyperkalemic periodic paralysis, type 2, 170500",
+        "Myasthenic syndrome, acetazolamide-responsive, 614198",
+        "Hypokalemic periodic paralysis, type 2, 613",
+        "Potassium-Aggravated Myotonia",
+        "Hyperkalemic Periodic Paralysis",
+        "Hypokalemic Periodic Paralysis",
+        "Thyrotoxic Periodic Paralysis, Susceptibility To, 2",
+        "Myotonia",
+        "Episodic weakness"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EAAT1",
+          "GLAST",
+          "EA6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10941",
+        "gene_name": "solute carrier family 1 member 3",
+        "omim_gene": [
+          "600111"
+        ],
+        "alias_name": [
+          "glutamate transporter variant EAAT1ex9skip"
+        ],
+        "gene_symbol": "SLC1A3",
+        "hgnc_symbol": "SLC1A3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:36606457-36688436",
+              "ensembl_id": "ENSG00000079215"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:36606355-36688334",
+              "ensembl_id": "ENSG00000079215"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-02-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC1A3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Episodic ataxia, type 6, 612656",
+        "Episodic Ataxia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DYT18",
+          "DYT9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11005",
+        "gene_name": "solute carrier family 2 member 1",
+        "omim_gene": [
+          "138140"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC2A1",
+        "hgnc_symbol": "SLC2A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:43391052-43424530",
+              "ensembl_id": "ENSG00000117394"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:42925375-42959173",
+              "ensembl_id": "ENSG00000117394"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-11-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC2A1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "19630075",
+        "26598494",
+        "10980529"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Epilepsy, idiopathic generalized, susceptibility to, 12, 614847",
+        "Can resemble skeletal muscle channelopathy",
+        "GLUT1 deficiency syndrome 1, infantile onset, severe, 606777 (recessive and dominant).",
+        "GLUT1 deficiency syndrome 2, childhood onset, 612126",
+        "myotonia",
+        "dystonia"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kir3.4",
+          "CIR",
+          "KATP1",
+          "GIRK4",
+          "LQT13"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6266",
+        "gene_name": "potassium voltage-gated channel subfamily J member 5",
+        "omim_gene": [
+          "600734"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNJ5",
+        "hgnc_symbol": "KCNJ5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:128761251-128790930",
+              "ensembl_id": "ENSG00000120457"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:128891356-128921035",
+              "ensembl_id": "ENSG00000120457"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-04-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNJ5",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert Review"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EJM4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1404",
+        "gene_name": "calcium voltage-gated channel auxiliary subunit beta 4",
+        "omim_gene": [
+          "601949"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNB4",
+        "hgnc_symbol": "CACNB4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:152689290-152955593",
+              "ensembl_id": "ENSG00000182389"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:151832768-152099475",
+              "ensembl_id": "ENSG00000182389"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNB4",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "{Epilepsy, juvenile myoclonic, susceptibility to, 6}, 607682",
+        "{Epilepsy, idiopathic generalized, susceptibility to, 9}, 607682",
+        "Episodic ataxia, type 5, 613855",
+        "Episodic Ataxia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNF163",
+          "ZCCHC22",
+          "CNBP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13164",
+        "gene_name": "CCHC-type zinc finger nucleic acid binding protein",
+        "omim_gene": [
+          "116955"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CNBP",
+        "hgnc_symbol": "CNBP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:128888327-128902765",
+              "ensembl_id": "ENSG00000169714"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:129169484-129183922",
+              "ensembl_id": "ENSG00000169714"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-06-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "CNBP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Myotonic dystrophy 2, OMIM:602668",
+        "Myotonic dystrophy type 2, MONDO:0011266"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "nucleotide-repeat-expansion"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DMK",
+          "DM1PK",
+          "MDPK",
+          "MT-PK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2933",
+        "gene_name": "DM1 protein kinase",
+        "omim_gene": [
+          "605377"
+        ],
+        "alias_name": [
+          "dystrophia myotonica 1",
+          "DM protein kinase",
+          "myotonin protein kinase A",
+          "myotonic dystrophy associated protein kinase",
+          "thymopoietin homolog"
+        ],
+        "gene_symbol": "DMPK",
+        "hgnc_symbol": "DMPK",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:46272975-46285810",
+              "ensembl_id": "ENSG00000104936"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:45769717-45782552",
+              "ensembl_id": "ENSG00000104936"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "DMPK",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Myotonic dystrophy 1, OMIM:160900"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "currently-ngs-unreportable",
+        "nucleotide-repeat-expansion"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "perlecan",
+          "PRCAN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5273",
+        "gene_name": "heparan sulfate proteoglycan 2",
+        "omim_gene": [
+          "142461"
+        ],
+        "alias_name": [
+          "perlecan proteoglycan"
+        ],
+        "gene_symbol": "HSPG2",
+        "hgnc_symbol": "HSPG2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:22148738-22263790",
+              "ensembl_id": "ENSG00000142798"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:21822245-21937297",
+              "ensembl_id": "ENSG00000142798"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "HSPG2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Schwartz-Jampel syndrome, type 1, OMIM:255800",
+        "Schwartz-Jampel syndrome, MONDO:0009717",
+        "Dyssegmental dysplasia, Silverman-Handmaker type, OMIM:224410",
+        "Silverman-Handmaker type dyssegmental dysplasia, MONDO:0009140"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIR2.6",
+          "TTPP2"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:39080",
+        "gene_name": "potassium voltage-gated channel subfamily J member 18",
+        "omim_gene": [
+          "613236"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNJ18",
+        "hgnc_symbol": "KCNJ18",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch38": {
+            "90": {
+              "location": "17:21692523-21704612",
+              "ensembl_id": "ENSG00000260458"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-10-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNJ18",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20074522"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Hypokalemic Periodic Paralysis, Type 1"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [
+        "ensembl_ids_known_missing"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kv7.2",
+          "ENB1",
+          "BFNC",
+          "KCNA11",
+          "HNSPC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6296",
+        "gene_name": "potassium voltage-gated channel subfamily Q member 2",
+        "omim_gene": [
+          "602235"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNQ2",
+        "hgnc_symbol": "KCNQ2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:62037542-62103993",
+              "ensembl_id": "ENSG00000075043"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:63400210-63472677",
+              "ensembl_id": "ENSG00000075043"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNQ2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Seizures, benign neonatal, 1, 121200",
+        "Myokymia, 121200",
+        "Epileptic encephalopathy, early infantile, 7, 613720"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [
+    {
+      "gene_data": {
+        "alias": [
+          "RNF163",
+          "ZCCHC22",
+          "CNBP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13164",
+        "gene_name": "CCHC-type zinc finger nucleic acid binding protein",
+        "omim_gene": [
+          "116955"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CNBP",
+        "hgnc_symbol": "CNBP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:128888327-128902765",
+              "ensembl_id": "ENSG00000169714"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:129169484-129183922",
+              "ensembl_id": "ENSG00000169714"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-06-29"
+      },
+      "entity_type": "str",
+      "entity_name": "CNBP_CCTG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Myotonic dystrophy 2, OMIM:602668",
+        "Myotonic dystrophy type 2, MONDO:0011266"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "repeated_sequence": "CCTG",
+      "chromosome": "3",
+      "grch37_coordinates": [
+        128891420,
+        128891499
+      ],
+      "grch38_coordinates": [
+        129172577,
+        129172656
+      ],
+      "normal_repeats": 27,
+      "pathogenic_repeats": 75,
+      "tags": [
+        "STR"
+      ]
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DMK",
+          "DM1PK",
+          "MDPK",
+          "MT-PK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2933",
+        "gene_name": "DM1 protein kinase",
+        "omim_gene": [
+          "605377"
+        ],
+        "alias_name": [
+          "dystrophia myotonica 1",
+          "DM protein kinase",
+          "myotonin protein kinase A",
+          "myotonic dystrophy associated protein kinase",
+          "thymopoietin homolog"
+        ],
+        "gene_symbol": "DMPK",
+        "hgnc_symbol": "DMPK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:46272975-46285810",
+              "ensembl_id": "ENSG00000104936"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:45769717-45782552",
+              "ensembl_id": "ENSG00000104936"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-10"
+      },
+      "entity_type": "str",
+      "entity_name": "DMPK_CTG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Myotonic dystrophy 1, OMIM:160900"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "repeated_sequence": "CTG",
+      "chromosome": "19",
+      "grch37_coordinates": [
+        46273463,
+        46273522
+      ],
+      "grch38_coordinates": [
+        45770205,
+        45770264
+      ],
+      "normal_repeats": 35,
+      "pathogenic_repeats": 50,
+      "tags": [
+        "STR"
+      ]
+    }
+  ],
+  "regions": []
+}

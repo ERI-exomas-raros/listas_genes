@@ -1,0 +1,137 @@
+{
+  "id": 1391,
+  "hash_id": null,
+  "name": "Sitosterolaemia",
+  "disease_group": "Metabolic",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.4",
+  "version_created": "2026-01-25T18:25:13.692918Z",
+  "relevant_disorders": [
+    "R323"
+  ],
+  "stats": {
+    "number_of_genes": 2,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "STSL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13886",
+        "gene_name": "ATP binding cassette subfamily G member 5",
+        "omim_gene": [
+          "605459"
+        ],
+        "alias_name": [
+          "sterolin 1"
+        ],
+        "gene_symbol": "ABCG5",
+        "hgnc_symbol": "ABCG5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:44039611-44066004",
+              "ensembl_id": "ENSG00000138075"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:43812472-43838865",
+              "ensembl_id": "ENSG00000138075"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-12-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCG5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Sitosterolemia 2, OMIM:618666",
+        "sitosterolemia 2, MONDO:0020748"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GBD4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13887",
+        "gene_name": "ATP binding cassette subfamily G member 8",
+        "omim_gene": [
+          "605460"
+        ],
+        "alias_name": [
+          "gallbladder disease 4",
+          "sterolin 2"
+        ],
+        "gene_symbol": "ABCG8",
+        "hgnc_symbol": "ABCG8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:44066103-44105605",
+              "ensembl_id": "ENSG00000143921"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:43838964-43878466",
+              "ensembl_id": "ENSG00000143921"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-12-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCG8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Sitosterolemia 1, OMIM:210250",
+        "sitosterolemia 1, MONDO:0020747"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

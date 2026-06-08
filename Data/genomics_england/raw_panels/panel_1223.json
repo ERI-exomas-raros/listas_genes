@@ -1,0 +1,430 @@
+{
+  "id": 1223,
+  "hash_id": null,
+  "name": "Inherited prostate cancer",
+  "disease_group": "Inherited cancer",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.6",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R430"
+  ],
+  "stats": {
+    "number_of_genes": 8,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "TEL1",
+          "TELO1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:795",
+        "gene_name": "ATM serine/threonine kinase",
+        "omim_gene": [
+          "607585"
+        ],
+        "alias_name": [
+          "TEL1, telomere maintenance 1, homolog (S. cerevisiae)"
+        ],
+        "gene_symbol": "ATM",
+        "hgnc_symbol": "ATM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:108093211-108239829",
+              "ensembl_id": "ENSG00000149311"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:108222484-108369102",
+              "ensembl_id": "ENSG00000149311"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATM",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNF53",
+          "BRCC1",
+          "PPP1R53",
+          "FANCS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1100",
+        "gene_name": "BRCA1, DNA repair associated",
+        "omim_gene": [
+          "113705"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-containing complex, subunit 1",
+          "protein phosphatase 1, regulatory subunit 53",
+          "Fanconi anemia, complementation group S"
+        ],
+        "gene_symbol": "BRCA1",
+        "hgnc_symbol": "BRCA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:41196312-41277500",
+              "ensembl_id": "ENSG00000012048"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:43044295-43170245",
+              "ensembl_id": "ENSG00000012048"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-02-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRCA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAD",
+          "FAD1",
+          "BRCC2",
+          "XRCC11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1101",
+        "gene_name": "BRCA2, DNA repair associated",
+        "omim_gene": [
+          "600185"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-containing complex, subunit 2"
+        ],
+        "gene_symbol": "BRCA2",
+        "hgnc_symbol": "BRCA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:32889611-32973805",
+              "ensembl_id": "ENSG00000139618"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:32315474-32400266",
+              "ensembl_id": "ENSG00000139618"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-10-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRCA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDS1",
+          "CHK2",
+          "HuCds1",
+          "PP1425",
+          "bA444G7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16627",
+        "gene_name": "checkpoint kinase 2",
+        "omim_gene": [
+          "604373"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CHEK2",
+        "hgnc_symbol": "CHEK2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:29083731-29138410",
+              "ensembl_id": "ENSG00000183765"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:28687743-28742422",
+              "ensembl_id": "ENSG00000183765"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-09-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHEK2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNPCC",
+          "FCC2",
+          "HNPCC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7127",
+        "gene_name": "mutL homolog 1",
+        "omim_gene": [
+          "120436"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MLH1",
+        "hgnc_symbol": "MLH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:37034823-37107380",
+              "ensembl_id": "ENSG00000076242"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:36993332-37050918",
+              "ensembl_id": "ENSG00000076242"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "MLH1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNPCC",
+          "HNPCC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7325",
+        "gene_name": "mutS homolog 2",
+        "omim_gene": [
+          "609309"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH2",
+        "hgnc_symbol": "MSH2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47630108-47789450",
+              "ensembl_id": "ENSG00000095002"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47402969-47562311",
+              "ensembl_id": "ENSG00000095002"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7329",
+        "gene_name": "mutS homolog 6",
+        "omim_gene": [
+          "600678"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH6",
+        "hgnc_symbol": "MSH6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47922669-48037240",
+              "ensembl_id": "ENSG00000116062"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47695530-47810101",
+              "ensembl_id": "ENSG00000116062"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-08-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ21816",
+          "FANCN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26144",
+        "gene_name": "partner and localizer of BRCA2",
+        "omim_gene": [
+          "610355"
+        ],
+        "alias_name": [
+          "Fanconi anemia, complementation group N"
+        ],
+        "gene_symbol": "PALB2",
+        "hgnc_symbol": "PALB2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:23614488-23652631",
+              "ensembl_id": "ENSG00000083093"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:23603160-23641310",
+              "ensembl_id": "ENSG00000083093"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "PALB2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

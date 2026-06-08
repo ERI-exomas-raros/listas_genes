@@ -1,0 +1,645 @@
+{
+  "id": 83,
+  "hash_id": "58c805938f6203413360f1cb",
+  "name": "Membranoproliferative glomerulonephritis including C3 glomerulopathy",
+  "disease_group": "Renal",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.13",
+  "version_created": "2026-06-04T13:17:46.687193Z",
+  "relevant_disorders": [
+    "PMG",
+    "MPGN",
+    "Primary Membranoproliferative Glomerulonephritis",
+    "Primary membranoproliferative glomerulonephritis",
+    "Membranoproliferative glomerulonephritis",
+    "R197"
+  ],
+  "stats": {
+    "number_of_genes": 9,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "Component Of Super Panel",
+      "slug": "component-of-super-panel",
+      "description": "This panel is a component of a Super Panel"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "CPAMD1",
+          "ARMD9",
+          "C3a",
+          "C3b"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1318",
+        "gene_name": "complement C3",
+        "omim_gene": [
+          "120700"
+        ],
+        "alias_name": [
+          "C3a anaphylatoxin",
+          "complement component C3a",
+          "complement component C3b",
+          "prepro-C3"
+        ],
+        "gene_symbol": "C3",
+        "hgnc_symbol": "C3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:6677715-6730573",
+              "ensembl_id": "ENSG00000125730"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:6677704-6730562",
+              "ensembl_id": "ENSG00000125730"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "C3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "24172683",
+        "20852386",
+        "18796626",
+        "21902819",
+        "26471127"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Hemolytic uremic syndrome, atypical, susceptibility to, 5, OMIM:612925",
+        "C3 glomerulopathy",
+        "C3G"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "H2-Bf"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1037",
+        "gene_name": "complement factor B",
+        "omim_gene": [
+          "138470"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CFB",
+        "hgnc_symbol": "CFB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31895475-31919861",
+              "ensembl_id": "ENSG00000243649"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31945650-31952084",
+              "ensembl_id": "ENSG00000243649"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "CFB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "25758434",
+        "17182750",
+        "21902819",
+        "26283675"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Haemolytic uraemic syndrome",
+        "aHUS",
+        "Hemolytic uremic syndrome, atypical, susceptibility to, 4, 612924",
+        "C3 glomerulopathy",
+        "C3G",
+        "Immune complex MPGN",
+        "IC-MPGN",
+        "MPGN",
+        "Membranoproliferative glomerulonephritis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HUS",
+          "FHL1",
+          "ARMS1",
+          "ARMD4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4883",
+        "gene_name": "complement factor H",
+        "omim_gene": [
+          "134370"
+        ],
+        "alias_name": [
+          "beta-1H",
+          "H factor 2 (complement)",
+          "age-related maculopathy susceptibility 1"
+        ],
+        "gene_symbol": "CFH",
+        "hgnc_symbol": "CFH",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:196621008-196716634",
+              "ensembl_id": "ENSG00000000971"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:196651878-196747504",
+              "ensembl_id": "ENSG00000000971"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "CFH",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24172683",
+        "16612335",
+        "24722444",
+        "27458560",
+        "9312129",
+        "26895476",
+        "26283675",
+        "31919107",
+        "37615951"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Complement factor H deficiency, OMIM:609814",
+        "{Hemolytic uremic syndrome, atypical, susceptibility to, 1}, OMIM:235400"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "H36-1",
+          "FHR1",
+          "CFHL",
+          "H36-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4888",
+        "gene_name": "complement factor H related 1",
+        "omim_gene": [
+          "134371"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CFHR1",
+        "hgnc_symbol": "CFHR1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:196788887-196801319",
+              "ensembl_id": "ENSG00000244414"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:196819757-196832189",
+              "ensembl_id": "ENSG00000244414"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "CFHR1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24172683",
+        "23728178",
+        "24334459",
+        "20800271",
+        "27458560"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "C3 glomerulopathy",
+        "C3G",
+        "Immune complex MPGN",
+        "IC-MPGN",
+        "Hemolytic uremic syndrome, atypical, susceptibility to, 235400",
+        "Immune-complex-mediated MPGN"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "currently-ngs-unreportable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FHR2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4890",
+        "gene_name": "complement factor H related 2",
+        "omim_gene": [
+          "600889"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CFHR2",
+        "hgnc_symbol": "CFHR2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:196788898-196928356",
+              "ensembl_id": "ENSG00000080910"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:196943772-196959226",
+              "ensembl_id": "ENSG00000080910"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "CFHR2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24172683",
+        "24334459",
+        "23728178",
+        "20800271",
+        "22456601",
+        "27458560"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "C3 glomerulopathy",
+        "C3G",
+        "Immune complex MPGN",
+        "IC-MPGN",
+        "Immune-complex-mediated MPGN"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "currently-ngs-unreportable",
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FHR5",
+          "FHR-5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24668",
+        "gene_name": "complement factor H related 5",
+        "omim_gene": [
+          "608593"
+        ],
+        "alias_name": [
+          "factor H related protein 5"
+        ],
+        "gene_symbol": "CFHR5",
+        "hgnc_symbol": "CFHR5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:196946667-196978804",
+              "ensembl_id": "ENSG00000134389"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:196977556-197009674",
+              "ensembl_id": "ENSG00000134389"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "CFHR5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "24172683",
+        "20800271",
+        "24067434",
+        "23728178",
+        "27458560",
+        "21566112",
+        "32928961",
+        "22503529",
+        "30844074",
+        "28729035",
+        "27490940",
+        "28729035",
+        "27490940",
+        "33753502",
+        "30197990"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "C3 glomerulopathy",
+        "C3G",
+        "Immune complex MPGN",
+        "IC-MPGN",
+        "Nephropathy due to CFHR5 deficiency, OMIM:614809",
+        "Immune-complex-mediated MPGN",
+        "CFHR5 nephropathy",
+        "Haematuria",
+        "Chronic Kidney Disease",
+        "Proteinuria",
+        "End stage renal disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "currently-ngs-unreportable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FI",
+          "C3b-INA",
+          "KAF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5394",
+        "gene_name": "complement factor I",
+        "omim_gene": [
+          "217030"
+        ],
+        "alias_name": [
+          "Konglutinogen-activating factor",
+          "C3b-inactivator"
+        ],
+        "gene_symbol": "CFI",
+        "hgnc_symbol": "CFI",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:110661852-110723335",
+              "ensembl_id": "ENSG00000205403"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:109740694-109802179",
+              "ensembl_id": "ENSG00000205403"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "CFI",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24172683",
+        "18371543",
+        "22456601",
+        "27458560",
+        "31919107",
+        "37615951"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "{Hemolytic uremic syndrome, atypical, susceptibility to, 3}, OMIM:612923",
+        "Complement factor I deficiency, OMIM:610984",
+        "C3 glomerulopathy",
+        "C3G",
+        "Immune complex MPGN",
+        "IC-MPGN"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DAGK6",
+          "DGK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2852",
+        "gene_name": "diacylglycerol kinase epsilon",
+        "omim_gene": [
+          "601440"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DGKE",
+        "hgnc_symbol": "DGKE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:54911460-54946036",
+              "ensembl_id": "ENSG00000153933"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:56834099-56869567",
+              "ensembl_id": "ENSG00000153933"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "DGKE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23274426",
+        "23542698",
+        "21902819",
+        "28526779"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Haemolytic uraemic syndrome",
+        "aHUS",
+        "Hemolytic uremic syndrome, atypical, susceptibility to, 7, 615008",
+        "Nephrotic syndrome, type 7, 615008",
+        "C3 glomerulopathy",
+        "C3G",
+        "Immune complex MPGN",
+        "IC-MPGN"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRA2.10",
+          "MGC26544",
+          "TLX"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6953",
+        "gene_name": "CD46 molecule",
+        "omim_gene": [
+          "120920"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CD46",
+        "hgnc_symbol": "CD46",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:207925402-207968858",
+              "ensembl_id": "ENSG00000117335"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:207752057-207795513",
+              "ensembl_id": "ENSG00000117335"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "CD46",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24172683",
+        "22456601",
+        "14615110",
+        "21902819"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Haemolytic uraemic syndrome",
+        "aHUS",
+        "Hemolytic uremic syndrome, atypical, susceptibility to, 2, 612922",
+        "C3 glomerulopathy",
+        "C3G",
+        "Immune complex MPGN",
+        "IC-MPGN"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

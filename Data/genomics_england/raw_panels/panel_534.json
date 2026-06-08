@@ -1,0 +1,2683 @@
+{
+  "id": 534,
+  "hash_id": null,
+  "name": "Mitochondrial disorder with complex I deficiency",
+  "disease_group": "Mitochondrial",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "4.1",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R353"
+  ],
+  "stats": {
+    "number_of_genes": 51,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "NPD002",
+          "MGC14452"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21497",
+        "gene_name": "acyl-CoA dehydrogenase family member 9",
+        "omim_gene": [
+          "611103"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACAD9",
+        "hgnc_symbol": "ACAD9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:128598439-128634910",
+              "ensembl_id": "ENSG00000177646"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:128879596-128916067",
+              "ensembl_id": "ENSG00000177646"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACAD9",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 20, 611126"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "H17"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26927",
+        "gene_name": "FAD dependent oxidoreductase domain containing 1",
+        "omim_gene": [
+          "613622"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOXRED1",
+        "hgnc_symbol": "FOXRED1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:126138950-126148026",
+              "ensembl_id": "ENSG00000110074"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:126269055-126278131",
+              "ensembl_id": "ENSG00000110074"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXRED1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 19, 618241"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MWFE",
+          "CI-MWFE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7683",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit A1",
+        "omim_gene": [
+          "300078"
+        ],
+        "alias_name": [
+          "NADH:ubiquinone oxidoreductase (complex 1)",
+          "type I dehydrogenase",
+          "NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 1 (7.5kD, MWFE)",
+          "complex I MWFE subunit"
+        ],
+        "gene_symbol": "NDUFA1",
+        "hgnc_symbol": "NDUFA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:119005450-119010625",
+              "ensembl_id": "ENSG00000125356"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:119871487-119876662",
+              "ensembl_id": "ENSG00000125356"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-08-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 12, 301020"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CI-42k"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7684",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit A10",
+        "omim_gene": [
+          "603835"
+        ],
+        "alias_name": [
+          "complex I 42kDa subunit"
+        ],
+        "gene_symbol": "NDUFA10",
+        "hgnc_symbol": "NDUFA10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:240831867-240964819",
+              "ensembl_id": "ENSG00000130414"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:239892450-240025402",
+              "ensembl_id": "ENSG00000130414"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFA10",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 22, 618243"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B14.7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20371",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit A11",
+        "omim_gene": [
+          "612638"
+        ],
+        "alias_name": [
+          "complex I B14.7 subunit"
+        ],
+        "gene_symbol": "NDUFA11",
+        "hgnc_symbol": "NDUFA11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:5891287-5904017",
+              "ensembl_id": "ENSG00000174886"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:5891276-5904006",
+              "ensembl_id": "ENSG00000174886"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-12-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFA11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 14, 618236"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DAP13",
+          "B17.2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23987",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit A12",
+        "omim_gene": [
+          "614530"
+        ],
+        "alias_name": [
+          "complex I B17.2 subunit"
+        ],
+        "gene_symbol": "NDUFA12",
+        "hgnc_symbol": "NDUFA12",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:95290831-95397546",
+              "ensembl_id": "ENSG00000184752"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:94897055-95003770",
+              "ensembl_id": "ENSG00000184752"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFA12",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21617257",
+        "33715266",
+        "35141356"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 23, OMIM:618244"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CGI-39",
+          "CDA016",
+          "GRIM-19",
+          "GRIM19",
+          "B16.6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17194",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit A13",
+        "omim_gene": [
+          "609435"
+        ],
+        "alias_name": [
+          "complex I B16.6 subunit"
+        ],
+        "gene_symbol": "NDUFA13",
+        "hgnc_symbol": "NDUFA13",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:19626545-19644285",
+              "ensembl_id": "ENSG00000186010"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:19515736-19529054",
+              "ensembl_id": "ENSG00000186010"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFA13",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25901006",
+        "32722639"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 28, OMIM:618249"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7685",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit A2",
+        "omim_gene": [
+          "602137"
+        ],
+        "alias_name": [
+          "complex I B8 subunit"
+        ],
+        "gene_symbol": "NDUFA2",
+        "hgnc_symbol": "NDUFA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:140018325-140027370",
+              "ensembl_id": "ENSG00000131495"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:140638740-140647785",
+              "ensembl_id": "ENSG00000131495"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-08-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 13, 618235"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B14",
+          "LYRM6",
+          "CI-B14",
+          "NADHB14"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7690",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit A6",
+        "omim_gene": [
+          "602138"
+        ],
+        "alias_name": [
+          "complex I B14 subunit"
+        ],
+        "gene_symbol": "NDUFA6",
+        "hgnc_symbol": "NDUFA6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:42481529-42486959",
+              "ensembl_id": "ENSG00000184983"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:42085525-42090955",
+              "ensembl_id": "ENSG00000184983"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-08-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFA6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30245030"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 33, OMIM:618253"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PGIV",
+          "MGC793"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7692",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit A8",
+        "omim_gene": [
+          "603359"
+        ],
+        "alias_name": [
+          "complex I PGIV subunit"
+        ],
+        "gene_symbol": "NDUFA8",
+        "hgnc_symbol": "NDUFA8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:124894745-124922098",
+              "ensembl_id": "ENSG00000119421"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:122144058-122159819",
+              "ensembl_id": "ENSG00000119421"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFA8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15576045",
+        "33153867",
+        "32385911"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 37, OMIM:619272"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SDR22E1",
+          "CI-39k"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7693",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit A9",
+        "omim_gene": [
+          "603834"
+        ],
+        "alias_name": [
+          "short chain dehydrogenase/reductase family 22E, member 1",
+          "complex I 39kDa subunit"
+        ],
+        "gene_symbol": "NDUFA9",
+        "hgnc_symbol": "NDUFA9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:4758261-4798454",
+              "ensembl_id": "ENSG00000139180"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:4649095-4694317",
+              "ensembl_id": "ENSG00000139180"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFA9",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28671271",
+        "22114105"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 26, 618247"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CIA30",
+          "CGI-65"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18828",
+        "gene_name": "NADH:ubiquinone oxidoreductase complex assembly factor 1",
+        "omim_gene": [
+          "606934"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NDUFAF1",
+        "hgnc_symbol": "NDUFAF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:41679551-41694717",
+              "ensembl_id": "ENSG00000137806"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:41387349-41402519",
+              "ensembl_id": "ENSG00000137806"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFAF1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 11, 618234"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B17.2L",
+          "MMTN",
+          "mimitin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28086",
+        "gene_name": "NADH:ubiquinone oxidoreductase complex assembly factor 2",
+        "omim_gene": [
+          "609653"
+        ],
+        "alias_name": [
+          "Myc-induced mitochondrial protein"
+        ],
+        "gene_symbol": "NDUFAF2",
+        "hgnc_symbol": "NDUFAF2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:60240956-60448853",
+              "ensembl_id": "ENSG00000164182"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:60945129-61153037",
+              "ensembl_id": "ENSG00000164182"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-02-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFAF2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 10, 618233"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC10527",
+          "DKFZP564J0123",
+          "E3-3",
+          "2P1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29918",
+        "gene_name": "NADH:ubiquinone oxidoreductase complex assembly factor 3",
+        "omim_gene": [
+          "612911"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NDUFAF3",
+        "hgnc_symbol": "NDUFAF3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:49057892-49060928",
+              "ensembl_id": "ENSG00000178057"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:49020459-49023495",
+              "ensembl_id": "ENSG00000178057"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-03-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFAF3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 18, 618240"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSPC125",
+          "bA22L21.1",
+          "My013",
+          "HRPAP20"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21034",
+        "gene_name": "NADH:ubiquinone oxidoreductase complex assembly factor 4",
+        "omim_gene": [
+          "611776"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NDUFAF4",
+        "hgnc_symbol": "NDUFAF4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:97337189-97345757",
+              "ensembl_id": "ENSG00000123545"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:96889313-96897881",
+              "ensembl_id": "ENSG00000123545"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-03-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFAF4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 15, 618237"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dJ842G6.1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15899",
+        "gene_name": "NADH:ubiquinone oxidoreductase complex assembly factor 5",
+        "omim_gene": [
+          "612360"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NDUFAF5",
+        "hgnc_symbol": "NDUFAF5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:13765596-13799067",
+              "ensembl_id": "ENSG00000101247"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:13784950-13821582",
+              "ensembl_id": "ENSG00000101247"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-05-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFAF5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 16, 616238"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC40214"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28625",
+        "gene_name": "NADH:ubiquinone oxidoreductase complex assembly factor 6",
+        "omim_gene": [
+          "612392"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NDUFAF6",
+        "hgnc_symbol": "NDUFAF6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:95907995-96128683",
+              "ensembl_id": "ENSG00000156170"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:94895767-95116455",
+              "ensembl_id": "ENSG00000156170"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-05-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFAF6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Victorian Clinical Genetics Services"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 17, 612392"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:33551",
+        "gene_name": "NADH:ubiquinone oxidoreductase complex assembly factor 8",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "NDUFAF8",
+        "hgnc_symbol": "NDUFAF8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:79213039-79215081",
+              "ensembl_id": "ENSG00000224877"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:81239239-81241281",
+              "ensembl_id": "ENSG00000224877"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2016-08-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFAF8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27499296"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 34, OMIM:618776"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PDSW"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7696",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit B10",
+        "omim_gene": [
+          "603843"
+        ],
+        "alias_name": [
+          "complex I PDSW subunit"
+        ],
+        "gene_symbol": "NDUFB10",
+        "hgnc_symbol": "NDUFB10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:2009509-2011976",
+              "ensembl_id": "ENSG00000140990"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:1959508-1961975",
+              "ensembl_id": "ENSG00000140990"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-12-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFB10",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28040730",
+        "32025618",
+        "33169436"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 35, OMIM:619003"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ESSS",
+          "NP17.3",
+          "Np15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20372",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit B11",
+        "omim_gene": [
+          "300403"
+        ],
+        "alias_name": [
+          "complex I NP17.3 subunit"
+        ],
+        "gene_symbol": "NDUFB11",
+        "hgnc_symbol": "NDUFB11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:47001615-47004903",
+              "ensembl_id": "ENSG00000147123"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:47142216-47145504",
+              "ensembl_id": "ENSG00000147123"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-09-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFB11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "?Mitochondrial complex I deficiency, nuclear type 30, 301021",
+        "Linear skin defects with multiple congenital anomalies 3, 300952"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B12"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7698",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit B3",
+        "omim_gene": [
+          "603839"
+        ],
+        "alias_name": [
+          "complex I B12 subunit"
+        ],
+        "gene_symbol": "NDUFB3",
+        "hgnc_symbol": "NDUFB3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:201936156-201950473",
+              "ensembl_id": "ENSG00000119013"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:201071433-201085750",
+              "ensembl_id": "ENSG00000119013"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFB3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 25, OMIM:618246"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B18",
+          "CI-B18",
+          "MGC2480"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7702",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit B7",
+        "omim_gene": [
+          "603842"
+        ],
+        "alias_name": [
+          "NADH-ubiquinone oxidoreductase B18 subunit",
+          "complex I B18 subunit"
+        ],
+        "gene_symbol": "NDUFB7",
+        "hgnc_symbol": "NDUFB7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:14676890-14682874",
+              "ensembl_id": "ENSG00000099795"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:14566078-14572062",
+              "ensembl_id": "ENSG00000099795"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-12-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFB7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "33502047",
+        "27626371",
+        "40025060"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 39, OMIM:620135"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ASHI",
+          "CI-ASHI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7703",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit B8",
+        "omim_gene": [
+          "602140"
+        ],
+        "alias_name": [
+          "complex I ASHI subunit"
+        ],
+        "gene_symbol": "NDUFB8",
+        "hgnc_symbol": "NDUFB8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:102267203-102289757",
+              "ensembl_id": "ENSG00000166136"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:100523740-100530000",
+              "ensembl_id": "ENSG00000166136"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-10-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFB8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27290639",
+        "29429571"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 32, 618252"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B14.5b",
+          "HLC-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7706",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit C2",
+        "omim_gene": [
+          "603845"
+        ],
+        "alias_name": [
+          "human lung cancer oncogene 1",
+          "complex I subunit B14.5b"
+        ],
+        "gene_symbol": "NDUFC2",
+        "hgnc_symbol": "NDUFC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:77779350-77791265",
+              "ensembl_id": "ENSG00000151366"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:78068304-78080219",
+              "ensembl_id": "ENSG00000151366"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFC2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "32969598"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 36 OMIM:619170"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CI-75k"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7707",
+        "gene_name": "NADH:ubiquinone oxidoreductase core subunit S1",
+        "omim_gene": [
+          "157655"
+        ],
+        "alias_name": [
+          "complex I 75kDa subunit",
+          "NADH-ubiquinone oxidoreductase 75 kDa subunit, mitochondrial"
+        ],
+        "gene_symbol": "NDUFS1",
+        "hgnc_symbol": "NDUFS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:206979541-207024327",
+              "ensembl_id": "ENSG00000023228"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:206114817-206159603",
+              "ensembl_id": "ENSG00000023228"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 5, OMIM:618226"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CI-49"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7708",
+        "gene_name": "NADH:ubiquinone oxidoreductase core subunit S2",
+        "omim_gene": [
+          "602985"
+        ],
+        "alias_name": [
+          "complex I 49kDa subunit",
+          "NADH dehydrogenase [ubiquinone] iron-sulfur protein 2, mitochondrial"
+        ],
+        "gene_symbol": "NDUFS2",
+        "hgnc_symbol": "NDUFS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:161166894-161184185",
+              "ensembl_id": "ENSG00000158864"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:161197104-161214395",
+              "ensembl_id": "ENSG00000158864"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFS2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 6, 618228"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CI-30"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7710",
+        "gene_name": "NADH:ubiquinone oxidoreductase core subunit S3",
+        "omim_gene": [
+          "603846"
+        ],
+        "alias_name": [
+          "complex I 30kDa subunit",
+          "NADH dehydrogenase [ubiquinone] iron-sulfur protein 3, mitochondrial"
+        ],
+        "gene_symbol": "NDUFS3",
+        "hgnc_symbol": "NDUFS3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:47586888-47606114",
+              "ensembl_id": "ENSG00000213619"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:47565336-47584562",
+              "ensembl_id": "ENSG00000213619"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFS3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 8, 618230"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AQDQ",
+          "CI-18"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7711",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit S4",
+        "omim_gene": [
+          "602694"
+        ],
+        "alias_name": [
+          "complex I 18kDa subunit"
+        ],
+        "gene_symbol": "NDUFS4",
+        "hgnc_symbol": "NDUFS4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:52856463-52979168",
+              "ensembl_id": "ENSG00000164258"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:53560633-53683340",
+              "ensembl_id": "ENSG00000164258"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFS4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 1, 252010"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CI-13kA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7713",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit S6",
+        "omim_gene": [
+          "603848"
+        ],
+        "alias_name": [
+          "complex I 13kDa subunit A",
+          "NADH dehydrogenase [ubiquinone] iron-sulfur protein 6, mitochondrial"
+        ],
+        "gene_symbol": "NDUFS6",
+        "hgnc_symbol": "NDUFS6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:1801514-1816719",
+              "ensembl_id": "ENSG00000145494"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:1801400-1816605",
+              "ensembl_id": "ENSG00000145494"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFS6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 9, 618232"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PSST",
+          "FLJ46880",
+          "FLJ45860",
+          "CI-20"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7714",
+        "gene_name": "NADH:ubiquinone oxidoreductase core subunit S7",
+        "omim_gene": [
+          "601825"
+        ],
+        "alias_name": [
+          "complex I 20kDa subunit",
+          "NADH dehydrogenase [ubiquinone] iron-sulfur protein 7, mitochondrial"
+        ],
+        "gene_symbol": "NDUFS7",
+        "hgnc_symbol": "NDUFS7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:1383526-1395583",
+              "ensembl_id": "ENSG00000115286"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:1383527-1395589",
+              "ensembl_id": "ENSG00000115286"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-07-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFS7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 3, 618224"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TYKY",
+          "CI-23k"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7715",
+        "gene_name": "NADH:ubiquinone oxidoreductase core subunit S8",
+        "omim_gene": [
+          "602141"
+        ],
+        "alias_name": [
+          "complex I 23kDa subunit",
+          "NADH dehydrogenase [ubiquinone] iron-sulfur protein 8, mitochondrial"
+        ],
+        "gene_symbol": "NDUFS8",
+        "hgnc_symbol": "NDUFS8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:67798084-67804111",
+              "ensembl_id": "ENSG00000110717"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:68030617-68036644",
+              "ensembl_id": "ENSG00000110717"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-07-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFS8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 2, 618222"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CI-51K"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7716",
+        "gene_name": "NADH:ubiquinone oxidoreductase core subunit V1",
+        "omim_gene": [
+          "161015"
+        ],
+        "alias_name": [
+          "complex I 51kDa subunit",
+          "NADH dehydrogenase [ubiquinone] flavoprotein 1, mitochondrial"
+        ],
+        "gene_symbol": "NDUFV1",
+        "hgnc_symbol": "NDUFV1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:67374323-67380006",
+              "ensembl_id": "ENSG00000167792"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:67606852-67612535",
+              "ensembl_id": "ENSG00000167792"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFV1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 4, 618225"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CI-24k"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7717",
+        "gene_name": "NADH:ubiquinone oxidoreductase core subunit V2",
+        "omim_gene": [
+          "600532"
+        ],
+        "alias_name": [
+          "complex I 24kDa subunit",
+          "NADH dehydrogenase [ubiquinone] flavoprotein 2, mitochondrial"
+        ],
+        "gene_symbol": "NDUFV2",
+        "hgnc_symbol": "NDUFV2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:9102628-9134343",
+              "ensembl_id": "ENSG00000178127"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:9102630-9134345",
+              "ensembl_id": "ENSG00000178127"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-09-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFV2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 7, 618229"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ12660",
+          "IND1",
+          "huInd1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20278",
+        "gene_name": "nucleotide binding protein like",
+        "omim_gene": [
+          "613621"
+        ],
+        "alias_name": [
+          "iron-sulfur protein required for NADH dehydrogenase"
+        ],
+        "gene_symbol": "NUBPL",
+        "hgnc_symbol": "NUBPL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:31959162-32330430",
+              "ensembl_id": "ENSG00000151413"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:31489956-31861224",
+              "ensembl_id": "ENSG00000151413"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "NUBPL",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 21, 618242"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ22597"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1321",
+        "gene_name": "translocase of inner mitochondrial membrane domain containing 1",
+        "omim_gene": [
+          "615534"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TIMMDC1",
+        "hgnc_symbol": "TIMMDC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:119217379-119243937",
+              "ensembl_id": "ENSG00000113845"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:119498532-119525090",
+              "ensembl_id": "ENSG00000113845"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-07-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "TIMMDC1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28604674",
+        "33278652"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 31, OMIM:618251"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HT007"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30883",
+        "gene_name": "transmembrane protein 126B",
+        "omim_gene": [
+          "615533"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TMEM126B",
+        "hgnc_symbol": "TMEM126B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:85339629-85347580",
+              "ensembl_id": "ENSG00000171204"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:85628573-85636539",
+              "ensembl_id": "ENSG00000171204"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMEM126B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27374774",
+        "27374773"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex I deficiency, nuclear type 29, 618250"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7686",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit A3",
+        "omim_gene": [
+          "603832"
+        ],
+        "alias_name": [
+          "complex I B9 subunit"
+        ],
+        "gene_symbol": "NDUFA3",
+        "hgnc_symbol": "NDUFA3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:54606036-54612564",
+              "ensembl_id": "ENSG00000170906"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:54102728-54109257",
+              "ensembl_id": "ENSG00000170906"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-08-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFA3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "39661167"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Leigh syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B13",
+          "NUFM",
+          "CI-13KD-B",
+          "UQOR13",
+          "CI-13kB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7688",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit A5",
+        "omim_gene": [
+          "601677"
+        ],
+        "alias_name": [
+          "complex I 13kDa subunit B",
+          "ubiquinone reductase",
+          "type I dehydrogenase",
+          "NADH-ubiquinone oxidoreductase 13 kDa-B subunit"
+        ],
+        "gene_symbol": "NDUFA5",
+        "hgnc_symbol": "NDUFA5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:123177051-123198309",
+              "ensembl_id": "ENSG00000128609"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:123536997-123558255",
+              "ensembl_id": "ENSG00000128609"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-08-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFA5",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "41859003",
+        "41916321"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "mitochondrial complex I deficiency, MONDO:0100133"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_promote_green"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B14.5a"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7691",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit A7",
+        "omim_gene": [
+          "602139"
+        ],
+        "alias_name": [
+          "complex I B14.5a subunit"
+        ],
+        "gene_symbol": "NDUFA7",
+        "hgnc_symbol": "NDUFA7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:8373490-8386280",
+              "ensembl_id": "ENSG00000267855"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:8308768-8321396",
+              "ensembl_id": "ENSG00000267855"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-11-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFA7",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SDAP",
+          "FASN2A",
+          "ACP",
+          "ACP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7694",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit AB1",
+        "omim_gene": [
+          "603836"
+        ],
+        "alias_name": [
+          "acyl carrier protein, mitochondrial",
+          "complex I SDAP subunit"
+        ],
+        "gene_symbol": "NDUFAB1",
+        "hgnc_symbol": "NDUFAB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:23592323-23607677",
+              "ensembl_id": "ENSG00000004779"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:23581002-23596356",
+              "ensembl_id": "ENSG00000004779"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFAB1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MNLL",
+          "CI-MNLL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7695",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit B1",
+        "omim_gene": [
+          "603837"
+        ],
+        "alias_name": [
+          "complex I MNLL subunit"
+        ],
+        "gene_symbol": "NDUFB1",
+        "hgnc_symbol": "NDUFB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:92582466-92588261",
+              "ensembl_id": "ENSG00000183648"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:92116122-92121917",
+              "ensembl_id": "ENSG00000183648"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-11-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFB1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AGGG",
+          "CI-AGGG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7697",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit B2",
+        "omim_gene": [
+          "603838"
+        ],
+        "alias_name": [
+          "NADH-ubiquinone oxidoreductase AGGG subunit",
+          "complex I AGGG subunit"
+        ],
+        "gene_symbol": "NDUFB2",
+        "hgnc_symbol": "NDUFB2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:140390577-140422590",
+              "ensembl_id": "ENSG00000090266"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:140690777-140722790",
+              "ensembl_id": "ENSG00000090266"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-11-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFB2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7699",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit B4",
+        "omim_gene": [
+          "603840"
+        ],
+        "alias_name": [
+          "complex I B15 subunit"
+        ],
+        "gene_symbol": "NDUFB4",
+        "hgnc_symbol": "NDUFB4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:120315156-120321347",
+              "ensembl_id": "ENSG00000065518"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:120596309-120602500",
+              "ensembl_id": "ENSG00000065518"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-12-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFB4",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28454995"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SGDH",
+          "CI-SGDH",
+          "MGC12314"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7700",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit B5",
+        "omim_gene": [
+          "603841"
+        ],
+        "alias_name": [
+          "complex I SGDH subunit"
+        ],
+        "gene_symbol": "NDUFB5",
+        "hgnc_symbol": "NDUFB5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:179322478-179345435",
+              "ensembl_id": "ENSG00000136521"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:179604690-179627647",
+              "ensembl_id": "ENSG00000136521"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-12-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFB5",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B17",
+          "CI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7701",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit B6",
+        "omim_gene": [
+          "603322"
+        ],
+        "alias_name": [
+          "NADH-ubiquinone oxidoreductase beta subunit, 6",
+          "NADH-ubiquinone oxidoreductase B17 subunit",
+          "complex I, mitochondrial respiratory chain, B17 subunit"
+        ],
+        "gene_symbol": "NDUFB6",
+        "hgnc_symbol": "NDUFB6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:32552997-32573160",
+              "ensembl_id": "ENSG00000165264"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:32552999-32573184",
+              "ensembl_id": "ENSG00000165264"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-12-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFB6",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B22",
+          "UQOR22",
+          "LYRM3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7704",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit B9",
+        "omim_gene": [
+          "601445"
+        ],
+        "alias_name": [
+          "complex I B22 subunit"
+        ],
+        "gene_symbol": "NDUFB9",
+        "hgnc_symbol": "NDUFB9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:125551344-125580751",
+              "ensembl_id": "ENSG00000147684"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:124539103-124568510",
+              "ensembl_id": "ENSG00000147684"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-10-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFB9",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22200994"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "?Mitochondrial complex I deficiency, nuclear type 24, 618245"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KFYI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7705",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit C1",
+        "omim_gene": [
+          "603844"
+        ],
+        "alias_name": [
+          "complex I KFYI subunit"
+        ],
+        "gene_symbol": "NDUFC1",
+        "hgnc_symbol": "NDUFC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:140188034-140223705",
+              "ensembl_id": "ENSG00000109390"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:139266880-139302551",
+              "ensembl_id": "ENSG00000109390"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFC1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CI-15k"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7712",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit S5",
+        "omim_gene": [
+          "603847"
+        ],
+        "alias_name": [
+          "complex I 51kDa subunit",
+          "NADH dehydrogenase [ubiquinone] iron-sulfur protein 5"
+        ],
+        "gene_symbol": "NDUFS5",
+        "hgnc_symbol": "NDUFS5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:39491990-39500308",
+              "ensembl_id": "ENSG00000168653"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:39026318-39034636",
+              "ensembl_id": "ENSG00000168653"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFS5",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CI-10k"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7719",
+        "gene_name": "NADH:ubiquinone oxidoreductase subunit V3",
+        "omim_gene": [
+          "602184"
+        ],
+        "alias_name": [
+          "complex I 10kDa subunit"
+        ],
+        "gene_symbol": "NDUFV3",
+        "hgnc_symbol": "NDUFV3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:44299754-44333414",
+              "ensembl_id": "ENSG00000160194"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:42879644-42913304",
+              "ensembl_id": "ENSG00000160194"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-09-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFV3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SITPEC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29548",
+        "gene_name": "ECSIT signalling integrator",
+        "omim_gene": [
+          "608388"
+        ],
+        "alias_name": [
+          "signaling intermediate in Toll pathway evolutionarily conserved ortholog (mouse)"
+        ],
+        "gene_symbol": "ECSIT",
+        "hgnc_symbol": "ECSIT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:11616731-11639989",
+              "ensembl_id": "ENSG00000130159"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:11505916-11529174",
+              "ensembl_id": "ENSG00000130159"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-08-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "ECSIT",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PRO1853",
+          "MidA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28816",
+        "gene_name": "NADH:ubiquinone oxidoreductase complex assembly factor 7",
+        "omim_gene": [
+          "615898"
+        ],
+        "alias_name": [
+          "mitochondrial dysfunction protein A homolog"
+        ],
+        "gene_symbol": "NDUFAF7",
+        "hgnc_symbol": "NDUFAF7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:37458774-37480546",
+              "ensembl_id": "ENSG00000003509"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:37231631-37253403",
+              "ensembl_id": "ENSG00000003509"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-10-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDUFAF7",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28837730"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "No OMIM phenotype"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

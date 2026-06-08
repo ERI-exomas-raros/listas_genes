@@ -1,0 +1,1526 @@
+{
+  "id": 528,
+  "hash_id": null,
+  "name": "Glycogen storage disease",
+  "disease_group": "Metabolic",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.7",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R274"
+  ],
+  "stats": {
+    "number_of_genes": 29,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:321",
+        "gene_name": "amylo-alpha-1, 6-glucosidase, 4-alpha-glucanotransferase",
+        "omim_gene": [
+          "610860"
+        ],
+        "alias_name": [
+          "glycogen debranching enzyme",
+          "glycogen storage disease type III"
+        ],
+        "gene_symbol": "AGL",
+        "hgnc_symbol": "AGL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:100315640-100389579",
+              "ensembl_id": "ENSG00000162688"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:99850084-99924023",
+              "ensembl_id": "ENSG00000162688"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-07-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGL",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20301788"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease IIIb, 232400",
+        "Glycogen storage disease IIIa, 232400"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:414",
+        "gene_name": "aldolase, fructose-bisphosphate A",
+        "omim_gene": [
+          "103850"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALDOA",
+        "hgnc_symbol": "ALDOA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:30064411-30081778",
+              "ensembl_id": "ENSG00000149925"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:30053090-30070457",
+              "ensembl_id": "ENSG00000149925"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALDOA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease XII 611881"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:417",
+        "gene_name": "aldolase, fructose-bisphosphate B",
+        "omim_gene": [
+          "612724"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALDOB",
+        "hgnc_symbol": "ALDOB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:104182860-104198105",
+              "ensembl_id": "ENSG00000136872"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:101420578-101435823",
+              "ensembl_id": "ENSG00000136872"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALDOB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26677512"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Fructose intolerance, hereditary 229600"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3354",
+        "gene_name": "enolase 3",
+        "omim_gene": [
+          "131370"
+        ],
+        "alias_name": [
+          "beta-enolase",
+          "muscle enriched enolase"
+        ],
+        "gene_symbol": "ENO3",
+        "hgnc_symbol": "ENO3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:4851387-4860426",
+              "ensembl_id": "ENSG00000108515"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:4948092-4957131",
+              "ensembl_id": "ENSG00000108515"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "ENO3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease XIII 612932"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LDE",
+          "LD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3413",
+        "gene_name": "EPM2A, laforin glucan phosphatase",
+        "omim_gene": [
+          "607566"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EPM2A",
+        "hgnc_symbol": "EPM2A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:145822719-146057160",
+              "ensembl_id": "ENSG00000112425"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:145382535-145736023",
+              "ensembl_id": "ENSG00000112425"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "EPM2A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Myoclonic epilepsy of Lafora 1, OMIM:254780"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3606",
+        "gene_name": "fructose-bisphosphatase 1",
+        "omim_gene": [
+          "611570"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FBP1",
+        "hgnc_symbol": "FBP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:97365415-97402531",
+              "ensembl_id": "ENSG00000165140"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:94603133-94640249",
+              "ensembl_id": "ENSG00000165140"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-08-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "FBP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Fructose-1,6-bisphosphatase deficiency 229700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GSD1a"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4056",
+        "gene_name": "glucose-6-phosphatase catalytic subunit",
+        "omim_gene": [
+          "613742"
+        ],
+        "alias_name": [
+          "glycogen storage disease type I, von Gierke disease"
+        ],
+        "gene_symbol": "G6PC",
+        "hgnc_symbol": "G6PC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:41052814-41065386",
+              "ensembl_id": "ENSG00000131482"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:42900797-42913369",
+              "ensembl_id": "ENSG00000131482"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "G6PC",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20301489",
+        "35961004"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease Ia, OMIM:232200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4065",
+        "gene_name": "glucosidase alpha, acid",
+        "omim_gene": [
+          "606800"
+        ],
+        "alias_name": [
+          "Pompe disease",
+          "glycogen storage disease type II"
+        ],
+        "gene_symbol": "GAA",
+        "hgnc_symbol": "GAA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:78075355-78093678",
+              "ensembl_id": "ENSG00000171298"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:80101556-80119879",
+              "ensembl_id": "ENSG00000171298"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GAA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20301438"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease II 232300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4180",
+        "gene_name": "1,4-alpha-glucan branching enzyme 1",
+        "omim_gene": [
+          "607839"
+        ],
+        "alias_name": [
+          "glycogen branching enzyme",
+          "Andersen disease",
+          "glycogen storage disease type IV"
+        ],
+        "gene_symbol": "GBE1",
+        "hgnc_symbol": "GBE1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:81538850-81811312",
+              "ensembl_id": "ENSG00000114480"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:81489699-81762161",
+              "ensembl_id": "ENSG00000114480"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-06-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "GBE1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23285490"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease IV, OMIM:232500"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4699",
+        "gene_name": "glycogenin 1",
+        "omim_gene": [
+          "603942"
+        ],
+        "alias_name": [
+          "glycogenin glucosyltransferase"
+        ],
+        "gene_symbol": "GYG1",
+        "hgnc_symbol": "GYG1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:148709128-148745419",
+              "ensembl_id": "ENSG00000163754"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:148991341-149027668",
+              "ensembl_id": "ENSG00000163754"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "GYG1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease XV 613507"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GSY"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4706",
+        "gene_name": "glycogen synthase 1",
+        "omim_gene": [
+          "138570"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GYS1",
+        "hgnc_symbol": "GYS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:49471382-49496567",
+              "ensembl_id": "ENSG00000104812"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:48968125-48993310",
+              "ensembl_id": "ENSG00000104812"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-08-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "GYS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease 0, muscle 611556"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4707",
+        "gene_name": "glycogen synthase 2",
+        "omim_gene": [
+          "138571"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GYS2",
+        "hgnc_symbol": "GYS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:21689123-21757781",
+              "ensembl_id": "ENSG00000111713"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:21536189-21604847",
+              "ensembl_id": "ENSG00000111713"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "GYS2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease 0, liver 240600"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD107b"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6501",
+        "gene_name": "lysosomal associated membrane protein 2",
+        "omim_gene": [
+          "309060"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMP2",
+        "hgnc_symbol": "LAMP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:119561682-119603220",
+              "ensembl_id": "ENSG00000005893"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:120427827-120469365",
+              "ensembl_id": "ENSG00000005893"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-08-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMP2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Danon disease 300257"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6535",
+        "gene_name": "lactate dehydrogenase A",
+        "omim_gene": [
+          "150000"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LDHA",
+        "hgnc_symbol": "LDHA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:18415935-18429972",
+              "ensembl_id": "ENSG00000134333"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:18394388-18408425",
+              "ensembl_id": "ENSG00000134333"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "LDHA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease XI 612933"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "bA204B7.2",
+          "EPM2B",
+          "malin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21576",
+        "gene_name": "NHL repeat containing E3 ubiquitin protein ligase 1",
+        "omim_gene": [
+          "608072"
+        ],
+        "alias_name": [
+          "epilepsy, progressive myoclonus type 2B"
+        ],
+        "gene_symbol": "NHLRC1",
+        "hgnc_symbol": "NHLRC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:18120718-18122851",
+              "ensembl_id": "ENSG00000187566"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:18120440-18122687",
+              "ensembl_id": "ENSG00000187566"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "NHLRC1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epilepsy, progressive myoclonic 2B (Lafora) 254780"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PFK-1",
+          "PPP1R122"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8877",
+        "gene_name": "phosphofructokinase, muscle",
+        "omim_gene": [
+          "610681"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 122"
+        ],
+        "gene_symbol": "PFKM",
+        "hgnc_symbol": "PFKM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:48498922-48540187",
+              "ensembl_id": "ENSG00000152556"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:48105139-48146404",
+              "ensembl_id": "ENSG00000152556"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PFKM",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease VII 232800"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PGAM-M"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8889",
+        "gene_name": "phosphoglycerate mutase 2",
+        "omim_gene": [
+          "612931"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PGAM2",
+        "hgnc_symbol": "PGAM2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:44102326-44105186",
+              "ensembl_id": "ENSG00000164708"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:44062727-44065587",
+              "ensembl_id": "ENSG00000164708"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "PGAM2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease X 261670"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8896",
+        "gene_name": "phosphoglycerate kinase 1",
+        "omim_gene": [
+          "311800"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PGK1",
+        "hgnc_symbol": "PGK1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:77320685-77384793",
+              "ensembl_id": "ENSG00000102144"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:78065188-78129296",
+              "ensembl_id": "ENSG00000102144"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-04-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "PGK1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Phosphoglycerate kinase 1 deficiency 300653"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8905",
+        "gene_name": "phosphoglucomutase 1",
+        "omim_gene": [
+          "171900"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PGM1",
+        "hgnc_symbol": "PGM1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:64058947-64125916",
+              "ensembl_id": "ENSG00000079739"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:63593276-63660245",
+              "ensembl_id": "ENSG00000079739"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PGM1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Congenital disorder of glycosylation, type It 614921"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8925",
+        "gene_name": "phosphorylase kinase regulatory subunit alpha 1",
+        "omim_gene": [
+          "311870"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PHKA1",
+        "hgnc_symbol": "PHKA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:71798664-71934167",
+              "ensembl_id": "ENSG00000067177"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:72578814-72714319",
+              "ensembl_id": "ENSG00000067177"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-02-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "PHKA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21634085"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Muscle glycogenosis 300559"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8926",
+        "gene_name": "phosphorylase kinase regulatory subunit alpha 2",
+        "omim_gene": [
+          "300798"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PHKA2",
+        "hgnc_symbol": "PHKA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:18910418-19002716",
+              "ensembl_id": "ENSG00000044446"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:18892300-18984598",
+              "ensembl_id": "ENSG00000044446"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "PHKA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21634085"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease, type IXa2 306000",
+        "Glycogen storage disease, type IXa1 306000"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8927",
+        "gene_name": "phosphorylase kinase regulatory subunit beta",
+        "omim_gene": [
+          "172490"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PHKB",
+        "hgnc_symbol": "PHKB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:47495034-47735434",
+              "ensembl_id": "ENSG00000102893"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:47461123-47701523",
+              "ensembl_id": "ENSG00000102893"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-02-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "PHKB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21634085"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease Ixb, Phosphorylase kinase deficiency of liver and muscle, autosomal recessive 261750"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8931",
+        "gene_name": "phosphorylase kinase catalytic subunit gamma 2",
+        "omim_gene": [
+          "172471"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PHKG2",
+        "hgnc_symbol": "PHKG2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:30759591-30772490",
+              "ensembl_id": "ENSG00000156873"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:30748270-30761176",
+              "ensembl_id": "ENSG00000156873"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-06-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "PHKG2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21634085"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease IXc 613027"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AAKG",
+          "AAKG2",
+          "H91620p",
+          "WPWS",
+          "CMH6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9386",
+        "gene_name": "protein kinase AMP-activated non-catalytic subunit gamma 2",
+        "omim_gene": [
+          "602743"
+        ],
+        "alias_name": [
+          "AMPK gamma2"
+        ],
+        "gene_symbol": "PRKAG2",
+        "hgnc_symbol": "PRKAG2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:151253197-151574210",
+              "ensembl_id": "ENSG00000106617"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:151556111-151877125",
+              "ensembl_id": "ENSG00000106617"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRKAG2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease of heart, lethal congenital 261740"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9725",
+        "gene_name": "glycogen phosphorylase L",
+        "omim_gene": [
+          "613741"
+        ],
+        "alias_name": [
+          "Hers disease",
+          "glycogen storage disease type VI",
+          "glycogen phosphorylase, liver form"
+        ],
+        "gene_symbol": "PYGL",
+        "hgnc_symbol": "PYGL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:51324609-51411454",
+              "ensembl_id": "ENSG00000100504"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:50857891-50944736",
+              "ensembl_id": "ENSG00000100504"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PYGL",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20301760"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease VI 232700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9726",
+        "gene_name": "glycogen phosphorylase, muscle associated",
+        "omim_gene": [
+          "608455"
+        ],
+        "alias_name": [
+          "McArdle syndrome",
+          "glycogen storage disease type V",
+          "glycogen phosphorylase, muscle form",
+          "myophosphorylase"
+        ],
+        "gene_symbol": "PYGM",
+        "hgnc_symbol": "PYGM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:64513861-64527769",
+              "ensembl_id": "ENSG00000068976"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:64746389-64760297",
+              "ensembl_id": "ENSG00000068976"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PYGM",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20301518",
+        "32386344"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "London North GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease V 232600"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RBCK2",
+          "XAP4",
+          "RNF54",
+          "ZRANB4",
+          "UBCE7IP3",
+          "HOIL1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15864",
+        "gene_name": "RANBP2-type and C3HC4-type zinc finger containing 1",
+        "omim_gene": [
+          "610924"
+        ],
+        "alias_name": [
+          "heme-oxidized IRP2 ubiquitin ligase 1"
+        ],
+        "gene_symbol": "RBCK1",
+        "hgnc_symbol": "RBCK1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:388142-411610",
+              "ensembl_id": "ENSG00000125826"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:407498-430966",
+              "ensembl_id": "ENSG00000125826"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-06-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "RBCK1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23798481",
+        "23104095"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Polyglucosan body myopathy 1 with or without immunodeficiency OMIM:615895",
+        "polyglucosan body myopathy 1 with or without immunodeficiency MONDO:0014389"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11006",
+        "gene_name": "solute carrier family 2 member 2",
+        "omim_gene": [
+          "138160"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC2A2",
+        "hgnc_symbol": "SLC2A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:170714137-170744539",
+              "ensembl_id": "ENSG00000163581"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:170996348-171026750",
+              "ensembl_id": "ENSG00000163581"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-01-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC2A2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Fanconi-Bickel syndrome 227810"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GSD1b",
+          "GSD1c",
+          "GSD1d"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4061",
+        "gene_name": "solute carrier family 37 member 4",
+        "omim_gene": [
+          "602671"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC37A4",
+        "hgnc_symbol": "SLC37A4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:118894824-118901616",
+              "ensembl_id": "ENSG00000137700"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:119024114-119030906",
+              "ensembl_id": "ENSG00000137700"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC37A4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20301489"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Wessex and West Midlands GLH",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease Ib, OMIM:232220",
+        "Glycogen storage disease Ic, OMIM:232240"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

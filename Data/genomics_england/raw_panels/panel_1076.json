@@ -1,0 +1,198 @@
+{
+  "id": 1076,
+  "hash_id": null,
+  "name": "Malignant hyperthermia",
+  "disease_group": "Neurology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.5",
+  "version_created": "2026-01-23T10:44:51.263560Z",
+  "relevant_disorders": [
+    "R371"
+  ],
+  "stats": {
+    "number_of_genes": 3,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "Cav1.1",
+          "hypoPP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1397",
+        "gene_name": "calcium voltage-gated channel subunit alpha1 S",
+        "omim_gene": [
+          "114208"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNA1S",
+        "hgnc_symbol": "CACNA1S",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:201008642-201081694",
+              "ensembl_id": "ENSG00000081248"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:201039512-201112566",
+              "ensembl_id": "ENSG00000081248"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-03-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNA1S",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "31559918",
+        "9199552",
+        "11260227"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "{Malignant hyperthermia susceptibility 5}, OMIM:601887"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RYR",
+          "PPP1R137"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10483",
+        "gene_name": "ryanodine receptor 1",
+        "omim_gene": [
+          "180901"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 137"
+        ],
+        "gene_symbol": "RYR1",
+        "hgnc_symbol": "RYR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:38924339-39078204",
+              "ensembl_id": "ENSG00000196218"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:38433699-38587564",
+              "ensembl_id": "ENSG00000196218"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "RYR1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "31559918",
+        "16163667",
+        "32919876",
+        "31737266",
+        "33767344",
+        "34462577"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "{Malignant hyperthermia susceptibility 1}, OMIM:145600"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC2793"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28423",
+        "gene_name": "SH3 and cysteine rich domain 3",
+        "omim_gene": [
+          "615521"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STAC3",
+        "hgnc_symbol": "STAC3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:57637236-57644976",
+              "ensembl_id": "ENSG00000185482"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:57243453-57251193",
+              "ensembl_id": "ENSG00000185482"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "STAC3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "31559918",
+        "18553514",
+        "30168660"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Myopathy, congenital, with myopathic facies, scoliosis, and malignant hyperthermia",
+        "Myopathy, congenital, Baily-Bloch, OMIM:255995"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

@@ -1,0 +1,1353 @@
+{
+  "id": 531,
+  "hash_id": null,
+  "name": "Pyruvate dehydrogenase (PDH) deficiency",
+  "disease_group": "Mitochondrial",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.40",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R316"
+  ],
+  "stats": {
+    "number_of_genes": 26,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24415",
+        "gene_name": "bolA family member 3",
+        "omim_gene": [
+          "613183"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BOLA3",
+        "hgnc_symbol": "BOLA3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:74362525-74375121",
+              "ensembl_id": "ENSG00000163170"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:74135398-74147994",
+              "ensembl_id": "ENSG00000163170"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "BOLA3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "MULTIPLE MITOCHONDRIAL DYSFUNCTIONS SYNDROME 2 WITH HYPERGLYCINEMIA OMIM:614299",
+        "multiple mitochondrial dysfunctions syndrome 2 MONDO:0013675"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PDC-E2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2896",
+        "gene_name": "dihydrolipoamide S-acetyltransferase",
+        "omim_gene": [
+          "608770"
+        ],
+        "alias_name": [
+          "E2 component of pyruvate dehydrogenase complex"
+        ],
+        "gene_symbol": "DLAT",
+        "hgnc_symbol": "DLAT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:111895538-111935114",
+              "ensembl_id": "ENSG00000150768"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:112024814-112064390",
+              "ensembl_id": "ENSG00000150768"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "DLAT",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "PYRUVATE DEHYDROGENASE E2 DEFICIENCY OMIM:245348",
+        "pyruvate dehydrogenase E2 deficiency MONDO:0009502"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DLDH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2898",
+        "gene_name": "dihydrolipoamide dehydrogenase",
+        "omim_gene": [
+          "238331"
+        ],
+        "alias_name": [
+          "E3 component of pyruvate dehydrogenase complex, 2-oxo-glutarate complex, branched chain keto acid dehydrogenase complex"
+        ],
+        "gene_symbol": "DLD",
+        "hgnc_symbol": "DLD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:107531415-107572175",
+              "ensembl_id": "ENSG00000091140"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:107890970-107931730",
+              "ensembl_id": "ENSG00000091140"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "DLD",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Dihydrolipoamide dehydrogenase deficiency, OMIM:246900",
+        "pyruvate dehydrogenase E3 deficiency MONDO:0009529"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SCEH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3151",
+        "gene_name": "enoyl-CoA hydratase, short chain 1",
+        "omim_gene": [
+          "602292"
+        ],
+        "alias_name": [
+          "short chain enoyl-CoA hydratase"
+        ],
+        "gene_symbol": "ECHS1",
+        "hgnc_symbol": "ECHS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:135175984-135187193",
+              "ensembl_id": "ENSG00000127884"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:133362480-133373689",
+              "ensembl_id": "ENSG00000127884"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ECHS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial short-chain enoyl-CoA hydratase 1 deficiency, OMIM:616277"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FBL4",
+          "FBL5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13601",
+        "gene_name": "F-box and leucine rich repeat protein 4",
+        "omim_gene": [
+          "605654"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FBXL4",
+        "hgnc_symbol": "FBXL4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:99316420-99395849",
+              "ensembl_id": "ENSG00000112234"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:98868538-98948006",
+              "ensembl_id": "ENSG00000112234"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "FBXL4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25868664"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "MITOCHONDRIAL DNA DEPLETION SYNDROME 13 (ENCEPHALOMYOPATHIC TYPE) OMIM:615471",
+        "mitochondrial DNA depletion syndrome 13 MONDO:0014198"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PR01238",
+          "GRX5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20134",
+        "gene_name": "glutaredoxin 5",
+        "omim_gene": [
+          "609588"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLRX5",
+        "hgnc_symbol": "GLRX5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:95999840-96011061",
+              "ensembl_id": "ENSG00000182512"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:95533503-95544724",
+              "ensembl_id": "ENSG00000182512"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLRX5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "SPASTICITY, CHILDHOOD-ONSET, WITH HYPERGLYCINEMIA OMIM:616859",
+        "spasticity-ataxia-gait anomalies syndrome MONDO:0014803",
+        "ANEMIA, SIDEROBLASTIC, 3, PYRIDOXINE-REFRACTORY OMIM:616860",
+        "sideroblastic anemia 3 MONDO:0014804"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4908",
+        "gene_name": "3-hydroxyisobutyryl-CoA hydrolase",
+        "omim_gene": [
+          "610690"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HIBCH",
+        "hgnc_symbol": "HIBCH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:191054461-191208919",
+              "ensembl_id": "ENSG00000198130"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:190189735-190344193",
+              "ensembl_id": "ENSG00000198130"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "HIBCH",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "3-HYDROXYISOBUTYRYL-CoA HYDROLASE DEFICIENCY OMIM:250620",
+        "3-hydroxyisobutyryl-CoA hydrolase deficiency MONDO:0009603"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ12734"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:27302",
+        "gene_name": "IBA57 homolog, iron-sulfur cluster assembly",
+        "omim_gene": [
+          "615316"
+        ],
+        "alias_name": [
+          "iron-sulfur cluster assembly factor for biotin synthase- and aconitase-like mitochondrial proteins, with a mass of 57kDa"
+        ],
+        "gene_symbol": "IBA57",
+        "hgnc_symbol": "IBA57",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:228353516-228369958",
+              "ensembl_id": "ENSG00000181873"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:228165815-228182257",
+              "ensembl_id": "ENSG00000181873"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-03-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "IBA57",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Multiple mitochondrial dysfunctions syndrome 3, OMIM:615330"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC4276",
+          "ISA1",
+          "hIscA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28660",
+        "gene_name": "iron-sulfur cluster assembly 1",
+        "omim_gene": [
+          "611006"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ISCA1",
+        "hgnc_symbol": "ISCA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:88879461-88897676",
+              "ensembl_id": "ENSG00000135070"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:86264546-86283102",
+              "ensembl_id": "ENSG00000135070"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "ISCA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29767723",
+        "28356563"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "MULTIPLE MITOCHONDRIAL DYSFUNCTIONS SYNDROME 5 OMIM:617613",
+        "multiple mitochondrial dysfunctions syndrome 5 MONDO:0033282"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ISA2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19857",
+        "gene_name": "iron-sulfur cluster assembly 2",
+        "omim_gene": [
+          "615317"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ISCA2",
+        "hgnc_symbol": "ISCA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:74960423-74963809",
+              "ensembl_id": "ENSG00000165898"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:74493720-74497106",
+              "ensembl_id": "ENSG00000165898"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "ISCA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29359243"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "MULTIPLE MITOCHONDRIAL DYSFUNCTIONS SYNDROME 4 OMIM:616370",
+        "multiple mitochondrial dysfunctions syndrome 4 MONDO:0014611"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LAS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16429",
+        "gene_name": "lipoic acid synthetase",
+        "omim_gene": [
+          "607031"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LIAS",
+        "hgnc_symbol": "LIAS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:39460620-39479273",
+              "ensembl_id": "ENSG00000121897"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:39458587-39485109",
+              "ensembl_id": "ENSG00000121897"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "LIAS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "HYPERGLYCINEMIA, LACTIC ACIDOSIS, AND SEIZURES, 614462"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC12290",
+          "MGC13378"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29569",
+        "gene_name": "lipoyltransferase 1",
+        "omim_gene": [
+          "610284"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LIPT1",
+        "hgnc_symbol": "LIPT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:99771418-99779620",
+              "ensembl_id": "ENSG00000144182"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:99154955-99163157",
+              "ensembl_id": "ENSG00000144182"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "LIPT1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "LIPOYLTRANSFERASE 1 DEFICIENCY OMIM:616299",
+        "lipoyl transferase 1 deficiency MONDO:0014576"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:37216",
+        "gene_name": "lipoyl(octanoyl) transferase 2",
+        "omim_gene": [
+          "617659"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LIPT2",
+        "hgnc_symbol": "LIPT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:74202757-74204778",
+              "ensembl_id": "ENSG00000175536"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:74491712-74493733",
+              "ensembl_id": "ENSG00000175536"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-09-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "LIPT2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28757203",
+        "28803783"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Encephalopathy, neonatal severe, with lactic acidosis and brain abnormalities, Encephalopathy, neonatal severe, with lactic acidosis and brain abnormalities OMIM:617668",
+        "encephalopathy, neonatal severe, with lactic acidosis and brain abnormalities MONDO:0060562"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LonHS",
+          "hLON",
+          "PIM1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9479",
+        "gene_name": "lon peptidase 1, mitochondrial",
+        "omim_gene": [
+          "605490"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LONP1",
+        "hgnc_symbol": "LONP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:5691845-5720583",
+              "ensembl_id": "ENSG00000196365"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:5691834-5720572",
+              "ensembl_id": "ENSG00000196365"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-10-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "LONP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30304514"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "CODAS syndrome OMIM:600373",
+        "CODAS syndrome MONDO:0010879"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CGI-33",
+          "NifU",
+          "NIFUC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16287",
+        "gene_name": "NFU1 iron-sulfur cluster scaffold",
+        "omim_gene": [
+          "608100"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NFU1",
+        "hgnc_symbol": "NFU1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:69622882-69664760",
+              "ensembl_id": "ENSG00000169599"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:69395750-69437628",
+              "ensembl_id": "ENSG00000169599"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-10-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "NFU1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Multiple mitochondrial dysfunctions syndrome 1, OMIM:605711",
+        "Multiple mitochondrial dysfunctions syndrome 1, MONDO:0011582"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8806",
+        "gene_name": "pyruvate dehydrogenase E1 alpha 1 subunit",
+        "omim_gene": [
+          "300502"
+        ],
+        "alias_name": [
+          "pyruvate dehydrogenase E1 component subunit alpha, somatic form, mitochondrial"
+        ],
+        "gene_symbol": "PDHA1",
+        "hgnc_symbol": "PDHA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:19362011-19379823",
+              "ensembl_id": "ENSG00000131828"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:19343893-19361705",
+              "ensembl_id": "ENSG00000131828"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDHA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "PYRUVATE DEHYDROGENASE E1-ALPHA DEFICIENCY OMIM:312170",
+        "pyruvate dehydrogenase E1-alpha deficiency MONDO:0010717"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PDHE1B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8808",
+        "gene_name": "pyruvate dehydrogenase E1 beta subunit",
+        "omim_gene": [
+          "179060"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PDHB",
+        "hgnc_symbol": "PDHB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:58413357-58419584",
+              "ensembl_id": "ENSG00000168291"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:58427630-58433857",
+              "ensembl_id": "ENSG00000168291"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDHB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18164639",
+        "15138885",
+        "19924563"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Pyruvate dehydrogenase E1-beta deficiency, OMIM:614111"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "E3BP",
+          "proX",
+          "PDX1",
+          "OPDX",
+          "DLDBP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21350",
+        "gene_name": "pyruvate dehydrogenase complex component X",
+        "omim_gene": [
+          "608769"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PDHX",
+        "hgnc_symbol": "PDHX",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:34937376-35042138",
+              "ensembl_id": "ENSG00000110435"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:34915829-35020591",
+              "ensembl_id": "ENSG00000110435"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDHX",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Lacticacidemia due to PDX1 deficiency, OMIM:245349"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PDP",
+          "PDH",
+          "PPM2A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9279",
+        "gene_name": "pyruvate dehyrogenase phosphatase catalytic subunit 1",
+        "omim_gene": [
+          "605993"
+        ],
+        "alias_name": [
+          "protein phosphatase, Mg2+/Mn2+ dependent 2A"
+        ],
+        "gene_symbol": "PDP1",
+        "hgnc_symbol": "PDP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:94870035-94938294",
+              "ensembl_id": "ENSG00000164951"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:93857807-93926066",
+              "ensembl_id": "ENSG00000164951"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-06-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "PYRUVATE DEHYDROGENASE PHOSPHATASE DEFICIENCY OMIM:608782",
+        "pyruvate dehydrogenase phosphatase deficiency MONDO:0012120"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "THTR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10938",
+        "gene_name": "solute carrier family 19 member 2",
+        "omim_gene": [
+          "603941"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC19A2",
+        "hgnc_symbol": "SLC19A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:169433147-169455241",
+              "ensembl_id": "ENSG00000117479"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:169463909-169486003",
+              "ensembl_id": "ENSG00000117479"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-04-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC19A2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Thiamine-responsive megaloblastic anemia syndrome, OMIM:249270"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "THTR2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16266",
+        "gene_name": "solute carrier family 19 member 3",
+        "omim_gene": [
+          "606152"
+        ],
+        "alias_name": [
+          "thiamine transporter 2"
+        ],
+        "gene_symbol": "SLC19A3",
+        "hgnc_symbol": "SLC19A3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:228549926-228582728",
+              "ensembl_id": "ENSG00000135917"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:227685210-227718012",
+              "ensembl_id": "ENSG00000135917"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-07-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC19A3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "THIAMINE METABOLISM DYSFUNCTION SYNDROME 2 (BIOTIN- OR THIAMINE-RESPONSIVE TYPE) OMIM:607483",
+        "biotin-responsive basal ganglia disease MONDO:0011841"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DNC",
+          "MUP1",
+          "TPC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14409",
+        "gene_name": "solute carrier family 25 member 19",
+        "omim_gene": [
+          "606521"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC25A19",
+        "hgnc_symbol": "SLC25A19",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:73269073-73285591",
+              "ensembl_id": "ENSG00000125454"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:75272981-75289510",
+              "ensembl_id": "ENSG00000125454"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-09-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC25A19",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "MICROCEPHALY, AMISH TYPEOMIM:607196",
+        "Amish lethal microcephaly MONDO:0011790",
+        "THIAMINE METABOLISM DYSFUNCTION SYNDROME 4 (BILATERAL STRIATAL DEGENERATION AND PROGRESSIVE POLYNEUROPATHY TYPE) OMIM:613710",
+        "progressive demyelinating neuropathy with bilateral striatal necrosis MONDO:0013382"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20661",
+        "gene_name": "solute carrier family 25 member 26",
+        "omim_gene": [
+          "611037"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC25A26",
+        "hgnc_symbol": "SLC25A26",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:66119285-66438540",
+              "ensembl_id": "ENSG00000144741"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:66133610-66388116",
+              "ensembl_id": "ENSG00000144741"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-12-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC25A26",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "COMBINED OXIDATIVE PHOSPHORYLATION DEFICIENCY 28 OMIM:616794",
+        "combined oxidative phosphorylation deficiency 28 MONDO:0014775"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HTPK1",
+          "PP20"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17358",
+        "gene_name": "thiamin pyrophosphokinase 1",
+        "omim_gene": [
+          "606370"
+        ],
+        "alias_name": [
+          "placental protein 20",
+          "thiamine pyrophosphokinase 1",
+          "thiamine kinase",
+          "thiamine diphosphokinase"
+        ],
+        "gene_symbol": "TPK1",
+        "hgnc_symbol": "TPK1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:144149034-144533488",
+              "ensembl_id": "ENSG00000196511"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:144451941-144836395",
+              "ensembl_id": "ENSG00000196511"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "TPK1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "THIAMINE METABOLISM DYSFUNCTION SYNDROME 5 (EPISODIC ENCEPHALOPATHY TYPE) OMIM:614458",
+        "childhood encephalopathy due to thiamine pyrophosphokinase deficiency MONDO:0013761"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1348",
+          "PPM2C2",
+          "PPM2B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30263",
+        "gene_name": "pyruvate dehyrogenase phosphatase catalytic subunit 2",
+        "omim_gene": [
+          "615499"
+        ],
+        "alias_name": [
+          "protein phosphatase 2C, magnesium-dependent, catalytic subunit 2",
+          "protein phosphatase, Mg2+/Mn2+ dependent 2B",
+          "[pyruvate dehydrogenase (acetyl-transferring)]-phosphatase"
+        ],
+        "gene_symbol": "PDP2",
+        "hgnc_symbol": "PDP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:66912492-66929657",
+              "ensembl_id": "ENSG00000172840"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:66878589-66895754",
+              "ensembl_id": "ENSG00000172840"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-06-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDP2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "pyruvate dehydrogenase deficiency MONDO:0019169"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PDP3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30264",
+        "gene_name": "pyruvate dehydrogenase phosphatase regulatory subunit",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "PDPR",
+        "hgnc_symbol": "PDPR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:70147529-70195203",
+              "ensembl_id": "ENSG00000090857"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:70113626-70162537",
+              "ensembl_id": "ENSG00000090857"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDPR",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

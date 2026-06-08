@@ -1,0 +1,1612 @@
+{
+  "id": 548,
+  "hash_id": null,
+  "name": "Tubulointerstitial kidney disease",
+  "disease_group": "Renal",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.33",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R202"
+  ],
+  "stats": {
+    "number_of_genes": 29,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "Component Of Super Panel",
+      "slug": "component-of-super-panel",
+      "description": "This panel is a component of a Super Panel"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ36928",
+          "NPHP16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26724",
+        "gene_name": "ankyrin repeat and sterile alpha motif domain containing 6",
+        "omim_gene": [
+          "615370"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANKS6",
+        "hgnc_symbol": "ANKS6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:101493611-101559247",
+              "ensembl_id": "ENSG00000165138"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:98731329-98796965",
+              "ensembl_id": "ENSG00000165138"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANKS6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "2379302"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Nephronophthisis 16, OMIM:615382",
+        "nephronophthisis 16, MONDO:0014158"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1052",
+          "NPHP15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29182",
+        "gene_name": "centrosomal protein 164",
+        "omim_gene": [
+          "614848"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CEP164",
+        "hgnc_symbol": "CEP164",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:117185273-117283984",
+              "ensembl_id": "ENSG00000110274"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:117314557-117413268",
+              "ensembl_id": "ENSG00000110274"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CEP164",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Nephronophthisis 15, OMIM:614845",
+        "nephronophthisis 15, MONDO:0013917"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NY-REN-58",
+          "NPHP18"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17966",
+        "gene_name": "centrosomal protein 83",
+        "omim_gene": [
+          "615847"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CEP83",
+        "hgnc_symbol": "CEP83",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:94700225-94853764",
+              "ensembl_id": "ENSG00000173588"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:94306449-94459988",
+              "ensembl_id": "ENSG00000173588"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-03-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "CEP83",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Nephronophthisis 18, OMIM:615862",
+        "nephronophthisis 18, MONDO:0014374"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EDJ",
+          "HEDJ",
+          "ERdj3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14889",
+        "gene_name": "DnaJ heat shock protein family (Hsp40) member B11",
+        "omim_gene": [
+          "611341"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNAJB11",
+        "hgnc_symbol": "DNAJB11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:186285192-186315061",
+              "ensembl_id": "ENSG00000090520"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:186567403-186585800",
+              "ensembl_id": "ENSG00000090520"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-03-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNAJB11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29706351",
+        "29777155"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Polycystic kidney disease 6 with or without polycystic liver disease, OMIM:618061",
+        "Tubulointerstitial disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AGAT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4175",
+        "gene_name": "glycine amidinotransferase",
+        "omim_gene": [
+          "602360"
+        ],
+        "alias_name": [
+          "L-arginine:glycine amidinotransferase"
+        ],
+        "gene_symbol": "GATM",
+        "hgnc_symbol": "GATM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:45653322-45694525",
+              "ensembl_id": "ENSG00000171766"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:45361124-45402327",
+              "ensembl_id": "ENSG00000171766"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-02-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "GATM",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype -please provide details in the comments",
+      "publications": [
+        "29654216"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Fanconi renotubular syndrome 1, OMIM:134600",
+        "Fanconi renotubular syndrome 1, MONDO:0024525"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LFB3",
+          "VHNF1",
+          "HNF1beta",
+          "MODY5"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:11630",
+        "gene_name": "HNF1 homeobox B",
+        "omim_gene": [
+          "189907"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HNF1B",
+        "hgnc_symbol": "HNF1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:36046435-36105237",
+              "ensembl_id": "ENSG00000108753"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:37686432-37745247",
+              "ensembl_id": "ENSG00000275410"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "HNF1B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15930087"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Renal cysts and diabetes syndrome MIM 137920",
+        "NIDDM MIM 125853"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17870",
+        "gene_name": "inversin",
+        "omim_gene": [
+          "243305"
+        ],
+        "alias_name": [
+          "nephrocystin 2"
+        ],
+        "gene_symbol": "INVS",
+        "hgnc_symbol": "INVS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:102861538-103063282",
+              "ensembl_id": "ENSG00000119509"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:100099256-100301000",
+              "ensembl_id": "ENSG00000119509"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-06-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "INVS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Nephronophthisis 2, infantile, OMIM:602088",
+        "nephronophthisis 2, MONDO:0011190"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0596"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29536",
+        "gene_name": "mitogen-activated protein kinase binding protein 1",
+        "omim_gene": [
+          "616786"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAPKBP1",
+        "hgnc_symbol": "MAPKBP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:42066632-42120053",
+              "ensembl_id": "ENSG00000137802"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:41774434-41827855",
+              "ensembl_id": "ENSG00000137802"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAPKBP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28089251"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Nephronophthisis 20, OMIM:617271",
+        "nephronophthisis 20, MONDO:0014997"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "trnF"
+        ],
+        "biotype": "Mt_tRNA",
+        "hgnc_id": "HGNC:7481",
+        "gene_name": "mitochondrially encoded tRNA phenylalanine",
+        "omim_gene": [
+          "590070"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-TF",
+        "hgnc_symbol": "MT-TF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:577-647",
+              "ensembl_id": "ENSG00000210049"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:577-647",
+              "ensembl_id": "ENSG00000210049"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-TF",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28267784",
+        "11231339",
+        "20142618",
+        "23135609"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Tubulointerstitial kidney disease",
+        "tubulointerstitial nephritis",
+        "renal insufficiency",
+        "renal failure"
+      ],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [
+        "gene-checked",
+        "locus-type-rna-transfer"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD227",
+          "PEM",
+          "ADMCKD",
+          "ADMCKD1",
+          "MCKD",
+          "MCD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7508",
+        "gene_name": "mucin 1, cell surface associated",
+        "omim_gene": [
+          "158340"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MUC1",
+        "hgnc_symbol": "MUC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:155158300-155162707",
+              "ensembl_id": "ENSG00000185499"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:155185824-155192916",
+              "ensembl_id": "ENSG00000185499"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "MUC1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "23396133",
+        "29967284",
+        "29156055",
+        "29520014",
+        "23946964"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Medullary cystic kidney disease 1 MIM 174000"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JBTS4",
+          "SLSN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7905",
+        "gene_name": "nephrocystin 1",
+        "omim_gene": [
+          "607100"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NPHP1",
+        "hgnc_symbol": "NPHP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:110879888-110962643",
+              "ensembl_id": "ENSG00000144061"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:110122311-110205066",
+              "ensembl_id": "ENSG00000144061"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NPHP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "34415307"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Nephronophthisis 1, juvenile, OMIM:256100",
+        "nephronophthisis 1, MONDO:0009728",
+        "Senior-Loken syndrome-1, OMIM:266900",
+        "Senior-Loken syndrome 1, MONDO:0009962",
+        "Joubert syndrome 4, OMIM:609583",
+        "Joubert syndrome with renal defect, MONDO:0012308"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NPH3",
+          "KIAA2000",
+          "FLJ30691",
+          "FLJ36696",
+          "MKS7",
+          "SLSN3",
+          "CFAP31"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7907",
+        "gene_name": "nephrocystin 3",
+        "omim_gene": [
+          "608002"
+        ],
+        "alias_name": [
+          "Meckel syndrome, type 7",
+          "cilia and flagella associated protein 31"
+        ],
+        "gene_symbol": "NPHP3",
+        "hgnc_symbol": "NPHP3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:132276986-132441303",
+              "ensembl_id": "ENSG00000113971"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:132680609-132722442",
+              "ensembl_id": "ENSG00000113971"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-01-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "NPHP3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Nephronophthisis 3, OMIM:604387",
+        "nephronophthisis 3, MONDO:0011456",
+        "Renal-hepatic-pancreatic dysplasia 1, OMIM:208540",
+        "renal-hepatic-pancreatic dysplasia 1, MONDO:0008833",
+        "Meckel syndrome 7, OMIM:267010",
+        "NPHP3-related Meckel-like syndrome, MONDO:0009966"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SLSN4",
+          "KIAA0673",
+          "POC10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19104",
+        "gene_name": "nephrocystin 4",
+        "omim_gene": [
+          "607215"
+        ],
+        "alias_name": [
+          "nephroretinin",
+          "POC10 centriolar protein homolog (Chlamydomonas)"
+        ],
+        "gene_symbol": "NPHP4",
+        "hgnc_symbol": "NPHP4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:5922871-6052533",
+              "ensembl_id": "ENSG00000131697"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:5862811-5992473",
+              "ensembl_id": "ENSG00000131697"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-10-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "NPHP4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12244321",
+        "12205563"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Nephronophthisis 4, OMIM:606966",
+        "nephronophthisis 4, MONDO:0011752",
+        "Senior-Loken syndrome 4, OMIM:606996",
+        "Senior-Loken syndrome 4, MONDO:0011756"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9958",
+        "gene_name": "renin",
+        "omim_gene": [
+          "179820"
+        ],
+        "alias_name": null,
+        "gene_symbol": "REN",
+        "hgnc_symbol": "REN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:204123944-204135465",
+              "ensembl_id": "ENSG00000143839"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:204154819-204190324",
+              "ensembl_id": "ENSG00000143839"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "REN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16116425",
+        "19664745"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Renal tubular dysgenesis MIM 267430",
+        "Familial juvenile Hyperuricemic nephropathy-2 MIM 613092"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18276",
+        "gene_name": "Sec61 translocon alpha 1 subunit",
+        "omim_gene": [
+          "609213"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SEC61A1",
+        "hgnc_symbol": "SEC61A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:127770484-127790526",
+              "ensembl_id": "ENSG00000058262"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:128051641-128071683",
+              "ensembl_id": "ENSG00000058262"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "SEC61A1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27392076",
+        "30586318"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Familial juvenile Hyperuricemic nephropathy-4 , OMIM:617056"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC26979",
+          "JBTS6",
+          "NPHP11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28396",
+        "gene_name": "transmembrane protein 67",
+        "omim_gene": [
+          "609884"
+        ],
+        "alias_name": [
+          "Meckelin"
+        ],
+        "gene_symbol": "TMEM67",
+        "hgnc_symbol": "TMEM67",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:94767072-94831462",
+              "ensembl_id": "ENSG00000164953"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:93754844-93819234",
+              "ensembl_id": "ENSG00000164953"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-08-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMEM67",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "?RHYNS syndrome MIM 602152",
+        "COACH syndrome 216360 AR 3",
+        "{Bardet-Biedl syndrome 14, modifier of} MIM 615991",
+        "?RHYNS syndrome 602152 AR 3",
+        "COACH syndrome, MIM 216306",
+        "Joubert syndrome 6, MIM 610688",
+        "Nephronophthisis 11 MIM 613550",
+        "Meckel syndrome 3, MIM 607361"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ11457",
+          "JBTS11",
+          "NPHP12",
+          "IFT139B",
+          "THM1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25660",
+        "gene_name": "tetratricopeptide repeat domain 21B",
+        "omim_gene": [
+          "612014"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTC21B",
+        "hgnc_symbol": "TTC21B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:166713985-166810353",
+              "ensembl_id": "ENSG00000123607"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:165857475-165953843",
+              "ensembl_id": "ENSG00000123607"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTC21B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21258341",
+        "26940125",
+        "34957165",
+        "34805047",
+        "35289079"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Nephronophthisis 12, OMIM:613820"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12559",
+        "gene_name": "uromodulin",
+        "omim_gene": [
+          "191845"
+        ],
+        "alias_name": [
+          "Tamm-Horsfall glycoprotein",
+          "uromucoid"
+        ],
+        "gene_symbol": "UMOD",
+        "hgnc_symbol": "UMOD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:20344374-20367623",
+              "ensembl_id": "ENSG00000169344"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:20333052-20356301",
+              "ensembl_id": "ENSG00000169344"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-07-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "UMOD",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "12471200",
+        "14569098"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Medullary cystic kidney disease 2 MIM 603860",
+        "Familial juvenile hyperuricemic nephropathy 1 MIM 162000"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Pwdmp",
+          "KIAA1638",
+          "FLJ23127",
+          "ORF26",
+          "DYF-2",
+          "Oseg6",
+          "IFT144",
+          "NPHP13"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18340",
+        "gene_name": "WD repeat domain 19",
+        "omim_gene": [
+          "608151"
+        ],
+        "alias_name": [
+          "intraflagellar transport 144 homolog (Chlamydomonas)"
+        ],
+        "gene_symbol": "WDR19",
+        "hgnc_symbol": "WDR19",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:39184024-39287430",
+              "ensembl_id": "ENSG00000157796"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:39182404-39285810",
+              "ensembl_id": "ENSG00000157796"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-04-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "WDR19",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Nephronophthisis 13 MIM 614377",
+        "?Cranioectodermal dysplasia 4, MIM 614378",
+        "?Short-rib thoracic dysplasia 5 with or without polydactyly, MIM 614376",
+        "Senior-Loken syndrome 8, MIM 616307"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "APP3",
+          "NPHPL1",
+          "ICP55"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28052",
+        "gene_name": "X-prolyl aminopeptidase 3",
+        "omim_gene": [
+          "613553"
+        ],
+        "alias_name": [
+          "Intermediate Cleaving Peptidase 55"
+        ],
+        "gene_symbol": "XPNPEP3",
+        "hgnc_symbol": "XPNPEP3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:41253081-41363838",
+              "ensembl_id": "ENSG00000196236"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:40857077-40932815",
+              "ensembl_id": "ENSG00000196236"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-08-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "XPNPEP3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20179356",
+        "32660933"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Nephronophthisis-like nephropathy 1 OMIM:613159",
+        "nephronophthisis-like nephropathy 1 MONDO:0013163"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1312"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13202",
+        "gene_name": "ADAM metallopeptidase with thrombospondin type 1 motif 9",
+        "omim_gene": [
+          "605421"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADAMTS9",
+        "hgnc_symbol": "ADAMTS9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:64501333-64673676",
+              "ensembl_id": "ENSG00000163638"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:64515654-64688000",
+              "ensembl_id": "ENSG00000163638"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-11-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADAMTS9",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30609407"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Nephronophthisis-Related Ciliopathy (no OMIM number yet)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:602",
+        "gene_name": "apolipoprotein A4",
+        "omim_gene": [
+          "107690"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOA4",
+        "hgnc_symbol": "APOA4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:116691419-116694022",
+              "ensembl_id": "ENSG00000110244"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:116820700-116823306",
+              "ensembl_id": "ENSG00000110244"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOA4",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "21900878",
+        "27262366",
+        "28449784",
+        "33751222",
+        "38096951",
+        "39699959"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Tubulointerstitial kidney disease, autosomal dominant 6, OMIM: 621106",
+        "tubulointerstitial kidney disease, autosomal dominant 6, MONDO:0976234"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q4_25_promote_green",
+        "Q4_25_NHS_review"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RU2",
+          "KIAA1154",
+          "DCDC2A",
+          "NPHP19"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18141",
+        "gene_name": "doublecortin domain containing 2",
+        "omim_gene": [
+          "605755"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DCDC2",
+        "hgnc_symbol": "DCDC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:24171984-24358280",
+              "ensembl_id": "ENSG00000146038"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:24171756-24358052",
+              "ensembl_id": "ENSG00000146038"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-05-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "DCDC2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25557784"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Sclerosing cholangitis, neonatal MIM 617394",
+        "?Deafness, autosomal recessive 66 MIM 610212",
+        "Nephronophthisis 19 MIM 616217"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NPHP7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29450",
+        "gene_name": "GLIS family zinc finger 2",
+        "omim_gene": [
+          "608539"
+        ],
+        "alias_name": [
+          "nephrocystin-7"
+        ],
+        "gene_symbol": "GLIS2",
+        "hgnc_symbol": "GLIS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:4364762-4389598",
+              "ensembl_id": "ENSG00000126603"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:4314761-4339597",
+              "ensembl_id": "ENSG00000126603"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLIS2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Nephronophthisis 7 MIM 611498"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AHD",
+          "AWS",
+          "HJ1",
+          "CD339"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6188",
+        "gene_name": "jagged 1",
+        "omim_gene": [
+          "601920"
+        ],
+        "alias_name": null,
+        "gene_symbol": "JAG1",
+        "hgnc_symbol": "JAG1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:10618332-10654694",
+              "ensembl_id": "ENSG00000101384"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:10637684-10674107",
+              "ensembl_id": "ENSG00000101384"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "JAG1",
+      "confidence_level": "2",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "41061854"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Autosomal dominant tubulointerstitial kidney disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q4_25_promote_green",
+        "Q4_25_NHS_review"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "bA285G1.3",
+          "KSP37"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:31658",
+        "gene_name": "transmembrane protein 72",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "TMEM72",
+        "hgnc_symbol": "TMEM72",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:45406648-45432450",
+              "ensembl_id": "ENSG00000187783"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:44911200-44937002",
+              "ensembl_id": "ENSG00000187783"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMEM72",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "41308066"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "nephronophthisis, MONDO:0019005"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q1_26_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0760",
+          "OAZ",
+          "Roaz",
+          "Ebfaz",
+          "Zfp104",
+          "NPHP14",
+          "JBTS19"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16762",
+        "gene_name": "zinc finger protein 423",
+        "omim_gene": [
+          "604557"
+        ],
+        "alias_name": [
+          "OLF-1/EBF associated zinc finger gene",
+          " Smad- and Olf-interacting zinc finger protein",
+          "early B-cell factor associated zinc finger protein"
+        ],
+        "gene_symbol": "ZNF423",
+        "hgnc_symbol": "ZNF423",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:49521435-49891830",
+              "ensembl_id": "ENSG00000102935"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:49487524-49857919",
+              "ensembl_id": "ENSG00000102935"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-04-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZNF423",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22863007"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Joubert syndrome 19, OMIM:614844",
+        "Nephronophthisis 14, OMIM:614844"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NPHP9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13387",
+        "gene_name": "NIMA related kinase 8",
+        "omim_gene": [
+          "609799"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NEK8",
+        "hgnc_symbol": "NEK8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:27052915-27070473",
+              "ensembl_id": "ENSG00000160602"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:28725897-28743455",
+              "ensembl_id": "ENSG00000160602"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-10-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "NEK8",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "?Nephronophthisis 9 MIM 613824"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "trnV"
+        ],
+        "biotype": "Mt_tRNA",
+        "hgnc_id": "HGNC:7500",
+        "gene_name": "mitochondrially encoded tRNA valine",
+        "omim_gene": [
+          "590105"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-TV",
+        "hgnc_symbol": "MT-TV",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:1602-1670",
+              "ensembl_id": "ENSG00000210077"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:1602-1670",
+              "ensembl_id": "ENSG00000210077"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-TV",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "https://www.sciencedirect.com/science/article/pii/S246802492602810X"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

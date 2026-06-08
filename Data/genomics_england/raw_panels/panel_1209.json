@@ -1,0 +1,258 @@
+{
+  "id": 1209,
+  "hash_id": null,
+  "name": "Albright hereditary osteodystrophy, pseudohypoparathyroidism, pseudopseudohypoparathyroidism, acrodysostosis and osteoma cutis",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.10",
+  "version_created": "2026-01-22T17:19:57.123410Z",
+  "relevant_disorders": [
+    "R293"
+  ],
+  "stats": {
+    "number_of_genes": 4,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "NESP55",
+          "NESP",
+          "GNASXL",
+          "GPSA",
+          "SCG6",
+          "SgVI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4392",
+        "gene_name": "GNAS complex locus",
+        "omim_gene": [
+          "139320"
+        ],
+        "alias_name": [
+          "secretogranin VI",
+          "G protein subunit alpha S"
+        ],
+        "gene_symbol": "GNAS",
+        "hgnc_symbol": "GNAS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:57414773-57486247",
+              "ensembl_id": "ENSG00000087460"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:58839718-58911192",
+              "ensembl_id": "ENSG00000087460"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNAS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Pseudohypoparathyroidism Ia, OMIM:103580",
+        "Pseudohypoparathyroidism Ib, OMIM:603233",
+        "Pseudohypoparathyroidism Ic, OMIM:612462",
+        "Pseudopseudohypoparathyroidism, OMIM:612463",
+        "pseudohypoparathyroidism type 1A, MONDO:0007078",
+        "pseudohypoparathyroidism type 1B, MONDO:0011301",
+        "pseudohypoparathyroidism type 1C, MONDO:0012911",
+        "pseudopseudohypoparathyroidism, MONDO:0012912"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8783",
+        "gene_name": "phosphodiesterase 4D",
+        "omim_gene": [
+          "600129"
+        ],
+        "alias_name": [
+          "phosphodiesterase E3 dunce homolog (Drosophila)"
+        ],
+        "gene_symbol": "PDE4D",
+        "hgnc_symbol": "PDE4D",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:58264865-59817947",
+              "ensembl_id": "ENSG00000113448"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:58969038-60522120",
+              "ensembl_id": "ENSG00000113448"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-06-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDE4D",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Acrodysostosis 2, with or without hormone resistance, OMIM:614613",
+        "acrodysostosis 2 with or without hormone resistance, MONDO:0013822"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CNC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9388",
+        "gene_name": "protein kinase cAMP-dependent type I regulatory subunit alpha",
+        "omim_gene": [
+          "188830"
+        ],
+        "alias_name": [
+          "Carney complex type 1"
+        ],
+        "gene_symbol": "PRKAR1A",
+        "hgnc_symbol": "PRKAR1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:66507921-66547460",
+              "ensembl_id": "ENSG00000108946"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:68511780-68551319",
+              "ensembl_id": "ENSG00000108946"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRKAR1A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Acrodysostosis type 1, OMIM:101800",
+        "Acrodysostosis 1 with or without hormone resistance, MONDO:0007044"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hsyn16",
+          "SYN16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11431",
+        "gene_name": "syntaxin 16",
+        "omim_gene": [
+          "603666"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STX16",
+        "hgnc_symbol": "STX16",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:57226328-57254582",
+              "ensembl_id": "ENSG00000124222"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:58651253-58679526",
+              "ensembl_id": "ENSG00000124222"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "STX16",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "14561710",
+        "15579741",
+        "15800843",
+        "33320452",
+        "32337648",
+        "35119251"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Pseudohypoparathyroidism Ib, OMIM:603233",
+        "pseudohypoparathyroidism type 1B, MONDO:0011301"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "non-coding-known-pathogenic",
+        "cnv"
+      ],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

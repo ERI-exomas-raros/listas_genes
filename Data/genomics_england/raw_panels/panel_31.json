@@ -1,0 +1,2224 @@
+{
+  "id": 31,
+  "hash_id": "5763f2938f620350a1996046",
+  "name": "Congenital hypothyroidism",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.4",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Congenital hypothyroidism or thyroid agenesis",
+    "R145"
+  ],
+  "stats": {
+    "number_of_genes": 35,
+    "number_of_strs": 0,
+    "number_of_regions": 3
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "P138-TOX",
+          "P138(TOX)",
+          "THOX2",
+          "LNOX2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13273",
+        "gene_name": "dual oxidase 2",
+        "omim_gene": [
+          "606759"
+        ],
+        "alias_name": [
+          "dual oxidase-like domains 2",
+          "nicotinamide adenine dinucleotide phosphate oxidase",
+          "flavoprotein NADPH oxidase",
+          "NADPH thyroid oxidase 2",
+          "NADH/NADPH thyroid oxidase p138-tox",
+          "NADPH oxidase/peroxidase DUOX2"
+        ],
+        "gene_symbol": "DUOX2",
+        "hgnc_symbol": "DUOX2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:45384848-45406542",
+              "ensembl_id": "ENSG00000140279"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:45092650-45114344",
+              "ensembl_id": "ENSG00000140279"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-11-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "DUOX2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12110737",
+        "24423310",
+        "16134168",
+        "27525530 (Nicholas et al.,2016) identify a monogenic and digenic basis of disease",
+        "27166716"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Congenital hypothyroidism",
+        "Thryoid dyshormonogenesis 6, 607200",
+        "permanent congenital hypothyroidism",
+        "transient congenital hypothyroidism",
+        "eutopic gland-in-situ",
+        "goitre",
+        "borderline congenital hypothyroidism",
+        "iodide organification defect"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:32698",
+        "gene_name": "dual oxidase maturation factor 2",
+        "omim_gene": [
+          "612772"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DUOXA2",
+        "hgnc_symbol": "DUOXA2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:45406519-45410619",
+              "ensembl_id": "ENSG00000140274"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:45114321-45118421",
+              "ensembl_id": "ENSG00000140274"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "DUOXA2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18042646",
+        "21367925",
+        "28100324",
+        "26758695",
+        "27349010"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Thyroid dyshormonogenesis 5, 274900",
+        "HYPOTHYROIDISM, CONGENITAL, DUE TO DYSHORMONOGENESIS, 5",
+        "eutopic gland-in-situ",
+        "mild congenital hypothyroidism",
+        "transient congenital hypothyroidism"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "monogenic-polygenic",
+        "deletions"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TTF-2",
+          "HFKH4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3806",
+        "gene_name": "forkhead box E1",
+        "omim_gene": [
+          "602617"
+        ],
+        "alias_name": [
+          "thyroid transcription factor 2"
+        ],
+        "gene_symbol": "FOXE1",
+        "hgnc_symbol": "FOXE1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:100615536-100618986",
+              "ensembl_id": "ENSG00000178919"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:97853254-97856715",
+              "ensembl_id": "ENSG00000178919"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-02-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXE1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "9697705",
+        "20484477",
+        "9697704 (mouse model)",
+        "24219130 (gain-of-function mutation)"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "congenital hypothyroidism",
+        "Bamforth Lazarus syndrome, 241850 (hypothyroidism)",
+        "Hypothyroidism, Thyroidal Or Athyroidal, With Spiky Hair And Cleft Palate, 241850",
+        "thyroid agenesis",
+        "cleft palate",
+        "spiky hair",
+        "choanal atresia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC33662"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28510",
+        "gene_name": "GLIS family zinc finger 3",
+        "omim_gene": [
+          "610192"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLIS3",
+        "hgnc_symbol": "GLIS3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:3824127-4348392",
+              "ensembl_id": "ENSG00000107249"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:3824127-4348392",
+              "ensembl_id": "ENSG00000107249"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLIS3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26259131",
+        "16715098"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Congenital hypothyroidism",
+        "Diabetes mellitus, neonatal, with congenital hypothyroidism, 610199",
+        "neonatal non-autoimmune diabetes mellitus",
+        "severe congenital hypothyroidism",
+        "variable cholestasis",
+        "hepatic fibrosis",
+        "congenital glaucoma",
+        "polycystic kidneys",
+        "dysmorphic facies",
+        "sensorineural deafness"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NESP55",
+          "NESP",
+          "GNASXL",
+          "GPSA",
+          "SCG6",
+          "SgVI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4392",
+        "gene_name": "GNAS complex locus",
+        "omim_gene": [
+          "139320"
+        ],
+        "alias_name": [
+          "secretogranin VI",
+          "G protein subunit alpha S"
+        ],
+        "gene_symbol": "GNAS",
+        "hgnc_symbol": "GNAS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:57414773-57486247",
+              "ensembl_id": "ENSG00000087460"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:58839718-58911192",
+              "ensembl_id": "ENSG00000087460"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNAS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17299070",
+        "23412865",
+        "27922245"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Pseudohypoparathyroidism Ia, OMIM:103580",
+        "pseudohypoparathyroidism type 1A, MONDO:0007078",
+        "Pseudohypoparathyroidism Ib, OMIM:603233",
+        "pseudohypoparathyroidism type 1B, MONDO:0011301",
+        "Pseudohypoparathyroidism Ic, OMIM:612462",
+        "pseudohypoparathyroidism type 1C, MONDO:0012911"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RPX",
+          "ANF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4877",
+        "gene_name": "HESX homeobox 1",
+        "omim_gene": [
+          "601802"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HESX1",
+        "hgnc_symbol": "HESX1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:57231944-57260549",
+              "ensembl_id": "ENSG00000163666"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:57197843-57226521",
+              "ensembl_id": "ENSG00000163666"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "HESX1",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9620767",
+        "11136712",
+        "26416826 (2015 review)"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Growth hormone deficiency with pituitary anomalies, OMIM:182230",
+        "Pituitary hormone deficiency, combined, 5, OMIM:182230",
+        "Septooptic dysplasia, OMIM:182230"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0364",
+          "IGDC1",
+          "IGCD1",
+          "INHBP",
+          "MGC75490",
+          "PGSF2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5948",
+        "gene_name": "immunoglobulin superfamily member 1",
+        "omim_gene": [
+          "300137"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IGSF1",
+        "hgnc_symbol": "IGSF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:130407480-130533677",
+              "ensembl_id": "ENSG00000147255"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:131273506-131578899",
+              "ensembl_id": "ENSG00000147255"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "IGSF1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23143598",
+        "26840047",
+        "27762734",
+        "24108313 (reports that a subset of female carriers show central hypothyroidism)."
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "central hypothyroidism",
+        "hypoprolactinaemia",
+        "GH deficiency",
+        "macroorchidism",
+        "Hypothyroidism, central, and testicular enlargement, 300888"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PY160",
+          "IRS-4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6128",
+        "gene_name": "insulin receptor substrate 4",
+        "omim_gene": [
+          "300904"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IRS4",
+        "hgnc_symbol": "IRS4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:107975712-107979651",
+              "ensembl_id": "ENSG00000133124"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:108732482-108736409",
+              "ensembl_id": "ENSG00000133124"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "IRS4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30061370",
+        "10644546"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "East of England GLH"
+      ],
+      "phenotypes": [
+        "Congenital central hypothyroidism"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dJ422F24.1",
+          "DEHAL1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21071",
+        "gene_name": "iodotyrosine deiodinase",
+        "omim_gene": [
+          "612025"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IYD",
+        "hgnc_symbol": "IYD",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:150690028-150727105",
+              "ensembl_id": "ENSG00000009765"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:150368892-150405969",
+              "ensembl_id": "ENSG00000009765"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "IYD",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18434651",
+        "22535972",
+        "24629858",
+        "18765512"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Thyroid dyshormonogenesis 4, OMIM:274800"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6595",
+        "gene_name": "LIM homeobox 3",
+        "omim_gene": [
+          "600577"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LHX3",
+        "hgnc_symbol": "LHX3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:139088096-139096955",
+              "ensembl_id": "ENSG00000107187"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:136196250-136205109",
+              "ensembl_id": "ENSG00000107187"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-03-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "LHX3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10835633",
+        "26416826 (2015 review)",
+        "21249393",
+        "18407919"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "GH, TSH, LH, FSH, PRL deficiency",
+        "limited neck rotation",
+        "short cervical spine",
+        "sensorineural deafness",
+        "anterior pituitary may be normal, hypoplastic or enlarged",
+        "Pituitary hormone deficiency, combined, 3, \t221750"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Gsh4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21734",
+        "gene_name": "LIM homeobox 4",
+        "omim_gene": [
+          "602146"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LHX4",
+        "hgnc_symbol": "LHX4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:180199421-180249380",
+              "ensembl_id": "ENSG00000121454"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:180230286-180278982",
+              "ensembl_id": "ENSG00000121454"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-07-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "LHX4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11567216",
+        "26416826 (2015 review)",
+        "25955177"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "GH, TSH, ACTH, variable gonadotrophin deficiencies",
+        "cerebellar abnormalities",
+        "anterior pituitary hypoplasia",
+        "etopic posterior pituitary",
+        "Pituitary hormone deficiency, combined, 4, 262700"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TTF-1",
+          "TTF1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11825",
+        "gene_name": "NK2 homeobox 1",
+        "omim_gene": [
+          "600635"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NKX2-1",
+        "hgnc_symbol": "NKX2-1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:36985602-36990354",
+              "ensembl_id": "ENSG00000136352"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:36516392-36521149",
+              "ensembl_id": "ENSG00000136352"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-07-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "NKX2-1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24714694",
+        "11854319"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Congenital hypothyroidism",
+        "Choreoathetosis, hypothyroidism, and neonatal respiratory distress, 610978",
+        "Choreoathetosis And Congenital Hypothyroidism With Or Without Pulmonary Dysfunction, 610978",
+        "CAHTP",
+        "Neurological abnormalities",
+        "benign hereditary chorea",
+        "neonatal respiratory distress syndrome",
+        "recurrent respiratory infections"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8522",
+        "gene_name": "orthodenticle homeobox 2",
+        "omim_gene": [
+          "600037"
+        ],
+        "alias_name": null,
+        "gene_symbol": "OTX2",
+        "hgnc_symbol": "OTX2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:57267425-57277197",
+              "ensembl_id": "ENSG00000165588"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:56799905-56810479",
+              "ensembl_id": "ENSG00000165588"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-02-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "OTX2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18628516",
+        "26416826 (2015 review)"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "GH, TSH, ACTH, LH, FSH deficiency",
+        "Anophthalmia Retinal dystrophy",
+        "normal or hypoplastic anterior pituitary",
+        "ectopic posterior pituitary",
+        "Pituitary hormone deficiency, combined, 6, 613986"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "missense"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8622",
+        "gene_name": "paired box 8",
+        "omim_gene": [
+          "167415"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PAX8",
+        "hgnc_symbol": "PAX8",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:113973574-114036527",
+              "ensembl_id": "ENSG00000125618"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:113215997-113278950",
+              "ensembl_id": "ENSG00000125618"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "PAX8",
+      "confidence_level": "3",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID:23647375",
+        "PMID:9590296"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Congenital hypothyroidism",
+        "Hypothyroidism, Congenital, Nongoitrous, 2, 218700",
+        "Hypothyroidism, congenital, due to thyroid dysgenesis or hypoplasia, 218700",
+        "urogenital tract malformations",
+        "thyroid hypoplasia",
+        "thyroid dysgenesis",
+        "eutopic gland-in-situ"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GHF-1",
+          "POU1F1a"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9210",
+        "gene_name": "POU class 1 homeobox 1",
+        "omim_gene": [
+          "173110"
+        ],
+        "alias_name": [
+          "growth hormone factor 1"
+        ],
+        "gene_symbol": "POU1F1",
+        "hgnc_symbol": "POU1F1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:87308554-87325737",
+              "ensembl_id": "ENSG00000064835"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:87259404-87276587",
+              "ensembl_id": "ENSG00000064835"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-01-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "POU1F1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "26416826",
+        "11297581",
+        "16060904"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Pituitary hormone deficiency, combined or isolated, 1, OMIM:613038",
+        "Congenital hypothyroidism"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CNC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9388",
+        "gene_name": "protein kinase cAMP-dependent type I regulatory subunit alpha",
+        "omim_gene": [
+          "188830"
+        ],
+        "alias_name": [
+          "Carney complex type 1"
+        ],
+        "gene_symbol": "PRKAR1A",
+        "hgnc_symbol": "PRKAR1A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:66507921-66547460",
+              "ensembl_id": "ENSG00000108946"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:68511780-68551319",
+              "ensembl_id": "ENSG00000108946"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRKAR1A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "21651393",
+        "22464250"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Acrodysostosis, mild hormone resistance (TSH, PTH, GPCR-cAMP signalling hormones",
+        "Acrodysostosis 1, with or without hormone resistance, 101800"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9455",
+        "gene_name": "PROP paired-like homeobox 1",
+        "omim_gene": [
+          "601538"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PROP1",
+        "hgnc_symbol": "PROP1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:177419236-177423243",
+              "ensembl_id": "ENSG00000175325"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:177992235-177996242",
+              "ensembl_id": "ENSG00000175325"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-02-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "PROP1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9768691",
+        "15126542",
+        "15472175",
+        "26416826 (2015 review)",
+        "23652424",
+        "16984240"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "GH, TSH, LH, FSH, PRL deficiency with variable age of onset, evolving ACTH deficiency",
+        "Commonest cause of combined pituitary hormone deficit without extra pituitary manifestations",
+        "Hypoplastic or normal anterior pituitary although there have been reports of an enlarged anterior pituitary at initial scanning in childhood with spontaneous involution over time",
+        "Pituitary hormone deficiency, combined, 2, 262600"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SBP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30972",
+        "gene_name": "SECIS binding protein 2",
+        "omim_gene": [
+          "607693"
+        ],
+        "alias_name": [
+          "Sec insertion sequence-binding protein 2"
+        ],
+        "gene_symbol": "SECISBP2",
+        "hgnc_symbol": "SECISBP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:91933421-91974557",
+              "ensembl_id": "ENSG00000187742"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:89318506-89359662",
+              "ensembl_id": "ENSG00000187742"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SECISBP2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24629861",
+        "22986150",
+        "Diversity Selenium Functions in Health and Disease, Edited by Regina Brigelius-Flohe and Helmut Sies, Chapter 16. Mutations in SECISBP2. Erik Schoenmakers, Carla Moran, Nadia Schoenmakers and Krishna Chatterjee. CRC Press 2015. Pages 343 376. Print ISBN: 978-1-4822-5126-5. eBook ISBN: 978-1-4822-5127-2. DOI: 10.1201/b18810-23",
+        "20501692",
+        "19602558",
+        "22247018",
+        "16228000",
+        "21084748"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Short stature-delayed bone age due to thyroid hormone metabolism deficiency",
+        "Selenocysteine insertion sequence binding protein 2 (SBP2) defect",
+        "Abnormal thyroid hormone metabolism",
+        "Thyroid hormone metabolism, abnormal, 609698",
+        "THYROID HORMONE METABOLISM, ABNORMAL"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XPCT",
+          "MCT8",
+          "MCT7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10923",
+        "gene_name": "solute carrier family 16 member 2",
+        "omim_gene": [
+          "300095"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC16A2",
+        "hgnc_symbol": "SLC16A2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:73641085-73753752",
+              "ensembl_id": "ENSG00000147100"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:74421461-74533917",
+              "ensembl_id": "ENSG00000147100"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-04-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC16A2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24847459"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Allan-Herndon-Dudley syndrome, OMIM:300523"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PDS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8818",
+        "gene_name": "solute carrier family 26 member 4",
+        "omim_gene": [
+          "605646"
+        ],
+        "alias_name": [
+          "pendrin"
+        ],
+        "gene_symbol": "SLC26A4",
+        "hgnc_symbol": "SLC26A4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:107301080-107358254",
+              "ensembl_id": "ENSG00000091137"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:107660635-107717809",
+              "ensembl_id": "ENSG00000091137"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC26A4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9398842",
+        "11932316"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Other"
+      ],
+      "phenotypes": [
+        "Pendred syndrome, 274600 (congenital deafness and thyroid goitre)",
+        "Sensorineural deafness",
+        "enlarged vestibular aqueduct",
+        "Mondini defect",
+        "partial iodide organification defect",
+        "goitre",
+        "mild hypothyroidism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "treatable",
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SUT2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14467",
+        "gene_name": "solute carrier family 26 member 7",
+        "omim_gene": [
+          "608479"
+        ],
+        "alias_name": [
+          "Anion exchange transporter"
+        ],
+        "gene_symbol": "SLC26A7",
+        "hgnc_symbol": "SLC26A7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:92221722-92410378",
+              "ensembl_id": "ENSG00000147606"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:91209494-91398152",
+              "ensembl_id": "ENSG00000147606"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-01-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC26A7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29546359",
+        "30333321"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "East of England GLH"
+      ],
+      "phenotypes": [
+        "Primary congenital hypothyroidism (dyshormonogenesis)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NIS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11040",
+        "gene_name": "solute carrier family 5 member 5",
+        "omim_gene": [
+          "601843"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC5A5",
+        "hgnc_symbol": "SLC5A5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:17982782-18005983",
+              "ensembl_id": "ENSG00000105641"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:17871973-17895174",
+              "ensembl_id": "ENSG00000105641"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC5A5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9171822",
+        "16418213"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Thyroid dyshormonogenesis 1,  274400",
+        "HYPOTHYROIDISM, CONGENITAL, DUE TO DYSHORMONOGENESIS, 1",
+        "Apparent athyreosis on nuclear medicine scan",
+        "goitre",
+        "childhood onset hypothyroidism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EBI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11585",
+        "gene_name": "transducin beta like 1 X-linked",
+        "omim_gene": [
+          "300196"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TBL1X",
+        "hgnc_symbol": "TBL1X",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:9431335-9687780",
+              "ensembl_id": "ENSG00000101849"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:9463295-9719743",
+              "ensembl_id": "ENSG00000101849"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-05-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBL1X",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27603907",
+        "30591955"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "isolated mild-moderate central hypothyroidism",
+        "Hypothyroidism, congenital, nongoitrous, 8, 301033"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [
+        "missense"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TGN",
+          "AITD3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11764",
+        "gene_name": "thyroglobulin",
+        "omim_gene": [
+          "188450"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TG",
+        "hgnc_symbol": "TG",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:133879203-134147147",
+              "ensembl_id": "ENSG00000042832"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:132866958-133134903",
+              "ensembl_id": "ENSG00000042832"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "TG",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23164529",
+        "27525530 (Nicholas et al.,2016) identify a monogenic and polygenic basis of disease."
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Congenital hypothyroidism",
+        "Thyroid dyshormonogenesis 3,  274700",
+        "TDH3",
+        "low thyroglobulin, goitre"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EAR-7.1/EAR-7.2",
+          "THRA3",
+          "AR7",
+          "ERBA",
+          "NR1A1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11796",
+        "gene_name": "thyroid hormone receptor, alpha",
+        "omim_gene": [
+          "190120"
+        ],
+        "alias_name": null,
+        "gene_symbol": "THRA",
+        "hgnc_symbol": "THRA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:38214543-38250120",
+              "ensembl_id": "ENSG00000126351"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:40058290-40093867",
+              "ensembl_id": "ENSG00000126351"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "THRA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22168587",
+        "23940126",
+        "24847459",
+        "27381958",
+        "22168587",
+        "22494134",
+        "23940126",
+        "2567082",
+        "27144938"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Congenital hypothyroidism or thyroid agenesis",
+        "Hypothyroidism, Congenital, Nongoitrous, 6, 614450",
+        "Hypothyroidism, congenital, nongoitrous, 6, 614450",
+        "Resistance to thyroid hormone",
+        "skeletal dysplasia",
+        "growth retardation",
+        "macrocephaly",
+        "neurodevelopmental delay",
+        "constipation",
+        "delayed dentition",
+        "macrocytic anaemia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "THRB1",
+          "THRB2",
+          "NR1A2",
+          "THR1",
+          "ERBA-BETA",
+          "GRTH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11799",
+        "gene_name": "thyroid hormone receptor beta",
+        "omim_gene": [
+          "190160"
+        ],
+        "alias_name": [
+          "avian erythroblastic leukemia viral (v-erb-a) oncogene homolog 2",
+          "oncogene ERBA2",
+          "generalized resistance to thyroid hormone",
+          "thyroid hormone receptor beta 1"
+        ],
+        "gene_symbol": "THRB",
+        "hgnc_symbol": "THRB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:24158651-24536773",
+              "ensembl_id": "ENSG00000151090"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:24117160-24495282",
+              "ensembl_id": "ENSG00000151090"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-08-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "THRB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24847459"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Resistance to thyroid hormone (RTH)",
+        "THYROID HORMONE UNRESPONSIVENESS",
+        "145650",
+        "REFETOFF SYNDROME",
+        "PRTH",
+        "Thyroid hormone resistance, autosomal recessive, 274300",
+        "Refetoff syndrome",
+        "THYROID HORMONE RESISTANCE, SELECTIVE PITUITARY",
+        "thyroid hormone unresponsiveness, generalized RTH, RTH beta",
+        "Thyroid hormone resistance, 188570",
+        "THYROID HORMONE RESISTANCE, GENERALIZED, AUTOSOMAL DOMINANT",
+        "THYROID HORMONE RESISTANCE, GENERALIZED, AUTOSOMAL RECESSIVE",
+        "Thyroid Hormone Resistance (monoallelic)",
+        "Thyroid hormone resistance, selective pituitary, 145650",
+        "HYPERTHYROIDISM, FAMILIAL, DUE TO INAPPROPRIATE THYROTROPIN SECRETION",
+        "GRTH",
+        "Thyroid Hormone Resistance, Selective Pituitary",
+        "THYROID HORMONE UNRESPONSIVENESS HYPERTHYROXINEMIA, FAMILIAL EUTHYROID, SECONDARY TO PITUITARY AND PERIPHERAL RESISTANCE TO THYROID HORMONES"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TPX"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12015",
+        "gene_name": "thyroid peroxidase",
+        "omim_gene": [
+          "606765"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TPO",
+        "hgnc_symbol": "TPO",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:1377995-1547483",
+              "ensembl_id": "ENSG00000115705"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:1374223-1543711",
+              "ensembl_id": "ENSG00000115705"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TPO",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12938097",
+        "8027236",
+        "8964831",
+        "11061528",
+        "27525530 (Nicholas et al.,2016) identify a monogenic basis of disease",
+        "27166716",
+        "39890415"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Thyroid dyshormonogenesis 2A, OMIM:274500"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12299",
+        "gene_name": "thyrotropin releasing hormone receptor",
+        "omim_gene": [
+          "188545"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRHR",
+        "hgnc_symbol": "TRHR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:110098850-110131813",
+              "ensembl_id": "ENSG00000174417"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:109086621-109119584",
+              "ensembl_id": "ENSG00000174417"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRHR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 9141550",
+        "PMID: 19213692"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "mild-moderate isolated central hypothyroidism",
+        "absent TSH and prolactin response to TRH",
+        "Thyrotropin-releasing hormone resistance, generalized"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12372",
+        "gene_name": "thyroid stimulating hormone beta",
+        "omim_gene": [
+          "188540"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TSHB",
+        "hgnc_symbol": "TSHB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:115572415-115576941",
+              "ensembl_id": "ENSG00000134200"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:115029824-115034309",
+              "ensembl_id": "ENSG00000134200"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "TSHB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "2792087",
+        "27362444"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Congenital hypothyroidism",
+        "Hypothryoidism, congenital, nongoitrous 4, 275100",
+        "severe isolated central hypothyroidism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LGR3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12373",
+        "gene_name": "thyroid stimulating hormone receptor",
+        "omim_gene": [
+          "603372"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TSHR",
+        "hgnc_symbol": "TSHR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:81421333-81612646",
+              "ensembl_id": "ENSG00000165409"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:80954989-81146302",
+              "ensembl_id": "ENSG00000165409"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "TSHR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "7528344",
+        "22876533",
+        "PMID:17526952 (Kanda et al., 2006) examine Japanese patients homozygous and heterozygous for the R450H mutation in the TSHR gene. Homozygous subjects displayed mild hypothyroidism/ Heterozygous patients also demonstrated hypothyroidism, but less severe than that of homozygous subjects.",
+        "PMID:14725684 (Park et al. 2004) suggest that heterozygosity for an inactivating TSHR mutation may be associated with compensated hypothyroidism and thyroid hypoplasia",
+        "16060907 (Camilot et al., 2005 report subclinical hypothyroid subjects with heterozygous substitutions",
+        "27525530 (Nicholas et al.,2016) identify a monogenic basis of disease."
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Congenital hypothyroidism",
+        "Hypothyroidism, Congenital, Nongoitrous, 1, 275200",
+        "Hypothyroidism, congenital, nongoitrous, 1 275200",
+        "TSH resistance",
+        "thyroid hypoplasia",
+        "subclinical hypothyroidism",
+        "thyroid dysgenesis",
+        "eutopic gland-in-situ",
+        "compensated hypothryoidism"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ12042",
+          "MESRGP",
+          "BOR",
+          "DasraB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14629",
+        "gene_name": "cell division cycle associated 8",
+        "omim_gene": [
+          "609977"
+        ],
+        "alias_name": [
+          "borealin"
+        ],
+        "gene_symbol": "CDCA8",
+        "hgnc_symbol": "CDCA8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:38158090-38175391",
+              "ensembl_id": "ENSG00000134690"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:37692418-37709719",
+              "ensembl_id": "ENSG00000134690"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-04-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDCA8",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "28025328",
+        "29546359"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Expert Review",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Congenital hypothyroidism",
+        "thyroid dysgenesis",
+        "No OMIM number"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CSX1",
+          "NKX2.5",
+          "NKX4-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2488",
+        "gene_name": "NK2 homeobox 5",
+        "omim_gene": [
+          "600584"
+        ],
+        "alias_name": [
+          "tinman paralog (Drosophila)"
+        ],
+        "gene_symbol": "NKX2-5",
+        "hgnc_symbol": "NKX2-5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:172659112-172662360",
+              "ensembl_id": "ENSG00000183072"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:173232109-173235357",
+              "ensembl_id": "ENSG00000183072"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-10-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "NKX2-5",
+      "confidence_level": "2",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "16418214"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Radboud University Medical Center, Nijmegen",
+        "Other"
+      ],
+      "phenotypes": [
+        "Hypothyroidism, congenital nongoitrous, 5, 225250",
+        "thyrioid ectopy, thyroid agenesis, congenital heart disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dJ543J19.4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16257",
+        "gene_name": "tubulin beta 1 class VI",
+        "omim_gene": [
+          "612901"
+        ],
+        "alias_name": [
+          "class VI beta-tubulin"
+        ],
+        "gene_symbol": "TUBB1",
+        "hgnc_symbol": "TUBB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:57594309-57601709",
+              "ensembl_id": "ENSG00000101162"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:59019254-59026654",
+              "ensembl_id": "ENSG00000101162"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUBB1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30446499"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "East of England GLH"
+      ],
+      "phenotypes": [
+        "Primary congenital hypothyroidism, thyroid dysgenesis, macroplatelets"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RPB3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9189",
+        "gene_name": "RNA polymerase II subunit C",
+        "omim_gene": [
+          "180663"
+        ],
+        "alias_name": [
+          "RNA polymerase II subunit 3"
+        ],
+        "gene_symbol": "POLR2C",
+        "hgnc_symbol": "POLR2C",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:57496299-57505922",
+              "ensembl_id": "ENSG00000102978"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:57462387-57472010",
+              "ensembl_id": "ENSG00000102978"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "POLR2C",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34794894",
+        "29367954"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "hypothyroidism, MONDO:0005420"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11199",
+        "gene_name": "SRY-box 3",
+        "omim_gene": [
+          "313430"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOX3",
+        "hgnc_symbol": "SOX3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:139585152-139587225",
+              "ensembl_id": "ENSG00000134595"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:140502985-140505116",
+              "ensembl_id": "ENSG00000134595"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOX3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12428212",
+        "15800844",
+        "26416826 (2015 review)"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Mental retardation, X-linked, with isolated growth hormone deficiency, OMIM:300123",
+        "Intellectual disability, X-linked, with panhypopituitarism, MONDO:0010252",
+        "Panhypopituitarism, X-linked, OMIM:312000",
+        "Panhypopituitarism, X-linked, MONDO:0010712"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": [
+    {
+      "gene_data": null,
+      "entity_type": "region",
+      "entity_name": "ISCA-37478-Loss",
+      "verbose_name": "15q11q13 recurrent (PWS/AS) region (BP2-BP3, Class 2) Loss",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "haploinsufficiency_score": "3",
+      "triplosensitivity_score": "",
+      "required_overlap_percentage": 60,
+      "type_of_variants": "cnv_loss",
+      "publications": [
+        "22045295",
+        "7611294"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "microcephaly",
+        "Developmental delay, muscle weakness",
+        "Mental retardation",
+        "Angelman syndrome",
+        "176270",
+        "Prader-Willi syndrome",
+        "105830"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "chromosome": "15",
+      "grch37_coordinates": null,
+      "grch38_coordinates": [
+        23465365,
+        28134728
+      ],
+      "tags": []
+    },
+    {
+      "gene_data": null,
+      "entity_type": "region",
+      "entity_name": "ISCA-37404-Loss",
+      "verbose_name": "15q11q13 recurrent (PWS/AS) region (BP1-BP3, Class 1) Loss",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "haploinsufficiency_score": "3",
+      "triplosensitivity_score": "",
+      "required_overlap_percentage": 60,
+      "type_of_variants": "cnv_loss",
+      "publications": [
+        "22045295",
+        "7611294"
+      ],
+      "evidence": [
+        "Expert Review Removed",
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "microcephaly",
+        "105834",
+        "Developmental delay, muscle weakness",
+        "Mental retardation",
+        "Angelman syndrome",
+        "176270",
+        "Prader-Willi syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "chromosome": "15",
+      "grch37_coordinates": null,
+      "grch38_coordinates": [
+        22782170,
+        28134728
+      ],
+      "tags": [
+        "curated_removed"
+      ]
+    },
+    {
+      "gene_data": null,
+      "entity_type": "region",
+      "entity_name": "STRTS",
+      "verbose_name": "Short tandem repeat, Thyroid-specific",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "haploinsufficiency_score": "0",
+      "triplosensitivity_score": "0",
+      "required_overlap_percentage": 0,
+      "type_of_variants": "small",
+      "publications": [
+        "38714869",
+        "38714868",
+        "15870119"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Congenital hypothyroidism",
+        "Small thyroid (in children)",
+        "Multinodular goitre (with age, if untreated)",
+        "Elevated serum TSH"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "chromosome": "15",
+      "grch37_coordinates": [
+        89112665,
+        89112680
+      ],
+      "grch38_coordinates": [
+        88569434,
+        88569449
+      ],
+      "tags": [
+        "curated_removed"
+      ]
+    }
+  ]
+}

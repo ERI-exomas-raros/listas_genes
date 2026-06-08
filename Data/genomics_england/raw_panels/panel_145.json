@@ -1,0 +1,1325 @@
+{
+  "id": 145,
+  "hash_id": "55bf785822c1fc0fe45530bf",
+  "name": "Congenital adrenal hypoplasia",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "5.4",
+  "version_created": "2026-05-13T16:09:12.383904Z",
+  "relevant_disorders": [
+    "R150"
+  ],
+  "stats": {
+    "number_of_genes": 23,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13666",
+        "gene_name": "aladin WD repeat nucleoporin",
+        "omim_gene": [
+          "605378"
+        ],
+        "alias_name": [
+          "aladin",
+          "Allgrove, triple-A",
+          "adracalin"
+        ],
+        "gene_symbol": "AAAS",
+        "hgnc_symbol": "AAAS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:53701240-53718648",
+              "ensembl_id": "ENSG00000094914"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:53307456-53324864",
+              "ensembl_id": "ENSG00000094914"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-11-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "AAAS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Achalasia-addisonianism-alacrimia syndrome, OMIM:231550",
+        "Triple-A syndrome, MONDO:0009279"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AMN",
+          "ALDP",
+          "adrenoleukodystrophy"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:61",
+        "gene_name": "ATP binding cassette subfamily D member 1",
+        "omim_gene": [
+          "300371"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ABCD1",
+        "hgnc_symbol": "ABCD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:152990323-153010216",
+              "ensembl_id": "ENSG00000101986"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:153724868-153744762",
+              "ensembl_id": "ENSG00000101986"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCD1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20301491"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Adrenoleukodystrophy, OMIM:300100",
+        "Adrenoleukodystrophy, adult, OMIM:300100"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [
+        "gene-therapy-trial"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PGA1",
+          "APS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:360",
+        "gene_name": "autoimmune regulator",
+        "omim_gene": [
+          "607358"
+        ],
+        "alias_name": [
+          "autoimmune polyendocrinopathy candidiasis ectodermal dystrophy"
+        ],
+        "gene_symbol": "AIRE",
+        "hgnc_symbol": "AIRE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:45705721-45718531",
+              "ensembl_id": "ENSG00000160224"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:44285838-44298648",
+              "ensembl_id": "ENSG00000160224"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-09-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "AIRE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia, OMIM:240300",
+        "autoimmune polyendocrine syndrome type 1, MONDO:0009411"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P57",
+          "KIP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1786",
+        "gene_name": "cyclin dependent kinase inhibitor 1C",
+        "omim_gene": [
+          "600856"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDKN1C",
+        "hgnc_symbol": "CDKN1C",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:2904443-2907111",
+              "ensembl_id": "ENSG00000129757"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:2883213-2885881",
+              "ensembl_id": "ENSG00000129757"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDKN1C",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "22634751"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Intrauterine Growth Retardation, Metaphyseal Dysplasia, Adrenal Hypoplasia Congenita, and Genital Anomalies (IMAGe syndrome), 614732"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, paternally imprinted (maternal allele expressed)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P450SCC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2590",
+        "gene_name": "cytochrome P450 family 11 subfamily A member 1",
+        "omim_gene": [
+          "118485"
+        ],
+        "alias_name": [
+          "cholesterol monooxygenase (side-chain-cleaving)"
+        ],
+        "gene_symbol": "CYP11A1",
+        "hgnc_symbol": "CYP11A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:74630100-74660081",
+              "ensembl_id": "ENSG00000140459"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:74337759-74367740",
+              "ensembl_id": "ENSG00000140459"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-01-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYP11A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11502818",
+        "29995203",
+        "31671693",
+        "30620006",
+        "35418949",
+        "39457196",
+        "12161514",
+        "15507506",
+        "16705068",
+        "18182448",
+        "19116240"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "drenal insufficiency, congenital, with 46XY sex reversal, partial or complete, OMIM: 613743",
+        "Congenital adrenal insufficiency with 46, XY sex reversal OR 46,XY disorder of sex development-adrenal insufficiency due to CYP11A1 deficiency, MONDO:0013400"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q1_26_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CYP11BL",
+          "CPN2",
+          "P-450C18",
+          "P450aldo",
+          "ALDOS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2592",
+        "gene_name": "cytochrome P450 family 11 subfamily B member 2",
+        "omim_gene": [
+          "124080"
+        ],
+        "alias_name": [
+          "steroid 11-beta-monooxygenase"
+        ],
+        "gene_symbol": "CYP11B2",
+        "hgnc_symbol": "CYP11B2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:143991975-143999259",
+              "ensembl_id": "ENSG00000179142"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:142910559-142917843",
+              "ensembl_id": "ENSG00000179142"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYP11B2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "1594605",
+        "8439335",
+        "9360501",
+        "12788848",
+        "31302112",
+        "33098647",
+        "33438832",
+        "34415991",
+        "35848593"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypoaldosteronism, congenital, due to CMO I deficiency, OMIM:203400",
+        "Hypoaldosteronism, congenital, due to CMO II deficiency, OMIM:610600",
+        "Aldosterone to renin ratio raised"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ACTHR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6930",
+        "gene_name": "melanocortin 2 receptor",
+        "omim_gene": [
+          "607397"
+        ],
+        "alias_name": [
+          "adrenocorticotropic hormone receptor"
+        ],
+        "gene_symbol": "MC2R",
+        "hgnc_symbol": "MC2R",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:13882043-13915706",
+              "ensembl_id": "ENSG00000185231"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:13882044-13915707",
+              "ensembl_id": "ENSG00000185231"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "MC2R",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ideopathic Primary Adrenal Failure",
+        "Congenital Adrenal Hypoplasia",
+        "Glucocorticoid deficiency, due to ACTH unresponsiveness \t202200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B27",
+          "FALP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1304",
+        "gene_name": "melanocortin 2 receptor accessory protein",
+        "omim_gene": [
+          "609196"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MRAP",
+        "hgnc_symbol": "MRAP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:33664124-33687095",
+              "ensembl_id": "ENSG00000170262"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:32291813-32314784",
+              "ensembl_id": "ENSG00000170262"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "MRAP",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ideopathic Primary Adrenal Failure",
+        "Congenital Adrenal Hypoplasia",
+        "Glucocorticoid deficiency 2 \t607398"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7863",
+        "gene_name": "nicotinamide nucleotide transhydrogenase",
+        "omim_gene": [
+          "607878"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NNT",
+        "hgnc_symbol": "NNT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:43602794-43707507",
+              "ensembl_id": "ENSG00000112992"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:43602692-43707405",
+              "ensembl_id": "ENSG00000112992"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-11-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "NNT",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26548497",
+        "23474776"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ideopathic Primary Adrenal Failure",
+        "Congenital Adrenal Hypoplasia",
+        "Glucocorticoid deficiency 4, with or without mineralocorticoid deficiency 614736"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DAX1",
+          "AHCH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7960",
+        "gene_name": "nuclear receptor subfamily 0 group B member 1",
+        "omim_gene": [
+          "300473"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NR0B1",
+        "hgnc_symbol": "NR0B1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:30322323-30327715",
+              "ensembl_id": "ENSG00000169297"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:30304206-30309598",
+              "ensembl_id": "ENSG00000169297"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "NR0B1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "7990958",
+        "26303087",
+        "19320032",
+        "19320031",
+        "19320029",
+        "19320028",
+        "19309798"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Expert list",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "46XY sex reversal 2, dosage-sensitive, 300018",
+        "Adrenal hypoplasia, congenital, with hypogonadotropic hypogonadism, 300200",
+        "Adrenal Hypoplasia, Congenital",
+        "AHC",
+        "Ideopathic Primary Adrenal Failure",
+        "Congenital Adrenal Hypoplasia",
+        "males with combined glucocorticoid and mineralocorticoid insufficiency with a family history consistent with an X-linked disorder"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FTZ1",
+          "SF-1",
+          "ELP",
+          "AD4BP",
+          "hSF-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7983",
+        "gene_name": "nuclear receptor subfamily 5 group A member 1",
+        "omim_gene": [
+          "184757"
+        ],
+        "alias_name": [
+          "steroidogenic factor 1"
+        ],
+        "gene_symbol": "NR5A1",
+        "hgnc_symbol": "NR5A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:127243516-127269709",
+              "ensembl_id": "ENSG00000136931"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:124481236-124507430",
+              "ensembl_id": "ENSG00000136931"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-06-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "NR5A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ideopathic Primary Adrenal Failure",
+        "Congenital Adrenal Hypoplasia"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "POLE1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9177",
+        "gene_name": "DNA polymerase epsilon, catalytic subunit",
+        "omim_gene": [
+          "174762"
+        ],
+        "alias_name": [
+          "DNA polymerase epsilon catalytic subunit A"
+        ],
+        "gene_symbol": "POLE",
+        "hgnc_symbol": "POLE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:133200348-133263951",
+              "ensembl_id": "ENSG00000177084"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:132623753-132687365",
+              "ensembl_id": "ENSG00000177084"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "POLE",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "14760276",
+        "30503519"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "IMAGE-I syndrome, OMIM:618336"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA2004",
+          "FLJ20073"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1348",
+        "gene_name": "sterile alpha motif domain containing 9",
+        "omim_gene": [
+          "610456"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SAMD9",
+        "hgnc_symbol": "SAMD9",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:92728829-92747336",
+              "ensembl_id": "ENSG00000205413"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:93099513-93118023",
+              "ensembl_id": "ENSG00000205413"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SAMD9",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "27182967"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "MIRAGE syndrome, 617053"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "missense"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SPL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10817",
+        "gene_name": "sphingosine-1-phosphate lyase 1",
+        "omim_gene": [
+          "603729"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SGPL1",
+        "hgnc_symbol": "SGPL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:72575717-72640930",
+              "ensembl_id": "ENSG00000166224"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:70815961-70881173",
+              "ensembl_id": "ENSG00000166224"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-02-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "SGPL1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28165343",
+        "28165339"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Adrenal insufficiency",
+        "steroid resistant nephrotic syndrome",
+        "neurological deficit",
+        "ichthyosis"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "StAR",
+          "STARD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11359",
+        "gene_name": "steroidogenic acute regulatory protein",
+        "omim_gene": [
+          "600617"
+        ],
+        "alias_name": [
+          "StAR related lipid transfer (START) domain containing 1"
+        ],
+        "gene_symbol": "STAR",
+        "hgnc_symbol": "STAR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:38001167-38008783",
+              "ensembl_id": "ENSG00000147465"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:38143649-38151265",
+              "ensembl_id": "ENSG00000147465"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-04-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "STAR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ideopathic Primary Adrenal Failure",
+        "Congenital Adrenal Hypoplasia",
+        "Lipoid adrenal hyperplasia, 201710"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "dj747L4.1",
+          "TPIT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11596",
+        "gene_name": "T-box 19",
+        "omim_gene": [
+          "604614"
+        ],
+        "alias_name": [
+          "TBS 19"
+        ],
+        "gene_symbol": "TBX19",
+        "hgnc_symbol": "TBX19",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:168250278-168283664",
+              "ensembl_id": "ENSG00000143178"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:168281040-168314426",
+              "ensembl_id": "ENSG00000143178"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-02-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBX19",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16390921 (TPIT)",
+        "15613420 (TPIT)",
+        "15525497 (TPIT)"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Isolated ACTH insufficiency",
+        "Adrenocorticotropic hormone deficiency \t201400"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDC54",
+          "hCdc21",
+          "P1-Cdc21",
+          "MGC33310"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6947",
+        "gene_name": "minichromosome maintenance complex component 4",
+        "omim_gene": [
+          "602638"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MCM4",
+        "hgnc_symbol": "MCM4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:48872745-48890720",
+              "ensembl_id": "ENSG00000104738"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:47960185-47978160",
+              "ensembl_id": "ENSG00000104738"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "MCM4",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22354167",
+        "22354170"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ideopathic Primary Adrenal Failure",
+        "Congenital Adrenal Hypoplasia",
+        "autosomal recessive growth retardation, adrenal insufficiency, and a selective NK cell deficiency"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [
+        "founder-effect"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TR",
+          "TRXR2",
+          "TR3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18155",
+        "gene_name": "thioredoxin reductase 2",
+        "omim_gene": [
+          "606448"
+        ],
+        "alias_name": [
+          "thioredoxin reductase beta",
+          "selenoprotein Z"
+        ],
+        "gene_symbol": "TXNRD2",
+        "hgnc_symbol": "TXNRD2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:19863040-19929341",
+              "ensembl_id": "ENSG00000184470"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:19875517-19941992",
+              "ensembl_id": "ENSG00000184470"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-02-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "TXNRD2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24601690",
+        "30237576",
+        "38011841",
+        "39097530",
+        "40726908"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "?Glucocorticoid deficiency 5 , OMIM:617825",
+        "glucocorticoid deficiency 5, MONDO:0040502"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_promote_green"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P450C17",
+          "CPT7",
+          "S17AH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2593",
+        "gene_name": "cytochrome P450 family 17 subfamily A member 1",
+        "omim_gene": [
+          "609300"
+        ],
+        "alias_name": [
+          "Steroid 17-alpha-monooxygenase"
+        ],
+        "gene_symbol": "CYP17A1",
+        "hgnc_symbol": "CYP17A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:104590288-104597290",
+              "ensembl_id": "ENSG00000148795"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:102830531-102837533",
+              "ensembl_id": "ENSG00000148795"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-02-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYP17A1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24593890 (article in Spanish)"
+      ],
+      "evidence": [
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Adrenal Hyperplasia, Congenital, Due To 17-Alpha-Hydroxylase Deficiency",
+        "hypergonadotropic hypogonadism, adrenal insufficiency and mineralocorticoid excess"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P450c21B",
+          "CA21H",
+          "CPS1",
+          "CAH1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2600",
+        "gene_name": "cytochrome P450 family 21 subfamily A member 2",
+        "omim_gene": [
+          "613815"
+        ],
+        "alias_name": [
+          "Steroid 21-monooxygenase"
+        ],
+        "gene_symbol": "CYP21A2",
+        "hgnc_symbol": "CYP21A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:32006042-32009447",
+              "ensembl_id": "ENSG00000231852"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:32038265-32041670",
+              "ensembl_id": "ENSG00000231852"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYP21A2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Adrenal Hyperplasia, Congenital, Due To 21-Hydroxylase Deficiency"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SDR11E2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5218",
+        "gene_name": "hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 2",
+        "omim_gene": [
+          "613890"
+        ],
+        "alias_name": [
+          "short chain dehydrogenase/reductase family 11E, member 2"
+        ],
+        "gene_symbol": "HSD3B2",
+        "hgnc_symbol": "HSD3B2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:119957554-119965658",
+              "ensembl_id": "ENSG00000203859"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:119414931-119423035",
+              "ensembl_id": "ENSG00000203859"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "HSD3B2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Adrenal hyperplasia, Congenital, Due To 3-beta-Hydroxysteroid Dehydrogenase Deficiency type 2 with or without salt-loss",
+        "variabe effects on sex steroid synthesis",
+        "Adrenal hyperplasia, congenital, due to 3-beta-hydroxysteroid dehydrogenase 2 deficiency 201810"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0601",
+          "BHC110",
+          "LSD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29079",
+        "gene_name": "lysine demethylase 1A",
+        "omim_gene": [
+          "609132"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KDM1A",
+        "hgnc_symbol": "KDM1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:23345941-23410182",
+              "ensembl_id": "ENSG00000004487"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:23019448-23083689",
+              "ensembl_id": "ENSG00000004487"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-09-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "KDM1A",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34906447"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Cleft palate, psychomotor retardation, and distinctive facial features, OMIM:616728",
+        "congenital adrenal hyperplasia, MONDO:0018479"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MSH",
+          "POC",
+          "CLIP",
+          "ACTH",
+          "NPP",
+          "LPH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9201",
+        "gene_name": "proopiomelanocortin",
+        "omim_gene": [
+          "176830"
+        ],
+        "alias_name": [
+          "adrenocorticotropin",
+          "beta-lipotropin",
+          "alpha-melanocyte stimulating hormone",
+          "beta-melanocyte stimulating hormone",
+          "beta-endorphin",
+          "adrenocorticotropic hormone",
+          "opiomelanocortin prepropeptide"
+        ],
+        "gene_symbol": "POMC",
+        "hgnc_symbol": "POMC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:25383722-25391772",
+              "ensembl_id": "ENSG00000115138"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:25160853-25168903",
+              "ensembl_id": "ENSG00000115138"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "POMC",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Obesity, adrenal insufficiency, and red hair due to POMC deficiency, 609734",
+        "{Obesity, early-onset, susceptibility to}, 601665"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

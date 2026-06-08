@@ -1,0 +1,1011 @@
+{
+  "id": 157,
+  "hash_id": "58c7fba38f6203345887d4f5",
+  "name": "Hereditary Erythrocytosis",
+  "disease_group": "Haematology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.1",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R405"
+  ],
+  "stats": {
+    "number_of_genes": 17,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1093",
+        "gene_name": "bisphosphoglycerate mutase",
+        "omim_gene": [
+          "613896"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BPGM",
+        "hgnc_symbol": "BPGM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:134331560-134364565",
+              "ensembl_id": "ENSG00000172331"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:134646808-134679813",
+              "ensembl_id": "ENSG00000172331"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "BPGM",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "1421379",
+        "15054810",
+        "25015942",
+        "27651169",
+        "29790589",
+        "33216349"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Erythrocytosis, familial, 8, OMIM:222800"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SM-20",
+          "PHD2",
+          "ZMYND6",
+          "HIFPH2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1232",
+        "gene_name": "egl-9 family hypoxia inducible factor 1",
+        "omim_gene": [
+          "606425"
+        ],
+        "alias_name": [
+          "HIF prolyl hydroxylase 2"
+        ],
+        "gene_symbol": "EGLN1",
+        "hgnc_symbol": "EGLN1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:231499497-231560790",
+              "ensembl_id": "ENSG00000135766"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:231363751-231425044",
+              "ensembl_id": "ENSG00000135766"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "EGLN1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27651169",
+        "27774468",
+        "23869443",
+        "19092153",
+        "16407130",
+        "17579185"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Other"
+      ],
+      "phenotypes": [
+        "Erythrocytosis, familial, 3, OMIM:609820"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MOP2",
+          "PASD2",
+          "HIF2A",
+          "HLF",
+          "bHLHe73"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3374",
+        "gene_name": "endothelial PAS domain protein 1",
+        "omim_gene": [
+          "603349"
+        ],
+        "alias_name": [
+          "HIF-1 alpha-like factor"
+        ],
+        "gene_symbol": "EPAS1",
+        "hgnc_symbol": "EPAS1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:46520806-46613836",
+              "ensembl_id": "ENSG00000116016"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:46293667-46386703",
+              "ensembl_id": "ENSG00000116016"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-05-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "EPAS1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "27651169",
+        "27774468",
+        "22367913",
+        "18650473",
+        "18184961",
+        "18378852"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Other"
+      ],
+      "phenotypes": [
+        "Erythrocytosis, familial, 4, OMIM:611783"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3415",
+        "gene_name": "erythropoietin",
+        "omim_gene": [
+          "133170"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EPO",
+        "hgnc_symbol": "EPO",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:100318423-100321323",
+              "ensembl_id": "ENSG00000130427"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:100720800-100723700",
+              "ensembl_id": "ENSG00000130427"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "EPO",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27651169"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Erythrocytosis, familial, 5, OMIM:617907"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3416",
+        "gene_name": "erythropoietin receptor",
+        "omim_gene": [
+          "133171"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EPOR",
+        "hgnc_symbol": "EPOR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:11488236-11495018",
+              "ensembl_id": "ENSG00000187266"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:11377205-11384342",
+              "ensembl_id": "ENSG00000187266"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-05-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "EPOR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27774468",
+        "23859443",
+        "18492694",
+        "8506290",
+        "11929803"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Other"
+      ],
+      "phenotypes": [
+        "[Erythrocytosis, familial, 1], OMIM:133100"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HBA-T3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4823",
+        "gene_name": "hemoglobin subunit alpha 1",
+        "omim_gene": [
+          "141800"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HBA1",
+        "hgnc_symbol": "HBA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:226679-227521",
+              "ensembl_id": "ENSG00000206172"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:176680-177522",
+              "ensembl_id": "ENSG00000206172"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HBA1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22274579",
+        "26852627",
+        "27240426",
+        "25669128",
+        "19734427",
+        "23388674",
+        "15921161"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Erythrocytosis 7, OMIM:617981"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HBA-T2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4824",
+        "gene_name": "hemoglobin subunit alpha 2",
+        "omim_gene": [
+          "141850"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HBA2",
+        "hgnc_symbol": "HBA2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:222846-223709",
+              "ensembl_id": "ENSG00000188536"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:172847-173710",
+              "ensembl_id": "ENSG00000188536"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HBA2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26852627",
+        "27240426",
+        "25669128",
+        "2227935",
+        "11186265",
+        "1988759",
+        "1592116",
+        "19734427",
+        "23388674"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Erythrocytosis 7, OMIM:617981"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD113t-C",
+          "beta-globin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4827",
+        "gene_name": "hemoglobin subunit beta",
+        "omim_gene": [
+          "141900"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HBB",
+        "hgnc_symbol": "HBB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:5246694-5250625",
+              "ensembl_id": "ENSG00000244734"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:5225464-5229395",
+              "ensembl_id": "ENSG00000244734"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HBB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28332377",
+        "24115288",
+        "23215953",
+        "24482100",
+        "20642336",
+        "19734427",
+        "23388674",
+        "15921161"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Erythrocytosis 6, OMIM:617980"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "gene-therapy-trial"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JTK10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6192",
+        "gene_name": "Janus kinase 2",
+        "omim_gene": [
+          "147796"
+        ],
+        "alias_name": null,
+        "gene_symbol": "JAK2",
+        "hgnc_symbol": "JAK2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:4985033-5128183",
+              "ensembl_id": "ENSG00000096968"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:4984390-5128183",
+              "ensembl_id": "ENSG00000096968"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "JAK2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "38629639",
+        "37639050",
+        "27389715"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Hereditary erythrocytosis",
+        "Erythrocytosis, somatic, OMIM:133100"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "somatic"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp547M236",
+          "ZnT-10",
+          "ZRC1",
+          "ZNT8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25355",
+        "gene_name": "solute carrier family 30 member 10",
+        "omim_gene": [
+          "611146"
+        ],
+        "alias_name": [
+          "zinc transporter 8"
+        ],
+        "gene_symbol": "SLC30A10",
+        "hgnc_symbol": "SLC30A10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:219858769-220131989",
+              "ensembl_id": "ENSG00000196660"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:219685427-219958647",
+              "ensembl_id": "ENSG00000196660"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-09-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC30A10",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "22341971",
+        "22341972",
+        "22926781",
+        "22934317",
+        "29193034",
+        "29179235",
+        "31288771",
+        "32866815",
+        "34849276",
+        "34877518"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypermanganesemia with dystonia 1, OMIM:613280",
+        "Dystonia/Parkinsonism, Hypermanganesemia, Polycythemia, and Chronic Liver Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VHL1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12687",
+        "gene_name": "von Hippel-Lindau tumor suppressor",
+        "omim_gene": [
+          "608537"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VHL",
+        "hgnc_symbol": "VHL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:10182692-10193904",
+              "ensembl_id": "ENSG00000134086"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:10141008-10152220",
+              "ensembl_id": "ENSG00000134086"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "VHL",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27651169",
+        "27774468",
+        "23859443",
+        "12415268",
+        "16210343",
+        "14726398",
+        "21454469"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Other"
+      ],
+      "phenotypes": [
+        "Erythrocytosis, familial, 2, OMIM:263400"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0233"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28993",
+        "gene_name": "piezo type mechanosensitive ion channel component 1",
+        "omim_gene": [
+          "611184"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PIEZO1",
+        "hgnc_symbol": "PIEZO1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:88781751-88851619",
+              "ensembl_id": "ENSG00000103335"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:88715343-88785211",
+              "ensembl_id": "ENSG00000103335"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-08-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIEZO1",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "33181827",
+        "31298594",
+        "30655378"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Dehydrated hereditary stomatocytosis with or without pseudohyperkalemia and/or perinatal edema, OMIM:194380",
+        "Erythrocytosis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LNK",
+          "IDDM20"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29605",
+        "gene_name": "SH2B adaptor protein 3",
+        "omim_gene": [
+          "605093"
+        ],
+        "alias_name": [
+          "lymphocyte adaptor protein"
+        ],
+        "gene_symbol": "SH2B3",
+        "hgnc_symbol": "SH2B3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:111843752-111889427",
+              "ensembl_id": "ENSG00000111252"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:111405948-111451623",
+              "ensembl_id": "ENSG00000111252"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "SH2B3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23812944",
+        "23908464",
+        "20843259",
+        "24092923",
+        "34440325",
+        "34021251",
+        "38024597",
+        "37981895",
+        "39316992"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Erythrocytosis, somatic, OMIM:133100",
+        "Myelofibrosis, somatic, OMIM:254450",
+        "Thrombocythemia, somatic, OMIM:187950"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "somatic"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PHD1",
+          "HIFPH1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14660",
+        "gene_name": "egl-9 family hypoxia inducible factor 2",
+        "omim_gene": [
+          "606424"
+        ],
+        "alias_name": [
+          "HIF prolyl hydroxylase 1"
+        ],
+        "gene_symbol": "EGLN2",
+        "hgnc_symbol": "EGLN2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:41304901-41314338",
+              "ensembl_id": "ENSG00000269858"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:40798996-40808433",
+              "ensembl_id": "ENSG00000269858"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "EGLN2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22274579"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Familial erythrocytosis"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PHD3",
+          "HIFPH3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14661",
+        "gene_name": "egl-9 family hypoxia inducible factor 3",
+        "omim_gene": [
+          "606426"
+        ],
+        "alias_name": [
+          "HIF prolyl hydroxylase 3"
+        ],
+        "gene_symbol": "EGLN3",
+        "hgnc_symbol": "EGLN3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:34393437-34931980",
+              "ensembl_id": "ENSG00000129521"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:33924231-34462774",
+              "ensembl_id": "ENSG00000129521"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "EGLN3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22274579"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Familial erythrocytosis"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MOP1",
+          "HIF-1alpha",
+          "PASD8",
+          "HIF1",
+          "bHLHe78"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4910",
+        "gene_name": "hypoxia inducible factor 1 alpha subunit",
+        "omim_gene": [
+          "603348"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HIF1A",
+        "hgnc_symbol": "HIF1A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:62162231-62214976",
+              "ensembl_id": "ENSG00000100644"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:61695513-61748259",
+              "ensembl_id": "ENSG00000100644"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-03-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "HIF1A",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22274579"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Familial erythrocytosis"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9020",
+        "gene_name": "pyruvate kinase L/R",
+        "omim_gene": [
+          "609712"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PKLR",
+        "hgnc_symbol": "PKLR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:155259630-155271225",
+              "ensembl_id": "ENSG00000143627"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:155289839-155301434",
+              "ensembl_id": "ENSG00000143627"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PKLR",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22274579",
+        "9090535",
+        "4160306",
+        "14300761",
+        "7426754"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Adenosine triphosphate, elevated, of erythrocytes, OMIM:102900"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

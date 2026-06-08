@@ -1,0 +1,2462 @@
+{
+  "id": 734,
+  "hash_id": null,
+  "name": "Sarcoma susceptibility",
+  "disease_group": "Cancer susceptibility",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.82",
+  "version_created": "2026-01-25T20:38:04.963618Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 44,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Cancer Germline Virtual",
+      "slug": "gms-cancer-germline-virtual",
+      "description": "This is a panel used for WGS germline analysis for the GMS."
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "ttv"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3512",
+        "gene_name": "exostosin glycosyltransferase 1",
+        "omim_gene": [
+          "608177"
+        ],
+        "alias_name": [
+          "Glucuronosyl-N-acetylglucosaminyl-proteoglycan 4-alpha-N- acetylglucosaminyltransferase",
+          "N-acetylglucosaminyl-proteoglycan 4-beta-glucuronosyltransferase"
+        ],
+        "gene_symbol": "EXT1",
+        "hgnc_symbol": "EXT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:118806729-119124092",
+              "ensembl_id": "ENSG00000182197"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:117794490-118111853",
+              "ensembl_id": "ENSG00000182197"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-05-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "EXT1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23770606",
+        "29529714",
+        "10441575"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Chondrosarcoma, OMIM:215300",
+        "Chondrosarcoma (disease), MONDO:0008977"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SOTV"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3513",
+        "gene_name": "exostosin glycosyltransferase 2",
+        "omim_gene": [
+          "608210"
+        ],
+        "alias_name": [
+          "Glucuronosyl-N-acetylglucosaminyl-proteoglycan 4-alpha-N- acetylglucosaminyltransferase",
+          "N-acetylglucosaminyl-proteoglycan 4-beta-glucuronosyltransferase"
+        ],
+        "gene_symbol": "EXT2",
+        "hgnc_symbol": "EXT2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:44117099-44266979",
+              "ensembl_id": "ENSG00000151348"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:44095549-44245429",
+              "ensembl_id": "ENSG00000151348"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-06-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "EXT2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27636706",
+        "7726168",
+        "29529714",
+        "23770606"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Other"
+      ],
+      "phenotypes": [
+        "Exostoses, multiple, type 2, OMIM:133701",
+        "Exostoses, multiple, type 2, MONDO:0007586"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MSAP",
+          "c86fus"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7413",
+        "gene_name": "methylthioadenosine phosphorylase",
+        "omim_gene": [
+          "156540"
+        ],
+        "alias_name": [
+          "S-methyl-5'-thioadenosine phosphorylase"
+        ],
+        "gene_symbol": "MTAP",
+        "hgnc_symbol": "MTAP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:21802542-21931646",
+              "ensembl_id": "ENSG00000099810"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:21802543-21937651",
+              "ensembl_id": "ENSG00000099810"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MTAP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19197386",
+        "22464254"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Diaphyseal medullary stenosis with malignant fibrous histiocytoma, OMIM:112250",
+        "Diaphyseal medullary stenosis-bone malignancy syndrome, MONDO:0007205"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7765",
+        "gene_name": "neurofibromin 1",
+        "omim_gene": [
+          "613113"
+        ],
+        "alias_name": [
+          "neurofibromatosis",
+          "von Recklinghausen disease",
+          "Watson disease"
+        ],
+        "gene_symbol": "NF1",
+        "hgnc_symbol": "NF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:29421945-29709134",
+              "ensembl_id": "ENSG00000196712"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:31094927-31382116",
+              "ensembl_id": "ENSG00000196712"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "NF1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature",
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Neurofibromatosis, type 1, OMIM:162200",
+        "Neurofibromatosis type 1, MONDO:0018975"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RecQ4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9949",
+        "gene_name": "RecQ like helicase 4",
+        "omim_gene": [
+          "603780"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RECQL4",
+        "hgnc_symbol": "RECQL4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:145736667-145743229",
+              "ensembl_id": "ENSG00000160957"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:144511288-144517845",
+              "ensembl_id": "ENSG00000160957"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2014-03-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "RECQL4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12734318",
+        "17264332",
+        "12612652",
+        "28338660"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "RAPADILINO syndrome, OMIM:266280",
+        "Rothmund-Thomson syndrome, type 2, OMIM:268400",
+        "Osteosarcoma (disease), MONDO:0009807"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p62",
+          "p60",
+          "p62B",
+          "A170"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11280",
+        "gene_name": "sequestosome 1",
+        "omim_gene": [
+          "601530"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SQSTM1",
+        "hgnc_symbol": "SQSTM1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:179233388-179265078",
+              "ensembl_id": "ENSG00000161011"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:179806398-179838078",
+              "ensembl_id": "ENSG00000161011"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-06-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "SQSTM1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21437228",
+        "11473345",
+        "9345096",
+        "12374763"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Paget disease of bone 3, OMIM:167250",
+        "Paget disease of bone 3, MONDO:0008176",
+        "Osteosarcoma (disease), MONDO:0009807"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11515",
+        "gene_name": "T brachyury transcription factor",
+        "omim_gene": [
+          "601397"
+        ],
+        "alias_name": null,
+        "gene_symbol": "T",
+        "hgnc_symbol": "T",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:166571144-166582188",
+              "ensembl_id": "ENSG00000164458"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:166157656-166168700",
+              "ensembl_id": "ENSG00000164458"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-04-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "T",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23064415",
+        "19801981",
+        "34837714"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Chordoma (disease), MONDO:0008978"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p53",
+          "LFS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11998",
+        "gene_name": "tumor protein p53",
+        "omim_gene": [
+          "191170"
+        ],
+        "alias_name": [
+          "Li-Fraumeni syndrome"
+        ],
+        "gene_symbol": "TP53",
+        "hgnc_symbol": "TP53",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:7565097-7590856",
+              "ensembl_id": "ENSG00000141510"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:7661779-7687550",
+              "ensembl_id": "ENSG00000141510"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TP53",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27050224",
+        "28338660",
+        "31529158"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Li-Fraumeni syndrome, OMIM:151623",
+        "Solitary Fibrous Tumour",
+        "Sarcoma, MONDO:0005089"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DP2",
+          "DP3",
+          "DP2.5",
+          "PPP1R46"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:583",
+        "gene_name": "APC, WNT signaling pathway regulator",
+        "omim_gene": [
+          "611731"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 46"
+        ],
+        "gene_symbol": "APC",
+        "hgnc_symbol": "APC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:112043195-112181936",
+              "ensembl_id": "ENSG00000134982"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:112707498-112846239",
+              "ensembl_id": "ENSG00000134982"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "APC",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27498913"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Gardner syndrome, OMIM:175100",
+        "Sarcoma, MONDO:0005089"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TEL1",
+          "TELO1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:795",
+        "gene_name": "ATM serine/threonine kinase",
+        "omim_gene": [
+          "607585"
+        ],
+        "alias_name": [
+          "TEL1, telomere maintenance 1, homolog (S. cerevisiae)"
+        ],
+        "gene_symbol": "ATM",
+        "hgnc_symbol": "ATM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:108093211-108239829",
+              "ensembl_id": "ENSG00000149311"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:108222484-108369102",
+              "ensembl_id": "ENSG00000149311"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATM",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27498913",
+        "30567006",
+        "33503190"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Sarcoma, MONDO:0005089"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FRP1",
+          "SCKL",
+          "SCKL1",
+          "MEC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:882",
+        "gene_name": "ATR serine/threonine kinase",
+        "omim_gene": [
+          "601215"
+        ],
+        "alias_name": [
+          "MEC1, mitosis entry checkpoint 1, homolog (S. cerevisiae)"
+        ],
+        "gene_symbol": "ATR",
+        "hgnc_symbol": "ATR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:142168077-142297668",
+              "ensembl_id": "ENSG00000175054"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:142449235-142578826",
+              "ensembl_id": "ENSG00000175054"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATR",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27498913"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Sarcoma, MONDO:0005089"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BS",
+          "RECQL3",
+          "RECQ2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1058",
+        "gene_name": "Bloom syndrome RecQ like helicase",
+        "omim_gene": [
+          "604610"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BLM",
+        "hgnc_symbol": "BLM",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:91260558-91358859",
+              "ensembl_id": "ENSG00000197299"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:90717327-90816165",
+              "ensembl_id": "ENSG00000197299"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "BLM",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28338660"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Bloom syndrome, OMIM:210900",
+        "Osteosarcoma (disease), MONDO:0009807"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAD",
+          "FAD1",
+          "BRCC2",
+          "XRCC11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1101",
+        "gene_name": "BRCA2, DNA repair associated",
+        "omim_gene": [
+          "600185"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-containing complex, subunit 2"
+        ],
+        "gene_symbol": "BRCA2",
+        "hgnc_symbol": "BRCA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:32889611-32973805",
+              "ensembl_id": "ENSG00000139618"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:32315474-32400266",
+              "ensembl_id": "ENSG00000139618"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-10-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRCA2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17224268",
+        "27498913"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Sarcoma, MONDO:0005089"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BUBR1",
+          "MAD3L",
+          "Bub1A",
+          "SSK1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1149",
+        "gene_name": "BUB1 mitotic checkpoint serine/threonine kinase B",
+        "omim_gene": [
+          "602860"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BUB1B",
+        "hgnc_symbol": "BUB1B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:40453224-40513337",
+              "ensembl_id": "ENSG00000156970"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:40161023-40221136",
+              "ensembl_id": "ENSG00000156970"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "BUB1B",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Literature",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Mosaic variegated aneuploidy syndrome 1, OMIM:257300",
+        "Rhabdomyosarcoma (disease), MONDO:0005212"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P57",
+          "KIP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1786",
+        "gene_name": "cyclin dependent kinase inhibitor 1C",
+        "omim_gene": [
+          "600856"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDKN1C",
+        "hgnc_symbol": "CDKN1C",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:2904443-2907111",
+              "ensembl_id": "ENSG00000129757"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:2883213-2885881",
+              "ensembl_id": "ENSG00000129757"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDKN1C",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Literature",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Beckwith-Wiedemann syndrome, OMIM:130650",
+        "Rhabdomyosarcoma (disease), MONDO:0005212"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MAG",
+          "EM9",
+          "MGC102762",
+          "MGC126218",
+          "MGC126219",
+          "TFIIH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3434",
+        "gene_name": "ERCC excision repair 2, TFIIH core complex helicase subunit",
+        "omim_gene": [
+          "126340"
+        ],
+        "alias_name": [
+          "excision repair cross-complementing rodent repair deficiency, complementation group 2 protein",
+          "TFIIH basal transcription factor complex helicase XPB subunit"
+        ],
+        "gene_symbol": "ERCC2",
+        "hgnc_symbol": "ERCC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:45853095-45874176",
+              "ensembl_id": "ENSG00000104884"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:45349837-45370918",
+              "ensembl_id": "ENSG00000104884"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ERCC2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27498913"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Sarcoma, MONDO:0005089"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAC",
+          "FA3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3584",
+        "gene_name": "Fanconi anemia complementation group C",
+        "omim_gene": [
+          "613899"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCC",
+        "hgnc_symbol": "FANCC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:97861336-98079991",
+              "ensembl_id": "ENSG00000158169"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:95099054-95426796",
+              "ensembl_id": "ENSG00000158169"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCC",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28878254",
+        "35512711"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ewing sarcoma, MONDO:0012817"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "fumarase"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3700",
+        "gene_name": "fumarate hydratase",
+        "omim_gene": [
+          "136850"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FH",
+        "hgnc_symbol": "FH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:241660903-241683061",
+              "ensembl_id": "ENSG00000091483"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:241497603-241519761",
+              "ensembl_id": "ENSG00000091483"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FH",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert Review Amber",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Leiomyomatosis and renal cell cancer, OMIM:150800",
+        "Hereditary leiomyomatosis and renal cell cancer, MONDO:0007888",
+        "Leiomyosarcoma, MONDO:0005058"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5173",
+        "gene_name": "HRas proto-oncogene, GTPase",
+        "omim_gene": [
+          "190020"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HRAS",
+        "hgnc_symbol": "HRAS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:532242-537287",
+              "ensembl_id": "ENSG00000174775"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:532242-537287",
+              "ensembl_id": "ENSG00000174775"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HRAS",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Literature",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Costello syndrome, OMIM:218040",
+        "Rhabdomyosarcoma (disease), MONDO:0005212"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD117",
+          "SCFR",
+          "C-Kit"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6342",
+        "gene_name": "KIT proto-oncogene receptor tyrosine kinase",
+        "omim_gene": [
+          "164920"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KIT",
+        "hgnc_symbol": "KIT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:55524085-55606881",
+              "ensembl_id": "ENSG00000157404"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:54657918-54740715",
+              "ensembl_id": "ENSG00000157404"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "KIT",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert Review Amber",
+        "Expert List"
+      ],
+      "phenotypes": [
+        "Gastrointestinal stromal tumor, familial, OMIM:606764",
+        "Gastrointestinal stromal tumor, MONDO:0011719"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNPCC",
+          "FCC2",
+          "HNPCC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7127",
+        "gene_name": "mutL homolog 1",
+        "omim_gene": [
+          "120436"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MLH1",
+        "hgnc_symbol": "MLH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:37034823-37107380",
+              "ensembl_id": "ENSG00000076242"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:36993332-37050918",
+              "ensembl_id": "ENSG00000076242"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "MLH1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Literature",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Mismatch repair cancer syndrome 1, OMIM:276300",
+        "Rhabdomyosarcoma (disease), MONDO:0005212"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNPCC",
+          "HNPCC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7325",
+        "gene_name": "mutS homolog 2",
+        "omim_gene": [
+          "609309"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH2",
+        "hgnc_symbol": "MSH2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47630108-47789450",
+              "ensembl_id": "ENSG00000095002"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47402969-47562311",
+              "ensembl_id": "ENSG00000095002"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Literature",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Mismatch repair cancer syndrome 2, OMIM:619096",
+        "Rhabdomyosarcoma (disease), MONDO:0005212"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7329",
+        "gene_name": "mutS homolog 6",
+        "omim_gene": [
+          "600678"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH6",
+        "hgnc_symbol": "MSH6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47922669-48037240",
+              "ensembl_id": "ENSG00000116062"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47695530-47810101",
+              "ensembl_id": "ENSG00000116062"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-08-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH6",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Literature",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Mismatch repair cancer syndrome 3, OMIM:619097",
+        "Rhabdomyosarcoma (disease), MONDO:0005212"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ATV",
+          "AT-V2",
+          "AT-V1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7652",
+        "gene_name": "nibrin",
+        "omim_gene": [
+          "602667"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NBN",
+        "hgnc_symbol": "NBN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:90945564-91015456",
+              "ensembl_id": "ENSG00000104320"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:89933336-90003228",
+              "ensembl_id": "ENSG00000104320"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-06-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "NBN",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Literature",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Nijmegen breakage syndrome, OMIM:251260",
+        "Rhabdomyosarcoma (disease), MONDO:0005212"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "H_DJ0042M02.9",
+          "HNPCC4",
+          "MLH4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9122",
+        "gene_name": "PMS1 homolog 2, mismatch repair system component",
+        "omim_gene": [
+          "600259"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PMS2",
+        "hgnc_symbol": "PMS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:6012870-6048756",
+              "ensembl_id": "ENSG00000122512"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:5973239-6009125",
+              "ensembl_id": "ENSG00000122512"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "PMS2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27050224"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Literature",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Mismatch repair cancer syndrome 4, OMIM:619101",
+        "Rhabdomyosarcoma (disease), MONDO:0005212"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MMAC1",
+          "TEP1",
+          "PTEN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9588",
+        "gene_name": "phosphatase and tensin homolog",
+        "omim_gene": [
+          "601728"
+        ],
+        "alias_name": [
+          "mutated in multiple advanced cancers 1"
+        ],
+        "gene_symbol": "PTEN",
+        "hgnc_symbol": "PTEN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:89622870-89731687",
+              "ensembl_id": "ENSG00000171862"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:87863113-87971930",
+              "ensembl_id": "ENSG00000171862"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTEN",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28228279"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Leiomyosarcoma, MONDO:0005058"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RB",
+          "PPP1R130"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9884",
+        "gene_name": "RB transcriptional corepressor 1",
+        "omim_gene": [
+          "614041"
+        ],
+        "alias_name": [
+          "prepro-retinoblastoma-associated protein",
+          "protein phosphatase 1, regulatory subunit 130"
+        ],
+        "gene_symbol": "RB1",
+        "hgnc_symbol": "RB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:48877887-49056122",
+              "ensembl_id": "ENSG00000139687"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:48303751-48481986",
+              "ensembl_id": "ENSG00000139687"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "RB1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28338660"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Literature",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Retinoblastoma, OMIM:180200",
+        "Osteosarcoma, somatic, OMIM:259500"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FP",
+          "SDHF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10680",
+        "gene_name": "succinate dehydrogenase complex flavoprotein subunit A",
+        "omim_gene": [
+          "600857"
+        ],
+        "alias_name": [
+          "succinate dehydrogenase [ubiquinone] flavoprotein subunit",
+          "flavoprotein subunit of complex II"
+        ],
+        "gene_symbol": "SDHA",
+        "hgnc_symbol": "SDHA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:218356-256815",
+              "ensembl_id": "ENSG00000073578"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:218241-256700",
+              "ensembl_id": "ENSG00000073578"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-10-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHA",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert Review Amber",
+        "Expert List"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10681",
+        "gene_name": "succinate dehydrogenase complex iron sulfur subunit B",
+        "omim_gene": [
+          "185470"
+        ],
+        "alias_name": [
+          "iron-sulfur subunit of complex II",
+          "succinate dehydrogenase [ubiquinone] iron-sulfur subunit"
+        ],
+        "gene_symbol": "SDHB",
+        "hgnc_symbol": "SDHB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:17345217-17380665",
+              "ensembl_id": "ENSG00000117118"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:17018722-17054170",
+              "ensembl_id": "ENSG00000117118"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHB",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert Review Amber",
+        "Expert List"
+      ],
+      "phenotypes": [
+        "Paraganglioma and gastric stromal sarcoma, OMIM:606864",
+        "Carney-Stratakis syndrome, MONDO:0011740"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CYB560",
+          "cybL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10682",
+        "gene_name": "succinate dehydrogenase complex subunit C",
+        "omim_gene": [
+          "602413"
+        ],
+        "alias_name": [
+          "succinate dehydrogenase cytochrome b560 subunit",
+          "succinate dehydrgenase cytochrome b",
+          "large subunit of cytochrome b"
+        ],
+        "gene_symbol": "SDHC",
+        "hgnc_symbol": "SDHC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:161284047-161332984",
+              "ensembl_id": "ENSG00000143252"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:161314257-161375340",
+              "ensembl_id": "ENSG00000143252"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHC",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert Review Amber",
+        "Expert List"
+      ],
+      "phenotypes": [
+        "Paraganglioma and gastric stromal sarcoma, OMIM:606864",
+        "Carney-Stratakis syndrome, MONDO:0011740"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cybS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10683",
+        "gene_name": "succinate dehydrogenase complex subunit D",
+        "omim_gene": [
+          "602690"
+        ],
+        "alias_name": [
+          "small subunit of cytochrome b"
+        ],
+        "gene_symbol": "SDHD",
+        "hgnc_symbol": "SDHD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:111957497-111990353",
+              "ensembl_id": "ENSG00000204370"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:112086773-112120013",
+              "ensembl_id": "ENSG00000204370"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHD",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert Review Amber",
+        "Expert List"
+      ],
+      "phenotypes": [
+        "Paraganglioma and gastric stromal sarcoma, OMIM:606864",
+        "Carney-Stratakis syndrome, MONDO:0011740"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hSNF2b",
+          "BRG1",
+          "BAF190",
+          "SNF2",
+          "SWI2",
+          "SNF2-BETA",
+          "SNF2LB",
+          "FLJ39786"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11100",
+        "gene_name": "SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4",
+        "omim_gene": [
+          "603254"
+        ],
+        "alias_name": [
+          "SNF2-like 4",
+          "global transcription activator homologous sequence",
+          "sucrose nonfermenting-like 4",
+          "mitotic growth and transcription activator",
+          "BRM/SWI2-related gene 1",
+          "homeotic gene regulator",
+          "nuclear protein GRB1",
+          "brahma protein-like 1",
+          "ATP-dependent helicase SMARCA4"
+        ],
+        "gene_symbol": "SMARCA4",
+        "hgnc_symbol": "SMARCA4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:11071598-11176071",
+              "ensembl_id": "ENSG00000127616"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:10961001-11065395",
+              "ensembl_id": "ENSG00000127616"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMARCA4",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "31190001"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Uterine corpus sarcoma, MONDO:0005210"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BAF47",
+          "Ini1",
+          "Snr1",
+          "hSNFS",
+          "Sfh1p",
+          "RDT",
+          "PPP1R144"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11103",
+        "gene_name": "SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1",
+        "omim_gene": [
+          "601607"
+        ],
+        "alias_name": [
+          "sucrose nonfermenting, yeast, homolog-like 1",
+          "integrase interactor 1",
+          "malignant rhabdoid tumor suppressor",
+          "protein phosphatase 1, regulatory subunit 144"
+        ],
+        "gene_symbol": "SMARCB1",
+        "hgnc_symbol": "SMARCB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:24129150-24176703",
+              "ensembl_id": "ENSG00000099956"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:23786963-23834516",
+              "ensembl_id": "ENSG00000099956"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMARCB1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "{Rhabdoid tumor predisposition syndrome 1}, OMIM:609322",
+        "Rhabdoid tumor predisposition syndrome 1, MONDO:0012252",
+        "{Schwannomatosis-1, susceptibility to}, OMIM:162091",
+        "Schwannomatosis 1, MONDO:0024517"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RECQL2",
+          "RECQ3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12791",
+        "gene_name": "Werner syndrome RecQ like helicase",
+        "omim_gene": [
+          "604611"
+        ],
+        "alias_name": null,
+        "gene_symbol": "WRN",
+        "hgnc_symbol": "WRN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:30891317-31031285",
+              "ensembl_id": "ENSG00000165392"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:31033801-31173769",
+              "ensembl_id": "ENSG00000165392"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "WRN",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28338660"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Werner syndrome, OMIM:277700",
+        "Osteosarcoma (disease), MONDO:0009807"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RTS",
+          "CBP",
+          "KAT3A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2348",
+        "gene_name": "CREB binding protein",
+        "omim_gene": [
+          "600140"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CREBBP",
+        "hgnc_symbol": "CREBBP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:3775055-3930727",
+              "ensembl_id": "ENSG00000005339"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:3725054-3880726",
+              "ensembl_id": "ENSG00000005339"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-01-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "CREBBP",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Rubinstein-Taybi syndrome 1, OMIM:180849",
+        "Rhabdomyosarcoma (disease), MONDO:0005212"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Dicer",
+          "KIAA0928",
+          "K12H4.8-LIKE",
+          "HERNA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17098",
+        "gene_name": "dicer 1, ribonuclease III",
+        "omim_gene": [
+          "606241"
+        ],
+        "alias_name": [
+          "dicer 1, double-stranded RNA-specific endoribonuclease"
+        ],
+        "gene_symbol": "DICER1",
+        "hgnc_symbol": "DICER1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:95552565-95624347",
+              "ensembl_id": "ENSG00000100697"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:95086228-95158010",
+              "ensembl_id": "ENSG00000100697"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "DICER1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30989777",
+        "21882293"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Pleuropulmonary blastoma, OMIM:601200",
+        "Pleuropulmonary blastoma, MONDO:0011014",
+        "Rhabdomyosarcoma, embryonal, 2, OMIM:180295",
+        "Embryonal rhabdomyosarcoma (disease), MONDO:0009993"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FKH1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3819",
+        "gene_name": "forkhead box O1",
+        "omim_gene": [
+          "136533"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOXO1",
+        "hgnc_symbol": "FOXO1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:41129804-41240734",
+              "ensembl_id": "ENSG00000150907"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:40469953-40666597",
+              "ensembl_id": "ENSG00000150907"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-05-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXO1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25768946"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Rhabdomyosarcoma, alveolar, OMIM:268220"
+      ],
+      "mode_of_inheritance": "Other - please specifiy in evaluation comments",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KRAS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6407",
+        "gene_name": "KRAS proto-oncogene, GTPase",
+        "omim_gene": [
+          "190070"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KRAS",
+        "hgnc_symbol": "KRAS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:25357723-25403870",
+              "ensembl_id": "ENSG00000133703"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:25204789-25250936",
+              "ensembl_id": "ENSG00000133703"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "KRAS",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20805368"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nevus, Epidermal, OMIM:162900",
+        "Rhabdomyosarcoma (disease), MONDO:0005212"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HUP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8617",
+        "gene_name": "paired box 3",
+        "omim_gene": [
+          "606597"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PAX3",
+        "hgnc_symbol": "PAX3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:223064607-223163715",
+              "ensembl_id": "ENSG00000135903"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:222199888-222298996",
+              "ensembl_id": "ENSG00000135903"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-01-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "PAX3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25768946"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Rhabdomyosarcoma, alveolar, OMIM:268220"
+      ],
+      "mode_of_inheritance": "Other - please specifiy in evaluation comments",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Hup1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8621",
+        "gene_name": "paired box 7",
+        "omim_gene": [
+          "167410"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PAX7",
+        "hgnc_symbol": "PAX7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:18957500-19075360",
+              "ensembl_id": "ENSG00000009709"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:18631006-18748866",
+              "ensembl_id": "ENSG00000009709"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "PAX7",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25768946"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Rhabdomyosarcoma 2, alveolar, OMIM:268220"
+      ],
+      "mode_of_inheritance": "Other - please specifiy in evaluation comments",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD140a",
+          "PDGFR2",
+          "GAS9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8803",
+        "gene_name": "platelet derived growth factor receptor alpha",
+        "omim_gene": [
+          "173490"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PDGFRA",
+        "hgnc_symbol": "PDGFRA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:55095264-55164414",
+              "ensembl_id": "ENSG00000134853"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:54229097-54298247",
+              "ensembl_id": "ENSG00000134853"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDGFRA",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26297068",
+        "14699510",
+        "17566086",
+        "25975287"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Gastrointestinal stromal tumor/GIST-plus syndrome, somatic or familial, OMIM:175510",
+        "Polyps, multiple and recurrent inflammatory fibroid, gastrointestinal, MONDO:0008285"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRT",
+          "TP2",
+          "TCS1",
+          "hEST2",
+          "EST2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11730",
+        "gene_name": "telomerase reverse transcriptase",
+        "omim_gene": [
+          "187270"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TERT",
+        "hgnc_symbol": "TERT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:1253262-1295184",
+              "ensembl_id": "ENSG00000164362"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:1253147-1295069",
+              "ensembl_id": "ENSG00000164362"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "TERT",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "24726063",
+        "27562490",
+        "29985536",
+        "31529158",
+        "31321477",
+        "38392213",
+        "38357190"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Other",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Solitary Fibrous Tumour"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "promoter",
+        "somatic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RANK",
+          "CD265",
+          "FEO"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11908",
+        "gene_name": "TNF receptor superfamily member 11a",
+        "omim_gene": [
+          "603499"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TNFRSF11A",
+        "hgnc_symbol": "TNFRSF11A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:59992520-60058516",
+              "ensembl_id": "ENSG00000141655"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:62325287-62391292",
+              "ensembl_id": "ENSG00000141655"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-12-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNFRSF11A",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15758393",
+        "12673693",
+        "11351498"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "{Paget disease of bone 2, early-onset}, OMIM:602080",
+        "Osteosarcoma (disease), MONDO:0009807"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "WAGR",
+          "WIT-2",
+          "AWT1",
+          "NPHS4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12796",
+        "gene_name": "Wilms tumor 1",
+        "omim_gene": [
+          "607102"
+        ],
+        "alias_name": null,
+        "gene_symbol": "WT1",
+        "hgnc_symbol": "WT1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:32409321-32457176",
+              "ensembl_id": "ENSG00000184937"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:32387775-32435630",
+              "ensembl_id": "ENSG00000184937"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-04-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "WT1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Wilms tumour 1, OMIM:194070",
+        "Rhabdomyosarcoma (disease), MONDO:0005212"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

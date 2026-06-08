@@ -1,0 +1,1396 @@
+{
+  "id": 543,
+  "hash_id": null,
+  "name": "Bardet Biedl syndrome",
+  "disease_group": "Ophthalmology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.17",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R107"
+  ],
+  "stats": {
+    "number_of_genes": 25,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "RP55"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13210",
+        "gene_name": "ADP ribosylation factor like GTPase 6",
+        "omim_gene": [
+          "608845"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ARL6",
+        "hgnc_symbol": "ARL6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:97483365-97519953",
+              "ensembl_id": "ENSG00000113966"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:97764521-97801242",
+              "ensembl_id": "ENSG00000113966"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARL6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15314642",
+        "15258860"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "?Retinitis pigmentosa 55, 613575",
+        "{Bardet Biedl syndrome 1, modifier of}, 209900",
+        "Bardet Biedl syndrome 3, 600151"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ23590"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:966",
+        "gene_name": "Bardet-Biedl syndrome 1",
+        "omim_gene": [
+          "209901"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBS1",
+        "hgnc_symbol": "BBS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:66278077-66301098",
+              "ensembl_id": "ENSG00000174483"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:66510606-66533627",
+              "ensembl_id": "ENSG00000174483"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-01-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12118255",
+        "23143442"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Bardet-Biedl syndrome 1 OMIM:209900",
+        "Bardet-Biedl syndrome 1 MONDO:0008854"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ23560"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26291",
+        "gene_name": "Bardet-Biedl syndrome 10",
+        "omim_gene": [
+          "610148"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBS10",
+        "hgnc_symbol": "BBS10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:76738254-76742222",
+              "ensembl_id": "ENSG00000179941"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:76344474-76348442",
+              "ensembl_id": "ENSG00000179941"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-04-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS10",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16582908"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Bardet Biedl syndrome 10, 615987"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ35630",
+          "FLJ41559"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26648",
+        "gene_name": "Bardet-Biedl syndrome 12",
+        "omim_gene": [
+          "610683"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBS12",
+        "hgnc_symbol": "BBS12",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:123653857-123666098",
+              "ensembl_id": "ENSG00000181004"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:122732702-122744943",
+              "ensembl_id": "ENSG00000181004"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS12",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17160889"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Bardet Biedl syndrome 12, 615989"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:967",
+        "gene_name": "Bardet-Biedl syndrome 2",
+        "omim_gene": [
+          "606151"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBS2",
+        "hgnc_symbol": "BBS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:56500748-56554195",
+              "ensembl_id": "ENSG00000125124"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:56466836-56520283",
+              "ensembl_id": "ENSG00000125124"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-10-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11285252"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Bardet-Biedl syndrome 2, 615981"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:969",
+        "gene_name": "Bardet-Biedl syndrome 4",
+        "omim_gene": [
+          "600374"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBS4",
+        "hgnc_symbol": "BBS4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:72978527-73030817",
+              "ensembl_id": "ENSG00000140463"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:72686179-72738476",
+              "ensembl_id": "ENSG00000140463"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS4",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11381270"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Bardet-Biedl syndrome 4, 615982"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp762I194"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:970",
+        "gene_name": "Bardet-Biedl syndrome 5",
+        "omim_gene": [
+          "603650"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBS5",
+        "hgnc_symbol": "BBS5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:170335688-170382432",
+              "ensembl_id": "ENSG00000163093"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:169479178-169506655",
+              "ensembl_id": "ENSG00000163093"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15137946"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Bardet Biedl syndrome 5, 615983"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10715",
+          "BBS2L1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18758",
+        "gene_name": "Bardet-Biedl syndrome 7",
+        "omim_gene": [
+          "607590"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBS7",
+        "hgnc_symbol": "BBS7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:122745595-122791652",
+              "ensembl_id": "ENSG00000138686"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:121824440-121870497",
+              "ensembl_id": "ENSG00000138686"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-02-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12567324"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Bardet-Biedl syndrome 7, 615984"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B1",
+          "PTHB1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30000",
+        "gene_name": "Bardet-Biedl syndrome 9",
+        "omim_gene": [
+          "607968"
+        ],
+        "alias_name": [
+          "parathyroid hormone responsive B1 gene"
+        ],
+        "gene_symbol": "BBS9",
+        "hgnc_symbol": "BBS9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:33168856-33645680",
+              "ensembl_id": "ENSG00000122507"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:33129244-33606068",
+              "ensembl_id": "ENSG00000122507"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBS9",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16380913"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Bardet Biedl syndrome 9, 615986"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RAYL",
+          "BBS19"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18626",
+        "gene_name": "intraflagellar transport 27",
+        "omim_gene": [
+          "615870"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IFT27",
+        "hgnc_symbol": "IFT27",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:37154246-37172300",
+              "ensembl_id": "ENSG00000100360"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:36758202-36776256",
+              "ensembl_id": "ENSG00000100360"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-04-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "IFT27",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24488770",
+        "29704304",
+        "30761183",
+        "29588463"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Bardet-Biedl syndrome 19, OMIM:615996"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMG1",
+          "CMG-1",
+          "FLJ22621"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21424",
+        "gene_name": "intraflagellar transport 74",
+        "omim_gene": [
+          "608040"
+        ],
+        "alias_name": [
+          "capillary morphogenesis protein 1"
+        ],
+        "gene_symbol": "IFT74",
+        "hgnc_symbol": "IFT74",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:26947037-27062928",
+              "ensembl_id": "ENSG00000096872"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:26947039-27062930",
+              "ensembl_id": "ENSG00000096872"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "IFT74",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27486776",
+        "32144365"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "?Bardet-Biedl syndrome 20, 617119"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BBS17"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6741",
+        "gene_name": "leucine zipper transcription factor like 1",
+        "omim_gene": [
+          "606568"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LZTFL1",
+        "hgnc_symbol": "LZTFL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:45864808-45957534",
+              "ensembl_id": "ENSG00000163818"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:45823316-45916042",
+              "ensembl_id": "ENSG00000163818"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-06-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "LZTFL1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22510444"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Expert Review Green",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Bardet-Biedl syndrome 17, 615994"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7108",
+        "gene_name": "McKusick-Kaufman syndrome",
+        "omim_gene": [
+          "604896"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MKKS",
+        "hgnc_symbol": "MKKS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:10381657-10414870",
+              "ensembl_id": "ENSG00000125863"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:10401009-10434222",
+              "ensembl_id": "ENSG00000125863"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "MKKS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10973251",
+        "10802661"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Bardet-Biedl syndrome 6, 605231",
+        "McKusick-Kaufman syndrome, 236700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20345",
+          "POC12",
+          "BBS13"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7121",
+        "gene_name": "Meckel syndrome, type 1",
+        "omim_gene": [
+          "609883"
+        ],
+        "alias_name": [
+          "POC12 centriolar protein homolog (Chlamydomonas)"
+        ],
+        "gene_symbol": "MKS1",
+        "hgnc_symbol": "MKS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:56282803-56296966",
+              "ensembl_id": "ENSG00000011143"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:58205437-58219605",
+              "ensembl_id": "ENSG00000011143"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "MKS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16415886",
+        "20177705",
+        "4886560"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Bardet-Biedl syndrome 13, 615990",
+        "Meckel syndrome 1, 249000",
+        "Joubert syndrome 28, 617121"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NY-CO-8",
+          "CCCAP",
+          "SLSN7",
+          "NPHP10",
+          "BBS16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10671",
+        "gene_name": "serologically defined colon cancer antigen 8",
+        "omim_gene": [
+          "613524"
+        ],
+        "alias_name": [
+          "centrosomal colon cancer autoantigen protein",
+          "Bardet-Biedl syndrome 16",
+          "nephrocystin 10",
+          "Senior-Loken syndrome 7"
+        ],
+        "gene_symbol": "SDCCAG8",
+        "hgnc_symbol": "SDCCAG8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:243419320-243663394",
+              "ensembl_id": "ENSG00000054282"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:243256034-243500092",
+              "ensembl_id": "ENSG00000054282"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-08-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDCCAG8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20835237"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Senior-Loken syndrome 7, 613615",
+        "Bardet-Biedl syndrome 16, 615993"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC26979",
+          "JBTS6",
+          "NPHP11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28396",
+        "gene_name": "transmembrane protein 67",
+        "omim_gene": [
+          "609884"
+        ],
+        "alias_name": [
+          "Meckelin"
+        ],
+        "gene_symbol": "TMEM67",
+        "hgnc_symbol": "TMEM67",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:94767072-94831462",
+              "ensembl_id": "ENSG00000164953"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:93754844-93819234",
+              "ensembl_id": "ENSG00000164953"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-08-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMEM67",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Other",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "{Bardet-Biedl syndrome 14, modifier of}, 615991"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BBS8",
+          "RP51"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20087",
+        "gene_name": "tetratricopeptide repeat domain 8",
+        "omim_gene": [
+          "608132"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTC8",
+        "hgnc_symbol": "TTC8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:89290497-89344335",
+              "ensembl_id": "ENSG00000165533"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:88824153-88881078",
+              "ensembl_id": "ENSG00000165533"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTC8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "14520415"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Bardet-Biedl syndrome 8, 615985"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "bA348N5.3",
+          "BBIP10",
+          "BBS18"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28093",
+        "gene_name": "BBSome interacting protein 1",
+        "omim_gene": [
+          "613605"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BBIP1",
+        "hgnc_symbol": "BBIP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:112658488-112679032",
+              "ensembl_id": "ENSG00000214413"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:110898730-110919274",
+              "ensembl_id": "ENSG00000214413"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-12-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "BBIP1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24026985",
+        "32055034",
+        "37239474"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Bardet-Biedl syndrome 18, OMIM:615995",
+        "Bardet-Biedl syndrome 18, MONDO:0014446"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q1_26_promote_green"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ30600",
+          "CORD16",
+          "RP64",
+          "BBS21"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:27232",
+        "gene_name": "chromosome 8 open reading frame 37",
+        "omim_gene": [
+          "614477"
+        ],
+        "alias_name": null,
+        "gene_symbol": "C8orf37",
+        "hgnc_symbol": "C8orf37",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:96257147-96281429",
+              "ensembl_id": "ENSG00000156172"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:95244919-95269201",
+              "ensembl_id": "ENSG00000156172"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "C8orf37",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22177090",
+        "27008867"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Bardet-Biedl syndrome 21, OMIM:617406, MONDO:0044308",
+        "Cone-rod dystrophy 16, OMIM:614500, MONDO:0013786",
+        "Retinitis pigmentosa 64, OMIM:614500, MONDO:0019200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10147",
+          "HIPPI",
+          "MHS4R2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17367",
+        "gene_name": "intraflagellar transport 57",
+        "omim_gene": [
+          "606621"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IFT57",
+        "hgnc_symbol": "IFT57",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:107879659-107941417",
+              "ensembl_id": "ENSG00000114446"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:108160812-108222570",
+              "ensembl_id": "ENSG00000114446"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "IFT57",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27060890",
+        "40273360"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Bardet-Biedl syndrome, MONDO:0015229",
+        "?Orofaciodigital syndrome XVIII, OMIM:617927"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hFrtz",
+          "fritz",
+          "BBS15"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28027",
+        "gene_name": "WD repeat containing planar cell polarity effector",
+        "omim_gene": [
+          "613580"
+        ],
+        "alias_name": null,
+        "gene_symbol": "WDPCP",
+        "hgnc_symbol": "WDPCP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:63348518-64054977",
+              "ensembl_id": "ENSG00000143951"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:63121383-63827843",
+              "ensembl_id": "ENSG00000143951"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-02-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "WDPCP",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20671153",
+        "28289185",
+        "25427950",
+        "27158779"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Other"
+      ],
+      "phenotypes": [
+        "?Congenital heart defects, hamartomas of tongue, and polysyndactyly, 217085",
+        "?Bardet-Biedl syndrome 15, 615992"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC1203",
+          "RP4-622L5.5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28163",
+        "gene_name": "coiled-coil domain containing 28B",
+        "omim_gene": [
+          "610162"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CCDC28B",
+        "hgnc_symbol": "CCDC28B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:32665987-32670988",
+              "ensembl_id": "ENSG00000160050"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:32200386-32205387",
+              "ensembl_id": "ENSG00000160050"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-09-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCDC28B",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23015189"
+      ],
+      "evidence": [
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "{Bardet-Biedl syndrome 1, modifier of}, 209900"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0373",
+          "FLJ13615",
+          "3H11Ag",
+          "rd16",
+          "NPHP6",
+          "JBTS5",
+          "SLSN6",
+          "LCA10",
+          "MKS4",
+          "BBS14",
+          "CT87",
+          "POC3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29021",
+        "gene_name": "centrosomal protein 290",
+        "omim_gene": [
+          "610142"
+        ],
+        "alias_name": [
+          "Joubert syndrome 5",
+          "nephrocystin-6",
+          "cancer/testis antigen 87",
+          "POC3 centriolar protein homolog (Chlamydomonas)",
+          "Meckel syndrome, type 4",
+          "Bardet-Biedl syndrome 14"
+        ],
+        "gene_symbol": "CEP290",
+        "hgnc_symbol": "CEP290",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:88442793-88535993",
+              "ensembl_id": "ENSG00000198707"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:88049014-88142216",
+              "ensembl_id": "ENSG00000198707"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "CEP290",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20177705",
+        "17160906",
+        "16682973",
+        "16682970",
+        "16909394"
+      ],
+      "evidence": [
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Senior-Loken syndrome 6, 610189",
+        "Leber congenital amaurosis 10, 611755",
+        "Joubert syndrome 5, 610188",
+        "Bardet-Biedl syndrome 14, 615991",
+        "Meckel syndrome 4, 611134"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HT2A",
+          "TATIP",
+          "BBS11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16380",
+        "gene_name": "tripartite motif containing 32",
+        "omim_gene": [
+          "602290"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRIM32",
+        "hgnc_symbol": "TRIM32",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:119449581-119463579",
+              "ensembl_id": "ENSG00000119401"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:116687302-116701300",
+              "ensembl_id": "ENSG00000119401"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-08-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRIM32",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16606853",
+        "11822024"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red"
+      ],
+      "phenotypes": [
+        "Muscular dystrophy, limb-girdle, autosomal recessive 8, 254110",
+        "?Bardet-Biedl syndrome 11, 615988"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0328"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:428",
+        "gene_name": "ALMS1, centrosome and basal body associated protein",
+        "omim_gene": [
+          "606844"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALMS1",
+        "hgnc_symbol": "ALMS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:73612886-73837920",
+              "ensembl_id": "ENSG00000116127"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:73385758-73610793",
+              "ensembl_id": "ENSG00000116127"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALMS1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed",
+        "Other"
+      ],
+      "phenotypes": [
+        "Alstrom syndrome, 203800",
+        "Bardet-Biedl Syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

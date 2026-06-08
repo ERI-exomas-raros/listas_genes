@@ -1,0 +1,555 @@
+{
+  "id": 1109,
+  "hash_id": null,
+  "name": "Multi locus imprinting disorders",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.1",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R417.2"
+  ],
+  "stats": {
+    "number_of_genes": 9,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "ECAT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:33699",
+        "gene_name": "KH domain containing 3 like, subcortical maternal complex member",
+        "omim_gene": [
+          "611687"
+        ],
+        "alias_name": [
+          "ES cell associated transcript 1"
+        ],
+        "gene_symbol": "KHDC3L",
+        "hgnc_symbol": "KHDC3L",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:74072400-74073894",
+              "ensembl_id": "ENSG00000203908"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:73362677-73364171",
+              "ensembl_id": "ENSG00000203908"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "KHDC3L",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "21885028",
+        "23232697",
+        "31847873",
+        "31201414"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Imprinting GeCIP Subdomain"
+      ],
+      "phenotypes": [
+        "Hydatidiform mole, recurrent, 2 OMIM:614293",
+        "hydatidiform mole, recurrent, 2 MONDO:0013671"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20510",
+          "PYPAF2",
+          "NBS1",
+          "PAN1",
+          "CLR19.9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:22948",
+        "gene_name": "NLR family pyrin domain containing 2",
+        "omim_gene": [
+          "609364"
+        ],
+        "alias_name": [
+          "nucleotide-binding oligomerization domain, leucine rich repeat and pyrin domain containing 2"
+        ],
+        "gene_symbol": "NLRP2",
+        "hgnc_symbol": "NLRP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:55464498-55512510",
+              "ensembl_id": "ENSG00000022556"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:54953130-55001142",
+              "ensembl_id": "ENSG00000022556"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NLRP2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "19300480",
+        "30221575",
+        "32169557",
+        "28422141",
+        "28317850",
+        "26323243",
+        "29574422",
+        "30877238",
+        "33090377"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Imprinting GeCIP Subdomain"
+      ],
+      "phenotypes": [
+        "Oocyte/zygote/embryo maturation arrest 18, OMIM:620332",
+        "oocyte/zygote/embryo maturation arrest 18, MONDO:0957230",
+        "Beckwith-Wiedemann syndrome due to imprinting defect of 11p15, MONDO:0016475"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PYPAF8",
+          "MATER",
+          "PAN11",
+          "CLR19.8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21269",
+        "gene_name": "NLR family pyrin domain containing 5",
+        "omim_gene": [
+          "609658"
+        ],
+        "alias_name": [
+          "nucleotide-binding oligomerization domain, leucine rich repeat and pyrin domain containing 5",
+          "maternal antigen that embryos require"
+        ],
+        "gene_symbol": "NLRP5",
+        "hgnc_symbol": "NLRP5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:56511092-56573179",
+              "ensembl_id": "ENSG00000171487"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:55999726-56061813",
+              "ensembl_id": "ENSG00000171487"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NLRP5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26323243",
+        "31201414",
+        "31829238"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Imprinting GeCIP Subdomain"
+      ],
+      "phenotypes": [
+        "Oocyte/zygote/embryo maturation arrest 19, OMIM:620333",
+        "oocyte/zygote/embryo maturation arrest 19, MONDO:0957231"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PYPAF3",
+          "NOD12",
+          "PAN7",
+          "CLR19.4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:22947",
+        "gene_name": "NLR family pyrin domain containing 7",
+        "omim_gene": [
+          "609661"
+        ],
+        "alias_name": [
+          "nucleotide-binding oligomerization domain, leucine rich repeat and pyrin domain containing 7"
+        ],
+        "gene_symbol": "NLRP7",
+        "hgnc_symbol": "NLRP7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:55434877-55477680",
+              "ensembl_id": "ENSG00000167634"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:54923509-54966312",
+              "ensembl_id": "ENSG00000167634"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NLRP7",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "16462743",
+        "19246479",
+        "31201414",
+        "29574422",
+        "28916717"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Imprinting GeCIP Subdomain"
+      ],
+      "phenotypes": [
+        "Phenotype resulting from under expression: Biparental complete hydatidiform mole",
+        "Affected tissue: all (incompatible with life)",
+        "Multi Locus Imprinting Disturbance",
+        "hydatidiform mole, recurrent, 1 MONDO:0009273"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": null,
+        "hgnc_id": "HGNC:20449",
+        "gene_name": "peptidyl arginine deiminase 6",
+        "omim_gene": [
+          "610363"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PADI6",
+        "hgnc_symbol": "PADI6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:17698691-17728195",
+              "ensembl_id": "ENSG00000256049"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:17372196-17401699",
+              "ensembl_id": "ENSG00000276747"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-05-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PADI6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32928291",
+        "33221824",
+        "27545678"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Preimplantation embryonic lethality 2 OMIM:617234",
+        "preimplantation embryonic lethality 2 MONDO:0014978",
+        "Beckwith-Wiedemann syndrome",
+        "Multi Locus Imprinting Disturbance"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4564",
+        "gene_name": "growth factor receptor bound protein 10",
+        "omim_gene": [
+          "601523"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GRB10",
+        "hgnc_symbol": "GRB10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:50657760-50861159",
+              "ensembl_id": "ENSG00000106070"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:50590063-50793462",
+              "ensembl_id": "ENSG00000106070"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-05-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "GRB10",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "10861285",
+        "10856193",
+        "27370225",
+        "10856193",
+        "11112662",
+        "30794780",
+        "http://igc.otago.ac.nz/home.html"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Silver-Russell syndrome 2, OMIM:618905"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, paternally imprinted (maternal allele expressed)",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ZAC",
+          "LOT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9046",
+        "gene_name": "PLAG1 like zinc finger 1",
+        "omim_gene": [
+          "603044"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLAGL1",
+        "hgnc_symbol": "PLAGL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:144261437-144385735",
+              "ensembl_id": "ENSG00000118495"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:143940300-144064599",
+              "ensembl_id": "ENSG00000118495"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-02-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLAGL1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "16928428",
+        "7719335",
+        "8842729",
+        "11935319",
+        "17084362",
+        "10655556",
+        "30794780",
+        "http://igc.otago.ac.nz/home.html"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "{Diabetes mellitus, transient neonatal 1}\t, OMIM:601410"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, maternally imprinted (paternal allele expressed)",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ZNF698",
+          "bA145L22",
+          "bA145L22.2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18791",
+        "gene_name": "ZFP57 zinc finger protein",
+        "omim_gene": [
+          "612192"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ZFP57",
+        "hgnc_symbol": "ZFP57",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:29640169-29648887",
+              "ensembl_id": "ENSG00000204644"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:29672392-29681110",
+              "ensembl_id": "ENSG00000204644"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZFP57",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "35296332",
+        "39090763"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "{Diabetes mellitus, transient neonatal 1}, OMIM:601410",
+        "Multi-locus imprinting disturbance (MLID)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "to_be_confirmed_NHSE"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Em:AC019205.2",
+          "KHDC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21382",
+        "gene_name": "oocyte expressed protein",
+        "omim_gene": [
+          "611689"
+        ],
+        "alias_name": [
+          "KH homology domain containing 2"
+        ],
+        "gene_symbol": "OOEP",
+        "hgnc_symbol": "OOEP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:74078278-74104856",
+              "ensembl_id": "ENSG00000203907"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:73368555-73395133",
+              "ensembl_id": "ENSG00000203907"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-11-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "OOEP",
+      "confidence_level": "1",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29574422",
+        "35946397",
+        "39090763"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Multi-locus imprinting disturbance (MLID)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

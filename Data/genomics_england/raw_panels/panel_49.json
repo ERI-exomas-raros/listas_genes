@@ -1,0 +1,4656 @@
+{
+  "id": 49,
+  "hash_id": "55a39e2d22c1fc6711b0c6b3",
+  "name": "Hypertrophic cardiomyopathy",
+  "disease_group": "Cardiology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "6.2",
+  "version_created": "2026-05-15T09:50:15.817380Z",
+  "relevant_disorders": [
+    "Hypertrophic cardiomyopathy - teen and adult",
+    "HCM",
+    "R131"
+  ],
+  "stats": {
+    "number_of_genes": 82,
+    "number_of_strs": 1,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "Component Of Super Panel",
+      "slug": "component-of-super-panel",
+      "description": "This panel is a component of a Super Panel"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "CMD1R"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:143",
+        "gene_name": "actin, alpha, cardiac muscle 1",
+        "omim_gene": [
+          "102540"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACTC1",
+        "hgnc_symbol": "ACTC1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:35080297-35088340",
+              "ensembl_id": "ENSG00000159251"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:34788096-34796139",
+              "ensembl_id": "ENSG00000159251"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACTC1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "30681346"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "UKGTN",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic, 11",
+        "Atrial septal defect 5 (612794)",
+        "Left ventricular noncompaction 4 (613424)",
+        "Cardiomyopathy, hypertrophic, 11 (612098)",
+        "Cardiomyopathy, dilated, 1R (613424)",
+        "Hypertrophic Cardiomyopathy"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:164",
+        "gene_name": "actinin alpha 2",
+        "omim_gene": [
+          "102573"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACTN2",
+        "hgnc_symbol": "ACTN2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:236849754-236927931",
+              "ensembl_id": "ENSG00000077522"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:236686454-236764631",
+              "ensembl_id": "ENSG00000077522"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACTN2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25224718",
+        "25173926",
+        "20022194",
+        "27287556"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "London South GLH",
+        "Wessex and West Midlands GLH",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, dilated, 1AA, with or without LVNC 612158",
+        "Cardiomyopathy, hypertrophic, 23, with or without LVNC 612158"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MAK",
+          "KIAA1330",
+          "Midori"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17574",
+        "gene_name": "alpha kinase 3",
+        "omim_gene": [
+          "617608"
+        ],
+        "alias_name": [
+          "myocyte induction differentiation originator",
+          "muscle alpha-kinase"
+        ],
+        "gene_symbol": "ALPK3",
+        "hgnc_symbol": "ALPK3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:85359911-85416713",
+              "ensembl_id": "ENSG00000136383"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:84816680-84873482",
+              "ensembl_id": "ENSG00000136383"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALPK3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26846950",
+        "27106955",
+        "32480058",
+        "28630369",
+        "30046096",
+        "31074094",
+        "21441111",
+        "34263907",
+        "35583889"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic 27, OMIM:618052"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Cav1.2",
+          "CACH2",
+          "CACN2",
+          "TS",
+          "LQT8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1390",
+        "gene_name": "calcium voltage-gated channel subunit alpha1 C",
+        "omim_gene": [
+          "114205"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CACNA1C",
+        "hgnc_symbol": "CACNA1C",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:2079952-2802108",
+              "ensembl_id": "ENSG00000151067"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:1970786-2697950",
+              "ensembl_id": "ENSG00000151067"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-01-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "CACNA1C",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24183960",
+        "doi:10.​1007/​s12265-016-9673-5",
+        "26253506"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypertrophic cardiomyopathy",
+        "Timothy syndrome, OMIM:601005",
+        "Timothy syndrome, MONDO:0010979",
+        "Long QT syndrome 8, OMIM:618447",
+        "long qt syndrome 8, MONDO:0032756",
+        "Brugada syndrome 3, OMIM:611875",
+        "Brugada syndrome 3, MONDO:0012742",
+        "CACNA1C-related disorder"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CLP",
+          "MLP",
+          "CMD1M"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2472",
+        "gene_name": "cysteine and glycine rich protein 3",
+        "omim_gene": [
+          "600824"
+        ],
+        "alias_name": [
+          "cardiac LIM protein"
+        ],
+        "gene_symbol": "CSRP3",
+        "hgnc_symbol": "CSRP3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:19203578-19232120",
+              "ensembl_id": "ENSG00000129170"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:19182030-19210573",
+              "ensembl_id": "ENSG00000129170"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-07-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "CSRP3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "30681346"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, hypertrophic, 12 (612124)",
+        "?Cardiomyopathy, dilated, 1M (607482)",
+        "Cardiomyopathy, familial hypertrophic, 12"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SLIM1",
+          "KYO-T",
+          "bA535K18.1",
+          "FHL1B",
+          "XMPMA",
+          "FLH1A",
+          "MGC111107"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3702",
+        "gene_name": "four and a half LIM domains 1",
+        "omim_gene": [
+          "300163"
+        ],
+        "alias_name": [
+          "Four-and-a-half LIM domains 1",
+          "LIM protein SLIMMER"
+        ],
+        "gene_symbol": "FHL1",
+        "hgnc_symbol": "FHL1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:135229559-135293518",
+              "ensembl_id": "ENSG00000022267"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:136146702-136211359",
+              "ensembl_id": "ENSG00000022267"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-08-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "FHL1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "30681346",
+        "20186852",
+        "22523091",
+        "29926425"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Expert list",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Reducing body myopathy, X-linked 1b, with late childhood or adult onset (300718)",
+        "Myopathy, X-linked, with postural muscle atrophy (300696)",
+        "?Uruguay faciocardiomusculoskeletal syndrome (300280)",
+        "Scapuloperoneal myopathy, X-linked dominant (300695)",
+        "Reducing body myopathy, X-linked 1a, severe, infantile or early childhood onset (300717)",
+        "Emery-Dreifuss muscular dystrophy 6, X-linked (300696)"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FHOS2",
+          "KIAA1695",
+          "FLJ22297",
+          "FLJ22717"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26178",
+        "gene_name": "formin homology 2 domain containing 3",
+        "omim_gene": [
+          "609691"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FHOD3",
+        "hgnc_symbol": "FHOD3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:33877677-34360018",
+              "ensembl_id": "ENSG00000134775"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:36297714-36780055",
+              "ensembl_id": "ENSG00000134775"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "FHOD3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23255317",
+        "29907873",
+        "31742804",
+        "32335906",
+        "30442288"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hypertrophic cardiomyopathy, MONDO:0005045"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ABP-280",
+          "ABPL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3756",
+        "gene_name": "filamin C",
+        "omim_gene": [
+          "102565"
+        ],
+        "alias_name": [
+          "actin binding protein 280",
+          "gamma filamin"
+        ],
+        "gene_symbol": "FLNC",
+        "hgnc_symbol": "FLNC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:128470431-128499328",
+              "ensembl_id": "ENSG00000128591"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:128830377-128859274",
+              "ensembl_id": "ENSG00000128591"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLNC",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25351925",
+        "28356264",
+        "30411535",
+        "30681346"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "Wessex and West Midlands GLH",
+        "Oxford Medical Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic, 26, OMIM:617047",
+        "Cardiomyopathy, familial restrictive 5, OMIM:617047",
+        "Hypertrophic cardiomyopathy 26, MONDO:0014883"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GALA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4296",
+        "gene_name": "galactosidase alpha",
+        "omim_gene": [
+          "300644"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLA",
+        "hgnc_symbol": "GLA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:100652791-100662913",
+              "ensembl_id": "ENSG00000102393"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:101397803-101407925",
+              "ensembl_id": "ENSG00000102393"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "29649853",
+        "27225851"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Fabry disease (301500)",
+        "syndromic HCM",
+        "Fabry disease, cardiac variant (301500)"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DRE1",
+          "FLJ20059"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25947",
+        "gene_name": "kelch like family member 24",
+        "omim_gene": [
+          "611295"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KLHL24",
+        "hgnc_symbol": "KLHL24",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:183353356-183402265",
+              "ensembl_id": "ENSG00000114796"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:183635568-183684477",
+              "ensembl_id": "ENSG00000114796"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "KLHL24",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30715372",
+        "32870709",
+        "36672924"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic, 29, with polyglucosan bodies, OMIM:620236",
+        "cardiomyopathy, familial hypertrophic, 29, with polyglucosan bodies, MONDO:0859372"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD107b"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6501",
+        "gene_name": "lysosomal associated membrane protein 2",
+        "omim_gene": [
+          "309060"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMP2",
+        "hgnc_symbol": "LAMP2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:119561682-119603220",
+              "ensembl_id": "ENSG00000005893"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:120427827-120469365",
+              "ensembl_id": "ENSG00000005893"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-08-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMP2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "26835038"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Danon disease (300257)",
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MYBP-C",
+          "FHC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7551",
+        "gene_name": "myosin binding protein C, cardiac",
+        "omim_gene": [
+          "600958"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYBPC3",
+        "hgnc_symbol": "MYBPC3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:47352957-47374253",
+              "ensembl_id": "ENSG00000134571"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:47331397-47352702",
+              "ensembl_id": "ENSG00000134571"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYBPC3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "30681346"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic, 4,",
+        "Cardiomyopathy, hypertrophic, 4 (115197)",
+        "Left ventricular noncompaction 10 (615396)",
+        "Cardiomyopathy, dilated, 1MM (615396)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMD1S"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7577",
+        "gene_name": "myosin heavy chain 7",
+        "omim_gene": [
+          "160760"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYH7",
+        "hgnc_symbol": "MYH7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:23881947-23904927",
+              "ensembl_id": "ENSG00000092054"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:23412738-23435718",
+              "ensembl_id": "ENSG00000092054"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYH7",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "30681346",
+        "27532257"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, hypertrophic, 1, OMIM:192600",
+        "Hypertrophic cardiomyopathy 1, MONDO:0008647"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "watchlist_moi"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMH10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7583",
+        "gene_name": "myosin light chain 2",
+        "omim_gene": [
+          "160781"
+        ],
+        "alias_name": [
+          "cardiac ventricular myosin light chain 2"
+        ],
+        "gene_symbol": "MYL2",
+        "hgnc_symbol": "MYL2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:111348623-111358526",
+              "ensembl_id": "ENSG00000111245"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:110910819-110920722",
+              "ensembl_id": "ENSG00000111245"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-11-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYL2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23365102",
+        "27532257",
+        "28369730",
+        "30681346",
+        "31127036",
+        "32453731",
+        "33731536"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Myopathy, myofibrillar, 12, infantile-onset, with cardiomyopathy, OMIM:619424",
+        "Cardiomyopathy, hypertrophic, 10, OMIM:608758"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q1_26_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMH8",
+          "VLC1",
+          "MLC1V",
+          "MLC1SB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7584",
+        "gene_name": "myosin light chain 3",
+        "omim_gene": [
+          "160790"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYL3",
+        "hgnc_symbol": "MYL3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:46899362-46923659",
+              "ensembl_id": "ENSG00000160808"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:46857872-46882169",
+              "ensembl_id": "ENSG00000160808"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYL3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "30681346"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic, 8,",
+        "Cardiomyopathy, familial hypertrophic, 8 (608751)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMD1P"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9080",
+        "gene_name": "phospholamban",
+        "omim_gene": [
+          "172405"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLN",
+        "hgnc_symbol": "PLN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:118869461-118881893",
+              "ensembl_id": "ENSG00000198523"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:118548298-118560730",
+              "ensembl_id": "ENSG00000198523"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "22820313",
+        "30681346"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic, 18,",
+        "Cardiomyopathy, dilated, 1P (609909)",
+        "Cardiomyopathy, hypertrophic, 18 (613874)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AAKG",
+          "AAKG2",
+          "H91620p",
+          "WPWS",
+          "CMH6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9386",
+        "gene_name": "protein kinase AMP-activated non-catalytic subunit gamma 2",
+        "omim_gene": [
+          "602743"
+        ],
+        "alias_name": [
+          "AMPK gamma2"
+        ],
+        "gene_symbol": "PRKAG2",
+        "hgnc_symbol": "PRKAG2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:151253197-151574210",
+              "ensembl_id": "ENSG00000106617"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:151556111-151877125",
+              "ensembl_id": "ENSG00000106617"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRKAG2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "26835038",
+        "15673802"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Wolff-Parkinson-White syndrome (194200)",
+        "syndromic HCM",
+        "Familial Hypertrophic Cardiomyopathy with Wolff-Parkinson-White Syndrome",
+        "Cardiomyopathy, familial hypertrophic 6,",
+        "Cardiomyopathy, familial hypertrophic 6 (600858)",
+        "Glycogen storage disease of heart, lethal congenital (261740)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11598",
+        "gene_name": "T-box 20",
+        "omim_gene": [
+          "606061"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TBX20",
+        "hgnc_symbol": "TBX20",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:35242042-35293758",
+              "ensembl_id": "ENSG00000164532"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:35202430-35254147",
+              "ensembl_id": "ENSG00000164532"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-08-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBX20",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "17668378",
+        "19762328",
+        "37657916",
+        "33585493",
+        "29089047",
+        "35282022"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Atrial septal defect 4, OMIM:611363",
+        "atrial septal defect 4, MONDO:0012654",
+        "Dilated cardiomyopathy, MONDO:0005021"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11943",
+        "gene_name": "troponin C1, slow skeletal and cardiac type",
+        "omim_gene": [
+          "191040"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TNNC1",
+        "hgnc_symbol": "TNNC1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:52485118-52488086",
+              "ensembl_id": "ENSG00000114854"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:52451102-52454070",
+              "ensembl_id": "ENSG00000114854"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-12-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNNC1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "30681346"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic, 13,",
+        "Cardiomyopathy, dilated, 1Z (611879)",
+        "Cardiomyopathy, hypertrophic, 13 (613243)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TNNC1",
+          "CMH7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11947",
+        "gene_name": "troponin I3, cardiac type",
+        "omim_gene": [
+          "191044"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TNNI3",
+        "hgnc_symbol": "TNNI3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:55663137-55669141",
+              "ensembl_id": "ENSG00000129991"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:55151767-55157773",
+              "ensembl_id": "ENSG00000129991"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-12-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNNI3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "30681346"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic, 7",
+        "?Cardiomyopathy, dilated, 2A (611880)",
+        "Cardiomyopathy, dilated, 1FF (613286)",
+        "Cardiomyopathy, familial restrictive, 1 (115210)",
+        "Cardiomyopathy, hypertrophic, 7 (613690)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMPD2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11949",
+        "gene_name": "troponin T2, cardiac type",
+        "omim_gene": [
+          "191045"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TNNT2",
+        "hgnc_symbol": "TNNT2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:201328136-201346890",
+              "ensembl_id": "ENSG00000118194"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:201359008-201377762",
+              "ensembl_id": "ENSG00000118194"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNNT2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "30681346"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial restrictive, 3 (612422)",
+        "Cardiomyopathy, hypertrophic, 2 (115195)",
+        "Cardiomyopathy, dilated, 1D (601494)",
+        "Cardiomyopathy, familial hypertrophic, 2",
+        "Left ventricular noncompaction 6 (601494)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12010",
+        "gene_name": "tropomyosin 1",
+        "omim_gene": [
+          "191010"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TPM1",
+        "hgnc_symbol": "TPM1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:63334831-63364114",
+              "ensembl_id": "ENSG00000140416"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:63042632-63071915",
+              "ensembl_id": "ENSG00000140416"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "TPM1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "30681346"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Left ventricular noncompaction 9 ( 611878)",
+        "Cardiomyopathy, hypertrophic, 3 (115196)",
+        "Cardiomyopathy, familial hypertrophic, 3",
+        "Cardiomyopathy, dilated, 1Y (611878)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MURF-1",
+          "IRF",
+          "SMRZ"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16007",
+        "gene_name": "tripartite motif containing 63",
+        "omim_gene": [
+          "606131"
+        ],
+        "alias_name": [
+          "muscle-specific RING finger protein 1",
+          "iris ring finger protein",
+          "striated muscle RING zinc finger protein"
+        ],
+        "gene_symbol": "TRIM63",
+        "hgnc_symbol": "TRIM63",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:26377795-26394927",
+              "ensembl_id": "ENSG00000158022"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:26051304-26068436",
+              "ensembl_id": "ENSG00000158022"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-11-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRIM63",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "32451364",
+        "22821932"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic, 31, OMIM:621270",
+        "cardiomyopathy, familial hypertrophic, 31, MONDO:0979573"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HsT2651",
+          "CTS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12405",
+        "gene_name": "transthyretin",
+        "omim_gene": [
+          "176300"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTR",
+        "hgnc_symbol": "TTR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:29171689-29178974",
+              "ensembl_id": "ENSG00000118271"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:31591726-31599021",
+              "ensembl_id": "ENSG00000118271"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28475415",
+        "16115295",
+        "16194874",
+        "26537620",
+        "1626570",
+        "1570831",
+        "30878017",
+        "31131842",
+        "31118583",
+        "31111153",
+        "30120737"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "Expert list",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Cardiac amyloidosis",
+        "Amyloidosis, hereditary, transthyretin-related, 105210"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10709"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25567",
+        "gene_name": "ATPase family, AAA domain containing 3A",
+        "omim_gene": [
+          "612316"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ATAD3A",
+        "hgnc_symbol": "ATAD3A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:1447531-1470067",
+              "ensembl_id": "ENSG00000197785"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:1512151-1534687",
+              "ensembl_id": "ENSG00000197785"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-02-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATAD3A",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27640307",
+        "28652416",
+        "28158749",
+        "31727539"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Harel-Yoon syndrome, OMIM:617183"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4699",
+        "gene_name": "glycogenin 1",
+        "omim_gene": [
+          "603942"
+        ],
+        "alias_name": [
+          "glycogenin glucosyltransferase"
+        ],
+        "gene_symbol": "GYG1",
+        "hgnc_symbol": "GYG1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:148709128-148745419",
+              "ensembl_id": "ENSG00000163754"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:148991341-149027668",
+              "ensembl_id": "ENSG00000163754"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "GYG1",
+      "confidence_level": "2",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27718144",
+        "20357282",
+        "31628455"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "?Glycogen storage disease XV, OMIM:613507",
+        "hypertrophic cardiomyopathy, MONDO:0005045"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JP-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14202",
+        "gene_name": "junctophilin 2",
+        "omim_gene": [
+          "605267"
+        ],
+        "alias_name": null,
+        "gene_symbol": "JPH2",
+        "hgnc_symbol": "JPH2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:42740335-42816218",
+              "ensembl_id": "ENSG00000149596"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:44111695-44187578",
+              "ensembl_id": "ENSG00000149596"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "JPH2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28393127",
+        "17509612",
+        "17476457",
+        "30681346",
+        "23973696",
+        "26869393",
+        "28393127",
+        "30235249"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "South West GLH",
+        "London South GLH",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, hypertrophic, 17, OMIM:613873"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "trnI"
+        ],
+        "biotype": "Mt_tRNA",
+        "hgnc_id": "HGNC:7488",
+        "gene_name": "mitochondrially encoded tRNA isoleucine",
+        "omim_gene": [
+          "590045"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-TI",
+        "hgnc_symbol": "MT-TI",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:4263-4331",
+              "ensembl_id": "ENSG00000210100"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:4263-4331",
+              "ensembl_id": "ENSG00000210100"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-TI",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12767666",
+        "21945886",
+        "23332932",
+        "29481798",
+        "30025578",
+        "39639347"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "familial hypertrophic cardiomyopathy, MONDO:0024573",
+        "familial dilated cardiomyopathy, MONDO:0016333"
+      ],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [
+        "gene-checked",
+        "locus-type-rna-transfer"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "skMLCK",
+          "KMLC",
+          "MLCK2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16243",
+        "gene_name": "myosin light chain kinase 2",
+        "omim_gene": [
+          "606566"
+        ],
+        "alias_name": [
+          "skeletal muscle myosin light chain kinase"
+        ],
+        "gene_symbol": "MYLK2",
+        "hgnc_symbol": "MYLK2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:30407111-30422492",
+              "ensembl_id": "ENSG00000101306"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:31819308-31834689",
+              "ensembl_id": "ENSG00000101306"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-07-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYLK2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730",
+        "30681346"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, hypertrophic, 1, digenic (192600)",
+        "Cardiomyopathy, hypertrophic, midventricular, digenic,"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "S6K1",
+          "p70(S6K)-alpha",
+          "PS6K"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10436",
+        "gene_name": "ribosomal protein S6 kinase B1",
+        "omim_gene": [
+          "608938"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RPS6KB1",
+        "hgnc_symbol": "RPS6KB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:57970447-58027925",
+              "ensembl_id": "ENSG00000108443"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:59893046-59950564",
+              "ensembl_id": "ENSG00000108443"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "RPS6KB1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34916228"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypertrophic cardiomyopathy"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11480",
+        "gene_name": "supervillin",
+        "omim_gene": [
+          "604126"
+        ],
+        "alias_name": [
+          "archvillin"
+        ],
+        "gene_symbol": "SVIL",
+        "hgnc_symbol": "SVIL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:29746267-30025710",
+              "ensembl_id": "ENSG00000197321"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:29457338-29736781",
+              "ensembl_id": "ENSG00000197321"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-05-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "SVIL",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "39966646",
+        "32779703",
+        "25633252"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "hypertrophic cardiomyopathy, MONDO:0005045"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TUBL3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12425",
+        "gene_name": "tubby like protein 3",
+        "omim_gene": [
+          "604730"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TULP3",
+        "hgnc_symbol": "TULP3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:2986389-3050306",
+              "ensembl_id": "ENSG00000078246"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:2877223-2941140",
+              "ensembl_id": "ENSG00000078246"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "TULP3",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "35397207",
+        "36460032"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Hepatorenocardiac degenerative fibrosis, OMIM:619902"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VLCAD",
+          "LCACD",
+          "ACAD6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:92",
+        "gene_name": "acyl-CoA dehydrogenase very long chain",
+        "omim_gene": [
+          "609575"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACADVL",
+        "hgnc_symbol": "ACADVL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:7120444-7128592",
+              "ensembl_id": "ENSG00000072778"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:7217125-7225273",
+              "ensembl_id": "ENSG00000072778"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-05-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACADVL",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NEM3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:129",
+        "gene_name": "actin, alpha 1, skeletal muscle",
+        "omim_gene": [
+          "102610"
+        ],
+        "alias_name": [
+          "nemaline myopathy type 3"
+        ],
+        "gene_symbol": "ACTA1",
+        "hgnc_symbol": "ACTA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:229566992-229569845",
+              "ensembl_id": "ENSG00000143632"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:229431245-229434098",
+              "ensembl_id": "ENSG00000143632"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACTA1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16945537",
+        "doi:10.​1007/​s12265-016-9673-5"
+      ],
+      "evidence": [
+        "South West GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypertrophic cardiomyopathy",
+        "Dilated cardiomyopathy"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:321",
+        "gene_name": "amylo-alpha-1, 6-glucosidase, 4-alpha-glucanotransferase",
+        "omim_gene": [
+          "610860"
+        ],
+        "alias_name": [
+          "glycogen debranching enzyme",
+          "glycogen storage disease type III"
+        ],
+        "gene_symbol": "AGL",
+        "hgnc_symbol": "AGL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:100315640-100389579",
+              "ensembl_id": "ENSG00000162688"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:99850084-99924023",
+              "ensembl_id": "ENSG00000162688"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-07-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGL",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "C-193",
+          "ALRP",
+          "CARP",
+          "CVARP",
+          "MCARP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15819",
+        "gene_name": "ankyrin repeat domain 1",
+        "omim_gene": [
+          "609599"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANKRD1",
+        "hgnc_symbol": "ANKRD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:92671853-92681033",
+              "ensembl_id": "ENSG00000148677"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:90912096-90921276",
+              "ensembl_id": "ENSG00000148677"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-11-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANKRD1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "Expert list",
+        "UKGTN"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:838",
+        "gene_name": "ATP synthase, H+ transporting, mitochondrial F1 complex, epsilon subunit",
+        "omim_gene": [
+          "606153"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ATP5E",
+        "hgnc_symbol": "ATP5E",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:57600522-57607437",
+              "ensembl_id": "ENSG00000124172"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:59025467-59032382",
+              "ensembl_id": "ENSG00000124172"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-02-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP5E",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BRAF1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1097",
+        "gene_name": "B-Raf proto-oncogene, serine/threonine kinase",
+        "omim_gene": [
+          "164757"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BRAF",
+        "hgnc_symbol": "BRAF",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:140419127-140624564",
+              "ensembl_id": "ENSG00000157764"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:140719327-140924764",
+              "ensembl_id": "ENSG00000157764"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRAF",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CRT2",
+          "FLJ25355",
+          "MGC26577",
+          "CT93"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20407",
+        "gene_name": "calreticulin 3",
+        "omim_gene": [
+          "611414"
+        ],
+        "alias_name": [
+          "cancer/testis antigen 93",
+          "calsperin"
+        ],
+        "gene_symbol": "CALR3",
+        "hgnc_symbol": "CALR3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:16589868-16607003",
+              "ensembl_id": "ENSG00000269058"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:16479057-16496192",
+              "ensembl_id": "ENSG00000269058"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-02-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "CALR3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic, 19"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PDIB2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1513",
+        "gene_name": "calsequestrin 2",
+        "omim_gene": [
+          "114251"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CASQ2",
+        "hgnc_symbol": "CASQ2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:116242628-116311402",
+              "ensembl_id": "ENSG00000118729"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:115700007-115768781",
+              "ensembl_id": "ENSG00000118729"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "CASQ2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypertrophic cardiomyopathy",
+        "Left ventricular non-compaction",
+        "Catecholaminergic polymorphic ventricular tachycardia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VIP-21",
+          "LGMD1C",
+          "VIP21",
+          "LQT9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1529",
+        "gene_name": "caveolin 3",
+        "omim_gene": [
+          "601253"
+        ],
+        "alias_name": [
+          "M-caveolin"
+        ],
+        "gene_symbol": "CAV3",
+        "hgnc_symbol": "CAV3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:8775486-8883492",
+              "ensembl_id": "ENSG00000182533"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:8733800-8841808",
+              "ensembl_id": "ENSG00000182533"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-05-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CAV3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "Expert Review Red",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic,"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MGC52110",
+          "FLJ27524",
+          "Pet191"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:33848",
+        "gene_name": "cytochrome c oxidase assembly factor 5",
+        "omim_gene": [
+          "613920"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COA5",
+        "hgnc_symbol": "COA5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:99215773-99224978",
+              "ensembl_id": "ENSG00000183513"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:98599310-98608515",
+              "ensembl_id": "ENSG00000183513"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-07-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "COA5",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSPB5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2389",
+        "gene_name": "crystallin alpha B",
+        "omim_gene": [
+          "123590"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CRYAB",
+        "hgnc_symbol": "CRYAB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:111779289-111794446",
+              "ensembl_id": "ENSG00000109846"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:111908565-111923722",
+              "ensembl_id": "ENSG00000109846"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1987-09-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "CRYAB",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Myopathy, myofibrillar, 2, OMIM:608810"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMD1I",
+          "CSM1",
+          "CSM2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2770",
+        "gene_name": "desmin",
+        "omim_gene": [
+          "125660"
+        ],
+        "alias_name": [
+          "intermediate filament protein"
+        ],
+        "gene_symbol": "DES",
+        "hgnc_symbol": "DES",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:220283099-220291461",
+              "ensembl_id": "ENSG00000175084"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:219418377-219426739",
+              "ensembl_id": "ENSG00000175084"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "DES",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "H17"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26927",
+        "gene_name": "FAD dependent oxidoreductase domain containing 1",
+        "omim_gene": [
+          "613622"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOXRED1",
+        "hgnc_symbol": "FOXRED1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:126138950-126148026",
+              "ensembl_id": "ENSG00000110074"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:126269055-126278131",
+              "ensembl_id": "ENSG00000110074"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXRED1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FA",
+          "FARR",
+          "X25",
+          "CyaY"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3951",
+        "gene_name": "frataxin",
+        "omim_gene": [
+          "606829"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FXN",
+        "hgnc_symbol": "FXN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:71650175-71715094",
+              "ensembl_id": "ENSG00000165060"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:69035259-69100178",
+              "ensembl_id": "ENSG00000165060"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "FXN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Friedreich ataxia, OMIM:229300",
+        "Friedreich ataxia with retained reflexes, OMIM:229300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "nucleotide-repeat-expansion"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4065",
+        "gene_name": "glucosidase alpha, acid",
+        "omim_gene": [
+          "606800"
+        ],
+        "alias_name": [
+          "Pompe disease",
+          "glycogen storage disease type II"
+        ],
+        "gene_symbol": "GAA",
+        "hgnc_symbol": "GAA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:78075355-78093678",
+              "ensembl_id": "ENSG00000171298"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:80101556-80119879",
+              "ensembl_id": "ENSG00000171298"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GAA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EBP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4298",
+        "gene_name": "galactosidase beta 1",
+        "omim_gene": [
+          "611458"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GLB1",
+        "hgnc_symbol": "GLB1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:33038100-33138722",
+              "ensembl_id": "ENSG00000170266"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:32996608-33097230",
+              "ensembl_id": "ENSG00000170266"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLB1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4696",
+        "gene_name": "glucuronidase beta",
+        "omim_gene": [
+          "611499"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GUSB",
+        "hgnc_symbol": "GUSB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:65425671-65447301",
+              "ensembl_id": "ENSG00000169919"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:65960684-65982314",
+              "ensembl_id": "ENSG00000169919"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GUSB",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5173",
+        "gene_name": "HRas proto-oncogene, GTPase",
+        "omim_gene": [
+          "190020"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HRAS",
+        "hgnc_symbol": "HRAS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:532242-537287",
+              "ensembl_id": "ENSG00000174775"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:532242-537287",
+              "ensembl_id": "ENSG00000174775"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "HRAS",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kv7.1",
+          "KCNA8",
+          "KVLQT1",
+          "JLNS1",
+          "LQT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6294",
+        "gene_name": "potassium voltage-gated channel subfamily Q member 1",
+        "omim_gene": [
+          "607542"
+        ],
+        "alias_name": [
+          "Jervell and Lange-Nielsen syndrome 1"
+        ],
+        "gene_symbol": "KCNQ1",
+        "hgnc_symbol": "KCNQ1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:2465914-2870339",
+              "ensembl_id": "ENSG00000053918"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:2444684-2849109",
+              "ensembl_id": "ENSG00000053918"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-02-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNQ1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypertrophic cardiomyopathy",
+        "Long QT syndrome",
+        "Short QT syndrome"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EGRA",
+          "TIEG1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11810",
+        "gene_name": "Kruppel like factor 10",
+        "omim_gene": [
+          "601878"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KLF10",
+        "hgnc_symbol": "KLF10",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:103661007-103668130",
+              "ensembl_id": "ENSG00000155090"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:102648779-102655902",
+              "ensembl_id": "ENSG00000155090"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-12-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "KLF10",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypertrophic cardiomyopathy"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PDLIM6",
+          "KIAA0613",
+          "ZASP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15710",
+        "gene_name": "LIM domain binding 3",
+        "omim_gene": [
+          "605906"
+        ],
+        "alias_name": [
+          "cypher",
+          "oracle",
+          "Z-band alternatively spliced PDZ motif protein"
+        ],
+        "gene_symbol": "LDB3",
+        "hgnc_symbol": "LDB3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:88428206-88495825",
+              "ensembl_id": "ENSG00000122367"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:86668449-86736068",
+              "ensembl_id": "ENSG00000122367"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "LDB3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "Expert list"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HGPS",
+          "MADA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6636",
+        "gene_name": "lamin A/C",
+        "omim_gene": [
+          "150330"
+        ],
+        "alias_name": [
+          "mandibuloacral dysplasia type A"
+        ],
+        "gene_symbol": "LMNA",
+        "hgnc_symbol": "LMNA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:156052364-156109880",
+              "ensembl_id": "ENSG00000160789"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:156082573-156140089",
+              "ensembl_id": "ENSG00000160789"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "LMNA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Lipoatrophy with Diabetes, Hepatic Steatosis, Hypertrophic"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LZTR-1",
+          "BTBD29"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6742",
+        "gene_name": "leucine zipper like transcription regulator 1",
+        "omim_gene": [
+          "600574"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LZTR1",
+        "hgnc_symbol": "LZTR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:21333751-21353327",
+              "ensembl_id": "ENSG00000099949"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:20979462-20999038",
+              "ensembl_id": "ENSG00000099949"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "LZTR1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30368668",
+        "30732632"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "RASopathy-associated cardiomyopathy"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MEK1",
+          "MAPKK1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6840",
+        "gene_name": "mitogen-activated protein kinase kinase 1",
+        "omim_gene": [
+          "176872"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAP2K1",
+        "hgnc_symbol": "MAP2K1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:66679155-66784650",
+              "ensembl_id": "ENSG00000169032"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:66386817-66492312",
+              "ensembl_id": "ENSG00000169032"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAP2K1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MEK2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6842",
+        "gene_name": "mitogen-activated protein kinase kinase 2",
+        "omim_gene": [
+          "601263"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAP2K2",
+        "hgnc_symbol": "MAP2K2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:4090319-4124126",
+              "ensembl_id": "ENSG00000126934"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:4090321-4124129",
+              "ensembl_id": "ENSG00000126934"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAP2K2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MRL3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10379",
+        "gene_name": "mitochondrial ribosomal protein L3",
+        "omim_gene": [
+          "607118"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MRPL3",
+        "hgnc_symbol": "MRPL3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:131181056-131221827",
+              "ensembl_id": "ENSG00000114686"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:131462212-131502983",
+              "ensembl_id": "ENSG00000114686"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-09-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MRPL3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7576",
+        "gene_name": "myosin heavy chain 6",
+        "omim_gene": [
+          "160710"
+        ],
+        "alias_name": [
+          "cardiomyopathy, hypertrophic 1"
+        ],
+        "gene_symbol": "MYH6",
+        "hgnc_symbol": "MYH6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:23851199-23877486",
+              "ensembl_id": "ENSG00000197616"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:23381990-23408277",
+              "ensembl_id": "ENSG00000197616"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYH6",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "22194935",
+        "30531895",
+        "28082330"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Wessex and West Midlands GLH",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, dilated, 1EE (613252)",
+        "Atrial septal defect 3 (614089)",
+        "{Sick sinus syndrome 3} (614090)",
+        "Cardiomyopathy, hypertrophic, 14 (613251)",
+        "Cardiomyopathy, familial hypertrophic, 14"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0389"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7605",
+        "gene_name": "myosin VI",
+        "omim_gene": [
+          "600970"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYO6",
+        "hgnc_symbol": "MYO6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:76458909-76629254",
+              "ensembl_id": "ENSG00000196586"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:75749192-75919537",
+              "ensembl_id": "ENSG00000196586"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-04-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYO6",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Deafness, autosomal dominant 22, with hypertrophic cardiomyopathy"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7613",
+        "gene_name": "myomesin 1",
+        "omim_gene": [
+          "603508"
+        ],
+        "alias_name": [
+          "skelemin"
+        ],
+        "gene_symbol": "MYOM1",
+        "hgnc_symbol": "MYOM1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:3066805-3220106",
+              "ensembl_id": "ENSG00000101605"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:3066807-3220108",
+              "ensembl_id": "ENSG00000101605"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-12-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYOM1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CS-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1330",
+        "gene_name": "myozenin 2",
+        "omim_gene": [
+          "605602"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYOZ2",
+        "hgnc_symbol": "MYOZ2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:120056939-120108944",
+              "ensembl_id": "ENSG00000172399"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:119135784-119187789",
+              "ensembl_id": "ENSG00000172399"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-01-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYOZ2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "Expert Review Red",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic, 16,"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MYOP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23246",
+        "gene_name": "myopalladin",
+        "omim_gene": [
+          "608517"
+        ],
+        "alias_name": [
+          "sarcomeric protein myopalladin, 145 kDa"
+        ],
+        "gene_symbol": "MYPN",
+        "hgnc_symbol": "MYPN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:69865912-69971774",
+              "ensembl_id": "ENSG00000138347"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:68106117-68212017",
+              "ensembl_id": "ENSG00000138347"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYPN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "South West GLH",
+        "London South GLH",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Cardiomypathy, familial hypertrophic, 22,"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "disputed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "nexilin",
+          "NELIN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29557",
+        "gene_name": "nexilin F-actin binding protein",
+        "omim_gene": [
+          "613121"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NEXN",
+        "hgnc_symbol": "NEXN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:78354198-78409580",
+              "ensembl_id": "ENSG00000162614"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:77888513-77943895",
+              "ensembl_id": "ENSG00000162614"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-01-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "NEXN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "20970104"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, hypertrophic, 20, OMIM:613876"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "N-ras"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7989",
+        "gene_name": "NRAS proto-oncogene, GTPase",
+        "omim_gene": [
+          "164790"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NRAS",
+        "hgnc_symbol": "NRAS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:115247090-115259515",
+              "ensembl_id": "ENSG00000213281"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:114704469-114716894",
+              "ensembl_id": "ENSG00000213281"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "NRAS",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ALP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20767",
+        "gene_name": "PDZ and LIM domain 3",
+        "omim_gene": [
+          "605889"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PDLIM3",
+        "hgnc_symbol": "PDLIM3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:186422851-186456766",
+              "ensembl_id": "ENSG00000154553"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:185500660-185535612",
+              "ensembl_id": "ENSG00000154553"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDLIM3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BPTP3",
+          "SH-PTP2",
+          "SHP-2",
+          "PTP2C",
+          "SHP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9644",
+        "gene_name": "protein tyrosine phosphatase, non-receptor type 11",
+        "omim_gene": [
+          "176876"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTPN11",
+        "hgnc_symbol": "PTPN11",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:112856155-112947717",
+              "ensembl_id": "ENSG00000179295"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:112418351-112509913",
+              "ensembl_id": "ENSG00000179295"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-03-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTPN11",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Raf-1",
+          "c-Raf",
+          "CRAF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9829",
+        "gene_name": "Raf-1 proto-oncogene, serine/threonine kinase",
+        "omim_gene": [
+          "164760"
+        ],
+        "alias_name": [
+          "C-Raf proto-oncogene, serine/threonine kinase"
+        ],
+        "gene_symbol": "RAF1",
+        "hgnc_symbol": "RAF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:12625100-12705725",
+              "ensembl_id": "ENSG00000132155"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:12583601-12664226",
+              "ensembl_id": "ENSG00000132155"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAF1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SCO1L"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10604",
+        "gene_name": "SCO2, cytochrome c oxidase assembly protein",
+        "omim_gene": [
+          "604272"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCO2",
+        "hgnc_symbol": "SCO2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:50961997-50964868",
+              "ensembl_id": "ENSG00000130489"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:50523568-50525606",
+              "ensembl_id": "ENSG00000130489"
+            },
+            "107": {
+              "location": "22:50523568-50526461",
+              "ensembl_id": "ENSG00000284194"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCO2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0862",
+          "SOC2",
+          "SUR-8",
+          "SOC-2",
+          "SUR8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15454",
+        "gene_name": "SHOC2, leucine rich repeat scaffold protein",
+        "omim_gene": [
+          "602775"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SHOC2",
+        "hgnc_symbol": "SHOC2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:112679301-112773425",
+              "ensembl_id": "ENSG00000108061"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:110919547-111013667",
+              "ensembl_id": "ENSG00000108061"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-03-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SHOC2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10989",
+        "gene_name": "solute carrier family 25 member 3",
+        "omim_gene": [
+          "600370"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC25A3",
+        "hgnc_symbol": "SLC25A3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:98987369-98995946",
+              "ensembl_id": "ENSG00000075415"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:98593591-98606379",
+              "ensembl_id": "ENSG00000075415"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-05-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC25A3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Mitochondrial phosphate carrier deficiency, 610773"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "T1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10990",
+        "gene_name": "solute carrier family 25 member 4",
+        "omim_gene": [
+          "103220"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC25A4",
+        "hgnc_symbol": "SLC25A4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:186064395-186071536",
+              "ensembl_id": "ENSG00000151729"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:185143241-185150382",
+              "ensembl_id": "ENSG00000151729"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC25A4",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25732997",
+        "27532257"
+      ],
+      "evidence": [
+        "South West GLH",
+        "North West GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Mitochondrial DNA depletion syndrome 12B (cardiomyopathic type) AR (615418)",
+        "Mitochondrial DNA depletion syndrome 12A (cardiomyopathic type) AD (617184)",
+        "Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 2 (609283)",
+        "Hypertrophic cardiomyopathy"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HGF",
+          "GF1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11187",
+        "gene_name": "SOS Ras/Rac guanine nucleotide exchange factor 1",
+        "omim_gene": [
+          "182530"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOS1",
+        "hgnc_symbol": "SOS1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:39208537-39351486",
+              "ensembl_id": "ENSG00000115904"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:38981396-39124345",
+              "ensembl_id": "ENSG00000115904"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOS1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CATCH22"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11592",
+        "gene_name": "T-box 1",
+        "omim_gene": [
+          "602054"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TBX1",
+        "hgnc_symbol": "TBX1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:19744226-19771116",
+              "ensembl_id": "ENSG00000184058"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:19756703-19783593",
+              "ensembl_id": "ENSG00000184058"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBX1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "41130538"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypertrophic cardiomyopathy, HP:0001639"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "T-cap",
+          "TELE",
+          "telethonin",
+          "CMD1N"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11610",
+        "gene_name": "titin-cap",
+        "omim_gene": [
+          "604488"
+        ],
+        "alias_name": [
+          "19 kDa sarcomeric protein",
+          "teneurin C-terminal associated peptide"
+        ],
+        "gene_symbol": "TCAP",
+        "hgnc_symbol": "TCAP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:37820440-37822808",
+              "ensembl_id": "ENSG00000173991"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:39664187-39666555",
+              "ensembl_id": "ENSG00000173991"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "TCAP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15582318",
+        "27532257"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, hypertrophic, 25 (607487)",
+        "Muscular dystrophy, limb-girdle, autosomal recessive 7 (601954)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20533"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26050",
+        "gene_name": "transmembrane protein 70",
+        "omim_gene": [
+          "612418"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TMEM70",
+        "hgnc_symbol": "TMEM70",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:74884672-74895018",
+              "ensembl_id": "ENSG00000175606"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:73972437-73982783",
+              "ensembl_id": "ENSG00000175606"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMEM70",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "syndromic HCM"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EF-Tsmt",
+          "EF-TS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12367",
+        "gene_name": "Ts translation elongation factor, mitochondrial",
+        "omim_gene": [
+          "604723"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TSFM",
+        "hgnc_symbol": "TSFM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:58176372-58201854",
+              "ensembl_id": "ENSG00000123297"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:57782589-57808071",
+              "ensembl_id": "ENSG00000123297"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TSFM",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Combined oxidative phosphorylation deficiency 3 610505"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMPD4",
+          "FLJ32040",
+          "TMD",
+          "CMH9",
+          "LGMD2J",
+          "MYLK5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12403",
+        "gene_name": "titin",
+        "omim_gene": [
+          "188840"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTN",
+        "hgnc_symbol": "TTN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:179390716-179695529",
+              "ensembl_id": "ENSG00000155657"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:178525989-178830802",
+              "ensembl_id": "ENSG00000155657"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/22335739"
+      ],
+      "evidence": [
+        "South West GLH",
+        "Expert Review Red",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, familial hypertrophic, 9,"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12665",
+        "gene_name": "vinculin",
+        "omim_gene": [
+          "193065"
+        ],
+        "alias_name": [
+          "metavinculin"
+        ],
+        "gene_symbol": "VCL",
+        "hgnc_symbol": "VCL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:75757872-75879918",
+              "ensembl_id": "ENSG00000035403"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:73995193-74121363",
+              "ensembl_id": "ENSG00000035403"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "VCL",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27532257",
+        "28369730"
+      ],
+      "evidence": [
+        "South West GLH",
+        "North West GLH",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cardiomyopathy, dilated, 1W (611407)",
+        "Cardiomyopathy, familial hypertrophic, 15,",
+        "Cardiomyopathy, hypertrophic, 15 (613255)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ND5",
+          "NAD5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7461",
+        "gene_name": "mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 5",
+        "omim_gene": [
+          "516005"
+        ],
+        "alias_name": [
+          "complex I ND5 subunit",
+          "NADH-ubiquinone oxidoreductase chain 5"
+        ],
+        "gene_symbol": "MT-ND5",
+        "hgnc_symbol": "MT-ND5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:12337-14148",
+              "ensembl_id": "ENSG00000198786"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:12337-14148",
+              "ensembl_id": "ENSG00000198786"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-ND5",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "14520659",
+        "22759514",
+        "23847141",
+        "30587702"
+      ],
+      "evidence": [
+        "Expert Review Removed",
+        "Literature"
+      ],
+      "phenotypes": [
+        "hypertrophic cardiomyopathy, MONDO:0005045"
+      ],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRNL1"
+        ],
+        "biotype": "Mt_tRNA",
+        "hgnc_id": "HGNC:7490",
+        "gene_name": "mitochondrially encoded tRNA leucine 1 (UUA/G)",
+        "omim_gene": [
+          "590050"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-TL1",
+        "hgnc_symbol": "MT-TL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:3230-3304",
+              "ensembl_id": "ENSG00000209082"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:3230-3304",
+              "ensembl_id": "ENSG00000209082"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-TL1",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "7473662",
+        "8477849",
+        "12874464",
+        "14673589",
+        "25639022",
+        "30888501",
+        "30133155"
+      ],
+      "evidence": [
+        "Expert Review Removed",
+        "South West GLH",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "MELAS syndrome caused by mutation in MTTL1, MONDO:0800032",
+        "hypertrophic cardiomyopathy, MONDO:0005045"
+      ],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [
+        "locus-type-rna-transfer",
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "trnV"
+        ],
+        "biotype": "Mt_tRNA",
+        "hgnc_id": "HGNC:7500",
+        "gene_name": "mitochondrially encoded tRNA valine",
+        "omim_gene": [
+          "590105"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-TV",
+        "hgnc_symbol": "MT-TV",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:1602-1670",
+              "ensembl_id": "ENSG00000210077"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:1602-1670",
+              "ensembl_id": "ENSG00000210077"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-TV",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "15320572",
+        "21986556",
+        "34298071"
+      ],
+      "evidence": [
+        "Expert Review Removed",
+        "Literature"
+      ],
+      "phenotypes": [
+        "MELAS syndrome, MONDO:0010789",
+        "hypertrophic cardiomyopathy, MONDO:000504"
+      ],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [
+        "locus-type-rna-transfer",
+        "curated_removed"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [
+    {
+      "gene_data": {
+        "alias": [
+          "FA",
+          "FARR",
+          "X25",
+          "CyaY"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3951",
+        "gene_name": "frataxin",
+        "omim_gene": [
+          "606829"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FXN",
+        "hgnc_symbol": "FXN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:71650175-71715094",
+              "ensembl_id": "ENSG00000165060"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:69035259-69100178",
+              "ensembl_id": "ENSG00000165060"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-19"
+      },
+      "entity_type": "str",
+      "entity_name": "FXN_GAA",
+      "confidence_level": "0",
+      "penetrance": null,
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Removed",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Friedreich ataxia OMIM:229300",
+        "Friedreich ataxia with retained reflexes OMIM:229300",
+        "Friedreich ataxia 1 MONDO:0100340"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "repeated_sequence": "GAA",
+      "chromosome": "9",
+      "grch37_coordinates": [
+        71652203,
+        71652220
+      ],
+      "grch38_coordinates": [
+        69037287,
+        69037304
+      ],
+      "normal_repeats": 44,
+      "pathogenic_repeats": 66,
+      "tags": [
+        "STR",
+        "curated_removed"
+      ]
+    }
+  ],
+  "regions": []
+}

@@ -1,0 +1,424 @@
+{
+  "id": 110,
+  "hash_id": "5763f6048f620350a1996052",
+  "name": "Familial disseminated superficial actinic porokeratosis",
+  "disease_group": "Dermatological disorders",
+  "disease_sub_group": "Keratodermas",
+  "status": "public",
+  "version": "1.4",
+  "version_created": "2025-11-23T17:06:08.200362Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 7,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3631",
+        "gene_name": "farnesyl diphosphate synthase",
+        "omim_gene": [
+          "134629"
+        ],
+        "alias_name": [
+          "farnesyl pyrophosphate synthetase, dimethylallyltranstransferase, geranyltranstransferase"
+        ],
+        "gene_symbol": "FDPS",
+        "hgnc_symbol": "FDPS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:155278539-155290457",
+              "ensembl_id": "ENSG00000160752"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:155308748-155320666",
+              "ensembl_id": "ENSG00000160752"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-03-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "FDPS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26202976",
+        "26816331 (correction for PMID:26202976)",
+        "27422687"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Other"
+      ],
+      "phenotypes": [
+        "Porokeratosis 9, multiple types, 616631",
+        "DSAP/DSP",
+        "actinic or nonactinic disseminated superficial porokeratosis",
+        "POROK9"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "deletions"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MPD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7529",
+        "gene_name": "mevalonate diphosphate decarboxylase",
+        "omim_gene": [
+          "603236"
+        ],
+        "alias_name": [
+          "mevalonate pyrophosphate decarboxylase",
+          "diphosphomevalonate decarboxylase"
+        ],
+        "gene_symbol": "MVD",
+        "hgnc_symbol": "MVD",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:88718343-88729569",
+              "ensembl_id": "ENSG00000167508"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:88651935-88663161",
+              "ensembl_id": "ENSG00000167508"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-12-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "MVD",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26202976",
+        "26816331 (correction for PMID:26202976)",
+        "28777842"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Porokeratosis 7, multiple types, OMIM:614714"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LRBP",
+          "MK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7530",
+        "gene_name": "mevalonate kinase",
+        "omim_gene": [
+          "251170"
+        ],
+        "alias_name": [
+          "LH receptor mRNA-binding protein",
+          "mevalonic aciduria"
+        ],
+        "gene_symbol": "MVK",
+        "hgnc_symbol": "MVK",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:110011060-110035067",
+              "ensembl_id": "ENSG00000110921"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:109573255-109598117",
+              "ensembl_id": "ENSG00000110921"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "MVK",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22983302",
+        "24781643",
+        "26202976",
+        "26816331 (correction for PMID:26202976)",
+        "26794421",
+        "28543715"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Other",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Porokeratosis 3, multiple types, OMIM:175900"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0156",
+          "RP11-13G14",
+          "TIP110",
+          "p110"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16860",
+        "gene_name": "squamous cell carcinoma antigen recognized by T-cells 3",
+        "omim_gene": [
+          "611684"
+        ],
+        "alias_name": [
+          "HIV-1 Tat-interacting protein of 110kDa"
+        ],
+        "gene_symbol": "SART3",
+        "hgnc_symbol": "SART3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:108916357-108955176",
+              "ensembl_id": "ENSG00000075856"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:108522580-108561400",
+              "ensembl_id": "ENSG00000075856"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "SART3",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15840095"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "disseminated superficial actinic porokeratosis",
+        "DSAP"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ23412",
+          "VNUT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16192",
+        "gene_name": "solute carrier family 17 member 9",
+        "omim_gene": [
+          "612107"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC17A9",
+        "hgnc_symbol": "SLC17A9",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:61584052-61599949",
+              "ensembl_id": "ENSG00000101194"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:62952647-62969585",
+              "ensembl_id": "ENSG00000101194"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-01-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC17A9",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25180256",
+        "25596766 (article in French)"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Other",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Porokeratosis 8, disseminated superficial actinic type, 616063",
+        "disseminated superficial actinic porokeratosis-8",
+        "POROK8",
+        "Disseminated superficial actinic porokeratosis (DSAP)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PMK",
+          "PMKA",
+          "HUMPMKI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9141",
+        "gene_name": "phosphomevalonate kinase",
+        "omim_gene": [
+          "607622"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PMVK",
+        "hgnc_symbol": "PMVK",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:154897210-154909467",
+              "ensembl_id": "ENSG00000163344"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:154924734-154936991",
+              "ensembl_id": "ENSG00000163344"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-07-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "PMVK",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26202976",
+        "26816331 (correction for PMID:26202976)",
+        "27052676"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "Porokeratosis 1, multiple types, 175800",
+        "POROKERATOSIS OF MIBELLI"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1298"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30579",
+        "gene_name": "slingshot protein phosphatase 1",
+        "omim_gene": [
+          "606778"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SSH1",
+        "hgnc_symbol": "SSH1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:109176466-109251366",
+              "ensembl_id": "ENSG00000084112"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:108778192-108857590",
+              "ensembl_id": "ENSG00000084112"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-06-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "SSH1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15459975"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "disseminated superficial actinic porokeratosis",
+        "DSAP"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

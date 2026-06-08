@@ -1,0 +1,1732 @@
+{
+  "id": 255,
+  "hash_id": "57c5b45b8f62030d5014a949",
+  "name": "Neurofibromatosis Type 1",
+  "disease_group": "Tumour syndromes",
+  "disease_sub_group": "Muscle and nerve",
+  "status": "public",
+  "version": "1.33",
+  "version_created": "2025-11-23T17:35:41.308950Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 30,
+    "number_of_strs": 0,
+    "number_of_regions": 1
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "BRAF1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1097",
+        "gene_name": "B-Raf proto-oncogene, serine/threonine kinase",
+        "omim_gene": [
+          "164757"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BRAF",
+        "hgnc_symbol": "BRAF",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:140419127-140624564",
+              "ensembl_id": "ENSG00000157764"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:140719327-140924764",
+              "ensembl_id": "ENSG00000157764"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRAF",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19416762,  19206169"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Noonan syndrome with multiple lentigines (LEOPARD syndrome), 151100"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAD",
+          "FAD1",
+          "BRCC2",
+          "XRCC11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1101",
+        "gene_name": "BRCA2, DNA repair associated",
+        "omim_gene": [
+          "600185"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-containing complex, subunit 2"
+        ],
+        "gene_symbol": "BRCA2",
+        "hgnc_symbol": "BRCA2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:32889611-32973805",
+              "ensembl_id": "ENSG00000139618"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:32315474-32400266",
+              "ensembl_id": "ENSG00000139618"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-10-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRCA2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 12065746",
+        "16825431"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group D1, OMIM:605724"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OF",
+          "BACH1",
+          "FANCJ"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20473",
+        "gene_name": "BRCA1 interacting protein C-terminal helicase 1",
+        "omim_gene": [
+          "605882"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-associated helicase 1"
+        ],
+        "gene_symbol": "BRIP1",
+        "hgnc_symbol": "BRIP1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:59758627-59940882",
+              "ensembl_id": "ENSG00000136492"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:61681266-61863521",
+              "ensembl_id": "ENSG00000136492"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-04-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRIP1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 16116424",
+        "16116423"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group J, OMIM:609054"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAA",
+          "FA-H",
+          "FAH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3582",
+        "gene_name": "Fanconi anemia complementation group A",
+        "omim_gene": [
+          "607139"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCA",
+        "hgnc_symbol": "FANCA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:89803957-89883065",
+              "ensembl_id": "ENSG00000187741"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:89737549-89816657",
+              "ensembl_id": "ENSG00000187741"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-12-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8896564",
+        "9371798"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group A, 227650",
+        "Fanconi Anemia",
+        "Fanconi Anaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAB",
+          "FLJ34064",
+          "FAAP95"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3583",
+        "gene_name": "Fanconi anemia complementation group B",
+        "omim_gene": [
+          "300515"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCB",
+        "hgnc_symbol": "FANCB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:14861529-14891191",
+              "ensembl_id": "ENSG00000181544"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:14843407-14873069",
+              "ensembl_id": "ENSG00000181544"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15502827"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group B, 300514",
+        "Fanconi Anemia, X-Linked",
+        "Fanconi Anemia Type B",
+        "Fanconi Anaemia"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAC",
+          "FA3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3584",
+        "gene_name": "Fanconi anemia complementation group C",
+        "omim_gene": [
+          "613899"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCC",
+        "hgnc_symbol": "FANCC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:97861336-98079991",
+              "ensembl_id": "ENSG00000158169"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:95099054-95426796",
+              "ensembl_id": "ENSG00000158169"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCC",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group C, 227645",
+        "Fanconi Anemia",
+        "Fanconi Anaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAD",
+          "FA-D2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3585",
+        "gene_name": "Fanconi anemia complementation group D2",
+        "omim_gene": [
+          "613984"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCD2",
+        "hgnc_symbol": "FANCD2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:10068098-10143614",
+              "ensembl_id": "ENSG00000144554"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:10026414-10101930",
+              "ensembl_id": "ENSG00000144554"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-10-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCD2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11239453"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group D2, 227646",
+        "Fanconi Anemia",
+        "Fanconi Anaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3586",
+        "gene_name": "Fanconi anemia complementation group E",
+        "omim_gene": [
+          "613976"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCE",
+        "hgnc_symbol": "FANCE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:35420138-35434880",
+              "ensembl_id": "ENSG00000112039"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:35452361-35467103",
+              "ensembl_id": "ENSG00000112039"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-04-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group E, 600901",
+        "Fanconi Anemia",
+        "Fanconi Anaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3587",
+        "gene_name": "Fanconi anemia complementation group F",
+        "omim_gene": [
+          "613897"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCF",
+        "hgnc_symbol": "FANCF",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:22644079-22647387",
+              "ensembl_id": "ENSG00000183161"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:22622519-22626787",
+              "ensembl_id": "ENSG00000183161"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCF",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group F, 603467",
+        "Fanconi Anemia",
+        "Fanconi Anaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3588",
+        "gene_name": "Fanconi anemia complementation group G",
+        "omim_gene": [
+          "602956"
+        ],
+        "alias_name": [
+          "DNA repair protein XRCC9",
+          "X-ray repair, complementing defective, in Chinese hamster, 9",
+          "X-ray repair complementing defective repair in Chinese hamster cells 9"
+        ],
+        "gene_symbol": "FANCG",
+        "hgnc_symbol": "FANCG",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:35073832-35080013",
+              "ensembl_id": "ENSG00000221829"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:35073835-35080016",
+              "ensembl_id": "ENSG00000221829"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCG",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9806548"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group G, 614082",
+        "Fanconi Anemia",
+        "Fanconi Anaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10719"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25568",
+        "gene_name": "Fanconi anemia complementation group I",
+        "omim_gene": [
+          "611360"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCI",
+        "hgnc_symbol": "FANCI",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:89787180-89860492",
+              "ensembl_id": "ENSG00000140525"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:89243949-89317261",
+              "ensembl_id": "ENSG00000140525"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-05-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCI",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17452773"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group I, 609053",
+        "Fanconi Anemia",
+        "Fanconi Anaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10335",
+          "FAAP43",
+          "Pog"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20748",
+        "gene_name": "Fanconi anemia complementation group L",
+        "omim_gene": [
+          "608111"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCL",
+        "hgnc_symbol": "FANCL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:58386378-58468507",
+              "ensembl_id": "ENSG00000115392"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:58159243-58241372",
+              "ensembl_id": "ENSG00000115392"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCL",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19405097",
+        "25754594"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group L, 614083",
+        "Fanconi Anemia",
+        "Fanconi Anaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NESP55",
+          "NESP",
+          "GNASXL",
+          "GPSA",
+          "SCG6",
+          "SgVI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4392",
+        "gene_name": "GNAS complex locus",
+        "omim_gene": [
+          "139320"
+        ],
+        "alias_name": [
+          "secretogranin VI",
+          "G protein subunit alpha S"
+        ],
+        "gene_symbol": "GNAS",
+        "hgnc_symbol": "GNAS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:57414773-57486247",
+              "ensembl_id": "ENSG00000087460"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:58839718-58911192",
+              "ensembl_id": "ENSG00000087460"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNAS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "1944469",
+        "1594625"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "McCune-Albright syndrome, somatic, mosaic, OMIM:174800",
+        "panostotic fibrous dysplasia, MONDO:0043168"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "mosaicism"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SCF",
+          "SF",
+          "Kitl",
+          "KL-1",
+          "FPH2",
+          "SLF",
+          "DFNA69"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6343",
+        "gene_name": "KIT ligand",
+        "omim_gene": [
+          "184745"
+        ],
+        "alias_name": [
+          "mast cell growth factor",
+          "stem cell factor",
+          "steel factor",
+          "familial progressive hyperpigmentation 2"
+        ],
+        "gene_symbol": "KITLG",
+        "hgnc_symbol": "KITLG",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:88886570-88974628",
+              "ensembl_id": "ENSG00000049130"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:88492793-88580851",
+              "ensembl_id": "ENSG00000049130"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "KITLG",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hyperpigmentation with or without hypopigmentation, 145250"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNPCC",
+          "FCC2",
+          "HNPCC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7127",
+        "gene_name": "mutL homolog 1",
+        "omim_gene": [
+          "120436"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MLH1",
+        "hgnc_symbol": "MLH1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:37034823-37107380",
+              "ensembl_id": "ENSG00000076242"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:36993332-37050918",
+              "ensembl_id": "ENSG00000076242"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "MLH1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9927033"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Expert Review",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Mismatch repair cancer syndrome, 276300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNPCC",
+          "HNPCC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7325",
+        "gene_name": "mutS homolog 2",
+        "omim_gene": [
+          "609309"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH2",
+        "hgnc_symbol": "MSH2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47630108-47789450",
+              "ensembl_id": "ENSG00000095002"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47402969-47562311",
+              "ensembl_id": "ENSG00000095002"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11809679"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Mismatch repair cancer syndrome, 276300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7329",
+        "gene_name": "mutS homolog 6",
+        "omim_gene": [
+          "600678"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH6",
+        "hgnc_symbol": "MSH6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47922669-48037240",
+              "ensembl_id": "ENSG00000116062"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47695530-47810101",
+              "ensembl_id": "ENSG00000116062"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-08-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH6",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16000562, 15340263,16283678,11809679"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert Review",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Mismatch repair cancer syndrome, 276300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7765",
+        "gene_name": "neurofibromin 1",
+        "omim_gene": [
+          "613113"
+        ],
+        "alias_name": [
+          "neurofibromatosis",
+          "von Recklinghausen disease",
+          "Watson disease"
+        ],
+        "gene_symbol": "NF1",
+        "hgnc_symbol": "NF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:29421945-29709134",
+              "ensembl_id": "ENSG00000196712"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:31094927-31382116",
+              "ensembl_id": "ENSG00000196712"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "NF1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Neurofibromatosis, familial spinal",
+        "Familial Spinal Neurofibromatosis",
+        "Neurofibromatosis, type 1",
+        "Neurofibromatosis-Noonan syndrome",
+        "Watson syndrome, 162200"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ21816",
+          "FANCN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26144",
+        "gene_name": "partner and localizer of BRCA2",
+        "omim_gene": [
+          "610355"
+        ],
+        "alias_name": [
+          "Fanconi anemia, complementation group N"
+        ],
+        "gene_symbol": "PALB2",
+        "hgnc_symbol": "PALB2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:23614488-23652631",
+              "ensembl_id": "ENSG00000083093"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:23603160-23641310",
+              "ensembl_id": "ENSG00000083093"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "PALB2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17200671",
+        "17200672"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group N, 610832",
+        "{Breast cancer, susceptibility to}, 114480",
+        "{Pancreatic cancer, susceptibility to, 3}, 613348",
+        "Fanconi Anemia",
+        "Fanconi Anaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "H_DJ0042M02.9",
+          "HNPCC4",
+          "MLH4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9122",
+        "gene_name": "PMS1 homolog 2, mismatch repair system component",
+        "omim_gene": [
+          "600259"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PMS2",
+        "hgnc_symbol": "PMS2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:6012870-6048756",
+              "ensembl_id": "ENSG00000122512"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:5973239-6009125",
+              "ensembl_id": "ENSG00000122512"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "PMS2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25691505,15077197"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Mismatch repair cancer syndrome, 276300"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BPTP3",
+          "SH-PTP2",
+          "SHP-2",
+          "PTP2C",
+          "SHP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9644",
+        "gene_name": "protein tyrosine phosphatase, non-receptor type 11",
+        "omim_gene": [
+          "176876"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTPN11",
+        "hgnc_symbol": "PTPN11",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:112856155-112947717",
+              "ensembl_id": "ENSG00000179295"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:112418351-112509913",
+              "ensembl_id": "ENSG00000179295"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-03-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTPN11",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "12058348"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Noonan syndrome with multiple lentigines (LEOPARD syndrome), 151100"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Raf-1",
+          "c-Raf",
+          "CRAF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9829",
+        "gene_name": "Raf-1 proto-oncogene, serine/threonine kinase",
+        "omim_gene": [
+          "164760"
+        ],
+        "alias_name": [
+          "C-Raf proto-oncogene, serine/threonine kinase"
+        ],
+        "gene_symbol": "RAF1",
+        "hgnc_symbol": "RAF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:12625100-12705725",
+              "ensembl_id": "ENSG00000132155"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:12583601-12664226",
+              "ensembl_id": "ENSG00000132155"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAF1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17603483"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review",
+        "UKGTN",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Noonan syndrome with multiple lentigines (LEOPARD syndrome), 151100"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1784",
+          "KIAA1987",
+          "FANCP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23845",
+        "gene_name": "SLX4 structure-specific endonuclease subunit",
+        "omim_gene": [
+          "613278"
+        ],
+        "alias_name": [
+          "Fanconi anemia, complementation group P"
+        ],
+        "gene_symbol": "SLX4",
+        "hgnc_symbol": "SLX4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:3631182-3661599",
+              "ensembl_id": "ENSG00000188827"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:3581181-3611598",
+              "ensembl_id": "ENSG00000188827"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLX4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21240275",
+        "21240277"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group P, 613951",
+        "Fanconi Anemia",
+        "Fanconi Anaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ33903",
+          "PPP1R147"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20249",
+        "gene_name": "sprouty related EVH1 domain containing 1",
+        "omim_gene": [
+          "609291"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 147"
+        ],
+        "gene_symbol": "SPRED1",
+        "hgnc_symbol": "SPRED1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:38544527-38649450",
+              "ensembl_id": "ENSG00000166068"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:38252326-38357249",
+              "ensembl_id": "ENSG00000166068"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-01-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPRED1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17704776",
+        "19366998"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Legius syndrome, 611431"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p180"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9173",
+        "gene_name": "DNA polymerase alpha 1, catalytic subunit",
+        "omim_gene": [
+          "312040"
+        ],
+        "alias_name": null,
+        "gene_symbol": "POLA1",
+        "hgnc_symbol": "POLA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:24712036-25015103",
+              "ensembl_id": "ENSG00000101868"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:24693919-24996986",
+              "ensembl_id": "ENSG00000101868"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-09-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "POLA1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "15844784",
+        "27019227",
+        "19377476"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Pigmentary disorder, reticulate, with systemic manifestations, X-linked, 301220",
+        "XLPDR"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "non-coding-known-pathogenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RAD51L2",
+          "FANCO"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9820",
+        "gene_name": "RAD51 paralog C",
+        "omim_gene": [
+          "602774"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RAD51C",
+        "hgnc_symbol": "RAD51C",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:56769934-56811703",
+              "ensembl_id": "ENSG00000108384"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:58692573-58735611",
+              "ensembl_id": "ENSG00000108384"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-02-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "RAD51C",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20400963"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group O, 613390",
+        "{Breast-ovarian cancer, familial, susceptibility to, 3}, 613399",
+        "Fanconi Anemia",
+        "Fanconi Anaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RAD1",
+          "FANCQ"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3436",
+        "gene_name": "ERCC excision repair 4, endonuclease catalytic subunit",
+        "omim_gene": [
+          "133520"
+        ],
+        "alias_name": [
+          "xeroderma pigmentosum, complementation group F"
+        ],
+        "gene_symbol": "ERCC4",
+        "hgnc_symbol": "ERCC4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:14014014-14046202",
+              "ensembl_id": "ENSG00000175595"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:13920157-13952345",
+              "ensembl_id": "ENSG00000175595"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ERCC4",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Xeroderma pigmentosum, group F, 278760",
+        "XFE progeroid syndrome, 610965",
+        "Fanconi anemia, complementation group Q, 615272",
+        "Xeroderma pigmentosum, type F/Cockayne syndrome, 278760",
+        "Fanconi Anaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FAAP250"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23168",
+        "gene_name": "Fanconi anemia complementation group M",
+        "omim_gene": [
+          "609644"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FANCM",
+        "hgnc_symbol": "FANCM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:45605143-45670093",
+              "ensembl_id": "ENSG00000187790"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:45135940-45200890",
+              "ensembl_id": "ENSG00000187790"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "FANCM",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16116422",
+        "19423727",
+        "25078778"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Fanconi anemia, complementation group M, 614087",
+        "Fanconi Anemia",
+        "Fanconi Anaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MEK1",
+          "MAPKK1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6840",
+        "gene_name": "mitogen-activated protein kinase kinase 1",
+        "omim_gene": [
+          "176872"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAP2K1",
+        "hgnc_symbol": "MAP2K1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:66679155-66784650",
+              "ensembl_id": "ENSG00000169032"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:66386817-66492312",
+              "ensembl_id": "ENSG00000169032"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAP2K1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25423878"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Noonan syndrome with multiple lentigines (LEOPARD syndrome), 151100"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSPC150",
+          "FANCT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25009",
+        "gene_name": "ubiquitin conjugating enzyme E2 T",
+        "omim_gene": [
+          "610538"
+        ],
+        "alias_name": null,
+        "gene_symbol": "UBE2T",
+        "hgnc_symbol": "UBE2T",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:202300785-202311108",
+              "ensembl_id": "ENSG00000077152"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:202331657-202341980",
+              "ensembl_id": "ENSG00000077152"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-03-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "UBE2T",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26046368"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Fanconi anaemia, complementation group T,  616435"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": [
+    {
+      "gene_data": null,
+      "entity_type": "region",
+      "entity_name": "ISCA-37431-Loss",
+      "verbose_name": "17q11.2 recurrent region (includes NF1) Loss",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "haploinsufficiency_score": "3",
+      "triplosensitivity_score": "",
+      "required_overlap_percentage": 60,
+      "type_of_variants": "cnv_loss",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "ClinGen"
+      ],
+      "phenotypes": [
+        "dysmorphic features, cardiac anomalies and mental retardation",
+        "613675",
+        "variable facial dysmorphism,  cafe-au-lait spots, neurofibromas and Lisch nodules in the iris, mental retardation, developmental delay, an excessive number of early-onset neurofibromas and an increased risk for malignant peripheral nerve sheath tumors",
+        "NEUROFIBROMATOSIS 1 MICRODELETION SYNDROME",
+        "NF1 MICRODELETION SYNDROME",
+        "Chromosome 17q11.2 deletion syndrome, 1.4Mb"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "chromosome": "17",
+      "grch37_coordinates": null,
+      "grch38_coordinates": [
+        30780079,
+        31937008
+      ],
+      "tags": []
+    }
+  ]
+}

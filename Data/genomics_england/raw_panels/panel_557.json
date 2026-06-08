@@ -1,0 +1,200 @@
+{
+  "id": 557,
+  "hash_id": null,
+  "name": "Autosomal recessive primary hypertrophic osteoarthropathy",
+  "disease_group": "Dermatology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.1",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R167"
+  ],
+  "stats": {
+    "number_of_genes": 3,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "SDR36C1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5154",
+        "gene_name": "15-hydroxyprostaglandin dehydrogenase",
+        "omim_gene": [
+          "601688"
+        ],
+        "alias_name": [
+          "short chain dehydrogenase/reductase family 36C, member 1",
+          "15-hydroxyprostaglandin dehydrogenase (NAD(+))"
+        ],
+        "gene_symbol": "HPGD",
+        "hgnc_symbol": "HPGD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:175411328-175444305",
+              "ensembl_id": "ENSG00000164120"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:174490177-174523154",
+              "ensembl_id": "ENSG00000164120"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "HPGD",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hypertrophic osteoarthropathy, primary, autosomal recessive 1 OMIM:259100"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PGT",
+          "OATP2A1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10955",
+        "gene_name": "solute carrier organic anion transporter family member 2A1",
+        "omim_gene": [
+          "601460"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLCO2A1",
+        "hgnc_symbol": "SLCO2A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:133651540-133771028",
+              "ensembl_id": "ENSG00000174640"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:133932696-134052184",
+              "ensembl_id": "ENSG00000174640"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-11-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLCO2A1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23509104",
+        "27134495",
+        "33852188",
+        "22331663",
+        "27134495"
+      ],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Hypertrophic osteoarthropathy, primary, autosomal recessive 2 OMIM:614441",
+        "hypertrophic osteoarthropathy, primary, autosomal recessive, 2, MONDO:0013756",
+        "Hypertrophic osteoarthropathy, primary, autosomal dominant, OMIM:167100",
+        "hypertrophic osteoarthropathy, primary, autosomal dominant, MONDO:0008172"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SKR1",
+          "ALK2",
+          "ACVR1A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:171",
+        "gene_name": "activin A receptor type 1",
+        "omim_gene": [
+          "102576"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACVR1",
+        "hgnc_symbol": "ACVR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:158592958-158732374",
+              "ensembl_id": "ENSG00000115170"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:157736444-157875862",
+              "ensembl_id": "ENSG00000115170"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-01-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACVR1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Other"
+      ],
+      "phenotypes": [
+        "Fibrodysplasia ossificans progressiva OMIM:135100"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

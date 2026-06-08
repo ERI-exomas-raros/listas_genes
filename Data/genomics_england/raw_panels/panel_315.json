@@ -1,0 +1,1854 @@
+{
+  "id": 315,
+  "hash_id": "568f8db422c1fc1c79ca1777",
+  "name": "Intracerebral calcification disorders",
+  "disease_group": "Neurology and neurodevelopmental disorders",
+  "disease_sub_group": "Parenchymal brain disorders",
+  "status": "public",
+  "version": "1.37",
+  "version_created": "2026-03-16T14:52:27.847304Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 33,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "TRAP",
+          "HPAP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:124",
+        "gene_name": "acid phosphatase 5, tartrate resistant",
+        "omim_gene": [
+          "171640"
+        ],
+        "alias_name": [
+          "tartrate-resistant acid phosphatase",
+          "human purple acid phosphatase"
+        ],
+        "gene_symbol": "ACP5",
+        "hgnc_symbol": "ACP5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:11685475-11689823",
+              "ensembl_id": "ENSG00000102575"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:11574660-11579008",
+              "ensembl_id": "ENSG00000102575"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-02-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACP5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21217755",
+        "21217752",
+        "26951490"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Spondyloenchondrodysplasia with immune dysregulation",
+        "Spondyloenchondrodysplasia, short stature, SLE, intracranial calcification, spasticity, chilblains, autoimmune haemolytic anaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ADAR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:225",
+        "gene_name": "adenosine deaminase, RNA specific",
+        "omim_gene": [
+          "146920"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADAR",
+        "hgnc_symbol": "ADAR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:154554538-154600475",
+              "ensembl_id": "ENSG00000160710"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:154582062-154627999",
+              "ensembl_id": "ENSG00000160710"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-12-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADAR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25604658",
+        "23001123"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Aicardi-Goutieres syndrome 6, OMIM:615010",
+        "Dyschromatosis symmetrica hereditaria, OMIM:127400"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SIGMA1B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:560",
+        "gene_name": "adaptor related protein complex 1 sigma 2 subunit",
+        "omim_gene": [
+          "300629"
+        ],
+        "alias_name": null,
+        "gene_symbol": "AP1S2",
+        "hgnc_symbol": "AP1S2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:15843929-15873054",
+              "ensembl_id": "ENSG00000182287"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:15825806-15854931",
+              "ensembl_id": "ENSG00000182287"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-09-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "AP1S2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10398241",
+        "17186471",
+        "17617514",
+        "18428203",
+        "22210230",
+        "23756445",
+        "30383884",
+        "30714330"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Pettigrew syndrome, OMIM:304340",
+        "Calcifications in basal ganglia"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2202",
+        "gene_name": "collagen type IV alpha 1 chain",
+        "omim_gene": [
+          "120130"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL4A1",
+        "hgnc_symbol": "COL4A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:110801318-110959496",
+              "ensembl_id": "ENSG00000187498"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:110148963-110307149",
+              "ensembl_id": "ENSG00000187498"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL4A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22134833"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Porencephaly 1",
+        "Variable phenotype - porencephaly, destructive cerebral lesions, eye anomalies, intracerebral calcification"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ22170",
+          "AAF132"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26169",
+        "gene_name": "CST telomere replication complex component 1",
+        "omim_gene": [
+          "613129"
+        ],
+        "alias_name": [
+          "conserved telomere maintenance component 1",
+          "alpha accessory factor 132",
+          "conserved telomere capping protein 1"
+        ],
+        "gene_symbol": "CTC1",
+        "hgnc_symbol": "CTC1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:8130191-8151362",
+              "ensembl_id": "ENSG00000178971"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:8224821-8248044",
+              "ensembl_id": "ENSG00000178971"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-02-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTC1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22267198",
+        "22387016"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Cerebroretinal microangiopathy with calcifications and cysts, 612199",
+        "Coats Plus syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SPG49"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20582",
+        "gene_name": "cytochrome P450 family 2 subfamily U member 1",
+        "omim_gene": [
+          "610670"
+        ],
+        "alias_name": [
+          "spastic paraplegia 49"
+        ],
+        "gene_symbol": "CYP2U1",
+        "hgnc_symbol": "CYP2U1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:108852525-108874613",
+              "ensembl_id": "ENSG00000155016"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:107931369-107953457",
+              "ensembl_id": "ENSG00000155016"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-03-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYP2U1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Spastic paraplegia 56, autosomal recessive"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CML33"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3592",
+        "gene_name": "phenylalanyl-tRNA synthetase alpha subunit",
+        "omim_gene": [
+          "602918"
+        ],
+        "alias_name": [
+          "phenylalanine tRNA ligase 1, alpha, cytoplasmic"
+        ],
+        "gene_symbol": "FARSA",
+        "hgnc_symbol": "FARSA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:13033293-13044851",
+              "ensembl_id": "ENSG00000179115"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:12922479-12934037",
+              "ensembl_id": "ENSG00000179115"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-02-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "FARSA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31355908",
+        "33598926"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "?Rajab interstitial lung disease with brain calcifications 2, OMIM:619013"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PheHB",
+          "FRSB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17800",
+        "gene_name": "phenylalanyl-tRNA synthetase beta subunit",
+        "omim_gene": [
+          "609690"
+        ],
+        "alias_name": [
+          "phenylalanine tRNA ligase 1, beta, cytoplasmic"
+        ],
+        "gene_symbol": "FARSB",
+        "hgnc_symbol": "FARSB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:223435255-223521056",
+              "ensembl_id": "ENSG00000116120"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:222570536-222656337",
+              "ensembl_id": "ENSG00000116120"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-02-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "FARSB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29573043",
+        "19161147",
+        "29979980",
+        "30014610"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Rajab syndrome, MIM#613658",
+        "interstitial lung disease",
+        "brain calcifications",
+        "microcephaly",
+        "intellectual disability"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MDA-5",
+          "Hlcd",
+          "MDA5",
+          "IDDM19"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18873",
+        "gene_name": "interferon induced with helicase C domain 1",
+        "omim_gene": [
+          "606951"
+        ],
+        "alias_name": [
+          "helicard",
+          "melanoma differentiation-associated gene 5"
+        ],
+        "gene_symbol": "IFIH1",
+        "hgnc_symbol": "IFIH1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:163123589-163175213",
+              "ensembl_id": "ENSG00000115267"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:162267079-162318703",
+              "ensembl_id": "ENSG00000115267"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "IFIH1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24686847",
+        "25604658",
+        "﻿﻿24995871"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green",
+        "UKGTN",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Aicardi-Goutieres syndrome 7, OMIM:615846"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VE-JAM",
+          "JAM-B",
+          "JAMB",
+          "CD322"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14686",
+        "gene_name": "junctional adhesion molecule 2",
+        "omim_gene": [
+          "606870"
+        ],
+        "alias_name": null,
+        "gene_symbol": "JAM2",
+        "hgnc_symbol": "JAM2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:27011584-27089874",
+              "ensembl_id": "ENSG00000154721"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:25639272-25717562",
+              "ensembl_id": "ENSG00000154721"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-04-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "JAM2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31851307"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Primary brain calcification"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JAM-C",
+          "JAMC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15532",
+        "gene_name": "junctional adhesion molecule 3",
+        "omim_gene": [
+          "606871"
+        ],
+        "alias_name": null,
+        "gene_symbol": "JAM3",
+        "hgnc_symbol": "JAM3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:133938820-134021896",
+              "ensembl_id": "ENSG00000166086"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:134068925-134152001",
+              "ensembl_id": "ENSG00000166086"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-04-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "JAM3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hemorrhagic destruction of the brain, subependymal calcification, and cataracts, 613730"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19918",
+        "gene_name": "myogenesis regulating glycosidase (putative)",
+        "omim_gene": null,
+        "alias_name": null,
+        "gene_symbol": "KIAA1161",
+        "hgnc_symbol": "MYORG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:34366668-34376851",
+              "ensembl_id": "ENSG00000164976"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:34366670-34376853",
+              "ensembl_id": "ENSG00000164976"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-07-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "KIAA1161",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29910000",
+        "30589467",
+        "30656188",
+        "30649222",
+        "31009047"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Primary Familial Brain Calcification",
+        "Basal ganglia calcification, idiopathic, 7, autosomal recessive, 618317"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name",
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "UNQ3030",
+          "ELLP3030",
+          "MGC50789",
+          "GARPL1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24613",
+        "gene_name": "negative regulator of reactive oxygen species",
+        "omim_gene": [
+          "615322"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NRROS",
+        "hgnc_symbol": "NRROS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:196366557-196388875",
+              "ensembl_id": "ENSG00000174004"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:196639686-196662004",
+              "ensembl_id": "ENSG00000174004"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2013-07-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "NRROS",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32100099",
+        "32197075",
+        "28459434"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Seizures, early-onset, with neurodegeneration and brain calcification 618875"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PPP1R115"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8104",
+        "gene_name": "occludin",
+        "omim_gene": [
+          "602876"
+        ],
+        "alias_name": [
+          "tight junction protein occludin TM4 minus",
+          "phosphatase 1, regulatory subunit 115"
+        ],
+        "gene_symbol": "OCLN",
+        "hgnc_symbol": "OCLN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:68788119-68853931",
+              "ensembl_id": "ENSG00000197822"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:69492292-69558104",
+              "ensembl_id": "ENSG00000197822"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "OCLN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "20727516",
+        "26689621",
+        "24668585",
+        "23793442"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Band-like calcification with simplified gyration and polymicrogyria",
+        "Band-like calcification with simplified gyration and polymicrogyria, 251290",
+        "Severe developmental delay with microcephaly"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "structural-variant"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SSV"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8800",
+        "gene_name": "platelet derived growth factor subunit B",
+        "omim_gene": [
+          "190040"
+        ],
+        "alias_name": [
+          "oncogene SIS",
+          "becaplermin"
+        ],
+        "gene_symbol": "PDGFB",
+        "hgnc_symbol": "PDGFB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:39619364-39640756",
+              "ensembl_id": "ENSG00000100311"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:39223359-39244751",
+              "ensembl_id": "ENSG00000100311"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDGFB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27227165 - c.3G>C variant identified in 5 affected members of a family",
+        "26129893",
+        "25211641"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Basal ganglia calcification, idiopathic, 5, 615483",
+        "Fahr syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JTK12",
+          "CD140b",
+          "PDGFR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8804",
+        "gene_name": "platelet derived growth factor receptor beta",
+        "omim_gene": [
+          "173410"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PDGFRB",
+        "hgnc_symbol": "PDGFRB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:149493400-149535435",
+              "ensembl_id": "ENSG00000113721"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:150113837-150155872",
+              "ensembl_id": "ENSG00000113721"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDGFRB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23255827 - original family report and sproadic case report",
+        "26129893",
+        "26599395 - mouse models and functional studies",
+        "25292412 - functional studies",
+        "24796542 - an additional case report of a idiopathic basal ganglia calcification patient with the p.R695C mutation, which resulted in partial loss of autophosphorylation"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Basal ganglia calcification idiopathic 4, 615007",
+        "Calcifications in basal ganglia",
+        "Fahr syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNASEHI",
+          "RNHIA",
+          "RNHL",
+          "AGS4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18518",
+        "gene_name": "ribonuclease H2 subunit A",
+        "omim_gene": [
+          "606034"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RNASEH2A",
+        "hgnc_symbol": "RNASEH2A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:12917394-12924452",
+              "ensembl_id": "ENSG00000104889"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:12802063-12813638",
+              "ensembl_id": "ENSG00000104889"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "RNASEH2A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25604658"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Other",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Aicardi-Goutieres syndrome 4",
+        "Aicardi-Goutieres Syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ11712"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25671",
+        "gene_name": "ribonuclease H2 subunit B",
+        "omim_gene": [
+          "610326"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RNASEH2B",
+        "hgnc_symbol": "RNASEH2B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:51483814-51544592",
+              "ensembl_id": "ENSG00000136104"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:50909678-50973745",
+              "ensembl_id": "ENSG00000136104"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-08-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "RNASEH2B",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25604658"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Other",
+        "UKGTN",
+        " Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Aicardi-Goutieres syndrome 2, OMIM:610181"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AYP1",
+          "AGS3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24116",
+        "gene_name": "ribonuclease H2 subunit C",
+        "omim_gene": [
+          "610330"
+        ],
+        "alias_name": [
+          "Aicardi-Goutieres syndrome 3"
+        ],
+        "gene_symbol": "RNASEH2C",
+        "hgnc_symbol": "RNASEH2C",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:65482367-65488418",
+              "ensembl_id": "ENSG00000172922"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:65714896-65720947",
+              "ensembl_id": "ENSG00000172922"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-08-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "RNASEH2C",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25604658"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Other",
+        " Eligibility statement prior genetic testing",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Aicardi-Goutieres syndrome 3",
+        "Aicardi-Goutieres Syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SBBI88",
+          "Mg11",
+          "HDDC1",
+          "MOP-5",
+          "AGS5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15925",
+        "gene_name": "SAM and HD domain containing deoxynucleoside triphosphate triphosphohydrolase 1",
+        "omim_gene": [
+          "606754"
+        ],
+        "alias_name": [
+          "HD domain containing 1",
+          "monocyte protein 5",
+          "Aicardi-Goutieres syndrome 5"
+        ],
+        "gene_symbol": "SAMHD1",
+        "hgnc_symbol": "SAMHD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:35518632-35580246",
+              "ensembl_id": "ENSG00000101347"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:36890229-36951843",
+              "ensembl_id": "ENSG00000101347"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-07-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "SAMHD1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25604658"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Aicardi-Goutieres syndrome",
+        "Aicardi-Goutieres Syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PiT-2",
+          "Glvr-2",
+          "Ram-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10947",
+        "gene_name": "solute carrier family 20 member 2",
+        "omim_gene": [
+          "158378"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC20A2",
+        "hgnc_symbol": "SLC20A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:42273993-42397069",
+              "ensembl_id": "ENSG00000168575"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:42416475-42541926",
+              "ensembl_id": "ENSG00000168575"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-06-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC20A2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26129893",
+        "27245298 - SLC20A2 exon deletions reported in 4 patients with primary brain calcification",
+        "27726124 - Copy number analysis of the WGS data revealed a heterozygous deletion of ~578 kb on chromosome 8. The deletion removes the 5' UTR region, the noncoding exon 1 and the putative promoter region of SLC20A2 as well as the coding regions of six other genes"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Basal ganglia calcification, idiopathic, 1, 213600",
+        "Familial Idiopathic Basal Ganglia Calcification",
+        "Fahr syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "deletions"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TIN2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11824",
+        "gene_name": "TERF1 interacting nuclear factor 2",
+        "omim_gene": [
+          "604319"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TINF2",
+        "hgnc_symbol": "TINF2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:24708849-24711880",
+              "ensembl_id": "ENSG00000092330"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:24239643-24242674",
+              "ensembl_id": "ENSG00000092330"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-11-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "TINF2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "28095086",
+        "28866069",
+        "29749240",
+        "30478948"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Revesz syndrome, 268130"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TREM-2",
+          "Trem2a",
+          "Trem2b",
+          "Trem2c"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17761",
+        "gene_name": "triggering receptor expressed on myeloid cells 2",
+        "omim_gene": [
+          "605086"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TREM2",
+        "hgnc_symbol": "TREM2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:41126244-41130924",
+              "ensembl_id": "ENSG00000095970"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:41158506-41163186",
+              "ensembl_id": "ENSG00000095970"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-08-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "TREM2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15883308",
+        "12080485"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Calcifications in basal ganglia",
+        "Nasu-Hakola disease",
+        "Polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy (PLOSL)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DRN3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12269",
+        "gene_name": "three prime repair exonuclease 1",
+        "omim_gene": [
+          "606609"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TREX1",
+        "hgnc_symbol": "TREX1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:48506445-48509044",
+              "ensembl_id": "ENSG00000213689"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:48465811-48467645",
+              "ensembl_id": "ENSG00000213689"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-05-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "TREX1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25604658"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Other",
+        "UKGTN",
+        " Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Aicardi-Goutieres syndrome 1, dominant and recessive",
+        "Aicardi-Goutières syndrome, isolated chilblains, lupus-like disease, retinal vasculopathy with cerebral leukodystrophy"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12616",
+        "gene_name": "ubiquitin specific peptidase 18",
+        "omim_gene": [
+          "607057"
+        ],
+        "alias_name": null,
+        "gene_symbol": "USP18",
+        "hgnc_symbol": "USP18",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:18632666-18660164",
+              "ensembl_id": "ENSG00000184979"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:18149899-18177397",
+              "ensembl_id": "ENSG00000184979"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-11-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "USP18",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 27325888"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "pseudo-TORCH syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SYG1",
+          "X3",
+          "SLC53A1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12827",
+        "gene_name": "xenotropic and polytropic retrovirus receptor 1",
+        "omim_gene": [
+          "605237"
+        ],
+        "alias_name": [
+          "solute carrier family 53 (phosphate exporter), member 1"
+        ],
+        "gene_symbol": "XPR1",
+        "hgnc_symbol": "XPR1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:180601140-180859387",
+              "ensembl_id": "ENSG00000143324"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:180632004-180890251",
+              "ensembl_id": "ENSG00000143324"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-02-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "XPR1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25938945",
+        "27230854 - report of a novel variant in a 41-year old man complaining of micrographia and dysarthria and demonstrating mild parkinsonism, cerebellar ataxia and executive dysfunction"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Basal ganglia calcification (Fahr syndrome)",
+        "Basal ganglia calcification, idiopathic, 6, 616413"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CSB",
+          "RAD26",
+          "ARMD5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3438",
+        "gene_name": "ERCC excision repair 6, chromatin remodeling factor",
+        "omim_gene": [
+          "609413"
+        ],
+        "alias_name": [
+          "Cockayne syndrome B protein"
+        ],
+        "gene_symbol": "ERCC6",
+        "hgnc_symbol": "ERCC6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:50663414-50747584",
+              "ensembl_id": "ENSG00000225830"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:49455368-49539538",
+              "ensembl_id": "ENSG00000225830"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "ERCC6",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 7063265"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Intercranial  Calcifications"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MAT",
+          "SAMS",
+          "MATA1",
+          "SAMS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6903",
+        "gene_name": "methionine adenosyltransferase 1A",
+        "omim_gene": [
+          "610550"
+        ],
+        "alias_name": [
+          "S-adenosylmethionine synthetase"
+        ],
+        "gene_symbol": "MAT1A",
+        "hgnc_symbol": "MAT1A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:82031576-82049440",
+              "ensembl_id": "ENSG00000151224"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:80271820-80289684",
+              "ensembl_id": "ENSG00000151224"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAT1A",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8770875"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Calcifications in basal ganglia",
+        "Methionine adenosyltransferase deficiency, autosomal recessive"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VE-cadherin-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8657",
+        "gene_name": "protocadherin 12",
+        "omim_gene": [
+          "605622"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PCDH12",
+        "hgnc_symbol": "PCDH12",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:141323150-141349304",
+              "ensembl_id": "ENSG00000113555"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:141943585-141969741",
+              "ensembl_id": "ENSG00000113555"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-06-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCDH12",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27164683"
+      ],
+      "evidence": [
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "intellectual disability",
+        "microcephaly",
+        "epilepsy",
+        "perithalamic hyperechogenicity",
+        "periventricular hyperechogenicity",
+        "midbrain abnormalities",
+        "hypothalamic abnormalities"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "founder-effect"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Nav1.2",
+          "HBSCII",
+          "HBSCI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10588",
+        "gene_name": "sodium voltage-gated channel alpha subunit 2",
+        "omim_gene": [
+          "182390"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCN2A",
+        "hgnc_symbol": "SCN2A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:166095912-166248818",
+              "ensembl_id": "ENSG00000136531"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:165194993-165392310",
+              "ensembl_id": "ENSG00000136531"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCN2A",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID:24579881"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Epileptic encephalopathy, early infantile, 11",
+        "Seizures, benign familial infantile, 3"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "U8"
+        ],
+        "biotype": "snoRNA",
+        "hgnc_id": "HGNC:32952",
+        "gene_name": "small nucleolar RNA, C/D box 118",
+        "omim_gene": [
+          "616663"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SNORD118",
+        "hgnc_symbol": "SNORD118",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:8076772-8076905",
+              "ensembl_id": "ENSG00000200463"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:8173454-8173587",
+              "ensembl_id": "ENSG00000200463"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "SNORD118",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "27571260",
+        "28177126"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "614561"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "locus-type-small-nucleolar"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNASE6PL",
+          "FLJ10907",
+          "bA514O12.3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21686",
+        "gene_name": "ribonuclease T2",
+        "omim_gene": [
+          "612944"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RNASET2",
+        "hgnc_symbol": "RNASET2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:167342992-167370679",
+              "ensembl_id": "ENSG00000026297"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:166929504-166957191",
+              "ensembl_id": "ENSG00000026297"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-11-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "RNASET2",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "19525954"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Leukoencephalopathy, cystic, without megalencephaly, MIM#\t612951"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DAP12",
+          "PLO-SL",
+          "KARAP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12449",
+        "gene_name": "TYRO protein tyrosine kinase binding protein",
+        "omim_gene": [
+          "604142"
+        ],
+        "alias_name": [
+          "killer activating receptor associated protein",
+          "DNAX-activation protein 12"
+        ],
+        "gene_symbol": "TYROBP",
+        "hgnc_symbol": "TYROBP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:36395303-36399197",
+              "ensembl_id": "ENSG00000011600"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:35904401-35908295",
+              "ensembl_id": "ENSG00000011600"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TYROBP",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30242731"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy 1, MIM#\t221770"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

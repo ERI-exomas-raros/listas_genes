@@ -1,0 +1,137 @@
+{
+  "id": 1368,
+  "hash_id": null,
+  "name": "NARP syndrome or maternally inherited Leigh syndrome",
+  "disease_group": "Mitochondrial",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.2",
+  "version_created": "2026-01-23T11:37:20.301185Z",
+  "relevant_disorders": [
+    "R351"
+  ],
+  "stats": {
+    "number_of_genes": 2,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "ATP6",
+          "ATPase-6",
+          "Su6m"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7414",
+        "gene_name": "mitochondrially encoded ATP synthase 6",
+        "omim_gene": [
+          "516060"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MT-ATP6",
+        "hgnc_symbol": "MT-ATP6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:8527-9207",
+              "ensembl_id": "ENSG00000198899"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:8527-9207",
+              "ensembl_id": "ENSG00000198899"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-ATP6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NAD6",
+          "ND6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7462",
+        "gene_name": "mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 6",
+        "omim_gene": [
+          "516006"
+        ],
+        "alias_name": [
+          "complex I ND6 subunit",
+          "NADH-ubiquinone oxidoreductase chain 6"
+        ],
+        "gene_symbol": "MT-ND6",
+        "hgnc_symbol": "MT-ND6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "MT:14149-14673",
+              "ensembl_id": "ENSG00000198695"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "MT:14149-14673",
+              "ensembl_id": "ENSG00000198695"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "MT-ND6",
+      "confidence_level": "0",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed",
+        "NHS GMS"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MITOCHONDRIAL",
+      "tags": [
+        "curated_removed",
+        "gene-checked"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

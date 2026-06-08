@@ -1,0 +1,411 @@
+{
+  "id": 523,
+  "hash_id": null,
+  "name": "Inherited predisposition to GIST",
+  "disease_group": "Inherited cancer",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.16",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R363"
+  ],
+  "stats": {
+    "number_of_genes": 7,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "CD117",
+          "SCFR",
+          "C-Kit"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6342",
+        "gene_name": "KIT proto-oncogene receptor tyrosine kinase",
+        "omim_gene": [
+          "164920"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KIT",
+        "hgnc_symbol": "KIT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:55524085-55606881",
+              "ensembl_id": "ENSG00000157404"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:54657918-54740715",
+              "ensembl_id": "ENSG00000157404"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "KIT",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert List"
+      ],
+      "phenotypes": [
+        "Gastrointestinal stromal tumor, familial, OMIM:606764",
+        "Gastrointestinal stromal tumor, MONDO:0011719"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD140a",
+          "PDGFR2",
+          "GAS9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8803",
+        "gene_name": "platelet derived growth factor receptor alpha",
+        "omim_gene": [
+          "173490"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PDGFRA",
+        "hgnc_symbol": "PDGFRA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:55095264-55164414",
+              "ensembl_id": "ENSG00000134853"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:54229097-54298247",
+              "ensembl_id": "ENSG00000134853"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "PDGFRA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17087943",
+        "14699510",
+        "25975287",
+        "17566086"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert List"
+      ],
+      "phenotypes": [
+        "Gastrointestinal stromal tumor/GIST-plus syndrome, somatic or familial, OMIM:175510",
+        "Polyps, multiple and recurrent inflammatory fibroid, gastrointestinal, MONDO:0008285"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FP",
+          "SDHF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10680",
+        "gene_name": "succinate dehydrogenase complex flavoprotein subunit A",
+        "omim_gene": [
+          "600857"
+        ],
+        "alias_name": [
+          "succinate dehydrogenase [ubiquinone] flavoprotein subunit",
+          "flavoprotein subunit of complex II"
+        ],
+        "gene_symbol": "SDHA",
+        "hgnc_symbol": "SDHA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:218356-256815",
+              "ensembl_id": "ENSG00000073578"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:218241-256700",
+              "ensembl_id": "ENSG00000073578"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-10-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert List"
+      ],
+      "phenotypes": [
+        "Gastrointestinal stromal tumours"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10681",
+        "gene_name": "succinate dehydrogenase complex iron sulfur subunit B",
+        "omim_gene": [
+          "185470"
+        ],
+        "alias_name": [
+          "iron-sulfur subunit of complex II",
+          "succinate dehydrogenase [ubiquinone] iron-sulfur subunit"
+        ],
+        "gene_symbol": "SDHB",
+        "hgnc_symbol": "SDHB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:17345217-17380665",
+              "ensembl_id": "ENSG00000117118"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:17018722-17054170",
+              "ensembl_id": "ENSG00000117118"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert List"
+      ],
+      "phenotypes": [
+        "Gastrointestinal stromal tumor, OMIM:606764",
+        "Paraganglioma and gastric stromal sarcoma, OMIM:606864",
+        "Carney-Stratakis syndrome, MONDO:0011740"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CYB560",
+          "cybL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10682",
+        "gene_name": "succinate dehydrogenase complex subunit C",
+        "omim_gene": [
+          "602413"
+        ],
+        "alias_name": [
+          "succinate dehydrogenase cytochrome b560 subunit",
+          "succinate dehydrgenase cytochrome b",
+          "large subunit of cytochrome b"
+        ],
+        "gene_symbol": "SDHC",
+        "hgnc_symbol": "SDHC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:161284047-161332984",
+              "ensembl_id": "ENSG00000143252"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:161314257-161375340",
+              "ensembl_id": "ENSG00000143252"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHC",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert List"
+      ],
+      "phenotypes": [
+        "Gastrointestinal stromal tumor, OMIM:606764",
+        "Paraganglioma and gastric stromal sarcoma, OMIM:606864",
+        "Carney-Stratakis syndrome, MONDO:0011740"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cybS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10683",
+        "gene_name": "succinate dehydrogenase complex subunit D",
+        "omim_gene": [
+          "602690"
+        ],
+        "alias_name": [
+          "small subunit of cytochrome b"
+        ],
+        "gene_symbol": "SDHD",
+        "hgnc_symbol": "SDHD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:111957497-111990353",
+              "ensembl_id": "ENSG00000204370"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:112086773-112120013",
+              "ensembl_id": "ENSG00000204370"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHD",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Expert List"
+      ],
+      "phenotypes": [
+        "Paraganglioma and gastric stromal sarcoma, OMIM:606864",
+        "Carney-Stratakis syndrome, MONDO:0011740"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7765",
+        "gene_name": "neurofibromin 1",
+        "omim_gene": [
+          "613113"
+        ],
+        "alias_name": [
+          "neurofibromatosis",
+          "von Recklinghausen disease",
+          "Watson disease"
+        ],
+        "gene_symbol": "NF1",
+        "hgnc_symbol": "NF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:29421945-29709134",
+              "ensembl_id": "ENSG00000196712"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:31094927-31382116",
+              "ensembl_id": "ENSG00000196712"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "NF1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Neurofibromatosis, type 1, OMIM:162200"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

@@ -1,0 +1,201 @@
+{
+  "id": 1211,
+  "hash_id": null,
+  "name": "Alveolar capillary dysplasia with misalignment of pulmonary veins",
+  "disease_group": "Respiratory",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.8",
+  "version_created": "2026-01-22T17:22:30.222889Z",
+  "relevant_disorders": [
+    "R330"
+  ],
+  "stats": {
+    "number_of_genes": 3,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "FREAC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3809",
+        "gene_name": "forkhead box F1",
+        "omim_gene": [
+          "601089"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FOXF1",
+        "hgnc_symbol": "FOXF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:86544133-86548076",
+              "ensembl_id": "ENSG00000103241"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:86510527-86515418",
+              "ensembl_id": "ENSG00000103241"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "FOXF1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Alveolar capillary dysplasia with misalignment of pulmonary veins, OMIM:265380",
+        "alveolar capillary dysplasia with misalignment of pulmonary veins, MONDO:0009934"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TCONS_00024764"
+        ],
+        "biotype": "lincRNA",
+        "hgnc_id": "HGNC:49124",
+        "gene_name": "long intergenic non-protein coding RNA 1081",
+        "omim_gene": [
+          "614977"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LINC01081",
+        "hgnc_symbol": "LINC01081",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:86259186-86309351",
+              "ensembl_id": "ENSG00000268754"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:86225580-86275745",
+              "ensembl_id": "ENSG00000268754"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2013-09-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "LINC01081",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "19500772",
+        "23034409",
+        "24842713",
+        "27071622"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Alveolar capillary dysplasia with misalignment of pulmonary veins"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "gene-checked",
+        "Q3_25_promote_green",
+        "Q3_25_expert_review",
+        "Q3_25_NHS_review",
+        "cnv"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TCONS_00024492"
+        ],
+        "biotype": "lincRNA",
+        "hgnc_id": "HGNC:49125",
+        "gene_name": "long intergenic non-protein coding RNA 1082",
+        "omim_gene": [
+          "614978"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LINC01082",
+        "hgnc_symbol": "LINC01082",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:86229787-86233326",
+              "ensembl_id": "ENSG00000269186"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:86196181-86199720",
+              "ensembl_id": "ENSG00000269186"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2013-09-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "LINC01082",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "19500772",
+        "23034409",
+        "24842713",
+        "27071622"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Alveolar capillary dysplasia with misalignment of pulmonary veins"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "gene-checked",
+        "Q3_25_promote_green",
+        "Q3_25_expert_review",
+        "Q3_25_NHS_review",
+        "cnv"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

@@ -1,0 +1,140 @@
+{
+  "id": 1370,
+  "hash_id": null,
+  "name": "Neurofibromatosis type 1 (GMS)",
+  "disease_group": "Neurology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.4",
+  "version_created": "2026-01-23T11:43:21.670819Z",
+  "relevant_disorders": [
+    "R222"
+  ],
+  "stats": {
+    "number_of_genes": 2,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7765",
+        "gene_name": "neurofibromin 1",
+        "omim_gene": [
+          "613113"
+        ],
+        "alias_name": [
+          "neurofibromatosis",
+          "von Recklinghausen disease",
+          "Watson disease"
+        ],
+        "gene_symbol": "NF1",
+        "hgnc_symbol": "NF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:29421945-29709134",
+              "ensembl_id": "ENSG00000196712"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:31094927-31382116",
+              "ensembl_id": "ENSG00000196712"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "NF1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Neurofibromatosis, type 1, OMIM:162200",
+        "Neurofibromatosis, familial spinal, OMIM:162210",
+        "Neurofibromatosis-Noonan syndrome, OMIM:601321",
+        "neurofibromatosis type 1, MONDO:0018975",
+        "neurofibromatosis-Noonan syndrome, MONDO:0011035"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ33903",
+          "PPP1R147"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20249",
+        "gene_name": "sprouty related EVH1 domain containing 1",
+        "omim_gene": [
+          "609291"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 147"
+        ],
+        "gene_symbol": "SPRED1",
+        "hgnc_symbol": "SPRED1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:38544527-38649450",
+              "ensembl_id": "ENSG00000166068"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:38252326-38357249",
+              "ensembl_id": "ENSG00000166068"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-01-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPRED1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Legius syndrome, OMIM:611431",
+        "Legius syndrome, MONDO:0012669"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

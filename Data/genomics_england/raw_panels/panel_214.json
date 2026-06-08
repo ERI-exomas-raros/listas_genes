@@ -1,0 +1,614 @@
+{
+  "id": 214,
+  "hash_id": "55a3aac122c1fc6710839b7d",
+  "name": "Catecholaminergic polymorphic VT",
+  "disease_group": "Cardiology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "5.4",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Catecholaminergic Polymorphic Ventricular Tachycardia",
+    "R129"
+  ],
+  "stats": {
+    "number_of_genes": 10,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "Component Of Super Panel",
+      "slug": "component-of-super-panel",
+      "description": "This panel is a component of a Super Panel"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "CAMI",
+          "PHKD",
+          "DD132"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1442",
+        "gene_name": "calmodulin 1",
+        "omim_gene": [
+          "114180"
+        ],
+        "alias_name": [
+          "prepro-calmodulin 1",
+          "phosphorylase kinase subunit delta"
+        ],
+        "gene_symbol": "CALM1",
+        "hgnc_symbol": "CALM1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:90862846-90874605",
+              "ensembl_id": "ENSG00000198668"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:90396502-90408261",
+              "ensembl_id": "ENSG00000198668"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "CALM1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27761157",
+        "19121813"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "UKGTN",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Ventricular tachycardia, catecholaminergic polymorphic, 4, OMIM:614916"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PHKD",
+          "CAMII"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1445",
+        "gene_name": "calmodulin 2",
+        "omim_gene": [
+          "114182"
+        ],
+        "alias_name": [
+          "prepro-calmodulin 2",
+          "phosphorylase kinase subunit delta"
+        ],
+        "gene_symbol": "CALM2",
+        "hgnc_symbol": "CALM2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47387221-47403740",
+              "ensembl_id": "ENSG00000143933"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47160082-47176601",
+              "ensembl_id": "ENSG00000143933"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "CALM2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24917665",
+        "27100291",
+        "27114410",
+        "33200177"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "Expert Review Green",
+        "Oxford Medical Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Long QT syndrome 15, OMIM:616249",
+        "long QT syndrome 15, MONDO:0014550"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PHKD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1449",
+        "gene_name": "calmodulin 3",
+        "omim_gene": [
+          "114183"
+        ],
+        "alias_name": [
+          "prepro-calmodulin 3",
+          "phosphorylase kinase subunit delta"
+        ],
+        "gene_symbol": "CALM3",
+        "hgnc_symbol": "CALM3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:47104331-47114050",
+              "ensembl_id": "ENSG00000160014"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:46601074-46610793",
+              "ensembl_id": "ENSG00000160014"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "CALM3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27516456"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "London South GLH",
+        "Oxford Medical Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "?Ventricular tachycardia, catecholaminergic polymorphic 6, OMIM:618782"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PDIB2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1513",
+        "gene_name": "calsequestrin 2",
+        "omim_gene": [
+          "114251"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CASQ2",
+        "hgnc_symbol": "CASQ2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:116242628-116311402",
+              "ensembl_id": "ENSG00000118729"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:115700007-115768781",
+              "ensembl_id": "ENSG00000118729"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "CASQ2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27761157",
+        "19121813",
+        "16908766"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "UKGTN",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Ventricular tachycardia, catecholaminergic polymorphic, 2, OMIM:611938"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARVC2",
+          "VTSIP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10484",
+        "gene_name": "ryanodine receptor 2",
+        "omim_gene": [
+          "180902"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RYR2",
+        "hgnc_symbol": "RYR2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:237205505-237997288",
+              "ensembl_id": "ENSG00000198626"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:237042205-237833988",
+              "ensembl_id": "ENSG00000198626"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "RYR2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27761157",
+        "19121813",
+        "16391617"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Ventricular tachycardia, catecholaminergic polymorphic, 1, OMIM:604772"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GPSN2L",
+          "SRD5A2L2",
+          "DKFZp313D0829",
+          "DKFZp313B2333",
+          "TERL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:27365",
+        "gene_name": "trans-2,3-enoyl-CoA reductase like",
+        "omim_gene": [
+          "617242"
+        ],
+        "alias_name": [
+          "glycoprotein, synaptic 2-like"
+        ],
+        "gene_symbol": "TECRL",
+        "hgnc_symbol": "TECRL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:65140975-65275186",
+              "ensembl_id": "ENSG00000205678"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:64275257-64409468",
+              "ensembl_id": "ENSG00000205678"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-07-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "TECRL",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27861123",
+        "30790670",
+        "32173957",
+        "33367594"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Ventricular tachycardia, catecholaminergic polymorphic, 3, OMIM:614021"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12261",
+        "gene_name": "triadin",
+        "omim_gene": [
+          "603283"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TRDN",
+        "hgnc_symbol": "TRDN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:123537483-123958238",
+              "ensembl_id": "ENSG00000186439"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:123216339-123637093",
+              "ensembl_id": "ENSG00000186439"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-12-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "TRDN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26200674"
+      ],
+      "evidence": [
+        "South West GLH",
+        "London South GLH",
+        "North West GLH",
+        "Expert Review Green",
+        "UKGTN",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Ventricular tachycardia, catecholaminergic polymorphic, 5, with or without muscle weakness, OMIM:615441"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:493",
+        "gene_name": "ankyrin 2",
+        "omim_gene": [
+          "106410"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANK2",
+        "hgnc_symbol": "ANK2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:113739265-114304896",
+              "ensembl_id": "ENSG00000145362"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:112818109-113383740",
+              "ensembl_id": "ENSG00000145362"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANK2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "South West GLH",
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "catecholaminergic polymorphic ventricular tachycardia, MONDO:0017990"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "minK",
+          "ISK",
+          "JLNS2",
+          "LQT5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6240",
+        "gene_name": "potassium voltage-gated channel subfamily E regulatory subunit 1",
+        "omim_gene": [
+          "176261"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNE1",
+        "hgnc_symbol": "KCNE1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:35818988-35884573",
+              "ensembl_id": "ENSG00000180509"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:34446688-34512275",
+              "ensembl_id": "ENSG00000180509"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNE1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16818210",
+        "doi:10.​1007/​s12265-016-9673-5"
+      ],
+      "evidence": [
+        "South West GLH",
+        "Literature"
+      ],
+      "phenotypes": [
+        "catecholaminergic polymorphic ventricular tachycardia, MONDO:0017990"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Kir2.1",
+          "IRK1",
+          "LQT7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6263",
+        "gene_name": "potassium voltage-gated channel subfamily J member 2",
+        "omim_gene": [
+          "600681"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KCNJ2",
+        "hgnc_symbol": "KCNJ2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:68164814-68176189",
+              "ensembl_id": "ENSG00000123700"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:70168673-70180048",
+              "ensembl_id": "ENSG00000123700"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-02-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "KCNJ2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27761157"
+      ],
+      "evidence": [
+        "South West GLH",
+        "North West GLH",
+        "UKGTN",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "catecholaminergic polymorphic ventricular tachycardia, MONDO:0017990"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

@@ -1,0 +1,568 @@
+{
+  "id": 527,
+  "hash_id": null,
+  "name": "Familial chylomicronaemia syndrome (FCS)",
+  "disease_group": "Lipids",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.4",
+  "version_created": "2026-01-23T10:38:48.699459Z",
+  "relevant_disorders": [
+    "Lipoprotein lipase deficiency",
+    "R324"
+  ],
+  "stats": {
+    "number_of_genes": 10,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "RAP3",
+          "APOA-V"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17288",
+        "gene_name": "apolipoprotein A5",
+        "omim_gene": [
+          "606368"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOA5",
+        "hgnc_symbol": "APOA5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:116660083-116663136",
+              "ensembl_id": "ENSG00000110243"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:116789367-116792420",
+              "ensembl_id": "ENSG00000110243"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOA5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27604308",
+        "12417525",
+        "27678447",
+        "16200213",
+        "23307945"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hyperchylomicronemia, late-onset OMIM:144650",
+        "hyperlipoproteinemia type V MONDO:0007762",
+        "{Hypertriglyceridemia, susceptibility to} OMIM:145750",
+        "hypertriglyceridemia, familial MONDO:0007788"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:609",
+        "gene_name": "apolipoprotein C2",
+        "omim_gene": [
+          "608083"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOC2",
+        "hgnc_symbol": "APOC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:45449243-45452822",
+              "ensembl_id": "ENSG00000234906"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:44945982-44949565",
+              "ensembl_id": "ENSG00000234906"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOC2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hyperlipoproteinemia, type Ib OMIM:207750"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:613",
+        "gene_name": "apolipoprotein E",
+        "omim_gene": [
+          "107741"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOE",
+        "hgnc_symbol": "APOE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:45409011-45412650",
+              "ensembl_id": "ENSG00000130203"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:44905754-44909393",
+              "ensembl_id": "ENSG00000130203"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOE",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hyperlipoproteinemia, type III OMIM:617347",
+        "hyperlipoproteinemia type 3 MONDO:0018473",
+        "Lipoprotein glomerulopathy OMIM:611771",
+        "lipoprotein glomerulopathy MONDO:0012725"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CREB-H"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18855",
+        "gene_name": "cAMP responsive element binding protein 3 like 3",
+        "omim_gene": [
+          "611998"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CREB3L3",
+        "hgnc_symbol": "CREB3L3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:4153598-4173051",
+              "ensembl_id": "ENSG00000060566"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:4153601-4173054",
+              "ensembl_id": "ENSG00000060566"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-12-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "CREB3L3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29954705",
+        "21666694",
+        "26427795",
+        "22135386"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hypertriglyceridemia 2, OMIM:619324",
+        "Hypertriglyceridemia (disease) MONDO:0005347"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4455",
+        "gene_name": "glycerol-3-phosphate dehydrogenase 1",
+        "omim_gene": [
+          "138420"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GPD1",
+        "hgnc_symbol": "GPD1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:50497602-50505102",
+              "ensembl_id": "ENSG00000167588"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:50103819-50111319",
+              "ensembl_id": "ENSG00000167588"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GPD1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hypertriglyceridemia, transient infantile OMIM:614480",
+        "transient infantile hypertriglyceridemia and hepatosteatosis MONDO:0013771"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LOC338328",
+          "GPI-HBP1"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:24945",
+        "gene_name": "glycosylphosphatidylinositol anchored high density lipoprotein binding protein 1",
+        "omim_gene": [
+          "612757"
+        ],
+        "alias_name": [
+          "endothelial cell LPL transporter"
+        ],
+        "gene_symbol": "GPIHBP1",
+        "hgnc_symbol": "GPIHBP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:144295068-144299044",
+              "ensembl_id": "ENSG00000182851"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:143213193-143217170",
+              "ensembl_id": "ENSG00000277494"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-02-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "GPIHBP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hyperlipoproteinemia, type 1D OMIM:615947",
+        "hyperlipoproteinemia, type 1D MONDO:0014412"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ12681",
+          "JFP11",
+          "FLJ22302",
+          "TMEM112A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14154",
+        "gene_name": "lipase maturation factor 1",
+        "omim_gene": [
+          "611761"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LMF1",
+        "hgnc_symbol": "LMF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:903634-1031318",
+              "ensembl_id": "ENSG00000103227"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:853634-981318",
+              "ensembl_id": "ENSG00000103227"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-11-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "LMF1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17994020",
+        "19820022",
+        "30885219",
+        "30420299",
+        "29910226",
+        "22239554"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Lipase deficiency, combined OMIM:246650",
+        "lipase deficiency, combined MONDO:0009527"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6677",
+        "gene_name": "lipoprotein lipase",
+        "omim_gene": [
+          "609708"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LPL",
+        "hgnc_symbol": "LPL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:19759228-19824769",
+              "ensembl_id": "ENSG00000175445"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:19901717-19967258",
+              "ensembl_id": "ENSG00000175445"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "LPL",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "South West GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Lipoprotein lipase deficiency OMIM:238600",
+        "familial lipoprotein lipase deficiency MONDO:0009387",
+        "Combined hyperlipidemia, familial OMIM:144250",
+        "hyperlipidemia, familial combined, LPL related MONDO:0007759"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:603",
+        "gene_name": "apolipoprotein B",
+        "omim_gene": [
+          "107730"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOB",
+        "hgnc_symbol": "APOB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:21224301-21266945",
+              "ensembl_id": "ENSG00000084674"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:21001429-21044073",
+              "ensembl_id": "ENSG00000084674"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOB",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "South West GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia, familial, 2 OMIM:144010",
+        "hypercholesterolemia, autosomal dominant, type B MONDO:0007751",
+        "Hypobetalipoproteinemia OMIM:615558",
+        "familial hypobetalipoproteinemia 1 MONDO:0014252"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PRED5",
+          "LPDL",
+          "CT17",
+          "mPA-PLA1beta",
+          "PLA1C"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18821",
+        "gene_name": "lipase I",
+        "omim_gene": [
+          "609252"
+        ],
+        "alias_name": [
+          "membrane-associated phospholipase A1 beta",
+          "cancer/testis antigen 17"
+        ],
+        "gene_symbol": "LIPI",
+        "hgnc_symbol": "LIPI",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:15481134-15583166",
+              "ensembl_id": "ENSG00000188992"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:14108813-14210891",
+              "ensembl_id": "ENSG00000188992"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-07-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "LIPI",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "South West GLH",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "hypertriglyceridemia (disease) MONDO:0005347"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

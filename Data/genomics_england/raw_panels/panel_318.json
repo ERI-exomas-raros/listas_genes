@@ -1,0 +1,756 @@
+{
+  "id": 318,
+  "hash_id": "5763f2bf8f620350a1996047",
+  "name": "Familial prostate cancer",
+  "disease_group": "",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.4",
+  "version_created": "2025-11-23T17:11:23.782466Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 14,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "FAD",
+          "FAD1",
+          "BRCC2",
+          "XRCC11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1101",
+        "gene_name": "BRCA2, DNA repair associated",
+        "omim_gene": [
+          "600185"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-containing complex, subunit 2"
+        ],
+        "gene_symbol": "BRCA2",
+        "hgnc_symbol": "BRCA2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:32889611-32973805",
+              "ensembl_id": "ENSG00000139618"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:32315474-32400266",
+              "ensembl_id": "ENSG00000139618"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-10-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRCA2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26360800",
+        "10398279 - no association found with breast/ovarian cance susceptibility variants",
+        "26289772",
+        "26236408 - literature review indicating there is conflicting reports",
+        "26074382",
+        "21952622",
+        "28031937"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "{Prostate cancer}, OMIM:176807"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNF53",
+          "BRCC1",
+          "PPP1R53",
+          "FANCS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1100",
+        "gene_name": "BRCA1, DNA repair associated",
+        "omim_gene": [
+          "113705"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-containing complex, subunit 1",
+          "protein phosphatase 1, regulatory subunit 53",
+          "Fanconi anemia, complementation group S"
+        ],
+        "gene_symbol": "BRCA1",
+        "hgnc_symbol": "BRCA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:41196312-41277500",
+              "ensembl_id": "ENSG00000012048"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:43044295-43170245",
+              "ensembl_id": "ENSG00000012048"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-02-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRCA1",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27989354",
+        "27899188",
+        "27742670",
+        "27433846",
+        "27317574",
+        "27306910 - standardized incidence ratios (SIRs) were used to compare the observed incidence of 20 primary cancer sites to the expected incidence of each cancer based on the calculated risk estimates according to each subject's age, sex, and ethnicity. BRCA1 families had increased SIRs for breast and ovarian cancer (p < .001) and decreased SIRs for kidney, lung, prostate, and thyroid cancer and non-Hodgkin's lymphoma (p < .001)",
+        "27188668",
+        "26926928",
+        "26360800 - no increased risk",
+        "26236408 - literature review indicating there is conflicting reports",
+        "22516946",
+        "28031937"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Prostate cancer, MONDO:0008315"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OF",
+          "BACH1",
+          "FANCJ"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20473",
+        "gene_name": "BRCA1 interacting protein C-terminal helicase 1",
+        "omim_gene": [
+          "605882"
+        ],
+        "alias_name": [
+          "BRCA1/BRCA2-associated helicase 1"
+        ],
+        "gene_symbol": "BRIP1",
+        "hgnc_symbol": "BRIP1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:59758627-59940882",
+              "ensembl_id": "ENSG00000136492"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:61681266-61863521",
+              "ensembl_id": "ENSG00000136492"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-04-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "BRIP1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26074382"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDS1",
+          "CHK2",
+          "HuCds1",
+          "PP1425",
+          "bA444G7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16627",
+        "gene_name": "checkpoint kinase 2",
+        "omim_gene": [
+          "604373"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CHEK2",
+        "hgnc_symbol": "CHEK2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:29083731-29138410",
+              "ensembl_id": "ENSG00000183765"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:28687743-28742422",
+              "ensembl_id": "ENSG00000183765"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-09-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHEK2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26074382"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "{Prostate cancer, familial, susceptibility to}"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ10530",
+          "HPC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14198",
+        "gene_name": "elaC ribonuclease Z 2",
+        "omim_gene": [
+          "605367"
+        ],
+        "alias_name": [
+          "tRNase Z (long form)"
+        ],
+        "gene_symbol": "ELAC2",
+        "hgnc_symbol": "ELAC2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:12895708-12921504",
+              "ensembl_id": "ENSG00000006744"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:12992391-13018187",
+              "ensembl_id": "ENSG00000006744"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "ELAC2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28031937"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "hereditary prostate cancer"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5112",
+        "gene_name": "homeobox B13",
+        "omim_gene": [
+          "604607"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HOXB13",
+        "hgnc_symbol": "HOXB13",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:46802125-46806540",
+              "ensembl_id": "ENSG00000159184"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:48724763-48729178",
+              "ensembl_id": "ENSG00000159184"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-07-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "HOXB13",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26074382",
+        "28031937"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNPCC",
+          "HNPCC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7325",
+        "gene_name": "mutS homolog 2",
+        "omim_gene": [
+          "609309"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH2",
+        "hgnc_symbol": "MSH2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47630108-47789450",
+              "ensembl_id": "ENSG00000095002"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47402969-47562311",
+              "ensembl_id": "ENSG00000095002"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26289772"
+      ],
+      "evidence": [
+        "Expert list"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "G7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7328",
+        "gene_name": "mutS homolog 5",
+        "omim_gene": [
+          "603382"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH5",
+        "hgnc_symbol": "MSH5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:31707725-31732622",
+              "ensembl_id": "ENSG00000204410"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:31739948-31762834",
+              "ensembl_id": "ENSG00000204410"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH5",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26964030"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "prostate cancer susceptibility"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7329",
+        "gene_name": "mutS homolog 6",
+        "omim_gene": [
+          "600678"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH6",
+        "hgnc_symbol": "MSH6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47922669-48037240",
+              "ensembl_id": "ENSG00000116062"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47695530-47810101",
+              "ensembl_id": "ENSG00000116062"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-08-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH6",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27456091"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SCARA1",
+          "CD204",
+          "SR-AI",
+          "SR-AII",
+          "SR-AIII",
+          "SR-A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7376",
+        "gene_name": "macrophage scavenger receptor 1",
+        "omim_gene": [
+          "153622"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSR1",
+        "hgnc_symbol": "MSR1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:15965387-16424999",
+              "ensembl_id": "ENSG00000038945"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:16107878-16567490",
+              "ensembl_id": "ENSG00000038945"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSR1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12244320",
+        "12244320",
+        "12958598 - found no association and the variant reported in PMID:12244320 has been reclassified",
+        "27084275",
+        "26225686 - no association with another variant found in meta-analysis",
+        "28031937"
+      ],
+      "evidence": [
+        "Other"
+      ],
+      "phenotypes": [
+        "Prostate cancer, hereditary"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ21816",
+          "FANCN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26144",
+        "gene_name": "partner and localizer of BRCA2",
+        "omim_gene": [
+          "610355"
+        ],
+        "alias_name": [
+          "Fanconi anemia, complementation group N"
+        ],
+        "gene_symbol": "PALB2",
+        "hgnc_symbol": "PALB2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:23614488-23652631",
+              "ensembl_id": "ENSG00000083093"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:23603160-23641310",
+              "ensembl_id": "ENSG00000083093"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "PALB2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26074382"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MMAC1",
+          "TEP1",
+          "PTEN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9588",
+        "gene_name": "phosphatase and tensin homolog",
+        "omim_gene": [
+          "601728"
+        ],
+        "alias_name": [
+          "mutated in multiple advanced cancers 1"
+        ],
+        "gene_symbol": "PTEN",
+        "hgnc_symbol": "PTEN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:89622870-89731687",
+              "ensembl_id": "ENSG00000171862"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:87863113-87971930",
+              "ensembl_id": "ENSG00000171862"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTEN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Other"
+      ],
+      "phenotypes": [
+        "harmartoma, glioma, prostate, endometrial",
+        "Cowden syndrome, Bannayan-Riley-Ruvalcaba syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10050",
+        "gene_name": "ribonuclease L",
+        "omim_gene": [
+          "180435"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RNASEL",
+        "hgnc_symbol": "RNASEL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:182542769-182558391",
+              "ensembl_id": "ENSG00000135828"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:182573634-182589256",
+              "ensembl_id": "ENSG00000135828"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-06-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "RNASEL",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28031937"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "hereditary prostate cancer"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TEF2",
+          "BTBD32"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11254",
+        "gene_name": "speckle type BTB/POZ protein",
+        "omim_gene": [
+          "602650"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SPOP",
+        "hgnc_symbol": "SPOP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:47676246-47755596",
+              "ensembl_id": "ENSG00000121067"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:49598884-49678234",
+              "ensembl_id": "ENSG00000121067"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPOP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Other"
+      ],
+      "phenotypes": [
+        "prostate cancer"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

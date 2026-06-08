@@ -1,0 +1,136 @@
+{
+  "id": 1337,
+  "hash_id": null,
+  "name": "Generalised arterial calcification in infancy",
+  "disease_group": "Cardiology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.4",
+  "version_created": "2026-01-23T10:49:58.704410Z",
+  "relevant_disorders": [
+    "R384"
+  ],
+  "stats": {
+    "number_of_genes": 2,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "MRP6",
+          "EST349056",
+          "MLP1",
+          "URG7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:57",
+        "gene_name": "ATP binding cassette subfamily C member 6",
+        "omim_gene": [
+          "603234"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ABCC6",
+        "hgnc_symbol": "ABCC6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:16242785-16317379",
+              "ensembl_id": "ENSG00000091262"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:16148928-16223522",
+              "ensembl_id": "ENSG00000091262"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCC6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Arterial calcification, generalized, of infancy, 2, OMIM:614473",
+        "arterial calcification, generalized, of infancy, 2, MONDO:0013768"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PC-1",
+          "PCA1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3356",
+        "gene_name": "ectonucleotide pyrophosphatase/phosphodiesterase 1",
+        "omim_gene": [
+          "173335"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ENPP1",
+        "hgnc_symbol": "ENPP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:132129156-132216295",
+              "ensembl_id": "ENSG00000197594"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:131808016-131895155",
+              "ensembl_id": "ENSG00000197594"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "ENPP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Arterial calcification, generalized, of infancy, 1, OMIM:208000",
+        "arterial calcification, generalized, of infancy, 1, MONDO:0008817"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

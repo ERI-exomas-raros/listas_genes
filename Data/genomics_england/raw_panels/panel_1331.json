@@ -1,0 +1,86 @@
+{
+  "id": 1331,
+  "hash_id": null,
+  "name": "Factor XI deficiency",
+  "disease_group": "Haematology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.3",
+  "version_created": "2026-01-23T10:38:20.528773Z",
+  "relevant_disorders": [
+    "R120"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "FXI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3529",
+        "gene_name": "coagulation factor XI",
+        "omim_gene": [
+          "264900"
+        ],
+        "alias_name": [
+          "plasma thromboplastin antecedent"
+        ],
+        "gene_symbol": "F11",
+        "hgnc_symbol": "F11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:187187099-187210835",
+              "ensembl_id": "ENSG00000088926"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:186265945-186288806",
+              "ensembl_id": "ENSG00000088926"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "F11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Factor XI deficiency, autosomal dominant, OMIM:612416",
+        "Factor XI deficiency, autosomal recessive, OMIM:612416",
+        "congenital factor XI deficiency, MONDO:0012897"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

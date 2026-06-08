@@ -1,0 +1,1215 @@
+{
+  "id": 77,
+  "hash_id": "5811a8738f620323c5766a2b",
+  "name": "Xeroderma pigmentosum, Trichothiodystrophy or Cockayne syndrome",
+  "disease_group": "Dermatology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.7",
+  "version_created": "2026-01-25T14:42:27.735617Z",
+  "relevant_disorders": [
+    "Cockayne and Xeroderma Pigmentosum-like disorders",
+    "Cockayne syndrome",
+    "Xeroderma Pigmentosum-like disorders",
+    "XP-like disorders",
+    "R227"
+  ],
+  "stats": {
+    "number_of_genes": 21,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "CARS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1493",
+        "gene_name": "cysteinyl-tRNA synthetase",
+        "omim_gene": [
+          "123859"
+        ],
+        "alias_name": [
+          "cysteine tRNA ligase 1, cytoplasmic"
+        ],
+        "gene_symbol": "CARS",
+        "hgnc_symbol": "CARS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:3022152-3078843",
+              "ensembl_id": "ENSG00000110619"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:3000922-3057613",
+              "ensembl_id": "ENSG00000110619"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "CARS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "30824121"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Microcephaly, developmental delay, and brittle hair syndrome, OMIM:618891"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DDBB",
+          "UV-DDB2",
+          "FLJ34321",
+          "XPE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2718",
+        "gene_name": "damage specific DNA binding protein 2",
+        "omim_gene": [
+          "600811"
+        ],
+        "alias_name": [
+          "xeroderma pigmentosum group E protein",
+          "UV-damaged DNA-binding protein 2",
+          "DDB p48 subunit"
+        ],
+        "gene_symbol": "DDB2",
+        "hgnc_symbol": "DDB2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:47236493-47260767",
+              "ensembl_id": "ENSG00000134574"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:47214465-47239240",
+              "ensembl_id": "ENSG00000134574"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "DDB2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Xeroderma pigmentosum, group E, DDB-negative subtype, 278740"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RAD10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3433",
+        "gene_name": "ERCC excision repair 1, endonuclease non-catalytic subunit",
+        "omim_gene": [
+          "126380"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ERCC1",
+        "hgnc_symbol": "ERCC1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:45910591-45982086",
+              "ensembl_id": "ENSG00000012061"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:45407333-45478828",
+              "ensembl_id": "ENSG00000012061"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ERCC1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23623389",
+        "17273966",
+        "40684071"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "xeroderma pigmentosum, MONDO:0019600",
+        "hepatorenal syndrome, MONDO:0001382"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MAG",
+          "EM9",
+          "MGC102762",
+          "MGC126218",
+          "MGC126219",
+          "TFIIH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3434",
+        "gene_name": "ERCC excision repair 2, TFIIH core complex helicase subunit",
+        "omim_gene": [
+          "126340"
+        ],
+        "alias_name": [
+          "excision repair cross-complementing rodent repair deficiency, complementation group 2 protein",
+          "TFIIH basal transcription factor complex helicase XPB subunit"
+        ],
+        "gene_symbol": "ERCC2",
+        "hgnc_symbol": "ERCC2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:45853095-45874176",
+              "ensembl_id": "ENSG00000104884"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:45349837-45370918",
+              "ensembl_id": "ENSG00000104884"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ERCC2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Xeroderma pigmentosum, group D, 278730",
+        "Trichothiodystrophy, 601675"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XPB",
+          "BTF2",
+          "RAD25",
+          "TFIIH",
+          "GTF2H"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3435",
+        "gene_name": "ERCC excision repair 3, TFIIH core complex helicase subunit",
+        "omim_gene": [
+          "133510"
+        ],
+        "alias_name": [
+          "xeroderma pigmentosum group B complementing"
+        ],
+        "gene_symbol": "ERCC3",
+        "hgnc_symbol": "ERCC3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:128014866-128051752",
+              "ensembl_id": "ENSG00000163161"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:127257290-127294176",
+              "ensembl_id": "ENSG00000163161"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ERCC3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Xeroderma pigmentosum, group B, 610651",
+        "Trichothiodystrophy, 601675"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RAD1",
+          "FANCQ"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3436",
+        "gene_name": "ERCC excision repair 4, endonuclease catalytic subunit",
+        "omim_gene": [
+          "133520"
+        ],
+        "alias_name": [
+          "xeroderma pigmentosum, complementation group F"
+        ],
+        "gene_symbol": "ERCC4",
+        "hgnc_symbol": "ERCC4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:14014014-14046202",
+              "ensembl_id": "ENSG00000175595"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:13920157-13952345",
+              "ensembl_id": "ENSG00000175595"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ERCC4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Xeroderma pigmentosum, group F, 278760",
+        "Xeroderma pigmentosum, type F/Cockayne syndrome, 278760"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3437",
+        "gene_name": "ERCC excision repair 5, endonuclease",
+        "omim_gene": [
+          "133530"
+        ],
+        "alias_name": [
+          "Cockayne syndrome"
+        ],
+        "gene_symbol": "ERCC5",
+        "hgnc_symbol": "ERCC5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:103497194-103528345",
+              "ensembl_id": "ENSG00000134899"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:102844844-102876001",
+              "ensembl_id": "ENSG00000134899"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ERCC5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Xeroderma pigmentosum, group G, 278780",
+        "Xeroderma pigmentosum, group G/Cockayne syndrome, 278780"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CSB",
+          "RAD26",
+          "ARMD5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3438",
+        "gene_name": "ERCC excision repair 6, chromatin remodeling factor",
+        "omim_gene": [
+          "609413"
+        ],
+        "alias_name": [
+          "Cockayne syndrome B protein"
+        ],
+        "gene_symbol": "ERCC6",
+        "hgnc_symbol": "ERCC6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:50663414-50747584",
+              "ensembl_id": "ENSG00000225830"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:49455368-49539538",
+              "ensembl_id": "ENSG00000225830"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "ERCC6",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "26204423",
+        "26749132"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Other",
+        "Eligibility statement prior genetic testing",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cockayne syndrome, type B",
+        "Cockayne syndrome phenotype and UV-sensitive syndrome",
+        "PMID: 26204423",
+        "Cockayne syndrome B",
+        "De Sanctis-Cacchione syndrome",
+        "UV-sensitive syndrome 1"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CSA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3439",
+        "gene_name": "ERCC excision repair 8, CSA ubiquitin ligase complex subunit",
+        "omim_gene": [
+          "609412"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ERCC8",
+        "hgnc_symbol": "ERCC8",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:60169658-60240900",
+              "ensembl_id": "ENSG00000049167"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:60873831-60945073",
+              "ensembl_id": "ENSG00000049167"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-02-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "ERCC8",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "26204423"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Other",
+        "Eligibility statement prior genetic testing",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cockayne syndrome, type A",
+        "Cockayne syndrome phenotype and UV-sensitive syndrome",
+        "PMID: 26204423"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TFIIE-B",
+          "FE",
+          "TF2E2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4651",
+        "gene_name": "general transcription factor IIE subunit 2",
+        "omim_gene": [
+          "189964"
+        ],
+        "alias_name": [
+          "TFIIE beta subunit"
+        ],
+        "gene_symbol": "GTF2E2",
+        "hgnc_symbol": "GTF2E2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:30435835-30515768",
+              "ensembl_id": "ENSG00000197265"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:30578318-30658251",
+              "ensembl_id": "ENSG00000197265"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-08-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "GTF2E2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26996949",
+        "28973399"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Trichothiodystrophy 6, nonphotosensitive, OMIM:616943"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ30544",
+          "bA120J8.2",
+          "TTD-A",
+          "TFB5",
+          "TFIIH",
+          "TTDA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21157",
+        "gene_name": "general transcription factor IIH subunit 5",
+        "omim_gene": [
+          "608780"
+        ],
+        "alias_name": [
+          "DNA repair syndrome trichothiodystrophy group A"
+        ],
+        "gene_symbol": "GTF2H5",
+        "hgnc_symbol": "GTF2H5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:158589384-158620376",
+              "ensembl_id": "ENSG00000272047"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:158168352-158199344",
+              "ensembl_id": "ENSG00000272047"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "GTF2H5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Trichothiodystrophy 3, photosensitive",
+        "Photosensitive trichothiodystrophy 3"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ORF20",
+          "TTDN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16002",
+        "gene_name": "M-phase specific PLK1 interacting protein",
+        "omim_gene": [
+          "609188"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MPLKIP",
+        "hgnc_symbol": "MPLKIP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:40165622-40174258",
+              "ensembl_id": "ENSG00000168303"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:40126023-40134659",
+              "ensembl_id": "ENSG00000168303"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-03-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "MPLKIP",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Non-photosensitive trichothiodystrophy 4"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RAD30A",
+          "XP-V"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9181",
+        "gene_name": "DNA polymerase eta",
+        "omim_gene": [
+          "603968"
+        ],
+        "alias_name": null,
+        "gene_symbol": "POLH",
+        "hgnc_symbol": "POLH",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:43543887-43586701",
+              "ensembl_id": "ENSG00000170734"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:43576150-43615660",
+              "ensembl_id": "ENSG00000170734"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-09-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "POLH",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27664908",
+        "27004399",
+        "25256075",
+        "25128761",
+        "24877075",
+        "24260050",
+        "24130121",
+        "23755135",
+        "23651273"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Xeroderma pigmentosum, variant type, OMIM:278750"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "deletions"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RNF113",
+          "Cwc24"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12974",
+        "gene_name": "ring finger protein 113A",
+        "omim_gene": [
+          "300951"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RNF113A",
+        "hgnc_symbol": "RNF113A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:119004497-119005791",
+              "ensembl_id": "ENSG00000125352"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:119870475-119871827",
+              "ensembl_id": "ENSG00000125352"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-03-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "RNF113A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19377476",
+        "25612912",
+        "31793730",
+        "31880405",
+        "32152280"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Trichothiodystrophy 5, nonphotosensitive, OMIM:300953"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [
+        "Skewed X-inactivation"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XPAC",
+          "XP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12814",
+        "gene_name": "XPA, DNA damage recognition and repair factor",
+        "omim_gene": [
+          "611153"
+        ],
+        "alias_name": null,
+        "gene_symbol": "XPA",
+        "hgnc_symbol": "XPA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:100437191-100459639",
+              "ensembl_id": "ENSG00000136936"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:97674909-97697357",
+              "ensembl_id": "ENSG00000136936"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "XPA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27603812",
+        "27413738",
+        "26743599",
+        "26302748"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Xeroderma pigmentosum, group A, 278700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XPCC",
+          "RAD4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12816",
+        "gene_name": "XPC complex subunit, DNA damage recognition and repair factor",
+        "omim_gene": [
+          "613208"
+        ],
+        "alias_name": [
+          "xeroderma pigmentosum group C protein"
+        ],
+        "gene_symbol": "XPC",
+        "hgnc_symbol": "XPC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:14186647-14220283",
+              "ensembl_id": "ENSG00000154767"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:14145147-14178783",
+              "ensembl_id": "ENSG00000154767"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "XPC",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27413738"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Xeroderma pigmentosum, group C, 278720"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CMT2N",
+          "AlaRS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20",
+        "gene_name": "alanyl-tRNA synthetase",
+        "omim_gene": [
+          "601065"
+        ],
+        "alias_name": [
+          "alanine tRNA ligase 1, cytoplasmic"
+        ],
+        "gene_symbol": "AARS",
+        "hgnc_symbol": "AARS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:70286198-70323446",
+              "ensembl_id": "ENSG00000090861"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:70252295-70289543",
+              "ensembl_id": "ENSG00000090861"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "AARS",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33909043"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "trichothiodystrophy, MONDO:0018053"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name",
+        "watchlist"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ATLD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7230",
+        "gene_name": "MRE11 homolog, double strand break repair nuclease",
+        "omim_gene": [
+          "600814"
+        ],
+        "alias_name": [
+          "AT-like disease"
+        ],
+        "gene_symbol": "MRE11",
+        "hgnc_symbol": "MRE11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:94152895-94227074",
+              "ensembl_id": "ENSG00000020922"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:94415578-94493908",
+              "ensembl_id": "ENSG00000020922"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2016-09-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "MRE11",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "21227757"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nijmegen breakage syndrome-like severe microcephaly"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11572",
+        "gene_name": "threonyl-tRNA synthetase",
+        "omim_gene": [
+          "187790"
+        ],
+        "alias_name": [
+          "threonine tRNA ligase 1, cytoplasmic"
+        ],
+        "gene_symbol": "TARS",
+        "hgnc_symbol": "TARS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:33440802-33469644",
+              "ensembl_id": "ENSG00000113407"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:33440696-33469539",
+              "ensembl_id": "ENSG00000113407"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "TARS",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31374204"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Trichothiodystrophy 7, nonphotosensitive, OMIM:618546"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name",
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2717",
+        "gene_name": "damage specific DNA binding protein 1",
+        "omim_gene": [
+          "600045"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DDB1",
+        "hgnc_symbol": "DDB1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:61066923-61110068",
+              "ensembl_id": "ENSG00000167986"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:61299451-61342596",
+              "ensembl_id": "ENSG00000167986"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "DDB1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MetRS",
+          "SPG70",
+          "CMT2U"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6898",
+        "gene_name": "methionyl-tRNA synthetase",
+        "omim_gene": [
+          "156560"
+        ],
+        "alias_name": [
+          "methionine tRNA ligase 1, cytoplasmic"
+        ],
+        "gene_symbol": "MARS",
+        "hgnc_symbol": "MARS",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:57869228-57911352",
+              "ensembl_id": "ENSG00000166986"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:57475445-57517569",
+              "ensembl_id": "ENSG00000166986"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MARS",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33909043"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "trichothiodystrophy, MONDO:0018053"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name",
+        "watchlist"
+      ],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

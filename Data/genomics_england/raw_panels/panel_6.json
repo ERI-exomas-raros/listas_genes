@@ -1,0 +1,2236 @@
+{
+  "id": 6,
+  "hash_id": "561518be22c1fc212900fb84",
+  "name": "Familial hypercholesterolaemia",
+  "disease_group": "Cardiovascular disorders",
+  "disease_sub_group": "Arteriopathies",
+  "status": "public",
+  "version": "1.31",
+  "version_created": "2025-11-23T17:09:00.884162Z",
+  "relevant_disorders": [
+    "Familial Hypercholesterolaemia",
+    "Familial Hypercholesterolemia"
+  ],
+  "stats": {
+    "number_of_genes": 43,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "STSL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13886",
+        "gene_name": "ATP binding cassette subfamily G member 5",
+        "omim_gene": [
+          "605459"
+        ],
+        "alias_name": [
+          "sterolin 1"
+        ],
+        "gene_symbol": "ABCG5",
+        "hgnc_symbol": "ABCG5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:44039611-44066004",
+              "ensembl_id": "ENSG00000138075"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:43812472-43838865",
+              "ensembl_id": "ENSG00000138075"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-12-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCG5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GBD4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13887",
+        "gene_name": "ATP binding cassette subfamily G member 8",
+        "omim_gene": [
+          "605460"
+        ],
+        "alias_name": [
+          "gallbladder disease 4",
+          "sterolin 2"
+        ],
+        "gene_symbol": "ABCG8",
+        "hgnc_symbol": "ABCG8",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:44066103-44105605",
+              "ensembl_id": "ENSG00000143921"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:43838964-43878466",
+              "ensembl_id": "ENSG00000143921"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-12-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCG8",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 23433573",
+        "25414277"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Gene part of the Global Lipid Genetic Consortium 12-SNP LDL-C gene score calculation (Talmud et al, 2013)",
+        "Gene part of the 6-SNP LDL-C gene score calculation (Futema et al, 2015)",
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:603",
+        "gene_name": "apolipoprotein B",
+        "omim_gene": [
+          "107730"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOB",
+        "hgnc_symbol": "APOB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:21224301-21266945",
+              "ensembl_id": "ENSG00000084674"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:21001429-21044073",
+              "ensembl_id": "ENSG00000084674"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "PMID: 23433573",
+        "25414277"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia, familial, 2, OMIM:144010"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:613",
+        "gene_name": "apolipoprotein E",
+        "omim_gene": [
+          "107741"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOE",
+        "hgnc_symbol": "APOE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:45409011-45412650",
+              "ensembl_id": "ENSG00000130203"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:44905754-44909393",
+              "ensembl_id": "ENSG00000130203"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23433584",
+        "22949395",
+        "26802169",
+        "11095479",
+        "16094309",
+        "22481068",
+        "24267230",
+        "34058468"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Hyperlipoproteinemia, type III\t617347"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CTX",
+          "CP27"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2605",
+        "gene_name": "cytochrome P450 family 27 subfamily A member 1",
+        "omim_gene": [
+          "606530"
+        ],
+        "alias_name": [
+          "cerebrotendinous xanthomatosis"
+        ],
+        "gene_symbol": "CYP27A1",
+        "hgnc_symbol": "CYP27A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:219646472-219680016",
+              "ensembl_id": "ENSG00000135929"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:218781749-218815293",
+              "ensembl_id": "ENSG00000135929"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CYP27A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24442603: 29484516"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cerebrotendinous xanthomatosis, 213700",
+        "Cerebrotendinous Xanthomatosis",
+        "CEREBROTENDINOUS XANTHOMATOSIS"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LDLCQ2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6547",
+        "gene_name": "low density lipoprotein receptor",
+        "omim_gene": [
+          "606945"
+        ],
+        "alias_name": [
+          "familial hypercholesterolemia"
+        ],
+        "gene_symbol": "LDLR",
+        "hgnc_symbol": "LDLR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:11200038-11244492",
+              "ensembl_id": "ENSG00000130164"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:11089362-11133816",
+              "ensembl_id": "ENSG00000130164"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "LDLR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23433573",
+        "25414277",
+        "27821657"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Gene part of the Global Lipid Genetic Consortium 12-SNP LDL-C gene score calculation (Talmud et al, 2013)",
+        "Gene part of the 6-SNP LDL-C gene score calculation (Futema et al, 2015)",
+        "C3 Hypercholesterolemia, familial, 143890",
+        "LDL cholesterol level QTL2, 143890",
+        "Familial Hypercholesterolemia",
+        "Hypercholesterolemia",
+        "Familial Hypercholesterolaemia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ARH",
+          "ARH2",
+          "FHCB1",
+          "FHCB2",
+          "MGC34705",
+          "DKFZp586D0624"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18640",
+        "gene_name": "low density lipoprotein receptor adaptor protein 1",
+        "omim_gene": [
+          "605747"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LDLRAP1",
+        "hgnc_symbol": "LDLRAP1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:25870071-25895377",
+              "ensembl_id": "ENSG00000157978"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:25543580-25568886",
+              "ensembl_id": "ENSG00000157978"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "LDLRAP1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia, familial, autosomal recessive, 603813",
+        "Familial Hypercholesterolemia",
+        "Hypercholesterolemia",
+        "Familial Hypercholesterolaemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LAL",
+          "CESD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6617",
+        "gene_name": "lipase A, lysosomal acid type",
+        "omim_gene": [
+          "613497"
+        ],
+        "alias_name": [
+          "Wolman disease",
+          "lysosomal acid lipase",
+          "sterol esterase"
+        ],
+        "gene_symbol": "LIPA",
+        "hgnc_symbol": "LIPA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:90973326-91174314",
+              "ensembl_id": "ENSG00000107798"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:89213569-89414557",
+              "ensembl_id": "ENSG00000107798"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "LIPA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia",
+        "Lysosomal acid lipase deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NARC-1",
+          "FH3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20001",
+        "gene_name": "proprotein convertase subtilisin/kexin type 9",
+        "omim_gene": [
+          "607786"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PCSK9",
+        "hgnc_symbol": "PCSK9",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:55505221-55530525",
+              "ensembl_id": "ENSG00000169174"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:55039548-55064852",
+              "ensembl_id": "ENSG00000169174"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-05-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCSK9",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "PMID: 23433573"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Gene part of the Global Lipid Genetic Consortium 12-SNP LDL-C gene score calculation (Talmud et al, 2013)",
+        "Hypercholesterolemia, familial, 3, 603776",
+        "{Low density lipoprotein cholesterol level QTL 1}, 603776",
+        "Familial Hypercholesterolemia",
+        "Hypercholesterolemia",
+        "Familial Hypercholesterolaemia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TGD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29",
+        "gene_name": "ATP binding cassette subfamily A member 1",
+        "omim_gene": [
+          "600046"
+        ],
+        "alias_name": [
+          "Tangier disease"
+        ],
+        "gene_symbol": "ABCA1",
+        "hgnc_symbol": "ABCA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:107543283-107690518",
+              "ensembl_id": "ENSG00000165029"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:104781002-104928237",
+              "ensembl_id": "ENSG00000165029"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-03-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCA1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Tangier disease, 205400",
+        "HDL deficiency, type 2, 604091",
+        "{Coronary artery disease in familial hypercholesterolemia, protection against}, 143890",
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ACE1",
+          "CD143"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2707",
+        "gene_name": "angiotensin I converting enzyme",
+        "omim_gene": [
+          "106180"
+        ],
+        "alias_name": [
+          "peptidyl-dipeptidase A"
+        ],
+        "gene_symbol": "ACE",
+        "hgnc_symbol": "ACE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:61554422-61599205",
+              "ensembl_id": "ENSG00000159640"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:63477061-63498380",
+              "ensembl_id": "ENSG00000159640"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACE",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "{Myocardial infarction, susceptibility to}",
+        "{Alzheimer disease, susceptibility to}, 104300",
+        "{Microvascular complications of diabetes 3}, 612624",
+        "[Angiotensin I-converting enzyme, benign serum increase]",
+        "{SARS, progression of}",
+        "Renal tubular"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:491",
+        "gene_name": "angiopoietin like 3",
+        "omim_gene": [
+          "604774"
+        ],
+        "alias_name": [
+          "angiopoietin 5"
+        ],
+        "gene_symbol": "ANGPTL3",
+        "hgnc_symbol": "ANGPTL3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:63063158-63071830",
+              "ensembl_id": "ENSG00000132855"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:62597487-62606159",
+              "ensembl_id": "ENSG00000132855"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-02-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANGPTL3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:600",
+        "gene_name": "apolipoprotein A1",
+        "omim_gene": [
+          "107680"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOA1",
+        "hgnc_symbol": "APOA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:116706467-116708666",
+              "ensembl_id": "ENSG00000118137"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:116835751-116837950",
+              "ensembl_id": "ENSG00000118137"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOA1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:601",
+        "gene_name": "apolipoprotein A2",
+        "omim_gene": [
+          "107670"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOA2",
+        "hgnc_symbol": "APOA2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:161192082-161193421",
+              "ensembl_id": "ENSG00000158874"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:161222292-161223631",
+              "ensembl_id": "ENSG00000158874"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOA2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Apolipoprotein A-II deficiency {Hypercholesterolemia, familial, modification of}, 143890"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RAP3",
+          "APOA-V"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17288",
+        "gene_name": "apolipoprotein A5",
+        "omim_gene": [
+          "606368"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOA5",
+        "hgnc_symbol": "APOA5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:116660083-116663136",
+              "ensembl_id": "ENSG00000110243"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:116789367-116792420",
+              "ensembl_id": "ENSG00000110243"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-12-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOA5",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hyperchylomicronemia, late-onset\t144650",
+        "{Hypertriglyceridemia, susceptibility to}\t145750"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:609",
+        "gene_name": "apolipoprotein C2",
+        "omim_gene": [
+          "608083"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOC2",
+        "hgnc_symbol": "APOC2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:45449243-45452822",
+              "ensembl_id": "ENSG00000234906"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:44945982-44949565",
+              "ensembl_id": "ENSG00000234906"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOC2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hyperlipoproteinemia, type Ib\t207750"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:610",
+        "gene_name": "apolipoprotein C3",
+        "omim_gene": [
+          "107720"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOC3",
+        "hgnc_symbol": "APOC3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:116700422-116703788",
+              "ensembl_id": "ENSG00000110245"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:116829706-116833072",
+              "ensembl_id": "ENSG00000110245"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOC3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0279",
+          "MEGF3",
+          "Flamingo1",
+          "CDHF10",
+          "ADGRC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3231",
+        "gene_name": "cadherin EGF LAG seven-pass G-type receptor 2",
+        "omim_gene": [
+          "604265"
+        ],
+        "alias_name": [
+          "adhesion G protein-coupled receptor C2"
+        ],
+        "gene_symbol": "CELSR2",
+        "hgnc_symbol": "CELSR2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:109792641-109818372",
+              "ensembl_id": "ENSG00000143126"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:109250019-109275750",
+              "ensembl_id": "ENSG00000143126"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "CELSR2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 23433573",
+        "25414277"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Gene part of the Global Lipid Genetic Consortium 12-SNP LDL-C gene score calculation (Talmud et al, 2013)",
+        "Gene part of the 6-SNP LDL-C gene score calculation (Futema et al, 2015)"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BPIFF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1869",
+        "gene_name": "cholesteryl ester transfer protein",
+        "omim_gene": [
+          "118470"
+        ],
+        "alias_name": [
+          "BPI fold containing family F"
+        ],
+        "gene_symbol": "CETP",
+        "hgnc_symbol": "CETP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:56995762-57017757",
+              "ensembl_id": "ENSG00000087237"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:56961850-56983845",
+              "ensembl_id": "ENSG00000087237"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CETP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3402",
+        "gene_name": "epoxide hydrolase 2",
+        "omim_gene": [
+          "132811"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EPHX2",
+        "hgnc_symbol": "EPHX2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:27348296-27403081",
+              "ensembl_id": "ENSG00000120915"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:27490779-27545564",
+              "ensembl_id": "ENSG00000120915"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "EPHX2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia, familial, due to LDLR defect, modifier of, 143890"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NR3A1",
+          "Era",
+          "ER-alpha"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3467",
+        "gene_name": "estrogen receptor 1",
+        "omim_gene": [
+          "133430"
+        ],
+        "alias_name": [
+          "nuclear receptor subfamily 3 group A member 1",
+          "estrogen receptor alpha",
+          "oestrogen receptor alpha",
+          "E2 receptor alpha"
+        ],
+        "gene_symbol": "ESR1",
+        "hgnc_symbol": "ESR1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:151977826-152450754",
+              "ensembl_id": "ENSG00000091831"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:151656691-152129619",
+              "ensembl_id": "ENSG00000091831"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "ESR1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Estrogen resistance, 615363",
+        "{HDL response to hormone replacement, augmented}",
+        "{Migraine, susceptibility to}, 157300",
+        "{Atherosclerosis, susceptibility to}",
+        "{Myocardial infarction, susceptibility to}, 608446",
+        "{Breast cancer}, 114480 (1)",
+        "{HDL response to hormone replacement, augmented}",
+        "{Migraine, susceptibility to}, 157300",
+        "{Atherosclerosis, susceptibility to}",
+        "{Myocardial infarction, susceptibility to}, 608446",
+        "{Breast cancer}, 114480 (1)"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3531",
+        "gene_name": "coagulation factor XIII A chain",
+        "omim_gene": [
+          "134570"
+        ],
+        "alias_name": null,
+        "gene_symbol": "F13A1",
+        "hgnc_symbol": "F13A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:6144318-6321246",
+              "ensembl_id": "ENSG00000124491"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:6144085-6321013",
+              "ensembl_id": "ENSG00000124491"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F13A1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Factor XIIIA deficiency, 613225",
+        "{Myocardial infarction, protection against}, 608446",
+        "{Venous thrombosis, protection against}, 188050",
+        "{Myocardial infarction, protection against}, 608446",
+        "{Venous thrombosis, protection against}, 188050"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3544",
+        "gene_name": "coagulation factor VII",
+        "omim_gene": [
+          "613878"
+        ],
+        "alias_name": [
+          "eptacog alfa",
+          "FVII coagulation protein",
+          "factor VII"
+        ],
+        "gene_symbol": "F7",
+        "hgnc_symbol": "F7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:113760105-113774995",
+              "ensembl_id": "ENSG00000057593"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:113105788-113120681",
+              "ensembl_id": "ENSG00000057593"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F7",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Factor VII deficiency, 227500",
+        "{Myocardial infarction, decreased susceptibility to}, 608446"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GCS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4311",
+        "gene_name": "glutamate-cysteine ligase catalytic subunit",
+        "omim_gene": [
+          "606857"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GCLC",
+        "hgnc_symbol": "GCLC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:53362139-53481768",
+              "ensembl_id": "ENSG00000001084"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:53497341-53616970",
+              "ensembl_id": "ENSG00000001084"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "GCLC",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hemolytic anemia due to gamma-glutamylcysteine synthetase deficiency, 230450",
+        "{Myocardial infarction, susceptibility to}, 608446",
+        "Myocardial infarction, susceptibility to, 608446"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4312",
+        "gene_name": "glutamate-cysteine ligase modifier subunit",
+        "omim_gene": [
+          "601176"
+        ],
+        "alias_name": [
+          "gamma-glutamylcysteine synthetase"
+        ],
+        "gene_symbol": "GCLM",
+        "hgnc_symbol": "GCLM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:94350761-94374966",
+              "ensembl_id": "ENSG00000023909"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:93885205-93909456",
+              "ensembl_id": "ENSG00000023909"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-01-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "GCLM",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Myocardial infarction, susceptibility to, 608446"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GHBP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4263",
+        "gene_name": "growth hormone receptor",
+        "omim_gene": [
+          "600946"
+        ],
+        "alias_name": [
+          "growth hormone binding protein"
+        ],
+        "gene_symbol": "GHR",
+        "hgnc_symbol": "GHR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:42423879-42721979",
+              "ensembl_id": "ENSG00000112964"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:42423777-42721878",
+              "ensembl_id": "ENSG00000112964"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "GHR",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Laron dwarfism, 262500",
+        "Short stature, 604271",
+        "{Hypercholesterolemia, familial, modification of}, 143890",
+        "Increased responsiveness to growth hormone"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4455",
+        "gene_name": "glycerol-3-phosphate dehydrogenase 1",
+        "omim_gene": [
+          "138420"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GPD1",
+        "hgnc_symbol": "GPD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:50497602-50505102",
+              "ensembl_id": "ENSG00000167588"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:50103819-50111319",
+              "ensembl_id": "ENSG00000167588"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GPD1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LOC338328",
+          "GPI-HBP1"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:24945",
+        "gene_name": "glycosylphosphatidylinositol anchored high density lipoprotein binding protein 1",
+        "omim_gene": [
+          "612757"
+        ],
+        "alias_name": [
+          "endothelial cell LPL transporter"
+        ],
+        "gene_symbol": "GPIHBP1",
+        "hgnc_symbol": "GPIHBP1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:144295068-144299044",
+              "ensembl_id": "ENSG00000182851"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:143213193-143217170",
+              "ensembl_id": "ENSG00000277494"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-02-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "GPIHBP1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HLA-H"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4886",
+        "gene_name": "hemochromatosis",
+        "omim_gene": [
+          "613609"
+        ],
+        "alias_name": [
+          "high Fe"
+        ],
+        "gene_symbol": "HFE",
+        "hgnc_symbol": "HFE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:26087509-26098571",
+              "ensembl_id": "ENSG00000010704"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:26087281-26098343",
+              "ensembl_id": "ENSG00000010704"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "HFE",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 23433580"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Gene part of the Global Lipid Genetic Consortium 12-SNP LDL-C gene score calculation (Talmud et al, 2013)"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD61",
+          "GPIIIa"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6156",
+        "gene_name": "integrin subunit beta 3",
+        "omim_gene": [
+          "173470"
+        ],
+        "alias_name": [
+          "platelet glycoprotein IIIa",
+          "antigen CD61"
+        ],
+        "gene_symbol": "ITGB3",
+        "hgnc_symbol": "ITGB3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:45331212-45421658",
+              "ensembl_id": "ENSG00000259207"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:47253846-47311816",
+              "ensembl_id": "ENSG00000259207"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-06-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "ITGB3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "PL(A) platelet antigen Glanzmann thrombasthenia, 273800",
+        "Thrombocytopenia, neonatal alloimmune",
+        "{Myocardial infarction, susceptibility to}, 608446",
+        "Purpura, posttransfusion",
+        "Bleeding disorder, platelet-type, 16, autosomal dominant, 187800"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6522",
+        "gene_name": "lecithin-cholesterol acyltransferase",
+        "omim_gene": [
+          "606967"
+        ],
+        "alias_name": [
+          "phosphatidylcholine--sterol O-acyltransferase"
+        ],
+        "gene_symbol": "LCAT",
+        "hgnc_symbol": "LCAT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:67973653-67978034",
+              "ensembl_id": "ENSG00000213398"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:67939750-67944131",
+              "ensembl_id": "ENSG00000213398"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "LCAT",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HL",
+          "HTGL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6619",
+        "gene_name": "lipase C, hepatic type",
+        "omim_gene": [
+          "151670"
+        ],
+        "alias_name": [
+          "Triacylglycerol lipase"
+        ],
+        "gene_symbol": "LIPC",
+        "hgnc_symbol": "LIPC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:58702768-58861151",
+              "ensembl_id": "ENSG00000166035"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:58410569-58569843",
+              "ensembl_id": "ENSG00000166035"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "LIPC",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ12681",
+          "JFP11",
+          "FLJ22302",
+          "TMEM112A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14154",
+        "gene_name": "lipase maturation factor 1",
+        "omim_gene": [
+          "611761"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LMF1",
+        "hgnc_symbol": "LMF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:903634-1031318",
+              "ensembl_id": "ENSG00000103227"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:853634-981318",
+              "ensembl_id": "ENSG00000103227"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-11-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "LMF1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6677",
+        "gene_name": "lipoprotein lipase",
+        "omim_gene": [
+          "609708"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LPL",
+        "hgnc_symbol": "LPL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:19759228-19824769",
+              "ensembl_id": "ENSG00000175445"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:19901717-19967258",
+              "ensembl_id": "ENSG00000175445"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "LPL",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ABL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7467",
+        "gene_name": "microsomal triglyceride transfer protein",
+        "omim_gene": [
+          "157147"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MTTP",
+        "hgnc_symbol": "MTTP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:100484918-100545156",
+              "ensembl_id": "ENSG00000138823"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:99563761-99623999",
+              "ensembl_id": "ENSG00000138823"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "MTTP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MIR",
+          "IDOL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21155",
+        "gene_name": "myosin regulatory light chain interacting protein",
+        "omim_gene": [
+          "610082"
+        ],
+        "alias_name": [
+          "E3 ubiquitin ligase-inducible degrader of the low density lipoprotein receptor"
+        ],
+        "gene_symbol": "MYLIP",
+        "hgnc_symbol": "MYLIP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:16129356-16148479",
+              "ensembl_id": "ENSG00000007944"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:16129125-16148248",
+              "ensembl_id": "ENSG00000007944"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-11-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYLIP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 23433581"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Gene part of the Global Lipid Genetic Consortium 12-SNP LDL-C gene score calculation (Talmud et al, 2013)"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ11811",
+          "CGIN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20165",
+        "gene_name": "NYN domain and retroviral integrase containing",
+        "omim_gene": null,
+        "alias_name": [
+          "Cousin of GIN1"
+        ],
+        "gene_symbol": "NYNRIN",
+        "hgnc_symbol": "NYNRIN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:24867992-24888494",
+              "ensembl_id": "ENSG00000205978"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:24398786-24419288",
+              "ensembl_id": "ENSG00000205978"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-10-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "NYNRIN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 23433583"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Gene part of the Global Lipid Genetic Consortium 12-SNP LDL-C gene score calculation (Talmud et al, 2013)"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10535",
+        "gene_name": "secretion associated Ras related GTPase 1B",
+        "omim_gene": [
+          "607690"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SAR1B",
+        "hgnc_symbol": "SAR1B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:133936834-133984961",
+              "ensembl_id": "ENSG00000152700"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:134601144-134649271",
+              "ensembl_id": "ENSG00000152700"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-10-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SAR1B",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SRB1",
+          "CLA-1",
+          "CLA1",
+          "SR-BI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1664",
+        "gene_name": "scavenger receptor class B member 1",
+        "omim_gene": [
+          "601040"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SCARB1",
+        "hgnc_symbol": "SCARB1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:125261402-125367214",
+              "ensembl_id": "ENSG00000073060"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:124776856-124882668",
+              "ensembl_id": "ENSG00000073060"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "SCARB1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OCT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10963",
+        "gene_name": "solute carrier family 22 member 1",
+        "omim_gene": [
+          "602607"
+        ],
+        "alias_name": [
+          "organic cation transporter 1"
+        ],
+        "gene_symbol": "SLC22A1",
+        "hgnc_symbol": "SLC22A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:160542821-160579750",
+              "ensembl_id": "ENSG00000175003"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:160121789-160158718",
+              "ensembl_id": "ENSG00000175003"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC22A1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 23433579"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Gene part of the Global Lipid Genetic Consortium 12-SNP LDL-C gene score calculation (Talmud et al, 2013)"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SREBP2",
+          "bHLHd2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11290",
+        "gene_name": "sterol regulatory element binding transcription factor 2",
+        "omim_gene": [
+          "600481"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SREBF2",
+        "hgnc_symbol": "SREBF2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:42229109-42303312",
+              "ensembl_id": "ENSG00000198911"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:41833079-41907308",
+              "ensembl_id": "ENSG00000198911"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-11-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "SREBF2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11950857",
+        "doi:10.​1007/​s12265-016-9673-5"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Familial Hypercholesterolaemia"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "STZ",
+          "SAT3",
+          "FLJ11867"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10864",
+        "gene_name": "ST3 beta-galactoside alpha-2,3-sialyltransferase 4",
+        "omim_gene": [
+          "104240"
+        ],
+        "alias_name": [
+          "ST3Gal IV"
+        ],
+        "gene_symbol": "ST3GAL4",
+        "hgnc_symbol": "ST3GAL4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:126225535-126310239",
+              "ensembl_id": "ENSG00000110080"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:126355640-126440344",
+              "ensembl_id": "ENSG00000110080"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-02-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "ST3GAL4",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 23433582"
+      ],
+      "evidence": [
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Gene part of the Global Lipid Genetic Consortium 12-SNP LDL-C gene score calculation (Talmud et al, 2013)"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "STAP-1",
+          "BRDG1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24133",
+        "gene_name": "signal transducing adaptor family member 1",
+        "omim_gene": [
+          "604298"
+        ],
+        "alias_name": [
+          "BCR downstream signaling 1"
+        ],
+        "gene_symbol": "STAP1",
+        "hgnc_symbol": "STAP1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:68424446-68473055",
+              "ensembl_id": "ENSG00000035720"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:67558728-67607337",
+              "ensembl_id": "ENSG00000035720"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "STAP1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25035151",
+        "26036859",
+        "25170087"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "hypercholesterolemia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

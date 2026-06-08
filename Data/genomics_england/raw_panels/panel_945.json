@@ -1,0 +1,312 @@
+{
+  "id": 945,
+  "hash_id": null,
+  "name": "Thrombocythaemia",
+  "disease_group": "Haematology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.1",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R406"
+  ],
+  "stats": {
+    "number_of_genes": 5,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "JTK10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6192",
+        "gene_name": "Janus kinase 2",
+        "omim_gene": [
+          "147796"
+        ],
+        "alias_name": null,
+        "gene_symbol": "JAK2",
+        "hgnc_symbol": "JAK2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:4985033-5128183",
+              "ensembl_id": "ENSG00000096968"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:4984390-5128183",
+              "ensembl_id": "ENSG00000096968"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "JAK2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Thrombocythemia 3, 614521"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "somatic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD110",
+          "TPOR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7217",
+        "gene_name": "MPL proto-oncogene, thrombopoietin receptor",
+        "omim_gene": [
+          "159530"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MPL",
+        "hgnc_symbol": "MPL",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:43803478-43818443",
+              "ensembl_id": "ENSG00000117400"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:43337849-43352772",
+              "ensembl_id": "ENSG00000117400"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "MPL",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Thrombocythemia 2, OMIM:601977"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LNK",
+          "IDDM20"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29605",
+        "gene_name": "SH2B adaptor protein 3",
+        "omim_gene": [
+          "605093"
+        ],
+        "alias_name": [
+          "lymphocyte adaptor protein"
+        ],
+        "gene_symbol": "SH2B3",
+        "hgnc_symbol": "SH2B3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:111843752-111889427",
+              "ensembl_id": "ENSG00000111252"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:111405948-111451623",
+              "ensembl_id": "ENSG00000111252"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "SH2B3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28484264",
+        "27237057",
+        "23908464",
+        "40481232",
+        "41325922"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Thrombocythemia, somatic, OMIM:187950"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "somatic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TPO",
+          "MPLLG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11795",
+        "gene_name": "thrombopoietin",
+        "omim_gene": [
+          "600044"
+        ],
+        "alias_name": [
+          "prepro-thrombopoietin",
+          "megakaryocyte stimulating factor",
+          "myeloproliferative leukemia virus oncogene ligand",
+          "megakaryocyte growth and development factor",
+          "MPL ligand",
+          "megakaryocyte colony-stimulating factor",
+          "c-mpl ligand",
+          "thrombopoietin nirs variant 1"
+        ],
+        "gene_symbol": "THPO",
+        "hgnc_symbol": "THPO",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:184089723-184095932",
+              "ensembl_id": "ENSG00000090534"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:184371935-184378144",
+              "ensembl_id": "ENSG00000090534"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-11-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "THPO",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Thrombocythemia 1, 187950"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RO",
+          "SSA",
+          "cC1qR",
+          "CRT",
+          "FLJ26680"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1455",
+        "gene_name": "calreticulin",
+        "omim_gene": [
+          "109091"
+        ],
+        "alias_name": [
+          "Sicca syndrome antigen A (autoantigen Ro; calreticulin)",
+          "autoantigen Ro"
+        ],
+        "gene_symbol": "CALR",
+        "hgnc_symbol": "CALR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:13049392-13055303",
+              "ensembl_id": "ENSG00000179218"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:12938578-12944489",
+              "ensembl_id": "ENSG00000179218"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "CALR",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24325356",
+        "24325359",
+        "31778606"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Thrombocythemia, somatic, 187950",
+        "Myelofibrosis, somatic, 254450"
+      ],
+      "mode_of_inheritance": "Other",
+      "tags": [
+        "somatic"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

@@ -1,0 +1,977 @@
+{
+  "id": 525,
+  "hash_id": null,
+  "name": "Inherited predisposition to acute myeloid leukaemia (AML)",
+  "disease_group": "Haematology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.7",
+  "version_created": "2026-05-08T16:30:08.741869Z",
+  "relevant_disorders": [
+    "R347"
+  ],
+  "stats": {
+    "number_of_genes": 16,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1074"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29186",
+        "gene_name": "ankyrin repeat domain 26",
+        "omim_gene": [
+          "610855"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANKRD26",
+        "hgnc_symbol": "ANKRD26",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:27280843-27389421",
+              "ensembl_id": "ENSG00000107890"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:26991914-27100498",
+              "ensembl_id": "ENSG00000107890"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANKRD26",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23926458",
+        "30466750",
+        "27895058",
+        "27069254"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Thrombocytopenia 2, OMIM:188000",
+        "Acute myeloid leukemia, MONDO:0018874"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "C/EBP-alpha"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1833",
+        "gene_name": "CCAAT/enhancer binding protein alpha",
+        "omim_gene": [
+          "116897"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CEBPA",
+        "hgnc_symbol": "CEBPA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:33790840-33793470",
+              "ensembl_id": "ENSG00000245848"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:33299934-33302564",
+              "ensembl_id": "ENSG00000245848"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-11-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "CEBPA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15575056",
+        "23926458",
+        "30466750",
+        "27895058",
+        "27069254"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "?Leukemia, acute myeloid, OMIM:601626",
+        "Leukemia, acute myeloid, somatic, OMIM:601626",
+        "Acute myeloid leukemia, MONDO:0018874"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ABS",
+          "MGC8828"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18674",
+        "gene_name": "DEAD-box helicase 41",
+        "omim_gene": [
+          "608170"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DDX41",
+        "hgnc_symbol": "DDX41",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:176938578-176944470",
+              "ensembl_id": "ENSG00000183258"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:177511577-177517469",
+              "ensembl_id": "ENSG00000183258"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "DDX41",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25920683",
+        "26712909",
+        "30466750",
+        "27895058",
+        "27069254"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "{Myeloproliferative/lymphoproliferative neoplasms, familial (multiple types), susceptibility to}, OMIM:616871",
+        "DDX41-related hematologic malignancy predisposition syndrome, MONDO:0014809"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TEL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3495",
+        "gene_name": "ETS variant 6",
+        "omim_gene": [
+          "600618"
+        ],
+        "alias_name": [
+          "TEL oncogene"
+        ],
+        "gene_symbol": "ETV6",
+        "hgnc_symbol": "ETV6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:11802788-12048336",
+              "ensembl_id": "ENSG00000139083"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:11649854-11895402",
+              "ensembl_id": "ENSG00000139083"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-11-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "ETV6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28600339",
+        "30466750",
+        "27895058",
+        "27069254"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Leukemia, acute myeloid, somatic, OMIM:601626",
+        "Thrombocytopenia 5, OMIM:616216",
+        "Acute myeloid leukemia, MONDO:0018874"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NFE1B"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4171",
+        "gene_name": "GATA binding protein 2",
+        "omim_gene": [
+          "137295"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GATA2",
+        "hgnc_symbol": "GATA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:128198270-128212028",
+              "ensembl_id": "ENSG00000179348"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:128479427-128493185",
+              "ensembl_id": "ENSG00000179348"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "GATA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23926458",
+        "28600339",
+        "30466750",
+        "27895058",
+        "27069254"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "{Leukemia, acute myeloid, susceptibility to}, OMIM:601626",
+        "{Myelodysplastic syndrome, susceptibility to}, OMIM:614286",
+        "Emberger syndrome, OMIM:614038"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MED1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6919",
+        "gene_name": "methyl-CpG binding domain 4, DNA glycosylase",
+        "omim_gene": [
+          "603574"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MBD4",
+        "hgnc_symbol": "MBD4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:129149787-129158878",
+              "ensembl_id": "ENSG00000129071"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:129430944-129440179",
+              "ensembl_id": "ENSG00000129071"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-01-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "MBD4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "12417741",
+        "30049810",
+        "32239153",
+        "35460607"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Tumor predisposition syndrome 2, OMIM:619975",
+        "Multi-organ tumour predisposition syndrome",
+        "Adenomatous colorectal polyposis",
+        "Colorectal cancer",
+        "Acute myeloid leukemia",
+        "Uveal melanoma"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PEBP2A2",
+          "AMLCR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10471",
+        "gene_name": "runt related transcription factor 1",
+        "omim_gene": [
+          "151385"
+        ],
+        "alias_name": [
+          "aml1 oncogene"
+        ],
+        "gene_symbol": "RUNX1",
+        "hgnc_symbol": "RUNX1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:36160098-37376965",
+              "ensembl_id": "ENSG00000159216"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:34787801-36004667",
+              "ensembl_id": "ENSG00000159216"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "RUNX1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19357396",
+        "23926458",
+        "11830488",
+        "30466750",
+        "27895058",
+        "27069254"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Leukemia, acute myeloid, OMIM:601626",
+        "Platelet disorder, familial, with associated myeloid malignancy, OMIM:601399"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA2005",
+          "FLJ39885"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1349",
+        "gene_name": "sterile alpha motif domain containing 9 like",
+        "omim_gene": [
+          "611170"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SAMD9L",
+        "hgnc_symbol": "SAMD9L",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:92759368-92777682",
+              "ensembl_id": "ENSG00000177409"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:93130055-93148369",
+              "ensembl_id": "ENSG00000177409"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-04-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "SAMD9L",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11172908",
+        "10640152"
+      ],
+      "evidence": [
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Monosomy 7 myelodysplasia and leukemia syndrome 1, OMIM:252270"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TR",
+          "hTR",
+          "TRC3",
+          "SCARNA19"
+        ],
+        "biotype": "lincRNA",
+        "hgnc_id": "HGNC:11727",
+        "gene_name": "telomerase RNA component",
+        "omim_gene": [
+          "602322"
+        ],
+        "alias_name": [
+          "small Cajal body-specific RNA 19"
+        ],
+        "gene_symbol": "TERC",
+        "hgnc_symbol": "TERC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:169482308-169482848",
+              "ensembl_id": "ENSG00000270141"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:169764520-169765060",
+              "ensembl_id": "ENSG00000270141"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TERC",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23926458",
+        "28600339",
+        "30466750",
+        "27895058",
+        "27069254"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Dyskeratosis congenita, autosomal dominant 1, OMIM:127550",
+        "{Aplastic anemia}, OMIM:614743"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "locus-type-rna-long-non-coding"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRT",
+          "TP2",
+          "TCS1",
+          "hEST2",
+          "EST2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11730",
+        "gene_name": "telomerase reverse transcriptase",
+        "omim_gene": [
+          "187270"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TERT",
+        "hgnc_symbol": "TERT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:1253262-1295184",
+              "ensembl_id": "ENSG00000164362"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:1253147-1295069",
+              "ensembl_id": "ENSG00000164362"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "TERT",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23926458",
+        "28600339",
+        "30466750",
+        "27895058",
+        "27069254"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "{Leukemia, acute myeloid}, OMIM:601626",
+        "Dyskeratosis congenita, autosomal dominant 2, OMIM:613989",
+        "Dyskeratosis congenita, autosomal recessive 4, OMIM:613989",
+        "Pulmonary fibrosis and/or bone marrow failure, telomere-related, 1, OMIM:614742"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p53",
+          "LFS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11998",
+        "gene_name": "tumor protein p53",
+        "omim_gene": [
+          "191170"
+        ],
+        "alias_name": [
+          "Li-Fraumeni syndrome"
+        ],
+        "gene_symbol": "TP53",
+        "hgnc_symbol": "TP53",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:7565097-7590856",
+              "ensembl_id": "ENSG00000141510"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:7661779-7687550",
+              "ensembl_id": "ENSG00000141510"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TP53",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28600339"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Li-Fraumeni syndrome, OMIM:151623",
+        "Li-Fraumeni syndrome 1, MONDO:0007903"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Ptop",
+          "Pip1",
+          "Tpp1",
+          "Tint1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25070",
+        "gene_name": "ACD, shelterin complex subunit and telomerase recruitment factor",
+        "omim_gene": [
+          "609377"
+        ],
+        "alias_name": [
+          "TIN2 interacting protein 1",
+          "POT1 and TIN2 organizing protein"
+        ],
+        "gene_symbol": "ACD",
+        "hgnc_symbol": "ACD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:67691415-67694713",
+              "ensembl_id": "ENSG00000102977"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:67657512-67660815",
+              "ensembl_id": "ENSG00000102977"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACD",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "25233904"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Research"
+      ],
+      "phenotypes": [
+        "?Dyskeratosis congenita, autosomal dominant 6, OMIM:616553",
+        "?Dyskeratosis congenita, autosomal recessive 7, OMIM:616553"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDS1",
+          "CHK2",
+          "HuCds1",
+          "PP1425",
+          "bA444G7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16627",
+        "gene_name": "checkpoint kinase 2",
+        "omim_gene": [
+          "604373"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CHEK2",
+        "hgnc_symbol": "CHEK2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:29083731-29138410",
+              "ensembl_id": "ENSG00000183765"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:28687743-28742422",
+              "ensembl_id": "ENSG00000183765"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-09-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHEK2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29902706"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "609265 Li-Fraumeni syndrome",
+        "609265 (OMIM phenotype description ID)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q2_26_promote_green",
+        "Q2_26_NHS_review",
+        "Q2_26_expert_review"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "bK3184A7.3",
+          "NHL",
+          "DKFZP434C013",
+          "KIAA1088",
+          "RTEL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15888",
+        "gene_name": "regulator of telomere elongation helicase 1",
+        "omim_gene": [
+          "608833"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RTEL1",
+        "hgnc_symbol": "RTEL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:62289163-62328416",
+              "ensembl_id": "ENSG00000258366"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:63657810-63696253",
+              "ensembl_id": "ENSG00000258366"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-10-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "RTEL1",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "PMID: 30466750",
+        "PMID:  29146883"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Research",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Dyskeratosis congenita, autosomal dominant 4, OMIM:615190",
+        "Dyskeratosis congenita, autosomal recessive 5, OMIM:615190"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA2004",
+          "FLJ20073"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1348",
+        "gene_name": "sterile alpha motif domain containing 9",
+        "omim_gene": [
+          "610456"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SAMD9",
+        "hgnc_symbol": "SAMD9",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:92728829-92747336",
+              "ensembl_id": "ENSG00000205413"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:93099513-93118023",
+              "ensembl_id": "ENSG00000205413"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SAMD9",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "28487541",
+        "29146883",
+        "30046003",
+        "30466750"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Research",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Monosomy 7 myelodysplasia and leukemia syndrome 2, OMIM:619041"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11303",
+        "gene_name": "signal recognition particle 72",
+        "omim_gene": [
+          "602122"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SRP72",
+        "hgnc_symbol": "SRP72",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:57333081-57369839",
+              "ensembl_id": "ENSG00000174780"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:56466915-56503680",
+              "ensembl_id": "ENSG00000174780"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-12-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "SRP72",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23926458",
+        "26917736",
+        "28600339",
+        "29146883",
+        "30466750"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "602122 (OMIN gene description ID)",
+        "602122 Bone marrow failure syndrome 1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

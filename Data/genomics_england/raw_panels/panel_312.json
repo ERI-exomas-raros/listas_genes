@@ -1,0 +1,614 @@
+{
+  "id": 312,
+  "hash_id": "55bf826222c1fc0fe45530c1",
+  "name": "Familial hypoparathyroidism",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.5",
+  "version_created": "2026-01-23T10:44:21.919102Z",
+  "relevant_disorders": [
+    "Familial or syndromic hypoparathyroidism",
+    "R153"
+  ],
+  "stats": {
+    "number_of_genes": 10,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "PGA1",
+          "APS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:360",
+        "gene_name": "autoimmune regulator",
+        "omim_gene": [
+          "607358"
+        ],
+        "alias_name": [
+          "autoimmune polyendocrinopathy candidiasis ectodermal dystrophy"
+        ],
+        "gene_symbol": "AIRE",
+        "hgnc_symbol": "AIRE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:45705721-45718531",
+              "ensembl_id": "ENSG00000160224"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:44285838-44298648",
+              "ensembl_id": "ENSG00000160224"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-09-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "AIRE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11600535",
+        "19393987",
+        "27253668",
+        "29129473",
+        "31905445",
+        "35521792",
+        "37993717",
+        "37235056"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia, OMIM:240300",
+        "autoimmune polyendocrine syndrome type 1, MONDO:0009411"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "Q4_25_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FHH",
+          "NSHPT",
+          "GPRC2A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1514",
+        "gene_name": "calcium sensing receptor",
+        "omim_gene": [
+          "601199"
+        ],
+        "alias_name": [
+          "severe neonatal hyperparathyroidism"
+        ],
+        "gene_symbol": "CASR",
+        "hgnc_symbol": "CASR",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:121902530-122005342",
+              "ensembl_id": "ENSG00000036828"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:122183683-122291629",
+              "ensembl_id": "ENSG00000036828"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-12-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "CASR",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Hyperparathyroidism, neonatal, 239200",
+        "Hypocalcemia, autosomal dominant, with or without Bartter syndrome, 601198"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HDR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4172",
+        "gene_name": "GATA binding protein 3",
+        "omim_gene": [
+          "131320"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GATA3",
+        "hgnc_symbol": "GATA3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:8095567-8117161",
+              "ensembl_id": "ENSG00000107485"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:8053604-8075198",
+              "ensembl_id": "ENSG00000107485"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "GATA3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hypoparathyroidism, sensorineural deafness, and renal dysplasia, 146255"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hGCMb"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4198",
+        "gene_name": "glial cells missing homolog 2",
+        "omim_gene": [
+          "603716"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GCM2",
+        "hgnc_symbol": "GCM2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:10873456-10882174",
+              "ensembl_id": "ENSG00000124827"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:10873223-10881941",
+              "ensembl_id": "ENSG00000124827"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "GCM2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18712808",
+        "22066718",
+        "20463099",
+        "20190276"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hypoparathyroidism, familial isolated, 146200"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FBH",
+          "FBH2",
+          "FHH2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4379",
+        "gene_name": "G protein subunit alpha 11",
+        "omim_gene": [
+          "139313"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GNA11",
+        "hgnc_symbol": "GNA11",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:3094408-3124002",
+              "ensembl_id": "ENSG00000088256"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:3094410-3124004",
+              "ensembl_id": "ENSG00000088256"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-07-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNA11",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "23802516",
+        "24823460",
+        "23782177"
+      ],
+      "evidence": [
+        "Expert list",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypocalcemia, autosomal dominant 2, 615361",
+        "hypercalcemia, type II, 145981"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PTH1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9606",
+        "gene_name": "parathyroid hormone",
+        "omim_gene": [
+          "168450"
+        ],
+        "alias_name": [
+          "parathyrin",
+          "parathormone",
+          "parathyroid hormone 1",
+          "preproparathyroid hormone",
+          "prepro-PTH"
+        ],
+        "gene_symbol": "PTH",
+        "hgnc_symbol": "PTH",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:13513602-13517728",
+              "ensembl_id": "ENSG00000152266"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:13492055-13496181",
+              "ensembl_id": "ENSG00000152266"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTH",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hypoparathyroidism, autosomal dominant, 146200",
+        "Hypoparathyroidism, autosomal recessive, 146200"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KCS1",
+          "pac2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11582",
+        "gene_name": "tubulin folding cofactor E",
+        "omim_gene": [
+          "604934"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TBCE",
+        "hgnc_symbol": "TBCE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:235530675-235612283",
+              "ensembl_id": "ENSG00000116957"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:235367360-235448968",
+              "ensembl_id": "ENSG00000116957"
+            },
+            "107": {
+              "location": "1:235367360-235452443",
+              "ensembl_id": "ENSG00000284770"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-07-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBCE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12389028",
+        "16938882"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hypoparathyroidism-retardation-dysmorphism syndrome, 241410",
+        "Caffey syndrome, type 1, 244460"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CATCH22"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11592",
+        "gene_name": "T-box 1",
+        "omim_gene": [
+          "602054"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TBX1",
+        "hgnc_symbol": "TBX1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:19744226-19771116",
+              "ensembl_id": "ENSG00000184058"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:19756703-19783593",
+              "ensembl_id": "ENSG00000184058"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBX1",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "14585638",
+        "17273972",
+        "30137364"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "DiGeorge syndrome, OMIM:188400",
+        "Conotruncal anomaly face syndrome, OMIM:217095",
+        "Velocardiofacial syndrome, OMIM:192430"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hsyn16",
+          "SYN16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11431",
+        "gene_name": "syntaxin 16",
+        "omim_gene": [
+          "603666"
+        ],
+        "alias_name": null,
+        "gene_symbol": "STX16",
+        "hgnc_symbol": "STX16",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:57226328-57254582",
+              "ensembl_id": "ENSG00000124222"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:58651253-58679526",
+              "ensembl_id": "ENSG00000124222"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "STX16",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "14561710",
+        "15579741",
+        "15800843",
+        "33320452",
+        "32337648",
+        "35119251"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Pseudohypoparathyroidism, type IB OMIM:603233",
+        "pseudohypoparathyroidism type 1B:MONDO:0011301"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "non-coding-known-pathogenic",
+        "cnv"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11199",
+        "gene_name": "SRY-box 3",
+        "omim_gene": [
+          "313430"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOX3",
+        "hgnc_symbol": "SOX3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:139585152-139587225",
+              "ensembl_id": "ENSG00000134595"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:140502985-140505116",
+              "ensembl_id": "ENSG00000134595"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOX3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "6167084"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Mental retardation, X-linked, with isolated growth hormone deficiency, OMIM:300123",
+        "Intellectual disability, X-linked, with panhypopituitarism, MONDO:0010252",
+        "Panhypopituitarism, X-linked, OMIM:312000",
+        "Panhypopituitarism, X-linked, MONDO:0010712"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

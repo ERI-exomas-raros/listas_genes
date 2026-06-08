@@ -1,0 +1,4846 @@
+{
+  "id": 53,
+  "hash_id": "588728f38f62030cf7152165",
+  "name": "Ehlers Danlos syndrome with a likely monogenic cause",
+  "disease_group": "Musculoskeletal",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "4.13",
+  "version_created": "2026-06-08T08:48:40.612584Z",
+  "relevant_disorders": [
+    "Classical Ehlers Danlos Syndrome",
+    "Classical Ehlers-Danlos Syndrome",
+    "Ehlers-Danlos Syndrome (unusual phenotypes e.g. absent pain sense)",
+    "Ehlers-Danlos syndrome type 3",
+    "Kyphoscoliotic Ehlers-Danlos syndrome",
+    "EDS",
+    "Ehlers-Danlos syndromes",
+    "Ehlers Danlos syndromes",
+    "R101"
+  ],
+  "stats": {
+    "number_of_genes": 83,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "ADAMTS-3",
+          "hPCPNI",
+          "PCINP",
+          "ADAM-TS2",
+          "NPI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:218",
+        "gene_name": "ADAM metallopeptidase with thrombospondin type 1 motif 2",
+        "omim_gene": [
+          "604539"
+        ],
+        "alias_name": [
+          "procollagen I N-proteinase",
+          "procollagen N-endopeptidase"
+        ],
+        "gene_symbol": "ADAMTS2",
+        "hgnc_symbol": "ADAMTS2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:178537852-178772431",
+              "ensembl_id": "ENSG00000087116"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:179110851-179345430",
+              "ensembl_id": "ENSG00000087116"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-04-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADAMTS2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28306225",
+        "1303238",
+        "1642226",
+        "1403389",
+        "15389701",
+        "26765342"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, dermatosparaxis type, OMIM:225410"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ACLP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:303",
+        "gene_name": "AE binding protein 1",
+        "omim_gene": [
+          "602981"
+        ],
+        "alias_name": [
+          "aortic carboxypeptidase-like protein",
+          "adipocyte enhancer binding protein 1"
+        ],
+        "gene_symbol": "AEBP1",
+        "hgnc_symbol": "AEBP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:44143960-44154161",
+              "ensembl_id": "ENSG00000106624"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:44104361-44114562",
+              "ensembl_id": "ENSG00000106624"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "AEBP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "29606302"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, classic-like, 2, OMIM:618000"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P5CS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9722",
+        "gene_name": "aldehyde dehydrogenase 18 family member A1",
+        "omim_gene": [
+          "138250"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALDH18A1",
+        "hgnc_symbol": "ALDH18A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:97365696-97416463",
+              "ensembl_id": "ENSG00000059573"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:95605929-95656706",
+              "ensembl_id": "ENSG00000059573"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALDH18A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24767728",
+        "26320891",
+        "11092761",
+        "18478038",
+        "21739576",
+        "24913064"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Cutis laxa, autosomal recessive, type IIIA, OMIM:219150",
+        "Cutis laxa, autosomal dominant 3, OMIM:616603"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TJ6",
+          "a2",
+          "TJ6s",
+          "TJ6M",
+          "ATP6a2",
+          "J6B7",
+          "ATP6N1D",
+          "Vph1",
+          "Stv1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18481",
+        "gene_name": "ATPase H+ transporting V0 subunit a2",
+        "omim_gene": [
+          "611716"
+        ],
+        "alias_name": [
+          "infantile malignant osteopetrosis"
+        ],
+        "gene_symbol": "ATP6V0A2",
+        "hgnc_symbol": "ATP6V0A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:124196865-124246302",
+              "ensembl_id": "ENSG00000185344"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:123712318-123761755",
+              "ensembl_id": "ENSG00000185344"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP6V0A2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18157129",
+        "15657616",
+        "22773132",
+        "20301755"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert list",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cutis laxa, autosomal recessive, type IIA, OMIM:219200",
+        "Wrinkly skin syndrome, OMIM:278250"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Vma1",
+          "VA68"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:851",
+        "gene_name": "ATPase H+ transporting V1 subunit A",
+        "omim_gene": [
+          "607027"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ATP6V1A",
+        "hgnc_symbol": "ATP6V1A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:113465866-113530903",
+              "ensembl_id": "ENSG00000114573"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:113747019-113812056",
+              "ensembl_id": "ENSG00000114573"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-04-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP6V1A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28065471",
+        "33320377"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Cutis laxa, autosomal recessive, type IID, OMIM:617403"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:869",
+        "gene_name": "ATPase copper transporting alpha",
+        "omim_gene": [
+          "300011"
+        ],
+        "alias_name": [
+          "copper pump 1",
+          "copper-transporting ATPase 1"
+        ],
+        "gene_symbol": "ATP7A",
+        "hgnc_symbol": "ATP7A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:77166194-77305892",
+              "ensembl_id": "ENSG00000165240"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:77910656-78050395",
+              "ensembl_id": "ENSG00000165240"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ATP7A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "27604308",
+        "10739752",
+        "11431706",
+        "20170900"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Occipital horn syndrome, OMIM:304150"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "beta3GalT6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17978",
+        "gene_name": "beta-1,3-galactosyltransferase 6",
+        "omim_gene": [
+          "615291"
+        ],
+        "alias_name": [
+          "beta-1,3-galactosyltransferase-6"
+        ],
+        "gene_symbol": "B3GALT6",
+        "hgnc_symbol": "B3GALT6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:1167629-1170421",
+              "ensembl_id": "ENSG00000176022"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:1232265-1235041",
+              "ensembl_id": "ENSG00000176022"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-01-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "B3GALT6",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23664117",
+        "23664118",
+        "28306229",
+        "28306225"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, spondylodysplastic type, 2, OMIM:615349",
+        "Spondyloepimetaphyseal dysplasia with joint laxity, type 1, with or without fractures, OMIM:271640"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XGALT-1",
+          "beta4Gal-T7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:930",
+        "gene_name": "beta-1,4-galactosyltransferase 7",
+        "omim_gene": [
+          "604327"
+        ],
+        "alias_name": [
+          "galactosyltransferase I"
+        ],
+        "gene_symbol": "B4GALT7",
+        "hgnc_symbol": "B4GALT7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:177027101-177037348",
+              "ensembl_id": "ENSG00000027847"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:177600100-177610347",
+              "ensembl_id": "ENSG00000027847"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "B4GALT7",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23956117",
+        "10506123",
+        "10473568",
+        "12417421",
+        "15859521",
+        "15211654",
+        "15589118",
+        "16583246",
+        "3631078",
+        "27320698",
+        "26940150",
+        "28306229",
+        "28306225"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, spondylodysplastic type, 1, OMIM:130070"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DSPG1",
+          "SLRR1A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1044",
+        "gene_name": "biglycan",
+        "omim_gene": [
+          "301870"
+        ],
+        "alias_name": [
+          "biglycan proteoglycan"
+        ],
+        "gene_symbol": "BGN",
+        "hgnc_symbol": "BGN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:152760397-152775012",
+              "ensembl_id": "ENSG00000182492"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:153494939-153509554",
+              "ensembl_id": "ENSG00000182492"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-07-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "BGN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27632686"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Meester-Loeys syndrome, OMIM:300989"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1246",
+        "gene_name": "complement C1r",
+        "omim_gene": [
+          "613785"
+        ],
+        "alias_name": null,
+        "gene_symbol": "C1R",
+        "hgnc_symbol": "C1R",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:7187513-7245203",
+              "ensembl_id": "ENSG00000159403"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:7080209-7092607",
+              "ensembl_id": "ENSG00000159403"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "C1R",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27745832",
+        "28306229",
+        "28306225"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, periodontal type, 1, OMIM:130080"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1247",
+        "gene_name": "complement C1s",
+        "omim_gene": [
+          "120580"
+        ],
+        "alias_name": null,
+        "gene_symbol": "C1S",
+        "hgnc_symbol": "C1S",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:7096351-7178336",
+              "ensembl_id": "ENSG00000182326"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:6988259-7071032",
+              "ensembl_id": "ENSG00000182326"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "C1S",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27745832",
+        "28306229",
+        "28306225"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, periodontal type, 2, OMIM:617174"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HIP4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1550",
+        "gene_name": "cystathionine-beta-synthase",
+        "omim_gene": [
+          "613381"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CBS",
+        "hgnc_symbol": "CBS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:44473301-44497053",
+              "ensembl_id": "ENSG00000160200"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:43053191-43076943",
+              "ensembl_id": "ENSG00000160200"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CBS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert list",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Homocystinuria, B6-responsive and nonresponsive types, OMIM:236200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HD4ST",
+          "D4ST-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24464",
+        "gene_name": "carbohydrate sulfotransferase 14",
+        "omim_gene": [
+          "608429"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CHST14",
+        "hgnc_symbol": "CHST14",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:40763160-40765353",
+              "ensembl_id": "ENSG00000169105"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:40470998-40474571",
+              "ensembl_id": "ENSG00000169105"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-03-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHST14",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28306225",
+        "9084938",
+        "23704329",
+        "10766984",
+        "11666007",
+        "11370633",
+        "12508273",
+        "16158441",
+        "20503305",
+        "20842734",
+        "21744491",
+        "22581468",
+        "22987394",
+        "22407744",
+        "25703627",
+        "26373698",
+        "26872206"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Literature",
+        "Expert Review",
+        "Expert list",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, musculocontractural type 1, OMIM:601776"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2188",
+        "gene_name": "collagen type XII alpha 1 chain",
+        "omim_gene": [
+          "120320"
+        ],
+        "alias_name": [
+          "collagen type XII proteoglycan"
+        ],
+        "gene_symbol": "COL12A1",
+        "hgnc_symbol": "COL12A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:75794042-75915767",
+              "ensembl_id": "ENSG00000111799"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:75084326-75206051",
+              "ensembl_id": "ENSG00000111799"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-03-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL12A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28306225",
+        "24334769",
+        "24334604",
+        "27348394",
+        "35019233"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Bethlem myopathy 2, OMIM:616471",
+        "Bethlem myopathy 2, MONDO:0034022"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OI4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2197",
+        "gene_name": "collagen type I alpha 1 chain",
+        "omim_gene": [
+          "120150"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL1A1",
+        "hgnc_symbol": "COL1A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:48260650-48278993",
+              "ensembl_id": "ENSG00000108821"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:50183289-50201632",
+              "ensembl_id": "ENSG00000108821"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL1A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28306225",
+        "28192633",
+        "17211858",
+        "10739762",
+        "23587214",
+        "2559765",
+        "18409203",
+        "9295084",
+        "1867198"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert Review Green",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, arthrochalasia type, 1, OMIM:130060",
+        "Combined osteogenesis imperfecta and Ehlers-Danlos syndrome 1, OMIM:619115"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2198",
+        "gene_name": "collagen type I alpha 2 chain",
+        "omim_gene": [
+          "120160"
+        ],
+        "alias_name": [
+          "alpha 2(I)-collagen",
+          "alpha-2 collagen type I",
+          "type I procollagen",
+          "collagen I, alpha-2 polypeptide",
+          "collagen of skin, tendon and bone, alpha-2 chain"
+        ],
+        "gene_symbol": "COL1A2",
+        "hgnc_symbol": "COL1A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:94023873-94060544",
+              "ensembl_id": "ENSG00000164692"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:94394561-94431232",
+              "ensembl_id": "ENSG00000164692"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL1A2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28306225",
+        "22892533",
+        "18409203",
+        "2454224",
+        "1712342",
+        "9295084",
+        "3383844",
+        "3049731",
+        "11288717",
+        "15077201",
+        "16816023"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Combined osteogenesis imperfecta and Ehlers-Danlos syndrome 2, OMIM:619120",
+        "Ehlers-Danlos syndrome, arthrochalasia type, 2, OMIM:617821",
+        "Ehlers-Danlos syndrome, cardiac valvular type, OMIM:225320"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2201",
+        "gene_name": "collagen type III alpha 1 chain",
+        "omim_gene": [
+          "120180"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL3A1",
+        "hgnc_symbol": "COL3A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:189839046-189877472",
+              "ensembl_id": "ENSG00000168542"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:188974320-189012746",
+              "ensembl_id": "ENSG00000168542"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL3A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28306225",
+        "28192633",
+        "17211858",
+        "2243125",
+        "11577371",
+        "19455184",
+        "21637106",
+        "24922459"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list",
+        "UKGTN",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, vascular type, OMIM:130050",
+        "Polymicrogyria with or without vascular-type EDS, OMIM:618343"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2209",
+        "gene_name": "collagen type V alpha 1 chain",
+        "omim_gene": [
+          "120215"
+        ],
+        "alias_name": [
+          "alpha 1 type V collagen"
+        ],
+        "gene_symbol": "COL5A1",
+        "hgnc_symbol": "COL5A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:137533620-137736686",
+              "ensembl_id": "ENSG00000130635"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:134641774-134844843",
+              "ensembl_id": "ENSG00000130635"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL5A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28192633",
+        "22696272",
+        "15264295",
+        "9042913",
+        "34740257"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Eligibility statement prior genetic testing",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, classic type, 1, OMIM:130000"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2210",
+        "gene_name": "collagen type V alpha 2 chain",
+        "omim_gene": [
+          "120190"
+        ],
+        "alias_name": [
+          "AB collagen"
+        ],
+        "gene_symbol": "COL5A2",
+        "hgnc_symbol": "COL5A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:189896622-190044605",
+              "ensembl_id": "ENSG00000204262"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:189031896-189179879",
+              "ensembl_id": "ENSG00000204262"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL5A2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28192633",
+        "9783710",
+        "9425231",
+        "9425231"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Eligibility statement prior genetic testing",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, classic type, 2, OMIM:130010"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2211",
+        "gene_name": "collagen type VI alpha 1 chain",
+        "omim_gene": [
+          "120220"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL6A1",
+        "hgnc_symbol": "COL6A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:47401651-47424964",
+              "ensembl_id": "ENSG00000142156"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:45981737-46005050",
+              "ensembl_id": "ENSG00000142156"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL6A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28306225",
+        "8782832",
+        "9580662",
+        "11865138",
+        "12840783",
+        "16130093",
+        "16130093"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Bethlem myopathy 1, OMIM:158810",
+        "Ullrich congenital muscular dystrophy 1, OMIM:254090"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2212",
+        "gene_name": "collagen type VI alpha 2 chain",
+        "omim_gene": [
+          "120240"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL6A2",
+        "hgnc_symbol": "COL6A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:47518011-47552763",
+              "ensembl_id": "ENSG00000142173"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:46098097-46132849",
+              "ensembl_id": "ENSG00000142173"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL6A2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28306225",
+        "8782832",
+        "11865138",
+        "19949035",
+        "17886299",
+        "11381124",
+        "11506412",
+        "19564581"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Bethlem myopathy 1,OMIM:158810",
+        "Ullrich congenital muscular dystrophy 1, OMIM:254090"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2213",
+        "gene_name": "collagen type VI alpha 3 chain",
+        "omim_gene": [
+          "120250"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL6A3",
+        "hgnc_symbol": "COL6A3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:238232646-238323018",
+              "ensembl_id": "ENSG00000163359"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:237324003-237414375",
+              "ensembl_id": "ENSG00000163359"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL6A3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28306225",
+        "9536084",
+        "17886299",
+        "19949035",
+        "15563506",
+        "11992252",
+        "19564581"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Bethlem myopathy 1, OMIM:158810",
+        "Ullrich congenital muscular dystrophy 1, OMIM:254090"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DSEPI",
+          "DS-Epi1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21144",
+        "gene_name": "dermatan sulfate epimerase",
+        "omim_gene": [
+          "605942"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSE",
+        "hgnc_symbol": "DSE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:116575336-116762424",
+              "ensembl_id": "ENSG00000111817"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:116254173-116444860",
+              "ensembl_id": "ENSG00000111817"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27745832",
+        "28306229",
+        "28306225",
+        "23704329",
+        "25703627"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, musculocontractural type 2, OMIM:615539"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "missense"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "S1-5",
+          "FBLN3",
+          "MTLV"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3218",
+        "gene_name": "EGF containing fibulin extracellular matrix protein 1",
+        "omim_gene": [
+          "601548"
+        ],
+        "alias_name": [
+          "fibulin 3"
+        ],
+        "gene_symbol": "EFEMP1",
+        "hgnc_symbol": "EFEMP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:56093102-56151274",
+              "ensembl_id": "ENSG00000115380"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:55865967-55924139",
+              "ensembl_id": "ENSG00000115380"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-04-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "EFEMP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32006683",
+        "31792352",
+        "33807164"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Cutis laxa, autosomal recessive, type ID, OMIM:620780",
+        "cutis laxa, MONDO:0016175"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FBLN4",
+          "UPH1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3219",
+        "gene_name": "EGF containing fibulin extracellular matrix protein 2",
+        "omim_gene": [
+          "604633"
+        ],
+        "alias_name": [
+          "fibulin 4"
+        ],
+        "gene_symbol": "EFEMP2",
+        "hgnc_symbol": "EFEMP2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:65633912-65641063",
+              "ensembl_id": "ENSG00000172638"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:65866441-65873592",
+              "ensembl_id": "ENSG00000172638"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-03-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "EFEMP2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16685658",
+        "17937443",
+        "22943132",
+        "22943132"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Cutis laxa, autosomal recessive, type IB, OMIM:614437"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "WBS",
+          "WS",
+          "SVAS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3327",
+        "gene_name": "elastin",
+        "omim_gene": [
+          "130160"
+        ],
+        "alias_name": [
+          "tropoelastin",
+          "supravalvular aortic stenosis",
+          "Williams-Beuren syndrome"
+        ],
+        "gene_symbol": "ELN",
+        "hgnc_symbol": "ELN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:73442119-73484237",
+              "ensembl_id": "ENSG00000049540"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:74027789-74069907",
+              "ensembl_id": "ENSG00000049540"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ELN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9580666",
+        "9873040",
+        "16085695"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Cutis laxa, autosomal dominant, OMIM:123700"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EVEC",
+          "UP50",
+          "DANCE",
+          "ARMD3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3602",
+        "gene_name": "fibulin 5",
+        "omim_gene": [
+          "604580"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FBLN5",
+        "hgnc_symbol": "FBLN5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:92335756-92414331",
+              "ensembl_id": "ENSG00000140092"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:91869412-91947987",
+              "ensembl_id": "ENSG00000140092"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "FBLN5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "12618961",
+        "23328402",
+        "22829427",
+        "20301756"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "?Cutis laxa, autosomal dominant 2, OMIM:614434",
+        "Cutis laxa, autosomal recessive, type IA, OMIM:219100"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MASS",
+          "OCTD",
+          "SGS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3603",
+        "gene_name": "fibrillin 1",
+        "omim_gene": [
+          "134797"
+        ],
+        "alias_name": [
+          "Marfan syndrome",
+          "asprosin"
+        ],
+        "gene_symbol": "FBN1",
+        "hgnc_symbol": "FBN1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:48700503-48938046",
+              "ensembl_id": "ENSG00000166147"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:48408306-48645849",
+              "ensembl_id": "ENSG00000166147"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1987-09-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "FBN1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23278365",
+        "27582083",
+        "31950671"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Marfan syndrome, OMIM:154700",
+        "Marfan syndrome, MONDO:0007947"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "Q2_26_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DA9"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3604",
+        "gene_name": "fibrillin 2",
+        "omim_gene": [
+          "612570"
+        ],
+        "alias_name": [
+          "fibrillin 5"
+        ],
+        "gene_symbol": "FBN2",
+        "hgnc_symbol": "FBN2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:127593601-127994878",
+              "ensembl_id": "ENSG00000138829"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:128257909-128659185",
+              "ensembl_id": "ENSG00000138829"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "FBN2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9737771",
+        "10797416",
+        "20799338"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Contractural arachnodactyly, congenital, OMIM:121050"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20731",
+          "FKBP22"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18625",
+        "gene_name": "FK506 binding protein 14",
+        "omim_gene": [
+          "614505"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FKBP14",
+        "hgnc_symbol": "FKBP14",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:30050203-30066300",
+              "ensembl_id": "ENSG00000106080"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:30010587-30026684",
+              "ensembl_id": "ENSG00000106080"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "FKBP14",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28306225",
+        "22265013",
+        "24773188",
+        "24677762",
+        "27023906",
+        "27149304"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, kyphoscoliotic type, 2, OMIM:614557"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ11752",
+          "NTKL-BP1",
+          "GO"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25676",
+        "gene_name": "golgin, RAB6 interacting",
+        "omim_gene": [
+          "607983"
+        ],
+        "alias_name": [
+          "gerodermia osteodysplastica",
+          "RAB6-interacting golgin"
+        ],
+        "gene_symbol": "GORAB",
+        "hgnc_symbol": "GORAB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:170501270-170522587",
+              "ensembl_id": "ENSG00000120370"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:170532129-170553446",
+              "ensembl_id": "ENSG00000120370"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-02-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "GORAB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18997784",
+        "19681135"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Other",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Geroderma osteodysplasticum, OMIM:231070"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6664",
+        "gene_name": "lysyl oxidase",
+        "omim_gene": [
+          "153455"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LOX",
+        "hgnc_symbol": "LOX",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:121398890-121413980",
+              "ensembl_id": "ENSG00000113083"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:122063195-122078360",
+              "ensembl_id": "ENSG00000113083"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "LOX",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26838787",
+        "27432961",
+        "16192629",
+        "27432961",
+        "33866545"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert Review",
+        "Other"
+      ],
+      "phenotypes": [
+        "Aortic aneurysm, familial thoracic 10, OMIM:617168"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "Q2_26_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6715",
+        "gene_name": "latent transforming growth factor beta binding protein 2",
+        "omim_gene": [
+          "602091"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LTBP2",
+        "hgnc_symbol": "LTBP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:74964873-75079306",
+              "ensembl_id": "ENSG00000119681"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:74498170-74612378",
+              "ensembl_id": "ENSG00000119681"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "LTBP2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "20179738",
+        "20617341",
+        "22539340",
+        "19361779"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Microspherophakia and/or megalocornea, with ectopia lentis and with or without secondary glaucoma, OMIM:251750",
+        "Glaucoma 3, primary congenital, D, OMIM:613086",
+        "Weill-Marchesani syndrome 3, recessive, OMIM:614819"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LTBP-4",
+          "LTBP-4L",
+          "FLJ46318",
+          "FLJ90018"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6717",
+        "gene_name": "latent transforming growth factor beta binding protein 4",
+        "omim_gene": [
+          "604710"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LTBP4",
+        "hgnc_symbol": "LTBP4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:41098789-41135725",
+              "ensembl_id": "ENSG00000090006"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:40592883-40629818",
+              "ensembl_id": "ENSG00000090006"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-11-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "LTBP4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26866239",
+        "22829427",
+        "27339457",
+        "25882708"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Cutis laxa, autosomal recessive, type IC, OMIM:613177"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LH1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9081",
+        "gene_name": "procollagen-lysine,2-oxoglutarate 5-dioxygenase 1",
+        "omim_gene": [
+          "153454"
+        ],
+        "alias_name": [
+          "lysyl hydroxlase 1"
+        ],
+        "gene_symbol": "PLOD1",
+        "hgnc_symbol": "PLOD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:11994262-12035595",
+              "ensembl_id": "ENSG00000083444"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:11934205-11975538",
+              "ensembl_id": "ENSG00000083444"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLOD1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28306225",
+        "9617436",
+        "9220536",
+        "15666309",
+        "9450904",
+        "8163671",
+        "25277362"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Other",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, kyphoscoliotic type, 1, OMIM:225400"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PFM2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9349",
+        "gene_name": "PR/SET domain 5",
+        "omim_gene": [
+          "614161"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PRDM5",
+        "hgnc_symbol": "PRDM5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:121606074-121844025",
+              "ensembl_id": "ENSG00000138738"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:120684919-120922870",
+              "ensembl_id": "ENSG00000138738"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-08-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRDM5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28306225",
+        "23680354"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Brittle cornea syndrome 2, OMIM:614170"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "P5C"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9721",
+        "gene_name": "pyrroline-5-carboxylate reductase 1",
+        "omim_gene": [
+          "179035"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PYCR1",
+        "hgnc_symbol": "PYCR1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:79890260-79900288",
+              "ensembl_id": "ENSG00000183010"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:81932384-81942412",
+              "ensembl_id": "ENSG00000183010"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-11-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "PYCR1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19648921",
+        "4076251",
+        "22052856",
+        "19576563",
+        "19648921",
+        "9648921",
+        "22052856",
+        "28294978"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Cutis laxa, autosomal recessive, type IIIB, OMIM:614438",
+        "Cutis laxa, autosomal recessive, type IIB, OMIM:612940"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RASSF4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18750",
+        "gene_name": "Ras and Rab interactor 2",
+        "omim_gene": [
+          "610222"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RIN2",
+        "hgnc_symbol": "RIN2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:19867165-19983101",
+              "ensembl_id": "ENSG00000132669"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:19886521-20002457",
+              "ensembl_id": "ENSG00000132669"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-09-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "RIN2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19631308",
+        "24449201",
+        "20424861",
+        "27277385"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Macrocephaly, alopecia, cutis laxa, and scoliosis, OMIM:613075"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RBIG1",
+          "FLJ21044",
+          "HGPS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13433",
+        "gene_name": "roundabout guidance receptor 3",
+        "omim_gene": [
+          "608630"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ROBO3",
+        "hgnc_symbol": "ROBO3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:124735282-124751366",
+              "ensembl_id": "ENSG00000154134"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:124865386-124881470",
+              "ensembl_id": "ENSG00000154134"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ROBO3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15105459",
+        "16525029"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Gaze palsy, familial horizontal, with progressive scoliosis, 1, OMIM:607313"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10896",
+        "gene_name": "SKI proto-oncogene",
+        "omim_gene": [
+          "164780"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SKI",
+        "hgnc_symbol": "SKI",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:2160134-2241558",
+              "ensembl_id": "ENSG00000157933"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:2228695-2310119",
+              "ensembl_id": "ENSG00000157933"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SKI",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23023332",
+        "24736733",
+        "24736733"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Shprintzen-Goldberg syndrome, OMIM:182212"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ25785"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20859",
+        "gene_name": "solute carrier family 39 member 13",
+        "omim_gene": [
+          "608735"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC39A13",
+        "hgnc_symbol": "SLC39A13",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:47428683-47438047",
+              "ensembl_id": "ENSG00000165915"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:47407132-47416501",
+              "ensembl_id": "ENSG00000165915"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC39A13",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18513683",
+        "18985159",
+        "28306229",
+        "28306225"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, spondylodysplastic type, 3, OMIM:612350"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MADR2",
+          "JV18-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6768",
+        "gene_name": "SMAD family member 2",
+        "omim_gene": [
+          "601366"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SMAD2",
+        "hgnc_symbol": "SMAD2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:45357922-45457515",
+              "ensembl_id": "ENSG00000175387"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:47808957-47931146",
+              "ensembl_id": "ENSG00000175387"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMAD2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26247899",
+        "23665959",
+        "20301312"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Loeys-Dietz syndrome, MONDO:0018954"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JV15-2",
+          "HsT17436"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6769",
+        "gene_name": "SMAD family member 3",
+        "omim_gene": [
+          "603109"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SMAD3",
+        "hgnc_symbol": "SMAD3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:67356101-67487533",
+              "ensembl_id": "ENSG00000166949"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:67063763-67195195",
+              "ensembl_id": "ENSG00000166949"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMAD3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21217753",
+        "21778426",
+        "22167769"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert Review Green",
+        "Expert list",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Loeys-Dietz syndrome 3, OMIM:613795"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11768",
+        "gene_name": "transforming growth factor beta 2",
+        "omim_gene": [
+          "190220"
+        ],
+        "alias_name": [
+          "prepro-transforming growth factor beta-2"
+        ],
+        "gene_symbol": "TGFB2",
+        "hgnc_symbol": "TGFB2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:218519577-218617961",
+              "ensembl_id": "ENSG00000092969"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:218346235-218444619",
+              "ensembl_id": "ENSG00000092969"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "TGFB2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22772368",
+        "22772371"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Loeys-Dietz syndrome 4, OMIM:614816"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11769",
+        "gene_name": "transforming growth factor beta 3",
+        "omim_gene": [
+          "190230"
+        ],
+        "alias_name": [
+          "prepro-transforming growth factor beta-3"
+        ],
+        "gene_symbol": "TGFB3",
+        "hgnc_symbol": "TGFB3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:76424442-76449334",
+              "ensembl_id": "ENSG00000119699"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:75958099-75982991",
+              "ensembl_id": "ENSG00000119699"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "TGFB3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24798638",
+        "23824657",
+        "25835445"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Other"
+      ],
+      "phenotypes": [
+        "Loeys-Dietz syndrome 5, OMIM:615582"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ALK-5",
+          "ACVRLK4",
+          "ALK5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11772",
+        "gene_name": "transforming growth factor beta receptor 1",
+        "omim_gene": [
+          "190181"
+        ],
+        "alias_name": [
+          "activin A receptor type II-like kinase, 53kDa"
+        ],
+        "gene_symbol": "TGFBR1",
+        "hgnc_symbol": "TGFBR1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:101866320-101916474",
+              "ensembl_id": "ENSG00000106799"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:99104038-99154192",
+              "ensembl_id": "ENSG00000106799"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "TGFBR1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Loeys-Dietz syndrome 1, OMIM:609192"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11773",
+        "gene_name": "transforming growth factor beta receptor 2",
+        "omim_gene": [
+          "190182"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TGFBR2",
+        "hgnc_symbol": "TGFBR2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:30647994-30735634",
+              "ensembl_id": "ENSG00000163513"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:30606502-30694142",
+              "ensembl_id": "ENSG00000163513"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "TGFBR2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert Review Green",
+        "Expert list",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Loeys-Dietz syndrome 2, OMIM:610168"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TNXBS",
+          "XBS",
+          "XB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11976",
+        "gene_name": "tenascin XB",
+        "omim_gene": [
+          "600985"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TNXB",
+        "hgnc_symbol": "TNXB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:32008931-32083111",
+              "ensembl_id": "ENSG00000168477"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:32041154-32115334",
+              "ensembl_id": "ENSG00000168477"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-07-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNXB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28306225",
+        "11642233",
+        "15733269",
+        "23768946",
+        "27582382"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, classic-like, 1, OMIM:606408"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1858"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23216",
+        "gene_name": "zinc finger protein 469",
+        "omim_gene": [
+          "612078"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ZNF469",
+        "hgnc_symbol": "ZNF469",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:88493879-88507165",
+              "ensembl_id": "ENSG00000225614"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:88427471-88440757",
+              "ensembl_id": "ENSG00000225614"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZNF469",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28306229",
+        "28306225",
+        "23680354"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Brittle cornea syndrome 1, OMIM:229200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JTK7",
+          "c-ABL",
+          "p150"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:76",
+        "gene_name": "ABL proto-oncogene 1, non-receptor tyrosine kinase",
+        "omim_gene": [
+          "189980"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ABL1",
+        "hgnc_symbol": "ABL1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:133589333-133763062",
+              "ensembl_id": "ENSG00000097007"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:130713946-130887675",
+              "ensembl_id": "ENSG00000097007"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABL1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [
+        "28288113"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Congenital heart defects and skeletal malformations syndrome, OMIM:617602"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "missense"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ACTSA"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:130",
+        "gene_name": "actin, alpha 2, smooth muscle, aorta",
+        "omim_gene": [
+          "102620"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACTA2",
+        "hgnc_symbol": "ACTA2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:90694831-90751147",
+              "ensembl_id": "ENSG00000107796"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:88935074-88991339",
+              "ensembl_id": "ENSG00000107796"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-12-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACTA2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17994018",
+        "19409525",
+        "21248741",
+        "20734336"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Emory Genetics Laboratory",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Aortic aneurysm, familial thoracic 6, OMIM:611788"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0605"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14631",
+        "gene_name": "ADAMTS like 2",
+        "omim_gene": [
+          "612277"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADAMTSL2",
+        "hgnc_symbol": "ADAMTSL2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:136397286-136440641",
+              "ensembl_id": "ENSG00000197859"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:133532164-133575519",
+              "ensembl_id": "ENSG00000197859"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADAMTSL2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33369194",
+        "26879370"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Dermatosparaxic Ehlers Danlos syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IGDCC1",
+          "NTN1R1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2701",
+        "gene_name": "DCC netrin 1 receptor",
+        "omim_gene": [
+          "120470"
+        ],
+        "alias_name": [
+          "immunoglobulin superfamily, DCC subclass, member 1"
+        ],
+        "gene_symbol": "DCC",
+        "hgnc_symbol": "DCC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:49866542-51057784",
+              "ensembl_id": "ENSG00000187323"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:52340172-53535903",
+              "ensembl_id": "ENSG00000187323"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "DCC",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28250456"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Gaze palsy, familial horizontal, with progressive scoliosis, 2, OMIM:617542"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist",
+        "structural-variant"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ABP-280"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3754",
+        "gene_name": "filamin A",
+        "omim_gene": [
+          "300017"
+        ],
+        "alias_name": [
+          "actin binding protein 280",
+          "alpha filamin"
+        ],
+        "gene_symbol": "FLNA",
+        "hgnc_symbol": "FLNA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153576892-153603006",
+              "ensembl_id": "ENSG00000196924"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154348524-154374638",
+              "ensembl_id": "ENSG00000196924"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-03-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLNA",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11532987",
+        "15249610",
+        "15459826",
+        "15668422",
+        "15994863",
+        "15994863",
+        "16303888",
+        "16684786",
+        "19917821",
+        "20014127",
+        "20730588",
+        "20888935",
+        "21194575",
+        "21960593",
+        "22238415",
+        "22366253",
+        "23032111",
+        "24906659",
+        "26059841",
+        "27091362",
+        "27144976",
+        "27739212",
+        "28177866",
+        "28457522",
+        "29334594",
+        "29449050",
+        "30089473",
+        "30547349",
+        "34863227",
+        "40883083"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Emory Genetics Laboratory",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Cardiac valvular dysplasia, X-linked, OMIM:314400",
+        "Heterotopia, periventricular, 1, OMIM:300049"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [
+        "Q1_26_promote_green",
+        "Q1_26_NHS_review"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IMP8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9853",
+        "gene_name": "importin 8",
+        "omim_gene": [
+          "605600"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IPO8",
+        "hgnc_symbol": "IPO8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:30781922-30848920",
+              "ensembl_id": "ENSG00000133704"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:30628988-30695986",
+              "ensembl_id": "ENSG00000133704"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-03-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "IPO8",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "34010604",
+        "34010605"
+      ],
+      "evidence": [
+        "Literature",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Loeys-Dietz syndrome-like",
+        "cardiovascular, neurologic, skeletal and immunologic abnormalities"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6714",
+        "gene_name": "latent transforming growth factor beta binding protein 1",
+        "omim_gene": [
+          "150390"
+        ],
+        "alias_name": [
+          "TGF-beta1-BP-1"
+        ],
+        "gene_symbol": "LTBP1",
+        "hgnc_symbol": "LTBP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:33172039-33624576",
+              "ensembl_id": "ENSG00000049323"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:32946972-33399509",
+              "ensembl_id": "ENSG00000049323"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "LTBP1",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33991472"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Cutis laxa, autosomal recessive, type IIE, OMIM:619451",
+        "Joint hyperlaxity"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MLCK",
+          "smMLCK",
+          "MYLK1",
+          "MLCK1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7590",
+        "gene_name": "myosin light chain kinase",
+        "omim_gene": [
+          "600922"
+        ],
+        "alias_name": [
+          "smooth muscle myosin light chain kinase"
+        ],
+        "gene_symbol": "MYLK",
+        "hgnc_symbol": "MYLK",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:123328896-123603178",
+              "ensembl_id": "ENSG00000065534"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:123610049-123884331",
+              "ensembl_id": "ENSG00000065534"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-07-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYLK",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21055718",
+        "26854089",
+        "26188975"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Aortic aneurysm, familial thoracic 7, OMIM:613780"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7881",
+        "gene_name": "notch 1",
+        "omim_gene": [
+          "190198"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NOTCH1",
+        "hgnc_symbol": "NOTCH1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:139388896-139440314",
+              "ensembl_id": "ENSG00000148400"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:136494444-136545862",
+              "ensembl_id": "ENSG00000148400"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "NOTCH1",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17676603",
+        "26820064",
+        "16729972"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Amber",
+        "Expert list",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "connective tissue disease, MONDO:0003900"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PTD004"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28833",
+        "gene_name": "Obg like ATPase 1",
+        "omim_gene": [
+          "611175"
+        ],
+        "alias_name": null,
+        "gene_symbol": "OLA1",
+        "hgnc_symbol": "OLA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:174937175-175113426",
+              "ensembl_id": "ENSG00000138430"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:174072447-174248698",
+              "ensembl_id": "ENSG00000138430"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-07-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "OLA1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "41887223"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Ehlers-Danlos syndrome, hypermobility type, MONDO:0007523",
+        "neurodevelopmental disorder,MONDO:0700092",
+        "microcephaly, MONDO:0001149"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ23403",
+          "FLJ23144",
+          "HsT748",
+          "HsT771",
+          "FLJ34907"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26270",
+        "gene_name": "piezo type mechanosensitive ion channel component 2",
+        "omim_gene": [
+          "613629"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PIEZO2",
+        "hgnc_symbol": "PIEZO2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:10666480-11148587",
+              "ensembl_id": "ENSG00000154864"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:10666483-11148762",
+              "ensembl_id": "ENSG00000154864"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-08-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIEZO2",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24726473"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "?Marden-Walker syndrome, OMIM:248700",
+        "connective tissue disease, MONDO:0003900"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TSP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11786",
+        "gene_name": "thrombospondin 2",
+        "omim_gene": [
+          "188061"
+        ],
+        "alias_name": null,
+        "gene_symbol": "THBS2",
+        "hgnc_symbol": "THBS2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:169615875-169654139",
+              "ensembl_id": "ENSG00000186340"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:169215780-169254044",
+              "ensembl_id": "ENSG00000186340"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-11-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "THBS2",
+      "confidence_level": "2",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": "Other",
+      "publications": [
+        "38433265"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "?Ehlers-Danlos syndrome, classic-like, 3, OMIM:620865"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SKR1",
+          "ALK2",
+          "ACVR1A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:171",
+        "gene_name": "activin A receptor type 1",
+        "omim_gene": [
+          "102576"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ACVR1",
+        "hgnc_symbol": "ACVR1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:158592958-158732374",
+              "ensembl_id": "ENSG00000115170"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:157736444-157875862",
+              "ensembl_id": "ENSG00000115170"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-01-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACVR1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Connective Tissue Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2291",
+        "gene_name": "cytochrome c oxidase subunit 7B",
+        "omim_gene": [
+          "300885"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COX7B",
+        "hgnc_symbol": "COX7B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:77154935-77162870",
+              "ensembl_id": "ENSG00000131174"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:77899438-77907373",
+              "ensembl_id": "ENSG00000131174"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "COX7B",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Aplasia cutis congenita, reticulolinear, with mmicrocephaly, facial dysmorphism and other congenital anomalies, 300887"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BHD",
+          "MGC17998",
+          "MGC23445"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:27310",
+        "gene_name": "folliculin",
+        "omim_gene": [
+          "607273"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FLCN",
+        "hgnc_symbol": "FLCN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:17115526-17140502",
+              "ensembl_id": "ENSG00000154803"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:17212212-17237188",
+              "ensembl_id": "ENSG00000154803"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-08-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "FLCN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15657874",
+        "17496196",
+        "20413710",
+        "21550484",
+        "19483054",
+        "15852235",
+        "15805188"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Pneumothorax, primary spontaneous, 173600",
+        "Connective Tissue Disorders"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SMMHC",
+          "SMHC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7569",
+        "gene_name": "myosin heavy chain 11",
+        "omim_gene": [
+          "160745"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MYH11",
+        "hgnc_symbol": "MYH11",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:15797029-15950890",
+              "ensembl_id": "ENSG00000133392"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:15703172-15857033",
+              "ensembl_id": "ENSG00000133392"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYH11",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Aortic aneurysm, familial thoracic 4, 132900"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "C-P4Halpha(I)"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8546",
+        "gene_name": "prolyl 4-hydroxylase subunit alpha 1",
+        "omim_gene": [
+          "176710"
+        ],
+        "alias_name": [
+          "collagen prolyl 4-hydroxylase alpha(I)"
+        ],
+        "gene_symbol": "P4HA1",
+        "hgnc_symbol": "P4HA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:74766975-74856732",
+              "ensembl_id": "ENSG00000122884"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:73007217-73096974",
+              "ensembl_id": "ENSG00000122884"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-02-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "P4HA1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "17135260",
+        "28419360"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "connective tissue disorder, MONDO:0003900"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LH3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9083",
+        "gene_name": "procollagen-lysine,2-oxoglutarate 5-dioxygenase 3",
+        "omim_gene": [
+          "603066"
+        ],
+        "alias_name": [
+          "lysyl hydroxlase 3"
+        ],
+        "gene_symbol": "PLOD3",
+        "hgnc_symbol": "PLOD3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:100849258-100861701",
+              "ensembl_id": "ENSG00000106397"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:101205977-101218420",
+              "ensembl_id": "ENSG00000106397"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLOD3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18834968"
+      ],
+      "evidence": [
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Lysyl hydroxylase 3 deficiency, 612394"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GLUT10"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13444",
+        "gene_name": "solute carrier family 2 member 10",
+        "omim_gene": [
+          "606145"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC2A10",
+        "hgnc_symbol": "SLC2A10",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:45338126-45364965",
+              "ensembl_id": "ENSG00000197496"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:46709487-46736347",
+              "ensembl_id": "ENSG00000197496"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-04-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC2A10",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert list",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Arterial tortuosity syndrome, 208050",
+        "Connective Tissue Disorders, Cutis laxa"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12019",
+        "gene_name": "tryptase alpha/beta 1",
+        "omim_gene": [
+          "191080"
+        ],
+        "alias_name": [
+          "tryptase alpha II",
+          "tryptase beta I",
+          "tryptase-I",
+          "tryptase-II",
+          "tryptase-III"
+        ],
+        "gene_symbol": "TPSAB1",
+        "hgnc_symbol": "TPSAB1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:1290697-1292555",
+              "ensembl_id": "ENSG00000172236"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:1240696-1242554",
+              "ensembl_id": "ENSG00000172236"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-10-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "TPSAB1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27749843"
+      ],
+      "evidence": [
+        "Literature",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "?Mast cell dysfunction (with joint hypermobility)"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MRP6",
+          "EST349056",
+          "MLP1",
+          "URG7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:57",
+        "gene_name": "ATP binding cassette subfamily C member 6",
+        "omim_gene": [
+          "603234"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ABCC6",
+        "hgnc_symbol": "ABCC6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:16242785-16317379",
+              "ensembl_id": "ENSG00000091262"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:16148928-16223522",
+              "ensembl_id": "ENSG00000091262"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCC6",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10835643",
+        "10835642",
+        "10811882",
+        "18800149"
+      ],
+      "evidence": [
+        "Expert Review Removed",
+        "NHS GMS",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Pseudoxanthoma elasticum, AR",
+        "264800",
+        "Pseudoxanthoma elasticum, forme fruste, AD",
+        "177850"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "STL2",
+          "CO11A1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2186",
+        "gene_name": "collagen type XI alpha 1 chain",
+        "omim_gene": [
+          "120280"
+        ],
+        "alias_name": [
+          "collagen XI, alpha-1 polypeptide"
+        ],
+        "gene_symbol": "COL11A1",
+        "hgnc_symbol": "COL11A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:103342023-103574052",
+              "ensembl_id": "ENSG00000060718"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:102876467-103108496",
+              "ensembl_id": "ENSG00000060718"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL11A1",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10573014",
+        "23922384",
+        "20513134",
+        "8872475",
+        "20301479"
+      ],
+      "evidence": [
+        "Expert Review Removed",
+        "NHS GMS",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Stickler syndrome, type II, 604841",
+        "Connective Tissue Disorders",
+        "Marshall syndrome, 154780",
+        "Fibrochondrogenesis,  228520"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HKE5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2187",
+        "gene_name": "collagen type XI alpha 2 chain",
+        "omim_gene": [
+          "120290"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL11A2",
+        "hgnc_symbol": "COL11A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:33130458-33160276",
+              "ensembl_id": "ENSG00000204248"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:33162681-33192499",
+              "ensembl_id": "ENSG00000204248"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL11A2",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "7859284",
+        "9506662",
+        "15372529",
+        "25240749",
+        "20301479",
+        "9805126",
+        "15558753",
+        "7859284",
+        "10677296",
+        "16637051",
+        "22246659",
+        "22246659"
+      ],
+      "evidence": [
+        "Expert Review Removed",
+        "NHS GMS",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Stickler syndrome, type III, (AD),184840",
+        "Otospondylomegaepiphyseal dysplasia,(AR) 215150",
+        "Weissenbacher-Zweymuller syndrome, (AD), 277610",
+        "Fibrochondrogenesis 2, (AR,AD), 614524",
+        "Connective Tissue Disorders",
+        "autosomal dominant otospondylomegaepiphyseal dysplasia OMIM 184840",
+        "autosomal recessive otospondylomegaepiphyseal dysplasia OMIM 215150"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "STL1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2200",
+        "gene_name": "collagen type II alpha 1 chain",
+        "omim_gene": [
+          "120140"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL2A1",
+        "hgnc_symbol": "COL2A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:48366748-48398269",
+              "ensembl_id": "ENSG00000139219"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:47972965-48004486",
+              "ensembl_id": "ENSG00000139219"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL2A1",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16752401",
+        "20513134",
+        "10486316",
+        "25240749",
+        "20301479"
+      ],
+      "evidence": [
+        "Expert Review Removed",
+        "NHS GMS",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Stickler syndrome, type I, 108300",
+        "Connective Tissue Disorders",
+        "Kniest dysplasia, 156550",
+        "Achondrogenesis, type II or hypochondrogenesis, 200610",
+        "SED congenita, 183900",
+        "SMED Strudwick type, 184250",
+        "Epiphyseal dysplasia, multiple, with myopia and deafness, 132450"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2217",
+        "gene_name": "collagen type IX alpha 1 chain",
+        "omim_gene": [
+          "120210"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL9A1",
+        "hgnc_symbol": "COL9A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:70924764-71012786",
+              "ensembl_id": "ENSG00000112280"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:70215061-70303083",
+              "ensembl_id": "ENSG00000112280"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL9A1",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16909383",
+        "21421862",
+        "20301479"
+      ],
+      "evidence": [
+        "Expert Review Removed",
+        "NHS GMS",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Stickler syndrome, type IV, 614134",
+        "?Epiphyseal dysplasia, multiple, 6, 614135",
+        "Connective Tissue Disorders",
+        "ocular, auditory, skeletal, and orofacial abnormalities.Most forms of Stickler syndrome are characterized by the eye findings of high myopia, vitreoretinal degeneration, retinal detachment, and cataracts."
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MED"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2218",
+        "gene_name": "collagen type IX alpha 2 chain",
+        "omim_gene": [
+          "120260"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL9A2",
+        "hgnc_symbol": "COL9A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:40766159-40783488",
+              "ensembl_id": "ENSG00000049089"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:40300487-40317816",
+              "ensembl_id": "ENSG00000049089"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-06-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL9A2",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21671392",
+        "20301479",
+        "8528240",
+        "10364514",
+        "12244547"
+      ],
+      "evidence": [
+        "Expert Review Removed",
+        "NHS GMS",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Stickler syndrome, type V, (AR), 614284",
+        "Epiphyseal dysplasia, multiple, 2, (AD), 600204",
+        "Connective Tissue Disorders",
+        "Sticklers high myopia, vitreoretinal degeneration, retinal detachment, and mild to moderate sensorineural hearing loss. Multiple epiphyseal dysplasia characterized by joint pain and stiffness, mild short stature, and degenerative joint disease."
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IDD",
+          "MED",
+          "EDM3",
+          "FLJ90759",
+          "DJ885L7.4.1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2219",
+        "gene_name": "collagen type IX alpha 3 chain",
+        "omim_gene": [
+          "120270"
+        ],
+        "alias_name": [
+          "collagen type IX proteoglycan"
+        ],
+        "gene_symbol": "COL9A3",
+        "hgnc_symbol": "COL9A3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:61447596-61472511",
+              "ensembl_id": "ENSG00000092758"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:62816244-62841159",
+              "ensembl_id": "ENSG00000092758"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-08-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL9A3",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24273071",
+        "20301479",
+        "10090888",
+        "10655510",
+        "15551337"
+      ],
+      "evidence": [
+        "Expert Review Removed",
+        "NHS GMS",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Stickler syndrome VI",
+        "Connective Tissue Disorders",
+        "Epiphyseal dysplasia, multiple, 3, with or without myopathy, 600969",
+        "Multiple epiphyseal dysplasia"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VKCFD1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4247",
+        "gene_name": "gamma-glutamyl carboxylase",
+        "omim_gene": [
+          "137167"
+        ],
+        "alias_name": [
+          "vitamin K-dependent gamma-carboxylase"
+        ],
+        "gene_symbol": "GGCX",
+        "hgnc_symbol": "GGCX",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:85771846-85788670",
+              "ensembl_id": "ENSG00000115486"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:85544723-85561547",
+              "ensembl_id": "ENSG00000115486"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "GGCX",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "5936414",
+        "7085873",
+        "9845520",
+        "17110937",
+        "18800149",
+        "19116367"
+      ],
+      "evidence": [
+        "Expert Review Removed",
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Pseudoxanthoma elasticum like disorder with multiple coagulation factor deficiency, 610842"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "pharmacogenetics",
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CAGH45",
+          "HOPA",
+          "OPA1",
+          "TRAP230",
+          "KIAA0192",
+          "OKS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11957",
+        "gene_name": "mediator complex subunit 12",
+        "omim_gene": [
+          "300188"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MED12",
+        "hgnc_symbol": "MED12",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:70338406-70362303",
+              "ensembl_id": "ENSG00000184634"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:71118556-71142454",
+              "ensembl_id": "ENSG00000184634"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-11-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "MED12",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Lujan-Fryns syndrome, 309520",
+        "Ohdo syndrome, X-linked, 300895",
+        "Opitz-Kaveggia syndrome, 305450"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PKD4",
+          "PC2",
+          "Pc-2",
+          "TRPP2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9009",
+        "gene_name": "polycystin 2, transient receptor potential cation channel",
+        "omim_gene": [
+          "173910"
+        ],
+        "alias_name": [
+          "transient receptor potential cation channel, subfamily P, member 2"
+        ],
+        "gene_symbol": "PKD2",
+        "hgnc_symbol": "PKD2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:88928820-88998929",
+              "ensembl_id": "ENSG00000118762"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:88007668-88077777",
+              "ensembl_id": "ENSG00000118762"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-08-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "PKD2",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed",
+        "Emory Genetics Laboratory",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Polycystic kidney disease 2, 613095",
+        "Connective Tissue Disorders"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AAT",
+          "A1A",
+          "PI1",
+          "alpha-1-antitrypsin",
+          "A1AT",
+          "alpha1AT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8941",
+        "gene_name": "serpin family A member 1",
+        "omim_gene": [
+          "107400"
+        ],
+        "alias_name": [
+          "protease inhibitor 1 (anti-elastase), alpha-1-antitrypsin"
+        ],
+        "gene_symbol": "SERPINA1",
+        "hgnc_symbol": "SERPINA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:94843084-94857030",
+              "ensembl_id": "ENSG00000197249"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:94376747-94390693",
+              "ensembl_id": "ENSG00000197249"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SERPINA1",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DPC4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6770",
+        "gene_name": "SMAD family member 4",
+        "omim_gene": [
+          "600993"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SMAD4",
+        "hgnc_symbol": "SMAD4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:48494410-48611415",
+              "ensembl_id": "ENSG00000141646"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:51028394-51085045",
+              "ensembl_id": "ENSG00000141646"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMAD4",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26699655",
+        "23239472",
+        "25931195",
+        "21465659"
+      ],
+      "evidence": [
+        "Expert Review Removed",
+        "NHS GMS",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Juvenile polyposis/hereditary hemorrhagic telangiectasia syndrome, 175050",
+        "juvenile polyposis syndrome (JP) and hereditary hemorrhagic telangiectasia (HHT)",
+        "~20% with connective tissue features."
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0243",
+          "LAM",
+          "hamartin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12362",
+        "gene_name": "TSC complex subunit 1",
+        "omim_gene": [
+          "605284"
+        ],
+        "alias_name": [
+          "hamartin"
+        ],
+        "gene_symbol": "TSC1",
+        "hgnc_symbol": "TSC1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:135766735-135820020",
+              "ensembl_id": "ENSG00000165699"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:132891348-132944633",
+              "ensembl_id": "ENSG00000165699"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TSC1",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "tuberin",
+          "LAM",
+          "PPP1R160"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12363",
+        "gene_name": "TSC complex subunit 2",
+        "omim_gene": [
+          "191092"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 160"
+        ],
+        "gene_symbol": "TSC2",
+        "hgnc_symbol": "TSC2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:2097466-2138716",
+              "ensembl_id": "ENSG00000103197"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:2047465-2088720",
+              "ensembl_id": "ENSG00000103197"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TSC2",
+      "confidence_level": "0",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Removed",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "cutis laxa (Conditions which present with lung cystic lesions include alpha-1-antitrypsin deficiency, Birt-Hogg-Dube syndrome, tuberous sclerosis, complex-associated lymphangioleiomyomatosis (LAM), cutis laxa, and emphysema)"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [
+        "curated_removed"
+      ],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

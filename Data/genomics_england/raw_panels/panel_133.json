@@ -1,0 +1,191 @@
+{
+  "id": 133,
+  "hash_id": "596f89168f620352d1224bdb",
+  "name": "Melanoma pertinent cancer susceptibility",
+  "disease_group": "Cancer Programme",
+  "disease_sub_group": "Pertinent cancer susceptibility gene panel",
+  "status": "public",
+  "version": "1.3",
+  "version_created": "2025-10-13T20:28:30.344419Z",
+  "relevant_disorders": [
+    "Malignant Melanoma"
+  ],
+  "stats": {
+    "number_of_genes": 3,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Cancer Germline 100K",
+      "slug": "cancer-germline-100k",
+      "description": "Cancer Germline 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "hucep-6",
+          "KIAA0272",
+          "UCHL2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:950",
+        "gene_name": "BRCA1 associated protein 1",
+        "omim_gene": [
+          "603089"
+        ],
+        "alias_name": [
+          "ubiquitin carboxy-terminal hydrolase"
+        ],
+        "gene_symbol": "BAP1",
+        "hgnc_symbol": "BAP1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:52435029-52444366",
+              "ensembl_id": "ENSG00000163930"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:52401013-52410350",
+              "ensembl_id": "ENSG00000163930"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "BAP1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Tumor predisposition syndrome 1, OMIM:614327",
+        "{Uveal melanoma, susceptibility to, 2}, OMIM:606661"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PSK-J3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1773",
+        "gene_name": "cyclin dependent kinase 4",
+        "omim_gene": [
+          "123829"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDK4",
+        "hgnc_symbol": "CDK4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:58141510-58149796",
+              "ensembl_id": "ENSG00000135446"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:57747727-57756013",
+              "ensembl_id": "ENSG00000135446"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDK4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Malignant Melanoma"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDK4I",
+          "p16",
+          "INK4a",
+          "MTS1",
+          "CMM2",
+          "ARF",
+          "p19",
+          "p14",
+          "INK4",
+          "p16INK4a",
+          "p19Arf",
+          "p14ARF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1787",
+        "gene_name": "cyclin dependent kinase inhibitor 2A",
+        "omim_gene": [
+          "600160"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDKN2A",
+        "hgnc_symbol": "CDKN2A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:21967751-21995300",
+              "ensembl_id": "ENSG00000147889"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:21967753-21995301",
+              "ensembl_id": "ENSG00000147889"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-05-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDKN2A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "{Melanoma, cutaneous malignant, 2}, OMIM:155601",
+        "{Melanoma and neural system tumor syndrome}, OMIM:155755",
+        "{Melanoma-pancreatic cancer syndrome}, OMIM:606719"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

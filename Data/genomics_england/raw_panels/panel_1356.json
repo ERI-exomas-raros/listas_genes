@@ -1,0 +1,83 @@
+{
+  "id": 1356,
+  "hash_id": null,
+  "name": "Mitochondrial Complex V deficiency, TMEM70 type",
+  "disease_group": "Mitochondrial",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.3",
+  "version_created": "2026-01-23T10:46:49.902109Z",
+  "relevant_disorders": [
+    "R396"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20533"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26050",
+        "gene_name": "transmembrane protein 70",
+        "omim_gene": [
+          "612418"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TMEM70",
+        "hgnc_symbol": "TMEM70",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:74884672-74895018",
+              "ensembl_id": "ENSG00000175606"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:73972437-73982783",
+              "ensembl_id": "ENSG00000175606"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-08-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMEM70",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Mitochondrial complex V (ATP synthase) deficiency, nuclear type 2, OMIM:614052",
+        "mitochondrial complex V (ATP synthase) deficiency, nuclear type 2, MONDO:0013546"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

@@ -1,0 +1,2620 @@
+{
+  "id": 650,
+  "hash_id": null,
+  "name": "Hypogonadotropic hypogonadism (GMS)",
+  "disease_group": "Endocrinology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "5.2",
+  "version_created": "2026-05-20T11:24:42.623072Z",
+  "relevant_disorders": [
+    "Hypogonadotropic hypogonadism idiopathic",
+    "R148"
+  ],
+  "stats": {
+    "number_of_genes": 48,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "KALIG-1",
+          "WFDC19"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6211",
+        "gene_name": "anosmin 1",
+        "omim_gene": [
+          "300836"
+        ],
+        "alias_name": [
+          "anosmin-1",
+          "WAP four-disulfide core domain 19",
+          "Adhesion molecule-like, X-linked",
+          "Kallmann syndrome interval gene 1"
+        ],
+        "gene_symbol": "ANOS1",
+        "hgnc_symbol": "ANOS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:8496915-8700227",
+              "ensembl_id": "ENSG00000011201"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:8528874-8732186",
+              "ensembl_id": "ENSG00000011201"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2015-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANOS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism type 1 (OMIM 308700)"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GRF-1",
+          "p190ARhoGAP",
+          "P190A",
+          "KIAA1722",
+          "p190RhoGAP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4591",
+        "gene_name": "Rho GTPase activating protein 35",
+        "omim_gene": [
+          "605277"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ARHGAP35",
+        "hgnc_symbol": "ARHGAP35",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:47421933-47508334",
+              "ensembl_id": "ENSG00000160007"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:46918676-47005077",
+              "ensembl_id": "ENSG00000160007"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-06-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARHGAP35",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "36178483"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "hypogonadotropic hypogonadism, MONDO:0018555"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1416",
+          "FLJ20357",
+          "FLJ20361"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20626",
+        "gene_name": "chromodomain helicase DNA binding protein 7",
+        "omim_gene": [
+          "608892"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CHD7",
+        "hgnc_symbol": "CHD7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:61591337-61779465",
+              "ensembl_id": "ENSG00000171316"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:60678778-60868028",
+              "ensembl_id": "ENSG00000171316"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CHD7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism type 5 (OMIM 612370)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2555",
+        "gene_name": "cullin 4B",
+        "omim_gene": [
+          "300304"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CUL4B",
+        "hgnc_symbol": "CUL4B",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:119658464-119709649",
+              "ensembl_id": "ENSG00000158290"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:120524609-120575794",
+              "ensembl_id": "ENSG00000158290"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "CUL4B",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Syndromic X-linked mental retardation (OMIM 300354)"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:22788",
+        "gene_name": "FEZ family zinc finger 1",
+        "omim_gene": [
+          "613301"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FEZF1",
+        "hgnc_symbol": "FEZF1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:121941448-121950745",
+              "ensembl_id": "ENSG00000128610"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:122301394-122310691",
+              "ensembl_id": "ENSG00000128610"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-08-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "FEZF1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25192046"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 22, with or without anosmia, OMIM:616030"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AIGF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3686",
+        "gene_name": "fibroblast growth factor 8",
+        "omim_gene": [
+          "600483"
+        ],
+        "alias_name": [
+          "androgen-induced growth factor"
+        ],
+        "gene_symbol": "FGF8",
+        "hgnc_symbol": "FGF8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:103529899-103535854",
+              "ensembl_id": "ENSG00000107831"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:101770130-101780369",
+              "ensembl_id": "ENSG00000107831"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-08-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGF8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism type 6 (OMIM 612702)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "H2",
+          "H3",
+          "H4",
+          "H5",
+          "CEK",
+          "FLG",
+          "BFGFR",
+          "N-SAM",
+          "CD331"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3688",
+        "gene_name": "fibroblast growth factor receptor 1",
+        "omim_gene": [
+          "136350"
+        ],
+        "alias_name": [
+          "Pfeiffer syndrome"
+        ],
+        "gene_symbol": "FGFR1",
+        "hgnc_symbol": "FGFR1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:38268656-38326352",
+              "ensembl_id": "ENSG00000077782"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:38411138-38468834",
+              "ensembl_id": "ENSG00000077782"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGFR1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23154428",
+        "23812909",
+        "25394172",
+        "27055092"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 2 with or without anosmia, OMIM:147950",
+        "Hartsfield syndrome, OMIM:615465"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q1_26_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3964",
+        "gene_name": "follicle stimulating hormone beta subunit",
+        "omim_gene": [
+          "136530"
+        ],
+        "alias_name": [
+          "follitropin, beta chain"
+        ],
+        "gene_symbol": "FSHB",
+        "hgnc_symbol": "FSHB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:30252563-30256808",
+              "ensembl_id": "ENSG00000131808"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:30231016-30235261",
+              "ensembl_id": "ENSG00000131808"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "FSHB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism type 24 (OMIM 229070)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4419",
+        "gene_name": "gonadotropin releasing hormone 1",
+        "omim_gene": [
+          "152760"
+        ],
+        "alias_name": [
+          "progonadoliberin-1"
+        ],
+        "gene_symbol": "GNRH1",
+        "hgnc_symbol": "GNRH1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:25276776-25282170",
+              "ensembl_id": "ENSG00000147437"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:25419260-25424654",
+              "ensembl_id": "ENSG00000147437"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-12-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNRH1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19535795",
+        "19567835",
+        "32134721",
+        "31200363",
+        "26595427"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "?Hypogonadotropic hypogonadism 12 with or without anosmia, OMIM:614841"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LHRHR"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4421",
+        "gene_name": "gonadotropin releasing hormone receptor",
+        "omim_gene": [
+          "138850"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GNRHR",
+        "hgnc_symbol": "GNRHR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:68605046-68620078",
+              "ensembl_id": "ENSG00000109163"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:67739328-67754360",
+              "ensembl_id": "ENSG00000109163"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-01-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "GNRHR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism type 7 (OMIM 146110)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SEF",
+          "IL17RLM",
+          "FLJ35755",
+          "IL-17RD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17616",
+        "gene_name": "interleukin 17 receptor D",
+        "omim_gene": [
+          "606807"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IL17RD",
+        "hgnc_symbol": "IL17RD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:57124010-57204334",
+              "ensembl_id": "ENSG00000144730"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:57089982-57170306",
+              "ensembl_id": "ENSG00000144730"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-07-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL17RD",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23643382",
+        "32389901"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 18 with or without anosmia, OMIM:615267"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HOT7T175",
+          "AXOR12"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4510",
+        "gene_name": "KISS1 receptor",
+        "omim_gene": [
+          "604161"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KISS1R",
+        "hgnc_symbol": "KISS1R",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:917287-921015",
+              "ensembl_id": "ENSG00000116014"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:917287-921015",
+              "ensembl_id": "ENSG00000116014"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "KISS1R",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 8 with or without anosmia, OMIM:614837"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15527",
+        "gene_name": "klotho beta",
+        "omim_gene": [
+          "611135"
+        ],
+        "alias_name": [
+          "b-Klotho"
+        ],
+        "gene_symbol": "KLB",
+        "hgnc_symbol": "KLB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:39408473-39453156",
+              "ensembl_id": "ENSG00000134962"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:39406853-39451536",
+              "ensembl_id": "ENSG00000134962"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-10-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "KLB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28754744"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Congenital hypogonadotropic hypogonadism"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6553",
+        "gene_name": "leptin",
+        "omim_gene": [
+          "164160"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LEP",
+        "hgnc_symbol": "LEP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:127881337-127897681",
+              "ensembl_id": "ENSG00000174697"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:128241284-128257628",
+              "ensembl_id": "ENSG00000174697"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-01-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "LEP",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26567097",
+        "31483094"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Obesity, morbid, due to leptin deficiency, OMIM:614962"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "OBR",
+          "CD295"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6554",
+        "gene_name": "leptin receptor",
+        "omim_gene": [
+          "601007"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LEPR",
+        "hgnc_symbol": "LEPR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:65886248-66107242",
+              "ensembl_id": "ENSG00000116678"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:65420652-65641559",
+              "ensembl_id": "ENSG00000116678"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "LEPR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "17229951",
+        "29545012"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Obesity, morbid, due to leptin receptor deficiency, OMIM:614963"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LSH-B",
+          "CGB4",
+          "hLHB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6584",
+        "gene_name": "luteinizing hormone beta polypeptide",
+        "omim_gene": [
+          "152780"
+        ],
+        "alias_name": [
+          "lutropin, beta chain",
+          "interstitial cell stimulating hormone, beta chain",
+          "luteinizing hormone beta subunit"
+        ],
+        "gene_symbol": "LHB",
+        "hgnc_symbol": "LHB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:49519237-49520338",
+              "ensembl_id": "ENSG00000104826"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:49015980-49017081",
+              "ensembl_id": "ENSG00000104826"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "LHB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism type 23 (OMIM 228300)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ23191"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26256",
+        "gene_name": "neuron derived neurotrophic factor",
+        "omim_gene": [
+          "616506"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NDNF",
+        "hgnc_symbol": "NDNF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:121956768-121994176",
+              "ensembl_id": "ENSG00000173376"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:121035613-121073021",
+              "ensembl_id": "ENSG00000173376"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2011-07-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "NDNF",
+      "confidence_level": "3",
+      "penetrance": "unknown",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "31883645",
+        "36245975"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 25 with anosmia, OMIM:618841"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SEX",
+          "XAP-6",
+          "6.3",
+          "Plxn3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9101",
+        "gene_name": "plexin A3",
+        "omim_gene": [
+          "300022"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLXNA3",
+        "hgnc_symbol": "PLXNA3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153686621-153701989",
+              "ensembl_id": "ENSG00000130827"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:154458281-154477779",
+              "ensembl_id": "ENSG00000130827"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLXNA3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33495532"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism, MONDO:0018555"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PK2",
+          "BV8",
+          "MIT1",
+          "KAL4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18455",
+        "gene_name": "prokineticin 2",
+        "omim_gene": [
+          "607002"
+        ],
+        "alias_name": [
+          "protein Bv8 homolog"
+        ],
+        "gene_symbol": "PROK2",
+        "hgnc_symbol": "PROK2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:71820807-71834357",
+              "ensembl_id": "ENSG00000163421"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:71771656-71785206",
+              "ensembl_id": "ENSG00000163421"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-07-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PROK2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism type 4 (OMIM 610628)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GPR73b",
+          "PKR2",
+          "GPRg2",
+          "dJ680N4.3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15836",
+        "gene_name": "prokineticin receptor 2",
+        "omim_gene": [
+          "607123"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PROKR2",
+        "hgnc_symbol": "PROKR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:5282317-5297378",
+              "ensembl_id": "ENSG00000101292"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:5302040-5314369",
+              "ensembl_id": "ENSG00000101292"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "PROKR2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18682503",
+        "35236788",
+        "36843573",
+        "36694982"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 3 with or without anosmia, OMIM:244200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "Q2_26_MOI"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9455",
+        "gene_name": "PROP paired-like homeobox 1",
+        "omim_gene": [
+          "601538"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PROP1",
+        "hgnc_symbol": "PROP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:177419236-177423243",
+              "ensembl_id": "ENSG00000175325"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:177992235-177996242",
+              "ensembl_id": "ENSG00000175325"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-02-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "PROP1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11549703",
+        "15941866"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Pituitary hormone deficiency, combined, 2, OMIM:262600"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRIAD3",
+          "UBCE7IP1",
+          "ZIN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21698",
+        "gene_name": "ring finger protein 216",
+        "omim_gene": [
+          "609948"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RNF216",
+        "hgnc_symbol": "RNF216",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:5659678-5821370",
+              "ensembl_id": "ENSG00000011275"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:5620047-5781739",
+              "ensembl_id": "ENSG00000011275"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-08-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "RNF216",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "39444518",
+        "23656588",
+        "25841028"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Cerebellar ataxia and hypogonadotropic hypogonadism, OMIM:212840",
+        "cerebellar ataxia-hypogonadism syndrome, MONDO:0008935"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SEMAK",
+          "Sema4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10728",
+        "gene_name": "semaphorin 3F",
+        "omim_gene": [
+          "601124"
+        ],
+        "alias_name": [
+          "sema IV"
+        ],
+        "gene_symbol": "SEMA3F",
+        "hgnc_symbol": "SEMA3F",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:50192478-50226508",
+              "ensembl_id": "ENSG00000001617"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:50155045-50189075",
+              "ensembl_id": "ENSG00000001617"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-12-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "SEMA3F",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33495532"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism, MONDO:0018555"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "gene-checked"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DOM",
+          "WS4",
+          "WS2E"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11190",
+        "gene_name": "SRY-box 10",
+        "omim_gene": [
+          "602229"
+        ],
+        "alias_name": [
+          "dominant megacolon, mouse, human homolog of"
+        ],
+        "gene_symbol": "SOX10",
+        "hgnc_symbol": "SOX10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:38366693-38383429",
+              "ensembl_id": "ENSG00000100146"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:37970686-37987422",
+              "ensembl_id": "ENSG00000100146"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOX10",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23643381",
+        "15004559",
+        "30914325",
+        "26228106",
+        "24769923",
+        "33082981",
+        "33597923"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Waardenburg syndrome type 4C, OMIM:611584",
+        "Waardenburg syndrome, type 2E, with or without neurologic involvement, OMIM:611584",
+        "congenital hypogonadotropic hypogonadism, MONDO:0015770"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11191",
+        "gene_name": "SRY-box 11",
+        "omim_gene": [
+          "600898"
+        ],
+        "alias_name": [
+          "SRY-related HMG-box gene 11"
+        ],
+        "gene_symbol": "SOX11",
+        "hgnc_symbol": "SOX11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:5832799-5841516",
+              "ensembl_id": "ENSG00000176887"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:5692667-5701385",
+              "ensembl_id": "ENSG00000176887"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-06-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOX11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "35341651"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Intellectual developmental disorder with microcephaly and with or without ocular malformations or hypogonadotropic hypogonadism, OMIM:615866"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ZNEUROK1",
+          "NKB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11521",
+        "gene_name": "tachykinin 3",
+        "omim_gene": [
+          "162330"
+        ],
+        "alias_name": [
+          "preprotachykinin-B"
+        ],
+        "gene_symbol": "TAC3",
+        "hgnc_symbol": "TAC3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:57403784-57422667",
+              "ensembl_id": "ENSG00000166863"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:57010000-57028883",
+              "ensembl_id": "ENSG00000166863"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TAC3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism type 10(OMIM 614839)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NK3R"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11528",
+        "gene_name": "tachykinin receptor 3",
+        "omim_gene": [
+          "162332"
+        ],
+        "alias_name": [
+          "neurokinin beta receptor"
+        ],
+        "gene_symbol": "TACR3",
+        "hgnc_symbol": "TACR3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:104507188-104640973",
+              "ensembl_id": "ENSG00000169836"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:103586031-103719816",
+              "ensembl_id": "ENSG00000169836"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-11-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "TACR3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism type 11(OMIM 614840)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1351",
+          "FLJ10506",
+          "WDR15",
+          "HH14",
+          "DR11",
+          "SRI1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13831",
+        "gene_name": "WD repeat domain 11",
+        "omim_gene": [
+          "606417"
+        ],
+        "alias_name": [
+          "sensitization to ricin complex subunit 1"
+        ],
+        "gene_symbol": "WDR11",
+        "hgnc_symbol": "WDR11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:122610687-122669036",
+              "ensembl_id": "ENSG00000120008"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:120851175-120909524",
+              "ensembl_id": "ENSG00000120008"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2010-01-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "WDR11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism type 14 (OMIM 614858)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ39502",
+          "CAMDI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26821",
+        "gene_name": "coiled-coil domain containing 141",
+        "omim_gene": [
+          "616031"
+        ],
+        "alias_name": [
+          "coiled-coil protein associated with myosin II and DISC1"
+        ],
+        "gene_symbol": "CCDC141",
+        "hgnc_symbol": "CCDC141",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:179694484-179914813",
+              "ensembl_id": "ENSG00000163492"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:178830269-179050086",
+              "ensembl_id": "ENSG00000163492"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-07-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "CCDC141",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27014940",
+        "28324054",
+        "25192046",
+        "251920460",
+        "32520725"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Anosmic hypogonadotropic hypogonadism",
+        "congenital hypogonadotropic hypogonadism, MONDO:0015770"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2084",
+        "gene_name": "caseinolytic mitochondrial matrix peptidase proteolytic subunit",
+        "omim_gene": [
+          "601119"
+        ],
+        "alias_name": [
+          "ATP-dependent protease ClpAP (E. coli), proteolytic subunit, human"
+        ],
+        "gene_symbol": "CLPP",
+        "hgnc_symbol": "CLPP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:6361463-6368919",
+              "ensembl_id": "ENSG00000125656"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:6361452-6368908",
+              "ensembl_id": "ENSG00000125656"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-09-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLPP",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27899912",
+        "23541340",
+        "25956234",
+        "26970254",
+        "27087618",
+        "27650058"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Perrault syndrome 3, OMIM:614129"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2303",
+        "gene_name": "carboxypeptidase E",
+        "omim_gene": [
+          "114855"
+        ],
+        "alias_name": [
+          "carboxypeptidase H",
+          "enkephalin convertase",
+          "insulin granule-associated carboxypeptidase",
+          "cobalt-stimulated chromaffin granule carboxypeptidase"
+        ],
+        "gene_symbol": "CPE",
+        "hgnc_symbol": "CPE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:166282346-166419472",
+              "ensembl_id": "ENSG00000109472"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:165361194-165498320",
+              "ensembl_id": "ENSG00000109472"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-04-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "CPE",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26120850",
+        "32936766",
+        "34383079"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Intellectual developmental disorder and hypogonadotropic hypogonadism, OMIM:619326"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ13096"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25784",
+        "gene_name": "DDB1 and CUL4 associated factor 17",
+        "omim_gene": [
+          "612515"
+        ],
+        "alias_name": [
+          "Woodhouse-Sakati syndrome"
+        ],
+        "gene_symbol": "DCAF17",
+        "hgnc_symbol": "DCAF17",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:172290727-172341562",
+              "ensembl_id": "ENSG00000115827"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:171434217-171485052",
+              "ensembl_id": "ENSG00000115827"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-07-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "DCAF17",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Woodhouse-Sakati syndrome (OMIM 241080)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MKP-3",
+          "PYST1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3072",
+        "gene_name": "dual specificity phosphatase 6",
+        "omim_gene": [
+          "602748"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DUSP6",
+        "hgnc_symbol": "DUSP6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:89741009-89747048",
+              "ensembl_id": "ENSG00000139318"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:89347232-89353271",
+              "ensembl_id": "ENSG00000139318"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-03-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "DUSP6",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23643382",
+        "32389901"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 19 with or without anosmia, OMIM:615269"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FGF-13"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3673",
+        "gene_name": "fibroblast growth factor 17",
+        "omim_gene": [
+          "603725"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FGF17",
+        "hgnc_symbol": "FGF17",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:21899909-21906320",
+              "ensembl_id": "ENSG00000158815"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:22042398-22048809",
+              "ensembl_id": "ENSG00000158815"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-12-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGF17",
+      "confidence_level": "2",
+      "penetrance": "Incomplete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23643382",
+        "31748124"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 20 with or without anosmia, OMIM:615270"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ25972",
+          "CMF608"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26384",
+        "gene_name": "immunoglobulin superfamily member 10",
+        "omim_gene": [
+          "617351"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IGSF10",
+        "hgnc_symbol": "IGSF10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:151143172-151176497",
+              "ensembl_id": "ENSG00000152580"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:151425384-151458709",
+              "ensembl_id": "ENSG00000152580"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-03-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "IGSF10",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "27137492",
+        "31042289"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "delayed puberty",
+        "hypogonadotropic hypogonadism",
+        "primary ovary insufficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ENT3",
+          "FLJ11160"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23096",
+        "gene_name": "solute carrier family 29 member 3",
+        "omim_gene": [
+          "612373"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC29A3",
+        "hgnc_symbol": "SLC29A3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:73079015-73123142",
+              "ensembl_id": "ENSG00000198246"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:71319258-71363385",
+              "ensembl_id": "ENSG00000198246"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC29A3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Histiocytosis-lymphadenopathy plus syndrome, OMIM:602782",
+        "H syndrome: characterized by cutaneous hyperpigmentation and hypertrichosis, hepatosplenomegaly, heart anomalies and hypogonadism"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11195",
+        "gene_name": "SRY-box 2",
+        "omim_gene": [
+          "184429"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOX2",
+        "hgnc_symbol": "SOX2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:181429714-181432221",
+              "ensembl_id": "ENSG00000181449"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:181711924-181714436",
+              "ensembl_id": "ENSG00000181449"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOX2",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Syndromic Microphthalmia type 3 (OMIM 206900)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15533",
+        "gene_name": "sprouty RTK signaling antagonist 4",
+        "omim_gene": [
+          "607984"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SPRY4",
+        "hgnc_symbol": "SPRY4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:141689992-141706020",
+              "ensembl_id": "ENSG00000187678"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:142310427-142326455",
+              "ensembl_id": "ENSG00000187678"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-01-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SPRY4",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23643382",
+        "32389901"
+      ],
+      "evidence": [
+        "Literature",
+        "Expert list",
+        "Radboud University Medical Center, Nijmegen",
+        "Expert Review Amber"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 17 with or without anosmia, OMIM:615266"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HEB",
+          "HTF4",
+          "HsT17266",
+          "bHLHb20"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11623",
+        "gene_name": "transcription factor 12",
+        "omim_gene": [
+          "600480"
+        ],
+        "alias_name": [
+          "helix-loop-helix transcription factor 4"
+        ],
+        "gene_symbol": "TCF12",
+        "hgnc_symbol": "TCF12",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:57210821-57591479",
+              "ensembl_id": "ENSG00000140262"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:56918623-57299281",
+              "ensembl_id": "ENSG00000140262"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-06-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "TCF12",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "23354436",
+        "32620954"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Craniosynostosis 3, 615314",
+        "Kallman syndrome, MONDO:0018800"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "THP2",
+          "HPE9",
+          "THP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4318",
+        "gene_name": "GLI family zinc finger 2",
+        "omim_gene": [
+          "165230"
+        ],
+        "alias_name": [
+          "tax-responsive element-2 holding protein",
+          "tax helper protein 1",
+          "tax helper protein 2"
+        ],
+        "gene_symbol": "GLI2",
+        "hgnc_symbol": "GLI2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:121493199-121750229",
+              "ensembl_id": "ENSG00000074047"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:120735623-120992653",
+              "ensembl_id": "ENSG00000074047"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "GLI2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "Expert Review Red",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Culler-Jones syndrome (OMIM 615849)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LEAP-1",
+          "HEPC",
+          "HFE2B",
+          "LEAP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15598",
+        "gene_name": "hepcidin antimicrobial peptide",
+        "omim_gene": [
+          "606464"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HAMP",
+        "hgnc_symbol": "HAMP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:35771619-35776046",
+              "ensembl_id": "ENSG00000105697"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:35280716-35285143",
+              "ensembl_id": "ENSG00000105697"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-05-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "HAMP",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "Expert Review Red",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Haemochromatosis type 2B (OMIM 613313)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HLA-H"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4886",
+        "gene_name": "hemochromatosis",
+        "omim_gene": [
+          "613609"
+        ],
+        "alias_name": [
+          "high Fe"
+        ],
+        "gene_symbol": "HFE",
+        "hgnc_symbol": "HFE",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:26087509-26098571",
+              "ensembl_id": "ENSG00000010704"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:26087281-26098343",
+              "ensembl_id": "ENSG00000010704"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "HFE",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "Expert Review Red",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Haemochromatosis type 1 (OMIM 235200)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Gsh4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21734",
+        "gene_name": "LIM homeobox 4",
+        "omim_gene": [
+          "602146"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LHX4",
+        "hgnc_symbol": "LHX4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:180199421-180249380",
+              "ensembl_id": "ENSG00000121454"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:180230286-180278982",
+              "ensembl_id": "ENSG00000121454"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-07-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "LHX4",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "Expert Review Red",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Combined Pituitary Hormone deficiency (OMIM 262700)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DAX1",
+          "AHCH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7960",
+        "gene_name": "nuclear receptor subfamily 0 group B member 1",
+        "omim_gene": [
+          "300473"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NR0B1",
+        "hgnc_symbol": "NR0B1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:30322323-30327715",
+              "ensembl_id": "ENSG00000169297"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:30304206-30309598",
+              "ensembl_id": "ENSG00000169297"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "NR0B1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "Expert Review Red",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "46XY sex reversal type 2 (OMIM 300018)"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29843",
+        "gene_name": "NMDA receptor synaptonuclear signaling and neuronal migration factor",
+        "omim_gene": [
+          "608137"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NSMF",
+        "hgnc_symbol": "NSMF",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:140342022-140353786",
+              "ensembl_id": "ENSG00000165802"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:137447573-137459334",
+              "ensembl_id": "ENSG00000165802"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2013-01-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "NSMF",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15362570",
+        "17235395",
+        "21700882",
+        "27803842"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Hypogonadotropic hypogonadism 9 with or without anosmia, OMIM:614838"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MTP1",
+          "IREG1",
+          "FPN1",
+          "HFE4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10909",
+        "gene_name": "solute carrier family 40 member 1",
+        "omim_gene": [
+          "604653"
+        ],
+        "alias_name": [
+          "ferroportin 1"
+        ],
+        "gene_symbol": "SLC40A1",
+        "hgnc_symbol": "SLC40A1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:190425305-190448484",
+              "ensembl_id": "ENSG00000138449"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:189560579-189583758",
+              "ensembl_id": "ENSG00000138449"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-06-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC40A1",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "Expert Review Red",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Haemochromatosis type 4 (OMIM 606069)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11199",
+        "gene_name": "SRY-box 3",
+        "omim_gene": [
+          "313430"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOX3",
+        "hgnc_symbol": "SOX3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:139585152-139587225",
+              "ensembl_id": "ENSG00000134595"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:140502985-140505116",
+              "ensembl_id": "ENSG00000134595"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOX3",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Panhypopituitarism, X-linked, OMIM:312000",
+        "Panhypopituitarism, X-linked, MONDO:0010712"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HFE3",
+          "TFRC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11762",
+        "gene_name": "transferrin receptor 2",
+        "omim_gene": [
+          "604720"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TFR2",
+        "hgnc_symbol": "TFR2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:100218039-100240402",
+              "ensembl_id": "ENSG00000106327"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:100620416-100642779",
+              "ensembl_id": "ENSG00000106327"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-06-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "TFR2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "Expert Review Red",
+        "NHS GMS",
+        "South West GLH"
+      ],
+      "phenotypes": [
+        "Haemochromatosis type 3 (OMIM 604250)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

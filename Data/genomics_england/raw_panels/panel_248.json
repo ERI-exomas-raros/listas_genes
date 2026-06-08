@@ -1,0 +1,2385 @@
+{
+  "id": 248,
+  "hash_id": "5554c896bb5a161bf644a3cf",
+  "name": "Ketotic hypoglycaemia",
+  "disease_group": "Metabolic disorders",
+  "disease_sub_group": "Specific metabolic abnormalities",
+  "status": "public",
+  "version": "1.10",
+  "version_created": "2025-11-23T17:30:40.526086Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 45,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "THIL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:93",
+        "gene_name": "acetyl-CoA acetyltransferase 1",
+        "omim_gene": [
+          "607809"
+        ],
+        "alias_name": [
+          "acetoacetyl Coenzyme A thiolase"
+        ],
+        "gene_symbol": "ACAT1",
+        "hgnc_symbol": "ACAT1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:107992243-108018503",
+              "ensembl_id": "ENSG00000075239"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:108121516-108147776",
+              "ensembl_id": "ENSG00000075239"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "ACAT1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "Daum RS, Scriver CR 1973 and Fukao T , Yamaguchi S, Kano 1990"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Fasting intolerance with acidosis, ? residual neurological problems"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:321",
+        "gene_name": "amylo-alpha-1, 6-glucosidase, 4-alpha-glucanotransferase",
+        "omim_gene": [
+          "610860"
+        ],
+        "alias_name": [
+          "glycogen debranching enzyme",
+          "glycogen storage disease type III"
+        ],
+        "gene_symbol": "AGL",
+        "hgnc_symbol": "AGL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:100315640-100389579",
+              "ensembl_id": "ENSG00000162688"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:99850084-99924023",
+              "ensembl_id": "ENSG00000162688"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-07-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "AGL",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Literature"
+      ],
+      "phenotypes": [
+        "myopathy, cardiomyopathy and neuropathy possible but mile hepatomegaly and fasting intolerance",
+        "Glycogen storage disease IIIa, 232400",
+        "Glycogen storage disease IIIb, 232400",
+        "Glycogen Storage Disease Type III",
+        "Glycogen Storage Disorders- Liver",
+        "Glycogen Storage Disorders- Muscle",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:414",
+        "gene_name": "aldolase, fructose-bisphosphate A",
+        "omim_gene": [
+          "103850"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALDOA",
+        "hgnc_symbol": "ALDOA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:30064411-30081778",
+              "ensembl_id": "ENSG00000149925"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:30053090-30070457",
+              "ensembl_id": "ENSG00000149925"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALDOA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease XII, 611881",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:417",
+        "gene_name": "aldolase, fructose-bisphosphate B",
+        "omim_gene": [
+          "612724"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ALDOB",
+        "hgnc_symbol": "ALDOB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:104182860-104198105",
+              "ensembl_id": "ENSG00000136872"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:101420578-101435823",
+              "ensembl_id": "ENSG00000136872"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "ALDOB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "Ali  M, Cox  TM 1995 and Cross, NCP  Cox  TM."
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "acidosis with ketototic hypoglycaemia often hepatomegaly in acute presentation",
+        "hereditary fructose intolerance"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1122",
+        "gene_name": "biotinidase",
+        "omim_gene": [
+          "609019"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BTD",
+        "hgnc_symbol": "BTD",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:15642848-15687329",
+              "ensembl_id": "ENSG00000169814"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:15601341-15645822",
+              "ensembl_id": "ENSG00000169814"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-03-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "BTD",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "lactic acidosis with seizures and eczema,immune deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3606",
+        "gene_name": "fructose-bisphosphatase 1",
+        "omim_gene": [
+          "611570"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FBP1",
+        "hgnc_symbol": "FBP1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:97365415-97402531",
+              "ensembl_id": "ENSG00000165140"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:94603133-94640249",
+              "ensembl_id": "ENSG00000165140"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-08-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "FBP1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Glycogen Storage Disorders- Liver",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GSD1a"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4056",
+        "gene_name": "glucose-6-phosphatase catalytic subunit",
+        "omim_gene": [
+          "613742"
+        ],
+        "alias_name": [
+          "glycogen storage disease type I, von Gierke disease"
+        ],
+        "gene_symbol": "G6PC",
+        "hgnc_symbol": "G6PC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:41052814-41065386",
+              "ensembl_id": "ENSG00000131482"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:42900797-42913369",
+              "ensembl_id": "ENSG00000131482"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "G6PC",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease Ia, OMIM:232200"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4180",
+        "gene_name": "1,4-alpha-glucan branching enzyme 1",
+        "omim_gene": [
+          "607839"
+        ],
+        "alias_name": [
+          "glycogen branching enzyme",
+          "Andersen disease",
+          "glycogen storage disease type IV"
+        ],
+        "gene_symbol": "GBE1",
+        "hgnc_symbol": "GBE1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:81538850-81811312",
+              "ensembl_id": "ENSG00000114480"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:81489699-81762161",
+              "ensembl_id": "ENSG00000114480"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-06-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "GBE1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease IV, OMIM:232500",
+        "Polyglucosan body disease, adult form, OMIM:263570"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4707",
+        "gene_name": "glycogen synthase 2",
+        "omim_gene": [
+          "138571"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GYS2",
+        "hgnc_symbol": "GYS2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:21689123-21757781",
+              "ensembl_id": "ENSG00000111713"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:21536189-21604847",
+              "ensembl_id": "ENSG00000111713"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-09-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "GYS2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "Orho, M., Bosshard 1998"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Literature"
+      ],
+      "phenotypes": [
+        "fasting intolerance without enlarged liver",
+        "Glycogen storage disease, type 0, 240600",
+        "Glycogen Storage Disease Type 0, Liver",
+        "Glycogen Storage Disorders- Liver",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HCS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4976",
+        "gene_name": "holocarboxylase synthetase",
+        "omim_gene": [
+          "609018"
+        ],
+        "alias_name": null,
+        "gene_symbol": "HLCS",
+        "hgnc_symbol": "HLCS",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:38123189-38362536",
+              "ensembl_id": "ENSG00000159267"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:36750888-36990236",
+              "ensembl_id": "ENSG00000159267"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "HLCS",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "lactic acidosis with seizures and eczema, immune deficiency",
+        "Holocarboxylase synthetase deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ACAD2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6186",
+        "gene_name": "isovaleryl-CoA dehydrogenase",
+        "omim_gene": [
+          "607036"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IVD",
+        "hgnc_symbol": "IVD",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:40697686-40728146",
+              "ensembl_id": "ENSG00000128928"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:40405795-40435947",
+              "ensembl_id": "ENSG00000128928"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "IVD",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "metabolic encephalopathy with hyperammonaemia, hypotonia, recurrent episodes of ketoacidosis, liver impairment, psychomotor retardation, recurrent infections."
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6535",
+        "gene_name": "lactate dehydrogenase A",
+        "omim_gene": [
+          "150000"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LDHA",
+        "hgnc_symbol": "LDHA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:18415935-18429972",
+              "ensembl_id": "ENSG00000134333"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:18394388-18408425",
+              "ensembl_id": "ENSG00000134333"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "LDHA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "2334430",
+        "1959923",
+        "26067360",
+        "6517049"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Glycogen Storage Disease",
+        "Glycogen storage disease XI, 612933"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GLOD2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16732",
+        "gene_name": "methylmalonyl-CoA epimerase",
+        "omim_gene": [
+          "608419"
+        ],
+        "alias_name": [
+          "glyoxalase domain containing 2"
+        ],
+        "gene_symbol": "MCEE",
+        "hgnc_symbol": "MCEE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:71336814-71357369",
+              "ensembl_id": "ENSG00000124370"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:71109684-71130239",
+              "ensembl_id": "ENSG00000124370"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-10-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "MCEE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "16697227 - proband and sibling with mild methylmalonic aciduria were found to be homozygous for the c.139C>T, p.R47X variant, with heterozygous unaffected parents",
+        "16752391 (a case report of a patient who was homozygous for the R47X variant in MCEE, but also homozygous for a second variant in the SPR gene)",
+        "25763508 (a case homozygous for c.139C>T, p.Arg47* in the MCEE gene, and c.751A>T, p.Lys251* in the SRD gene",
+        "17823972 - sequencing of cell lines from 229 patients with elevations of methylmalonic acid excretion for which no cause was known identified 5 cell lines with MCEE variants. In fibroblast lines from two patients with the c.139C>T, p.R47X variant, WT cDNA corrected the biochemical phenotype in the cells.",
+        "16697227 - proband and sibling with mild methylmalonic aciduria were found to be homozygous for the c.139C>T, p.R47X variant, with heterozygous unaffected parents",
+        "16752391 (a case report of a patient who was homozygous for the R47X variant in MCEE, but also homozygous for a second variant in the SPR gene)",
+        "25763508 (a case homozygous for c.139C>T, p.Arg47* in the MCEE gene, and c.751A>T, p.Lys251* in the SRD gene",
+        "17823972 - sequencing of cell lines from 229 patients with elevations of methylmalonic acid excretion for which no cause was known identified 5 cell lines with MCEE variants. In fibroblast lines from two patients with the c.139C>T, p.R47X variant, WT cDNA corrected the biochemical phenotype in the cells."
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Literature"
+      ],
+      "phenotypes": [
+        "metabolic encephalopathy with hyperammonaemia, hypotonia, recurrent episodes of ketoacidosis, liver impairment, psychomotor retardation, recurrent infections",
+        "Methylmalonyl-CoA epimerase deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7526",
+        "gene_name": "methylmalonyl-CoA mutase",
+        "omim_gene": [
+          "609058"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MUT",
+        "hgnc_symbol": "MUT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:49398073-49430904",
+              "ensembl_id": "ENSG00000146085"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:49430360-49463191",
+              "ensembl_id": "ENSG00000146085"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MUT",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "metabolic encephalopathy with hyperammonaemia, hypotonia, recurrent episodes of ketoacidosis, liver impairment, psychomotor retardation, recurrent infections."
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SCOT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8527",
+        "gene_name": "3-oxoacid CoA-transferase 1",
+        "omim_gene": [
+          "601424"
+        ],
+        "alias_name": null,
+        "gene_symbol": "OXCT1",
+        "hgnc_symbol": "OXCT1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:41730167-41870621",
+              "ensembl_id": "ENSG00000083720"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:41730065-41870519",
+              "ensembl_id": "ENSG00000083720"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "OXCT1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "Middleton B , Day R 1987 and Kassovska-Bratinova  S, Fukao, T 1996"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "severe ketosis on fasting often ketotic in fed state no hepatomegaly",
+        "Succinyl CoA:3-oxoacid CoA transferase deficiency"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PCB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8636",
+        "gene_name": "pyruvate carboxylase",
+        "omim_gene": [
+          "608786"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PC",
+        "hgnc_symbol": "PC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:66615704-66725847",
+              "ensembl_id": "ENSG00000173599"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:66848233-66958376",
+              "ensembl_id": "ENSG00000173599"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-09-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "PC",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Pyruvate carboxylase deficiency, OMIM:266150"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8653",
+        "gene_name": "propionyl-CoA carboxylase alpha subunit",
+        "omim_gene": [
+          "232000"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PCCA",
+        "hgnc_symbol": "PCCA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:100741269-101182686",
+              "ensembl_id": "ENSG00000175198"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:100089015-100530437",
+              "ensembl_id": "ENSG00000175198"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCCA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "metabolic encephalopathy with hyperammonaemia, hypotonia, recurrent episodes of ketoacidosis, liver impairment, psychomotor retardation, recurrent infections",
+        "Propionicacidemia",
+        "Propionic acidemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8654",
+        "gene_name": "propionyl-CoA carboxylase beta subunit",
+        "omim_gene": [
+          "232050"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PCCB",
+        "hgnc_symbol": "PCCB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:135969148-136056738",
+              "ensembl_id": "ENSG00000114054"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:136250306-136337896",
+              "ensembl_id": "ENSG00000114054"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PCCB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Literature"
+      ],
+      "phenotypes": [
+        "as PCCA (metabolic encephalopathy with hyperammonaemia, hypotonia, recurrent episodes of ketoacidosis, liver impairment, psychomotor retardation, recurrent infections)",
+        "Propionicacidemia",
+        "Propionic acidemia"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8905",
+        "gene_name": "phosphoglucomutase 1",
+        "omim_gene": [
+          "171900"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PGM1",
+        "hgnc_symbol": "PGM1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:64058947-64125916",
+              "ensembl_id": "ENSG00000079739"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:63593276-63660245",
+              "ensembl_id": "ENSG00000079739"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PGM1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease XIV, 612934",
+        "Congenital disorder of glycosylation, type It, 614921",
+        "Glycogen Storage Disease Type XIV",
+        "Glycogen Storage Disorders- Muscle",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8926",
+        "gene_name": "phosphorylase kinase regulatory subunit alpha 2",
+        "omim_gene": [
+          "300798"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PHKA2",
+        "hgnc_symbol": "PHKA2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:18910418-19002716",
+              "ensembl_id": "ENSG00000044446"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:18892300-18984598",
+              "ensembl_id": "ENSG00000044446"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "PHKA2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Literature"
+      ],
+      "phenotypes": [
+        "hepatomegaly and mild hypoglycaemia",
+        "Glycogen storage disease, type IXa1, 306000",
+        "Glycogen storage disease, type IXa2, 306000",
+        "Glycogen Storage Disorders- Liver",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8927",
+        "gene_name": "phosphorylase kinase regulatory subunit beta",
+        "omim_gene": [
+          "172490"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PHKB",
+        "hgnc_symbol": "PHKB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:47495034-47735434",
+              "ensembl_id": "ENSG00000102893"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:47461123-47701523",
+              "ensembl_id": "ENSG00000102893"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-02-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "PHKB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Literature"
+      ],
+      "phenotypes": [
+        "hepatomegaly and variable myopathy",
+        "Glycogen Storage Disorders- Liver",
+        "Glycogen Storage Disorders- Muscle",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8931",
+        "gene_name": "phosphorylase kinase catalytic subunit gamma 2",
+        "omim_gene": [
+          "172471"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PHKG2",
+        "hgnc_symbol": "PHKG2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:30759591-30772490",
+              "ensembl_id": "ENSG00000156873"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:30748270-30761176",
+              "ensembl_id": "ENSG00000156873"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-06-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "PHKG2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Literature"
+      ],
+      "phenotypes": [
+        "hepatomegaly and variable myopathy",
+        "Glycogen storage disease IXc, 613027",
+        "Cirrhosis due to liver phosphorylase kinase deficiency",
+        "Glycogen Storage Disorders- Liver",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9725",
+        "gene_name": "glycogen phosphorylase L",
+        "omim_gene": [
+          "613741"
+        ],
+        "alias_name": [
+          "Hers disease",
+          "glycogen storage disease type VI",
+          "glycogen phosphorylase, liver form"
+        ],
+        "gene_symbol": "PYGL",
+        "hgnc_symbol": "PYGL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:51324609-51411454",
+              "ensembl_id": "ENSG00000100504"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:50857891-50944736",
+              "ensembl_id": "ENSG00000100504"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PYGL",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Literature"
+      ],
+      "phenotypes": [
+        "hepatomegaly and mild hypoglycaemia",
+        "Glycogen storage disease VI, 232700",
+        "Glycogen Storage Disease Type VI",
+        "Glycogen Storage Disorders- Liver",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MCT",
+          "MCT1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10922",
+        "gene_name": "solute carrier family 16 member 1",
+        "omim_gene": [
+          "600682"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC16A1",
+        "hgnc_symbol": "SLC16A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:113454469-113499635",
+              "ensembl_id": "ENSG00000155380"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:112911847-112957013",
+              "ensembl_id": "ENSG00000155380"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-02-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC16A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26608392",
+        "17701893"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Erythrocyte lactate transporter defect, OMIM:245340",
+        "Hyperinsulinemic hypoglycemia, familial, 7, OMIM:610021",
+        "Monocarboxylate transporter 1 deficiency, OMIM:616095"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11006",
+        "gene_name": "solute carrier family 2 member 2",
+        "omim_gene": [
+          "138160"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC2A2",
+        "hgnc_symbol": "SLC2A2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:170714137-170744539",
+              "ensembl_id": "ENSG00000163581"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:170996348-171026750",
+              "ensembl_id": "ENSG00000163581"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-01-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC2A2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Literature"
+      ],
+      "phenotypes": [
+        "renal falcon syndrome, aminoaciduria phosphaturia, small stature, malabsorption, hepatomegaly and nephromegaly.",
+        "Glycogen Storage Disorders- Liver",
+        "Fanconi-Bickel Syndrome"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GSD1b",
+          "GSD1c",
+          "GSD1d"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4061",
+        "gene_name": "solute carrier family 37 member 4",
+        "omim_gene": [
+          "602671"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC37A4",
+        "hgnc_symbol": "SLC37A4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:118894824-118901616",
+              "ensembl_id": "ENSG00000137700"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:119024114-119030906",
+              "ensembl_id": "ENSG00000137700"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC37A4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease Ib, OMIM:232220",
+        "Glycogen storage disease Ic, OMIM:232240"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp761P1121"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:25439",
+        "gene_name": "transport and golgi organization 2 homolog",
+        "omim_gene": [
+          "616830"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TANGO2",
+        "hgnc_symbol": "TANGO2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:20004537-20053449",
+              "ensembl_id": "ENSG00000183597"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:20017014-20065926",
+              "ensembl_id": "ENSG00000183597"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "TANGO2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "26805782",
+        "30245509"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration\t616878"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HI",
+          "PHHI",
+          "SUR1",
+          "MRP8",
+          "ABC36",
+          "HHF1",
+          "TNDM2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:59",
+        "gene_name": "ATP binding cassette subfamily C member 8",
+        "omim_gene": [
+          "600509"
+        ],
+        "alias_name": [
+          "sulfonylurea receptor (hyperinsulinemia)"
+        ],
+        "gene_symbol": "ABCC8",
+        "hgnc_symbol": "ABCC8",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:17414432-17498449",
+              "ensembl_id": "ENSG00000006071"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:17392885-17476845",
+              "ensembl_id": "ENSG00000006071"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-01-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCC8",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Hyperinsulinemic hypoglycemia, familial, 1, 256450",
+        "Hypoglycemia of infancy, leucine-sensitive, 240800",
+        "Diabetes mellitus, transient neonatal 2,  610374",
+        "Diabetes mellitus, noninsulin-dependent, 125853",
+        "Diabetes mellitus, noninsulin-dependent, 125854"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BAT"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:932",
+        "gene_name": "bile acid-CoA:amino acid N-acyltransferase",
+        "omim_gene": [
+          "602938"
+        ],
+        "alias_name": [
+          "glycine N-choloyltransferase"
+        ],
+        "gene_symbol": "BAAT",
+        "hgnc_symbol": "BAAT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:104122699-104145801",
+              "ensembl_id": "ENSG00000136881"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:101360417-101383519",
+              "ensembl_id": "ENSG00000136881"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-03-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "BAAT",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "choleostatic liver disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3354",
+        "gene_name": "enolase 3",
+        "omim_gene": [
+          "131370"
+        ],
+        "alias_name": [
+          "beta-enolase",
+          "muscle enriched enolase"
+        ],
+        "gene_symbol": "ENO3",
+        "hgnc_symbol": "ENO3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:4851387-4860426",
+              "ensembl_id": "ENSG00000108515"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:4948092-4957131",
+              "ensembl_id": "ENSG00000108515"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "ENO3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease XIII, 612932",
+        "Glycogen Storage Disease Type XIII",
+        "Glycogen Storage Disorders- Muscle",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LDE",
+          "LD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3413",
+        "gene_name": "EPM2A, laforin glucan phosphatase",
+        "omim_gene": [
+          "607566"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EPM2A",
+        "hgnc_symbol": "EPM2A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:145822719-146057160",
+              "ensembl_id": "ENSG00000112425"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:145382535-145736023",
+              "ensembl_id": "ENSG00000112425"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-10-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "EPM2A",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3607",
+        "gene_name": "fructose-bisphosphatase 2",
+        "omim_gene": [
+          "603027"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FBP2",
+        "hgnc_symbol": "FBP2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:97321002-97356075",
+              "ensembl_id": "ENSG00000130957"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:94558720-94593793",
+              "ensembl_id": "ENSG00000130957"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-12-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "FBP2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4065",
+        "gene_name": "glucosidase alpha, acid",
+        "omim_gene": [
+          "606800"
+        ],
+        "alias_name": [
+          "Pompe disease",
+          "glycogen storage disease type II"
+        ],
+        "gene_symbol": "GAA",
+        "hgnc_symbol": "GAA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:78075355-78093678",
+              "ensembl_id": "ENSG00000171298"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:80101556-80119879",
+              "ensembl_id": "ENSG00000171298"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "GAA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease II, 232300",
+        "Glycogen Storage Disease, Type II",
+        "Glycogen Storage Disorders- Muscle",
+        "Glycogen Storage Disease",
+        "Glycogen Storage Disease II"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4699",
+        "gene_name": "glycogenin 1",
+        "omim_gene": [
+          "603942"
+        ],
+        "alias_name": [
+          "glycogenin glucosyltransferase"
+        ],
+        "gene_symbol": "GYG1",
+        "hgnc_symbol": "GYG1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:148709128-148745419",
+              "ensembl_id": "ENSG00000163754"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:148991341-149027668",
+              "ensembl_id": "ENSG00000163754"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "GYG1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease XV, 613507",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GN-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4700",
+        "gene_name": "glycogenin 2",
+        "omim_gene": [
+          "300198"
+        ],
+        "alias_name": [
+          "glycogenin glucosyltransferase"
+        ],
+        "gene_symbol": "GYG2",
+        "hgnc_symbol": "GYG2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:2746829-2800859",
+              "ensembl_id": "ENSG00000056998"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:2828788-2882820",
+              "ensembl_id": "ENSG00000056998"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-01-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "GYG2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PMID: 25751106 - investigated patients with a GYG2 gene deletion and conclude that GN2 (encoded by GYG2) is not required for liver glycogen synthesis and glucagon-stimulated glucose release. PMID: 24100632 - candidate variants in the GYG2 gene found in male siblings with Leigh syndrome showing ketoemia, with some functional evidence."
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GSY"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4706",
+        "gene_name": "glycogen synthase 1",
+        "omim_gene": [
+          "138570"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GYS1",
+        "hgnc_symbol": "GYS1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:49471382-49496567",
+              "ensembl_id": "ENSG00000104812"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:48968125-48993310",
+              "ensembl_id": "ENSG00000104812"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-08-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "GYS1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease 0, muscle, 611556",
+        "Glycogen Storage Disease Type 0, Muscle",
+        "Glycogen Storage Disorders- Muscle",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD107b"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6501",
+        "gene_name": "lysosomal associated membrane protein 2",
+        "omim_gene": [
+          "309060"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LAMP2",
+        "hgnc_symbol": "LAMP2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:119561682-119603220",
+              "ensembl_id": "ENSG00000005893"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:120427827-120469365",
+              "ensembl_id": "ENSG00000005893"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-08-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "LAMP2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Emory Genetics Laboratory",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Glycogen Storage Disorders- Muscle",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "bA204B7.2",
+          "EPM2B",
+          "malin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21576",
+        "gene_name": "NHL repeat containing E3 ubiquitin protein ligase 1",
+        "omim_gene": [
+          "608072"
+        ],
+        "alias_name": [
+          "epilepsy, progressive myoclonus type 2B"
+        ],
+        "gene_symbol": "NHLRC1",
+        "hgnc_symbol": "NHLRC1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:18120718-18122851",
+              "ensembl_id": "ENSG00000187566"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:18120440-18122687",
+              "ensembl_id": "ENSG00000187566"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "NHLRC1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8876",
+        "gene_name": "phosphofructokinase, liver type",
+        "omim_gene": [
+          "171860"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PFKL",
+        "hgnc_symbol": "PFKL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:45719934-45747259",
+              "ensembl_id": "ENSG00000141959"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:44300051-44327376",
+              "ensembl_id": "ENSG00000141959"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PFKL",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Glycogen Storage Disease",
+        "Hemolytic anemia due to phosphofructokinase deficiency"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PFK-1",
+          "PPP1R122"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8877",
+        "gene_name": "phosphofructokinase, muscle",
+        "omim_gene": [
+          "610681"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 122"
+        ],
+        "gene_symbol": "PFKM",
+        "hgnc_symbol": "PFKM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:48498922-48540187",
+              "ensembl_id": "ENSG00000152556"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:48105139-48146404",
+              "ensembl_id": "ENSG00000152556"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PFKM",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease VII, 232800",
+        "Glycogen Storage Disease Type VII",
+        "Glycogen Storage Disorders- Muscle",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PGAM-M"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8889",
+        "gene_name": "phosphoglycerate mutase 2",
+        "omim_gene": [
+          "612931"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PGAM2",
+        "hgnc_symbol": "PGAM2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:44102326-44105186",
+              "ensembl_id": "ENSG00000164708"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:44062727-44065587",
+              "ensembl_id": "ENSG00000164708"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "PGAM2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Glycogen storage disease X, 261670",
+        "Glycogen Storage Disease Type X",
+        "Glycogen Storage Disorders- Muscle",
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8896",
+        "gene_name": "phosphoglycerate kinase 1",
+        "omim_gene": [
+          "311800"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PGK1",
+        "hgnc_symbol": "PGK1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:77320685-77384793",
+              "ensembl_id": "ENSG00000102144"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:78065188-78129296",
+              "ensembl_id": "ENSG00000102144"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-04-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "PGK1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Glycogen Storage Disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AAKG",
+          "AAKG2",
+          "H91620p",
+          "WPWS",
+          "CMH6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9386",
+        "gene_name": "protein kinase AMP-activated non-catalytic subunit gamma 2",
+        "omim_gene": [
+          "602743"
+        ],
+        "alias_name": [
+          "AMPK gamma2"
+        ],
+        "gene_symbol": "PRKAG2",
+        "hgnc_symbol": "PRKAG2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:151253197-151574210",
+              "ensembl_id": "ENSG00000106617"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:151556111-151877125",
+              "ensembl_id": "ENSG00000106617"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-09"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRKAG2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Wolff-Parkinson-White syndrome, 194200",
+        "Cardiomyopathy, familial hypertrophic 6, 600858",
+        "Glycogen storage disease of heart, lethal congenital, 261740",
+        "Glycogen Storage Disease of Heart, Lethal Congenital",
+        "Glycogen Storage Disorders- Muscle"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9726",
+        "gene_name": "glycogen phosphorylase, muscle associated",
+        "omim_gene": [
+          "608455"
+        ],
+        "alias_name": [
+          "McArdle syndrome",
+          "glycogen storage disease type V",
+          "glycogen phosphorylase, muscle form",
+          "myophosphorylase"
+        ],
+        "gene_symbol": "PYGM",
+        "hgnc_symbol": "PYGM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:64513861-64527769",
+              "ensembl_id": "ENSG00000068976"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:64746389-64760297",
+              "ensembl_id": "ENSG00000068976"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PYGM",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Glycogen Storage Disease Type V",
+        "Glycogen Storage Disease V (McArdle Disease)",
+        "Glycogen Storage Disorders- Muscle",
+        "Glycogen Storage Disease",
+        "Glycogen Storage Disease V"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FATP5",
+          "VLACSR",
+          "VLCS-H2",
+          "VLCSH2",
+          "FACVL3",
+          "FLJ22987",
+          "ACSVL6",
+          "ACSB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10999",
+        "gene_name": "solute carrier family 27 member 5",
+        "omim_gene": [
+          "603314"
+        ],
+        "alias_name": [
+          "fatty-acid-Coenzyme A ligase, very long-chain 3"
+        ],
+        "gene_symbol": "SLC27A5",
+        "hgnc_symbol": "SLC27A5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:58990879-59023780",
+              "ensembl_id": "ENSG00000083807"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:58479512-58512413",
+              "ensembl_id": "ENSG00000083807"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-08-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC27A5",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "choleostatic jaundice and hepatomegaly"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

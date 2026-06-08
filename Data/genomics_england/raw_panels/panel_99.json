@@ -1,0 +1,501 @@
+{
+  "id": 99,
+  "hash_id": "55e01bb222c1fc6199b42904",
+  "name": "Haematuria",
+  "disease_group": "Renal",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.18",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Alport syndrome",
+    "Familial haematuria",
+    "R194"
+  ],
+  "stats": {
+    "number_of_genes": 8,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    },
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "Component Of Super Panel",
+      "slug": "component-of-super-panel",
+      "description": "This panel is a component of a Super Panel"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2202",
+        "gene_name": "collagen type IV alpha 1 chain",
+        "omim_gene": [
+          "120130"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL4A1",
+        "hgnc_symbol": "COL4A1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:110801318-110959496",
+              "ensembl_id": "ENSG00000187498"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:110148963-110307149",
+              "ensembl_id": "ENSG00000187498"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL4A1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18160688",
+        "20818663",
+        "27190376",
+        "26839400",
+        "26260163",
+        "28717939",
+        "19238787"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "Exophytic renal cysts",
+        "haematuria",
+        "Angiopathy, hereditary, with nephropathy, aneurysms, and muscle cramps OMIM:611773"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2204",
+        "gene_name": "collagen type IV alpha 3 chain",
+        "omim_gene": [
+          "120070"
+        ],
+        "alias_name": [
+          "tumstatin"
+        ],
+        "gene_symbol": "COL4A3",
+        "hgnc_symbol": "COL4A3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:228029281-228179508",
+              "ensembl_id": "ENSG00000169031"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:227164565-227314792",
+              "ensembl_id": "ENSG00000169031"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-09-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL4A3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "17942953",
+        "30506145",
+        "29987460",
+        "24052634"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Alport syndrome, autosomal dominant OMIM:104200",
+        "Alport syndrome, autosomal recessive OMIM:203780",
+        "Hematuria, benign familial OMIM:141200"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CA44"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2206",
+        "gene_name": "collagen type IV alpha 4 chain",
+        "omim_gene": [
+          "120131"
+        ],
+        "alias_name": [
+          "collagen of basement membrane, alpha-4 chain"
+        ],
+        "gene_symbol": "COL4A4",
+        "hgnc_symbol": "COL4A4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:227867427-228028829",
+              "ensembl_id": "ENSG00000081052"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:227002711-227164113",
+              "ensembl_id": "ENSG00000081052"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL4A4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "17942953",
+        "30506145",
+        "29987460",
+        "24052634"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Alport syndrome 2, autosomal recessive OMIM:203780",
+        "Hematuria, familial benign OMIM:141200"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2207",
+        "gene_name": "collagen type IV alpha 5 chain",
+        "omim_gene": [
+          "303630"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL4A5",
+        "hgnc_symbol": "COL4A5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:107683074-107940775",
+              "ensembl_id": "ENSG00000188153"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:108439844-108697545",
+              "ensembl_id": "ENSG00000188153"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL4A5",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "14514738"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Alport syndrome 1, X-linked OMIM:301050"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NMMHCA",
+          "NMHC-II-A",
+          "MHA",
+          "FTNS",
+          "EPSTS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7579",
+        "gene_name": "myosin heavy chain 9",
+        "omim_gene": [
+          "160775"
+        ],
+        "alias_name": [
+          "nonmuscle myosin heavy chain II-A"
+        ],
+        "gene_symbol": "MYH9",
+        "hgnc_symbol": "MYH9",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:36677327-36784063",
+              "ensembl_id": "ENSG00000100345"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:36281281-36388018",
+              "ensembl_id": "ENSG00000100345"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-03-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "MYH9",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "10973259",
+        "12792306",
+        "22627578"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing"
+      ],
+      "phenotypes": [
+        "Macrothrombocytopenia and granulocyte inclusions with or without nephritis or sensorineural hearing loss OMIM:155100"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FHR5",
+          "FHR-5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:24668",
+        "gene_name": "complement factor H related 5",
+        "omim_gene": [
+          "608593"
+        ],
+        "alias_name": [
+          "factor H related protein 5"
+        ],
+        "gene_symbol": "CFHR5",
+        "hgnc_symbol": "CFHR5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:196946667-196978804",
+              "ensembl_id": "ENSG00000134389"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:196977556-197009674",
+              "ensembl_id": "ENSG00000134389"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "CFHR5",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "20800271",
+        "24067434",
+        "23402027"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS",
+        "Expert Review",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Nephropathy due to CFHR5 deficiency OMIM:614809"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2208",
+        "gene_name": "collagen type IV alpha 6 chain",
+        "omim_gene": [
+          "303631"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COL4A6",
+        "hgnc_symbol": "COL4A6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:107386780-107682727",
+              "ensembl_id": "ENSG00000197565"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:108155607-108439497",
+              "ensembl_id": "ENSG00000197565"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-10-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "COL4A6",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "diffuse leiomyomatosis with Alport syndrome = contiguous gene with COL4A5",
+        "Leiomyomatosis, diffuse, with Alport syndrome, 308940 (4)",
+        "diffuse leiomyomatosis with Alport syndrome = contiguous gene with COL4A5 Leiomyomatosis, diffuse, with Alport syndrome, 308940 (4)",
+        "(originally on Alport syndrome gene panel)"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SRN1",
+          "PDCN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13394",
+        "gene_name": "NPHS2, podocin",
+        "omim_gene": [
+          "604766"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NPHS2",
+        "hgnc_symbol": "NPHS2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:179519674-179545087",
+              "ensembl_id": "ENSG00000116218"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:179550539-179575952",
+              "ensembl_id": "ENSG00000116218"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-11-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "NPHS2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26138234"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Red",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Hematuria, Benign Familial",
+        "Alport Syndrome, X-Linked",
+        "Alport Syndrome, Autosomal Recessive",
+        "Alport Syndrome, Autosomal Dominant",
+        "Nephrotic Syndrome, Type 2",
+        "?Modifier of COL4A variants"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

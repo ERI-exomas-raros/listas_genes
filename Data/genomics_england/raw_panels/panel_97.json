@@ -1,0 +1,1091 @@
+{
+  "id": 97,
+  "hash_id": "553f9599bb5a1616e5ed45b1",
+  "name": "Inherited phaeochromocytoma and paraganglioma",
+  "disease_group": "Tumour syndromes",
+  "disease_sub_group": "Breast and endocrine",
+  "status": "public",
+  "version": "1.12",
+  "version_created": "2025-11-23T17:26:50.984802Z",
+  "relevant_disorders": [
+    "Neuro-endocrine Tumours- PCC and PGL"
+  ],
+  "stats": {
+    "number_of_genes": 20,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "fumarase"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3700",
+        "gene_name": "fumarate hydratase",
+        "omim_gene": [
+          "136850"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FH",
+        "hgnc_symbol": "FH",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:241660903-241683061",
+              "ensembl_id": "ENSG00000091483"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:241497603-241519761",
+              "ensembl_id": "ENSG00000091483"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FH",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24334767",
+        "23707781"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Expert Review"
+      ],
+      "phenotypes": [
+        "PCC/PGL",
+        "HLRCC"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "bHLHd4",
+          "bHLHd5",
+          "bHLHd6",
+          "bHLHd7",
+          "bHLHd8"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6913",
+        "gene_name": "MYC associated factor X",
+        "omim_gene": [
+          "154950"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAX",
+        "hgnc_symbol": "MAX",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:65472892-65569413",
+              "ensembl_id": "ENSG00000125952"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:65006174-65102695",
+              "ensembl_id": "ENSG00000125952"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-10-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAX",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "PubMed: 21685915",
+        "22429592"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "pheochromocytomas (PHEOs),  paragangliomas (PGLs)",
+        "Hereditary Paraganglioma-Pheochromocytoma Syndrome",
+        "{Pheochromocytoma, susceptibility to}, 171300"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7010",
+        "gene_name": "menin 1",
+        "omim_gene": [
+          "613733"
+        ],
+        "alias_name": [
+          "menin"
+        ],
+        "gene_symbol": "MEN1",
+        "hgnc_symbol": "MEN1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:64570982-64578766",
+              "ensembl_id": "ENSG00000133895"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:64803510-64811294",
+              "ensembl_id": "ENSG00000133895"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "MEN1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Multiple Endocrine Neoplasia",
+        "Multiple endocrine neoplasia type 1 (MEN1)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7765",
+        "gene_name": "neurofibromin 1",
+        "omim_gene": [
+          "613113"
+        ],
+        "alias_name": [
+          "neurofibromatosis",
+          "von Recklinghausen disease",
+          "Watson disease"
+        ],
+        "gene_symbol": "NF1",
+        "hgnc_symbol": "NF1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:29421945-29709134",
+              "ensembl_id": "ENSG00000196712"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:31094927-31382116",
+              "ensembl_id": "ENSG00000196712"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "NF1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22429592",
+        "16735498",
+        "UKGTN"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "NF1"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CNC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9388",
+        "gene_name": "protein kinase cAMP-dependent type I regulatory subunit alpha",
+        "omim_gene": [
+          "188830"
+        ],
+        "alias_name": [
+          "Carney complex type 1"
+        ],
+        "gene_symbol": "PRKAR1A",
+        "hgnc_symbol": "PRKAR1A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:66507921-66547460",
+              "ensembl_id": "ENSG00000108946"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:68511780-68551319",
+              "ensembl_id": "ENSG00000108946"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "PRKAR1A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Endocrine Cancer",
+        "Carney complex"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PTC",
+          "CDHF12",
+          "RET51",
+          "CDHR16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9967",
+        "gene_name": "ret proto-oncogene",
+        "omim_gene": [
+          "164761"
+        ],
+        "alias_name": [
+          "cadherin-related family member 16",
+          "RET receptor tyrosine kinase",
+          "rearranged during transfection"
+        ],
+        "gene_symbol": "RET",
+        "hgnc_symbol": "RET",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:43572475-43625799",
+              "ensembl_id": "ENSG00000165731"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:43077027-43130351",
+              "ensembl_id": "ENSG00000165731"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-07-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "RET",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [
+        "Multiple Endocrine Neoplasia",
+        "Multiple endocrine neoplasia IIA, 171400Medullary thyroid carcinoma, 155240Multiple endocrine neoplasia IIB, 162300Central hypoventilation syndrome, congenital, 209880Pheochromocytoma, 171300Renal agenesis, 191830{Hirschsprung disease, susceptibility to, 1}, 142623"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FP",
+          "SDHF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10680",
+        "gene_name": "succinate dehydrogenase complex flavoprotein subunit A",
+        "omim_gene": [
+          "600857"
+        ],
+        "alias_name": [
+          "succinate dehydrogenase [ubiquinone] flavoprotein subunit",
+          "flavoprotein subunit of complex II"
+        ],
+        "gene_symbol": "SDHA",
+        "hgnc_symbol": "SDHA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:218356-256815",
+              "ensembl_id": "ENSG00000073578"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:218241-256700",
+              "ensembl_id": "ENSG00000073578"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-10-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHA",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Paragangliomas 5, OMIM:614165"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20487",
+          "SDH5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26034",
+        "gene_name": "succinate dehydrogenase complex assembly factor 2",
+        "omim_gene": [
+          "613019"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SDHAF2",
+        "hgnc_symbol": "SDHAF2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:61197514-61215001",
+              "ensembl_id": "ENSG00000167985"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:61430042-61447529",
+              "ensembl_id": "ENSG00000167985"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2009-08-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHAF2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Paragangliomas 2, 601650",
+        "Hereditary Paraganglioma-Pheochromocytoma Syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10681",
+        "gene_name": "succinate dehydrogenase complex iron sulfur subunit B",
+        "omim_gene": [
+          "185470"
+        ],
+        "alias_name": [
+          "iron-sulfur subunit of complex II",
+          "succinate dehydrogenase [ubiquinone] iron-sulfur subunit"
+        ],
+        "gene_symbol": "SDHB",
+        "hgnc_symbol": "SDHB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:17345217-17380665",
+              "ensembl_id": "ENSG00000117118"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:17018722-17054170",
+              "ensembl_id": "ENSG00000117118"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Paragangliomas 4, OMIM:115310",
+        "Pheochromocytoma, OMIM:171300",
+        "Paraganglioma and gastric stromal sarcoma, OMIM:606864"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CYB560",
+          "cybL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10682",
+        "gene_name": "succinate dehydrogenase complex subunit C",
+        "omim_gene": [
+          "602413"
+        ],
+        "alias_name": [
+          "succinate dehydrogenase cytochrome b560 subunit",
+          "succinate dehydrgenase cytochrome b",
+          "large subunit of cytochrome b"
+        ],
+        "gene_symbol": "SDHC",
+        "hgnc_symbol": "SDHC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:161284047-161332984",
+              "ensembl_id": "ENSG00000143252"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:161314257-161375340",
+              "ensembl_id": "ENSG00000143252"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHC",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Expert",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Paragangliomas 3, 605373Paraganglioma and gastric stromal sarcoma, 606864Gastrointestinal stromal tumor, 606764",
+        "Hereditary Paraganglioma-Pheochromocytoma Syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "cybS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10683",
+        "gene_name": "succinate dehydrogenase complex subunit D",
+        "omim_gene": [
+          "602690"
+        ],
+        "alias_name": [
+          "small subunit of cytochrome b"
+        ],
+        "gene_symbol": "SDHD",
+        "hgnc_symbol": "SDHD",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:111957497-111990353",
+              "ensembl_id": "ENSG00000204370"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:112086773-112120013",
+              "ensembl_id": "ENSG00000204370"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "SDHD",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "Expert",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Paragangliomas 1, with or without deafness, 168000Pheochromocytoma, 171300Carcinoid tumors, intestinal, 114900Merkel cell carcinoma, somaticParaganglioma and gastric stromal sarcoma, 606864Cowden syndrome 3, 615106",
+        "Hereditary Paraganglioma-Pheochromocytoma Syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, maternally imprinted (paternal allele expressed)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20507",
+          "FLJ22257"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26038",
+        "gene_name": "transmembrane protein 127",
+        "omim_gene": [
+          "613403"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TMEM127",
+        "hgnc_symbol": "TMEM127",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:96914254-96931732",
+              "ensembl_id": "ENSG00000135956"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:96248516-96265994",
+              "ensembl_id": "ENSG00000135956"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-02-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMEM127",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "{Pheochromocytoma, susceptibility to}, 171300"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VHL1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12687",
+        "gene_name": "von Hippel-Lindau tumor suppressor",
+        "omim_gene": [
+          "608537"
+        ],
+        "alias_name": null,
+        "gene_symbol": "VHL",
+        "hgnc_symbol": "VHL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:10182692-10193904",
+              "ensembl_id": "ENSG00000134086"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:10141008-10152220",
+              "ensembl_id": "ENSG00000134086"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "VHL",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22429592"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Eligibility statement prior genetic testing",
+        "UKGTN",
+        "Emory Genetics Laboratory",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Pheochromocytoma, OMIM:171300",
+        "von Hippel-Lindau syndrome, OMIM:193300"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "parafibromin",
+          "FIHP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16783",
+        "gene_name": "cell division cycle 73",
+        "omim_gene": [
+          "607393"
+        ],
+        "alias_name": [
+          "Paf1/RNA polymerase II complex component"
+        ],
+        "gene_symbol": "CDC73",
+        "hgnc_symbol": "CDC73",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:193091147-193223031",
+              "ensembl_id": "ENSG00000134371"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:193122017-193253901",
+              "ensembl_id": "ENSG00000134371"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-07-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDC73",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIP1",
+          "P27KIP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1785",
+        "gene_name": "cyclin dependent kinase inhibitor 1B",
+        "omim_gene": [
+          "600778"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CDKN1B",
+        "hgnc_symbol": "CDKN1B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:12867992-12875305",
+              "ensembl_id": "ENSG00000111276"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:12715058-12722371",
+              "ensembl_id": "ENSG00000111276"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-09-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "CDKN1B",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Illumina TruGenome Clinical Sequencing Services"
+      ],
+      "phenotypes": [
+        "Multiple Endocrine Neoplasia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ATF1",
+          "ATF2",
+          "HFB1-GDNF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4232",
+        "gene_name": "glial cell derived neurotrophic factor",
+        "omim_gene": [
+          "600837"
+        ],
+        "alias_name": [
+          "astrocyte-derived trophic factor",
+          "glial cell line derived neurotrophic factor",
+          "glial derived neurotrophic factor"
+        ],
+        "gene_symbol": "GDNF",
+        "hgnc_symbol": "GDNF",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:37812779-37839788",
+              "ensembl_id": "ENSG00000168621"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:37812677-37839686",
+              "ensembl_id": "ENSG00000168621"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "GDNF",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Central hypoventilation syndrome, 209880{Pheochromocytoma, modifier of}, 171300{Hirschsprung disease, susceptibility to, 3}, 613711"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0591",
+          "KLP",
+          "HMSNII"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16636",
+        "gene_name": "kinesin family member 1B",
+        "omim_gene": [
+          "605995"
+        ],
+        "alias_name": null,
+        "gene_symbol": "KIF1B",
+        "hgnc_symbol": "KIF1B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:10270863-10441661",
+              "ensembl_id": "ENSG00000054523"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:10210805-10381603",
+              "ensembl_id": "ENSG00000054523"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-11-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "KIF1B",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Radboud University Medical Center, Nijmegen"
+      ],
+      "phenotypes": [
+        "Charcot-Marie-Tooth disease, type 2A1, 118210Pheochromocytoma, 171300{Neuroblastoma, susceptibility to, 1}, 256700"
+      ],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6971",
+        "gene_name": "malate dehydrogenase 2",
+        "omim_gene": [
+          "154100"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MDH2",
+        "hgnc_symbol": "MDH2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:75677369-75696826",
+              "ensembl_id": "ENSG00000146701"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:76048051-76067508",
+              "ensembl_id": "ENSG00000146701"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "MDH2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25766404"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "PGL"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MMAC1",
+          "TEP1",
+          "PTEN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9588",
+        "gene_name": "phosphatase and tensin homolog",
+        "omim_gene": [
+          "601728"
+        ],
+        "alias_name": [
+          "mutated in multiple advanced cancers 1"
+        ],
+        "gene_symbol": "PTEN",
+        "hgnc_symbol": "PTEN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:89622870-89731687",
+              "ensembl_id": "ENSG00000171862"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:87863113-87971930",
+              "ensembl_id": "ENSG00000171862"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTEN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p53",
+          "LFS1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11998",
+        "gene_name": "tumor protein p53",
+        "omim_gene": [
+          "191170"
+        ],
+        "alias_name": [
+          "Li-Fraumeni syndrome"
+        ],
+        "gene_symbol": "TP53",
+        "hgnc_symbol": "TP53",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:7565097-7590856",
+              "ensembl_id": "ENSG00000141510"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:7661779-7687550",
+              "ensembl_id": "ENSG00000141510"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TP53",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Emory Genetics Laboratory"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

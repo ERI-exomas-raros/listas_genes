@@ -1,0 +1,676 @@
+{
+  "id": 502,
+  "hash_id": null,
+  "name": "Hereditary systemic amyloidosis",
+  "disease_group": "Renal",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.29",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Amyloidosis",
+    "R204"
+  ],
+  "stats": {
+    "number_of_genes": 12,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "Component Of Super Panel",
+      "slug": "component-of-super-panel",
+      "description": "This panel is a component of a Super Panel"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:600",
+        "gene_name": "apolipoprotein A1",
+        "omim_gene": [
+          "107680"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOA1",
+        "hgnc_symbol": "APOA1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:116706467-116708666",
+              "ensembl_id": "ENSG00000118137"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:116835751-116837950",
+              "ensembl_id": "ENSG00000118137"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOA1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27240838",
+        "21820994",
+        "16925563",
+        "32022753"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Amyloidosis, 3 or more types OMIM:105200",
+        "familial visceral amyloidosis MONDO:0007099"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:601",
+        "gene_name": "apolipoprotein A2",
+        "omim_gene": [
+          "107670"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOA2",
+        "hgnc_symbol": "APOA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:161192082-161193421",
+              "ensembl_id": "ENSG00000158874"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:161222292-161223631",
+              "ensembl_id": "ENSG00000158874"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "29270531",
+        "11703582",
+        "12787390",
+        "11401442"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:609",
+        "gene_name": "apolipoprotein C2",
+        "omim_gene": [
+          "608083"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOC2",
+        "hgnc_symbol": "APOC2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:45449243-45452822",
+              "ensembl_id": "ENSG00000234906"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:44945982-44949565",
+              "ensembl_id": "ENSG00000234906"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOC2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30197986",
+        "27297947"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "missense"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3661",
+        "gene_name": "fibrinogen alpha chain",
+        "omim_gene": [
+          "134820"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FGA",
+        "hgnc_symbol": "FGA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:155504278-155511918",
+              "ensembl_id": "ENSG00000171560"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:154583126-154590766",
+              "ensembl_id": "ENSG00000171560"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19073821",
+        "29142973",
+        "23551149"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Amyloidosis, familial visceral, OMIM:105200"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZp313L0718"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4620",
+        "gene_name": "gelsolin",
+        "omim_gene": [
+          "137350"
+        ],
+        "alias_name": [
+          "amyloidosis, Finnish type"
+        ],
+        "gene_symbol": "GSN",
+        "hgnc_symbol": "GSN",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:123970072-124095121",
+              "ensembl_id": "ENSG00000148180"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:121207794-121332843",
+              "ensembl_id": "ENSG00000148180"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-07-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "GSN",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24601799",
+        "25342098",
+        "22938848"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Amyloidosis, Finnish type, OMIM:105120"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6740",
+        "gene_name": "lysozyme",
+        "omim_gene": [
+          "153450"
+        ],
+        "alias_name": [
+          "renal amyloidosis"
+        ],
+        "gene_symbol": "LYZ",
+        "hgnc_symbol": "LYZ",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:69742121-69748014",
+              "ensembl_id": "ENSG00000090382"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:69348341-69354234",
+              "ensembl_id": "ENSG00000090382"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "LYZ",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21988333"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Amyloidosis, renal 105200"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HsT2651",
+          "CTS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12405",
+        "gene_name": "transthyretin",
+        "omim_gene": [
+          "176300"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TTR",
+        "hgnc_symbol": "TTR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:29171689-29178974",
+              "ensembl_id": "ENSG00000118271"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:31591726-31599021",
+              "ensembl_id": "ENSG00000118271"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "TTR",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30328212",
+        "14640030",
+        "30878017",
+        "31131842",
+        "31118583",
+        "31111153",
+        "30120737"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Amyloidosis, hereditary, transthyretin-related 105210"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "treatable"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:602",
+        "gene_name": "apolipoprotein A4",
+        "omim_gene": [
+          "107690"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOA4",
+        "hgnc_symbol": "APOA4",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:116691419-116694022",
+              "ensembl_id": "ENSG00000110244"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:116820700-116823306",
+              "ensembl_id": "ENSG00000110244"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOA4",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "21900878",
+        "27262366",
+        "33751222",
+        "38096951",
+        "39699959"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Tubulointerstitial kidney disease, autosomal dominant 6, OMIM: 621106",
+        "tubulointerstitial kidney disease, autosomal dominant 6, MONDO:0976234",
+        "AApoAIV amyloidosis, MONDO:0018589"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "Q4_25_promote_green"
+      ],
+      "transcript": []
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:610",
+        "gene_name": "apolipoprotein C3",
+        "omim_gene": [
+          "107720"
+        ],
+        "alias_name": null,
+        "gene_symbol": "APOC3",
+        "hgnc_symbol": "APOC3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:116700422-116703788",
+              "ensembl_id": "ENSG00000110245"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:116829706-116833072",
+              "ensembl_id": "ENSG00000110245"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "APOC3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26790392"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:914",
+        "gene_name": "beta-2-microglobulin",
+        "omim_gene": [
+          "109700"
+        ],
+        "alias_name": null,
+        "gene_symbol": "B2M",
+        "hgnc_symbol": "B2M",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:45003675-45011075",
+              "ensembl_id": "ENSG00000166710"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:44711477-44718877",
+              "ensembl_id": "ENSG00000166710"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "B2M",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22693999"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "?Amyloidosis, familial visceral 105200"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2475",
+        "gene_name": "cystatin C",
+        "omim_gene": [
+          "604312"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CST3",
+        "hgnc_symbol": "CST3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:23608534-23619110",
+              "ensembl_id": "ENSG00000101439"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:23626706-23638473",
+              "ensembl_id": "ENSG00000101439"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-02-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "CST3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "2900981",
+        "3495457",
+        "1352269",
+        "3673496",
+        "7482672"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Cerebral amyloid angiopathy 105150"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "AGTAVPRL",
+          "AII",
+          "AVP",
+          "FCAS",
+          "FCU",
+          "NALP3",
+          "PYPAF1",
+          "MWS",
+          "CLR1.1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16400",
+        "gene_name": "NLR family pyrin domain containing 3",
+        "omim_gene": [
+          "606416"
+        ],
+        "alias_name": [
+          "Cryopyrin",
+          "nucleotide-binding oligomerization domain, leucine rich repeat and pyrin domain containing 3"
+        ],
+        "gene_symbol": "NLRP3",
+        "hgnc_symbol": "NLRP3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:247579458-247612410",
+              "ensembl_id": "ENSG00000162711"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:247416156-247449108",
+              "ensembl_id": "ENSG00000162711"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "NLRP3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "11687797",
+        "28229991",
+        "27435956",
+        "31057541",
+        "30431487"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Muckle-Wells syndrome, OMIM:191900",
+        "Renal amyloidosis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

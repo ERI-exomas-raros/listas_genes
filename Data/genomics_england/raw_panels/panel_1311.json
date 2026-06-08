@@ -1,0 +1,83 @@
+{
+  "id": 1311,
+  "hash_id": null,
+  "name": "CADASIL",
+  "disease_group": "Neurology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.6",
+  "version_created": "2026-01-22T18:09:05.577869Z",
+  "relevant_disorders": [
+    "R337"
+  ],
+  "stats": {
+    "number_of_genes": 1,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "CASIL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7883",
+        "gene_name": "notch 3",
+        "omim_gene": [
+          "600276"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NOTCH3",
+        "hgnc_symbol": "NOTCH3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:15270444-15311792",
+              "ensembl_id": "ENSG00000074181"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:15159038-15200981",
+              "ensembl_id": "ENSG00000074181"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-07-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "NOTCH3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "Loss-of-function variants (as defined in pop up message) DO NOT cause this phenotype - please provide details in the comments",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Cerebral arteriopathy with subcortical infarcts and leukoencephalopathy 1, OMIM:125310",
+        "cerebral arteriopathy, autosomal dominant, with subcortical infarcts and leukoencephalopathy, type 1, MONDO:0000914"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

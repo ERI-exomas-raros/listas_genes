@@ -1,0 +1,383 @@
+{
+  "id": 562,
+  "hash_id": null,
+  "name": "Epidermodysplasia verruciformis",
+  "disease_group": "Dermatology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "1.7",
+  "version_created": "2026-01-23T10:17:44.953743Z",
+  "relevant_disorders": [
+    "R255"
+  ],
+  "stats": {
+    "number_of_genes": 7,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "SIP2-28",
+          "CIB",
+          "KIP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:16920",
+        "gene_name": "calcium and integrin binding 1",
+        "omim_gene": [
+          "602293"
+        ],
+        "alias_name": [
+          "calmyrin"
+        ],
+        "gene_symbol": "CIB1",
+        "hgnc_symbol": "CIB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:90773207-90777279",
+              "ensembl_id": "ENSG00000185043"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:90229975-90234047",
+              "ensembl_id": "ENSG00000185043"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-05-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "CIB1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30036492"
+      ],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermodysplasia verruciformis 3, 618267"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LAK-4P",
+          "EVIN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18021",
+        "gene_name": "transmembrane channel like 6",
+        "omim_gene": [
+          "605828"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TMC6",
+        "hgnc_symbol": "TMC6",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:76106539-76128488",
+              "ensembl_id": "ENSG00000141524"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:78110458-78132407",
+              "ensembl_id": "ENSG00000141524"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMC6",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30036492"
+      ],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermodysplasia verruciformis, 226400"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EVIN2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20474",
+        "gene_name": "transmembrane channel like 8",
+        "omim_gene": [
+          "605829"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TMC8",
+        "hgnc_symbol": "TMC8",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:76126851-76139049",
+              "ensembl_id": "ENSG00000167895"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:78130770-78142968",
+              "ensembl_id": "ENSG00000167895"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-11-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "TMC8",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "30036492"
+      ],
+      "evidence": [
+        "London North GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Epidermodysplasia verruciformis 2, 618231"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HCORO1",
+          "p57",
+          "coronin-1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2252",
+        "gene_name": "coronin 1A",
+        "omim_gene": [
+          "605000"
+        ],
+        "alias_name": [
+          "Clabp TACO"
+        ],
+        "gene_symbol": "CORO1A",
+        "hgnc_symbol": "CORO1A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:30194148-30200397",
+              "ensembl_id": "ENSG00000102879"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:30182827-30189076",
+              "ensembl_id": "ENSG00000102879"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "CORO1A",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IL-7"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6023",
+        "gene_name": "interleukin 7",
+        "omim_gene": [
+          "146660"
+        ],
+        "alias_name": null,
+        "gene_symbol": "IL7",
+        "hgnc_symbol": "IL7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:79587978-79717758",
+              "ensembl_id": "ENSG00000104432"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:78675743-78805523",
+              "ensembl_id": "ENSG00000104432"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-10-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL7",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MSP",
+          "NF15S2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7380",
+        "gene_name": "macrophage stimulating 1",
+        "omim_gene": [
+          "142408"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MST1",
+        "hgnc_symbol": "MST1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:49721380-49726934",
+              "ensembl_id": "ENSG00000173531"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:49683947-49689501",
+              "ensembl_id": "ENSG00000173531"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-08-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "MST1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RhoH",
+          "TTF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:686",
+        "gene_name": "ras homolog family member H",
+        "omim_gene": [
+          "602037"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RHOH",
+        "hgnc_symbol": "RHOH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:40192673-40248587",
+              "ensembl_id": "ENSG00000168421"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:40191053-40246967",
+              "ensembl_id": "ENSG00000168421"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-03-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "RHOH",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

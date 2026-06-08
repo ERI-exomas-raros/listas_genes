@@ -1,0 +1,3495 @@
+{
+  "id": 63,
+  "hash_id": "58c7f5008f620328d77ce70f",
+  "name": "Familial Hirschsprung Disease",
+  "disease_group": "Gastroenterological disorders",
+  "disease_sub_group": "Gastrointestinal disorders",
+  "status": "public",
+  "version": "1.11",
+  "version_created": "2025-11-23T17:08:17.475442Z",
+  "relevant_disorders": [],
+  "stats": {
+    "number_of_genes": 63,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Rare Disease 100K",
+      "slug": "rare-disease-100k",
+      "description": "Rare Disease 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "ET3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3178",
+        "gene_name": "endothelin 3",
+        "omim_gene": [
+          "131242"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EDN3",
+        "hgnc_symbol": "EDN3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:57875482-57901047",
+              "ensembl_id": "ENSG00000124205"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:59300427-59325992",
+              "ensembl_id": "ENSG00000124205"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-09-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "EDN3",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "27370713",
+        "8630502",
+        "8630503",
+        "20583152",
+        "19764030"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease 4, 613712",
+        "{Hirschsprung disease, susceptibility to, 4}, 613712",
+        "Waardenburg syndrome, type 4B, 613265",
+        "Hirschsprung Disease, Dominant",
+        "Waardenburg syndrome",
+        "WS4B",
+        "total colonic aganglionosis",
+        "short-segment Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ETB"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3180",
+        "gene_name": "endothelin receptor type B",
+        "omim_gene": [
+          "131244"
+        ],
+        "alias_name": null,
+        "gene_symbol": "EDNRB",
+        "hgnc_symbol": "EDNRB",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:78469616-78493903",
+              "ensembl_id": "ENSG00000136160"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:77895481-77919768",
+              "ensembl_id": "ENSG00000136160"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "EDNRB",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "27370713",
+        "16618617",
+        "20009762",
+        "10528251",
+        "26923755",
+        "25852447"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "Waardenburg syndrome, type 4A, OMIM:277580",
+        "{Hirschsprung disease, susceptibility to, 2}, OMIM:600155",
+        "?ABCD syndrome, OMIM:600501",
+        "Colonic aganglionosis",
+        "Shah-Waardenburg syndrome",
+        "Long-segment Hirschsprung's disease",
+        "Short-segment Hirschsprung's disease"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DKFZP586B0923",
+          "TTC20",
+          "KBP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23419",
+        "gene_name": "KIF1 binding protein",
+        "omim_gene": [
+          "609367"
+        ],
+        "alias_name": [
+          "kinesin binding protein"
+        ],
+        "gene_symbol": "KIF1BP",
+        "hgnc_symbol": "KIF1BP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:70748487-70776738",
+              "ensembl_id": "ENSG00000198954"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:68988721-69043544",
+              "ensembl_id": "ENSG00000198954"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2015-03-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "KIF1BP",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28277559",
+        "15883926"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Other",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "Goldberg-Shprintzen megacolon syndrome, 609460 (includes Hirschsprung disease)",
+        "GOSHS"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "new-gene-name"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD171"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6470",
+        "gene_name": "L1 cell adhesion molecule",
+        "omim_gene": [
+          "308840"
+        ],
+        "alias_name": [
+          "neural cell adhesion molecule L1"
+        ],
+        "gene_symbol": "L1CAM",
+        "hgnc_symbol": "L1CAM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:153126969-153174677",
+              "ensembl_id": "ENSG00000198910"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:153861514-153909223",
+              "ensembl_id": "ENSG00000198910"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "L1CAM",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "20860806",
+        "22344793",
+        "11857550",
+        "15148591",
+        "19641926",
+        "9279760"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Radboud University Medical Center, Nijmegen",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "Hydrocephalus with Hirschsprung disease, 307000"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Phox2b",
+          "NBPhox"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9143",
+        "gene_name": "paired like homeobox 2b",
+        "omim_gene": [
+          "603851"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PHOX2B",
+        "hgnc_symbol": "PHOX2B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:41746099-41750987",
+              "ensembl_id": "ENSG00000109132"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:41744082-41748970",
+              "ensembl_id": "ENSG00000109132"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-02-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "PHOX2B",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "27370713",
+        "28371199",
+        "24182656",
+        "28422456",
+        "15024693"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "UKGTN",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "Central hypoventilation syndrome, congenital, with or without Hirschsprung disease, 209880",
+        "Neuroblastoma with Hirschsprung disease, 613013",
+        "Congenital Central Hypoventilation Syndrome",
+        "Central Hypoventilation Syndrome, Congenital, 209880"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "nucleotide-repeat-expansion"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PTC",
+          "CDHF12",
+          "RET51",
+          "CDHR16"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9967",
+        "gene_name": "ret proto-oncogene",
+        "omim_gene": [
+          "164761"
+        ],
+        "alias_name": [
+          "cadherin-related family member 16",
+          "RET receptor tyrosine kinase",
+          "rearranged during transfection"
+        ],
+        "gene_symbol": "RET",
+        "hgnc_symbol": "RET",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:43572475-43625799",
+              "ensembl_id": "ENSG00000165731"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:43077027-43130351",
+              "ensembl_id": "ENSG00000165731"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-07-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "RET",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "28274275",
+        "7581377",
+        "27370713",
+        "23084198",
+        "8114938",
+        "8114939"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Radboud University Medical Center, Nijmegen",
+        "Eligibility statement prior genetic testing",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease 1, 142623",
+        "{Hirschsprung disease, susceptibility to, 1}, 142623",
+        "Hirschsprung Disease, Susceptibility To, 1, 142623",
+        "Hirschsprung Disease, Dominant"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DOM",
+          "WS4",
+          "WS2E"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11190",
+        "gene_name": "SRY-box 10",
+        "omim_gene": [
+          "602229"
+        ],
+        "alias_name": [
+          "dominant megacolon, mouse, human homolog of"
+        ],
+        "gene_symbol": "SOX10",
+        "hgnc_symbol": "SOX10",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:38366693-38383429",
+              "ensembl_id": "ENSG00000100146"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:37970686-37987422",
+              "ensembl_id": "ENSG00000100146"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOX10",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "28544110",
+        "28390600"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Other",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "Waardenburg syndrome with Hirschsprung disease (WS4C), 613266",
+        "PCWH syndrome, 609136 (includes Hirschsprung disease, long-segment)",
+        "Waardenburg syndrome, type 4C, 613266",
+        "Waardenburg Syndrome",
+        "PCWH Syndrome"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0569",
+          "SIP-1",
+          "SIP1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14881",
+        "gene_name": "zinc finger E-box binding homeobox 2",
+        "omim_gene": [
+          "605802"
+        ],
+        "alias_name": [
+          "SMAD interacting protein 1"
+        ],
+        "gene_symbol": "ZEB2",
+        "hgnc_symbol": "ZEB2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:145141648-145282147",
+              "ensembl_id": "ENSG00000169554"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:144364364-144524583",
+              "ensembl_id": "ENSG00000169554"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-02-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "ZEB2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "11279515",
+        "28543993",
+        "27370713",
+        "21712996"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Emory Genetics Laboratory",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "UKGTN",
+        "Eligibility statement prior genetic testing",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "Mowat-Wilson syndrome, 235730",
+        "Mowat-Wilson Syndrome, 235730",
+        "MWS",
+        "Hirschsprung disease",
+        "Mental retardation and distinct facial features, with or without Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "cnv"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MEGF2",
+          "HFMI1",
+          "FMI1",
+          "CDHF11",
+          "ADGRC3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3230",
+        "gene_name": "cadherin EGF LAG seven-pass G-type receptor 3",
+        "omim_gene": [
+          "604264"
+        ],
+        "alias_name": [
+          "flamingo homolog 1 (Drosophila)",
+          "adhesion G protein-coupled receptor C3"
+        ],
+        "gene_symbol": "CELSR3",
+        "hgnc_symbol": "CELSR3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:48673902-48700348",
+              "ensembl_id": "ENSG00000008300"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:48636469-48662915",
+              "ensembl_id": "ENSG00000008300"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-03-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "CELSR3",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27619161"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0870"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29134",
+        "gene_name": "DENN domain containing 3",
+        "omim_gene": [
+          "617503"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DENND3",
+        "hgnc_symbol": "DENND3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:142127377-142205907",
+              "ensembl_id": "ENSG00000105339"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:141117278-141195808",
+              "ensembl_id": "ENSG00000105339"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-08-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "DENND3",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28274275"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2860",
+        "gene_name": "7-dehydrocholesterol reductase",
+        "omim_gene": [
+          "602858"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DHCR7",
+        "hgnc_symbol": "DHCR7",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:71139239-71163914",
+              "ensembl_id": "ENSG00000172893"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:71428193-71452868",
+              "ensembl_id": "ENSG00000172893"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "DHCR7",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "3812577",
+        "6886911",
+        "14556255"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Other"
+      ],
+      "phenotypes": [
+        "Smith-Lemli-Opitz syndrome (MIM:270400) and Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3146",
+        "gene_name": "endothelin converting enzyme 1",
+        "omim_gene": [
+          "600423"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ECE1",
+        "hgnc_symbol": "ECE1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:21543740-21671997",
+              "ensembl_id": "ENSG00000117298"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:21217247-21345504",
+              "ensembl_id": "ENSG00000117298"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-12-08"
+      },
+      "entity_type": "gene",
+      "entity_name": "ECE1",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "27370713",
+        "9915973"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Radboud University Medical Center, Nijmegen",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "?Hirschsprung disease, cardiac defects, and autonomic dysfunction, 613870"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ATF1",
+          "ATF2",
+          "HFB1-GDNF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4232",
+        "gene_name": "glial cell derived neurotrophic factor",
+        "omim_gene": [
+          "600837"
+        ],
+        "alias_name": [
+          "astrocyte-derived trophic factor",
+          "glial cell line derived neurotrophic factor",
+          "glial derived neurotrophic factor"
+        ],
+        "gene_symbol": "GDNF",
+        "hgnc_symbol": "GDNF",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:37812779-37839788",
+              "ensembl_id": "ENSG00000168621"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:37812677-37839686",
+              "ensembl_id": "ENSG00000168621"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "GDNF",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "27370713",
+        "8896568",
+        "8896569",
+        "8968758"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Illumina TruGenome Clinical Sequencing Services",
+        "Radboud University Medical Center, Nijmegen",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease 3, 613711",
+        "{Hirschsprung disease, susceptibility to, 3}, 613711",
+        "Hirschsprung Disease, Dominant",
+        "short-segment HSCR",
+        "long-segment HSCR"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RETL1",
+          "GDNFR",
+          "GFR-ALPHA-1",
+          "RET1L",
+          "TRNR1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4243",
+        "gene_name": "GDNF family receptor alpha 1",
+        "omim_gene": [
+          "601496"
+        ],
+        "alias_name": null,
+        "gene_symbol": "GFRA1",
+        "hgnc_symbol": "GFRA1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:117816444-118032979",
+              "ensembl_id": "ENSG00000151892"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:116056925-116273467",
+              "ensembl_id": "ENSG00000151892"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-01-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "GFRA1",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "27370713",
+        "9545641",
+        "17507417",
+        "12624147"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NICALIN",
+          "NET59"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26923",
+        "gene_name": "nicalin",
+        "omim_gene": [
+          "609156"
+        ],
+        "alias_name": [
+          "nicastrin-like protein"
+        ],
+        "gene_symbol": "NCLN",
+        "hgnc_symbol": "NCLN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:3185561-3209573",
+              "ensembl_id": "ENSG00000125912"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:3185563-3209575",
+              "ensembl_id": "ENSG00000125912"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-11-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "NCLN",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28274275"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist",
+        "mosaicism"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TTF-1",
+          "TTF1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11825",
+        "gene_name": "NK2 homeobox 1",
+        "omim_gene": [
+          "600635"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NKX2-1",
+        "hgnc_symbol": "NKX2-1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:36985602-36990354",
+              "ensembl_id": "ENSG00000136352"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:36516392-36521149",
+              "ensembl_id": "ENSG00000136352"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-07-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "NKX2-1",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "15548547",
+        "17640327"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Other"
+      ],
+      "phenotypes": [
+        "Hirschsprung disease",
+        "short-segment aganglionosis"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HRG",
+          "NDF",
+          "GGF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7997",
+        "gene_name": "neuregulin 1",
+        "omim_gene": [
+          "142445"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NRG1",
+        "hgnc_symbol": "NRG1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:31496902-32622548",
+              "ensembl_id": "ENSG00000157168"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:31639386-32767959",
+              "ensembl_id": "ENSG00000157168"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-03-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "NRG1",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "22574178",
+        "21706185",
+        "28256518",
+        "25475805",
+        "22377709"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7999",
+        "gene_name": "neuregulin 3",
+        "omim_gene": [
+          "605533"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NRG3",
+        "hgnc_symbol": "NRG3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:83635070-84746935",
+              "ensembl_id": "ENSG00000185737"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:81875314-82987179",
+              "ensembl_id": "ENSG00000185737"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-03-19"
+      },
+      "entity_type": "gene",
+      "entity_name": "NRG3",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27889765",
+        "22589734",
+        "23315268"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "cnv"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NUP96"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8068",
+        "gene_name": "nucleoporin 98",
+        "omim_gene": [
+          "601021"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NUP98",
+        "hgnc_symbol": "NUP98",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:3692313-3819022",
+              "ensembl_id": "ENSG00000110713"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:3671083-3797792",
+              "ensembl_id": "ENSG00000110713"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "NUP98",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28274275"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SemE"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10725",
+        "gene_name": "semaphorin 3C",
+        "omim_gene": [
+          "602645"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SEMA3C",
+        "hgnc_symbol": "SEMA3C",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:80371854-80551675",
+              "ensembl_id": "ENSG00000075223"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:80742538-80922359",
+              "ensembl_id": "ENSG00000075223"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "SEMA3C",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25839327"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "coll-2",
+          "Sema-Z2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10726",
+        "gene_name": "semaphorin 3D",
+        "omim_gene": [
+          "609907"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SEMA3D",
+        "hgnc_symbol": "SEMA3D",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:84624869-84816171",
+              "ensembl_id": "ENSG00000153993"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:84995553-85186855",
+              "ensembl_id": "ENSG00000153993"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "SEMA3D",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23372769",
+        "25839327"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ32820",
+          "spatial"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23511",
+        "gene_name": "thymus, brain and testes associated",
+        "omim_gene": [
+          "612640"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TBATA",
+        "hgnc_symbol": "TBATA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:72530995-72545157",
+              "ensembl_id": "ENSG00000166220"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:70771239-70785401",
+              "ensembl_id": "ENSG00000166220"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-05-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "TBATA",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28274275"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12665",
+        "gene_name": "vinculin",
+        "omim_gene": [
+          "193065"
+        ],
+        "alias_name": [
+          "metavinculin"
+        ],
+        "gene_symbol": "VCL",
+        "hgnc_symbol": "VCL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:75757872-75879918",
+              "ensembl_id": "ENSG00000035403"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:73995193-74121363",
+              "ensembl_id": "ENSG00000035403"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-09-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "VCL",
+      "confidence_level": "2",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28342760"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease",
+        "short-segment Hirschsprung disease (S-HSCR)"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SUR2",
+          "CMD1O"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:60",
+        "gene_name": "ATP binding cassette subfamily C member 9",
+        "omim_gene": [
+          "601439"
+        ],
+        "alias_name": [
+          "sulfonylurea receptor 2"
+        ],
+        "gene_symbol": "ABCC9",
+        "hgnc_symbol": "ABCC9",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:21950335-22094336",
+              "ensembl_id": "ENSG00000069431"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:21797401-21942529",
+              "ensembl_id": "ENSG00000069431"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-10-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "ABCC9",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "25310821"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "risk of HSCR"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA1235",
+          "ELD/OSA1",
+          "p250R",
+          "BAF250b",
+          "DAN15",
+          "6A3-5"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18040",
+        "gene_name": "AT-rich interaction domain 1B",
+        "omim_gene": [
+          "614556"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ARID1B",
+        "hgnc_symbol": "ARID1B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:157099063-157531913",
+              "ensembl_id": "ENSG00000049618"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:156777374-157210779",
+              "ensembl_id": "ENSG00000049618"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-01-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARID1B",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27511161"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:728",
+        "gene_name": "ARVCF, delta catenin family member",
+        "omim_gene": [
+          "602269"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ARVCF",
+        "hgnc_symbol": "ARVCF",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:19957419-20004331",
+              "ensembl_id": "ENSG00000099889"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:19969896-20016808",
+              "ensembl_id": "ENSG00000099889"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1996-10-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "ARVCF",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26887379"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "HSCR",
+        "Hirschsprung s Disease risk"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CEAP1",
+          "DRAP",
+          "ALP56"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:934",
+        "gene_name": "beta-site APP-cleaving enzyme 2",
+        "omim_gene": [
+          "605668"
+        ],
+        "alias_name": [
+          "memapsin 1"
+        ],
+        "gene_symbol": "BACE2",
+        "hgnc_symbol": "BACE2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:42539728-42654445",
+              "ensembl_id": "ENSG00000182240"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:41167801-41282518",
+              "ensembl_id": "ENSG00000182240"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-05-23"
+      },
+      "entity_type": "gene",
+      "entity_name": "BACE2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "HSCR"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2228",
+        "gene_name": "catechol-O-methyltransferase",
+        "omim_gene": [
+          "116790"
+        ],
+        "alias_name": null,
+        "gene_symbol": "COMT",
+        "hgnc_symbol": "COMT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:19929130-19957498",
+              "ensembl_id": "ENSG00000093010"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:19941607-19969975",
+              "ensembl_id": "ENSG00000093010"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "COMT",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26887379"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "HSCR",
+        "Hirschsprung s Disease risk"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RTS",
+          "CBP",
+          "KAT3A"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2348",
+        "gene_name": "CREB binding protein",
+        "omim_gene": [
+          "600140"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CREBBP",
+        "hgnc_symbol": "CREBBP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:3775055-3930727",
+              "ensembl_id": "ENSG00000005339"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:3725054-3880726",
+              "ensembl_id": "ENSG00000005339"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-01-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "CREBBP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26275701"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Rubinstein-Taybi syndrome and Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SCDO1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2909",
+        "gene_name": "delta like canonical Notch ligand 3",
+        "omim_gene": [
+          "602768"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DLL3",
+        "hgnc_symbol": "DLL3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:39989535-39999121",
+              "ensembl_id": "ENSG00000090932"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:39498895-39508481",
+              "ensembl_id": "ENSG00000090932"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-03-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "DLL3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "21841314"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "risk of HSCR",
+        "HSCR susceptibility"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2979",
+        "gene_name": "DNA methyltransferase 3 beta",
+        "omim_gene": [
+          "602900"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DNMT3B",
+        "hgnc_symbol": "DNMT3B",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:31350191-31397162",
+              "ensembl_id": "ENSG00000088305"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:32762385-32809356",
+              "ensembl_id": "ENSG00000088305"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-07-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "DNMT3B",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24577265"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "long-segment Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CHD2-42",
+          "CHD2-52"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3039",
+        "gene_name": "DS cell adhesion molecule",
+        "omim_gene": [
+          "602523"
+        ],
+        "alias_name": null,
+        "gene_symbol": "DSCAM",
+        "hgnc_symbol": "DSCAM",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "21:41382926-42219065",
+              "ensembl_id": "ENSG00000171587"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "21:40010999-40847139",
+              "ensembl_id": "ENSG00000171587"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-06-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "DSCAM",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "23671607"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "risk of HSCR",
+        "Down syndrome-associated HSCR"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IKAP",
+          "TOT1",
+          "IKI3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5959",
+        "gene_name": "elongator complex protein 1",
+        "omim_gene": [
+          "603722"
+        ],
+        "alias_name": [
+          "elongator acetyltransferase complex subunit 1"
+        ],
+        "gene_symbol": "ELP1",
+        "hgnc_symbol": "ELP1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:111629797-111696396",
+              "ensembl_id": "ENSG00000070061"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:108867517-108934116",
+              "ensembl_id": "ENSG00000070061"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2017-05-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "ELP1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "20361209",
+        "25717236"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "risk of HSCR",
+        "Hirschsprung disease (HSCR)"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4041",
+        "gene_name": "frizzled class receptor 3",
+        "omim_gene": [
+          "606143"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FZD3",
+        "hgnc_symbol": "FZD3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:28351729-28431775",
+              "ensembl_id": "ENSG00000104290"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:28494205-28574268",
+              "ensembl_id": "ENSG00000104290"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-09-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "FZD3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27619161"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4087",
+        "gene_name": "gamma-aminobutyric acid type A receptor gamma2 subunit",
+        "omim_gene": [
+          "137164"
+        ],
+        "alias_name": [
+          "GABA(A) receptor, gamma 2"
+        ],
+        "gene_symbol": "GABRG2",
+        "hgnc_symbol": "GABRG2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:161494546-161582542",
+              "ensembl_id": "ENSG00000113327"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:162000057-162162977",
+              "ensembl_id": "ENSG00000113327"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-02-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "GABRG2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22325380",
+        "27889765"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Risk of Hirschsprung Disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GMAP",
+          "GAL-GMAP",
+          "GLNN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4114",
+        "gene_name": "galanin and GMAP prepropeptide",
+        "omim_gene": [
+          "137035"
+        ],
+        "alias_name": [
+          "galanin-message-associated peptide"
+        ],
+        "gene_symbol": "GAL",
+        "hgnc_symbol": "GAL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:68451247-68458643",
+              "ensembl_id": "ENSG00000069482"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:68683779-68691175",
+              "ensembl_id": "ENSG00000069482"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "GAL",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22325380"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hirschsprung disease",
+        "HD"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "B-50",
+          "PP46"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4140",
+        "gene_name": "growth associated protein 43",
+        "omim_gene": [
+          "162060"
+        ],
+        "alias_name": [
+          "neuron growth-associated protein 43",
+          "neuromodulin",
+          "nerve growth-related peptide GAP43",
+          "axonal membrane protein GAP-43",
+          "protein F1",
+          "calmodulin-binding protein P-57",
+          "neural phosphoprotein B-50"
+        ],
+        "gene_symbol": "GAP43",
+        "hgnc_symbol": "GAP43",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:115342171-115440337",
+              "ensembl_id": "ENSG00000172020"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:115623324-115721490",
+              "ensembl_id": "ENSG00000172020"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-07-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "GAP43",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22325380"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hirschsprung disease",
+        "HD"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MTLRP",
+          "ghrelin",
+          "obestatin"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:18129",
+        "gene_name": "ghrelin and obestatin prepropeptide",
+        "omim_gene": [
+          "605353"
+        ],
+        "alias_name": [
+          "prepro-appetite regulatory hormone"
+        ],
+        "gene_symbol": "GHRL",
+        "hgnc_symbol": "GHRL",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:10327359-10334631",
+              "ensembl_id": "ENSG00000157017"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:10285675-10292947",
+              "ensembl_id": "ENSG00000157017"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-01-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "GHRL",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26211777"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hirschsprung disease (HSCR)"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IL-11",
+          "AGIF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5966",
+        "gene_name": "interleukin 11",
+        "omim_gene": [
+          "147681"
+        ],
+        "alias_name": [
+          "adipogenesis inhibitory factor",
+          "oprelvekin"
+        ],
+        "gene_symbol": "IL11",
+        "hgnc_symbol": "IL11",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:55875757-55881831",
+              "ensembl_id": "ENSG00000095752"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:55364389-55370463",
+              "ensembl_id": "ENSG00000095752"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-08-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "IL11",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "26172388",
+        "28543993"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "risk of HSCR"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6069",
+        "gene_name": "indolethylamine N-methyltransferase",
+        "omim_gene": [
+          "604854"
+        ],
+        "alias_name": null,
+        "gene_symbol": "INMT",
+        "hgnc_symbol": "INMT",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:30737601-30797218",
+              "ensembl_id": "ENSG00000241644"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:30697985-30757602",
+              "ensembl_id": "ENSG00000241644"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-09-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "INMT",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "26183064"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "risk of HSCR"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "JNK3",
+          "p493F12",
+          "p54bSAPK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6872",
+        "gene_name": "mitogen-activated protein kinase 10",
+        "omim_gene": [
+          "602897"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAPK10",
+        "hgnc_symbol": "MAPK10",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:86936276-87515284",
+              "ensembl_id": "ENSG00000109339"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:85990007-86594625",
+              "ensembl_id": "ENSG00000109339"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAPK10",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21712996",
+        "27902697"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "association with HSCR"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "cnv"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "S2P"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15455",
+        "gene_name": "membrane bound transcription factor peptidase, site 2",
+        "omim_gene": [
+          "300294"
+        ],
+        "alias_name": [
+          "site-2 protease"
+        ],
+        "gene_symbol": "MBTPS2",
+        "hgnc_symbol": "MBTPS2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:21857754-21903542",
+              "ensembl_id": "ENSG00000012174"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:21839636-21885424",
+              "ensembl_id": "ENSG00000012174"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-03-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "MBTPS2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "IFAP syndrome with or without BRESHECK syndrome, 308205"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CAGH45",
+          "HOPA",
+          "OPA1",
+          "TRAP230",
+          "KIAA0192",
+          "OKS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11957",
+        "gene_name": "mediator complex subunit 12",
+        "omim_gene": [
+          "300188"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MED12",
+        "hgnc_symbol": "MED12",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:70338406-70362303",
+              "ensembl_id": "ENSG00000184634"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:71118556-71142454",
+              "ensembl_id": "ENSG00000184634"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-11-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "MED12",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24715367"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hirschsprung disease",
+        "HSCR"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hsa-mir-146",
+          "hsa-mir-146a"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:31533",
+        "gene_name": "microRNA 146a",
+        "omim_gene": [
+          "610566"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MIR146A",
+        "hgnc_symbol": "MIR146A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:159895275-159914433",
+              "ensembl_id": "ENSG00000253522"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:160485352-160485450",
+              "ensembl_id": "ENSG00000283733"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-12-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "MIR146A",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25445498"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hirschsprung disease risk"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "locus-type-rna-micro"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "hsa-mir-369"
+        ],
+        "biotype": "miRNA",
+        "hgnc_id": "HGNC:31783",
+        "gene_name": "microRNA 369",
+        "omim_gene": [
+          "611794"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MIR369",
+        "hgnc_symbol": "MIR369",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "14:101531918-101532024",
+              "ensembl_id": "ENSG00000199025"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "14:101065598-101065667",
+              "ensembl_id": "ENSG00000199025"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-12-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "MIR369",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28412032"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "HSCR",
+        "Hirschsprung's disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "p24"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:17881",
+        "gene_name": "neurensin 1",
+        "omim_gene": [
+          "616630"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NRSN1",
+        "hgnc_symbol": "NRSN1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:24126350-24155128",
+              "ensembl_id": "ENSG00000152954"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:24126122-24154900",
+              "ensembl_id": "ENSG00000152954"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-07-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "NRSN1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "22325380"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hirschsprung disease",
+        "HD"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NTN"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8007",
+        "gene_name": "neurturin",
+        "omim_gene": [
+          "602018"
+        ],
+        "alias_name": [
+          "prepro-neurturin"
+        ],
+        "gene_symbol": "NRTN",
+        "hgnc_symbol": "NRTN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:5823813-5828335",
+              "ensembl_id": "ENSG00000171119"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:5823802-5828324",
+              "ensembl_id": "ENSG00000171119"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-05-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "NRTN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "9700200",
+        "21206993"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRKC"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8033",
+        "gene_name": "neurotrophic receptor tyrosine kinase 3",
+        "omim_gene": [
+          "191316"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NTRK3",
+        "hgnc_symbol": "NTRK3",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:88418230-88799999",
+              "ensembl_id": "ENSG00000140538"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:87859751-88256768",
+              "ensembl_id": "ENSG00000140538"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-07-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "NTRK3",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "19040714",
+        "19556619"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [
+        "monogenic-polygenic"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FLJ20477"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26031",
+        "gene_name": "phosphatidylinositol glycan anchor biosynthesis class V",
+        "omim_gene": [
+          "610274"
+        ],
+        "alias_name": [
+          "GPI mannosyltransferase 2",
+          "dol-P-Man dependent GPI mannosyltransferase"
+        ],
+        "gene_symbol": "PIGV",
+        "hgnc_symbol": "PIGV",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:27113963-27124889",
+              "ensembl_id": "ENSG00000060642"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:26787472-26798398",
+              "ensembl_id": "ENSG00000060642"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2005-01-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIGV",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21739589",
+        "24129430"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "Hyperphosphatasia with mental retardation syndrome 1, MIM:239300 and Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PSP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9579",
+        "gene_name": "persephin",
+        "omim_gene": [
+          "602921"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PSPN",
+        "hgnc_symbol": "PSPN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:6375159-6379069",
+              "ensembl_id": "ENSG00000125650"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:6375148-6379058",
+              "ensembl_id": "ENSG00000125650"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "PSPN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "21206993",
+        "18970938"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "BCNS"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9585",
+        "gene_name": "patched 1",
+        "omim_gene": [
+          "601309"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTCH1",
+        "hgnc_symbol": "PTCH1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:98205262-98279339",
+              "ensembl_id": "ENSG00000185920"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:95442980-95517057",
+              "ensembl_id": "ENSG00000185920"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2006-09-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTCH1",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "24073265"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "risk of HSCR",
+        "HSCR susceptibility"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RL",
+          "PRO1598"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9957",
+        "gene_name": "reelin",
+        "omim_gene": [
+          "600514"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RELN",
+        "hgnc_symbol": "RELN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:103112231-103629963",
+              "ensembl_id": "ENSG00000189056"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:103471784-103989516",
+              "ensembl_id": "ENSG00000189056"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-07-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "RELN",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "27889765"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hirschsprung disease",
+        "HD",
+        "Risk of Hirschsprung Disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RMRPR",
+          "RRP2",
+          "NME1"
+        ],
+        "biotype": null,
+        "hgnc_id": "HGNC:10031",
+        "gene_name": "RNA component of mitochondrial RNA processing endoribonuclease",
+        "omim_gene": [
+          "157660"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RMRP",
+        "hgnc_symbol": "RMRP",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:35657748-35658015",
+              "ensembl_id": "ENSG00000269900"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:35657751-35658018",
+              "ensembl_id": "ENSG00000269900"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-06-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "RMRP",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "8444246"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Other"
+      ],
+      "phenotypes": [
+        "Cartilage-hair hypoplasia (MIM:250250) with Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "locus-type-rna-long-non-coding"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RZRA",
+          "ROR1",
+          "ROR2",
+          "ROR3",
+          "NR1F1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10258",
+        "gene_name": "RAR related orphan receptor A",
+        "omim_gene": [
+          "600825"
+        ],
+        "alias_name": null,
+        "gene_symbol": "RORA",
+        "hgnc_symbol": "RORA",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "15:60780483-61521518",
+              "ensembl_id": "ENSG00000069667"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "15:60488284-61229319",
+              "ensembl_id": "ENSG00000069667"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-04-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "RORA",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "25310821"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "risk of HSCR"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA2004",
+          "FLJ20073"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1348",
+        "gene_name": "sterile alpha motif domain containing 9",
+        "omim_gene": [
+          "610456"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SAMD9",
+        "hgnc_symbol": "SAMD9",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:92728829-92747336",
+              "ensembl_id": "ENSG00000205413"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:93099513-93118023",
+              "ensembl_id": "ENSG00000205413"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-07-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "SAMD9",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "Other - please provide details in the comments",
+      "publications": [
+        "27182967"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "MIRAGE syndrome  617053"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SEMA1",
+          "SemD",
+          "coll-1",
+          "Hsema-I"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:10723",
+        "gene_name": "semaphorin 3A",
+        "omim_gene": [
+          "603961"
+        ],
+        "alias_name": [
+          "sema III"
+        ],
+        "gene_symbol": "SEMA3A",
+        "hgnc_symbol": "SEMA3A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:83585093-84122040",
+              "ensembl_id": "ENSG00000075213"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:83955777-84492724",
+              "ensembl_id": "ENSG00000075213"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "SEMA3A",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23372769",
+        "25839327"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Alder Hey - Erasmus MC"
+      ],
+      "phenotypes": [
+        "susceptibility to Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "XT3",
+          "Xtrp3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:30927",
+        "gene_name": "solute carrier family 6 member 20",
+        "omim_gene": [
+          "605616"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SLC6A20",
+        "hgnc_symbol": "SLC6A20",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:45796942-45838027",
+              "ensembl_id": "ENSG00000163817"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:45755450-45796535",
+              "ensembl_id": "ENSG00000163817"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-04-02"
+      },
+      "entity_type": "gene",
+      "entity_name": "SLC6A20",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "26049783"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "risk of HSCR"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "FZD11"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11119",
+        "gene_name": "smoothened, frizzled class receptor",
+        "omim_gene": [
+          "601500"
+        ],
+        "alias_name": [
+          "frizzled family member 11"
+        ],
+        "gene_symbol": "SMO",
+        "hgnc_symbol": "SMO",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:128828713-128853386",
+              "ensembl_id": "ENSG00000128602"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:129188872-129213545",
+              "ensembl_id": "ENSG00000128602"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-01-17"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMO",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "32413283"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "postaxial polydactyly MONDO:0020927",
+        "Microcephaly HP:0000252",
+        "congenital heart disease MONDO:0005453",
+        "Hirschsprung disease MONDO:0018309"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11195",
+        "gene_name": "SRY-box 2",
+        "omim_gene": [
+          "184429"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOX2",
+        "hgnc_symbol": "SOX2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:181429714-181432221",
+              "ensembl_id": "ENSG00000181449"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:181711924-181714436",
+              "ensembl_id": "ENSG00000181449"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOX2",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "21712996"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "association with HSCR"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [
+        "cnv"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "SEF2-1B",
+          "ITF2",
+          "bHLHb19",
+          "E2-2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11634",
+        "gene_name": "transcription factor 4",
+        "omim_gene": [
+          "602272"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TCF4",
+        "hgnc_symbol": "TCF4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:52889562-53332018",
+              "ensembl_id": "ENSG00000196628"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:55222331-55664787",
+              "ensembl_id": "ENSG00000196628"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1990-10-16"
+      },
+      "entity_type": "gene",
+      "entity_name": "TCF4",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "21712996",
+        "17436255",
+        "24058414"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "risk of HSCR"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [
+        "cnv"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TUBA3",
+          "B-ALPHA-1",
+          "FLJ25113"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:20766",
+        "gene_name": "tubulin alpha 1a",
+        "omim_gene": [
+          "602529"
+        ],
+        "alias_name": [
+          "tubulin, alpha, brain-specific"
+        ],
+        "gene_symbol": "TUBA1A",
+        "hgnc_symbol": "TUBA1A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:49578579-49583107",
+              "ensembl_id": "ENSG00000167552"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:49184796-49189324",
+              "ensembl_id": "ENSG00000167552"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-01-30"
+      },
+      "entity_type": "gene",
+      "entity_name": "TUBA1A",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "23528852"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "lissencephaly and Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12646",
+        "gene_name": "vesicle associated membrane protein 5",
+        "omim_gene": [
+          "607029"
+        ],
+        "alias_name": [
+          "myobrevin"
+        ],
+        "gene_symbol": "VAMP5",
+        "hgnc_symbol": "VAMP5",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:85811531-85820535",
+              "ensembl_id": "ENSG00000168899"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:85584408-85593412",
+              "ensembl_id": "ENSG00000168899"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-07-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "VAMP5",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28543993",
+        "26970437"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "risk of HSCR"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15983",
+        "gene_name": "Wnt family member 3A",
+        "omim_gene": [
+          "606359"
+        ],
+        "alias_name": null,
+        "gene_symbol": "WNT3A",
+        "hgnc_symbol": "WNT3A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:228194752-228248961",
+              "ensembl_id": "ENSG00000154342"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:228007051-228061260",
+              "ensembl_id": "ENSG00000154342"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "WNT3A",
+      "confidence_level": "1",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24817932"
+      ],
+      "evidence": [
+        "Expert Review Red",
+        "Literature"
+      ],
+      "phenotypes": [
+        "Hirschsprung disease"
+      ],
+      "mode_of_inheritance": "Unknown",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

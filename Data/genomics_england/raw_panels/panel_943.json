@@ -1,0 +1,1087 @@
+{
+  "id": 943,
+  "hash_id": null,
+  "name": "Osteopetrosis",
+  "disease_group": "Musculoskeletal",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "2.1",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "R104.4"
+  ],
+  "stats": {
+    "number_of_genes": 20,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "RP11-403E24.2",
+          "FLJ39827",
+          "WTX"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:26837",
+        "gene_name": "APC membrane recruitment protein 1",
+        "omim_gene": [
+          "300647"
+        ],
+        "alias_name": [
+          "Wilms Tumor on the X",
+          "adenomatous polyposis coli membrane recruitment 1"
+        ],
+        "gene_symbol": "AMER1",
+        "hgnc_symbol": "AMER1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:63404997-63425624",
+              "ensembl_id": "ENSG00000184675"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:64185117-64205744",
+              "ensembl_id": "ENSG00000184675"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2012-12-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "AMER1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Osteopathia striata with cranial sclerosis OMIM:300373"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HANK",
+          "ANK",
+          "CPPDD"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:15492",
+        "gene_name": "ANKH inorganic pyrophosphate transport regulator",
+        "omim_gene": [
+          "605145"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ANKH",
+        "hgnc_symbol": "ANKH",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:14704910-14871887",
+              "ensembl_id": "ENSG00000154122"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:14704804-14871778",
+              "ensembl_id": "ENSG00000154122"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-04-05"
+      },
+      "entity_type": "gene",
+      "entity_name": "ANKH",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Chondrocalcinosis 2 OMIM:118600",
+        "Craniometaphyseal dysplasia OMIM:123000"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "Car2",
+          "CA-II",
+          "CAII"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1373",
+        "gene_name": "carbonic anhydrase 2",
+        "omim_gene": [
+          "611492"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CA2",
+        "hgnc_symbol": "CA2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:86376081-86393722",
+              "ensembl_id": "ENSG00000104267"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:85463852-85481493",
+              "ensembl_id": "ENSG00000104267"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "CA2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Osteopetrosis, autosomal recessive 3, with renal tubular acidosis OMIM:259730"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CLC-7",
+          "OPTA2",
+          "CLC7",
+          "ClC-7",
+          "PPP1R63"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2025",
+        "gene_name": "chloride voltage-gated channel 7",
+        "omim_gene": [
+          "602727"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 63"
+        ],
+        "gene_symbol": "CLCN7",
+        "hgnc_symbol": "CLCN7",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:1494935-1525581",
+              "ensembl_id": "ENSG00000103249"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:1444934-1475580",
+              "ensembl_id": "ENSG00000103249"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "CLCN7",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Osteopetrosis, autosomal recessive 4, OMIM:611490",
+        "Osteopetrosis, autosomal dominant 2, OMIM:166600"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PKND"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:2536",
+        "gene_name": "cathepsin K",
+        "omim_gene": [
+          "601105"
+        ],
+        "alias_name": null,
+        "gene_symbol": "CTSK",
+        "hgnc_symbol": "CTSK",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:150768684-150780799",
+              "ensembl_id": "ENSG00000143387"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:150796208-150808323",
+              "ensembl_id": "ENSG00000143387"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-05-11"
+      },
+      "entity_type": "gene",
+      "entity_name": "CTSK",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Pycnodysostosis OMIM:265800"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "IMAGE:4942737",
+          "DKFZp547D065",
+          "DMP4",
+          "G-CK"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:22140",
+        "gene_name": "FAM20C, golgi associated secretory pathway kinase",
+        "omim_gene": [
+          "611061"
+        ],
+        "alias_name": [
+          "dentin matrix protein 4",
+          "golgi casein kinase"
+        ],
+        "gene_symbol": "FAM20C",
+        "hgnc_symbol": "FAM20C",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:192969-300711",
+              "ensembl_id": "ENSG00000177706"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:192969-260745",
+              "ensembl_id": "ENSG00000177706"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-09-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "FAM20C",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Raine syndrome OMIM:259775"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "URP2",
+          "KIND3",
+          "MIG2B",
+          "MGC10966",
+          "MIG-2",
+          "UNC112C"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:23151",
+        "gene_name": "fermitin family member 3",
+        "omim_gene": [
+          "607901"
+        ],
+        "alias_name": [
+          "kindlin-3"
+        ],
+        "gene_symbol": "FERMT3",
+        "hgnc_symbol": "FERMT3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:63974150-63991354",
+              "ensembl_id": "ENSG00000149781"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:64206678-64223886",
+              "ensembl_id": "ENSG00000149781"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2007-12-14"
+      },
+      "entity_type": "gene",
+      "entity_name": "FERMT3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18709451"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Leukocyte adhesion deficiency, type III OMIM:612840"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MAN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:28887",
+        "gene_name": "LEM domain containing 3",
+        "omim_gene": [
+          "607844"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LEMD3",
+        "hgnc_symbol": "LEMD3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:65563351-65642107",
+              "ensembl_id": "ENSG00000174106"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:65169571-65248327",
+              "ensembl_id": "ENSG00000174106"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-11-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "LEMD3",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Osteopoikilosis with or without melorheostosis OMIM:166700",
+        "Buschke-Ollendorff syndrome OMIM:166700"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "LR3",
+          "BMND1",
+          "HBM",
+          "OPS",
+          "OPTA1",
+          "VBCH2",
+          "EVR4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6697",
+        "gene_name": "LDL receptor related protein 5",
+        "omim_gene": [
+          "603506"
+        ],
+        "alias_name": null,
+        "gene_symbol": "LRP5",
+        "hgnc_symbol": "LRP5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:68080077-68216743",
+              "ensembl_id": "ENSG00000162337"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:68312609-68449275",
+              "ensembl_id": "ENSG00000162337"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-04-07"
+      },
+      "entity_type": "gene",
+      "entity_name": "LRP5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Osteopetrosis, autosomal dominant 1 OMIM:607634",
+        "Osteosclerosis OMIM:144750",
+        "Hyperostosis, endosteal OMIM:144750",
+        "[Bone mineral density variability 1] OMIM:601884",
+        "van Buchem disease, type 2 OMIM:607636"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HSPC019",
+          "GL"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:21652",
+        "gene_name": "osteopetrosis associated transmembrane protein 1",
+        "omim_gene": [
+          "607649"
+        ],
+        "alias_name": [
+          "CLCN7 accessory beta subunit"
+        ],
+        "gene_symbol": "OSTM1",
+        "hgnc_symbol": "OSTM1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:108362613-108487058",
+              "ensembl_id": "ENSG00000081087"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:108041409-108165854",
+              "ensembl_id": "ENSG00000081087"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2003-10-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "OSTM1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Osteopetrosis, autosomal recessive 5 OMIM:259720"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9608",
+        "gene_name": "parathyroid hormone 1 receptor",
+        "omim_gene": [
+          "168468"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PTH1R",
+        "hgnc_symbol": "PTH1R",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:46919236-46945287",
+              "ensembl_id": "ENSG00000160801"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:46877746-46903799",
+              "ensembl_id": "ENSG00000160801"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2008-11-18"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTH1R",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Chondrodysplasia, Blomstrand type OMIM:215045",
+        "Metaphyseal chondrodysplasia, Murk Jansen type OMIM:156400"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CALDAG-GEFI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9879",
+        "gene_name": "RAS guanyl releasing protein 2",
+        "omim_gene": [
+          "605577"
+        ],
+        "alias_name": [
+          "calcium- and diacylglycerol-regulated guanine nucleotide exchange factor I"
+        ],
+        "gene_symbol": "RASGRP2",
+        "hgnc_symbol": "RASGRP2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:64494383-64512928",
+              "ensembl_id": "ENSG00000068831"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:64726911-64745456",
+              "ensembl_id": "ENSG00000068831"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-07-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "RASGRP2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "18709451"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "osteopetrosis (disease) MONDO:0017198"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [
+        "to_be_confirmed_NHSE"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:14974",
+        "gene_name": "sorting nexin 10",
+        "omim_gene": [
+          "614780"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SNX10",
+        "hgnc_symbol": "SNX10",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:26331541-26413949",
+              "ensembl_id": "ENSG00000086300"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:26291895-26374329",
+              "ensembl_id": "ENSG00000086300"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-04-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "SNX10",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Osteopetrosis, autosomal recessive 8 OMIM:615085"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "VBCH",
+          "DAND6"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:13771",
+        "gene_name": "sclerostin",
+        "omim_gene": [
+          "605740"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SOST",
+        "hgnc_symbol": "SOST",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:41831099-41836156",
+              "ensembl_id": "ENSG00000167941"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:43753731-43758788",
+              "ensembl_id": "ENSG00000167941"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2002-02-20"
+      },
+      "entity_type": "gene",
+      "entity_name": "SOST",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Sclerosteosis 1 OMIM:269500",
+        "Craniodiaphyseal dysplasia, autosomal dominant OMIM:122860",
+        "Van Buchem disease OMIM:239100"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TIRC7",
+          "OC-116",
+          "OC116",
+          "ATP6N1C",
+          "Atp6i",
+          "a3",
+          "ATP6V0A3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11647",
+        "gene_name": "T-cell immune regulator 1, ATPase H+ transporting V0 subunit a3",
+        "omim_gene": [
+          "604592"
+        ],
+        "alias_name": [
+          "T-cell immune response cDNA 7"
+        ],
+        "gene_symbol": "TCIRG1",
+        "hgnc_symbol": "TCIRG1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:67806483-67818362",
+              "ensembl_id": "ENSG00000110719"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:68039016-68050895",
+              "ensembl_id": "ENSG00000110719"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-02-15"
+      },
+      "entity_type": "gene",
+      "entity_name": "TCIRG1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "28816234"
+      ],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Osteopetrosis, autosomal recessive 1 OMIM:259700"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CED",
+          "TGFbeta"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11766",
+        "gene_name": "transforming growth factor beta 1",
+        "omim_gene": [
+          "190180"
+        ],
+        "alias_name": [
+          "Camurati-Engelmann disease",
+          "prepro-transforming growth factor beta-1"
+        ],
+        "gene_symbol": "TGFB1",
+        "hgnc_symbol": "TGFB1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:41807492-41859816",
+              "ensembl_id": "ENSG00000105329"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:41301587-41353911",
+              "ensembl_id": "ENSG00000105329"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "TGFB1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Camurati-Engelmann disease, OMIM:131300"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "RANK",
+          "CD265",
+          "FEO"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11908",
+        "gene_name": "TNF receptor superfamily member 11a",
+        "omim_gene": [
+          "603499"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TNFRSF11A",
+        "hgnc_symbol": "TNFRSF11A",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:59992520-60058516",
+              "ensembl_id": "ENSG00000141655"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:62325287-62391292",
+              "ensembl_id": "ENSG00000141655"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-12-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNFRSF11A",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "{Paget disease of bone 2, early-onset} OMIM:602080",
+        "Osteopetrosis, autosomal recessive 7 OMIM:612301"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "TRANCE",
+          "RANKL",
+          "OPGL",
+          "ODF",
+          "CD254"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11926",
+        "gene_name": "TNF superfamily member 11",
+        "omim_gene": [
+          "602642"
+        ],
+        "alias_name": null,
+        "gene_symbol": "TNFSF11",
+        "hgnc_symbol": "TNFSF11",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:43136872-43182149",
+              "ensembl_id": "ENSG00000120659"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:42562736-42608013",
+              "ensembl_id": "ENSG00000120659"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-12-04"
+      },
+      "entity_type": "gene",
+      "entity_name": "TNFSF11",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Osteopetrosis, autosomal recessive 2 OMIM:259710"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "KIAA0356"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:29017",
+        "gene_name": "pleckstrin homology and RUN domain containing M1",
+        "omim_gene": [
+          "611466"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLEKHM1",
+        "hgnc_symbol": "PLEKHM1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "17:43513266-43568115",
+              "ensembl_id": "ENSG00000225190"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "17:45435900-45490749",
+              "ensembl_id": "ENSG00000225190"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLEKHM1",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "17404618",
+        "17997709",
+        "21054159",
+        "27291868",
+        "28290981",
+        "32415263"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "?Osteopetrosis, autosomal recessive 6 OMIM:611497",
+        "Osteopetrosis, autosomal dominant 3 OMIM:618107"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [
+        "watchlist"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DAP12",
+          "PLO-SL",
+          "KARAP"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:12449",
+        "gene_name": "TYRO protein tyrosine kinase binding protein",
+        "omim_gene": [
+          "604142"
+        ],
+        "alias_name": [
+          "killer activating receptor associated protein",
+          "DNAX-activation protein 12"
+        ],
+        "gene_symbol": "TYROBP",
+        "hgnc_symbol": "TYROBP",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:36395303-36399197",
+              "ensembl_id": "ENSG00000011600"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:35904401-35908295",
+              "ensembl_id": "ENSG00000011600"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-06-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "TYROBP",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Red",
+        "NHS GMS"
+      ],
+      "phenotypes": [
+        "Polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy 1 OMIM:221770"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

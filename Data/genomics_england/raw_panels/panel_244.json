@@ -1,0 +1,677 @@
+{
+  "id": 244,
+  "hash_id": "596f84848f620352d0e3eeba",
+  "name": "Colorectal cancer pertinent cancer susceptibility",
+  "disease_group": "Cancer Programme",
+  "disease_sub_group": "Pertinent cancer susceptibility gene panel",
+  "status": "public",
+  "version": "1.1",
+  "version_created": "2025-10-13T20:26:34.842162Z",
+  "relevant_disorders": [
+    "Colorectal"
+  ],
+  "stats": {
+    "number_of_genes": 13,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "Cancer Germline 100K",
+      "slug": "cancer-germline-100k",
+      "description": "Cancer Germline 100K"
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "DP2",
+          "DP3",
+          "DP2.5",
+          "PPP1R46"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:583",
+        "gene_name": "APC, WNT signaling pathway regulator",
+        "omim_gene": [
+          "611731"
+        ],
+        "alias_name": [
+          "protein phosphatase 1, regulatory subunit 46"
+        ],
+        "gene_symbol": "APC",
+        "hgnc_symbol": "APC",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "5:112043195-112181936",
+              "ensembl_id": "ENSG00000134982"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "5:112707498-112846239",
+              "ensembl_id": "ENSG00000134982"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "APC",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Colorectal cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ALK3",
+          "CD292"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1076",
+        "gene_name": "bone morphogenetic protein receptor type 1A",
+        "omim_gene": [
+          "601299"
+        ],
+        "alias_name": null,
+        "gene_symbol": "BMPR1A",
+        "hgnc_symbol": "BMPR1A",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:88516407-88692595",
+              "ensembl_id": "ENSG00000107779"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:86756601-86932838",
+              "ensembl_id": "ENSG00000107779"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-12"
+      },
+      "entity_type": "gene",
+      "entity_name": "BMPR1A",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Colorectal cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNPCC",
+          "FCC2",
+          "HNPCC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7127",
+        "gene_name": "mutL homolog 1",
+        "omim_gene": [
+          "120436"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MLH1",
+        "hgnc_symbol": "MLH1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:37034823-37107380",
+              "ensembl_id": "ENSG00000076242"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:36993332-37050918",
+              "ensembl_id": "ENSG00000076242"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-11-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "MLH1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Colorectal cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HNPCC",
+          "HNPCC1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7325",
+        "gene_name": "mutS homolog 2",
+        "omim_gene": [
+          "609309"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH2",
+        "hgnc_symbol": "MSH2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47630108-47789450",
+              "ensembl_id": "ENSG00000095002"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47402969-47562311",
+              "ensembl_id": "ENSG00000095002"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-07-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Colorectal cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7329",
+        "gene_name": "mutS homolog 6",
+        "omim_gene": [
+          "600678"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MSH6",
+        "hgnc_symbol": "MSH6",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:47922669-48037240",
+              "ensembl_id": "ENSG00000116062"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:47695530-47810101",
+              "ensembl_id": "ENSG00000116062"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1995-08-29"
+      },
+      "entity_type": "gene",
+      "entity_name": "MSH6",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Colorectal cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MYH"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:7527",
+        "gene_name": "mutY DNA glycosylase",
+        "omim_gene": [
+          "604933"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MUTYH",
+        "hgnc_symbol": "MUTYH",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:45794835-45806142",
+              "ensembl_id": "ENSG00000132781"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:45329163-45340470",
+              "ensembl_id": "ENSG00000132781"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-10-24"
+      },
+      "entity_type": "gene",
+      "entity_name": "MUTYH",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Colorectal cancer"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "NTH1",
+          "OCTS3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8028",
+        "gene_name": "nth like DNA glycosylase 1",
+        "omim_gene": [
+          "602656"
+        ],
+        "alias_name": null,
+        "gene_symbol": "NTHL1",
+        "hgnc_symbol": "NTHL1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "16:2089816-2097867",
+              "ensembl_id": "ENSG00000065057"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "16:2039815-2047866",
+              "ensembl_id": "ENSG00000065057"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-05-27"
+      },
+      "entity_type": "gene",
+      "entity_name": "NTHL1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "25938944"
+      ],
+      "evidence": [
+        "Expert Review Green",
+        "Literature",
+        "UKGTN"
+      ],
+      "phenotypes": [
+        "Familial adenomatous polyposis 3\t616415"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "H_DJ0042M02.9",
+          "HNPCC4",
+          "MLH4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9122",
+        "gene_name": "PMS1 homolog 2, mismatch repair system component",
+        "omim_gene": [
+          "600259"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PMS2",
+        "hgnc_symbol": "PMS2",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:6012870-6048756",
+              "ensembl_id": "ENSG00000122512"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:5973239-6009125",
+              "ensembl_id": "ENSG00000122512"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1994-12-13"
+      },
+      "entity_type": "gene",
+      "entity_name": "PMS2",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Colorectal cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CDC2"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9175",
+        "gene_name": "DNA polymerase delta 1, catalytic subunit",
+        "omim_gene": [
+          "174761"
+        ],
+        "alias_name": [
+          "CDC2 homolog (S. cerevisiae)"
+        ],
+        "gene_symbol": "POLD1",
+        "hgnc_symbol": "POLD1",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:50887461-50921273",
+              "ensembl_id": "ENSG00000062822"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:50384204-50418018",
+              "ensembl_id": "ENSG00000062822"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "POLD1",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Colorectal cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "POLE1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9177",
+        "gene_name": "DNA polymerase epsilon, catalytic subunit",
+        "omim_gene": [
+          "174762"
+        ],
+        "alias_name": [
+          "DNA polymerase epsilon catalytic subunit A"
+        ],
+        "gene_symbol": "POLE",
+        "hgnc_symbol": "POLE",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "12:133200348-133263951",
+              "ensembl_id": "ENSG00000177084"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "12:132623753-132687365",
+              "ensembl_id": "ENSG00000177084"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1992-02-06"
+      },
+      "entity_type": "gene",
+      "entity_name": "POLE",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Colorectal cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MMAC1",
+          "TEP1",
+          "PTEN1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9588",
+        "gene_name": "phosphatase and tensin homolog",
+        "omim_gene": [
+          "601728"
+        ],
+        "alias_name": [
+          "mutated in multiple advanced cancers 1"
+        ],
+        "gene_symbol": "PTEN",
+        "hgnc_symbol": "PTEN",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "10:89622870-89731687",
+              "ensembl_id": "ENSG00000171862"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "10:87863113-87971930",
+              "ensembl_id": "ENSG00000171862"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1997-04-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "PTEN",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Colorectal cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "DPC4"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:6770",
+        "gene_name": "SMAD family member 4",
+        "omim_gene": [
+          "600993"
+        ],
+        "alias_name": null,
+        "gene_symbol": "SMAD4",
+        "hgnc_symbol": "SMAD4",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "18:48494410-48611415",
+              "ensembl_id": "ENSG00000141646"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "18:51028394-51085045",
+              "ensembl_id": "ENSG00000141646"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-05-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "SMAD4",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Colorectal cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PJS",
+          "LKB1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11389",
+        "gene_name": "serine/threonine kinase 11",
+        "omim_gene": [
+          "602216"
+        ],
+        "alias_name": [
+          "polarization-related protein LKB1"
+        ],
+        "gene_symbol": "STK11",
+        "hgnc_symbol": "STK11",
+        "hgnc_release": "2017-11-03T00:00:00",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "19:1189406-1228428",
+              "ensembl_id": "ENSG00000118046"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "19:1177558-1228435",
+              "ensembl_id": "ENSG00000118046"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1998-01-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "STK11",
+      "confidence_level": "3",
+      "penetrance": "Complete",
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Green",
+        "Expert list"
+      ],
+      "phenotypes": [
+        "Colorectal cancer"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    }
+  ],
+  "strs": [],
+  "regions": []
+}

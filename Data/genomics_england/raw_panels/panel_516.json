@@ -1,0 +1,1173 @@
+{
+  "id": 516,
+  "hash_id": null,
+  "name": "Thrombophilia with a likely monogenic cause",
+  "disease_group": "Haematology",
+  "disease_sub_group": "",
+  "status": "public",
+  "version": "3.1",
+  "version_created": "2026-05-06T16:02:21.284533Z",
+  "relevant_disorders": [
+    "Thrombophilia",
+    "R97"
+  ],
+  "stats": {
+    "number_of_genes": 21,
+    "number_of_strs": 0,
+    "number_of_regions": 0
+  },
+  "types": [
+    {
+      "name": "GMS Rare Disease Virtual",
+      "slug": "gms-rare-disease-virtual",
+      "description": "This is a panel for the Genomic Medicine Service for an exome/genome/panel based test that requires a virtual gene panel for rare disease in the Test Directory."
+    },
+    {
+      "name": "GMS Rare Disease",
+      "slug": "gms-rare-disease",
+      "description": "This panel type is used for GMS panels that are not virtual (i.e. could be a wet lab test)"
+    },
+    {
+      "name": "GMS signed-off",
+      "slug": "gms-signed-off",
+      "description": "This panel has undergone review by a NHSE GMS disease specialist group and processes to be signed-off for use within the GMS."
+    }
+  ],
+  "genes": [
+    {
+      "gene_data": {
+        "alias": [
+          "VWFCP",
+          "TTP",
+          "vWF-CP",
+          "FLJ42993",
+          "MGC118899",
+          "MGC118900",
+          "DKFZp434C2322"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:1366",
+        "gene_name": "ADAM metallopeptidase with thrombospondin type 1 motif 13",
+        "omim_gene": [
+          "604134"
+        ],
+        "alias_name": null,
+        "gene_symbol": "ADAMTS13",
+        "hgnc_symbol": "ADAMTS13",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "9:136279478-136324508",
+              "ensembl_id": "ENSG00000160323"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "9:133414358-133459402",
+              "ensembl_id": "ENSG00000160323"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-09-21"
+      },
+      "entity_type": "gene",
+      "entity_name": "ADAMTS13",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "Wessex and West Midlands GLH",
+        "NHS GMS",
+        "Expert Review Green"
+      ],
+      "phenotypes": [
+        "Thrombotic thrombocytopenic purpura, hereditary, OMIM:274150"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3535",
+        "gene_name": "coagulation factor II, thrombin",
+        "omim_gene": [
+          "176930"
+        ],
+        "alias_name": [
+          "prepro-coagulation factor II"
+        ],
+        "gene_symbol": "F2",
+        "hgnc_symbol": "F2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "11:46740730-46761056",
+              "ensembl_id": "ENSG00000180210"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "11:46719180-46739506",
+              "ensembl_id": "ENSG00000180210"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F2",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "188050 Thrombophilia due to thrombin defect",
+        "613679 Hypoprothrombinemia",
+        "613679 Dysprothrombinemia",
+        "613679 Factor II deficiency"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3542",
+        "gene_name": "coagulation factor V",
+        "omim_gene": [
+          "612309"
+        ],
+        "alias_name": null,
+        "gene_symbol": "F5",
+        "hgnc_symbol": "F5",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:169483404-169555826",
+              "ensembl_id": "ENSG00000198734"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:169514166-169586588",
+              "ensembl_id": "ENSG00000198734"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F5",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "227400 Factor V deficiency",
+        "188055 {Thrombophilia, susceptibility to, due to factor V Leiden}",
+        "188055 Thrombophilia due to activated protein C resistance"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3661",
+        "gene_name": "fibrinogen alpha chain",
+        "omim_gene": [
+          "134820"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FGA",
+        "hgnc_symbol": "FGA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:155504278-155511918",
+              "ensembl_id": "ENSG00000171560"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:154583126-154590766",
+              "ensembl_id": "ENSG00000171560"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "202400 Afibrinogenemia, congenital",
+        "105200 Amyloidosis, familial visceral",
+        "616004 Dysfibrinogenemia, congenital",
+        "616004 Hypodysfibrinogenemia, congenital"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3662",
+        "gene_name": "fibrinogen beta chain",
+        "omim_gene": [
+          "134830"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FGB",
+        "hgnc_symbol": "FGB",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:155484108-155492238",
+              "ensembl_id": "ENSG00000171564"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:154562956-154571086",
+              "ensembl_id": "ENSG00000171564"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGB",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Afibrinogenemia, congenital, OMIM:202400",
+        "Hypofibrinogenemia, congenital, OMIM:202400",
+        "Dysfibrinogenemia, congenital, OMIM:616004",
+        "Thrombophilia, MONDO:0002305"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3694",
+        "gene_name": "fibrinogen gamma chain",
+        "omim_gene": [
+          "134850"
+        ],
+        "alias_name": null,
+        "gene_symbol": "FGG",
+        "hgnc_symbol": "FGG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "4:155525286-155534119",
+              "ensembl_id": "ENSG00000171557"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "4:154604134-154612967",
+              "ensembl_id": "ENSG00000171557"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "FGG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Afibrinogenemia, congenital, OMIM:202400",
+        "Hypofibrinogenemia, congenital, OMIM:202400",
+        "Dysfibrinogenemia, congenital, OMIM:616004",
+        "Hypodysfibrinogenemia, OMIM:616004",
+        "Thrombophilia, MONDO:0002305"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HRGP",
+          "HPRG"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:5181",
+        "gene_name": "histidine rich glycoprotein",
+        "omim_gene": [
+          "142640"
+        ],
+        "alias_name": [
+          "histidine-proline rich glycoprotein",
+          "thrombophilia due to elevated HRG"
+        ],
+        "gene_symbol": "HRG",
+        "hgnc_symbol": "HRG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:186378005-186396029",
+              "ensembl_id": "ENSG00000113905"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:186660216-186678240",
+              "ensembl_id": "ENSG00000113905"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1989-05-25"
+      },
+      "entity_type": "gene",
+      "entity_name": "HRG",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Thrombophilia due to HRG deficiency, OMIM:613116"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "GPI3"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8957",
+        "gene_name": "phosphatidylinositol glycan anchor biosynthesis class A",
+        "omim_gene": [
+          "311770"
+        ],
+        "alias_name": [
+          "paroxysmal nocturnal hemoglobinuria",
+          "phosphatidylinositol N-acetylglucosaminyltransferase"
+        ],
+        "gene_symbol": "PIGA",
+        "hgnc_symbol": "PIGA",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "X:15337573-15353676",
+              "ensembl_id": "ENSG00000165195"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "X:15319451-15335580",
+              "ensembl_id": "ENSG00000165195"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1993-10-28"
+      },
+      "entity_type": "gene",
+      "entity_name": "PIGA",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "300818 Paroxysmal nocturnal hemoglobinuria, somatic"
+      ],
+      "mode_of_inheritance": "X-LINKED: hemizygous mutation in males, biallelic mutations in females",
+      "tags": [
+        "Skewed X-inactivation"
+      ],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9451",
+        "gene_name": "protein C, inactivator of coagulation factors Va and VIIIa",
+        "omim_gene": [
+          "612283"
+        ],
+        "alias_name": [
+          "prepro-protein C"
+        ],
+        "gene_symbol": "PROC",
+        "hgnc_symbol": "PROC",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:128176003-128186822",
+              "ensembl_id": "ENSG00000115718"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:127418427-127429246",
+              "ensembl_id": "ENSG00000115718"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PROC",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Thrombophilia due to protein C deficiency, autosomal recessive, OMIM:612304",
+        "Thrombophilia due to protein C deficiency, autosomal dominant, OMIM:176860"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9456",
+        "gene_name": "protein S",
+        "omim_gene": [
+          "176880"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PROS1",
+        "hgnc_symbol": "PROS1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "3:93591881-93692910",
+              "ensembl_id": "ENSG00000184500"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "3:93873033-93974066",
+              "ensembl_id": "ENSG00000184500"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "PROS1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Thrombophilia due to protein S deficiency, autosomal dominant, OMIM:612336",
+        "Thrombophilia due to protein S deficiency, autosomal recessive, OMIM:614514"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "ATIII",
+          "MGC22579"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:775",
+        "gene_name": "serpin family C member 1",
+        "omim_gene": [
+          "107300"
+        ],
+        "alias_name": [
+          "antithrombin III",
+          "signal peptide antithrombin part 1",
+          "coding sequence signal peptide antithrombin part 1",
+          "antithrombin (aa 375-432)"
+        ],
+        "gene_symbol": "SERPINC1",
+        "hgnc_symbol": "SERPINC1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:173872947-173886516",
+              "ensembl_id": "ENSG00000117601"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:173903804-173917378",
+              "ensembl_id": "ENSG00000117601"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SERPINC1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Thrombophilia due to antithrombin III deficiency, OMIM:613118"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "HC-II",
+          "HLS2",
+          "HC2",
+          "D22S673"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:4838",
+        "gene_name": "serpin family D member 1",
+        "omim_gene": [
+          "142360"
+        ],
+        "alias_name": [
+          "heparin cofactor II",
+          "heparin cofactor 2"
+        ],
+        "gene_symbol": "SERPIND1",
+        "hgnc_symbol": "SERPIND1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "22:21128167-21142008",
+              "ensembl_id": "ENSG00000099937"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "22:20773879-20787720",
+              "ensembl_id": "ENSG00000099937"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1988-05-31"
+      },
+      "entity_type": "gene",
+      "entity_name": "SERPIND1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Thrombophilia due to heparin cofactor II deficiency, OMIM:612356"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PAI"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:8583",
+        "gene_name": "serpin family E member 1",
+        "omim_gene": [
+          "173360"
+        ],
+        "alias_name": [
+          "plasminogen activator inhibitor, type I"
+        ],
+        "gene_symbol": "SERPINE1",
+        "hgnc_symbol": "SERPINE1",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "7:100770370-100782547",
+              "ensembl_id": "ENSG00000106366"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "7:101127089-101139266",
+              "ensembl_id": "ENSG00000106366"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1986-01-01"
+      },
+      "entity_type": "gene",
+      "entity_name": "SERPINE1",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "613329 Plasminogen activator inhibitor-1 deficiency"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD141"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11784",
+        "gene_name": "thrombomodulin",
+        "omim_gene": [
+          "188040"
+        ],
+        "alias_name": null,
+        "gene_symbol": "THBD",
+        "hgnc_symbol": "THBD",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:23026270-23030378",
+              "ensembl_id": "ENSG00000178726"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:23045633-23049741",
+              "ensembl_id": "ENSG00000178726"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "THBD",
+      "confidence_level": "3",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Expert Review Green",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Thrombophilia due to thrombomodulin defect, OMIM:614486"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "CD142",
+          "TF"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:3541",
+        "gene_name": "coagulation factor III, tissue factor",
+        "omim_gene": [
+          "134390"
+        ],
+        "alias_name": [
+          "tissue factor"
+        ],
+        "gene_symbol": "F3",
+        "hgnc_symbol": "F3",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:94994781-95007356",
+              "ensembl_id": "ENSG00000117525"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:94529225-94541800",
+              "ensembl_id": "ENSG00000117525"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "F3",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "Expert Review Amber",
+        "NHS GMS",
+        "London South GLH"
+      ],
+      "phenotypes": [
+        "Tissue factor deficiency (Factor III)"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9051",
+        "gene_name": "plasminogen activator, tissue type",
+        "omim_gene": [
+          "173370"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLAT",
+        "hgnc_symbol": "PLAT",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "8:42032236-42065242",
+              "ensembl_id": "ENSG00000104368"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "8:42175233-42207724",
+              "ensembl_id": "ENSG00000104368"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLAT",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Expert Review Amber",
+        "Wessex and West Midlands GLH",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "NHS GMS",
+        "London South GLH"
+      ],
+      "phenotypes": [
+        "Thrombophilia, familial, due to decreased release of PLAT, OMIM:612348"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9071",
+        "gene_name": "plasminogen",
+        "omim_gene": [
+          "173350"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PLG",
+        "hgnc_symbol": "PLG",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "6:161123270-161174347",
+              "ensembl_id": "ENSG00000122194"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "6:160702238-160753315",
+              "ensembl_id": "ENSG00000122194"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2001-06-22"
+      },
+      "entity_type": "gene",
+      "entity_name": "PLG",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "9684804",
+        "12850227",
+        "16849641",
+        "27976734",
+        "35244080"
+      ],
+      "evidence": [
+        "Expert Review Amber",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "London South GLH",
+        "NHS GMS",
+        "Wessex and West Midlands GLH"
+      ],
+      "phenotypes": [
+        "Plasminogen deficiency, type I, OMIM:217090",
+        "Dysplasminogenemia, OMIM:217090"
+      ],
+      "mode_of_inheritance": "BIALLELIC, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EPCR",
+          "CCD41",
+          "CD201"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9452",
+        "gene_name": "protein C receptor",
+        "omim_gene": [
+          "600646"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PROCR",
+        "hgnc_symbol": "PROCR",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "20:33759876-33765165",
+              "ensembl_id": "ENSG00000101000"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "20:35172073-35216240",
+              "ensembl_id": "ENSG00000101000"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2000-06-26"
+      },
+      "entity_type": "gene",
+      "entity_name": "PROCR",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [
+        "24051141"
+      ],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "North West GLH",
+        "Yorkshire and North East GLH",
+        "Expert Review Amber",
+        "NHS GMS",
+        "London South GLH"
+      ],
+      "phenotypes": [
+        "?Thrombophilia"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "PZ"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:9460",
+        "gene_name": "protein Z, vitamin K dependent plasma glycoprotein",
+        "omim_gene": [
+          "176895"
+        ],
+        "alias_name": null,
+        "gene_symbol": "PROZ",
+        "hgnc_symbol": "PROZ",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "13:113812968-113826694",
+              "ensembl_id": "ENSG00000126231"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "13:113158654-113172383",
+              "ensembl_id": "ENSG00000126231"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1999-06-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "PROZ",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "Expert Review Amber",
+        "NHS GMS",
+        "London South GLH"
+      ],
+      "phenotypes": [
+        "Protein Z deficiency, OMIM:614024"
+      ],
+      "mode_of_inheritance": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "EPI",
+          "TFI",
+          "TFPI1"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:11760",
+        "gene_name": "tissue factor pathway inhibitor",
+        "omim_gene": [
+          "152310"
+        ],
+        "alias_name": [
+          "extrinsic pathway inhibitor"
+        ],
+        "gene_symbol": "TFPI",
+        "hgnc_symbol": "TFPI",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "2:188328957-188430487",
+              "ensembl_id": "ENSG00000003436"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "2:187464230-187565760",
+              "ensembl_id": "ENSG00000003436"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "1991-06-03"
+      },
+      "entity_type": "gene",
+      "entity_name": "TFPI",
+      "confidence_level": "2",
+      "penetrance": null,
+      "mode_of_pathogenicity": "",
+      "publications": [],
+      "evidence": [
+        "Wessex and West Midlands GLH",
+        "Expert Review Amber",
+        "NHS GMS",
+        "London South GLH"
+      ],
+      "phenotypes": [],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": null
+    },
+    {
+      "gene_data": {
+        "alias": [
+          "MAST205",
+          "KIAA0807"
+        ],
+        "biotype": "protein_coding",
+        "hgnc_id": "HGNC:19035",
+        "gene_name": "microtubule associated serine/threonine kinase 2",
+        "omim_gene": [
+          "612257"
+        ],
+        "alias_name": null,
+        "gene_symbol": "MAST2",
+        "hgnc_symbol": "MAST2",
+        "hgnc_release": "2017-11-03",
+        "ensembl_genes": {
+          "GRch37": {
+            "82": {
+              "location": "1:46252659-46501796",
+              "ensembl_id": "ENSG00000086015"
+            }
+          },
+          "GRch38": {
+            "90": {
+              "location": "1:45786987-46036124",
+              "ensembl_id": "ENSG00000086015"
+            }
+          }
+        },
+        "hgnc_date_symbol_changed": "2004-02-10"
+      },
+      "entity_type": "gene",
+      "entity_name": "MAST2",
+      "confidence_level": "1",
+      "penetrance": null,
+      "mode_of_pathogenicity": null,
+      "publications": [
+        "33465109"
+      ],
+      "evidence": [
+        "Literature"
+      ],
+      "phenotypes": [
+        "Venous thromboembolism",
+        "Thrombophilia"
+      ],
+      "mode_of_inheritance": "MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",
+      "tags": [],
+      "transcript": []
+    }
+  ],
+  "strs": [],
+  "regions": []
+}
