@@ -4,6 +4,7 @@ about: Para solicitação de criação de uma nova lista de genes
 title: "[Nova lista]"
 labels: ''
 assignees: ''
+type: Criação de listas
 
 ---
 

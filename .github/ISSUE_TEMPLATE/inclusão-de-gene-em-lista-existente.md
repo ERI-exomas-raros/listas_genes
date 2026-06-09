@@ -4,6 +4,7 @@ about: Para casos de inclusão de um gene a uma lista já existente
 title: "[Inclusão de gene]"
 labels: ''
 assignees: ''
+type: Inclusão de genes
 
 ---
 
